@@ -1062,6 +1062,48 @@
    "This translation and word-by-word analysis are based on the supplied transcription of chapter"
   ]
  },
+ "dating": {
+  "ru": {
+   "title": "О датировке и предполагаемом месте создания",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Датировка Ахирбудхнья-самхиты спорна; дата рукописей, использованных для печатного издания, сама по себе не устанавливает дату создания сочинения."
+    },
+    {
+     "type": "p",
+     "text": "Ф. Отто Шрадер в разделе «Provenience and Age» своего введения связывал текст с Кашмиром. Среди приводимых им аргументов — упоминание диаграмм-янтр на бересте в главах 26 и 45, образ солнца, освобождающегося от преграды снегов, в главе 39, а также рассказ о Муктапиде в главе 48. Шрадер подчёркивал, что о возрасте текста нельзя уверенно сказать много: он относил его к той группе самхит, для которой предлагал VIII век н. э. как верхнюю границу. В качестве возможного нижнего предела он рассматривал представление в тексте о буддизме, разделённом на три большие школы: по мысли Шрадера, оно предполагает время после того, как утвердилась Махаяна, приблизительно после 300 года н. э. Это датировочные рассуждения самого Шрадера, а не установленная дата текста. См. его введение, разделы о рукописях, происхождении и возрасте, с. 94–99 6."
+    },
+    {
+     "type": "p",
+     "text": "Д. Вьюстик в статье 2017 года предполагает для Ахирбудхнья-самхиты время после 1000 года и, возможно, Южную Индию 5. Марион Растелли в аннотации к статье 2018 года также связывает составление текста с Южной Индией, уточняя гипотезу до XII–XIII веков 3. Эти поздние предложения существенно расходятся с ранней датировочной рамкой Шрадера; без отдельного доказательства их нельзя свести в одну точную датировку или представить как согласованный консенсус. Поэтому дата именно асанного раздела в настоящей статье не устанавливается."
+    }
+   ],
+   "continues": [
+    "Какими рукописями пользовался редактор"
+   ]
+  },
+  "en": {
+   "title": "Dating and Probable Place of Composition",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "The date of the Ahirbudhnya-saṃhitā is disputed; the dates of the manuscripts used for the printed edition do not in themselves establish the date of composition."
+    },
+    {
+     "type": "p",
+     "text": "In the section “Provenience and Age” of his introduction, F. Otto Schrader associated the text with Kashmir. Among the arguments he adduces are the mention of yantra diagrams on birch bark in chapters 26 and 45; the image in chapter 39 of the sun emerging from an obstacle of snow; and the account of Muktāpīḍa in chapter 48. Schrader stressed that little can be said with certainty about the text’s age: he placed it in a group of Saṃhitās for which he proposed the eighth century CE as an upper limit. As a possible lower limit, he considered the text’s presentation of Buddhism as divided into three major schools; in Schrader’s view, this implies a date after the establishment of Mahāyāna, approximately after 300 CE. These are Schrader’s dating arguments, not an established date for the text. See the sections of his introduction on the manuscripts, provenance, and age, pp. 94–99 6."
+    },
+    {
+     "type": "p",
+     "text": "In a 2017 article, D. Wujastyk proposes a date after 1000 CE, and possibly South India, for the Ahirbudhnya-saṃhitā 5. Marion Rastelli’s 2018 article abstract likewise associates the text’s composition with South India, narrowing the hypothesis to the twelfth–thirteenth centuries 3. These later proposals differ substantially from Schrader’s earlier dating framework; without additional evidence, they cannot be collapsed into one precise date or presented as an agreed consensus. Accordingly, this article does not assign a date to the āsana section itself."
+    }
+   ],
+   "continues": [
+    "The Manuscripts Used by the Editor"
+   ]
+  }
+ },
  "poses": [
   {
    "key": "cakrasana",

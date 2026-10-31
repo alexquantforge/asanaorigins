@@ -36,7 +36,11 @@
       treatiseAbout: "О трактате",
       toAbout: "О трактате",
       noMatch: "Ничего не найдено",
-      countOf: "из"
+      countOf: "из",
+      datingTitle: "Датировка текста",
+      datingOpen: "Читать датировку полностью",
+      datingClose: "Свернуть",
+      datingSource: "Источник датировки"
     },
     en: {
       skip: "Skip to content",
@@ -66,7 +70,11 @@
       treatiseAbout: "About the treatise",
       toAbout: "About",
       noMatch: "Nothing found",
-      countOf: "of"
+      countOf: "of",
+      datingTitle: "Dating of the text",
+      datingOpen: "Read the full dating",
+      datingClose: "Collapse",
+      datingSource: "Source of the dating"
     }
   };
 
@@ -324,6 +332,7 @@
     view.style.animation = "";
 
     markCurrent();
+    wireDating(view);
     wireVerseTabs(view);
     document.title = pageTitle(route);
     window.scrollTo({ top: 0, behavior: "auto" });
@@ -384,6 +393,7 @@
         html += '<a class="link" href="#/about">' + esc(t("toAbout")) + "</a>";
       }
       html += "</div>";
+      html += renderDating(tr);
       html += renderSections(pose.text[state.lang] || pose.text.ru);
       html += "</section>";
     });
@@ -391,6 +401,52 @@
     html += "</article>";
     html += renderPager(index);
     html += renderColophon(occurrences[0].treatise);
+    return html;
+  }
+
+  function renderDating(tr) {
+    const summary = tr.datingSummary;
+    const full = tr.dating && tr.dating[state.lang];
+    if (!summary && !(full && full.blocks && full.blocks.length)) return "";
+
+    let html = '<section class="dating" aria-label="' + esc(t("datingTitle")) + '">';
+    html += '<p class="dating-kicker">' + esc(t("datingTitle")) + "</p>";
+
+    if (summary) {
+      if (summary.note) {
+        html += '<p class="dating-note">' + esc(tx(summary.note)) + "</p>";
+      }
+      html += '<ul class="dating-rows">';
+      (summary.items || []).forEach((item) => {
+        html += "<li>";
+        html += '<span class="dating-who">' + esc(tx(item.who)) + "</span>";
+        html += '<span class="dating-when">' + esc(tx(item.when));
+        if (item.whenNote) {
+          html += '<span class="dating-when-note">' + esc(tx(item.whenNote)) + "</span>";
+        }
+        html += "</span>";
+        html += '<span class="dating-work"><span class="dating-work-label">' +
+          esc(t("datingSource")) + "</span>" + esc(tx(item.work)) + "</span>";
+        html += "</li>";
+      });
+      html += "</ul>";
+    }
+
+    if (full && full.blocks && full.blocks.length) {
+      html += '<details class="dating-more">';
+      html += '<summary><span class="dating-toggle-label">' + esc(t("datingOpen")) +
+        "</span></summary>";
+      html += '<div class="dating-full">';
+      html += '<h3 class="dating-full-title">' + esc(full.title) + "</h3>";
+      full.blocks.forEach((b) => {
+        html += "<p>" + esc(b.text) + "</p>";
+      });
+      html += '<p class="dating-full-link"><a href="#/about">' +
+        esc(t("treatiseAbout")) + " →</a></p>";
+      html += "</div></details>";
+    }
+
+    html += "</section>";
     return html;
   }
 
@@ -623,6 +679,16 @@
   }
 
   /* ------------------------------------------------------------------- UI */
+
+  function wireDating(root) {
+    $$(".dating-more", root).forEach((box) => {
+      const label = $(".dating-toggle-label", box);
+      if (!label) return;
+      box.addEventListener("toggle", () => {
+        label.textContent = box.open ? t("datingClose") : t("datingOpen");
+      });
+    });
+  }
 
   function wireVerseTabs(root) {
     $$("[data-verses]", root).forEach((card) => {
