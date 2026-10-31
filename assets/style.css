@@ -871,39 +871,90 @@ h1.pose-title {
 }
 .notes-stack .note p { font-size: .96rem; color: var(--ink-2); }
 
-/* treatise header (when a pose exists in several treatises) */
+/* treatise header: the source's name in a frame of its own */
 
 .treatise-block + .treatise-block {
-  margin-top: 56px;
-  padding-top: 34px;
-  border-top: 1px solid var(--rule);
+  margin-top: clamp(46px, 6vw, 68px);
+}
+
+.treatise-block + .treatise-block::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 1px;
+  margin: 0 0 clamp(40px, 5vw, 58px);
+  background: linear-gradient(90deg, transparent, var(--rule) 12%, var(--rule) 88%, transparent);
 }
 
 .treatise-head {
+  position: relative;
   display: flex;
   flex-wrap: wrap;
   align-items: baseline;
   gap: 8px 14px;
-  margin: 0 0 26px;
-  padding-bottom: 12px;
-  border-bottom: 1px solid var(--rule);
+  margin: 0 0 22px;
+  padding: 18px 22px 17px 26px;
+  border: 1px solid color-mix(in srgb, var(--rule) 92%, var(--accent) 8%);
+  border-radius: 14px;
+  background:
+    linear-gradient(180deg,
+      color-mix(in srgb, var(--accent) 5%, var(--panel)) 0%,
+      var(--panel-2) 100%);
+  box-shadow: var(--shadow);
+  overflow: hidden;
 }
+
+.treatise-head::before {
+  content: "";
+  position: absolute;
+  inset: 0 auto 0 0;
+  width: 4px;
+  background: linear-gradient(180deg,
+    var(--accent) 0%,
+    color-mix(in srgb, var(--accent) 30%, transparent) 100%);
+}
+
+.treatise-head::after {
+  content: "";
+  position: absolute;
+  inset: 5px;
+  border: 1px solid color-mix(in srgb, var(--rule) 55%, transparent);
+  border-radius: 9px;
+  pointer-events: none;
+}
+
 .treatise-head h2 {
+  position: relative;
+  z-index: 1;
   margin: 0;
   font-family: var(--font-display);
-  font-weight: 500;
-  font-size: 1.42rem;
+  font-weight: 600;
+  font-size: 1.44rem;
+  line-height: 1.2;
   letter-spacing: .01em;
+  color: var(--ink);
 }
+
 .treatise-head .ref {
-  font-size: .7rem;
+  position: relative;
+  z-index: 1;
+  padding: 3px 10px 2px;
+  border: 1px solid color-mix(in srgb, var(--accent) 22%, var(--rule));
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--panel) 72%, transparent);
+  font-size: .64rem;
   letter-spacing: .17em;
   text-transform: uppercase;
   color: var(--muted);
+  white-space: nowrap;
 }
+
 .treatise-head .link {
+  position: relative;
+  z-index: 1;
   margin-left: auto;
-  font-size: .7rem;
+  align-self: center;
+  font-size: .68rem;
   letter-spacing: .14em;
   text-transform: uppercase;
   color: var(--accent);
@@ -911,6 +962,7 @@ h1.pose-title {
   border-bottom: 1px solid color-mix(in srgb, var(--accent) 40%, transparent);
   padding-bottom: 2px;
 }
+.treatise-head .link:hover { border-bottom-color: var(--accent); }
 
 /* subheads and plain paragraphs (chapter / appendix views) */
 
@@ -1336,3 +1388,17 @@ h1.pose-title {
 
 .pose-list li.is-other a { opacity: .58; }
 .pose-list li.is-other a:hover { opacity: .9; }
+
+/* the dating block sits directly under its treatise name */
+
+.treatise-head + .dating { margin-top: 16px; }
+
+@media (max-width: 760px) {
+  .treatise-head {
+    padding: 16px 18px 15px 20px;
+    border-radius: 12px;
+    gap: 6px 10px;
+  }
+  .treatise-head h2 { font-size: 1.24rem; }
+  .treatise-head .link { margin-left: 0; }
+}
