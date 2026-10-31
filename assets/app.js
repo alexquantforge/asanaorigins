@@ -80,7 +80,7 @@
     }
   };
 
-  const BUILD = "2026-11-01.1";
+  const BUILD = "2026-11-01.2";
   const V = "?v=" + BUILD;
 
   const state = {
@@ -105,6 +105,55 @@
     return String(s == null ? "" : s)
       .replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;")
       .replace(/"/g, "&quot;");
+  }
+
+
+  /* ------------------------------------------------------- combining marks
+
+     Cyrillic transliteration needs marks that most display fonts do not have
+     (м̣, р̣, н̇, н̃, ш́). The browser would then take the whole letter from a
+     fallback font — it looked heavier than its neighbours — and letter-spacing
+     pushed the mark sideways. The mark is therefore drawn by CSS, while the
+     real combining character stays in the text at zero size, so copying,
+     searching and screen readers still get the true letter.
+  */
+
+  const MARK_CLASS = {
+    "\u0323": "m-b",   // dot below
+    "\u0307": "m-a",   // dot above
+    "\u0301": "m-ac",  // acute
+    "\u0303": "m-t",   // tilde
+    "\u0304": "m-mac"  // macron
+  };
+
+  function marksInText(text) {
+    let out = "";
+    let i = 0;
+    while (i < text.length) {
+      const base = text[i];
+      const marks = [];
+      let j = i + 1;
+      while (j < text.length && MARK_CLASS[text[j]]) {
+        marks.push(text[j]);
+        j += 1;
+      }
+      if (marks.length) {
+        out += '<span class="mk ' + marks.map((m) => MARK_CLASS[m]).join(" ") + '">' +
+          base + '<span class="cmb">' + marks.join("") + "</span></span>";
+        i = j;
+      } else {
+        out += base;
+        i += 1;
+      }
+    }
+    return out;
+  }
+
+  function applyMarks(html) {
+    return String(html)
+      .split(/(<[^>]*>)/)
+      .map((part) => (!part || part[0] === "<" ? part : marksInText(part)))
+      .join("");
   }
 
   /* ------------------------------------------------------------------ load */
@@ -387,7 +436,7 @@
     else if (route.view === "notes") html = renderNotes();
     else if (route.view === "about") html = renderAbout();
 
-    view.innerHTML = html;
+    view.innerHTML = applyMarks(html);
     view.style.animation = "none";
     void view.offsetWidth;
     view.style.animation = "";
@@ -858,7 +907,7 @@
       if (copy) {
         copy.addEventListener("click", () => {
           const active = panels.find((p) => !p.hasAttribute("hidden")) || panels[0];
-          const text = $$(".verse-lines span", active).map((s) => s.textContent).join("\n");
+          const text = $$(".verse-lines > span", active).map((s) => s.textContent).join("\n");
           copyText(text);
         });
       }
