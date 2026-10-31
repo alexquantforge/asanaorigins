@@ -547,6 +547,7 @@
     const sections = activeTreatise.notes[state.lang] || [];
     const title = (activeTreatise.notesTitle && activeTreatise.notesTitle[state.lang]) || t("notes");
     let html = pageHead(title, esc(tx(activeTreatise.title)));
+    html += '<div class="notes-stack">';
     sections.forEach((sec) => {
       html += '<div class="note">';
       (sec.paragraphs || []).forEach((p) => {
@@ -554,6 +555,7 @@
       });
       html += "</div>";
     });
+    html += "</div>";
     const closing = activeTreatise.closing && activeTreatise.closing[state.lang];
     if (closing && closing.length) {
       html += '<p class="about-p">' + esc(closing.join(" ")) + "</p>";
