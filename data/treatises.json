@@ -24,6 +24,59 @@
    "pdf": {
     "ru": "sources/Ahirbudhnya_samhita_asanas.pdf",
     "en": "sources/Ahirbudhnya_samhita_asanas_en.pdf"
+   },
+   "datingSummary": {
+    "note": {
+     "ru": "Датировка текста спорна; дата именно асанного раздела не устанавливается.",
+     "en": "The dating of the text is disputed; no date is assigned to the āsana section itself."
+    },
+    "items": [
+     {
+      "who": { "ru": "Ф. Отто Шрадер", "en": "F. Otto Schrader" },
+      "when": {
+       "ru": "не позднее VIII в. н. э.",
+       "en": "no later than the 8th century CE"
+      },
+      "whenNote": {
+       "ru": "возможный нижний предел — после 300 г. н. э.",
+       "en": "possible lower limit — after 300 CE"
+      },
+      "work": {
+       "ru": "Introduction to the Pañcarātra and the Ahirbudhnya Saṃhitā, Adyar Library, 1916, с. 94–99",
+       "en": "Introduction to the Pañcarātra and the Ahirbudhnya Saṃhitā, Adyar Library, 1916, pp. 94–99"
+      }
+     },
+     {
+      "who": { "ru": "Д. Вьюстик", "en": "D. Wujastyk" },
+      "when": {
+       "ru": "после 1000 г. н. э.",
+       "en": "after 1000 CE"
+      },
+      "whenNote": {
+       "ru": "возможно, Южная Индия",
+       "en": "possibly South India"
+      },
+      "work": {
+       "ru": "«The Yoga Texts Attributed to Yājñavalkya and their Remarks on Posture», Asian Literature and Translation 4, no. 1 (2017): 159–186",
+       "en": "“The Yoga Texts Attributed to Yājñavalkya and their Remarks on Posture”, Asian Literature and Translation 4, no. 1 (2017): 159–186"
+      }
+     },
+     {
+      "who": { "ru": "Марион Растелли", "en": "Marion Rastelli" },
+      "when": {
+       "ru": "XII–XIII вв.",
+       "en": "12th–13th centuries"
+      },
+      "whenNote": {
+       "ru": "Южная Индия",
+       "en": "South India"
+      },
+      "work": {
+       "ru": "«Considerations About Traditions Influential in the Ahirbudhnyasaṃhitā», Asiatische Studien 72, no. 2 (2018): 421–443",
+       "en": "“Considerations About Traditions Influential in the Ahirbudhnyasaṃhitā”, Asiatische Studien 72, no. 2 (2018): 421–443"
+      }
+     }
+    ]
    }
   }
  ]

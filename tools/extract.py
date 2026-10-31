@@ -50,6 +50,8 @@ APPENDIX = {"ru": "Приложение. Переход к пранаяме и �
             "en": "Appendix. Transition to Prāṇāyāma and the End of the Chapter"}
 NOTES_HEAD = {"ru": "Примечания к чтениям", "en": "Notes on Readings"}
 REPORT_HEAD = {"ru": "Главные асаны XXXI главы", "en": "The Principal Āsanas of Chapter XXXI"}
+DATING_HEAD = {"ru": "О датировке и предполагаемом месте создания",
+               "en": "Dating and Probable Place of Composition"}
 CLOSING = {"ru": "Перевод и пословный разбор выполнены",
            "en": "This translation and word-by-word analysis"}
 TITLE_TAIL = {"ru": "санскритский текст и перевод", "en": "Sanskrit Text and Translation"}
@@ -178,6 +180,7 @@ class Doc:
         self.labels = LABELS[lang]
         self.prologue, self.poses, self.appendix = [], [], []
         self.notes, self.closing, self.about = [], [], []
+        self.dating = {"title": DATING_HEAD[lang], "blocks": []}
         self.notes_title = NOTES_HEAD[lang]
 
     # ------------------------------------------------------------------ utils
@@ -359,7 +362,33 @@ class Doc:
         for m in merged:
             m.pop("_src", None)
         self.about = merged
+        self._split_dating()
         return self
+
+    def _split_dating(self):
+        """Pull the dating section out of the article (verbatim, uncut).
+
+        The section stays in `about` as well: the article keeps all of its
+        paragraphs, this is only a convenient pointer for the pose pages.
+        """
+        head = DATING_HEAD[self.lang]
+        start = next((i for i, b in enumerate(self.about)
+                      if b["type"] == "h2" and b["text"] == head), None)
+        if start is None:
+            self.dating = {"title": head, "blocks": []}
+            return
+        end = next((i for i in range(start + 1, len(self.about))
+                    if self.about[i]["type"] == "h2"), len(self.about))
+        body = self.about[start + 1:end]
+        for item in body:
+            if item["type"] == "p":
+                item["type"] = "p"
+        self.dating = {
+            "title": head,
+            "blocks": [dict(b) for b in body],
+            "continues": [b["text"] for b in self.about[end:end + 1]
+                          if b["type"] == "h2"] or [],
+        }
 
 
 POSE_KEYS = [
@@ -388,6 +417,7 @@ def main():
         "notes": {lang: to_sections(docs[lang].notes) for lang in docs},
         "notesTitle": {lang: docs[lang].notes_title for lang in docs},
         "closing": {lang: docs[lang].closing for lang in docs},
+        "dating": {lang: docs[lang].dating for lang in docs},
         "poses": [],
     }
     for idx, key in enumerate(POSE_KEYS):
