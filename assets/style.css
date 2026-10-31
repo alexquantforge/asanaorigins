@@ -483,9 +483,20 @@ h1.pose-title {
 }
 
 .pose-rule {
+  position: relative;
   height: 1px;
   margin: 26px 0 0;
-  background: linear-gradient(90deg, var(--rule), transparent 85%);
+  background: linear-gradient(90deg, color-mix(in srgb, var(--accent) 40%, var(--rule)), transparent 85%);
+}
+.pose-rule::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: -2.5px;
+  width: 6px;
+  height: 6px;
+  transform: rotate(45deg);
+  background: var(--accent);
 }
 
 /* verse card */

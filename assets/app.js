@@ -95,6 +95,7 @@
   async function boot() {
     document.documentElement.setAttribute("data-theme", state.theme);
     applyStaticText();
+    $("#view").innerHTML = '<p class="empty">' + esc(t("loading")) + "</p>";
 
     let index;
     try {
@@ -130,6 +131,7 @@
       }
     }
 
+    updateBrand();
     buildTreatiseSelect();
     buildChapterNav();
     buildPoseList();
@@ -182,6 +184,12 @@
       .join("");
     sel.value = state.treatiseId || "";
     updateTreatiseNote();
+  }
+
+  function updateBrand() {
+    const first = activeTreatise && activeTreatise.poses[0];
+    const brand = $(".brand");
+    if (brand) brand.setAttribute("href", first ? "#/pose/" + first.key : "#/about");
   }
 
   function updateTreatiseNote() {
@@ -461,7 +469,8 @@
       panels +=
         '<div class="verse-body" id="' + id + '" role="tabpanel" aria-labelledby="tab-' + id + '"' +
         (selected ? "" : " hidden") + ">" +
-        '<p class="verse-lines ' + esc(sec.key) + '">' +
+        '<p class="verse-lines ' + esc(sec.key) + '" lang="' +
+        (sec.key === "deva" ? "sa" : sec.key === "cyr" ? "ru" : "sa-Latn") + '">' +
         sec.lines.map((line) => "<span>" + esc(line) + "</span>").join("") +
         "</p></div>";
     });
@@ -702,6 +711,7 @@
       activeTreatise = treatises.find((x) => x.id === state.treatiseId) || treatises[0];
       buildPoseList();
       buildChapterNav();
+      updateBrand();
       updateTreatiseNote();
       if (site) {
         if (site.title) $("[data-site-title]").textContent = tx(site.title);
