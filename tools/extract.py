@@ -14,6 +14,8 @@ from pathlib import Path
 
 import pymupdf
 
+import translit
+
 ZWSP = "\u200b"
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -149,7 +151,7 @@ def word_pairs(text):
     return pairs
 
 
-def to_sections(secs):
+def to_sections(secs, lang="ru"):
     out = []
     for s in secs:
         t = s["type"]
@@ -158,8 +160,14 @@ def to_sections(secs):
                         "lines": [clean(x) for x in s["lines"] if clean(x)]})
         elif t == "words":
             text = " ".join(s["paragraphs"])
+            pairs = word_pairs(text)
+            if lang == "ru":
+                # the Russian edition prints the terms in IAST; the same words
+                # are given in Cyrillic here, by the scheme of its own
+                # "Кириллическая транслитерация" section (see tools/translit.py)
+                pairs = [[translit.term(term), gloss] for term, gloss in pairs]
             out.append({"type": "words", "label": s["label"], "text": text,
-                        "pairs": word_pairs(text)})
+                        "pairs": pairs})
         elif t in ("prose", "note", "p"):
             item = {"type": t, "label": s.get("label") or "",
                     "paragraphs": s["paragraphs"]}
@@ -412,9 +420,9 @@ def main():
         "id": "ahirbudhnya-samhita",
         "chapter": "XXXI",
         "about": {lang: docs[lang].about for lang in docs},
-        "prologue": {lang: to_sections(docs[lang].prologue) for lang in docs},
-        "appendix": {lang: to_sections(docs[lang].appendix) for lang in docs},
-        "notes": {lang: to_sections(docs[lang].notes) for lang in docs},
+        "prologue": {lang: to_sections(docs[lang].prologue, lang) for lang in docs},
+        "appendix": {lang: to_sections(docs[lang].appendix, lang) for lang in docs},
+        "notes": {lang: to_sections(docs[lang].notes, lang) for lang in docs},
         "notesTitle": {lang: docs[lang].notes_title for lang in docs},
         "closing": {lang: docs[lang].closing for lang in docs},
         "dating": {lang: docs[lang].dating for lang in docs},
@@ -428,8 +436,8 @@ def main():
             "name": {"ru": p_ru["title"], "en": p_en["title"]},
             "gloss": {"ru": p_ru["gloss"], "en": p_en["gloss"]},
             "verses": {"ru": p_ru["verses"], "en": p_en["verses"]},
-            "text": {"ru": to_sections(p_ru["sections"]),
-                     "en": to_sections(p_en["sections"])},
+            "text": {"ru": to_sections(p_ru["sections"], "ru"),
+                     "en": to_sections(p_en["sections"], "en")},
         })
     return treat, docs
 
