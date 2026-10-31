@@ -80,7 +80,7 @@
     }
   };
 
-  const BUILD = "2026-10-31.9";
+  const BUILD = "2026-11-01.1";
   const V = "?v=" + BUILD;
 
   const state = {

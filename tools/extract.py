@@ -156,8 +156,12 @@ def to_sections(secs, lang="ru"):
     for s in secs:
         t = s["type"]
         if t == "verse":
+            lines = [clean(x) for x in s["lines"] if clean(x)]
+            if s["key"] == "cyr":
+                # one dot-below convention for every Cyrillic line (see translit)
+                lines = [translit.normalize_marks(x) for x in lines]
             out.append({"type": "verse", "key": s["key"], "label": s["label"],
-                        "lines": [clean(x) for x in s["lines"] if clean(x)]})
+                        "lines": lines})
         elif t == "words":
             text = " ".join(s["paragraphs"])
             pairs = word_pairs(text)
