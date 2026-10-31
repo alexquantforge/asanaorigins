@@ -80,7 +80,7 @@
     }
   };
 
-  const BUILD = "2026-11-01.2";
+  const BUILD = "2026-11-01.3";
   const V = "?v=" + BUILD;
 
   const state = {
@@ -276,15 +276,15 @@
       return;
     }
     const parts = [tx(activeTreatise.subtitle), tx(activeTreatise.tradition)];
-    note.textContent = parts.filter(Boolean).join(" · ");
+    note.innerHTML = applyMarks(esc(parts.filter(Boolean).join(" · ")));
 
     const foot = $("#side-source");
-    foot.innerHTML =
+    foot.innerHTML = applyMarks(
       esc(tx(activeTreatise.edition)) +
-      (activeTreatise.pdf
-        ? ' · <a href="' + esc(encodeURI(activeTreatise.pdf[state.lang] || activeTreatise.pdf.ru)) +
-          '" target="_blank" rel="noopener">' + esc(t("pdf")) + "</a>"
-        : "");
+        (activeTreatise.pdf
+          ? ' · <a href="' + esc(encodeURI(activeTreatise.pdf[state.lang] || activeTreatise.pdf.ru)) +
+            '" target="_blank" rel="noopener">' + esc(t("pdf")) + "</a>"
+          : ""));
   }
 
   function chapterTitle() {
@@ -314,9 +314,10 @@
     if (appendix.length) items.push(["#/appendix", appendixLabel.split(".")[0]]);
     if (notes.length) items.push(["#/notes", notesTitle]);
     items.push(["#/about", t("treatiseAbout")]);
-    $("#chapter-nav").innerHTML = items
-      .map(([href, label]) => '<li><a href="' + href + '">' + esc(label) + "</a></li>")
-      .join("");
+    $("#chapter-nav").innerHTML = applyMarks(
+      items
+        .map(([href, label]) => '<li><a href="' + href + '">' + esc(label) + "</a></li>")
+        .join(""));
   }
 
   function poseGroups() {
@@ -368,7 +369,7 @@
         )
       : data;
 
-    list.innerHTML = shown.length
+    list.innerHTML = applyMarks(shown.length
       ? shown
           .map((p) => {
             const active = isCurrent("#/pose/" + p.key);
@@ -383,7 +384,7 @@
             );
           })
           .join("")
-      : '<li><p class="side-note">' + esc(t("noMatch")) + "</p></li>";
+      : '<li><p class="side-note">' + esc(t("noMatch")) + "</p></li>");
 
     const count = $("#pose-count");
     if (count) count.textContent = shown.length + " / " + data.length;
