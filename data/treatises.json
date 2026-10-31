@@ -1,11 +1,11 @@
 {
  "site": {
   "title": {
-   "ru": "Асаны: истоки",
+   "ru": "Āсаны: истоки",
    "en": "Āsana: Origins"
   },
   "tagline": {
-   "ru": "описания асан в первоисточниках",
+   "ru": "описания āсан в первоисточниках",
    "en": "āsanas as described in the sources"
   }
  },
@@ -18,11 +18,11 @@
     "en": "Ahirbudhnya-saṃhitā"
    },
    "subtitle": {
-    "ru": "XXXI глава · одиннадцать главных асан",
+    "ru": "XXXI глава · одиннадцать главных āсан",
     "en": "Chapter XXXI · eleven principal āsanas"
    },
    "tradition": {
-    "ru": "Панчаратра",
+    "ru": "Пāн̃чарāтра",
     "en": "Pāñcarātra"
    },
    "edition": {
@@ -39,7 +39,7 @@
    },
    "datingSummary": {
     "note": {
-     "ru": "Датировка текста спорна; дата именно асанного раздела не устанавливается.",
+     "ru": "Датировка текста спорна; дата именно āсанного раздела не устанавливается.",
      "en": "The dating of the text is disputed; no date is assigned to the āsana section itself."
     },
     "items": [

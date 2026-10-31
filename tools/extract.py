@@ -14,6 +14,7 @@ from pathlib import Path
 
 import pymupdf
 
+import sanskrit
 import translit
 
 ZWSP = "\u200b"
@@ -443,11 +444,20 @@ def main():
             "text": {"ru": to_sections(p_ru["sections"], "ru"),
                      "en": to_sections(p_en["sections"], "en")},
         })
-    return treat, docs
+
+    # Sanskrit words in the Russian text: the same letters, with the marks
+    # they need (see tools/sanskrit.py). Verse lines are left untouched.
+    raw = json.loads(json.dumps(treat))
+    sanskrit.fix_tree(treat, skip_keys=("lines", "en"))
+    return treat, docs, raw
 
 
 def coverage(doc, treat):
-    """Check that every block of the PDF is present in the extracted data."""
+    """Check that every block of the PDF is present in the extracted data.
+
+    This runs on the text as the PDF has it, before tools/sanskrit.py adds the
+    marks: the check guards the extraction, not the typography.
+    """
     def texts(obj):
         acc = []
         if isinstance(obj, dict):
@@ -480,7 +490,7 @@ def coverage(doc, treat):
 
 
 if __name__ == "__main__":
-    out, docs = main()
+    out, docs, raw = main()
     with open(sys.argv[1], "w") as fh:
         json.dump(out, fh, ensure_ascii=False, indent=1)
     for lang in ("ru", "en"):
@@ -493,7 +503,7 @@ if __name__ == "__main__":
         print(p["number"], p["key"], "|", p["verses"]["ru"], "|",
               [s["type"] + ":" + (s.get("key") or s.get("label", "")) for s in p["text"]["ru"]])
     for lang in ("ru", "en"):
-        miss = coverage(docs[lang], out)
+        miss = coverage(docs[lang], raw)
         print(lang, "PDF lines not found in output:", len(miss))
         for line in miss[:25]:
             print("   !", line[:110])

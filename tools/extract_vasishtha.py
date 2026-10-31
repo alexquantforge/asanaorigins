@@ -17,6 +17,7 @@ from pathlib import Path
 
 import pymupdf
 
+import sanskrit
 from common import (Block, assemble_paragraphs, clean, looks_like_list,
                     merge_runs, page_items, para_html, runs_html, split_bullets)
 
@@ -646,10 +647,28 @@ def main():
                        "en": verse_numbers(b["sections"])},
             "text": {"ru": a["sections"], "en": b["sections"]},
         })
-    return data, docs
+    # Sanskrit words in the Russian text carry the marks they need
+    # (tools/sanskrit.py); verse lines and the English text are untouched.
+    raw = json.loads(json.dumps(data))
+    sanskrit.fix_tree(data, skip_keys=("lines", "en"))
+    return data, docs, raw
+
+
+def loose(text):
+    """Letters only, without spacing and without diacritics, for the self-check.
+
+    The site adds diacritics to Sanskrit words (tools/sanskrit.py), so the
+    coverage check runs on the text before those marks are added and compares
+    the bare letters of the PDF with the bare letters of the output.
+    """
+    text = text.replace("ā", "а").replace("ӣ", "и").replace("ӯ", "у")
+    text = unicodedata.normalize("NFD", text)
+    text = "".join(ch for ch in text if not unicodedata.combining(ch))
+    return re.sub(r"\s+", "", text)
 
 
 def coverage(data, docs):
+    """Compare the text as the PDF has it with the output, before marks."""
     def flatten(obj, acc):
         if isinstance(obj, str):
             acc.append(obj)
@@ -663,7 +682,7 @@ def coverage(data, docs):
 
     blob = " \n ".join(flatten(data, []))
     blob = html.unescape(re.sub(r"<[^>]+>", " ", blob))
-    blob = re.sub(r"\s+", "", blob)
+    blob = loose(blob)
     report = {}
     for lang in ("ru", "en"):
         missing = []
@@ -674,7 +693,7 @@ def coverage(data, docs):
                 raw = clean(line.text)
                 if POSE_HEAD_RE.match(raw) or raw.startswith(ASANA_HEAD[lang]):
                     continue  # headings are rebuilt from their parts
-                probe = re.sub(r"\s+", "", raw)[:40].lstrip("●")
+                probe = loose(raw)[:40].lstrip("●")
                 if probe and probe not in blob:
                     missing.append(line.text)
         report[lang] = missing
@@ -682,7 +701,7 @@ def coverage(data, docs):
 
 
 if __name__ == "__main__":
-    data, docs = main()
+    data, docs, raw = main()
     with open(sys.argv[1], "w") as fh:
         json.dump(data, fh, ensure_ascii=False, indent=1)
 
@@ -706,7 +725,7 @@ if __name__ == "__main__":
             else:
                 kinds.append(sec["type"])
         print(pose["number"], pose["key"], "|", pose["name"]["ru"], "|", " ".join(kinds))
-    rep = coverage(data, docs)
+    rep = coverage(raw, docs)
     for lang in ("ru", "en"):
         print(lang, "lines missing:", len(rep[lang]))
         for line in rep[lang][:15]:
