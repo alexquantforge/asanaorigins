@@ -40,7 +40,8 @@
       datingTitle: "Датировка текста",
       datingOpen: "Читать датировку полностью",
       datingClose: "Свернуть",
-      datingSource: "Источник датировки"
+      datingSource: "Источник датировки",
+      build: "версия"
     },
     en: {
       skip: "Skip to content",
@@ -74,9 +75,13 @@
       datingTitle: "Dating of the text",
       datingOpen: "Read the full dating",
       datingClose: "Collapse",
-      datingSource: "Source of the dating"
+      datingSource: "Source of the dating",
+      build: "build"
     }
   };
+
+  const BUILD = "2026-10-31.4";
+  const V = "?v=" + BUILD;
 
   const state = {
     lang: localStorage.getItem("ao.lang") === "en" ? "en" : "ru",
@@ -109,7 +114,7 @@
 
     let index;
     try {
-      index = await fetch("data/treatises.json").then((r) => {
+      index = await fetch("data/treatises.json" + V).then((r) => {
         if (!r.ok) throw new Error(r.status);
         return r.json();
       });
@@ -121,7 +126,7 @@
     site = index.site || null;
     const loaded = await Promise.all(
       index.treatises.map(async (meta) => {
-        const data = await fetch(meta.file).then((r) => r.json());
+        const data = await fetch(meta.file + V).then((r) => r.json());
         return Object.assign({}, meta, data);
       })
     );
@@ -381,6 +386,9 @@
       '<div class="pose-rule"></div>' +
       "</header>";
 
+    // One treatise for this pose: the dating sits right under the pose name.
+    if (!multi) html += renderDating(occurrences[0].treatise);
+
     occurrences.forEach((occ) => {
       const tr = occ.treatise;
       const pose = occ.pose;
@@ -393,7 +401,7 @@
         html += '<a class="link" href="#/about">' + esc(t("toAbout")) + "</a>";
       }
       html += "</div>";
-      html += renderDating(tr);
+      if (multi) html += renderDating(tr);
       html += renderSections(pose.text[state.lang] || pose.text.ru);
       html += "</section>";
     });
@@ -575,6 +583,7 @@
       html += '<p><a href="' + esc(pdfHref) + '" target="_blank" rel="noopener">' +
         esc(t("pdf")) + " ↗</a></p>";
     }
+    html += '<p class="colophon-build">' + esc(t("build")) + " " + esc(BUILD) + "</p>";
     html += "</footer>";
     return html;
   }
