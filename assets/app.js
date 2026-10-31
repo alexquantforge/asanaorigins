@@ -80,7 +80,7 @@
     }
   };
 
-  const BUILD = "2026-10-31.5";
+  const BUILD = "2026-10-31.6";
   const V = "?v=" + BUILD;
 
   const state = {
@@ -448,35 +448,23 @@
       '<div class="pose-rule"></div>' +
       "</header>";
 
-    // the dating sits right under the pose name, for the treatise being read
-    html += renderDating(primaryOcc.treatise);
-
-    occurrences.forEach((occ, i) => {
+    // Every treatise reads as one continuous sheet: the source's name and
+    // reference come first, then its dating, then the text itself.
+    occurrences.forEach((occ) => {
       const tr = occ.treatise;
       const pose = occ.pose;
-      const folded = multi && i > 0;
-      if (folded) {
-        html += '<details class="treatise-more"><summary>' +
-          '<span class="treatise-more-title">' + esc(tx(tr.title)) + "</span>" +
-          '<span class="ref">' +
-          esc((state.lang === "ru" ? "глава " : "chapter ") + (tr.chapter || "")) +
-          "</span></summary>";
-      }
       html += '<section class="treatise-block">';
-      if (!folded) {
-        html += '<div class="treatise-head">';
-        html += "<h2>" + esc(tx(tr.title)) + "</h2>";
-        html += '<span class="ref">' +
-          esc((state.lang === "ru" ? "глава " : "chapter ") + (tr.chapter || "")) + "</span>";
-        if (multi) {
-          html += '<a class="link" href="#/about">' + esc(t("toAbout")) + "</a>";
-        }
-        html += "</div>";
+      html += '<div class="treatise-head">';
+      html += "<h2>" + esc(tx(tr.title)) + "</h2>";
+      html += '<span class="ref">' +
+        esc((state.lang === "ru" ? "глава " : "chapter ") + (tr.chapter || "")) + "</span>";
+      if (multi) {
+        html += '<a class="link" href="#/about">' + esc(t("toAbout")) + "</a>";
       }
-      if (folded) html += renderDating(tr);
+      html += "</div>";
+      html += renderDating(tr);
       html += renderSections(pose.text[state.lang] || pose.text.ru);
       html += "</section>";
-      if (folded) html += "</details>";
     });
 
     html += "</article>";
