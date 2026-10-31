@@ -429,7 +429,8 @@
     }
 
     const own = occurrences.find((o) => o.treatise === activeTreatise);
-    const primary = (own || occurrences[0]).pose;
+    const primaryOcc = own || occurrences[0];
+    const primary = primaryOcc.pose;
     const multi = occurrences.length > 1;
     lastPoseKey = key;
     const index = activeTreatise.poses.findIndex((p) => p.key === key);
@@ -447,24 +448,35 @@
       '<div class="pose-rule"></div>' +
       "</header>";
 
-    // One treatise for this pose: the dating sits right under the pose name.
-    if (!multi) html += renderDating(occurrences[0].treatise);
+    // the dating sits right under the pose name, for the treatise being read
+    html += renderDating(primaryOcc.treatise);
 
-    occurrences.forEach((occ) => {
+    occurrences.forEach((occ, i) => {
       const tr = occ.treatise;
       const pose = occ.pose;
-      html += '<section class="treatise-block">';
-      html += '<div class="treatise-head">';
-      html += '<h2>' + esc(tx(tr.title)) + "</h2>";
-      html += '<span class="ref">' +
-        esc((state.lang === "ru" ? "глава " : "chapter ") + (tr.chapter || "")) + "</span>";
-      if (multi) {
-        html += '<a class="link" href="#/about">' + esc(t("toAbout")) + "</a>";
+      const folded = multi && i > 0;
+      if (folded) {
+        html += '<details class="treatise-more"><summary>' +
+          '<span class="treatise-more-title">' + esc(tx(tr.title)) + "</span>" +
+          '<span class="ref">' +
+          esc((state.lang === "ru" ? "глава " : "chapter ") + (tr.chapter || "")) +
+          "</span></summary>";
       }
-      html += "</div>";
-      if (multi) html += renderDating(tr);
+      html += '<section class="treatise-block">';
+      if (!folded) {
+        html += '<div class="treatise-head">';
+        html += "<h2>" + esc(tx(tr.title)) + "</h2>";
+        html += '<span class="ref">' +
+          esc((state.lang === "ru" ? "глава " : "chapter ") + (tr.chapter || "")) + "</span>";
+        if (multi) {
+          html += '<a class="link" href="#/about">' + esc(t("toAbout")) + "</a>";
+        }
+        html += "</div>";
+      }
+      if (folded) html += renderDating(tr);
       html += renderSections(pose.text[state.lang] || pose.text.ru);
       html += "</section>";
+      if (folded) html += "</details>";
     });
 
     html += "</article>";
