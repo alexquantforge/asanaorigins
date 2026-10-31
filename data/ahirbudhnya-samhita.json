@@ -1,0 +1,3510 @@
+{
+ "id": "ahirbudhnya-samhita",
+ "chapter": "XXXI",
+ "about": {
+  "ru": [
+   {
+    "type": "title",
+    "text": "Описание асан из XXXI главы Ахирбудхнья-самхиты"
+   },
+   {
+    "type": "byline",
+    "text": "Автор: Александр Виджая (t.me/alexvijaya)"
+   },
+   {
+    "type": "h2",
+    "text": "Предисловие"
+   },
+   {
+    "type": "p",
+    "text": "Эта статья представляет собой перевод и пословный разбор одиннадцати главных асан, перечисленных в XXXI главе Ахирбудхнья-самхиты — сочинения традиции Панчаратры. Работа выполнена по приложенному файлу Ahirbudhnya_samhita.txt и сверена с печатным текстом на страницах 293–296 второго тома издания 1916 года."
+   },
+   {
+    "type": "p",
+    "text": "Принцип работы с текстом: чтения, которые ясно переданы в издании, переведены без добавления деталей из современных описаний одноимённых поз. Неясные места не исправляются молча: они отмечены вопросительным знаком, квадратными скобками или пояснением. В отдельных местах, где транскрипция из файла содержит очевидную ошибку распознавания, чтение сверено с печатной страницей; например, в стихе о Курмасане напечатано निपीड्य (nipīḍya), а не ошибочное OCR-чтение निपीय."
+   },
+   {
+    "type": "p",
+    "text": "Перевод различает три уровня: санскритское чтение, буквальный перевод и осторожный литературный перевод. Там, где санскритская фраза не позволяет однозначно восстановить положение тела, это прямо указано. Утверждения о пользе поз передаются как слова самого текста, а не как проверенные медицинские сведения."
+   },
+   {
+    "type": "h2",
+    "text": "Об издании"
+   },
+   {
+    "type": "p",
+    "text": "Основное печатное издание:"
+   },
+   {
+    "type": "p",
+    "text": "M. D. Rāmānujācārya (ed.), under the supervision of F. Otto Schrader, Ahirbudhnya-Saṃhitā of the Pāñcarātrāgama, 2 vols., Adyar Library Series 4. Adyar, Madras, 1916. Цифровые копии двух томов доступны в Internet Archive 2; библиографическая запись первого издания есть также в каталоге HathiTrust 7."
+   },
+   {
+    "type": "p",
+    "text": "Настоящая транскрипция соответствует разделу второго тома, печатные страницы 293–296. Позднее вышло второе издание, переработанное В. Кришнамачарьей (Adyar Library and Research Centre, 1966); его не следует смешивать с текстом первого издания, на котором основана эта работа. Библиографические данные второго издания подтверждаются каталогом 4."
+   },
+   {
+    "type": "p",
+    "text": "В издании 1916 года текст сопровождается вариантами чтения по рукописям. Поэтому ниже сохранён основной печатный текст, а значимые для данного фрагмента варианты отмечены отдельно."
+   },
+   {
+    "type": "h2",
+    "text": "О датировке и предполагаемом месте создания"
+   },
+   {
+    "type": "p",
+    "text": "Датировка Ахирбудхнья-самхиты спорна; дата рукописей, использованных для печатного издания, сама по себе не устанавливает дату создания сочинения."
+   },
+   {
+    "type": "p",
+    "text": "Ф. Отто Шрадер в разделе «Provenience and Age» своего введения связывал текст с Кашмиром. Среди приводимых им аргументов — упоминание диаграмм-янтр на бересте в главах 26 и 45, образ солнца, освобождающегося от преграды снегов, в главе 39, а также рассказ о Муктапиде в главе 48. Шрадер подчёркивал, что о возрасте текста нельзя уверенно сказать много: он относил его к той группе самхит, для которой предлагал VIII век н. э. как верхнюю границу. В качестве возможного нижнего предела он рассматривал представление в тексте о буддизме, разделённом на три большие школы: по мысли Шрадера, оно предполагает время после того, как утвердилась Махаяна, приблизительно после 300 года н. э. Это датировочные рассуждения самого Шрадера, а не установленная дата текста. См. его введение, разделы о рукописях, происхождении и возрасте, с. 94–99 6."
+   },
+   {
+    "type": "p",
+    "text": "Д. Вьюстик в статье 2017 года предполагает для Ахирбудхнья-самхиты время после 1000 года и, возможно, Южную Индию 5. Марион Растелли в аннотации к статье 2018 года также связывает составление текста с Южной Индией, уточняя гипотезу до XII–XIII веков 3. Эти поздние предложения существенно расходятся с ранней датировочной рамкой Шрадера; без отдельного доказательства их нельзя свести в одну точную датировку или представить как согласованный консенсус. Поэтому дата именно асанного раздела в настоящей статье не устанавливается."
+   },
+   {
+    "type": "h2",
+    "text": "Какими рукописями пользовался редактор"
+   },
+   {
+    "type": "p",
+    "text": "По введению Шрадера, за три года для подготовки издания удалось получить «шесть (девять)» рукописей. Редактор отмечал, что все они восходят к одному уже испорченному\nоригиналу,\nхотя\nв\nцелом\nсчитал\nтекст\nсамхиты\nхорошо сохранившимся. Введение не даёт одной абсолютной даты для рукописей; Шрадер говорит прежде всего об их относительном возрасте и качестве."
+   },
+   {
+    "type": "p",
+    "text": "Из двух названных им старейшими и лучшими свидетелей E — рукопись письмом грантха из Калале в Майсуре; D — рукопись письмом малаялам, принадлежавшая махарадже Траванкора. По оценке Шрадера, E точнее D. Несколько рукописей из Мелкоте, происходивших от E и почти полностью совпадавших между собой, редактор сводил под общим обозначением F. Среди других свидетелей он описывает пальмолистовую\nгрантха-рукопись\nАдьярской\nбиблиотеки\n(A),\nбумажную грантха-рукопись той же библиотеки с крупными пропусками (C) и телугу-рукопись, принадлежавшую правительству Майсура (B). Сильно повреждённую рукопись из Танджора он не стал учитывать."
+   },
+   {
+    "type": "p",
+    "text": "Таким образом, данный фрагмент не основан на одном-единственном списке: в печатном аппарате встречаются сиглы нескольких рукописей. Вместе с тем, согласно Шрадеру, эти свидетели не являются полностью независимыми, поскольку восходят к общему испорченному источнику. Сведения о рукописях приведены по введению Шрадера, с. 94–95 6."
+   },
+   {
+    "type": "h2",
+    "text": "О главе и нумерации"
+   },
+   {
+    "type": "p",
+    "text": "XXXI глава озаглавлена в колофоне योगाङ्गयमनियमासननिरूपणम् — «изложение членов йоги, ямы, ниямы и асаны». Приложенный фрагмент начинается не с начала главы: в нём сначала продолжается рассуждение о яме и нияме, затем описываются асаны и следует переход к очищению nāḍī (телесных каналов) перед пранаямой. По синопсису Шрадера, начиная с 31.14 и до конца XXXII главы излагаются восемь йоганг: десять yama, десять niyama, одиннадцать главных асан, пранаяма с введением о nāḍī и десяти телесных vāyu, а также очищение системы nāḍī за три месяца; затем следуют остальные члены йоги. Здесь это только контекст: соседние разделы полностью не переводятся 6. В приложении приводятся заключительные строки о nāḍī и колофон."
+   },
+   {
+    "type": "p",
+    "text": "Текст перечисляет одиннадцать главных асан: Чакра-, Падма-, Курма-, Майура-, Куккута-, Вира-, Свастика-, Бхадра-, Симха-, Мукта- и Гомукхасану. Это перечень, данный самой самхитой; он не означает, что сочинение утверждает существование только одиннадцати поз."
+   },
+   {
+    "type": "p",
+    "text": "Для нумерации сохранены номера печатного издания там, где они видны. В предоставленной транскрипции часть номеров не распознана. В частности, стих о Майурасане рассматривается как стихи 36–37, стих о Куккутасане следует между 37 и 39, а описание Муктасаны продолжается до половины стиха 45. Д. Вьюстик обозначает Муктасану как 44–45ab, а Гомукхасану — как 45cd–46; именно это деление сохранено здесь. Поэтому заголовок Гомукхасаны в печатной разбивке оказывается посреди стиха 45 — такое место не исправляется редакторской перестановкой 5."
+   },
+   {
+    "type": "h2",
+    "text": "Источники"
+   },
+   {
+    "type": "list",
+    "items": [
+     "Основной текст: приложенный файл Ahirbudhnya_samhita.txt; печатный оригинал — Ahirbudhnya-Saṃhitā of the Pāñcarātrāgama, т. II, с. 293–296, издание 1916 года 2.",
+     "F. Otto Schrader, Introduction to the Pañcarātra and the Ahirbudhnya Saṃhitā. Adyar Library, 1916, особенно с. 94–99 и 123–125 6.",
+     "Dominik Wujastyk, “The Yoga Texts Attributed to Yājñavalkya and their Remarks on Posture,” Asian Literature and Translation 4, no. 1 (2017): 159–186. Используется для сопоставления и для явно обозначенных интерпретаций неясных мест 5.",
+     "Marion Rastelli, “Considerations About Traditions Influential in the Ahirbudhnyasaṃhitā,” Asiatische Studien 72, no. 2 (2018): 421–443 3.",
+     "Второе издание: M. D. Rāmānujācārya, F. O. Schrader, V. Krishnamacharya, Ahirbudhnya-Saṃhitā of the Pāñcarātrāgama, 2nd ed., Adyar Library and Research Centre, 1966 4."
+    ]
+   }
+  ],
+  "en": [
+   {
+    "type": "title",
+    "text": "A Description of the Āsanas in Chapter XXXI of the Ahirbudhnya-saṃhitā"
+   },
+   {
+    "type": "byline",
+    "text": "Author: Alexander Vijaya (t.me/alexvijaya)"
+   },
+   {
+    "type": "h2",
+    "text": "Preface"
+   },
+   {
+    "type": "p",
+    "text": "This article presents a translation and word-by-word analysis of the eleven principal āsanas listed in chapter XXXI of the Ahirbudhnya-saṃhitā, a work of the Pāñcarātra tradition. It was prepared from the supplied file Ahirbudhnya_samhita.txt and checked against the printed text on pp. 293–296 of volume II of the 1916 edition."
+   },
+   {
+    "type": "p",
+    "text": "Editorial policy: Readings clearly transmitted in the edition are translated without adding details from modern descriptions of poses with the same names. Unclear passages are not silently emended: they are marked with a question mark, square brackets, or an explanation. Where the transcription file contains an evident OCR error, the reading has been checked against the printed page; for example, the Kūrmāsana verse prints निपीड्य (nipīḍya), not the erroneous OCR reading निपीय."
+   },
+   {
+    "type": "p",
+    "text": "The translation distinguishes three levels: the Sanskrit reading, a literal translation, and a cautious literary translation. Where the Sanskrit does not permit the body’s position to be reconstructed unambiguously, this is stated explicitly. Claims about the benefits of poses are presented as statements made by the text, not as verified medical information."
+   },
+   {
+    "type": "h2",
+    "text": "The Edition"
+   },
+   {
+    "type": "p",
+    "text": "Principal printed edition:"
+   },
+   {
+    "type": "p",
+    "text": "M. D. Rāmānujācārya (ed.), under the supervision of F. Otto Schrader, Ahirbudhnya-Saṃhitā of the Pāñcarātrāgama, 2 vols., Adyar Library Series 4. Adyar, Madras, 1916. Digital copies of both volumes are available via Internet Archive 2; the first edition is also catalogued by HathiTrust 7."
+   },
+   {
+    "type": "p",
+    "text": "The present transcription corresponds to the section on pp. 293–296 of the printed second volume. A second edition, revised by V. Krishnamacharya (Adyar Library and Research Centre, 1966), appeared later; it should not be confused with the first-edition text on which this work is based. The bibliographical details of the second edition are confirmed by the catalogue 4."
+   },
+   {
+    "type": "p",
+    "text": "The 1916 edition provides manuscript variants alongside the text. The main printed reading is therefore retained below, with variants relevant to this passage noted separately."
+   },
+   {
+    "type": "h2",
+    "text": "Dating and Probable Place of Composition"
+   },
+   {
+    "type": "p",
+    "text": "The date of the Ahirbudhnya-saṃhitā is disputed; the dates of the manuscripts used for the printed edition do not in themselves establish the date of composition."
+   },
+   {
+    "type": "p",
+    "text": "In the section “Provenience and Age” of his introduction, F. Otto Schrader associated the text with Kashmir. Among the arguments he adduces are the mention of yantra diagrams on birch bark in chapters 26 and 45; the image in chapter 39 of the sun emerging from an obstacle of snow; and the account of Muktāpīḍa in chapter 48. Schrader stressed that little can be said with certainty about the text’s age: he placed it in a group of Saṃhitās for which he proposed the eighth century CE as an upper limit. As a possible lower limit, he considered the text’s presentation of Buddhism as divided into three major schools; in Schrader’s view, this implies a date after the establishment of Mahāyāna, approximately after 300 CE. These are Schrader’s dating arguments, not an established date for the text. See the sections of his introduction on the manuscripts, provenance, and age, pp. 94–99 6."
+   },
+   {
+    "type": "p",
+    "text": "In a 2017 article, D. Wujastyk proposes a date after 1000 CE, and possibly South India, for the Ahirbudhnya-saṃhitā 5. Marion Rastelli’s 2018 article abstract likewise associates the text’s composition with South India, narrowing the hypothesis to the twelfth–thirteenth centuries 3. These later proposals differ substantially from Schrader’s earlier dating framework; without additional evidence, they cannot be collapsed into one precise date or presented as an agreed consensus. Accordingly, this article does not assign a date to the āsana section itself."
+   },
+   {
+    "type": "h2",
+    "text": "The Manuscripts Used by the Editor"
+   },
+   {
+    "type": "p",
+    "text": "According to Schrader’s introduction, over the three years spent preparing the edition, he was able to obtain “six (nine)” manuscripts. The editor noted that all descend from a single already-corrupt archetype, although he considered the text of the Saṃhitā generally well preserved. The introduction does not assign the manuscripts one absolute date; Schrader speaks primarily of their relative age and quality."
+   },
+   {
+    "type": "p",
+    "text": "Of the two witnesses he identifies as oldest and best, E is a Grantha-script manuscript from Kalale in Mysore; D is a Malayalam-script manuscript belonging to the Mahārāja of Travancore. Schrader judges E to be more accurate than D. Several manuscripts from Melkote, descendants of E and almost identical to one another, were grouped by the editor under the common siglum F. Among the other witnesses he describes are a palm-leaf Grantha manuscript at the Adyar Library (A), a paper Grantha manuscript from the same library with large omissions (C), and a Telugu-script manuscript belonging to the Government of Mysore (B). He did not include a severely damaged manuscript from Tanjore."
+   },
+   {
+    "type": "p",
+    "text": "Thus, this passage is not based on a single manuscript: the printed apparatus cites sigla for several witnesses. At the same time, according to Schrader, these witnesses are not fully independent, since they descend from a common corrupt source. Manuscript details are from Schrader’s introduction, pp. 94–95 6."
+   },
+   {
+    "type": "h2",
+    "text": "The Chapter and Its Numbering"
+   },
+   {
+    "type": "p",
+    "text": "Chapter XXXI is entitled in the colophon योगाङ्गयमनियमासननिरूपणम् — “Exposition of the limbs of yoga, yama, niyama, and āsana.” The supplied excerpt does not begin at the chapter’s opening: it continues a discussion of yama and niyama, then describes the āsanas and moves on to the purification of nāḍīs (bodily channels) before prāṇāyāma. In Schrader’s synopsis, from 31.14 to the end of chapter XXXII the text presents the eight limbs of yoga: ten yamas, ten niyamas, eleven principal āsanas, prāṇāyāma with an introduction to the nāḍīs and the ten bodily vāyus, and a three-month purification of the nāḍī system; the remaining limbs follow. This is provided here only as context: the adjacent sections are not translated in full 6. The appendix includes the concluding lines on the nāḍīs and the colophon."
+   },
+   {
+    "type": "p",
+    "text": "The text lists eleven principal āsanas: Cakra, Padma, Kūrma, Mayūra, Kukkuṭa, Vīra, Svastika, Bhadra, Siṃha, Mukta, and Gomukha. This is the list given by the Saṃhitā; it does not mean that the work claims there are only eleven poses."
+   },
+   {
+    "type": "p",
+    "text": "Printed verse numbers have been retained wherever legible. Some numbers are not recognized in the supplied transcription. In particular, the Mayūrāsana passage is treated as verses 36–37; the Kukkuṭāsana passage falls between 37 and 39; and the Muktāsana description continues to half of verse 45. D. Wujastyk marks Muktāsana as 44–45ab and Gomukhāsana as 45cd–46; that division is followed here. Thus, in the printed layout, the heading for Gomukhāsana falls in the middle of verse 45; the text is not rearranged editorially to remove this feature 5."
+   },
+   {
+    "type": "h2",
+    "text": "Sources"
+   },
+   {
+    "type": "list",
+    "items": [
+     "Primary text: the supplied file Ahirbudhnya_samhita.txt; printed original: Ahirbudhnya-Saṃhitā of the Pāñcarātrāgama, vol. II, pp. 293–296, 1916 edition 2.",
+     "F. Otto Schrader, Introduction to the Pañcarātra and the Ahirbudhnya Saṃhitā. Adyar Library, 1916, especially pp. 94–99 and 123–125 6.",
+     "Dominik Wujastyk, “The Yoga Texts Attributed to Yājñavalkya and their Remarks on Posture,” Asian Literature and Translation 4, no. 1 (2017): 159–186. Used for comparison and for interpretations of unclear passages that are explicitly identified as such 5.",
+     "Marion Rastelli, “Considerations About Traditions Influential in the Ahirbudhnyasaṃhitā,” Asiatische Studien 72, no. 2 (2018): 421–443 3.",
+     "Second edition: M. D. Rāmānujācārya, F. O. Schrader, V. Krishnamacharya, Ahirbudhnya-Saṃhitā of the Pāñcarātrāgama, 2nd ed., Adyar Library and Research Centre, 1966 4."
+    ]
+   }
+  ]
+ },
+ "prologue": {
+  "ru": [
+   {
+    "type": "subhead",
+    "label": "Вступление и перечень асан"
+   },
+   {
+    "type": "p",
+    "label": "",
+    "paragraphs": [
+     "Перед перечислением стоит рубрика अथासनानां स्वास्थ्यहेतुत्वम् — «теперь об асанах как причине здоровья / благополучия»."
+    ]
+   },
+   {
+    "type": "verse",
+    "key": "deva",
+    "label": "Деванагари",
+    "lines": [
+     "आसनानि प्रवक्ष्यामि मुख्यानि विविधानि च ।",
+     "आस्थायैषामन्यतमं योगिनो यान्ति निर्वृतिम् ॥"
+    ]
+   },
+   {
+    "type": "verse",
+    "key": "iast",
+    "label": "IAST",
+    "lines": [
+     "āsanāni pravakṣyāmi mukhyāni vividhāni ca ।",
+     "āsthāyaiṣām anyatamaṃ yogino yānti nirvṛtim ॥"
+    ]
+   },
+   {
+    "type": "verse",
+    "key": "cyr",
+    "label": "Кириллическая транслитерация",
+    "lines": [
+     "āсанāни правакшйāми мукхйāни вивидхāни ча ।",
+     "āстхāйаишāм анйатамам̇ йогино йāнти нирвр̣тим ॥"
+    ]
+   },
+   {
+    "type": "words",
+    "label": "Пословный разбор",
+    "text": "āsanāni — асаны; pravakṣyāmi — я поведаю; mukhyāni — главные; vividhāni — различные; ca — и; āsthāya — приняв, освоив; eṣām — из этих; anyatamam — одну; yoginaḥ — йогины; yānti — достигают, идут к; nirvṛtim — покою, умиротворению.",
+    "pairs": [
+     [
+      "āsanāni",
+      "асаны"
+     ],
+     [
+      "pravakṣyāmi",
+      "я поведаю"
+     ],
+     [
+      "mukhyāni",
+      "главные"
+     ],
+     [
+      "vividhāni",
+      "различные"
+     ],
+     [
+      "ca",
+      "и"
+     ],
+     [
+      "āsthāya",
+      "приняв, освоив"
+     ],
+     [
+      "eṣām",
+      "из этих"
+     ],
+     [
+      "anyatamam",
+      "одну"
+     ],
+     [
+      "yoginaḥ",
+      "йогины"
+     ],
+     [
+      "yānti",
+      "достигают, идут к"
+     ],
+     [
+      "nirvṛtim",
+      "покою, умиротворению."
+     ]
+    ]
+   },
+   {
+    "type": "prose",
+    "label": "Буквальный перевод",
+    "paragraphs": [
+     "Я поведаю о главных и различных асанах; приняв одну из них, йогины достигают покоя."
+    ],
+    "key": "literal"
+   },
+   {
+    "type": "prose",
+    "label": "Литературный перевод",
+    "paragraphs": [
+     "«Я поведаю о главных позах. Приняв одну из них, йогин достигает покоя»."
+    ],
+    "key": "literary"
+   },
+   {
+    "type": "subhead",
+    "label": "Перечень, стихи 31–32"
+   },
+   {
+    "type": "verse",
+    "key": "deva",
+    "label": "Деванагари",
+    "lines": [
+     "चक्रं पद्मासनं कूर्म मायूरं कौक्कुटं तथा ॥३१॥",
+     "वीरासनं स्वस्तिकं च भद्रं सिंहासनं तथा ।",
+     "मुक्तासनं गोमुखं च मुख्यान्येतानि नारद ॥३२॥"
+    ]
+   },
+   {
+    "type": "verse",
+    "key": "iast",
+    "label": "IAST",
+    "lines": [
+     "cakraṃ padmāsanaṃ kūrma māyūraṃ kaukkuṭaṃ tathā ॥31॥",
+     "vīrāsanaṃ svastikaṃ ca bhadraṃ siṃhāsanaṃ tathā ।",
+     "muktāsanaṃ gomukhaṃ ca mukhyāny etāni nārada ॥32॥"
+    ]
+   },
+   {
+    "type": "verse",
+    "key": "cyr",
+    "label": "Кириллическая транслитерация",
+    "lines": [
+     "чакрам̇ падмāсанам̇ кӯрма мāйӯрам̇ кауккут̣ам̇ татхā ॥31॥",
+     "вӣрāсанам̇ свастикам̇ ча бхадрам̇ сим̇хāсанам̇ татхā ।",
+     "муктāсанам̇ гомукхам̇ ча мукхйāнй етāни нāрада ॥32॥"
+    ]
+   },
+   {
+    "type": "words",
+    "label": "Пословный разбор",
+    "text": "cakram — Чакра; padmāsanam — Падмасана; kūrma — Курма; māyūram — Майура; kaukkuṭam — Куккута; tathā — также; vīrāsanam — Вирасана; svastikam — Свастика; ca — и; bhadram — Бхадра; siṃhāsanam — Симхасана; muktāsanam — Муктасана; gomukham — Гомукха; mukhyāni — главные; etāni — эти; nārada — о Нарада.",
+    "pairs": [
+     [
+      "cakram",
+      "Чакра"
+     ],
+     [
+      "padmāsanam",
+      "Падмасана"
+     ],
+     [
+      "kūrma",
+      "Курма"
+     ],
+     [
+      "māyūram",
+      "Майура"
+     ],
+     [
+      "kaukkuṭam",
+      "Куккута"
+     ],
+     [
+      "tathā",
+      "также"
+     ],
+     [
+      "vīrāsanam",
+      "Вирасана"
+     ],
+     [
+      "svastikam",
+      "Свастика"
+     ],
+     [
+      "ca",
+      "и"
+     ],
+     [
+      "bhadram",
+      "Бхадра"
+     ],
+     [
+      "siṃhāsanam",
+      "Симхасана"
+     ],
+     [
+      "muktāsanam",
+      "Муктасана"
+     ],
+     [
+      "gomukham",
+      "Гомукха"
+     ],
+     [
+      "mukhyāni",
+      "главные"
+     ],
+     [
+      "etāni",
+      "эти"
+     ],
+     [
+      "nārada",
+      "о Нарада."
+     ]
+    ]
+   },
+   {
+    "type": "prose",
+    "label": "Перевод",
+    "paragraphs": [
+     "Чакра, Падма, Курма, Майура и Куккута; также Вирасана, Свастика, Бхадра и Симхасана; Муктасана и Гомукха — таковы главные [асаны], о Нарада."
+    ],
+    "key": "translation"
+   }
+  ],
+  "en": [
+   {
+    "type": "subhead",
+    "label": "Opening and List of Āsanas"
+   },
+   {
+    "type": "p",
+    "label": "",
+    "paragraphs": [
+     "The rubric preceding the list reads अथासनानां स्वास्थ्यहेतुत्वम् — “Now, on āsanas as a cause of health / well-being.”"
+    ]
+   },
+   {
+    "type": "verse",
+    "key": "deva",
+    "label": "Devanāgarī",
+    "lines": [
+     "आसनानि प्रवक्ष्यामि मुख्यानि विविधानि च ।",
+     "आस्थायैषामन्यतमं योगिनो यान्ति निर्वृतिम् ॥"
+    ]
+   },
+   {
+    "type": "verse",
+    "key": "iast",
+    "label": "IAST",
+    "lines": [
+     "āsanāni pravakṣyāmi mukhyāni vividhāni ca ।",
+     "āsthāyaiṣām anyatamaṃ yogino yānti nirvṛtim ॥"
+    ]
+   },
+   {
+    "type": "verse",
+    "key": "cyr",
+    "label": "Cyrillic transliteration",
+    "lines": [
+     "āсанāни правакшйāми мукхйāни вивидхāни ча ।",
+     "āстхāйаишāм анйатамам̇ йогино йāнти нирвр̣тим ॥"
+    ]
+   },
+   {
+    "type": "words",
+    "label": "Word-by-word analysis",
+    "text": "āsanāni — āsanas; pravakṣyāmi — I shall explain; mukhyāni — principal; vividhāni — diverse; ca — and; āsthāya — having assumed; eṣām — of these; anyatamam — one; yoginaḥ — yogins; yānti — attain, go to; nirvṛtim — repose, tranquillity.",
+    "pairs": [
+     [
+      "āsanāni",
+      "āsanas"
+     ],
+     [
+      "pravakṣyāmi",
+      "I shall explain"
+     ],
+     [
+      "mukhyāni",
+      "principal"
+     ],
+     [
+      "vividhāni",
+      "diverse"
+     ],
+     [
+      "ca",
+      "and"
+     ],
+     [
+      "āsthāya",
+      "having assumed"
+     ],
+     [
+      "eṣām",
+      "of these"
+     ],
+     [
+      "anyatamam",
+      "one"
+     ],
+     [
+      "yoginaḥ",
+      "yogins"
+     ],
+     [
+      "yānti",
+      "attain, go to"
+     ],
+     [
+      "nirvṛtim",
+      "repose, tranquillity."
+     ]
+    ]
+   },
+   {
+    "type": "prose",
+    "label": "Literal translation",
+    "paragraphs": [
+     "I shall explain the principal and diverse āsanas; having assumed one of them, yogins attain repose."
+    ],
+    "key": "literal"
+   },
+   {
+    "type": "prose",
+    "label": "Literary translation",
+    "paragraphs": [
+     "“I shall explain the principal poses. By assuming one of them, the yogin attains repose.”"
+    ],
+    "key": "literary"
+   },
+   {
+    "type": "subhead",
+    "label": "List, verses 31–32"
+   },
+   {
+    "type": "verse",
+    "key": "deva",
+    "label": "Devanāgarī",
+    "lines": [
+     "चक्रं पद्मासनं कूर्म मायूरं कौक्कुटं तथा ॥३१॥",
+     "वीरासनं स्वस्तिकं च भद्रं सिंहासनं तथा ।",
+     "मुक्तासनं गोमुखं च मुख्यान्येतानि नारद ॥३२॥"
+    ]
+   },
+   {
+    "type": "verse",
+    "key": "iast",
+    "label": "IAST",
+    "lines": [
+     "cakraṃ padmāsanaṃ kūrma māyūraṃ kaukkuṭaṃ tathā ॥31॥",
+     "vīrāsanaṃ svastikaṃ ca bhadraṃ siṃhāsanaṃ tathā ।",
+     "muktāsanaṃ gomukhaṃ ca mukhyāny etāni nārada ॥32॥"
+    ]
+   },
+   {
+    "type": "verse",
+    "key": "cyr",
+    "label": "Cyrillic transliteration",
+    "lines": [
+     "чакрам̇ падмāсанам̇ кӯрма мāйӯрам̇ кауккут̣ам̇ татхā ॥31॥",
+     "вӣрāсанам̇ свастикам̇ ча бхадрам̇ сим̇хāсанам̇ татхā ।",
+     "муктāсанам̇ гомукхам̇ ча мукхйāнй етāни нāрада ॥32॥"
+    ]
+   },
+   {
+    "type": "words",
+    "label": "Word-by-word analysis",
+    "text": "cakram — Cakra; padmāsanam — Padmāsana; kūrma — Kūrma; māyūram — Mayūra; kaukkuṭam — Kukkuṭa; tathā — likewise; vīrāsanam — Vīrāsana; svastikam — Svastika; ca — and; bhadram — Bhadra; siṃhāsanam — Siṃhāsana; muktāsanam — Muktāsana; gomukham — Gomukha; mukhyāni — principal; etāni — these; nārada — O Nārada.",
+    "pairs": [
+     [
+      "cakram",
+      "Cakra"
+     ],
+     [
+      "padmāsanam",
+      "Padmāsana"
+     ],
+     [
+      "kūrma",
+      "Kūrma"
+     ],
+     [
+      "māyūram",
+      "Mayūra"
+     ],
+     [
+      "kaukkuṭam",
+      "Kukkuṭa"
+     ],
+     [
+      "tathā",
+      "likewise"
+     ],
+     [
+      "vīrāsanam",
+      "Vīrāsana"
+     ],
+     [
+      "svastikam",
+      "Svastika"
+     ],
+     [
+      "ca",
+      "and"
+     ],
+     [
+      "bhadram",
+      "Bhadra"
+     ],
+     [
+      "siṃhāsanam",
+      "Siṃhāsana"
+     ],
+     [
+      "muktāsanam",
+      "Muktāsana"
+     ],
+     [
+      "gomukham",
+      "Gomukha"
+     ],
+     [
+      "mukhyāni",
+      "principal"
+     ],
+     [
+      "etāni",
+      "these"
+     ],
+     [
+      "nārada",
+      "O Nārada."
+     ]
+    ]
+   },
+   {
+    "type": "prose",
+    "label": "Translation",
+    "paragraphs": [
+     "Cakra, Padma, Kūrma, Mayūra, and Kukkuṭa; likewise Vīrāsana, Svastika, Bhadra, and Siṃhāsana; Muktāsana and Gomukha—these are the principal [āsanas], O Nārada."
+    ],
+    "key": "translation"
+   }
+  ]
+ },
+ "appendix": {
+  "ru": [
+   {
+    "type": "subhead",
+    "label": "Приложение. Переход к пранаяме и конец главы"
+   },
+   {
+    "type": "p",
+    "label": "",
+    "paragraphs": [
+     "После асан текст сразу переходит к очищению nāḍī."
+    ]
+   },
+   {
+    "type": "verse",
+    "key": "deva",
+    "label": "Деванагари",
+    "lines": [
+     "प्राणायामप्रसिद्ध्यर्थं नाडीशुद्धिमनन्तरम् ।",
+     "देहस्थवायुभिः कुर्यात्सानिभिश्च तपोधन ॥४७॥"
+    ]
+   },
+   {
+    "type": "verse",
+    "key": "iast",
+    "label": "IAST",
+    "lines": [
+     "prāṇāyāma-prasiddhyarthaṃ nāḍīśuddhim anantaram ।",
+     "dehasthavāyubhiḥ kuryāt sānibhiś ca tapodhana ॥47॥"
+    ]
+   },
+   {
+    "type": "verse",
+    "key": "cyr",
+    "label": "Кириллическая транслитерация",
+    "lines": [
+     "прāн̣āйāмапрасиддхйартхам̇ нāд̣ӣш́уддхим анантарам ।",
+     "дехастхавāйубхих̣ курйāт сāнибхиш́ ча таподхана ॥47॥"
+    ]
+   },
+   {
+    "type": "words",
+    "label": "Пословный разбор",
+    "text": "prāṇāyāma-prasiddhi-artham — ради успеха в пранаяме; nāḍī-śuddhim — очищение nāḍī, телесных каналов; anantaram — после этого; deha-stha-vāyubhiḥ — посредством vāyu, «ветров», находящихся в теле; kuryāt — пусть совершает; sānibhiḥ ca — так напечатано, чтение и значение неясны; tapodhana — о подвижник, богатый тапасом.",
+    "pairs": [
+     [
+      "prāṇāyāma-prasiddhi-artham",
+      "ради успеха в пранаяме"
+     ],
+     [
+      "nāḍī-śuddhim",
+      "очищение nāḍī, телесных каналов"
+     ],
+     [
+      "anantaram",
+      "после этого"
+     ],
+     [
+      "deha-stha-vāyubhiḥ",
+      "посредством vāyu, «ветров», находящихся в теле"
+     ],
+     [
+      "kuryāt",
+      "пусть совершает"
+     ],
+     [
+      "sānibhiḥ ca",
+      "так напечатано, чтение и значение неясны"
+     ],
+     [
+      "tapodhana",
+      "о подвижник, богатый тапасом."
+     ]
+    ]
+   },
+   {
+    "type": "prose",
+    "label": "Перевод",
+    "paragraphs": [
+     "Ради успеха в пранаяме, после очищения nāḍī, следует практиковать с помощью ветров, пребывающих в теле, … (чтение सानिभिश्च неясно) … о подвижник."
+    ],
+    "key": "translation"
+   },
+   {
+    "type": "subhead",
+    "label": "Колофон"
+   },
+   {
+    "type": "verse",
+    "key": "deva",
+    "label": "Колофон",
+    "lines": [
+     "इति श्रीपाञ्चरात्रे तन्त्ररहस्ये अहिर्बुध्न्यसंहितायां"
+    ]
+   },
+   {
+    "type": "p",
+    "label": "",
+    "paragraphs": [
+     "योगाङ्गयमनियमासननिरूपणं नामैकत्रिंशोऽध्यायः । ओम् । (आदितः श्लोकाः १८७२)"
+    ]
+   },
+   {
+    "type": "verse",
+    "key": "iast",
+    "label": "IAST",
+    "lines": [
+     "iti śrīpāñcarātre tantrarahasye ahirbudhnyasaṃhitāyāṃ",
+     "yogāṅga-yama-niyama-āsana-nirūpaṇaṃ nāma ekatriṃśo 'dhyāyaḥ ।",
+     "om । (āditaḥ ślokāḥ 1872)"
+    ]
+   },
+   {
+    "type": "prose",
+    "label": "Перевод",
+    "paragraphs": [
+     "Так заканчивается XXXI глава Ахирбудхнья-самхиты в Тантра-рахасье Панчаратры, называющаяся «Изложение членов йоги, ямы, ниямы и асаны». Ом. В печатном колофоне указано: «с начала — 1872 стиха»."
+    ],
+    "key": "translation"
+   }
+  ],
+  "en": [
+   {
+    "type": "subhead",
+    "label": "Appendix. Transition to Prāṇāyāma and the End of the Chapter"
+   },
+   {
+    "type": "p",
+    "label": "",
+    "paragraphs": [
+     "After the āsanas, the text moves directly to the purification of the nāḍīs."
+    ]
+   },
+   {
+    "type": "verse",
+    "key": "deva",
+    "label": "Devanāgarī",
+    "lines": [
+     "प्राणायामप्रसिद्ध्यर्थं नाडीशुद्धिमनन्तरम् ।",
+     "देहस्थवायुभिः कुर्यात्सानिभिश्च तपोधन ॥४७॥"
+    ]
+   },
+   {
+    "type": "verse",
+    "key": "iast",
+    "label": "IAST",
+    "lines": [
+     "prāṇāyāma-prasiddhyarthaṃ nāḍīśuddhim anantaram ।",
+     "dehasthavāyubhiḥ kuryāt sānibhiś ca tapodhana ॥47॥"
+    ]
+   },
+   {
+    "type": "verse",
+    "key": "cyr",
+    "label": "Cyrillic transliteration",
+    "lines": [
+     "прāн̣āйāмапрасиддхйартхам̇ нāд̣ӣш́уддхим анантарам ।",
+     "дехастхавāйубхих̣ курйāт сāнибхиш́ ча таподхана ॥47॥"
+    ]
+   },
+   {
+    "type": "words",
+    "label": "Word-by-word analysis",
+    "text": "prāṇāyāma-prasiddhi-artham — for the success of prāṇāyāma; nāḍī-śuddhim — purification of the nāḍīs, the bodily channels; anantaram — after this; deha-stha-vāyubhiḥ — by means of the vāyus (“winds”) within the body; kuryāt — let one perform; sānibhiḥ ca — so printed; the reading and meaning are unclear; tapodhana — O ascetic, rich in tapas.",
+    "pairs": [
+     [
+      "prāṇāyāma-prasiddhi-artham",
+      "for the success of prāṇāyāma"
+     ],
+     [
+      "nāḍī-śuddhim",
+      "purification of the nāḍīs, the bodily channels"
+     ],
+     [
+      "anantaram",
+      "after this"
+     ],
+     [
+      "deha-stha-vāyubhiḥ",
+      "by means of the vāyus (“winds”) within the body"
+     ],
+     [
+      "kuryāt",
+      "let one perform"
+     ],
+     [
+      "sānibhiḥ ca",
+      "so printed the reading and meaning are unclear"
+     ],
+     [
+      "tapodhana",
+      "O ascetic, rich in tapas."
+     ]
+    ]
+   },
+   {
+    "type": "prose",
+    "label": "Translation",
+    "paragraphs": [
+     "For success in prāṇāyāma, after purification of the nāḍīs, one should practice by means of the winds residing in the body, … (the reading सानिभिश्च is unclear) … O ascetic."
+    ],
+    "key": "translation"
+   },
+   {
+    "type": "subhead",
+    "label": "Colophon"
+   },
+   {
+    "type": "verse",
+    "key": "deva",
+    "label": "Colophon",
+    "lines": [
+     "इति श्रीपाञ्चरात्रे तन्त्ररहस्ये अहिर्बुध्न्यसंहितायां"
+    ]
+   },
+   {
+    "type": "p",
+    "label": "",
+    "paragraphs": [
+     "योगाङ्गयमनियमासननिरूपणं नामैकत्रिंशोऽध्यायः । ओम् । (आदितः श्लोकाः १८७२)"
+    ]
+   },
+   {
+    "type": "verse",
+    "key": "iast",
+    "label": "IAST",
+    "lines": [
+     "iti śrīpāñcarātre tantrarahasye ahirbudhnyasaṃhitāyāṃ",
+     "yogāṅga-yama-niyama-āsana-nirūpaṇaṃ nāma ekatriṃśo 'dhyāyaḥ ।",
+     "om । (āditaḥ ślokāḥ 1872)"
+    ]
+   },
+   {
+    "type": "prose",
+    "label": "Translation",
+    "paragraphs": [
+     "Thus ends chapter XXXI of the Ahirbudhnya-saṃhitā in the Tantrarahasya of the Pāñcarātra, entitled “Exposition of the limbs of yoga, yama, niyama, and āsana.” Om. The printed colophon states: “from the beginning, 1,872 verses.”"
+    ],
+    "key": "translation"
+   }
+  ]
+ },
+ "notes": {
+  "ru": [
+   {
+    "type": "note",
+    "label": "1. Число асан. Одиннадцать главных поз перечислены в стихах 31–32 самой",
+    "paragraphs": [
+     "1. Число асан. Одиннадцать главных поз перечислены в стихах 31–32 самой Ахирбудхнья-самхиты. Шрадер также отмечает в своём обзоре главы одиннадцать главных асан 6."
+    ]
+   },
+   {
+    "type": "note",
+    "label": "2. Нумерация стихов. В предоставленной транскрипции некоторые номера пропущены",
+    "paragraphs": [
+     "2. Нумерация стихов. В предоставленной транскрипции некоторые номера пропущены или не распознаны OCR. Для Майурасаны научная публикация Д. Вьюстика прямо указывает стихи 36–37; для Симхасаны — 42–43; Муктасана делится на 44–45ab, Гомукхасана — на 45cd–46 5. Поэтому стих 45 в печатной последовательности пересекает границу двух названий поз."
+    ]
+   },
+   {
+    "type": "note",
+    "label": "3. Стих о Курмасане. В OCR приложенного файла ошибочно прочитано निपीय; в печатном",
+    "paragraphs": [
+     "3. Стих о Курмасане. В OCR приложенного файла ошибочно прочитано निपीय; в печатном оригинале — निपीड्य (nipīḍya). Это исправление чтения по скану, а не конъектура."
+    ]
+   },
+   {
+    "type": "note",
+    "label": "4. Майурасана, стихи 36–37. В первом стихе есть рукописный вариант निरुध्य (D) вместо",
+    "paragraphs": [
+     "4. Майурасана, стихи 36–37. В первом стихе есть рукописный вариант निरुध्य (D) вместо अवष्टभ्य; E предлагает иной вариант чтения в словах о боках области пупка. В стихе 37 отмечены मुच्यते (E/F) вместо इष्यते и निबर्हणम् (B/C) вместо निवारणम्. В переводе сохранены основные печатные чтения."
+    ]
+   },
+   {
+    "type": "note",
+    "label": "5. Вирасана, стих 39. Строка पादमेकमैथेतरम् оставлена без исправления; в IAST и",
+    "paragraphs": [
+     "5. Вирасана, стих 39. Строка पादमेकमैथेतरम् оставлена без исправления; в IAST и кириллической транслитерации её место обозначено как неясное. Её буквальная структура не даёт надёжно установить точную последовательность сторон. Сопоставление Д. Вьюстика с описанием из Vimānārcanākalpa дано только как внешняя научная параллель, не как поправка к тексту."
+    ]
+   },
+   {
+    "type": "note",
+    "label": "6. Бхадрасана, стих 41. Чтение निवेश्यापदे сохранено по печатному тексту; слово अपदे не",
+    "paragraphs": [
+     "6. Бхадрасана, стих 41. Чтение निवेश्यापदे сохранено по печатному тексту; слово अपदे не получает здесь уверенного толкования. Объект при «закрепив обеими руками» также прямо не назван."
+    ]
+   },
+   {
+    "type": "note",
+    "label": "7. Симхасана, стихи 42–43. В приложенной транскрипции часть слова व्यात्तवक्त्रो",
+    "paragraphs": [
+     "7. Симхасана, стихи 42–43. В приложенной транскрипции часть слова व्यात्तवक्त्रो повреждена/потеряна; печатная страница позволяет прочитать его как «с широко открытым ртом». Это не добавление из другого текста, а сверка с печатным оригиналом."
+    ]
+   },
+   {
+    "type": "note",
+    "label": "8. Муктасана и Гомукхасана, стихи 44–46. В аппарате к चाप्यङ्गमध्ये есть вариант D च",
+    "paragraphs": [
+     "8. Муктасана и Гомукхасана, стихи 44–46. В аппарате к चाप्यङ्गमध्ये есть вариант D च हस्तमध्ये, а у E передан иной, не вполне ясный вариант. В следующем стихе для विगृह्य указан вариант प्रगृह्य у D. Основное чтение оставлено без замены."
+    ]
+   },
+   {
+    "type": "note",
+    "label": "9. Стих 47. Форма सानिभिश्च в печатном тексте неясна. Переведены только грамматически",
+    "paragraphs": [
+     "9. Стих 47. Форма सानिभिश्च в печатном тексте неясна. Переведены только грамматически различимые части; смысл последнего слова не реконструируется."
+    ]
+   },
+   {
+    "type": "note",
+    "label": "10.Историческое значение названий. Переводы «поза льва», «поза павлина», «поза",
+    "paragraphs": [
+     "10.Историческое значение названий. Переводы «поза льва», «поза павлина», «поза коровьей морды» передают значения санскритских названий, но не утверждают полного тождества этих старых описаний с современными асанами, носящими те же названия. В научной литературе отмечаются значительные вариации описаний поз в разных текстах и эпохах 5.",
+     "«Ахирбудхнья-самхиты» с проверкой чтений по печатному изданию 1916 года и с отдельной ссылкой на современные толкования только там, где это явно оговорено."
+    ]
+   }
+  ],
+  "en": [
+   {
+    "type": "note",
+    "label": "1. Number of āsanas. The eleven principal poses are listed in verses 31–32 of the",
+    "paragraphs": [
+     "1. Number of āsanas. The eleven principal poses are listed in verses 31–32 of the Ahirbudhnya-saṃhitā itself. Schrader also notes eleven principal āsanas in his survey of the chapter 6."
+    ]
+   },
+   {
+    "type": "note",
+    "label": "2. Verse numbering. Some verse numbers are omitted or not recognized by OCR in the",
+    "paragraphs": [
+     "2. Verse numbering. Some verse numbers are omitted or not recognized by OCR in the supplied transcription. For Mayūrāsana, Wujastyk’s scholarly publication explicitly gives verses 36–37; for Siṃhāsana, 42–43; Muktāsana is divided into 44–45ab, and Gomukhāsana into 45cd–46 5. Thus verse 45 in the printed sequence falls across the boundary between two pose names."
+    ]
+   },
+   {
+    "type": "note",
+    "label": "3. The Kūrmāsana verse. The OCR of the supplied file incorrectly reads निपीय; the printed",
+    "paragraphs": [
+     "3. The Kūrmāsana verse. The OCR of the supplied file incorrectly reads निपीय; the printed original has निपीड्य (nipīḍya). This is a reading checked against the scan, not a conjectural emendation."
+    ]
+   },
+   {
+    "type": "note",
+    "label": "4. Mayūrāsana, verses 36–37. The apparatus gives निरुध्य (D) in the first verse instead of",
+    "paragraphs": [
+     "4. Mayūrāsana, verses 36–37. The apparatus gives निरुध्य (D) in the first verse instead of अवष्टभ्य; E offers an alternative reading for the words describing the sides of the navel region. In verse 37, manuscripts E/F read मुच्यते instead of इष्यते, and B/C read निबर्हणम् instead of निवारणम्. The main printed readings are retained in the translation."
+    ]
+   },
+   {
+    "type": "note",
+    "label": "5. Vīrāsana, verse 39. The line पादमेकमैथेतरम् is left unemended; in the IAST and Cyrillic",
+    "paragraphs": [
+     "5. Vīrāsana, verse 39. The line पादमेकमैथेतरम् is left unemended; in the IAST and Cyrillic transliterations its place is marked as unclear. Its literal structure does not reliably establish the precise sequence of sides. Wujastyk’s comparison with the description in the Vimānārcanākalpa is cited only as an external scholarly parallel, not as an emendation to the text."
+    ]
+   },
+   {
+    "type": "note",
+    "label": "6. Bhadrāsana, verse 41. The reading निवेश्यापदे is retained as printed; अपदे cannot be",
+    "paragraphs": [
+     "6. Bhadrāsana, verse 41. The reading निवेश्यापदे is retained as printed; अपदे cannot be interpreted with confidence here. The object of “having secured / bound with both hands” is also not stated explicitly."
+    ]
+   },
+   {
+    "type": "note",
+    "label": "7. Siṃhāsana, verses 42–43. Part of the word व्यात्तवक्त्रो is damaged or missing in the supplied",
+    "paragraphs": [
+     "7. Siṃhāsana, verses 42–43. Part of the word व्यात्तवक्त्रो is damaged or missing in the supplied transcription; the printed page permits it to be read as “with the mouth wide open.” This is a check against the printed original, not an addition from another text."
+    ]
+   },
+   {
+    "type": "note",
+    "label": "8. Muktāsana and Gomukhāsana, verses 44–46. The apparatus gives D’s variant च हस्तमध्ये for",
+    "paragraphs": [
+     "8. Muktāsana and Gomukhāsana, verses 44–46. The apparatus gives D’s variant च हस्तमध्ये for चाप्यङ्गमध्ये; E has another, not fully clear reading. In the next verse D reads प्रगृह्य for विगृह्य. The main reading is retained unchanged."
+    ]
+   },
+   {
+    "type": "note",
+    "label": "9. Verse 47. The form सानिभिश्च is unclear in the printed text. Only the grammatically",
+    "paragraphs": [
+     "9. Verse 47. The form सानिभिश्च is unclear in the printed text. Only the grammatically discernible parts are translated; the meaning of the final word is not reconstructed."
+    ]
+   },
+   {
+    "type": "note",
+    "label": "10.Historical meanings of the names. The translations “lion pose,” “peacock pose,” and",
+    "paragraphs": [
+     "10.Historical meanings of the names. The translations “lion pose,” “peacock pose,” and “cow-face pose” convey the meanings of the Sanskrit names but do not claim that these old descriptions are identical to modern āsanas bearing the same names. Scholarly literature notes substantial variation in descriptions of poses across texts and periods 5. XXXI, checked against the 1916 printed edition; modern interpretations are referenced only where explicitly noted."
+    ]
+   }
+  ]
+ },
+ "notesTitle": {
+  "ru": "Примечания к чтениям и переводам",
+  "en": "Notes on Readings and Translations"
+ },
+ "closing": {
+  "ru": [
+   "Перевод и пословный разбор выполнены по приложенной транскрипции XXXI главы"
+  ],
+  "en": [
+   "This translation and word-by-word analysis are based on the supplied transcription of chapter"
+  ]
+ },
+ "poses": [
+  {
+   "key": "cakrasana",
+   "iast": "cakrāsanam",
+   "number": 1,
+   "name": {
+    "ru": "Чакрасана",
+    "en": "Cakrāsana"
+   },
+   "gloss": {
+    "ru": "«Поза колеса»",
+    "en": "“Wheel Pose”"
+   },
+   "verses": {
+    "ru": "стих 33",
+    "en": "verse 33"
+   },
+   "text": {
+    "ru": [
+     {
+      "type": "verse",
+      "key": "deva",
+      "label": "Деванагари",
+      "lines": [
+       "सव्योरुं दक्षिणे गुल्फे दक्षिणं दक्षिणेतरे ।",
+       "निदध्यादृजुकायस्तु चक्रासनमिदं परम् ॥३३॥"
+      ]
+     },
+     {
+      "type": "verse",
+      "key": "iast",
+      "label": "IAST",
+      "lines": [
+       "savyoruṃ dakṣiṇe gulphe dakṣiṇaṃ dakṣiṇetare ।",
+       "nidadhyād ṛjukāyas tu cakrāsanam idaṃ param ॥33॥"
+      ]
+     },
+     {
+      "type": "verse",
+      "key": "cyr",
+      "label": "Кириллическая транслитерация",
+      "lines": [
+       "савйорум̇ дакшин̣е гулпхе дакшин̣ам̇ дакшин̣етаре ।",
+       "нидадхйāд р̣джукāйас ту чакрāсанам идам̇ парам ॥33॥"
+      ]
+     },
+     {
+      "type": "words",
+      "label": "Пословный разбор",
+      "text": "savya-ūruṃ — левое бедро; dakṣiṇe gulphe — на правой лодыжке; dakṣiṇaṃ — правое [бедро; существительное подразумевается]; dakṣiṇa-itare — на другой, то есть не правой, стороне [слово, к которому относится форма, прямо не повторено]; nidadhyāt — пусть поместит; ṛju-kāyaḥ — с прямым телом; tu — же, воистину; cakrāsanam idam param — эта высшая Чакрасана.",
+      "pairs": [
+       [
+        "savya-ūruṃ",
+        "левое бедро"
+       ],
+       [
+        "dakṣiṇe gulphe",
+        "на правой лодыжке"
+       ],
+       [
+        "dakṣiṇaṃ",
+        "правое [бедро; существительное подразумевается]"
+       ],
+       [
+        "dakṣiṇa-itare",
+        "на другой, то есть не правой, стороне [слово, к которому относится форма, прямо не повторено]"
+       ],
+       [
+        "nidadhyāt",
+        "пусть поместит"
+       ],
+       [
+        "ṛju-kāyaḥ",
+        "с прямым телом"
+       ],
+       [
+        "tu",
+        "же, воистину"
+       ],
+       [
+        "cakrāsanam idam param",
+        "эта высшая Чакрасана."
+       ]
+      ]
+     },
+     {
+      "type": "prose",
+      "label": "Буквальный перевод",
+      "paragraphs": [
+       "Пусть поместит левое бедро на правую лодыжку, а правое [бедро] — на другую [лодыжку / сторону]; [пусть пребывает] с прямым телом. Это высшая Чакрасана."
+      ],
+      "key": "literal"
+     },
+     {
+      "type": "prose",
+      "label": "Литературный перевод",
+      "paragraphs": [
+       "Чакрасана — «Поза колеса». Текст говорит о размещении левого бедра у правой лодыжки и правого — у противоположной стороны, при прямом положении тела. Вторая половина описания грамматически сжата: слово «лодыжка» после «правое» не повторено, поэтому точную конфигурацию без конъектуры устанавливать нельзя."
+      ],
+      "key": "literary"
+     }
+    ],
+    "en": [
+     {
+      "type": "verse",
+      "key": "deva",
+      "label": "Devanāgarī",
+      "lines": [
+       "सव्योरुं दक्षिणे गुल्फे दक्षिणं दक्षिणेतरे ।",
+       "निदध्यादृजुकायस्तु चक्रासनमिदं परम् ॥३३॥"
+      ]
+     },
+     {
+      "type": "verse",
+      "key": "iast",
+      "label": "IAST",
+      "lines": [
+       "savyoruṃ dakṣiṇe gulphe dakṣiṇaṃ dakṣiṇetare ।",
+       "nidadhyād ṛjukāyas tu cakrāsanam idaṃ param ॥33॥"
+      ]
+     },
+     {
+      "type": "verse",
+      "key": "cyr",
+      "label": "Cyrillic transliteration",
+      "lines": [
+       "савйорум̇ дакшин̣е гулпхе дакшин̣ам̇ дакшин̣етаре ।",
+       "нидадхйāд р̣джукāйас ту чакрāсанам идам̇ парам ॥33॥"
+      ]
+     },
+     {
+      "type": "words",
+      "label": "Word-by-word analysis",
+      "text": "savya-ūruṃ — the left thigh; dakṣiṇe gulphe — on the right ankle; dakṣiṇaṃ — the right [thigh; the noun is implied]; dakṣiṇa-itare — on the other, i.e. non-right, side [the noun modified is not repeated]; nidadhyāt — let him place; ṛju-kāyaḥ — with the body erect; tu — indeed; cakrāsanam idam param — this supreme Cakrāsana.",
+      "pairs": [
+       [
+        "savya-ūruṃ",
+        "the left thigh"
+       ],
+       [
+        "dakṣiṇe gulphe",
+        "on the right ankle"
+       ],
+       [
+        "dakṣiṇaṃ",
+        "the right [thigh; the noun is implied]"
+       ],
+       [
+        "dakṣiṇa-itare",
+        "on the other, i.e. non-right, side [the noun modified is not repeated]"
+       ],
+       [
+        "nidadhyāt",
+        "let him place"
+       ],
+       [
+        "ṛju-kāyaḥ",
+        "with the body erect"
+       ],
+       [
+        "tu",
+        "indeed"
+       ],
+       [
+        "cakrāsanam idam param",
+        "this supreme Cakrāsana."
+       ]
+      ]
+     },
+     {
+      "type": "prose",
+      "label": "Literal translation",
+      "paragraphs": [
+       "Let him place the left thigh on the right ankle, and the right [thigh] on the other [ankle / side]; [he should remain] with the body erect. This is the supreme Cakrāsana."
+      ],
+      "key": "literal"
+     },
+     {
+      "type": "prose",
+      "label": "Literary translation",
+      "paragraphs": [
+       "Cakrāsana — “Wheel Pose.” The text describes placing the left thigh by the right ankle and the right thigh on the opposite side, with the body held straight. The second half of the description is grammatically compressed: the word “ankle” is not repeated after “right,” so the exact configuration cannot be established without conjecture."
+      ],
+      "key": "literary"
+     }
+    ]
+   }
+  },
+  {
+   "key": "padmasana",
+   "iast": "padmāsanam",
+   "number": 2,
+   "name": {
+    "ru": "Падмасана",
+    "en": "Padmāsana"
+   },
+   "gloss": {
+    "ru": "«Поза лотоса»",
+    "en": "“Lotus Pose”"
+   },
+   "verses": {
+    "ru": "стих 34",
+    "en": "verse 34"
+   },
+   "text": {
+    "ru": [
+     {
+      "type": "verse",
+      "key": "deva",
+      "label": "Деванагари",
+      "lines": [
+       "ऊर्वोरुपरि संस्थाप्य उभे पादतले सुखम् ।",
+       "पद्मासनमिदं प्रोक्तं सर्वकिल्बिषनाशनम् ॥३४॥"
+      ]
+     },
+     {
+      "type": "verse",
+      "key": "iast",
+      "label": "IAST",
+      "lines": [
+       "ūrvor upari saṃsthāpya ubhe pādatale sukham ।",
+       "padmāsanam idaṃ proktaṃ sarvakilbiṣanāśanam ॥34॥"
+      ]
+     },
+     {
+      "type": "verse",
+      "key": "cyr",
+      "label": "Кириллическая транслитерация",
+      "lines": [
+       "ӯрвор упари сам̇стхāпйа убхе пāдатале сукхам ।",
+       "падмāсанам идам̇ проктам̇ сарвакилбишанāш́анам ॥34॥"
+      ]
+     },
+     {
+      "type": "words",
+      "label": "Пословный разбор",
+      "text": "ūrvoḥ upari — поверх бёдер; saṃsthāpya — поместив; ubhe — обе; pādatale — подошвы стоп; sukham — удобно; padmāsanam — Падмасана; idam — эта; proktam — названа; sarva-kilbiṣa-nāśanam — уничтожающая все прегрешения.",
+      "pairs": [
+       [
+        "ūrvoḥ upari",
+        "поверх бёдер"
+       ],
+       [
+        "saṃsthāpya",
+        "поместив"
+       ],
+       [
+        "ubhe",
+        "обе"
+       ],
+       [
+        "pādatale",
+        "подошвы стоп"
+       ],
+       [
+        "sukham",
+        "удобно"
+       ],
+       [
+        "padmāsanam",
+        "Падмасана"
+       ],
+       [
+        "idam",
+        "эта"
+       ],
+       [
+        "proktam",
+        "названа"
+       ],
+       [
+        "sarva-kilbiṣa-nāśanam",
+        "уничтожающая все прегрешения."
+       ]
+      ]
+     },
+     {
+      "type": "prose",
+      "label": "Буквальный перевод",
+      "paragraphs": [
+       "Удобно поместив обе подошвы поверх бёдер, [йогин принимает] эту Падмасану, названную уничтожающей все прегрешения."
+      ],
+      "key": "literal"
+     },
+     {
+      "type": "prose",
+      "label": "Литературный перевод",
+      "paragraphs": [
+       "Падмасана — «Поза лотоса»: обе подошвы удобно располагают поверх бёдер. Текст называет эту позу уничтожающей все прегрешения; сторонность ног в данном стихе не уточняется."
+      ],
+      "key": "literary"
+     }
+    ],
+    "en": [
+     {
+      "type": "verse",
+      "key": "deva",
+      "label": "Devanāgarī",
+      "lines": [
+       "ऊर्वोरुपरि संस्थाप्य उभे पादतले सुखम् ।",
+       "पद्मासनमिदं प्रोक्तं सर्वकिल्बिषनाशनम् ॥३४॥"
+      ]
+     },
+     {
+      "type": "verse",
+      "key": "iast",
+      "label": "IAST",
+      "lines": [
+       "ūrvor upari saṃsthāpya ubhe pādatale sukham ।",
+       "padmāsanam idaṃ proktaṃ sarvakilbiṣanāśanam ॥34॥"
+      ]
+     },
+     {
+      "type": "verse",
+      "key": "cyr",
+      "label": "Cyrillic transliteration",
+      "lines": [
+       "ӯрвор упари сам̇стхāпйа убхе пāдатале сукхам ।",
+       "падмāсанам идам̇ проктам̇ сарвакилбишанāш́анам ॥34॥"
+      ]
+     },
+     {
+      "type": "words",
+      "label": "Word-by-word analysis",
+      "text": "ūrvoḥ upari — above the thighs; saṃsthāpya — having placed; ubhe — both; pādatale — the soles of the feet; sukham — comfortably; padmāsanam — Padmāsana; idam — this; proktam — is called; sarva-kilbiṣa-nāśanam — destroying all sins.",
+      "pairs": [
+       [
+        "ūrvoḥ upari",
+        "above the thighs"
+       ],
+       [
+        "saṃsthāpya",
+        "having placed"
+       ],
+       [
+        "ubhe",
+        "both"
+       ],
+       [
+        "pādatale",
+        "the soles of the feet"
+       ],
+       [
+        "sukham",
+        "comfortably"
+       ],
+       [
+        "padmāsanam",
+        "Padmāsana"
+       ],
+       [
+        "idam",
+        "this"
+       ],
+       [
+        "proktam",
+        "is called"
+       ],
+       [
+        "sarva-kilbiṣa-nāśanam",
+        "destroying all sins."
+       ]
+      ]
+     },
+     {
+      "type": "prose",
+      "label": "Literal translation",
+      "paragraphs": [
+       "Having comfortably placed both soles above the thighs, [the yogin assumes] this Padmāsana, said to destroy all sins."
+      ],
+      "key": "literal"
+     },
+     {
+      "type": "prose",
+      "label": "Literary translation",
+      "paragraphs": [
+       "Padmāsana — “Lotus Pose”: both soles are placed comfortably above the thighs. The verse calls this pose a destroyer of all sins; it does not specify which foot goes on which side."
+      ],
+      "key": "literary"
+     }
+    ]
+   }
+  },
+  {
+   "key": "kurmasana",
+   "iast": "kūrmāsanam",
+   "number": 3,
+   "name": {
+    "ru": "Курмасана",
+    "en": "Kūrmāsana"
+   },
+   "gloss": {
+    "ru": "«Поза черепахи»",
+    "en": "“Tortoise Pose”"
+   },
+   "verses": {
+    "ru": "стих 35",
+    "en": "verse 35"
+   },
+   "text": {
+    "ru": [
+     {
+      "type": "verse",
+      "key": "deva",
+      "label": "Деванагари",
+      "lines": [
+       "गुदं निपीड्य गुल्फाभ्यां व्युत्क्रमेण समाहितः ।",
+       "एतत्कूर्मासनं प्रोक्तं योगसिद्धिकरं परम् ॥३५॥"
+      ]
+     },
+     {
+      "type": "verse",
+      "key": "iast",
+      "label": "IAST",
+      "lines": [
+       "gudaṃ nipīḍya gulphābhyāṃ vyutkrameṇa samāhitaḥ ।",
+       "etat kūrmāsanaṃ proktaṃ yogasiddhikaraṃ param ॥35॥"
+      ]
+     },
+     {
+      "type": "verse",
+      "key": "cyr",
+      "label": "Кириллическая транслитерация",
+      "lines": [
+       "гудам̇ нипӣд̣йа гулпхāбхйāм̇ вйуткрамен̣а самāхитах̣ ।",
+       "етат кӯрмāсанам̇ проктам̇ йогасиддхикарам̇ парам ॥35॥"
+      ]
+     },
+     {
+      "type": "words",
+      "label": "Пословный разбор",
+      "text": "gudam — анус; nipīḍya — прижав, сдавив; gulphābhyām — двумя лодыжками / посредством обеих лодыжек; vyutkrameṇa — в обратной последовательности; samāhitaḥ — собранный, сосредоточенный; etat — эта; kūrmāsanam — Курмасана; proktam — названа; yoga-siddhi-karam — приносящая успех в йоге; param — высшая.",
+      "pairs": [
+       [
+        "gudam",
+        "анус"
+       ],
+       [
+        "nipīḍya",
+        "прижав, сдавив"
+       ],
+       [
+        "gulphābhyām",
+        "двумя лодыжками / посредством обеих лодыжек"
+       ],
+       [
+        "vyutkrameṇa",
+        "в обратной последовательности"
+       ],
+       [
+        "samāhitaḥ",
+        "собранный, сосредоточенный"
+       ],
+       [
+        "etat",
+        "эта"
+       ],
+       [
+        "kūrmāsanam",
+        "Курмасана"
+       ],
+       [
+        "proktam",
+        "названа"
+       ],
+       [
+        "yoga-siddhi-karam",
+        "приносящая успех в йоге"
+       ],
+       [
+        "param",
+        "высшая."
+       ]
+      ]
+     },
+     {
+      "type": "prose",
+      "label": "Буквальный перевод",
+      "paragraphs": [
+       "Прижав анус и [расположив ноги] с лодыжками в обратной последовательности, [йогин] сосредоточен. Эта Курмасана названа высшей, приносящей успех в йоге."
+      ],
+      "key": "literal"
+     },
+     {
+      "type": "prose",
+      "label": "Литературный перевод",
+      "paragraphs": [
+       "Курмасана — «Поза черепахи». В стихе сказано о прижатии ануса и обратном порядке расположения лодыжек; точная постановка ног не описана. Поза названа высшей и дарующей успех в йоге."
+      ],
+      "key": "literary"
+     },
+     {
+      "type": "note",
+      "label": "Примечание",
+      "paragraphs": [
+       "Примечание: В приложенной транскрипции чтение первого глагола распознано как «निपीय». На печатной странице читается «निपीड्य» (nipīḍya); в переводе принято именно печатное чтение."
+      ]
+     }
+    ],
+    "en": [
+     {
+      "type": "verse",
+      "key": "deva",
+      "label": "Devanāgarī",
+      "lines": [
+       "गुदं निपीड्य गुल्फाभ्यां व्युत्क्रमेण समाहितः ।",
+       "एतत्कूर्मासनं प्रोक्तं योगसिद्धिकरं परम् ॥३५॥"
+      ]
+     },
+     {
+      "type": "verse",
+      "key": "iast",
+      "label": "IAST",
+      "lines": [
+       "gudaṃ nipīḍya gulphābhyāṃ vyutkrameṇa samāhitaḥ ।",
+       "etat kūrmāsanaṃ proktaṃ yogasiddhikaraṃ param ॥35॥"
+      ]
+     },
+     {
+      "type": "verse",
+      "key": "cyr",
+      "label": "Cyrillic transliteration",
+      "lines": [
+       "гудам̇ нипӣд̣йа гулпхāбхйāм̇ вйуткрамен̣а самāхитах̣ ।",
+       "етат кӯрмāсанам̇ проктам̇ йогасиддхикарам̇ парам ॥35॥"
+      ]
+     },
+     {
+      "type": "words",
+      "label": "Word-by-word analysis",
+      "text": "gudam — the anus; nipīḍya — having pressed, compressed; gulphābhyām — with both ankles / by means of both ankles; vyutkrameṇa — in reverse order; samāhitaḥ — composed, concentrated; etat — this; kūrmāsanam — Kūrmāsana; proktam — is said to be; yoga-siddhi-karam — bringing success in yoga; param — supreme.",
+      "pairs": [
+       [
+        "gudam",
+        "the anus"
+       ],
+       [
+        "nipīḍya",
+        "having pressed, compressed"
+       ],
+       [
+        "gulphābhyām",
+        "with both ankles / by means of both ankles"
+       ],
+       [
+        "vyutkrameṇa",
+        "in reverse order"
+       ],
+       [
+        "samāhitaḥ",
+        "composed, concentrated"
+       ],
+       [
+        "etat",
+        "this"
+       ],
+       [
+        "kūrmāsanam",
+        "Kūrmāsana"
+       ],
+       [
+        "proktam",
+        "is said to be"
+       ],
+       [
+        "yoga-siddhi-karam",
+        "bringing success in yoga"
+       ],
+       [
+        "param",
+        "supreme."
+       ]
+      ]
+     },
+     {
+      "type": "prose",
+      "label": "Literal translation",
+      "paragraphs": [
+       "Having pressed the anus and [placed the legs] with the ankles in reverse order, [the yogin] is composed. This Kūrmāsana is said to be supreme and to bring success in yoga."
+      ],
+      "key": "literal"
+     },
+     {
+      "type": "prose",
+      "label": "Literary translation",
+      "paragraphs": [
+       "Kūrmāsana — “Tortoise Pose.” The verse mentions pressing the anus and arranging the ankles in reverse order, but does not describe the precise placement of the legs. The pose is called supreme and conducive to success in yoga."
+      ],
+      "key": "literary"
+     },
+     {
+      "type": "note",
+      "label": "Note",
+      "paragraphs": [
+       "Note: In the supplied transcription, the first verb is read as “निपीय”. The printed page reads “निपीड्य” (nipīḍya); the translation follows the printed reading."
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "key": "mayurasana",
+   "iast": "māyūrāsanam",
+   "number": 4,
+   "name": {
+    "ru": "Майурасана",
+    "en": "Mayūrāsana"
+   },
+   "gloss": {
+    "ru": "«Поза павлина»",
+    "en": "“Peacock Pose”"
+   },
+   "verses": {
+    "ru": "стихи 36–37",
+    "en": "verses 36–37"
+   },
+   "text": {
+    "ru": [
+     {
+      "type": "verse",
+      "key": "deva",
+      "label": "Деванагари",
+      "lines": [
+       "निवेश्य कूर्परौ सम्यङ्नाभिमण्डलपार्श्वयोः ।",
+       "अवष्टभ्य भुवं पाणितलाभ्यां व्योम्नि दण्डवत् ॥",
+       "समोन्नतशिरः पादो मायूरासनमिष्यते ।",
+       "एतत्सर्विषघ्नं च सर्व्याधिनिवारणम् ॥३७॥"
+      ]
+     },
+     {
+      "type": "verse",
+      "key": "iast",
+      "label": "IAST",
+      "lines": [
+       "niveśya kūrparau samyaṅ nābhimaṇḍalapārśvayoḥ ।",
+       "avaṣṭabhya bhuvaṃ pāṇitalābhyāṃ vyomni daṇḍavat ॥",
+       "samonnataśiraḥ pādo māyūrāsanam iṣyate ।",
+       "etat sarvaviṣaghnaṃ ca sarvavyādhinivāraṇam ॥37॥"
+      ]
+     },
+     {
+      "type": "verse",
+      "key": "cyr",
+      "label": "Кириллическая транслитерация",
+      "lines": [
+       "нивеш́йа кӯрпарау самйан̇ нāбхиман̣д̣алапāрш́вайох̣ ।",
+       "авашт̣абхйа бхувам̇ пāниталāбхйāм̇ вйомни дан̣д̣ават ॥",
+       "самонната-ш́ирах̣ пāдо мāйӯрāсанам ишйате ।",
+       "етат сарвавишагхнам̇ ча сарвавйāдхинивāран̣ам ॥37॥"
+      ]
+     },
+     {
+      "type": "words",
+      "label": "Пословный разбор",
+      "text": "niveśya — поместив; kūrparau — оба локтя; samyak / samyaṅ — как следует; nābhi-maṇḍala-pārśvayoḥ — по обе стороны области пупка; avaṣṭabhya — опираясь, упершись; bhuvam — в землю; pāṇi-talābhyām — обеими ладонями; vyomni — в воздухе; daṇḍa-vat — подобно палке, стержню. Sam-unnata-śiraḥ-pādaḥ — [тот, у кого] голова и стопы подняты одинаково; māyūrāsanam — Майурасана; iṣyate — считается, называется; etat — эта; sarva-viṣa-ghnam — уничтожающая / нейтрализующая все яды; ca — и; sarva-vyādhi-nivāraṇam — устраняющая все болезни.",
+      "pairs": [
+       [
+        "niveśya",
+        "поместив"
+       ],
+       [
+        "kūrparau",
+        "оба локтя"
+       ],
+       [
+        "samyak / samyaṅ",
+        "как следует"
+       ],
+       [
+        "nābhi-maṇḍala-pārśvayoḥ",
+        "по обе стороны области пупка"
+       ],
+       [
+        "avaṣṭabhya",
+        "опираясь, упершись"
+       ],
+       [
+        "bhuvam",
+        "в землю"
+       ],
+       [
+        "pāṇi-talābhyām",
+        "обеими ладонями"
+       ],
+       [
+        "vyomni",
+        "в воздухе"
+       ],
+       [
+        "daṇḍa-vat",
+        "подобно палке, стержню."
+       ],
+       [
+        "Sam-unnata-śiraḥ-pādaḥ",
+        "[тот, у кого] голова и стопы подняты одинаково"
+       ],
+       [
+        "māyūrāsanam",
+        "Майурасана"
+       ],
+       [
+        "iṣyate",
+        "считается, называется"
+       ],
+       [
+        "etat",
+        "эта"
+       ],
+       [
+        "sarva-viṣa-ghnam",
+        "уничтожающая / нейтрализующая все яды"
+       ],
+       [
+        "ca",
+        "и"
+       ],
+       [
+        "sarva-vyādhi-nivāraṇam",
+        "устраняющая все болезни."
+       ]
+      ]
+     },
+     {
+      "type": "prose",
+      "label": "Буквальный перевод",
+      "paragraphs": [
+       "Правильно поместив оба локтя по бокам области пупка и опираясь обеими ладонями о землю, [йогин держит тело] в воздухе подобно стержню. Когда голова и стопы подняты на один уровень, это считается Майурасаной. Она уничтожает все яды и устраняет все болезни."
+      ],
+      "key": "literal"
+     },
+     {
+      "type": "prose",
+      "label": "Литературный перевод",
+      "paragraphs": [
+       "Майурасана — «Поза павлина». Локти располагаются по обе стороны области пупка, а опора приходится на обе ладони. Тело уподоблено стержню, находящемуся в воздухе; голова и стопы подняты одинаково. Текст приписывает позе устранение ядов и болезней."
+      ],
+      "key": "literary"
+     },
+     {
+      "type": "note",
+      "label": "Примечание к вариантам издания",
+      "paragraphs": [
+       "Примечание к вариантам издания: в аппарате к первой половине дано чтение निरुध्य у D вместо अवष्टभ्य; у E имеется альтернативное чтение для слов о боках области пупка. В стихе 37 рукописи E/F дают मुच्यते вместо इष्यते, а B/C — निबर्हणम् вместо निवारणम्. Основной текст оставлен по печатному чтению; варианты не включены в перевод как установленная поправка."
+      ]
+     }
+    ],
+    "en": [
+     {
+      "type": "verse",
+      "key": "deva",
+      "label": "Devanāgarī",
+      "lines": [
+       "निवेश्य कूर्परौ सम्यङ्नाभिमण्डलपार्श्वयोः ।",
+       "अवष्टभ्य भुवं पाणितलाभ्यां व्योम्नि दण्डवत् ॥",
+       "समोन्नतशिरः पादो मायूरासनमिष्यते ।",
+       "एतत्सर्विषघ्नं च सर्व्याधिनिवारणम् ॥३७॥"
+      ]
+     },
+     {
+      "type": "verse",
+      "key": "iast",
+      "label": "IAST",
+      "lines": [
+       "niveśya kūrparau samyaṅ nābhimaṇḍalapārśvayoḥ ।",
+       "avaṣṭabhya bhuvaṃ pāṇitalābhyāṃ vyomni daṇḍavat ॥",
+       "samonnataśiraḥ pādo māyūrāsanam iṣyate ।",
+       "etat sarvaviṣaghnaṃ ca sarvavyādhinivāraṇam ॥37॥"
+      ]
+     },
+     {
+      "type": "verse",
+      "key": "cyr",
+      "label": "Cyrillic transliteration",
+      "lines": [
+       "нивеш́йа кӯрпарау самйан̇ нāбхиман̣д̣алапāрш́вайох̣ ।",
+       "авашт̣абхйа бхувам̇ пāниталāбхйāм̇ вйомни дан̣д̣ават ॥",
+       "самонната-ш́ирах̣ пāдо мāйӯрāсанам ишйате ।",
+       "етат сарвавишагхнам̇ ча сарвавйāдхинивāран̣ам ॥37॥"
+      ]
+     },
+     {
+      "type": "words",
+      "label": "Word-by-word analysis",
+      "text": "niveśya — having placed; kūrparau — both elbows; samyak / samyaṅ — properly; nābhi-maṇḍala-pārśvayoḥ — on either side of the navel region; avaṣṭabhya — leaning on, bracing against; bhuvam — the ground; pāṇi-talābhyām — with both palms; vyomni — in the air; daṇḍa-vat — like a rod or staff. Sam-unnata-śiraḥ-pādaḥ — [one whose] head and feet are raised to the same level; māyūrāsanam — Mayūrāsana; iṣyate — is considered, is called; etat — this; sarva-viṣa-ghnam — destroying / neutralizing all poisons; ca — and; sarva-vyādhi-nivāraṇam — removing all diseases.",
+      "pairs": [
+       [
+        "niveśya",
+        "having placed"
+       ],
+       [
+        "kūrparau",
+        "both elbows"
+       ],
+       [
+        "samyak / samyaṅ",
+        "properly"
+       ],
+       [
+        "nābhi-maṇḍala-pārśvayoḥ",
+        "on either side of the navel region"
+       ],
+       [
+        "avaṣṭabhya",
+        "leaning on, bracing against"
+       ],
+       [
+        "bhuvam",
+        "the ground"
+       ],
+       [
+        "pāṇi-talābhyām",
+        "with both palms"
+       ],
+       [
+        "vyomni",
+        "in the air"
+       ],
+       [
+        "daṇḍa-vat",
+        "like a rod or staff."
+       ],
+       [
+        "Sam-unnata-śiraḥ-pādaḥ",
+        "[one whose] head and feet are raised to the same level"
+       ],
+       [
+        "māyūrāsanam",
+        "Mayūrāsana"
+       ],
+       [
+        "iṣyate",
+        "is considered, is called"
+       ],
+       [
+        "etat",
+        "this"
+       ],
+       [
+        "sarva-viṣa-ghnam",
+        "destroying / neutralizing all poisons"
+       ],
+       [
+        "ca",
+        "and"
+       ],
+       [
+        "sarva-vyādhi-nivāraṇam",
+        "removing all diseases."
+       ]
+      ]
+     },
+     {
+      "type": "prose",
+      "label": "Literal translation",
+      "paragraphs": [
+       "Having properly placed both elbows at the sides of the navel region and braced against the ground with both palms, [the yogin holds the body] in the air like a staff. When the head and feet are raised to the same level, this is considered Mayūrāsana. It destroys all poisons and removes all diseases."
+      ],
+      "key": "literal"
+     },
+     {
+      "type": "prose",
+      "label": "Literary translation",
+      "paragraphs": [
+       "Mayūrāsana — “Peacock Pose.” The elbows are placed on either side of the navel region, with the body supported by both palms. The body is compared to a staff held in the air; the head and feet are raised to the same level. The text attributes to the pose the removal of poisons and diseases."
+      ],
+      "key": "literary"
+     },
+     {
+      "type": "note",
+      "label": "Note on the edition’s variants",
+      "paragraphs": [
+       "Note on the edition’s variants: the apparatus gives निरुध्य in D instead of अवष्टभ्य in the first half; E has an alternative reading for the words describing the sides of the navel region. In verse 37, manuscripts E/F read मुच्यते instead of इष्यते, while B/C read निबर्हणम् instead of निवारणम्. The main printed reading is retained; the variants are not adopted as established emendations."
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "key": "kukkutasana",
+   "iast": "kukkuṭāsanam",
+   "number": 5,
+   "name": {
+    "ru": "Куккутасана",
+    "en": "Kukkuṭāsana"
+   },
+   "gloss": {
+    "ru": "«Поза петуха»",
+    "en": "“Rooster Pose”"
+   },
+   "verses": {
+    "ru": "следующий стих после 37-го",
+    "en": "the verse following 37"
+   },
+   "text": {
+    "ru": [
+     {
+      "type": "verse",
+      "key": "deva",
+      "label": "Деванагари",
+      "lines": [
+       "पद्मासनमधिष्ठाय जान्वन्तरविनिःसृतौ ।",
+       "करौ भूमौ निवेश्यैतद्व्योमस्थं कुक्कुटासनम् ॥"
+      ]
+     },
+     {
+      "type": "verse",
+      "key": "iast",
+      "label": "IAST",
+      "lines": [
+       "padmāsanam adhiṣṭhāya jānvantaraviniḥsṛtau ।",
+       "karau bhūmau niveśyaitad vyomasthaṃ kukkuṭāsanam ॥"
+      ]
+     },
+     {
+      "type": "verse",
+      "key": "cyr",
+      "label": "Кириллическая транслитерация",
+      "lines": [
+       "падмāсанам адхишт̣хāйа джāнвантаравиних̣ср̣тау ।",
+       "карау бхӯмау нивеш́йаитад вйомастхам̇ куккут̣āсанам ॥"
+      ]
+     },
+     {
+      "type": "words",
+      "label": "Пословный разбор",
+      "text": "padmāsanam adhiṣṭhāya — приняв Падмасану; jānu-antara — между коленями; viniḥsṛtau — выступающие наружу, выведенные; karau — обе руки; bhūmau — на землю; niveśya — поместив; etat — это; vyoma-stham — находящееся в воздухе; kukkuṭāsanam — Куккутасана.",
+      "pairs": [
+       [
+        "padmāsanam adhiṣṭhāya",
+        "приняв Падмасану"
+       ],
+       [
+        "jānu-antara",
+        "между коленями"
+       ],
+       [
+        "viniḥsṛtau",
+        "выступающие наружу, выведенные"
+       ],
+       [
+        "karau",
+        "обе руки"
+       ],
+       [
+        "bhūmau",
+        "на землю"
+       ],
+       [
+        "niveśya",
+        "поместив"
+       ],
+       [
+        "etat",
+        "это"
+       ],
+       [
+        "vyoma-stham",
+        "находящееся в воздухе"
+       ],
+       [
+        "kukkuṭāsanam",
+        "Куккутасана."
+       ]
+      ]
+     },
+     {
+      "type": "prose",
+      "label": "Буквальный перевод",
+      "paragraphs": [
+       "Приняв Падмасану, [йогин] выводит обе руки между коленями и помещает их на землю; это — Куккутасана, пребывающая в воздухе."
+      ],
+      "key": "literal"
+     },
+     {
+      "type": "prose",
+      "label": "Литературный перевод",
+      "paragraphs": [
+       "Куккутасана — «Поза петуха». Из положения Падмасаны руки выводятся между коленями и ставятся на землю; поза описана как находящаяся в воздухе."
+      ],
+      "key": "literary"
+     },
+     {
+      "type": "note",
+      "label": "Примечание",
+      "paragraphs": [
+       "Примечание: В приложенной транскрипции номер у этого стиха не виден. По последовательности между стихами 37 и 39 он соответствует стиху 38; номер в заголовке поэтому не утверждается как непосредственно прочитанный в файле."
+      ]
+     }
+    ],
+    "en": [
+     {
+      "type": "verse",
+      "key": "deva",
+      "label": "Devanāgarī",
+      "lines": [
+       "पद्मासनमधिष्ठाय जान्वन्तरविनिःसृतौ ।",
+       "करौ भूमौ निवेश्यैतद्व्योमस्थं कुक्कुटासनम् ॥"
+      ]
+     },
+     {
+      "type": "verse",
+      "key": "iast",
+      "label": "IAST",
+      "lines": [
+       "padmāsanam adhiṣṭhāya jānvantaraviniḥsṛtau ।",
+       "karau bhūmau niveśyaitad vyomasthaṃ kukkuṭāsanam ॥"
+      ]
+     },
+     {
+      "type": "verse",
+      "key": "cyr",
+      "label": "Cyrillic transliteration",
+      "lines": [
+       "падмāсанам адхишт̣хāйа джāнвантаравиних̣ср̣тау ।",
+       "карау бхӯмау нивеш́йаитад вйомастхам̇ куккут̣āсанам ॥"
+      ]
+     },
+     {
+      "type": "words",
+      "label": "Word-by-word analysis",
+      "text": "padmāsanam adhiṣṭhāya — having assumed Padmāsana; jānu-antara — between the knees; viniḥsṛtau — projecting outward, extended out; karau — both hands; bhūmau — on the ground; niveśya — having placed; etat — this; vyoma-stham — suspended in the air; kukkuṭāsanam — Kukkuṭāsana.",
+      "pairs": [
+       [
+        "padmāsanam adhiṣṭhāya",
+        "having assumed Padmāsana"
+       ],
+       [
+        "jānu-antara",
+        "between the knees"
+       ],
+       [
+        "viniḥsṛtau",
+        "projecting outward, extended out"
+       ],
+       [
+        "karau",
+        "both hands"
+       ],
+       [
+        "bhūmau",
+        "on the ground"
+       ],
+       [
+        "niveśya",
+        "having placed"
+       ],
+       [
+        "etat",
+        "this"
+       ],
+       [
+        "vyoma-stham",
+        "suspended in the air"
+       ],
+       [
+        "kukkuṭāsanam",
+        "Kukkuṭāsana."
+       ]
+      ]
+     },
+     {
+      "type": "prose",
+      "label": "Literal translation",
+      "paragraphs": [
+       "Having assumed Padmāsana, [the yogin] brings both hands out between the knees and places them on the ground; this is Kukkuṭāsana, suspended in the air."
+      ],
+      "key": "literal"
+     },
+     {
+      "type": "prose",
+      "label": "Literary translation",
+      "paragraphs": [
+       "Kukkuṭāsana — “Rooster Pose.” From Padmāsana, the hands are brought out between the knees and placed on the ground; the pose is described as being suspended in the air."
+      ],
+      "key": "literary"
+     },
+     {
+      "type": "note",
+      "label": "Note",
+      "paragraphs": [
+       "Note: The verse number is not visible in the supplied transcription. By its position between verses 37 and 39, it corresponds to verse 38; the heading therefore does not present the number as directly legible in the file."
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "key": "virasana",
+   "iast": "vīrāsanam",
+   "number": 6,
+   "name": {
+    "ru": "Вирасана",
+    "en": "Vīrāsana"
+   },
+   "gloss": {
+    "ru": "«Поза героя»",
+    "en": "“Hero Pose”"
+   },
+   "verses": {
+    "ru": "стих 39",
+    "en": "verse 39"
+   },
+   "text": {
+    "ru": [
+     {
+      "type": "verse",
+      "key": "deva",
+      "label": "Деванагари",
+      "lines": [
+       "एकत्रोरुणि संस्थाप्य पादमेकमैथेतरम् ।",
+       "ऊरुं पादे निवेश्यैतद्वीरासनमुदाहृतम् ॥३९॥"
+      ]
+     },
+     {
+      "type": "verse",
+      "key": "iast",
+      "label": "IAST",
+      "lines": [
+       "ekatro ruṇi saṃsthāpya pādam ekam [чтение неясно] ।",
+       "ūruṃ pāde niveśyaitad vīrāsanam udāhṛtam ॥39॥"
+      ]
+     },
+     {
+      "type": "verse",
+      "key": "cyr",
+      "label": "Кириллическая транслитерация",
+      "lines": [
+       "екатро рун̣и сам̇стхāпйа пāдам екам [неясное чтение] ।",
+       "ӯрум̇ пāде нивеш́йаитад вӣрāсанам удāхр̣там ॥39॥"
+      ]
+     },
+     {
+      "type": "words",
+      "label": "Пословный разбор",
+      "text": "ekatra ūruṇi — у / на одном бедре; saṃsthāpya — поместив; pādam ekam — одну стопу; [после pādam ekam] — чтение неясно; ūruṃ — бедро; pāde — на стопе; niveśya — поместив; etat vīrāsanam — это Вирасана; udāhṛtam — называется.",
+      "pairs": [
+       [
+        "ekatra ūruṇi",
+        "у / на одном бедре"
+       ],
+       [
+        "saṃsthāpya",
+        "поместив"
+       ],
+       [
+        "pādam ekam",
+        "одну стопу [после pādam ekam] — чтение неясно"
+       ],
+       [
+        "ūruṃ",
+        "бедро"
+       ],
+       [
+        "pāde",
+        "на стопе"
+       ],
+       [
+        "niveśya",
+        "поместив"
+       ],
+       [
+        "etat vīrāsanam",
+        "это Вирасана"
+       ],
+       [
+        "udāhṛtam",
+        "называется."
+       ]
+      ]
+     },
+     {
+      "type": "prose",
+      "label": "Буквальный перевод",
+      "paragraphs": [
+       "Поместив [что-либо] у одного бедра и одну стопу … (чтение पादमेकमैथेतरम् неясно) …, поместив бедро на стопе, [это] называют Вирасаной."
+      ],
+      "key": "literal"
+     },
+     {
+      "type": "prose",
+      "label": "Литературный перевод",
+      "paragraphs": [
+       "Вирасана — «Поза героя». Сохранившаяся в издании строка, по-видимому, описывает взаимное расположение стопы и бедра, но её первая половина не позволяет уверенно установить стороны и последовательность. Поэтому точная конфигурация здесь не реконструируется.",
+       "Д. Вьюстик также характеризует стих 31.39 как менее ясный, но, вероятно, близкий по смыслу к описанию Вирасаны в Vimānārcanākalpa: стопа помещается на бедро, а бедро — на стопу. Это именно сравнительное научное толкование, а не чтение, которое можно бесспорно вывести из неясной строки Ахирбудхнья-самхиты 5."
+      ],
+      "key": "literary"
+     }
+    ],
+    "en": [
+     {
+      "type": "verse",
+      "key": "deva",
+      "label": "Devanāgarī",
+      "lines": [
+       "एकत्रोरुणि संस्थाप्य पादमेकमैथेतरम् ।",
+       "ऊरुं पादे निवेश्यैतद्वीरासनमुदाहृतम् ॥३९॥"
+      ]
+     },
+     {
+      "type": "verse",
+      "key": "iast",
+      "label": "IAST",
+      "lines": [
+       "ekatro ruṇi saṃsthāpya pādam ekam [reading unclear] ।",
+       "ūruṃ pāde niveśyaitad vīrāsanam udāhṛtam ॥39॥"
+      ]
+     },
+     {
+      "type": "verse",
+      "key": "cyr",
+      "label": "Cyrillic transliteration",
+      "lines": [
+       "екатро рун̣и сам̇стхāпйа пāдам екам [unclear reading] ।",
+       "ӯрум̇ пāде нивеш́йаитад вӣрāсанам удāхр̣там ॥39॥"
+      ]
+     },
+     {
+      "type": "words",
+      "label": "Word-by-word analysis",
+      "text": "ekatra ūruṇi — at / on one thigh; saṃsthāpya — having placed; pādam ekam — one foot; [after pādam ekam] — reading unclear; ūruṃ — the thigh; pāde — on the foot; niveśya — having placed; etat vīrāsanam — this is Vīrāsana; udāhṛtam — is called.",
+      "pairs": [
+       [
+        "ekatra ūruṇi",
+        "at / on one thigh"
+       ],
+       [
+        "saṃsthāpya",
+        "having placed"
+       ],
+       [
+        "pādam ekam",
+        "one foot"
+       ],
+       [
+        "[after pādam ekam]",
+        "reading unclear"
+       ],
+       [
+        "ūruṃ",
+        "the thigh"
+       ],
+       [
+        "pāde",
+        "on the foot"
+       ],
+       [
+        "niveśya",
+        "having placed"
+       ],
+       [
+        "etat vīrāsanam",
+        "this is Vīrāsana"
+       ],
+       [
+        "udāhṛtam",
+        "is called."
+       ]
+      ]
+     },
+     {
+      "type": "prose",
+      "label": "Literal translation",
+      "paragraphs": [
+       "Having placed [something] by one thigh and one foot … (the reading पादमेकमैथेतरम् is unclear) …, having placed the thigh on the foot, [this] is called Vīrāsana."
+      ],
+      "key": "literal"
+     },
+     {
+      "type": "prose",
+      "label": "Literary translation",
+      "paragraphs": [
+       "Vīrāsana — “Hero Pose.” The line preserved in the edition appears to describe the relative positions of a foot and a thigh, but its first half does not allow the sides or sequence to be established with confidence. The exact configuration is therefore not reconstructed here.",
+       "D. Wujastyk likewise describes verse 31.39 as less clear, but probably close in meaning to the description of Vīrāsana in the Vimānārcanākalpa: a foot is placed on a thigh, and a thigh on a foot. This is a comparative scholarly interpretation, not a reading that can be derived unambiguously from the unclear line of the Ahirbudhnya-saṃhitā 5."
+      ],
+      "key": "literary"
+     }
+    ]
+   }
+  },
+  {
+   "key": "svastikasana",
+   "iast": "svastikam",
+   "number": 7,
+   "name": {
+    "ru": "Свастикасана",
+    "en": "Svastikāsana"
+   },
+   "gloss": {
+    "ru": "«Поза свастики / благого знака»",
+    "en": "“Swastika Pose / Auspicious Sign”"
+   },
+   "verses": {
+    "ru": "стих 40",
+    "en": "verse 40"
+   },
+   "text": {
+    "ru": [
+     {
+      "type": "verse",
+      "key": "deva",
+      "label": "Деванагари",
+      "lines": [
+       "उभे पादतले कृत्वा जानूर्वोरन्तरे दृढम् ।",
+       "ऋजुकायः समासीत स्वस्तिकं तत्प्रचक्षते ॥४०॥"
+      ]
+     },
+     {
+      "type": "verse",
+      "key": "iast",
+      "label": "IAST",
+      "lines": [
+       "ubhe pādatale kṛtvā jānūrv-or antare dṛḍham ।",
+       "ṛjukāyaḥ samāsīta svastikaṃ tat pracakṣate ॥40॥"
+      ]
+     },
+     {
+      "type": "verse",
+      "key": "cyr",
+      "label": "Кириллическая транслитерация",
+      "lines": [
+       "убхе пāдатале кр̣твā джāнӯрвор антаре др̣д̣хам ।",
+       "р̣джукāйах̣ самāсӣта свастикам̇ тат прачакшате ॥40॥"
+      ]
+     },
+     {
+      "type": "words",
+      "label": "Пословный разбор",
+      "text": "ubhe — обе; pādatale — подошвы стоп; kṛtvā — поместив; jānu-ūrvoḥ antare — между коленями и бёдрами; dṛḍham — прочно; ṛju-kāyaḥ — с прямым телом; samāsīta — пусть сидит; svastikam — Свастика; tat pracakṣate — так это называют.",
+      "pairs": [
+       [
+        "ubhe",
+        "обе"
+       ],
+       [
+        "pādatale",
+        "подошвы стоп"
+       ],
+       [
+        "kṛtvā",
+        "поместив"
+       ],
+       [
+        "jānu-ūrvoḥ antare",
+        "между коленями и бёдрами"
+       ],
+       [
+        "dṛḍham",
+        "прочно"
+       ],
+       [
+        "ṛju-kāyaḥ",
+        "с прямым телом"
+       ],
+       [
+        "samāsīta",
+        "пусть сидит"
+       ],
+       [
+        "svastikam",
+        "Свастика"
+       ],
+       [
+        "tat pracakṣate",
+        "так это называют."
+       ]
+      ]
+     },
+     {
+      "type": "prose",
+      "label": "Буквальный перевод",
+      "paragraphs": [
+       "Поместив обе подошвы прочно между коленями и бёдрами, пусть сидит с прямым телом; это называют Свастикасаной."
+      ],
+      "key": "literal"
+     },
+     {
+      "type": "prose",
+      "label": "Литературный перевод",
+      "paragraphs": [
+       "Свастикасана — обе подошвы прочно располагаются между коленями и бёдрами; тело держат прямым. В стихе не сказано отдельно, как именно перекрещиваются ноги."
+      ],
+      "key": "literary"
+     }
+    ],
+    "en": [
+     {
+      "type": "verse",
+      "key": "deva",
+      "label": "Devanāgarī",
+      "lines": [
+       "उभे पादतले कृत्वा जानूर्वोरन्तरे दृढम् ।",
+       "ऋजुकायः समासीत स्वस्तिकं तत्प्रचक्षते ॥४०॥"
+      ]
+     },
+     {
+      "type": "verse",
+      "key": "iast",
+      "label": "IAST",
+      "lines": [
+       "ubhe pādatale kṛtvā jānūrv-or antare dṛḍham ।",
+       "ṛjukāyaḥ samāsīta svastikaṃ tat pracakṣate ॥40॥"
+      ]
+     },
+     {
+      "type": "verse",
+      "key": "cyr",
+      "label": "Cyrillic transliteration",
+      "lines": [
+       "убхе пāдатале кр̣твā джāнӯрвор антаре др̣д̣хам ।",
+       "р̣джукāйах̣ самāсӣта свастикам̇ тат прачакшате ॥40॥"
+      ]
+     },
+     {
+      "type": "words",
+      "label": "Word-by-word analysis",
+      "text": "ubhe — both; pādatale — soles of the feet; kṛtvā — having placed; jānu-ūrvoḥ antare — between the knees and thighs; dṛḍham — firmly; ṛju-kāyaḥ — with the body straight; samāsīta — let him sit; svastikam — Svastika; tat pracakṣate — this is what it is called.",
+      "pairs": [
+       [
+        "ubhe",
+        "both"
+       ],
+       [
+        "pādatale",
+        "soles of the feet"
+       ],
+       [
+        "kṛtvā",
+        "having placed"
+       ],
+       [
+        "jānu-ūrvoḥ antare",
+        "between the knees and thighs"
+       ],
+       [
+        "dṛḍham",
+        "firmly"
+       ],
+       [
+        "ṛju-kāyaḥ",
+        "with the body straight"
+       ],
+       [
+        "samāsīta",
+        "let him sit"
+       ],
+       [
+        "svastikam",
+        "Svastika"
+       ],
+       [
+        "tat pracakṣate",
+        "this is what it is called."
+       ]
+      ]
+     },
+     {
+      "type": "prose",
+      "label": "Literal translation",
+      "paragraphs": [
+       "Having firmly placed both soles between the knees and thighs, let him sit with the body straight; this is called Svastikāsana."
+      ],
+      "key": "literal"
+     },
+     {
+      "type": "prose",
+      "label": "Literary translation",
+      "paragraphs": [
+       "In Svastikāsana, both soles are placed firmly between the knees and thighs, and the body is held straight. The verse does not separately state how the legs are crossed."
+      ],
+      "key": "literary"
+     }
+    ]
+   }
+  },
+  {
+   "key": "bhadrasana",
+   "iast": "bhadrāsanam",
+   "number": 8,
+   "name": {
+    "ru": "Бхадрасана",
+    "en": "Bhadrāsana"
+   },
+   "gloss": {
+    "ru": "«Благая поза»",
+    "en": "“Auspicious Pose”"
+   },
+   "verses": {
+    "ru": "стих 41",
+    "en": "verse 41"
+   },
+   "text": {
+    "ru": [
+     {
+      "type": "verse",
+      "key": "deva",
+      "label": "Деванагари",
+      "lines": [
+       "सीवन्याः पार्श्वयोर्गुल्फौ निवेश्यापदे दृढम् ।",
+       "बध्वा कराभ्यां तत्प्रोक्तं भद्रासनमघापहम् ॥४१॥"
+      ]
+     },
+     {
+      "type": "verse",
+      "key": "iast",
+      "label": "IAST",
+      "lines": [
+       "sīvanyāḥ pārśvayor gulphau niveśyāpade dṛḍham ।",
+       "badhvā karābhyāṃ tat proktaṃ bhadrāsanam aghāpaham ॥41॥"
+      ]
+     },
+     {
+      "type": "verse",
+      "key": "cyr",
+      "label": "Кириллическая транслитерация",
+      "lines": [
+       "сӣванйāх̣ пāрш́вайор гулпхау нивеш́йāпаде др̣д̣хам ।",
+       "бадхвā карāбхйāм̇ тат проктам̇ бхадрāсанам агхāпахам ॥41॥"
+      ]
+     },
+     {
+      "type": "words",
+      "label": "Пословный разбор",
+      "text": "sīvanyāḥ — шва; по контексту — промежностного шва; pārśvayoḥ — по обе стороны; gulphau — две лодыжки; niveśya — поместив; āpade — так напечатано; значение этого чтения в данной фразе неясно; dṛḍham — прочно; badhvā — «связав / закрепив» (печатная форма не исправляется); karābhyām — обеими руками; tat proktam — это названо; bhadrāsanam — Бхадрасана; agha-apaham — удаляющая грех / зло.",
+      "pairs": [
+       [
+        "sīvanyāḥ",
+        "шва по контексту — промежностного шва"
+       ],
+       [
+        "pārśvayoḥ",
+        "по обе стороны"
+       ],
+       [
+        "gulphau",
+        "две лодыжки"
+       ],
+       [
+        "niveśya",
+        "поместив"
+       ],
+       [
+        "āpade",
+        "так напечатано значение этого чтения в данной фразе неясно"
+       ],
+       [
+        "dṛḍham",
+        "прочно"
+       ],
+       [
+        "badhvā",
+        "«связав / закрепив» (печатная форма не исправляется)"
+       ],
+       [
+        "karābhyām",
+        "обеими руками"
+       ],
+       [
+        "tat proktam",
+        "это названо"
+       ],
+       [
+        "bhadrāsanam",
+        "Бхадрасана"
+       ],
+       [
+        "agha-apaham",
+        "удаляющая грех / зло."
+       ]
+      ]
+     },
+     {
+      "type": "prose",
+      "label": "Буквальный перевод",
+      "paragraphs": [
+       "Поместив обе лодыжки по сторонам промежностного шва, … (чтение निवेश्यापदे दृढम् неясно) … прочно связав / закрепив [положение] обеими руками, это называют Бхадрасаной, удаляющей грех."
+      ],
+      "key": "literal"
+     },
+     {
+      "type": "prose",
+      "label": "Литературный перевод",
+      "paragraphs": [
+       "Бхадрасана — «Благая поза». Читаются указание поместить лодыжки по обе стороны промежностного шва и указание закрепить положение обеими руками. Слово अपदे в печатной строке здесь не получает уверенного перевода; недостающая деталь не домысливается."
+      ],
+      "key": "literary"
+     }
+    ],
+    "en": [
+     {
+      "type": "verse",
+      "key": "deva",
+      "label": "Devanāgarī",
+      "lines": [
+       "सीवन्याः पार्श्वयोर्गुल्फौ निवेश्यापदे दृढम् ।",
+       "बध्वा कराभ्यां तत्प्रोक्तं भद्रासनमघापहम् ॥४१॥"
+      ]
+     },
+     {
+      "type": "verse",
+      "key": "iast",
+      "label": "IAST",
+      "lines": [
+       "sīvanyāḥ pārśvayor gulphau niveśyāpade dṛḍham ।",
+       "badhvā karābhyāṃ tat proktaṃ bhadrāsanam aghāpaham ॥41॥"
+      ]
+     },
+     {
+      "type": "verse",
+      "key": "cyr",
+      "label": "Cyrillic transliteration",
+      "lines": [
+       "сӣванйāх̣ пāрш́вайор гулпхау нивеш́йāпаде др̣д̣хам ।",
+       "бадхвā карāбхйāм̇ тат проктам̇ бхадрāсанам агхāпахам ॥41॥"
+      ]
+     },
+     {
+      "type": "words",
+      "label": "Word-by-word analysis",
+      "text": "sīvanyāḥ — the seam; by context, the perineal seam; pārśvayoḥ — on either side; gulphau — the two ankles; niveśya — having placed; āpade — as printed; the meaning of this reading in the phrase is unclear; dṛḍham — firmly; badhvā — “having bound / secured” (the printed form is not emended); karābhyām — with both hands; tat proktam — this is said to be; bhadrāsanam — Bhadrāsana; agha-apaham — removing sin / evil.",
+      "pairs": [
+       [
+        "sīvanyāḥ",
+        "the seam by context, the perineal seam"
+       ],
+       [
+        "pārśvayoḥ",
+        "on either side"
+       ],
+       [
+        "gulphau",
+        "the two ankles"
+       ],
+       [
+        "niveśya",
+        "having placed"
+       ],
+       [
+        "āpade",
+        "as printed the meaning of this reading in the phrase is unclear"
+       ],
+       [
+        "dṛḍham",
+        "firmly"
+       ],
+       [
+        "badhvā",
+        "“having bound / secured” (the printed form is not emended)"
+       ],
+       [
+        "karābhyām",
+        "with both hands"
+       ],
+       [
+        "tat proktam",
+        "this is said to be"
+       ],
+       [
+        "bhadrāsanam",
+        "Bhadrāsana"
+       ],
+       [
+        "agha-apaham",
+        "removing sin / evil."
+       ]
+      ]
+     },
+     {
+      "type": "prose",
+      "label": "Literal translation",
+      "paragraphs": [
+       "Having placed both ankles on either side of the perineal seam, … (the reading निवेश्यापदे दृढम् is unclear) …, having firmly bound / secured [the position] with both hands, this is called Bhadrāsana, which removes sin."
+      ],
+      "key": "literal"
+     },
+     {
+      "type": "prose",
+      "label": "Literary translation",
+      "paragraphs": [
+       "Bhadrāsana — “Auspicious Pose.” The verse appears to direct that the ankles be placed on either side of the perineal seam and that the position be secured with both hands. The word अपदे in the printed line cannot be translated with confidence here; the missing detail is not conjecturally supplied."
+      ],
+      "key": "literary"
+     }
+    ]
+   }
+  },
+  {
+   "key": "simhasana",
+   "iast": "siṃhāsanam",
+   "number": 9,
+   "name": {
+    "ru": "Симхасана",
+    "en": "Siṃhāsana"
+   },
+   "gloss": {
+    "ru": "«Поза льва»",
+    "en": "“Lion Pose”"
+   },
+   "verses": {
+    "ru": "стихи 42–43",
+    "en": "verses 42–43"
+   },
+   "text": {
+    "ru": [
+     {
+      "type": "verse",
+      "key": "deva",
+      "label": "Деванагари",
+      "lines": [
+       "सीवन्याः पार्श्वयोर्गुल्फौ व्युत्क्रमेण निवेश्य च ।",
+       "करौ जान्वोर्निधायोभौ प्रसार्य निखिलाङ्गुलीः ॥",
+       "नासाग्रन्यस्तनयनो व्यात्तवक्त्रो ऋजुः सुधीः ।",
+       "एतत्सिंहासनं प्रोक्तं सर्वदेवाभिपूजितम् ॥४३॥"
+      ]
+     },
+     {
+      "type": "verse",
+      "key": "iast",
+      "label": "IAST",
+      "lines": [
+       "sīvanyāḥ pārśvayor gulphau vyutkrameṇa niveśya ca ।",
+       "karau jānvornidhāyobhau prasārya nikhilāṅgulīḥ ॥",
+       "nāsāgranyastanayano vyāttavaktro ṛjuḥ sudhīḥ ।",
+       "etat siṃhāsanaṃ proktaṃ sarvadevābhipūjitam ॥43॥"
+      ]
+     },
+     {
+      "type": "verse",
+      "key": "cyr",
+      "label": "Кириллическая транслитерация",
+      "lines": [
+       "сӣванйāх̣ пāрш́вайор гулпхау вйуткрамен̣а нивеш́йа ча ।",
+       "карау джāнворнидхāйобхау прасāрйа никхилāн̇гулӣх̣ ॥",
+       "нāсāгранйастанайано вйāттавактро р̣джух̣ судхӣх̣ ।",
+       "етат сим̇хāсанам̇ проктам̇ сарвадевāбхипӯджитам ॥43॥"
+      ]
+     },
+     {
+      "type": "words",
+      "label": "Пословный разбор",
+      "text": "sīvanyāḥ pārśvayoḥ — по сторонам промежностного шва; gulphau — обе лодыжки; vyutkrameṇa — в обратном порядке; niveśya — поместив; ca — и; karau — обе руки; jānvoḥ — на коленях; nidhāya ubhau — поместив обе; prasārya — вытянув, распрямив; nikhila-aṅgulīḥ — все пальцы. Nāsāgra-nyasta-nayanaḥ — [тот, чей] взгляд помещён на кончик носа; vyātta-vaktraḥ — с широко открытым ртом; ṛjuḥ — прямой; sudhīḥ — разумный, мудрый; etat — эта; siṃhāsanam — Симхасана; proktam — названа; sarva-deva-abhipūjitam — почитаемая всеми богами.",
+      "pairs": [
+       [
+        "sīvanyāḥ pārśvayoḥ",
+        "по сторонам промежностного шва"
+       ],
+       [
+        "gulphau",
+        "обе лодыжки"
+       ],
+       [
+        "vyutkrameṇa",
+        "в обратном порядке"
+       ],
+       [
+        "niveśya",
+        "поместив"
+       ],
+       [
+        "ca",
+        "и"
+       ],
+       [
+        "karau",
+        "обе руки"
+       ],
+       [
+        "jānvoḥ",
+        "на коленях"
+       ],
+       [
+        "nidhāya ubhau",
+        "поместив обе"
+       ],
+       [
+        "prasārya",
+        "вытянув, распрямив"
+       ],
+       [
+        "nikhila-aṅgulīḥ",
+        "все пальцы."
+       ],
+       [
+        "Nāsāgra-nyasta-nayanaḥ",
+        "[тот, чей] взгляд помещён на кончик носа"
+       ],
+       [
+        "vyātta-vaktraḥ",
+        "с широко открытым ртом"
+       ],
+       [
+        "ṛjuḥ",
+        "прямой"
+       ],
+       [
+        "sudhīḥ",
+        "разумный, мудрый"
+       ],
+       [
+        "etat",
+        "эта"
+       ],
+       [
+        "siṃhāsanam",
+        "Симхасана"
+       ],
+       [
+        "proktam",
+        "названа"
+       ],
+       [
+        "sarva-deva-abhipūjitam",
+        "почитаемая всеми богами."
+       ]
+      ]
+     },
+     {
+      "type": "prose",
+      "label": "Буквальный перевод",
+      "paragraphs": [
+       "Поместив лодыжки по сторонам промежностного шва в обратном порядке и положив обе руки на колени, распрямив все пальцы, [йогин], чей взгляд направлен на кончик носа, с широко раскрытым ртом, прямой и разумный, — это, как сказано, Симхасана, почитаемая всеми богами."
+      ],
+      "key": "literal"
+     },
+     {
+      "type": "prose",
+      "label": "Литературный перевод",
+      "paragraphs": [
+       "Симхасана — «Поза льва»: лодыжки размещают по сторонам промежностного шва; обе руки кладут на колени, все пальцы распрямляют. Взгляд направлен на кончик носа, рот широко открыт, тело прямое. Текст говорит, что эту позу почитают все боги.",
+       "Д. Вьюстик переводит соответствующее описание как положение с лодыжками, перекрещёнными у промежностного шва, руками на коленях, вытянутыми пальцами, взглядом на кончике носа и широко открытым ртом; он также отмечает близкое словесное сходство с другим средневековым йогическим текстом 5. В настоящем переводе «перекрещёнными» не добавлено в основной текст: санскрит говорит व्युत्क्रमेण — «в обратном порядке»."
+      ],
+      "key": "literary"
+     }
+    ],
+    "en": [
+     {
+      "type": "verse",
+      "key": "deva",
+      "label": "Devanāgarī",
+      "lines": [
+       "सीवन्याः पार्श्वयोर्गुल्फौ व्युत्क्रमेण निवेश्य च ।",
+       "करौ जान्वोर्निधायोभौ प्रसार्य निखिलाङ्गुलीः ॥",
+       "नासाग्रन्यस्तनयनो व्यात्तवक्त्रो ऋजुः सुधीः ।",
+       "एतत्सिंहासनं प्रोक्तं सर्वदेवाभिपूजितम् ॥४३॥"
+      ]
+     },
+     {
+      "type": "verse",
+      "key": "iast",
+      "label": "IAST",
+      "lines": [
+       "sīvanyāḥ pārśvayor gulphau vyutkrameṇa niveśya ca ।",
+       "karau jānvornidhāyobhau prasārya nikhilāṅgulīḥ ॥",
+       "nāsāgranyastanayano vyāttavaktro ṛjuḥ sudhīḥ ।",
+       "etat siṃhāsanaṃ proktaṃ sarvadevābhipūjitam ॥43॥"
+      ]
+     },
+     {
+      "type": "verse",
+      "key": "cyr",
+      "label": "Cyrillic transliteration",
+      "lines": [
+       "сӣванйāх̣ пāрш́вайор гулпхау вйуткрамен̣а нивеш́йа ча ।",
+       "карау джāнворнидхāйобхау прасāрйа никхилāн̇гулӣх̣ ॥",
+       "нāсāгранйастанайано вйāттавактро р̣джух̣ судхӣх̣ ।",
+       "етат сим̇хāсанам̇ проктам̇ сарвадевāбхипӯджитам ॥43॥"
+      ]
+     },
+     {
+      "type": "words",
+      "label": "Word-by-word analysis",
+      "text": "sīvanyāḥ pārśvayoḥ — on either side of the perineal seam; gulphau — both ankles; vyutkrameṇa — in reverse order; niveśya — having placed; ca — and; karau — both hands; jānvoḥ — on the knees; nidhāya ubhau — having placed both; prasārya — stretching, extending; nikhila-aṅgulīḥ — all the fingers. Nāsāgra-nyasta-nayanaḥ — [one whose] gaze is fixed on the tip of the nose; vyātta-vaktraḥ — with the mouth wide open; ṛjuḥ — straight; sudhīḥ — wise; etat — this; siṃhāsanam — Siṃhāsana; proktam — is said to be; sarva-deva-abhipūjitam — honoured by all the gods.",
+      "pairs": [
+       [
+        "sīvanyāḥ pārśvayoḥ",
+        "on either side of the perineal seam"
+       ],
+       [
+        "gulphau",
+        "both ankles"
+       ],
+       [
+        "vyutkrameṇa",
+        "in reverse order"
+       ],
+       [
+        "niveśya",
+        "having placed"
+       ],
+       [
+        "ca",
+        "and"
+       ],
+       [
+        "karau",
+        "both hands"
+       ],
+       [
+        "jānvoḥ",
+        "on the knees"
+       ],
+       [
+        "nidhāya ubhau",
+        "having placed both"
+       ],
+       [
+        "prasārya",
+        "stretching, extending"
+       ],
+       [
+        "nikhila-aṅgulīḥ",
+        "all the fingers."
+       ],
+       [
+        "Nāsāgra-nyasta-nayanaḥ",
+        "[one whose] gaze is fixed on the tip of the nose"
+       ],
+       [
+        "vyātta-vaktraḥ",
+        "with the mouth wide open"
+       ],
+       [
+        "ṛjuḥ",
+        "straight"
+       ],
+       [
+        "sudhīḥ",
+        "wise"
+       ],
+       [
+        "etat",
+        "this"
+       ],
+       [
+        "siṃhāsanam",
+        "Siṃhāsana"
+       ],
+       [
+        "proktam",
+        "is said to be"
+       ],
+       [
+        "sarva-deva-abhipūjitam",
+        "honoured by all the gods."
+       ]
+      ]
+     },
+     {
+      "type": "prose",
+      "label": "Literal translation",
+      "paragraphs": [
+       "Having placed the ankles on either side of the perineal seam in reverse order, and placed both hands on the knees with all the fingers extended, [the yogin], with the gaze fixed on the tip of the nose, mouth wide open, body straight, and discerning mind, is said to be in Siṃhāsana, honoured by all the gods."
+      ],
+      "key": "literal"
+     },
+     {
+      "type": "prose",
+      "label": "Literary translation",
+      "paragraphs": [
+       "Siṃhāsana — “Lion Pose”: the ankles are placed on either side of the perineal seam, both hands rest on the knees, and all the fingers are extended. The gaze is directed to the tip of the nose, the mouth is wide open, and the body is straight. The text says that all the gods honour this pose.",
+       "D. Wujastyk translates the description as a position with the ankles crossed at the perineal seam, the hands on the knees, the fingers extended, the gaze at the tip of the nose, and the mouth wide open; he also notes a close verbal parallel in another medieval yogic text 5. In the present translation, “crossed” is not added to the main text: the Sanskrit says व्युत्क्रमेण, “in reverse order.”"
+      ],
+      "key": "literary"
+     }
+    ]
+   }
+  },
+  {
+   "key": "muktasana",
+   "iast": "muktāsanam",
+   "number": 10,
+   "name": {
+    "ru": "Муктасана",
+    "en": "Muktāsana"
+   },
+   "gloss": {
+    "ru": "«Поза освобождённых»",
+    "en": "“Pose of the Liberated”"
+   },
+   "verses": {
+    "ru": "стихи 44–45ab",
+    "en": "verses 44–45ab"
+   },
+   "text": {
+    "ru": [
+     {
+      "type": "verse",
+      "key": "deva",
+      "label": "Деванагари",
+      "lines": [
+       "मेढ्रादुपरि विन्यस्य सव्यगुल्फमिहेतरम् ।",
+       "गुल्फं विन्यस्य पाणी चाप्यङ्गमध्ये निवेश्य च ॥",
+       "मुक्तासनमिदं प्रोक्तं स्थिता यत्र मुमुक्षवः ।"
+      ]
+     },
+     {
+      "type": "verse",
+      "key": "iast",
+      "label": "IAST",
+      "lines": [
+       "meḍhrād upari vinyasya savyagulpham ihetaram ।",
+       "gulphaṃ vinyasya pāṇī cāpy aṅgamadhye niveśya ca ॥",
+       "muktāsanam idaṃ proktaṃ sthitā yatra mumukṣavaḥ ।"
+      ]
+     },
+     {
+      "type": "verse",
+      "key": "cyr",
+      "label": "Кириллическая транслитерация",
+      "lines": [
+       "мед̣хрāд упари винйасйа савйагулпхам ихетарам ।",
+       "гулпхам̇ винйасйа пāн̣ӣ чāпй ан̇гамадхйе нивеш́йа ча ॥",
+       "муктāсанам идам̇ проктам̇ стхитā йатра мумукш̣авах̣ ।"
+      ]
+     },
+     {
+      "type": "words",
+      "label": "Пословный разбор",
+      "text": "meḍhrāt upari — над половым органом; vinyasya — поместив; savya-gulpham — левую лодыжку; iha itaram — здесь другую [лодыжку]; gulpham vinyasya — поместив лодыжку; pāṇī — обе руки; ca api — также; aṅga-madhye — в середине тела; niveśya — поместив; muktāsanam idam — эта Муктасана; proktam — названа; sthitā yatra — где пребывают; mumukṣavaḥ — стремящиеся к освобождению.",
+      "pairs": [
+       [
+        "meḍhrāt upari",
+        "над половым органом"
+       ],
+       [
+        "vinyasya",
+        "поместив"
+       ],
+       [
+        "savya-gulpham",
+        "левую лодыжку"
+       ],
+       [
+        "iha itaram",
+        "здесь другую [лодыжку]"
+       ],
+       [
+        "gulpham vinyasya",
+        "поместив лодыжку"
+       ],
+       [
+        "pāṇī",
+        "обе руки"
+       ],
+       [
+        "ca api",
+        "также"
+       ],
+       [
+        "aṅga-madhye",
+        "в середине тела"
+       ],
+       [
+        "niveśya",
+        "поместив"
+       ],
+       [
+        "muktāsanam idam",
+        "эта Муктасана"
+       ],
+       [
+        "proktam",
+        "названа"
+       ],
+       [
+        "sthitā yatra",
+        "где пребывают"
+       ],
+       [
+        "mumukṣavaḥ",
+        "стремящиеся к освобождению."
+       ]
+      ]
+     },
+     {
+      "type": "prose",
+      "label": "Буквальный перевод",
+      "paragraphs": [
+       "Поместив над половым органом левую лодыжку, здесь — другую [лодыжку], поместив лодыжку и также обе руки в середине тела, — это называют Муктасаной, где пребывают стремящиеся к освобождению."
+      ],
+      "key": "literal"
+     },
+     {
+      "type": "prose",
+      "label": "Литературный перевод",
+      "paragraphs": [
+       "Муктасана — «Поза освобождённых». Левую лодыжку помещают выше полового органа, рядом располагают другую; затем лодыжку и руки размещают в середине тела. По словам текста, это поза, в которой пребывают ищущие освобождения.",
+       "Д. Вьюстик переводит этот фрагмент сходным образом: левая лодыжка кладётся над половым органом, другая — рядом, руки размещаются в середине тела; переводчик относит строку к стихам 44–45ab 5."
+      ],
+      "key": "literary"
+     }
+    ],
+    "en": [
+     {
+      "type": "verse",
+      "key": "deva",
+      "label": "Devanāgarī",
+      "lines": [
+       "मेढ्रादुपरि विन्यस्य सव्यगुल्फमिहेतरम् ।",
+       "गुल्फं विन्यस्य पाणी चाप्यङ्गमध्ये निवेश्य च ॥",
+       "मुक्तासनमिदं प्रोक्तं स्थिता यत्र मुमुक्षवः ।"
+      ]
+     },
+     {
+      "type": "verse",
+      "key": "iast",
+      "label": "IAST",
+      "lines": [
+       "meḍhrād upari vinyasya savyagulpham ihetaram ।",
+       "gulphaṃ vinyasya pāṇī cāpy aṅgamadhye niveśya ca ॥",
+       "muktāsanam idaṃ proktaṃ sthitā yatra mumukṣavaḥ ।"
+      ]
+     },
+     {
+      "type": "verse",
+      "key": "cyr",
+      "label": "Cyrillic transliteration",
+      "lines": [
+       "мед̣хрāд упари винйасйа савйагулпхам ихетарам ।",
+       "гулпхам̇ винйасйа пāн̣ӣ чāпй ан̇гамадхйе нивеш́йа ча ॥",
+       "муктāсанам идам̇ проктам̇ стхитā йатра мумукш̣авах̣ ।"
+      ]
+     },
+     {
+      "type": "words",
+      "label": "Word-by-word analysis",
+      "text": "meḍhrāt upari — above the genital organ; vinyasya — having placed; savya-gulpham — the left ankle; iha itaram — here, the other [ankle]; gulpham vinyasya — having placed the ankle; pāṇī — both hands; ca api — also; aṅga-madhye — in the middle of the body; niveśya — having placed; muktāsanam idam — this Muktāsana; proktam — is called; sthitā yatra — where they abide; mumukṣavaḥ — those seeking liberation.",
+      "pairs": [
+       [
+        "meḍhrāt upari",
+        "above the genital organ"
+       ],
+       [
+        "vinyasya",
+        "having placed"
+       ],
+       [
+        "savya-gulpham",
+        "the left ankle"
+       ],
+       [
+        "iha itaram",
+        "here, the other [ankle]"
+       ],
+       [
+        "gulpham vinyasya",
+        "having placed the ankle"
+       ],
+       [
+        "pāṇī",
+        "both hands"
+       ],
+       [
+        "ca api",
+        "also"
+       ],
+       [
+        "aṅga-madhye",
+        "in the middle of the body"
+       ],
+       [
+        "niveśya",
+        "having placed"
+       ],
+       [
+        "muktāsanam idam",
+        "this Muktāsana"
+       ],
+       [
+        "proktam",
+        "is called"
+       ],
+       [
+        "sthitā yatra",
+        "where they abide"
+       ],
+       [
+        "mumukṣavaḥ",
+        "those seeking liberation."
+       ]
+      ]
+     },
+     {
+      "type": "prose",
+      "label": "Literal translation",
+      "paragraphs": [
+       "Having placed the left ankle above the genital organ, and here the other [ankle], then placing the ankle and both hands in the middle of the body, this is called Muktāsana, where those seeking liberation abide."
+      ],
+      "key": "literal"
+     },
+     {
+      "type": "prose",
+      "label": "Literary translation",
+      "paragraphs": [
+       "Muktāsana — “Pose of the Liberated.” The left ankle is placed above the genital organ, with the other beside it; then the ankle and hands are positioned in the middle of the body. According to the text, this is the pose in which those seeking liberation abide.",
+       "D. Wujastyk translates this passage similarly: the left ankle is placed above the genital organ, the other beside it, and the hands are placed in the middle of the body; he assigns the lines to verses 44–45ab 5."
+      ],
+      "key": "literary"
+     }
+    ]
+   }
+  },
+  {
+   "key": "gomukhasana",
+   "iast": "gomukham",
+   "number": 11,
+   "name": {
+    "ru": "Гомукхасана",
+    "en": "Gomukhāsana"
+   },
+   "gloss": {
+    "ru": "«Поза коровьей морды»",
+    "en": "“Cow-Face Pose”"
+   },
+   "verses": {
+    "ru": "стих 45cd–46",
+    "en": "verses 45cd–46"
+   },
+   "text": {
+    "ru": [
+     {
+      "type": "verse",
+      "key": "deva",
+      "label": "Деванагари",
+      "lines": [
+       "उभयोर्गुल्फयोः कृत्वा पृष्ठपार्श्वावुभावपि ॥४५॥",
+       "व्युत्क्रमेणाथ पाणिभ्यां विन्यस्ताभ्यां विगृह्य च ।",
+       "पृष्ठगाभ्यां पदाङ्गुष्ठावेतद्गोमुखमुच्यते ॥४६॥"
+      ]
+     },
+     {
+      "type": "verse",
+      "key": "iast",
+      "label": "IAST",
+      "lines": [
+       "ubhayor gulphayoḥ kṛtvā pṛṣṭhapārśvāv ubhāv api ॥45॥",
+       "vyutkrameṇātha pāṇibhyāṃ vinyastābhyāṃ vigṛhya ca ।",
+       "pṛṣṭhagābhyāṃ padāṅguṣṭhāv etad gomukham ucyate ॥46॥"
+      ]
+     },
+     {
+      "type": "verse",
+      "key": "cyr",
+      "label": "Кириллическая транслитерация",
+      "lines": [
+       "убхайор гулпхайох̣ кр̣твā пр̣шт̣хапāрш́вāв убхāв апи ॥45॥",
+       "вйуткрамен̣āтха пāн̣ибхйāм̇ винйастāбхйāм̇ вигр̣хйа ча ।",
+       "пр̣шт̣хагāбхйāм̇ падāн̇гушт̣хāв етад гомукхам учйате ॥46॥"
+      ]
+     },
+     {
+      "type": "words",
+      "label": "Пословный разбор",
+      "text": "ubhayor gulphayoḥ — у / на обеих лодыжках (форма родительного и местного двойственного числа); kṛtvā — поместив, установив; pṛṣṭha-pārśvau — оба задних бока / обе боковые части спины [синтаксическая связь неясна]; ubhau api — обе; vyutkrameṇa — в обратном порядке; atha — затем; pāṇibhyām — обеими руками; vinyastābhyām — расположенными; vigṛhya — захватив, удерживая; pṛṣṭha-gābhyām — находящимися сзади / отведёнными назад; padāṅguṣṭhau — большие пальцы стоп; etat — это; gomukham — Гомукха; ucyate — называется.",
+      "pairs": [
+       [
+        "ubhayor gulphayoḥ",
+        "у / на обеих лодыжках (форма родительного и местного двойственного числа)"
+       ],
+       [
+        "kṛtvā",
+        "поместив, установив"
+       ],
+       [
+        "pṛṣṭha-pārśvau",
+        "оба задних бока / обе боковые части спины [синтаксическая связь неясна]"
+       ],
+       [
+        "ubhau api",
+        "обе"
+       ],
+       [
+        "vyutkrameṇa",
+        "в обратном порядке"
+       ],
+       [
+        "atha",
+        "затем"
+       ],
+       [
+        "pāṇibhyām",
+        "обеими руками"
+       ],
+       [
+        "vinyastābhyām",
+        "расположенными"
+       ],
+       [
+        "vigṛhya",
+        "захватив, удерживая"
+       ],
+       [
+        "pṛṣṭha-gābhyām",
+        "находящимися сзади / отведёнными назад"
+       ],
+       [
+        "padāṅguṣṭhau",
+        "большие пальцы стоп"
+       ],
+       [
+        "etat",
+        "это"
+       ],
+       [
+        "gomukham",
+        "Гомукха"
+       ],
+       [
+        "ucyate",
+        "называется."
+       ]
+      ]
+     },
+     {
+      "type": "prose",
+      "label": "Буквальный перевод",
+      "paragraphs": [
+       "[Расположив лодыжки и задние боковые части тела в описанном, но синтаксически неясном положении], затем, расположив обе руки в обратном порядке и захватив большие пальцы стоп, находящиеся сзади, это называют Гомукхой."
+      ],
+      "key": "literal"
+     },
+     {
+      "type": "prose",
+      "label": "Литературный перевод",
+      "paragraphs": [
+       "Гомукхасана — «Поза коровьей морды». Текст связывает позу с обеими лодыжками, задней стороной тела и захватом больших пальцев стоп руками. Однако связь слов व्युत्क्रमेण, पृष्ठगाभ्याम् и पदाङ्गुष्ठौ не вполне прозрачна; точное положение ног и рук не реконструируется сверх того, что допускает чтение.",
+       "Как сравнительное толкование, Д. Вьюстик описывает эту позу как перекрещённые ноги и руки, перекрещённые за спиной, причём каждой рукой захватывается большой палец противоположной стопы. Это полезная научная интерпретация трудного описания, но не единственно возможная буквальная расшифровка каждого слова 5."
+      ],
+      "key": "literary"
+     }
+    ],
+    "en": [
+     {
+      "type": "verse",
+      "key": "deva",
+      "label": "Devanāgarī",
+      "lines": [
+       "उभयोर्गुल्फयोः कृत्वा पृष्ठपार्श्वावुभावपि ॥४५॥",
+       "व्युत्क्रमेणाथ पाणिभ्यां विन्यस्ताभ्यां विगृह्य च ।",
+       "पृष्ठगाभ्यां पदाङ्गुष्ठावेतद्गोमुखमुच्यते ॥४६॥"
+      ]
+     },
+     {
+      "type": "verse",
+      "key": "iast",
+      "label": "IAST",
+      "lines": [
+       "ubhayor gulphayoḥ kṛtvā pṛṣṭhapārśvāv ubhāv api ॥45॥",
+       "vyutkrameṇātha pāṇibhyāṃ vinyastābhyāṃ vigṛhya ca ।",
+       "pṛṣṭhagābhyāṃ padāṅguṣṭhāv etad gomukham ucyate ॥46॥"
+      ]
+     },
+     {
+      "type": "verse",
+      "key": "cyr",
+      "label": "Cyrillic transliteration",
+      "lines": [
+       "убхайор гулпхайох̣ кр̣твā пр̣шт̣хапāрш́вāв убхāв апи ॥45॥",
+       "вйуткрамен̣āтха пāн̣ибхйāм̇ винйастāбхйāм̇ вигр̣хйа ча ।",
+       "пр̣шт̣хагāбхйāм̇ падāн̇гушт̣хāв етад гомукхам учйате ॥46॥"
+      ]
+     },
+     {
+      "type": "words",
+      "label": "Word-by-word analysis",
+      "text": "ubhayor gulphayoḥ — at / on both ankles (genitive and locative dual); kṛtvā — having placed, arranged; pṛṣṭha-pārśvau — both rear sides / the two sides of the back [the syntactic relation is unclear]; ubhau api — both; vyutkrameṇa — in reverse order; atha — then; pāṇibhyām — with both hands; vinyastābhyām — positioned; vigṛhya — having grasped, held; pṛṣṭha-gābhyām — located behind / extended backward; padāṅguṣṭhau — the great toes; etat — this; gomukham — Gomukha; ucyate — is called.",
+      "pairs": [
+       [
+        "ubhayor gulphayoḥ",
+        "at / on both ankles (genitive and locative dual)"
+       ],
+       [
+        "kṛtvā",
+        "having placed, arranged"
+       ],
+       [
+        "pṛṣṭha-pārśvau",
+        "both rear sides / the two sides of the back [the syntactic relation is unclear]"
+       ],
+       [
+        "ubhau api",
+        "both"
+       ],
+       [
+        "vyutkrameṇa",
+        "in reverse order"
+       ],
+       [
+        "atha",
+        "then"
+       ],
+       [
+        "pāṇibhyām",
+        "with both hands"
+       ],
+       [
+        "vinyastābhyām",
+        "positioned"
+       ],
+       [
+        "vigṛhya",
+        "having grasped, held"
+       ],
+       [
+        "pṛṣṭha-gābhyām",
+        "located behind / extended backward"
+       ],
+       [
+        "padāṅguṣṭhau",
+        "the great toes"
+       ],
+       [
+        "etat",
+        "this"
+       ],
+       [
+        "gomukham",
+        "Gomukha"
+       ],
+       [
+        "ucyate",
+        "is called."
+       ]
+      ]
+     },
+     {
+      "type": "prose",
+      "label": "Literal translation",
+      "paragraphs": [
+       "[Having arranged the ankles and the rear sides of the body in a position that is described but syntactically unclear], then placing both hands in reverse order and grasping the great toes located behind, this is called Gomukha."
+      ],
+      "key": "literal"
+     },
+     {
+      "type": "prose",
+      "label": "Literary translation",
+      "paragraphs": [
+       "Gomukhāsana — “Cow-Face Pose.” The text associates the pose with both ankles, the back of the body, and grasping the great toes with the hands. However, the relation among व्युत्क्रमेण, पृष्ठगाभ्याम्, and पदाङ्गुष्ठौ is not fully clear; the exact position of the legs and arms is not reconstructed beyond what the reading permits.",
+       "As a comparative interpretation, D. Wujastyk describes the pose as having the legs crossed and the arms crossed behind the back, with each hand grasping the great toe of the opposite foot. This is a useful scholarly interpretation of a difficult description, but not the only possible literal parsing of every word 5."
+      ],
+      "key": "literary"
+     }
+    ]
+   }
+  }
+ ]
+}

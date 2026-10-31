@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="ru" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Асаны: истоки</title>
+<meta name="description" content="Описания асан в первоисточниках: санскритский текст, пословный разбор и перевод. Ахирбудхнья-самхита, XXXI глава.">
+<meta name="color-scheme" content="light dark">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Spectral:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Noto+Serif+Devanagari:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23efe6d6'/%3E%3Ctext x='32' y='44' font-size='34' text-anchor='middle' font-family='serif' fill='%239a4b22'%3E%E0%A5%90%3C/text%3E%3C/svg%3E">
+</head>
+<body>
+<a class="skip-link" href="#main" data-i18n="skip">К содержанию</a>
+
+<header class="topbar">
+  <button class="icon-btn menu-btn" id="menu-btn" aria-label="Меню" aria-expanded="false" aria-controls="sidebar">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+  </button>
+
+  <a class="brand" href="#/pose/cakrasana">
+    <span class="brand-mark" aria-hidden="true">ॐ</span>
+    <span class="brand-text">
+      <span class="brand-name" data-site-title>Асаны: истоки</span>
+      <span class="brand-tag" data-site-tagline>описания асан в первоисточниках</span>
+    </span>
+  </a>
+
+  <div class="topbar-tools">
+    <div class="lang-switch" role="group" aria-label="Язык / Language">
+      <button type="button" data-lang="ru" class="is-active">RU</button>
+      <button type="button" data-lang="en">EN</button>
+    </div>
+    <button class="icon-btn theme-btn" id="theme-btn" aria-label="Тема">
+      <svg class="icon-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><path d="M12 3v2.4M12 18.6V21M3 12h2.4M18.6 12H21M5.6 5.6l1.7 1.7M16.7 16.7l1.7 1.7M18.4 5.6l-1.7 1.7M7.3 16.7l-1.7 1.7"/></svg>
+      <svg class="icon-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.6A8.6 8.6 0 1 1 9.4 4a7 7 0 0 0 10.6 10.6Z"/></svg>
+    </button>
+  </div>
+</header>
+
+<div class="shell">
+  <div class="backdrop" id="backdrop" hidden></div>
+
+  <aside class="sidebar" id="sidebar" aria-label="Навигация">
+    <div class="side-inner">
+      <div class="side-block">
+        <p class="side-label" data-i18n="treatise">Трактат</p>
+        <label class="select-wrap">
+          <select id="treatise-select" aria-label="Трактат"></select>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9.5 12 15l6-5.5"/></svg>
+        </label>
+        <p class="side-note" id="treatise-note"></p>
+      </div>
+
+      <div class="side-block">
+        <div class="side-head">
+          <p class="side-label" data-i18n="asanas">Асаны</p>
+          <span class="side-count" id="pose-count"></span>
+        </div>
+        <div class="search-wrap">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.4"/><path d="m16 16 4 4"/></svg>
+          <input type="search" id="filter" autocomplete="off" data-i18n-placeholder="filter" placeholder="Найти асану">
+        </div>
+        <nav aria-label="Список асан">
+          <ol class="pose-list" id="pose-list"></ol>
+        </nav>
+      </div>
+
+      <div class="side-block">
+        <p class="side-label" data-i18n="chapter">Глава XXXI</p>
+        <nav aria-label="Разделы главы">
+          <ul class="plain-list" id="chapter-nav"></ul>
+        </nav>
+      </div>
+
+      <div class="side-foot">
+        <p id="side-source"></p>
+      </div>
+    </div>
+  </aside>
+
+  <main class="main" id="main" tabindex="-1">
+    <noscript><p class="noscript">Для работы сайта нужен JavaScript.</p></noscript>
+    <div id="view" class="view"></div>
+  </main>
+</div>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script src="assets/app.js"></script>
+</body>
+</html>
