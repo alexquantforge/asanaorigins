@@ -1,0 +1,5240 @@
+{
+ "id": "vasishtha-samhita",
+ "chapter": "1",
+ "title": {
+  "ru": "Васишт̣ха-сам̣хитā. Āсаны (Йога-кāн̣д̣а, гл. 1, ст. 67–82)",
+  "en": "Vasiṣṭha Saṃhitā. Āsanas (Yoga Kāṇḍa, ch. 1, vv. 67–82)"
+ },
+ "asanasTitle": {
+  "ru": "Āсаны Васишт̣ха-сам̣хиты (гл. 1, ст. 67–82)",
+  "en": "Āsanas of the Vasiṣṭha Saṃhitā (ch. 1, vv. 67–82)"
+ },
+ "about": {
+  "ru": [
+   {
+    "type": "title",
+    "html": "Васишт̣ха-сам̣хитā. Āсаны (Йога-кāн̣д̣а, гл. 1, ст. 67–82)"
+   },
+   {
+    "type": "h2",
+    "html": "О тексте и цели документа"
+   },
+   {
+    "type": "p",
+    "html": "<strong>Что это за текст.</strong> «Васишт̣ха-сам̣хитā» (Йога-кāн̣д̣а) — санскритский трактат о йоге, написанный в форме диалога мудреца Васишт̣хи и его сына Ш́акти. Ш́акти спрашивает, как обрести знание, которое освобождает от страданий мира и от страха рождения, старости и смерти. Васишт̣ха отвечает ему учением, которое, по его словам, сам когда-то получил от Брахмы. Исследователи относят текст к XII–XIII векам; издатели Каивалйадхāмы — примерно к 1250 году (подробно см. введение о датировке). Для истории йоги текст важен по двум причинам. Более 250 его стихов вошли в «Йога-Йāджн̃авалкйу». А «Хат̣ха-прадӣпикā» (1.18) упоминает āсаны, принятые «мудрецами, начиная с Васишт̣хи»."
+   },
+   {
+    "type": "p",
+    "html": "<strong>Что в нём описано.</strong> Васишт̣ха утверждает, что освобождающее знание и есть йога. Эта йога состоит из восьми частей: йама, нийама, āсана, прāн̣āйāма, пратйāхāра, дхāран̣ā, дхйāна и самāдхи (1.33). Первые четыре части он называет внешними, последние четыре — внутренними. По главам материал распределён так:"
+   },
+   {
+    "type": "list",
+    "items": [
+     {
+      "html": "<strong>Глава 1.</strong> Действие и знание: освобождает действие, совершаемое со знанием и без желания. Здесь же десять йам, десять нийам и десять āсан.",
+      "level": 1
+     },
+     {
+      "html": "<strong>Глава 2.</strong> Тело с точки зрения йоги: каналы (нāд̣ӣ) и их очищение, канда, жизненные ветры (вāйу), их места и функции.",
+      "level": 1
+     },
+     {
+      "html": "<strong>Глава 3.</strong> Прāн̣āйāма и пратйāхāра.",
+      "level": 1
+     },
+     {
+      "html": "<strong>Глава 4.</strong> Дхāран̣ā, дхйāна и самāдхи, в том числе пять видов дхйāны на образ (сагун̣а-дхйāна).",
+      "level": 1
+     },
+     {
+      "html": "<strong>Глава 5.</strong> Природа āтмана и признаки приближения смерти — по знакам зодиака и по характеру дыхания.",
+      "level": 1
+     },
+     {
+      "html": "<strong>Глава 6.</strong> Как преодолеть смерть.",
+      "level": 1
+     }
+    ]
+   },
+   {
+    "type": "p",
+    "html": "В рукописях обычно восемь глав. Главы 7 и 8 ближе к астрологии, поэтому издание Каивалйадхāмы приводит их без перевода."
+   },
+   {
+    "type": "p",
+    "html": "<strong>Цель документа.</strong> Документ решает две задачи:"
+   },
+   {
+    "type": "p",
+    "html": "1. Дать полное описание всех десяти āсан первой главы (стихи 67–82): Свастика, Гомукха, Падма, Вӣра, Сим̣ха, Майӯра, Куккут̣а, Бхадра, Кӯрма и Мукта. Каждая āсана разобрана по стихам. Для каждого стиха даны текст деванāгарӣ, латинская транслитерация IAST и кириллическая транслитерация. За ними следуют пословный разбор, буквальный и литературный перевод."
+   },
+   {
+    "type": "p",
+    "html": "2. Собрать во введении всё, что известно о датировке текста, и разобрать доводы в пользу каждой даты. Цитаты приводятся дословно и с точными ссылками, чтобы любое утверждение можно было проверить по первоисточнику."
+   },
+   {
+    "type": "p",
+    "html": "<em>Источник текста: Vasistha Samhita (Yoga Kanda), Revised Edition, Kaivalyadhama,</em> <em>Lonavla, 2005; гл. 1, с. 20–24. Содержание глав пересказано по разделу «Summary of</em> <em>Chapters» того же издания.</em>"
+   },
+   {
+    "type": "p",
+    "html": "<em>Источник: «Васишт̣ха-сам̣хитā», Йога-кāн̣д̣а, глава 1, стихи 67–82 (издание с</em> <em>английским переводом, с. 20–24; текст получен распознаванием сканов).</em>"
+   },
+   {
+    "type": "p",
+    "html": "<em>Деванāгарӣ и IAST сверены между собой и очищены от ошибок распознавания и</em> <em>номеров строк издания; все исправления отмечены в пословном разборе.</em> <em>Кириллическая транслитерация дана по системе образца.</em>"
+   },
+   {
+    "type": "p",
+    "html": "<em>Порядок āсан – как в описаниях текста (в перечне стиха 67 Кӯрма названа</em> <em>раньше Бхадрāсаны).</em>"
+   }
+  ],
+  "en": [
+   {
+    "type": "title",
+    "html": "Vasiṣṭha Saṃhitā. Āsanas (Yoga Kāṇḍa, ch. 1, vv. 67–82)"
+   },
+   {
+    "type": "h2",
+    "html": "About the Text and the Purpose of This Document"
+   },
+   {
+    "type": "p",
+    "html": "<strong>What the text is.</strong> The <em>Vasiṣṭha Saṃhitā</em> (Yoga Kāṇḍa) is a Sanskrit treatise on yoga, written as a dialogue between the sage Vasiṣṭha and his son Śakti. Śakti asks how to attain the knowledge that frees one from the sufferings of the world and from the fear of birth, old age and death. Vasiṣṭha answers with a teaching which, he says, he himself once received from Brahmā. Scholars date the text to the 12th–13th centuries; the Kaivalyadhāma editors place it at about 1250 (see the introduction on dating for details). The text matters for the history of yoga for two reasons. More than 250 of its verses were taken over into the <em>Yogayājñavalkya</em>. And the <em>Haṭhapradīpikā</em> (1.18) mentions āsanas adopted by “sages beginning with Vasiṣṭha”."
+   },
+   {
+    "type": "p",
+    "html": "<strong>What it describes.</strong> Vasiṣṭha holds that liberating knowledge is yoga itself. This yoga has eight parts: yama, niyama, āsana, prāṇāyāma, pratyāhāra, dhāraṇā, dhyāna and samādhi (1.33). He calls the first four external and the last four internal. The material is arranged by chapter as follows:"
+   },
+   {
+    "type": "list",
+    "items": [
+     {
+      "html": "<strong>Chapter 1.</strong> Action and knowledge: action performed with knowledge and without desire is liberating. Also ten yamas, ten niyamas and ten āsanas.",
+      "level": 1
+     },
+     {
+      "html": "<strong>Chapter 2.</strong> The body from the yogic point of view: the channels (nāḍī) and their purification, the kanda, the vital winds (vāyu), their locations and functions.",
+      "level": 1
+     },
+     {
+      "html": "<strong>Chapter 3.</strong> Prāṇāyāma and pratyāhāra.",
+      "level": 1
+     },
+     {
+      "html": "<strong>Chapter 4.</strong> Dhāraṇā, dhyāna and samādhi, including five kinds of meditation on a form (saguṇa-dhyāna).",
+      "level": 1
+     },
+     {
+      "html": "<strong>Chapter 5.</strong> The nature of the ātman and the signs of approaching death, read from the signs of the zodiac and from the character of the breath.",
+      "level": 1
+     },
+     {
+      "html": "<strong>Chapter 6.</strong> How to overcome death.",
+      "level": 1
+     }
+    ]
+   },
+   {
+    "type": "p",
+    "html": "The manuscripts usually have eight chapters. Chapters 7 and 8 are closer to astrology, so the Kaivalyadhāma edition gives them without translation."
+   },
+   {
+    "type": "p",
+    "html": "<strong>Purpose of this document.</strong> The document has two aims:"
+   },
+   {
+    "type": "p",
+    "html": "1. To give a full account of all ten āsanas of the first chapter (verses 67–82): Svastika, Gomukha, Padma, Vīra, Siṃha, Mayūra, Kukkuṭa, Bhadra, Kūrma and Mukta. Each āsana is analysed verse by verse. For each verse the document gives the Devanāgarī text, the Latin IAST transliteration and a Cyrillic transliteration. These are followed by a word-by-word analysis, a literal translation and a literary translation."
+   },
+   {
+    "type": "p",
+    "html": "2. To bring together in the introduction everything known about the dating of the text and to examine the arguments for each proposed date. Quotations are given verbatim with exact references, so that every claim can be checked against the primary source."
+   },
+   {
+    "type": "p",
+    "html": "<em>Source of the text: Vasistha Samhita (Yoga Kanda), Revised Edition, Kaivalyadhama,</em> <em>Lonavla, 2005; ch. 1, pp. 20–24. The chapter contents are summarised from the</em> <em>“Summary of Chapters” section of the same edition.</em>"
+   },
+   {
+    "type": "p",
+    "html": "<em>Source: Vasiṣṭha Saṃhitā, Yoga Kāṇḍa, chapter 1, verses 67–82 (edition with English</em> <em>translation, pp. 20–24; text obtained by OCR of scans).</em>"
+   },
+   {
+    "type": "p",
+    "html": "<em>The Devanāgarī and IAST have been checked against each other and cleaned of OCR</em> <em>errors and of the edition's line numbers; all corrections are noted in the word-by-word</em> <em>analysis. The Cyrillic transliteration follows the scheme of the sample.</em>"
+   },
+   {
+    "type": "p",
+    "html": "<em>The order of the āsanas follows the descriptions in the text (in the list in verse 67 Kūrma</em> <em>is named before Bhadrāsana).</em>"
+   }
+  ]
+ },
+ "dating": {
+  "ru": {
+   "title": "Введение. Датировка Васишт̣ха-сам̣хиты (Йога-кāн̣д̣а)",
+   "blocks": [
+    {
+     "type": "h3",
+     "html": "<strong>Как пользоваться этим разделом</strong>"
+    },
+    {
+     "type": "list",
+     "items": [
+      {
+       "html": "Каждая цитата дана в оригинале (на английском) и в моём переводе. Указаны страница или номер примечания и ссылка на текст, чтобы цитату можно было найти и сверить.",
+       "level": 1
+      },
+      {
+       "html": "Цитаты из введения издания Каивалйадхāмы взяты из онлайн-копии издания 2005 года. Её текст получен распознаванием (OCR) двухколоночного набора: колонки перемешаны между собой и со схемой преемственности учителей, которая стоит на тех же страницах. Я восстановил порядок слов и убрал попавшие в предложения имена из схемы. Пропуски отмечены знаком […], орфография и опечатки оригинала сохранены. <strong>Эти цитаты нужно сверить с печатной книгой.</strong> В печатном издании имена и термины даны с диакритикой (Sūta Saṃhitā, Vasiṣṭha и т. п.), а в OCR-копии её нет. Поэтому написание в несверенных цитатах может отличаться от печатного. Цитаты, уже сверенные по книге, отмечены пометкой «Сверено с печатным изданием».",
+       "level": 1
+      },
+      {
+       "html": "Мои собственные наблюдения (не принадлежащие цитируемым авторам) везде помечены как «Примечание составителя».",
+       "level": 1
+      }
+     ]
+    },
+    {
+     "type": "h3",
+     "html": "<strong>1. Краткий итог</strong>"
+    },
+    {
+     "type": "table",
+     "rows": [
+      [
+       "Предлагаемая дата",
+       "Кто предлагает",
+       "На чём основано (по словам самих авторов)"
+      ],
+      [
+       "«около 1250 г.»; «после XII в.»",
+       "Введение к изданию Каивалйадхāмы (1984/2005), раздел Chronology",
+       "Халāйудха (1050) и Лакшмӣдхара (1150) не цитируют текст; Хат̣ха-прадӣпикā 1.18 упоминает Васишт̣ху, а Хат̣ха-прадӣпикā датируется ок. 1350 г."
+      ],
+      [
+       "«до 1150 г.»",
+       "Та же книга, раздел о Сӯта-сам̣хите (сверено по печатному изданию)",
+       "Обоснования нет, есть только отсылка «as shown below»; расходится с выводом «около 1250 г.» (см. п. 2.7)"
+      ],
+      [
+       "XII–XIII вв.",
+       "Birch 2011; Birch 2018",
+       "Нижняя граница — по изданию Каивалйадхāмы; верхняя граница — Йога-Йāджн̃авалкйа, которая заимствует из Васишт̣ха-сам̣хиты и сама старше Хат̣ха-прадӣпики (XV в.)"
+      ],
+      [
+       "«до 1250 г.»",
+       "Wujastyk 2017",
+       "Ссылки на Bouy 1994 и Birch 2011"
+      ],
+      [
+       "XII в.",
+       "Birch 2020; Gupta & Birch 2022",
+       "Ссылка на издание Каивалйадхāмы и на заимствования Йога-Йāджн̃авалкйи из Васишт̣ха-сам̣хиты"
+      ],
+      [
+       "XIII в.",
+       "Mallinson & Singleton 2017 (хронологическая таблица); Westoby 2024",
+       "В цитируемых местах развёрнутого обоснования нет"
+      ],
+      [
+       "Источник, который древнее самого текста: «Вимāнāрчанāкалпа», ок. 900 г. / IX в.",
+       "Wujastyk 2017 (по Colas); Birch 2018",
+       "Васишт̣ха-сам̣хитā, вероятно, заимствовала из неё материал, в том числе раздел об āсанах"
+      ]
+     ]
+    },
+    {
+     "type": "h3",
+     "html": "<strong>2. Главный источник: введение к изданию Каивалйадхāмы</strong>"
+    },
+    {
+     "type": "p",
+     "html": "<strong>Издание:</strong> <em>Vasistha Samhita (Yoga Kanda). Revised Edition.</em> Editors &amp; Commentators: Philosophico-Literary Research Department, Kaivalyadhama S.M.Y.M. Samiti, Lonavla. First Publication: August 1984; Revised Publication: March 2005. ISBN 81-89485-37-7. Редакционная коллегия переработанного издания: Swami Maheshananda, B. R. Sharma, G. S. Sahay, R. K. Bodhe. (Ещё раньше, в 1969 году, в Каивалйадхāме вышло издание из восьми глав; это сказано в предисловии к изданию 2005 года.)"
+    },
+    {
+     "type": "p",
+     "html": "<strong>Онлайн-копия:</strong> <a href=\"https://doku.pub/documents/vasistha-samhita-yoga-kanda-with-commentary-kaiva\" target=\"_blank\" rel=\"noopener nofollow\">https://doku.pub/documents/vasistha-samhita-yoga-kanda-with-commentary-kaiva</a> lya-dhamtext-j0vmm63vve0x"
+    },
+    {
+     "type": "p",
+     "html": "<strong>Страницы:</strong> в онлайн-копии раздел «Chronology» приходится на с. 31–33 введения. Birch (2011, прим. 8) ссылается на «2005: 30–32», Gupta &amp; Birch (2022) — на «2005: 31–32». Похоже, ваш файл с текстом āсан взят из этого же издания (гл. I, с. 20–24)."
+    },
+    {
+     "type": "p",
+     "html": "<strong>Сверено с печатным изданием.</strong> Текст раздела «Chronology» (п. 2.1–2.4 ниже) сверен с печатной книгой: пользователь прислал его полностью. Диакритика и написание даны по печатному тексту. По онлайн-копии разрыв страницы приходится на слова «…VS is the / later origin» (с. 31/32 онлайн-копии)."
+    },
+    {
+     "type": "h4",
+     "html": "<strong><em>2.1. Нижняя граница: ранние авторы не цитируют текст (довод от умолчания)</em></strong>"
+    },
+    {
+     "type": "quote",
+     "paragraphs": [
+      "<em>«</em><strong><em>Chronology</em></strong>",
+      "<em>The VS can in no way be considered a very ancient work as ancient authors do not</em> <em>make any reference to the VS. For instance, Halāyudha (1050 A.D.) in his</em> <em>Brāhmaṇasarvasva and Lakṣmīdhara (1150 A.D.) in the Kalpataru do not mention</em> <em>VS anywhere; nor do they quote any verse from the same whereas both the</em> <em>authors quote liberally from other sources. Were the VS prior to these authors, they</em> <em>would have certainly quoted from VS; more so because (like the VS) both the</em> <em>authors advocate the doctrine of Jñānakarmasamuccaya (synthesis of Knowledge</em> <em>and Action) for the sake of salvation in support of which they quote from different</em> <em>works like the Yogayājñavalkya, Agnipurāṇa etc. The absence of such quotation of</em> <em>VS in their works is an indication that VS is the later origin, i.e. after the 12th</em> <em>century A.D.»</em>"
+     ]
+    },
+    {
+     "type": "p",
+     "html": "Перевод: «Хронология. ВС никак нельзя считать очень древним сочинением, поскольку древние авторы на ВС не ссылаются. Например, Халāйудха (1050 г.) в „Брāхман̣а-сарвасве“ и Лакшмӣдхара (1150 г.) в „Калпатару“ нигде не упоминают ВС и не цитируют из неё ни одного стиха, хотя оба автора щедро цитируют другие источники. Будь ВС старше этих авторов, они непременно цитировали бы её, тем более что оба (как и ВС) отстаивают учение о джн̃āнакармасамуччае (соединении знания и действия) ради освобождения и в его поддержку цитируют разные сочинения, такие как „Йога-Йāджн̃авалкйа“, „Агни-пурāн̣а“ и др. Отсутствие цитат из ВС в их трудах указывает на более позднее происхождение ВС, т. е. после XII в. н. э.»"
+    },
+    {
+     "type": "p",
+     "html": "<em>Примечание составителя: проверка довода.</em>"
+    },
+    {
+     "type": "list",
+     "items": [
+      {
+       "html": "<strong>Лакшмӣдхара.</strong> Я проверил «Мокша-кāн̣д̣у» «Кр̣тйакалпатару» по электронному тексту П. Оливелла (UT Austin, 2022; по изданию K. V. Rangaswami Aiyangar, GOS CII, Baroda 1945; <a href=\"https://sites.utexas.edu/sanskrit/resources/dharmasastra/krtyakalpataru/\" target=\"_blank\" rel=\"noopener nofollow\">https://sites.utexas.edu/sanskrit/resources/dharmasastra/krtyakalpataru/</a>). Результаты:",
+       "level": 1
+      },
+      {
+       "html": "Стихов ВС там действительно нет. Цитаты с пометкой «vasiṣṭhaḥ» — это прозаические правила для отшельников и аскетов, а не стихи йогической ВС.",
+       "level": 2
+      },
+      {
+       "html": "Йога-Йāджн̃авалкйа цитируется именно в защиту соединения знания и действия. Глава 15 «atha jñānakarmopayogaḥ», с. 146 по меткам э-текста: «yogiyājñavalkyaḥ | … jñānakarmasamāyogāt param āpnoti pūruṣam | pṛthagbhāve na sidhyeta ubhe tasmāt samāśrayet ||». Эту часть утверждения издателей я подтвердил.",
+       "level": 2
+      },
+      {
+       "html": "Цитат с пометкой «Агни-пурāн̣а» поиск по «Мокша-кāн̣д̣е» не нашёл. Возможно, издатели имели в виду другие части «Калпатару» или Халāйудху; это не проверено.",
+       "level": 2
+      },
+      {
+       "html": "Другие тома «Калпатару» я не просматривал.",
+       "level": 2
+      },
+      {
+       "html": "<strong>Халāйудха.</strong> Текст «Брāхман̣а-сарвасвы» (изд. D. Bhattacharyya, Sanskrit Sahitya Parishad Series 29, Calcutta 1960) я не видел.",
+       "level": 1
+      },
+      {
+       "html": "Дата «1050 A.D.» расходится с другими источниками. В них автор «Брāхман̣а-сарвасвы» — министр бенгальского царя Лакшман̣асены, XII в.: аннотация к изданию 1960 г. на exoticindiaart.com («the court of king Lakṣmaṇasena of Bengal in the 12th century»); Swami Harshananda на hindupedia.com («CE 1160-1200»). Там же различаются лексикограф Халāйудха (X в.) и автор «Брāхман̣а-сарвасвы».",
+       "level": 2
+      },
+      {
+       "html": "По этим данным получается, что Халāйудха жил после Лакшмӣдхары, а не до него.",
+       "level": 2
+      },
+      {
+       "html": "<strong>Сам довод — довод от умолчания.</strong> По словам издателей, оба автора цитируют другие сочинения в поддержку джн̃āнакармасамуччаи; если бы ВС существовала, они цитировали бы и её. Birch 2018 (прим. 92) прямо оценивает этот довод как неокончательный (см. п. 4).",
+       "level": 1
+      }
+     ]
+    },
+    {
+     "type": "h4",
+     "html": "<strong><em>2.2. Верхняя граница: поздние авторы цитируют текст</em></strong>"
+    },
+    {
+     "type": "quote",
+     "paragraphs": [
+      "<em>«That the VS is not very recent becomes evident from the fact that authors like</em> <em>Nāgojībhaṭṭa (end of 17th century), Bhāvāgaṇeśa (1550-1600 A.D.) Vijñānabhikṣu</em> <em>(1550 A.D.) etc., quote the VS, Mallīnātha (1450 A.D.) also, who preceded</em> <em>Vijñānabhikṣu quotes VS in his commentaries on Raghuvaṃśa and</em> <em>Kumārasambhava.»</em>"
+     ]
+    },
+    {
+     "type": "p",
+     "html": "Перевод: «То, что ВС не очень поздняя, видно из того, что её цитируют такие авторы, как Нāгоджӣбхат̣т̣а (конец XVII в.), Бхāвāган̣еш́а (1550–1600 гг.), Виджн̃āнабхикшу (1550 г.) и др.; Маллинāтха (1450 г.), живший раньше Виджн̃āнабхикшу, также цитирует ВС в своих комментариях к „Рагхувам̣ш́е“ и „Кумāрасамбхаве“»."
+    },
+    {
+     "type": "p",
+     "html": "Независимое подтверждение по Маллинāтхе есть у Вуястика (см. п. 5.5). Там Маллинāтха датирован «fl. 1400», а не 1450 годом, а место указано как «Рагхувам̣ш́а» 13.52."
+    },
+    {
+     "type": "h4",
+     "html": "<strong><em>2.3. Расчёт «около 1250 г.» по Хат̣ха-прадӣпике</em></strong>"
+    },
+    {
+     "type": "quote",
+     "paragraphs": [
+      "<em>«The HP also while describing the Āsanas qualifies them as recommended by sages</em> <em>like Vasiṣṭha etc. cf.</em>",
+      "<em>\"Vasiṣṭhādyaiśca munibhirmatsyendrādyaiśca yogibhiḥ</em>",
+      "<em>aṅgīkṛtānyāsanāni kathyante kānicinmayā\" HP. I. 18</em>",
+      "<em>Thus, the VS is a work prior to the HP and if the HP is assigned to about 1350 A.D.,</em> <em>the VS must be taken to have been ready at least before a hundred years. Thus, we</em> <em>can assign the VS to about 1250 A.D.»</em>"
+     ]
+    },
+    {
+     "type": "p",
+     "html": "Перевод: «Хат̣ха-прадӣпикā, описывая āсаны, тоже характеризует их как рекомендованные мудрецами, такими как Васишт̣ха и др.; ср. „Излагаю некоторые āсаны, принятые мудрецами, начиная с Васишт̣хи, и йогинами, начиная с Матсйендры“ (ХП 1.18). Итак, ВС старше ХП, и если ХП отнести примерно к 1350 г., то ВС следует считать сложившейся по меньшей мере на сто лет раньше. Таким образом, мы можем отнести ВС примерно к 1250 г.»"
+    },
+    {
+     "type": "p",
+     "html": "<em>Примечание составителя.</em>"
+    },
+    {
+     "type": "list",
+     "items": [
+      {
+       "html": "Датировка Хат̣ха-прадӣпики «около 1350 г.» — допущение редакторов. В более поздних работах ХП датируется XV веком: «Haṭhapradīpikā (15th century)» (Birch 2018, прим. 92) и «circa mid-fifteenth century» (Birch 2020, с. 451).",
+       "level": 1
+      },
+      {
+       "html": "Интервал в «сто лет» в этом месте ничем не обоснован.",
+       "level": 1
+      },
+      {
+       "html": "Стих ХП 1.18 называет Васишт̣ху среди мудрецов, принявших āсаны. На сочинение «Васишт̣ха-сам̣хитā» он прямо не ссылается; вывод «ВС старше ХП» сделали издатели.",
+       "level": 1
+      }
+     ]
+    },
+    {
+     "type": "h4",
+     "html": "<strong><em>2.4. Оговорка редакторов: текст многослоен</em></strong>"
+    },
+    {
+     "type": "quote",
+     "paragraphs": [
+      "<em>«Yet we cannot definitely state that all the material that has come down to us in</em> <em>the extant VS belonged to that period. Some of the material must belong to an</em> <em>earlier period and the VS must have attained the present form passing through</em> <em>various stages like the epic Jaya which attained the form of the Mahābhārata.»</em>"
+     ]
+    },
+    {
+     "type": "p",
+     "html": "Перевод: «Однако мы не можем с уверенностью утверждать, что весь дошедший до нас в сохранившейся ВС материал относится к этому периоду. Часть материала, должно быть, принадлежит более раннему времени, и ВС, должно быть, достигла нынешнего вида, пройдя через разные стадии, подобно тому как эпос „Джайа“ принял форму „Махāбхāраты“»."
+    },
+    {
+     "type": "p",
+     "html": "Сразу за этим в книге идёт абзац о линиях преемственности учителей:"
+    },
+    {
+     "type": "quote",
+     "paragraphs": [
+      "<em>«The various traditions regarding the lineage of the teachers who transmitted that</em> <em>lore differ to a large extent. But all these (except the Mahābhārata, Śāntiparva)</em> <em>accounts have Vasiṣṭha and Śakti in common. The various accounts are given</em> <em>below.»</em>"
+     ]
+    },
+    {
+     "type": "p",
+     "html": "Перевод: «Различные предания о линии учителей, передававших это учение, сильно расходятся. Но во всех этих рассказах (кроме „Махāбхāраты“, „Ш́āнтипарвы“) общими являются Васишт̣ха и Ш́акти. Различные версии приводятся ниже»."
+    },
+    {
+     "type": "p",
+     "html": "За ним следуют схемы преемственности. В онлайн-копии их слова (Brahma, Vasistha, Sakti, Parasara, Vyasa, Suka, Gaudapada, Govinda, Sankara) перемешались с текстом раздела. По печатному тексту подтвердилось, что слова «Sakti» в цитате о ХП 1.18 нет: OCR вставил его из схемы."
+    },
+    {
+     "type": "h4",
+     "html": "<strong><em>2.5. Рукописи и ранние цитаты (раздел «Extent of the Text»)</em></strong>"
+    },
+    {
+     "type": "quote",
+     "paragraphs": [
+      "<em>«All the six manuscripts except one have eight chapters. The manuscript dated</em> <em>Samvat 1463 (i.e. 1406 A.D.), which is most authentic in this respect has eight</em> <em>chapters. Nrsimha Vajpeyi (1450 A.D.) quotes in his Nityacaradipa the following</em> <em>verse of Vasistha Yoga: […]»</em>"
+     ]
+    },
+    {
+     "type": "p",
+     "html": "Перевод: «Все шесть рукописей, кроме одной, содержат восемь глав. Рукопись, датированная сам̣ват 1463 (т. е. 1406 г. н. э.), наиболее авторитетная в этом отношении, содержит восемь глав. Нр̣сим̣ха Вāджапейӣ (1450 г.) цитирует в „Нитйāчāрадӣпе“ следующий стих „Васишт̣ха-йоги“: […]» (сам стих в OCR не читается)."
+    },
+    {
+     "type": "quote",
+     "paragraphs": [
+      "<em>«This verse happens to be the nineteenth verse of the eighth chapter of the VS. It</em> <em>can be inferred that upto about 1450 A.D. the work was recognised to comprise of</em> <em>at least eight chapters.»</em>"
+     ]
+    },
+    {
+     "type": "p",
+     "html": "Перевод: «Этот стих оказывается девятнадцатым стихом восьмой главы ВС. Можно заключить, что примерно до 1450 г. считалось, что сочинение состоит по меньшей мере из восьми глав»."
+    },
+    {
+     "type": "p",
+     "html": "<em>Примечание составителя.</em> Датированная рукопись 1406 года сама по себе даёт только крайний срок существования текста (не позднее 1406 г.)."
+    },
+    {
+     "type": "h4",
+     "html": "<strong><em>2.6. Отношение к Йога-Йāджн̃авалкйе и Хат̣ха-прадӣпике</em></strong>"
+    },
+    {
+     "type": "quote",
+     "paragraphs": [
+      "<em>«None of the scholars, quoting the stanzas found to be common to both the works,</em> <em>ascribe them to Yogayajnavalkya but to Vasistha. Similarly Bhavaganesa and</em> <em>Nagojibhatta (on Yogasutra I. 33) while quoting on the process of the purification</em> <em>of Nadis without Kumbhaka, ascribe it clearly to VS and not to YY. The three types</em> <em>of Pranayama, viz. Adhama, Madhyama and Uttama are also traced to Vasistha</em> <em>and not to YY. From these it becomes clear that YY is a later work and that it seems</em> <em>to have borrowed from VS.»</em>"
+     ]
+    },
+    {
+     "type": "p",
+     "html": "Перевод: «Ни один из учёных, цитирующих строфы, общие для обоих сочинений, не приписывает их Йога-Йāджн̃авалкйе — только Васишт̣хе. Точно так же Бхāвāган̣еш́а и Нāгоджӣбхат̣т̣а (к Йога-сӯтре I.33), цитируя описание очищения нāд̣ӣ без кумбхаки, ясно приписывают его ВС, а не ЙЯ. Три вида прāн̣āйāмы — низший, средний и высший — тоже возводятся к Васишт̣хе, а не к ЙЯ. Отсюда ясно, что ЙЯ — более позднее сочинение и что она, по-видимому, заимствовала из ВС»."
+    },
+    {
+     "type": "quote",
+     "paragraphs": [
+      "<em>«The verses 11-22, of chapter V of the YY which describe the purification of Nadis,</em> <em>occur almost verbatim in the second chapter of the VS (V.S. 58-70). Also the words</em> <em>(kecit vadanti) meaning 'some say' occurring prior to verse 10 of the Vth chapter of</em> <em>YY seem to indicate Vasistha. From this it can be inferred that YY has borrowed</em> <em>from VS.»</em>"
+     ]
+    },
+    {
+     "type": "p",
+     "html": "Перевод: «Стихи 11–22 главы V ЙЯ, описывающие очищение нāд̣ӣ, почти дословно встречаются во второй главе ВС (ВС 58–70). Кроме того, слова kecit vadanti („некоторые говорят“) перед стихом 10 главы V ЙЯ, по-видимому, указывают на Васишт̣ху. Отсюда можно заключить, что ЙЯ заимствовала из ВС»."
+    },
+    {
+     "type": "quote",
+     "paragraphs": [
+      "<em>«But the HP itself is a work later than the VS (the facts that lead us to this</em> <em>conclusion are given below). Hence, it can definitely be said that the VS is not a</em> <em>borrower.»</em>"
+     ]
+    },
+    {
+     "type": "p",
+     "html": "Перевод: «Но сама ХП — сочинение более позднее, чем ВС (факты, ведущие к этому выводу, приведены ниже). Следовательно, можно определённо сказать, что ВС не заимствует»."
+    },
+    {
+     "type": "h4",
+     "html": "<strong><em>2.7. Расхождение внутри издания: «до 1150 г.»</em></strong>"
+    },
+    {
+     "type": "p",
+     "html": "<strong>Сверено с печатным изданием.</strong> Ниже текст, присланный пользователем по печатной книге (раздел «Sūta Saṃhitā – Jñānayogakāṇḍa»). Он подтверждает чтение «prior to 1150 A.D.», то есть это не ошибка OCR. В онлайн-копии не было начала и конца абзаца, здесь они восстановлены."
+    },
+    {
+     "type": "quote",
+     "paragraphs": [
+      "<em>«</em><strong><em>Sūta Saṃhitā- Jñānayogakāṇḍa</em></strong>",
+      "<em>The Sūta Saṃhitā has been published by the Ānandāśrama, Pune. Whilst tracing</em> <em>the pedigree of teachers through whom the work is handed down, the JSS states</em> <em>that Śakti derived the lore from Vasiṣṭha. From this it can be inferred that the JSS</em> <em>borrowed from the dialogue between Śakti and Vasiṣṭha. The Sūta Saṃhitā</em> <em>(Muktikhaṇḍa, VII. 50-55) also refers to Cakradhara Mahānubhāva and to his</em> <em>disciple Subhaga. Cakradhara is assigned to 1250 A.D. But as the VS (as shown</em> <em>below) is prior to 1150 A.D. and as there is a period of hundred years intervening</em> <em>between the VS and Cakradhara, the JSS is certainly the borrower from the VS. We</em> <em>can also point out to influence of Vedānta upon the Sūta Saṃhitā. This also proves</em> <em>that the JSS is later than the VS.»</em>"
+     ]
+    },
+    {
+     "type": "p",
+     "html": "Перевод: «Сӯта-сам̣хитā — Джн̃āнайогакāн̣д̣а. Сӯта-сам̣хитā издана Āнандāш́рамой (Пуна). Прослеживая линию учителей, через которых передавалось сочинение, Джн̃āнайогакāн̣д̣а Сӯта-сам̣хиты (JSS) говорит, что Ш́акти получил это учение от Васишт̣хи. Отсюда можно заключить, что JSS заимствовала из диалога Ш́акти и Васишт̣хи. Сӯта-сам̣хитā (Муктикхан̣д̣а VII.50–55) упоминает также Чакрадхару Махāнубхāву и его ученика Субхагу. Чакрадхару относят к 1250 г. Но поскольку ВС (как показано ниже) старше 1150 г. и между ВС и Чакрадхарой лежит сто лет, JSS, безусловно, заимствует из ВС. Можно также указать на влияние ведāнты на Сӯта-сам̣хиту. Это также доказывает, что JSS позже ВС»."
+    },
+    {
+     "type": "p",
+     "html": "В этом абзаце приведены три довода в пользу того, что JSS позже ВС:"
+    },
+    {
+     "type": "p",
+     "html": "3. В линии учителей JSS Ш́акти получает учение от Васишт̣хи. Издатели выводят отсюда, что JSS заимствует из диалога Васишт̣хи и Ш́акти."
+    },
+    {
+     "type": "p",
+     "html": "4. Сӯта-сам̣хитā упоминает Чакрадхару Махāнубхāву, которого издатели относят к 1250 г. При этом ВС, по их словам, старше 1150 г."
+    },
+    {
+     "type": "p",
+     "html": "5. В Сӯта-сам̣хите заметно влияние ведāнты. Конкретных примеров в этом абзаце нет."
+    },
+    {
+     "type": "p",
+     "html": "<em>Примечание составителя.</em>"
+    },
+    {
+     "type": "list",
+     "items": [
+      {
+       "html": "Внутри фразы арифметика согласована: 1250 − 100 = 1150. Значит, «1150» не опечатка, а намеренная цифра.",
+       "level": 1
+      },
+      {
+       "html": "Ссылка «as shown below» ведёт к разделу «Chronology». Но там сделан другой вывод: «after the 12th century A.D.» и «we can assign the VS to about 1250 A.D.» (п. 2.1, 2.3). Получается, что для ВС в одной книге даны две несовместимые даты: «до 1150 г.» и «около 1250 г.». В тексте книги это расхождение не объясняется.",
+       "level": 1
+      },
+      {
+       "html": "Почему так вышло, по печатному тексту 2005 г. установить нельзя. Можно проверить, совпадают ли эти места в издании 1984 г.",
+       "level": 1
+      },
+      {
+       "html": "Довод (2) работает при обеих датах. Если ВС относится к «около 1250 г.», она оказывается ровесницей Чакрадхары, а не старше его на сто лет. Тогда этот довод о заимствовании JSS у ВС теряет силу. Это моё наблюдение, у издателей его нет.",
+       "level": 1
+      }
+     ]
+    },
+    {
+     "type": "h3",
+     "html": "<strong>3. Jason Birch, 2011</strong>"
+    },
+    {
+     "type": "p",
+     "html": "<strong>Издание:</strong> Jason Birch, “The Meaning of haṭha in Early Haṭhayoga”, <em>Journal of the</em> <em>American Oriental Society</em> 131.4 (2011): 527–554. Открытая копия: <a href=\"https://www.themathesontrust.org/papers/hinduism/Birch-Meaning_of_hatha_in_E\" target=\"_blank\" rel=\"noopener nofollow\">https://www.themathesontrust.org/papers/hinduism/Birch-Meaning_of_hatha_in_E</a> arly_Hathayoga.pdf"
+    },
+    {
+     "type": "p",
+     "html": "В списке ранних текстов (с. 528) стоит: «Vasiṣṭhasaṃhitā (12/13th century)», «Yogayājñavalkya (13/14th century)»."
+    },
+    {
+     "type": "p",
+     "html": "Примечание 8 (с. 528):"
+    },
+    {
+     "type": "quote",
+     "paragraphs": [
+      "<em>«The Kaivalyadhama Research Department (2005: 30–32) has argued convincingly</em> <em>that the terminus ad quem of the Vasiṣṭhasaṃhitā is the Yogayājñavalkya. Also, it</em> <em>presents evidence for a terminus a quo of the twelfth century.»</em>"
+     ]
+    },
+    {
+     "type": "p",
+     "html": "Перевод: «Исследовательский отдел Каивалйадхāмы (2005: 30–32) убедительно показал, что terminus ad quem (верхняя граница) Васишт̣ха-сам̣хиты — это Йога-Йāджн̃авалкйа. Кроме того, он приводит свидетельства в пользу terminus a quo (нижней границы) в XII веке»."
+    },
+    {
+     "type": "p",
+     "html": "Примечание 10 (с. 528):"
+    },
+    {
+     "type": "quote",
+     "paragraphs": [
+      "<em>«The Yogayājñavalkya's terminus a quo is the Vasiṣṭhasaṃhitā (see n. 8). Bouy</em> <em>(1994: 84) has identified a citation of the Yogayājñavalkya in the</em> <em>Sarvadarśanasaṅgraha, which gives it a terminus ad quem of the fourteenth</em> <em>century.»</em>"
+     ]
+    },
+    {
+     "type": "p",
+     "html": "Перевод: «Terminus a quo Йога-Йāджн̃авалкйи — Васишт̣ха-сам̣хитā (см. прим. 8). Буи (1994: 84) обнаружил цитату из Йога-Йāджн̃авалкйи в „Сарвадарш́анасан̇грахе“, что даёт ей terminus ad quem в XIV веке»."
+    },
+    {
+     "type": "h3",
+     "html": "<strong>4. Jason Birch, 2018: самая подробная критическая оценка</strong>"
+    },
+    {
+     "type": "p",
+     "html": "<strong>Издание:</strong> Jason Birch, “Premodern Yoga Traditions and Ayurveda: Preliminary Remarks on Shared Terminology, Theory, and Praxis”, <em>History of Science in South Asia</em> 6 (2018): 1–83. DOI: 10.18732/hssa.v6i0.25. Открытый PDF: <a href=\"https://journals.library.ualberta.ca/hssa/index.php/hssa/article/download/25/89\" target=\"_blank\" rel=\"noopener nofollow\">https://journals.library.ualberta.ca/hssa/index.php/hssa/article/download/25/89</a> Примечание 92 (с. 25) — главный фрагмент о датировке:"
+    },
+    {
+     "type": "quote",
+     "paragraphs": [
+      "<em>«Gérard Colas considers the Vimānārcanākalpa to be one of the earliest texts of</em> <em>the Vaikhānasa Saṃhitā corpus, which he dates between the 9th and 13th–14th</em> <em>centuries (Colas 2012:158). There is no firm terminus a quo for the</em> <em>Vasiṣṭhasaṃhitā, although the editors of the text argue for a post-12th century</em> <em>date, based on the absence of citations in earlier works in which they expected to</em> <em>find it. The Vasiṣṭhasaṃhitā's terminus ad quem is the Yogayājñavalkya, which</em> <em>predates the Haṭhapradīpikā (15th century). Therefore, one might tentatively date</em> <em>the Vasiṣṭhasaṃhitā between the 12th-13th centuries and thus, it is possible that</em> <em>the Vimānārcanākalpa is older than the Vasiṣṭhasaṃhitā and a source text for it.»</em>"
+     ]
+    },
+    {
+     "type": "p",
+     "html": "Перевод: «Жерар Колá считает „Вимāнāрчанāкалпу“ одним из самых ранних текстов корпуса ваикхāнаса-сам̣хит, который он датирует периодом между IX и XIII–XIV вв. (Colas 2012: 158). Твёрдого terminus a quo для Васишт̣ха-сам̣хиты нет, хотя издатели текста отстаивают дату после XII века, основываясь на отсутствии цитат в более ранних сочинениях, где они ожидали бы их найти. Terminus ad quem Васишт̣ха-сам̣хиты — Йога-Йāджн̃авалкйа, которая старше Хат̣ха-прадӣпики (XV в.). Поэтому Васишт̣ха-сам̣хиту можно предварительно датировать XII–XIII веками, и, следовательно, возможно, что „Вимāнāрчанāкалпа“ старше Васишт̣ха-сам̣хиты и служила для неё источником»."
+    },
+    {
+     "type": "p",
+     "html": "С. 21 — масштаб заимствований Йога-Йāджн̃авалкйи:"
+    },
+    {
+     "type": "quote",
+     "paragraphs": [
+      "<em>«The Yogayājñavalkya is a compilation and much of it is based on the</em> <em>Vasiṣṭhasaṃhitā. In fact, the former borrowed over two hundred and fifty verses</em> <em>from the latter.»</em>"
+     ]
+    },
+    {
+     "type": "p",
+     "html": "Перевод: «Йога-Йāджн̃авалкйа — компиляция, и бóльшая её часть основана на Васишт̣ха-сам̣хите. Более того, первая заимствовала у второй свыше двухсот пятидесяти стихов». (В прим. 81 Бёрч ссылается на с. 28 введения к изданию Каивалйадхāмы. На с. 21–22 приведена таблица 1 с параллельными стихами обоих текстов.)"
+    },
+    {
+     "type": "p",
+     "html": "С. 25 — об источнике раздела о марманах:"
+    },
+    {
+     "type": "quote",
+     "paragraphs": [
+      "<em>«[…] verbatim from the Vasiṣṭhasaṃhitā, which probably borrowed it from the</em> <em>Vimānārcanākalpa, a Vaikhānasa text that could date to the ninth century.»</em>"
+     ]
+    },
+    {
+     "type": "p",
+     "html": "Перевод: «[…] дословно из Васишт̣ха-сам̣хиты, которая, вероятно, заимствовала это из „Вимāнāрчанāкалпы“ — ваикхāнасского текста, который может датироваться IX веком»."
+    },
+    {
+     "type": "p",
+     "html": "С. 45–46 — прямо о разделе āсан (ВС 1.67–82, переведённом в этом документе):"
+    },
+    {
+     "type": "quote",
+     "paragraphs": [
+      "<em>«The āsanas of Vasiṣṭha are those described in the Vasiṣṭhasaṃhitā, which</em> <em>Svātmārāma borrowed verbatim (Mallinson 2013b:227f.).»</em>"
+     ]
+    },
+    {
+     "type": "p",
+     "html": "Перевод: «Āсаны Васишт̣хи — это āсаны, описанные в Васишт̣ха-сам̣хите, которые Свāтмāрāма заимствовал дословно (Mallinson 2013b: 227 и далее)»."
+    },
+    {
+     "type": "quote",
+     "paragraphs": [
+      "<em>«[…] the Vimānārcanākalpa, which is probably the source of the Vasiṣṭhasaṃhitā's</em> <em>āsanas, contains no statements on the diseases cured by āsanas.»</em>"
+     ]
+    },
+    {
+     "type": "p",
+     "html": "Перевод: «[…] „Вимāнāрчанāкалпа“, которая, вероятно, является источником āсан Васишт̣ха-сам̣хиты, не содержит утверждений о болезнях, излечиваемых āсанами». (Прим. 180: «Mallinson 2013b:227f. See also Dominik Wujastyk 2017.»)"
+    },
+    {
+     "type": "h3",
+     "html": "<strong>5. Dominik Wujastyk, 2017</strong>"
+    },
+    {
+     "type": "p",
+     "html": "<strong>Издание:</strong> Dominik Wujastyk, “The Yoga Texts Attributed to Yājñavalkya and their Remarks on Posture”, <em>Asian Literature and Translation</em> 4.1 (2017): 159–186. DOI: 10.18573/j.2017.10192. Открытые копии: <a href=\"https://orca.cardiff.ac.uk/id/eprint/104136/\" target=\"_blank\" rel=\"noopener nofollow\">https://orca.cardiff.ac.uk/id/eprint/104136/</a> и <a href=\"https://ualberta.scholaris.ca/server/api/core/bitstreams/67551b96-7949-472e-bf3f-\" target=\"_blank\" rel=\"noopener nofollow\">https://ualberta.scholaris.ca/server/api/core/bitstreams/67551b96-7949-472e-bf3f-</a> 8e8d93808e6e/content"
+    },
+    {
+     "type": "p",
+     "html": "5.1. С. 162, основной текст и прим. 18:"
+    },
+    {
+     "type": "quote",
+     "paragraphs": [
+      "<em>«[…] more literary research is required into the rich intertextuality of these and</em> <em>related works such as the Vasiṣṭhasaṃhitā (before 1250).»</em>",
+      "<em>Прим. 18: «On the date of the Vasiṣṭhasaṃhitā see Bouy (ibid.: n. 343 et passim),</em> <em>Birch (2011: notes 8, 10). The section of the text on postures is translated by</em> <em>Mallinson and Singleton (2017: 104 f.).»</em>"
+     ]
+    },
+    {
+     "type": "p",
+     "html": "Перевод: «[…] требуется дальнейшее литературоведческое исследование богатой интертекстуальности этих и родственных сочинений, таких как Васишт̣ха-сам̣хитā (до 1250 г.)». Прим. 18: «О дате Васишт̣ха-сам̣хиты см. Буи (там же: прим. 343 и далее по книге), Бёрч (2011: прим. 8, 10). Раздел текста о позах переведён у Маллинсона и Синглтона (2017: 104 и далее)»."
+    },
+    {
+     "type": "p",
+     "html": "5.2. С. 164 — выводы Буи о Йога-Йāджн̃авалкйе:"
+    },
+    {
+     "type": "quote",
+     "paragraphs": [
+      "<em>«Taking earlier scholarship into account, Bouy made the following key assertions</em> <em>about the Yogayājñavalkya(gītā): • it is later than the Sarvayogasamuccaya in the</em> <em>Yogayājñavalkya, • it owes a great deal to the earlier Vasiṣṭhasaṃhitā, and • it is</em> <em>datable to the period between about 900 and 1350.»</em>"
+     ]
+    },
+    {
+     "type": "p",
+     "html": "Перевод: «С учётом предшествующих исследований Буи сделал следующие ключевые утверждения о Йога-Йāджн̃авалкйе(-гӣте): она позже „Сарвайогасамуччаи“ в Йога-Йāджн̃авалкйе; она многим обязана более ранней Васишт̣ха-сам̣хите; её можно датировать периодом примерно между 900 и 1350 гг.» (прим. 33: «Bouy 1994: n. 360»)."
+    },
+    {
+     "type": "p",
+     "html": "5.3. С. 164, прим. 35:"
+    },
+    {
+     "type": "quote",
+     "paragraphs": [
+      "<em>«Birch (2011: 528, no. 8) noted that Maheshananda et al. (2005) presented</em> <em>evidence for thinking that the Vasiṣṭhasaṃhitā is twelfth century or later. This</em> <em>would narrow the Yogayājñavalkya(gītā)'s date to the range 1100–1350.»</em>"
+     ]
+    },
+    {
+     "type": "p",
+     "html": "Перевод: «Бёрч (2011: 528, прим. 8) отметил, что Махешананда и соавт. (2005) привели свидетельства в пользу того, что Васишт̣ха-сам̣хитā относится к XII веку или позже. Это сузило бы дату Йога-Йāджн̃авалкйи(-гӣты) до промежутка 1100–1350 гг.»"
+    },
+    {
+     "type": "p",
+     "html": "5.4. С. 164 — о «Вимāнāрчанāкалпе» как общем источнике:"
+    },
+    {
+     "type": "quote",
+     "paragraphs": [
+      "<em>«One of the earliest works in this canon, the Vimānārcanākalpa, contains material</em> <em>that is similar to passages in the Vāsiṣṭhasaṃhitā as well as to texts from the</em> <em>Ahirbudhnyasaṃhitā of the Pāñcarātra Corpus. If the Vimānārcanākalpa is</em> <em>datable to about 900 ce, as Colas (ibid.) suggests, then it is likely that all these</em> <em>works, including the Yogayājñavalkya(gītā), can trace parts of their content to this</em> <em>source.»</em>"
+     ]
+    },
+    {
+     "type": "p",
+     "html": "Перевод: «Одно из самых ранних сочинений этого канона, „Вимāнāрчанāкалпа“, содержит материал, сходный с пассажами Васишт̣ха-сам̣хиты, а также с текстами „Ахирбудхнйа-сам̣хиты“ из пāн̃чарāтрского корпуса. Если „Вимāнāрчанāкалпу“ можно датировать примерно 900 г. н. э., как предполагает Кола, то, вероятно, все эти сочинения, включая Йога-Йāджн̃авалкйу(-гӣту), восходят частью своего содержания к этому источнику»."
+    },
+    {
+     "type": "p",
+     "html": "Там же, прим. 36: «Nine postures are described: Brāhmya, Svastika, Padma, Gomukha, Siṃha, Mukta, Vīra, Bhadra and Mayūra.» — «Описаны девять поз: Брāхмйа, Свастика, Падма, Гомукха, Сим̣ха, Мукта, Вӣра, Бхадра и Мāйӯра». Восемь из этих названий совпадают с āсанами ВС 1.67–82."
+    },
+    {
+     "type": "p",
+     "html": "5.5. С. 174 — Маллинāтха приписывает стих о вӣрāсане Васишт̣хе:"
+    },
+    {
+     "type": "quote",
+     "paragraphs": [
+      "<em>«It was also known by name to Kālidāsa, but interestingly, his commentator</em> <em>Mallinātha (fl. 1400) cites a verse describing how to adopt the posture that is</em> <em>identical to our Yogayājñavalkya(gītā) verse. But Mallinātha ascribes it to</em> <em>Vasiṣṭha.»</em>",
+      "<em>Прим. 63: «The reference is to the Vasiṣṭhasaṃhitā, that was also cited multiple</em> <em>times by the late-sixteenth-century yoga commentator Vijñānabhikṣu</em> <em>(Digambaraji, Jha, and Sahay 1984: 14), including on Pātañjalayogaśāstra 2.46.»</em>"
+     ]
+    },
+    {
+     "type": "p",
+     "html": "Перевод: «Её [вӣрāсану] по названию знал и Кāлидāса, но интересно, что его комментатор Маллинāтха (ок. 1400 г.) приводит стих о том, как принимать эту позу, идентичный нашему стиху Йога-Йāджн̃авалкйи(-гӣты). Но Маллинāтха приписывает его Васишт̣хе». Прим. 63: «Имеется в виду Васишт̣ха-сам̣хитā, которую также неоднократно цитировал комментатор йоги конца XVI в. Виджн̃āнабхикшу (Digambaraji, Jha, and Sahay 1984: 14), в том числе к Пāтан̃джалайогаш́āстре 2.46». (Место у Маллинāтхы — «Рагхувам̣ш́а» 13.52, прим. 62.)"
+    },
+    {
+     "type": "h3",
+     "html": "<strong>6. Jason Birch, 2020</strong>"
+    },
+    {
+     "type": "p",
+     "html": "<strong>Издание:</strong> Jason Birch, “Haṭhayoga's Floruit on the Eve of Colonialism”, in: <em>Śaivism</em> <em>and the Tantric Traditions: Essays in Honour of Alexis G. J. S. Sanderson</em>, Brill, 2020, pp. 451–479. DOI: 10.1163/9789004432802_021 (открытый доступ, CC BY-NC). <a href=\"https://brill.com/display/book/edcoll/9789004432802/BP000024.xml\" target=\"_blank\" rel=\"noopener nofollow\">https://brill.com/display/book/edcoll/9789004432802/BP000024.xml</a>"
+    },
+    {
+     "type": "p",
+     "html": "Примечание 6:"
+    },
+    {
+     "type": "quote",
+     "paragraphs": [
+      "<em>«This Vaiṣṇava form of aṣṭāṅgayoga is taught (without the Haṭhayogic mudrās) in</em> <em>the Vasiṣṭhasaṃhitā and Yogayājñavalkya, which were probably composed in the</em> <em>twelfth and fourteenth centuries, respectively.»</em>"
+     ]
+    },
+    {
+     "type": "p",
+     "html": "Перевод: «Эта ваишн̣авская форма ашт̣āн̇га-йоги преподаётся (без хат̣ха-йогических мудр) в Васишт̣ха-сам̣хите и Йога-Йāджн̃авалкйе, которые были созданы, вероятно, в XII и XIV веках соответственно»."
+    },
+    {
+     "type": "h3",
+     "html": "<strong>7. S. V. B. K. V. Gupta, Jason Birch, 2022</strong>"
+    },
+    {
+     "type": "p",
+     "html": "<strong>Издание:</strong> S. V. B. K. V. Gupta, Jason Birch, “The Ocean of Yoga: An Unpublished Compendium Called the Yogārṇava”, <em>Journal of Indian Philosophy</em> 50 (2022): 345–385. DOI: 10.1007/s10781-022-09504-6 (открытый доступ). Раздел «Possible Source Texts of the Yogārṇava»."
+    },
+    {
+     "type": "quote",
+     "paragraphs": [
+      "<em>«There is a complex relationship between the Yogārṇava, Vasiṣṭhasaṃhitā (12th c.)</em> <em>and Yogayājñavalkya (13th–14th c.). The editors of the Kaivalyadhama Yoga</em> <em>Institute's critical edition of the Vasiṣṭhasaṃhitā (2005: 31–32) argue that the</em> <em>Yogayājñavalkya borrowed much material from it. This hypothesis is supported by</em> <em>a comparison of parallel passages in both works that was published in Birch</em> <em>(2018, pp. 21–22), which demonstrated that the redactor of the Yogayājñavalkya</em> <em>borrowed a lengthy discussion on the yogic body from the Vasiṣṭhasaṃhitā and</em> <em>supplemented it with material from elsewhere. Therefore, the Vasiṣṭhasaṃhitā is</em> <em>probably the earlier work, which the editors of the Kaivalyadhama Yoga Institute's</em> <em>edition date to the twelfth century.»</em>"
+     ]
+    },
+    {
+     "type": "p",
+     "html": "Перевод: «Между „Йогāрн̣авой“, Васишт̣ха-сам̣хитой (XII в.) и Йога-Йāджн̃авалкйей (XIII–XIV вв.) существует сложная связь. Издатели критического издания Васишт̣ха-сам̣хиты Института йоги Каивалйадхāма (2005: 31–32) утверждают, что Йога-Йāджн̃авалкйа заимствовала из неё много материала. Эту гипотезу подтверждает сравнение параллельных мест в обоих сочинениях, опубликованное в Birch (2018, с. 21–22): оно показало, что редактор Йога-Йāджн̃авалкйи заимствовал из Васишт̣ха-сам̣хиты пространное рассуждение о йогическом теле и дополнил его материалом из других источников. Следовательно, Васишт̣ха-сам̣хитā, вероятно, более раннее сочинение; издатели Каивалйадхāмы датируют её XII веком»."
+    },
+    {
+     "type": "p",
+     "html": "<em>Примечание составителя.</em> Сами издатели Каивалйадхāмы в разделе «Chronology» пишут «after the 12th century» и «about 1250 A.D.», т. е. середина XIII века (п. 2.1, 2.3). Формулировка Гупты и Бёрча «date to the twelfth century» с этим расходится. Примечание 7 той же статьи отсылает к Birch 2011, с. 528, прим. 8 и 10. В примечании 15 даны страницы Буи о текстах, заимствующих из ВС: «Bouy (1994), 13 n. 19, 17 n. 38, 67 n. 293, 68, 82»."
+    },
+    {
+     "type": "h3",
+     "html": "<strong>8. James Mallinson, Mark Singleton, 2017</strong>"
+    },
+    {
+     "type": "p",
+     "html": "<strong>Издание:</strong> James Mallinson, Mark Singleton, <em>Roots of Yoga</em>. London: Penguin Classics, 2017. ISBN 978-0-241-25304-5."
+    },
+    {
+     "type": "p",
+     "html": "В хронологической таблице в начале книги («Timeline of Important Texts») Васишт̣ха-сам̣хитā стоит в строке XIII века (диакритика нормализована):"
+    },
+    {
+     "type": "quote",
+     "paragraphs": [
+      "<em>«13th century CE | Saṅgītaratnākara (ŚT), Vasiṣṭhasaṃhitā (H), Candrāvalokana</em> <em>(H), Matsyendrasaṃhitā (ŚT), Vivekamārtaṇḍa (H), Gorakṣaśataka (H),</em> <em>Dattātreyayogaśāstra (H), Jñāneśvarī (H)»</em>"
+     ]
+    },
+    {
+     "type": "p",
+     "html": "Там же «Vimānārcanākalpa (VT)» стоит в строке «6th–10th century CE» среди ранних тантр. По данным Вуястика (прим. 18, 36), раздел ВС об āсанах переведён на с. 104 и далее, а āсаны «Вимāнāрчанāкалпы» — на с. 100 и далее. Английская Википедия ссылается на с. 87–88 и 104–105 этой книги, говоря, что ВС использует «Вимāнāрчанāкалпу». Сам текст этих страниц я не видел, их нужно проверить по книге."
+    },
+    {
+     "type": "h3",
+     "html": "<strong>9. Ruth Westoby</strong>"
+    },
+    {
+     "type": "p",
+     "html": "<strong>Издание:</strong> Ruth Westoby, <em>The Body in Early Haṭha Yoga</em> (исследование, опубликованное на wisdomlib.org, 2024), раздел «The Vasiṣṭhasaṃhitā and Haṭha Yoga»: <a href=\"https://www.wisdomlib.org/hinduism/essay/the-body-in-early-hatha-yoga/d/doc15\" target=\"_blank\" rel=\"noopener nofollow\">https://www.wisdomlib.org/hinduism/essay/the-body-in-early-hatha-yoga/d/doc15</a> 00707.html"
+    },
+    {
+     "type": "quote",
+     "paragraphs": [
+      "<em>«The thirteenth-century Vasiṣṭhasaṃhitā is a dialogue between the sage Vasiṣṭha</em> <em>and his son Śakti. […] Over 250 verses of the Vasiṣṭhasaṃhitā were borrowed by</em> <em>the Yogayājñavalkya and both are derived from earlier vaiṣṇava works such as the</em> <em>Vimānārcanākalpa (Mallinson 2014:227–8) and pāñcarātrika texts, such as the</em> <em>Ahirbudhnyasaṃhitā (Birch 2020b:210).»</em>"
+     ]
+    },
+    {
+     "type": "p",
+     "html": "Перевод: «Васишт̣ха-сам̣хитā XIII века — это диалог мудреца Васишт̣хи и его сына Ш́акти. […] Более 250 стихов Васишт̣ха-сам̣хиты были заимствованы Йога-Йāджн̃авалкйей, и обе восходят к более ранним ваишн̣авским сочинениям, таким как „Вимāнāрчанāкалпа“ (Mallinson 2014: 227–8), и к пāн̃чарāтрским текстам, таким как „Ахирбудхнйа-сам̣хитā“ (Birch 2020b: 210)»."
+    },
+    {
+     "type": "h3",
+     "html": "<strong>10. Christian Bouy, 1994</strong>"
+    },
+    {
+     "type": "p",
+     "html": "<strong>Издание:</strong> Christian Bouy, <em>Les Nātha-yogin et les Upaniṣads: étude d'histoire de la</em> <em>littérature hindoue</em>. Paris: De Boccard, 1994."
+    },
+    {
+     "type": "p",
+     "html": "Онлайн-текста этой книги я не нашёл, поэтому прямых цитат нет. Ниже — места, на которые ссылаются другие авторы:"
+    },
+    {
+     "type": "list",
+     "items": [
+      {
+       "html": "прим. 343 и далее по книге — о дате ВС (Wujastyk 2017, прим. 18);",
+       "level": 1
+      },
+      {
+       "html": "с. 84 — цитата из Йога-Йāджн̃авалкйи в «Сарвадарш́анасан̇грахе», откуда верхняя граница для Йога-Йāджн̃авалкйи в XIV веке (Birch 2011, прим. 10);",
+       "level": 1
+      },
+      {
+       "html": "прим. 360 — выводы о Йога-Йāджн̃авалкйе, в том числе её зависимость от ВС (Wujastyk 2017, прим. 33);",
+       "level": 1
+      },
+      {
+       "html": "с. 13 прим. 19, с. 17 прим. 38, с. 67 прим. 293, с. 68, с. 82 — тексты, заимствующие из ВС (Gupta &amp; Birch 2022, прим. 15).",
+       "level": 1
+      }
+     ]
+    },
+    {
+     "type": "h3",
+     "html": "<strong>11. Отдельный вопрос: запись в каталоге Ауфрехта</strong>"
+    },
+    {
+     "type": "p",
+     "html": "В «Catalogus Catalogorum» Т. Ауфрехта (по оцифровке Кёльнского университета, воспроизведённой на wisdomlib.org) запись о йогической Васишт̣ха-сам̣хите выглядит так:"
+    },
+    {
+     "type": "quote",
+     "paragraphs": [
+      "<em>«Vasiṣṭhasaṃhitā: — yoga. Io. 2609 (in 8 chapters). Quoted by Śaṅkarācārya on</em> <em>Śvetāśvataropaniṣad, by Narasiṃha in Tārābhaktisudhārṇava, Catal. Io. p. 898.»</em>"
+     ]
+    },
+    {
+     "type": "p",
+     "html": "Перевод: «Васишт̣ха-сам̣хитā — йога. India Office 2609 (в 8 главах). Цитируется Ш́ан̇карāчāрйей в [комментарии на] Ш́ветāш́ватара-упанишаду, Нарасим̣хой в „Тāрāбхактисудхāрн̣аве“»."
+    },
+    {
+     "type": "p",
+     "html": "Ссылка: <a href=\"https://www.wisdomlib.org/definition/vasishthasamhita\" target=\"_blank\" rel=\"noopener nofollow\">https://www.wisdomlib.org/definition/vasishthasamhita</a> (оригинал: <a href=\"https://www.sanskrit-lexicon.uni-koeln.de/scans/ACCScan/2020/web/index.php\" target=\"_blank\" rel=\"noopener nofollow\">https://www.sanskrit-lexicon.uni-koeln.de/scans/ACCScan/2020/web/index.php</a>)."
+    },
+    {
+     "type": "p",
+     "html": "<em>Примечание составителя.</em> Если понимать эту запись буквально, она расходится со всеми датировками выше. Ни во введении Каивалйадхāмы (в онлайн-копии), ни в статьях из пп. 3–9 этот довод не обсуждается. Какой именно стих цитируется в комментарии на Ш́ветāш́ватару, я не проверял. Принадлежность самого комментария Ш́ан̇каре исследователи оспаривают; см., например, Ivan Andrijanić, “Śaṅkara and the authorship of Śvetāśvataropaniṣad-Bhāṣya”, <em>Journal of</em> <em>Hindu Studies</em> 12.3: <a href=\"https://academic.oup.com/jhs/article-abstract/12/3/273/5071712\" target=\"_blank\" rel=\"noopener nofollow\">https://academic.oup.com/jhs/article-abstract/12/3/273/5071712</a>. Выводов этой статьи я не видел, доступна только аннотация."
+    },
+    {
+     "type": "h3",
+     "html": "<strong>12. Что проверить в первую очередь</strong>"
+    },
+    {
+     "type": "p",
+     "html": "6. Введение Каивалйадхāмы (2005): разделы «Suta Samhita – Jnanayogakanda» (п. 2.7) и «Chronology» (п. 2.1–2.4) уже сверены по печатной книге. Осталось сверить разделы «Extent of the Text» и «Limitations of Vasistha Samhita» (п. 2.5–2.6, с. 27–31 по онлайн-копии). Особенно важно восстановить стих, который цитирует Нр̣сим̣ха Вāджапейӣ: в OCR он не читается."
+    },
+    {
+     "type": "p",
+     "html": "7. Birch 2018, прим. 92 (с. 25) — единственное найденное мной место, где довод издателей прямо оценивается как неокончательный («There is no firm terminus a quo»)."
+    },
+    {
+     "type": "p",
+     "html": "8. Birch 2011, прим. 8 и 10 (с. 528)."
+    },
+    {
+     "type": "p",
+     "html": "9. Wujastyk 2017, с. 162, 164, 174."
+    },
+    {
+     "type": "p",
+     "html": "10.Bouy 1994, прим. 343 и 360, с. 84."
+    }
+   ],
+   "summary": {
+    "header": [
+     "Предлагаемая дата",
+     "Кто предлагает",
+     "На чём основано (по словам самих авторов)"
+    ],
+    "items": [
+     {
+      "when": "«около 1250 г.»; «после XII в.»",
+      "who": "Введение к изданию Каивалйадхāмы (1984/2005), раздел Chronology",
+      "basis": "Халāйудха (1050) и Лакшмӣдхара (1150) не цитируют текст; Хат̣ха-прадӣпикā 1.18 упоминает Васишт̣ху, а Хат̣ха-прадӣпикā датируется ок. 1350 г."
+     },
+     {
+      "when": "«до 1150 г.»",
+      "who": "Та же книга, раздел о Сӯта-сам̣хите (сверено по печатному изданию)",
+      "basis": "Обоснования нет, есть только отсылка «as shown below»; расходится с выводом «около 1250 г.» (см. п. 2.7)"
+     },
+     {
+      "when": "XII–XIII вв.",
+      "who": "Birch 2011; Birch 2018",
+      "basis": "Нижняя граница — по изданию Каивалйадхāмы; верхняя граница — Йога-Йāджн̃авалкйа, которая заимствует из Васишт̣ха-сам̣хиты и сама старше Хат̣ха-прадӣпики (XV в.)"
+     },
+     {
+      "when": "«до 1250 г.»",
+      "who": "Wujastyk 2017",
+      "basis": "Ссылки на Bouy 1994 и Birch 2011"
+     },
+     {
+      "when": "XII в.",
+      "who": "Birch 2020; Gupta & Birch 2022",
+      "basis": "Ссылка на издание Каивалйадхāмы и на заимствования Йога-Йāджн̃авалкйи из Васишт̣ха-сам̣хиты"
+     },
+     {
+      "when": "XIII в.",
+      "who": "Mallinson & Singleton 2017 (хронологическая таблица); Westoby 2024",
+      "basis": "В цитируемых местах развёрнутого обоснования нет"
+     },
+     {
+      "when": "Источник, который древнее самого текста: «Вимāнāрчанāкалпа», ок. 900 г. / IX в.",
+      "who": "Wujastyk 2017 (по Colas); Birch 2018",
+      "basis": "Васишт̣ха-сам̣хитā, вероятно, заимствовала из неё материал, в том числе раздел об āсанах"
+     }
+    ]
+   }
+  },
+  "en": {
+   "title": "Introduction. The Dating of the Vasiṣṭha Saṃhitā (Yoga Kāṇḍa)",
+   "blocks": [
+    {
+     "type": "h3",
+     "html": "<strong>How to use this section</strong>"
+    },
+    {
+     "type": "list",
+     "items": [
+      {
+       "html": "Every quotation is given verbatim in the original (English). The page or note number and a link to the text are given, so that each quotation can be found and checked.",
+       "level": 1
+      },
+      {
+       "html": "Quotations from the introduction to the Kaivalyadhāma edition were taken from the online copy of the 2005 edition. Its text was produced by OCR of a two-column layout: the columns are mixed with each other and with the chart of the teachers' lineage printed on the same pages. I restored the word order and removed names from the chart that had found their way into the sentences. Omissions are marked […]; the spelling and misprints of the original are kept. <strong>These quotations must be checked against the printed book.</strong> The printed edition gives names and terms with diacritics (Sūta Saṃhitā, Vasiṣṭha, etc.), while the OCR copy has none, so the spelling in unchecked quotations may differ from the print. Quotations already checked against the book are marked “Checked against the printed edition”.",
+       "level": 1
+      },
+      {
+       "html": "My own observations (not belonging to the authors quoted) are always marked “Compiler's note”.",
+       "level": 1
+      }
+     ]
+    },
+    {
+     "type": "h3",
+     "html": "<strong>1. Summary</strong>"
+    },
+    {
+     "type": "table",
+     "rows": [
+      [
+       "Proposed date",
+       "Proposed by",
+       "Basis (in the authors' own words)"
+      ],
+      [
+       "“about 1250 A.D.”; “after the 12th century”",
+       "Introduction to the Kaivalyadhāma edition (1984/2005), section Chronology",
+       "Halāyudha (1050) and Lakṣmīdhara (1150) do not quote the text; Haṭhapradīpikā 1.18 mentions Vasiṣṭha, and the Haṭhapradīpikā is dated to about 1350"
+      ],
+      [
+       "“prior to 1150 A.D.”",
+       "Same book, section on the Sūta Saṃhitā (checked against the printed edition)",
+       "No justification, only the reference “as shown below”; contradicts the conclusion “about 1250” (see §2.7)"
+      ],
+      [
+       "12th–13th centuries",
+       "Birch 2011; Birch 2018",
+       "Lower limit from the Kaivalyadhāma edition; upper limit the Yogayājñavalkya, which borrows from the Vasiṣṭha Saṃhitā and is itself older than the Haṭhapradīpikā (15th c.)"
+      ],
+      [
+       "“before 1250”",
+       "Wujastyk 2017",
+       "References to Bouy 1994 and Birch 2011"
+      ],
+      [
+       "12th century",
+       "Birch 2020; Gupta & Birch 2022",
+       "Reference to the Kaivalyadhāma edition and to the Yogayājñavalkya's borrowings from the Vasiṣṭha Saṃhitā"
+      ],
+      [
+       "13th century",
+       "Mallinson & Singleton 2017 (timeline); Westoby 2024",
+       "No detailed justification in the places quoted"
+      ],
+      [
+       "A source older than the text itself: the Vimānārcanākalpa, c. 900 / 9th c.",
+       "Wujastyk 2017 (after Colas); Birch 2018",
+       "The Vasiṣṭha Saṃhitā probably borrowed material from it, including the section on āsanas"
+      ]
+     ]
+    },
+    {
+     "type": "h3",
+     "html": "<strong>2. The main source: the introduction to the Kaivalyadhāma edition</strong>"
+    },
+    {
+     "type": "p",
+     "html": "<strong>Edition:</strong> <em>Vasistha Samhita (Yoga Kanda). Revised Edition.</em> Editors &amp; Commentators: Philosophico-Literary Research Department, Kaivalyadhama S.M.Y.M. Samiti, Lonavla. First Publication: August 1984; Revised Publication: March 2005. ISBN 81-89485-37-7. Editorial board of the revised edition: Swami Maheshananda, B. R. Sharma, G. S. Sahay, R. K. Bodhe. (An even earlier edition in eight chapters was published at Kaivalyadhāma in 1969; this is stated in the preface to the 2005 edition.)"
+    },
+    {
+     "type": "p",
+     "html": "<strong>Online copy:</strong> <a href=\"https://doku.pub/documents/vasistha-samhita-yoga-kanda-with-commentary-kaiva\" target=\"_blank\" rel=\"noopener nofollow\">https://doku.pub/documents/vasistha-samhita-yoga-kanda-with-commentary-kaiva</a> lya-dhamtext-j0vmm63vve0x"
+    },
+    {
+     "type": "p",
+     "html": "<strong>Pages:</strong> in the online copy the section “Chronology” falls on pp. 31–33 of the introduction. Birch (2011, n. 8) cites “2005: 30–32”, Gupta &amp; Birch (2022) cite “2005: 31–32”. The file with the āsana text appears to come from this same edition (ch. I, pp. 20–24)."
+    },
+    {
+     "type": "p",
+     "html": "<strong>Checked against the printed edition.</strong> The text of the section “Chronology” (§§2.1–2.4 below) has been checked against the printed book, from which it was transcribed in full. Diacritics and spelling follow the printed text. In the online copy the page break falls at the words “…VS is the / later origin” (pp. 31/32 of the online copy)."
+    },
+    {
+     "type": "h4",
+     "html": "<strong><em>2.1. Lower limit: early authors do not quote the text (argument from silence)</em></strong>"
+    },
+    {
+     "type": "quote",
+     "paragraphs": [
+      "<em>“</em><strong><em>Chronology</em></strong>",
+      "<em>The VS can in no way be considered a very ancient work as ancient authors do not</em> <em>make any reference to the VS. For instance, Halāyudha (1050 A.D.) in his</em> <em>Brāhmaṇasarvasva and Lakṣmīdhara (1150 A.D.) in the Kalpataru do not mention</em> <em>VS anywhere; nor do they quote any verse from the same whereas both the</em> <em>authors quote liberally from other sources. Were the VS prior to these authors, they</em> <em>would have certainly quoted from VS; more so because (like the VS) both the</em> <em>authors advocate the doctrine of Jñānakarmasamuccaya (synthesis of Knowledge</em> <em>and Action) for the sake of salvation in support of which they quote from different</em> <em>works like the Yogayājñavalkya, Agnipurāṇa etc. The absence of such quotation of</em> <em>VS in their works is an indication that VS is the later origin, i.e. after the 12th</em> <em>century A.D.”</em>"
+     ]
+    },
+    {
+     "type": "p",
+     "html": "<em>Compiler's note: testing the argument.</em>"
+    },
+    {
+     "type": "list",
+     "items": [
+      {
+       "html": "<strong>Lakṣmīdhara.</strong> I checked the Mokṣakāṇḍa of the Kṛtyakalpataru in the electronic text by P. Olivelle (UT Austin, 2022; based on the edition by K. V. Rangaswami Aiyangar, GOS CII, Baroda 1945; <a href=\"https://sites.utexas.edu/sanskrit/resources/dharmasastra/krtyakalpataru/\" target=\"_blank\" rel=\"noopener nofollow\">https://sites.utexas.edu/sanskrit/resources/dharmasastra/krtyakalpataru/</a>). Results:",
+       "level": 1
+      },
+      {
+       "html": "There are indeed no verses of the VS in it. The quotations marked “vasiṣṭhaḥ” are prose rules for hermits and ascetics, not verses of the yogic VS.",
+       "level": 2
+      },
+      {
+       "html": "The Yogayājñavalkya is quoted precisely in defence of the combination of knowledge and action. Chapter 15 “atha jñānakarmopayogaḥ”, p. 146 by the page markers of the e-text: “yogiyājñavalkyaḥ | … jñānakarmasamāyogāt param āpnoti pūruṣam | pṛthagbhāve na sidhyeta ubhe tasmāt samāśrayet ||” (“Yogiyājñavalkya: … From the union of knowledge and action one reaches the supreme Person; it is not achieved by either separately, therefore one should resort to both”). I have confirmed this part of the editors' claim.",
+       "level": 2
+      },
+      {
+       "html": "A search of the Mokṣakāṇḍa found no quotations marked as from the Agnipurāṇa. The editors may have meant other parts of the Kalpataru, or Halāyudha; this has not been checked.",
+       "level": 2
+      },
+      {
+       "html": "I did not examine the other volumes of the Kalpataru.",
+       "level": 2
+      },
+      {
+       "html": "<strong>Halāyudha.</strong> I have not seen the text of the Brāhmaṇasarvasva (ed. D. Bhattacharyya, Sanskrit Sahitya Parishad Series 29, Calcutta 1960).",
+       "level": 1
+      },
+      {
+       "html": "The date “1050 A.D.” conflicts with other sources. According to them, the author of the Brāhmaṇasarvasva was a minister of King Lakṣmaṇasena of Bengal, 12th century: the description of the 1960 edition on exoticindiaart.com (“the court of king Lakṣmaṇasena of Bengal in the 12th century”); Swami Harshananda on hindupedia.com (“CE 1160-1200”). The same source distinguishes the lexicographer Halāyudha (10th c.) from the author of the Brāhmaṇasarvasva.",
+       "level": 2
+      },
+      {
+       "html": "On these data Halāyudha lived after Lakṣmīdhara, not before him.",
+       "level": 2
+      },
+      {
+       "html": "<strong>The argument itself is an argument from silence.</strong> According to the editors, both authors quote other works in support of jñānakarmasamuccaya; had the VS existed, they would have quoted it too. Birch 2018 (n. 92) explicitly judges this argument to be inconclusive (see §4).",
+       "level": 1
+      }
+     ]
+    },
+    {
+     "type": "h4",
+     "html": "<strong><em>2.2. Upper limit: later authors quote the text</em></strong>"
+    },
+    {
+     "type": "quote",
+     "paragraphs": [
+      "<em>“That the VS is not very recent becomes evident from the fact that authors like</em> <em>Nāgojībhaṭṭa (end of 17th century), Bhāvāgaṇeśa (1550-1600 A.D.) Vijñānabhikṣu</em> <em>(1550 A.D.) etc., quote the VS, Mallīnātha (1450 A.D.) also, who preceded</em> <em>Vijñānabhikṣu quotes VS in his commentaries on Raghuvaṃśa and</em> <em>Kumārasambhava.”</em>"
+     ]
+    },
+    {
+     "type": "p",
+     "html": "Wujastyk gives independent confirmation regarding Mallinātha (see §5.5). There Mallinātha is dated “fl. 1400” rather than 1450, and the passage is given as Raghuvaṃśa 13.52."
+    },
+    {
+     "type": "h4",
+     "html": "<strong><em>2.3. The calculation “about 1250” from the Haṭhapradīpikā</em></strong>"
+    },
+    {
+     "type": "quote",
+     "paragraphs": [
+      "<em>“The HP also while describing the Āsanas qualifies them as recommended by sages</em> <em>like Vasiṣṭha etc. cf.</em>",
+      "<em>\"Vasiṣṭhādyaiśca munibhirmatsyendrādyaiśca yogibhiḥ</em>",
+      "<em>aṅgīkṛtānyāsanāni kathyante kānicinmayā\" HP. I. 18</em>",
+      "<em>Thus, the VS is a work prior to the HP and if the HP is assigned to about 1350 A.D.,</em> <em>the VS must be taken to have been ready at least before a hundred years. Thus, we</em> <em>can assign the VS to about 1250 A.D.”</em>"
+     ]
+    },
+    {
+     "type": "p",
+     "html": "Translation of HP 1.18: “I shall describe some of the āsanas adopted by sages beginning with Vasiṣṭha and by yogins beginning with Matsyendra.”"
+    },
+    {
+     "type": "p",
+     "html": "<em>Compiler's note.</em>"
+    },
+    {
+     "type": "list",
+     "items": [
+      {
+       "html": "The dating of the Haṭhapradīpikā to “about 1350” is an assumption of the editors. More recent works date the HP to the 15th century: “Haṭhapradīpikā (15th century)” (Birch 2018, n. 92) and “circa mid-fifteenth century” (Birch 2020, p. 451).",
+       "level": 1
+      },
+      {
+       "html": "The interval of “a hundred years” is not justified in any way in this passage.",
+       "level": 1
+      },
+      {
+       "html": "HP 1.18 names Vasiṣṭha among the sages who adopted āsanas. It does not refer explicitly to the work called the Vasiṣṭha Saṃhitā; the conclusion “the VS is older than the HP” was drawn by the editors.",
+       "level": 1
+      }
+     ]
+    },
+    {
+     "type": "h4",
+     "html": "<strong><em>2.4. The editors' caveat: the text is multi-layered</em></strong>"
+    },
+    {
+     "type": "quote",
+     "paragraphs": [
+      "<em>“Yet we cannot definitely state that all the material that has come down to us in</em> <em>the extant VS belonged to that period. Some of the material must belong to an</em> <em>earlier period and the VS must have attained the present form passing through</em> <em>various stages like the epic Jaya which attained the form of the Mahābhārata.”</em>"
+     ]
+    },
+    {
+     "type": "p",
+     "html": "Immediately after this the book has a paragraph on the lineages of teachers:"
+    },
+    {
+     "type": "quote",
+     "paragraphs": [
+      "<em>“The various traditions regarding the lineage of the teachers who transmitted that</em> <em>lore differ to a large extent. But all these (except the Mahābhārata, Śāntiparva)</em> <em>accounts have Vasiṣṭha and Śakti in common. The various accounts are given</em> <em>below.”</em>"
+     ]
+    },
+    {
+     "type": "p",
+     "html": "The lineage charts follow. In the online copy their words (Brahma, Vasistha, Sakti, Parasara, Vyasa, Suka, Gaudapada, Govinda, Sankara) were mixed into the text of the section. The printed text confirmed that the word “Sakti” is not part of the quotation about HP 1.18: OCR had inserted it from the chart."
+    },
+    {
+     "type": "h4",
+     "html": "<strong><em>2.5. Manuscripts and early citations (section “Extent of the Text”)</em></strong>"
+    },
+    {
+     "type": "quote",
+     "paragraphs": [
+      "<em>“All the six manuscripts except one have eight chapters. The manuscript dated</em> <em>Samvat 1463 (i.e. 1406 A.D.), which is most authentic in this respect has eight</em> <em>chapters. Nrsimha Vajpeyi (1450 A.D.) quotes in his Nityacaradipa the following</em> <em>verse of Vasistha Yoga: […]”</em>"
+     ]
+    },
+    {
+     "type": "p",
+     "html": "(The verse itself is illegible in the OCR.)"
+    },
+    {
+     "type": "quote",
+     "paragraphs": [
+      "<em>“This verse happens to be the nineteenth verse of the eighth chapter of the VS. It</em> <em>can be inferred that upto about 1450 A.D. the work was recognised to comprise of</em> <em>at least eight chapters.”</em>"
+     ]
+    },
+    {
+     "type": "p",
+     "html": "<em>Compiler's note.</em> The manuscript dated 1406 by itself gives only a latest date for the existence of the text (not later than 1406)."
+    },
+    {
+     "type": "h4",
+     "html": "<strong><em>2.6. Relation to the Yogayājñavalkya and the Haṭhapradīpikā</em></strong>"
+    },
+    {
+     "type": "quote",
+     "paragraphs": [
+      "<em>“None of the scholars, quoting the stanzas found to be common to both the works,</em> <em>ascribe them to Yogayajnavalkya but to Vasistha. Similarly Bhavaganesa and</em> <em>Nagojibhatta (on Yogasutra I. 33) while quoting on the process of the purification</em> <em>of Nadis without Kumbhaka, ascribe it clearly to VS and not to YY. The three types</em> <em>of Pranayama, viz. Adhama, Madhyama and Uttama are also traced to Vasistha</em> <em>and not to YY. From these it becomes clear that YY is a later work and that it seems</em> <em>to have borrowed from VS.”</em>",
+      "<em>“The verses 11-22, of chapter V of the YY which describe the purification of Nadis,</em> <em>occur almost verbatim in the second chapter of the VS (V.S. 58-70). Also the words</em> <em>(kecit vadanti) meaning 'some say' occurring prior to verse 10 of the Vth chapter of</em> <em>YY seem to indicate Vasistha. From this it can be inferred that YY has borrowed</em> <em>from VS.”</em>",
+      "<em>“But the HP itself is a work later than the VS (the facts that lead us to this</em> <em>conclusion are given below). Hence, it can definitely be said that the VS is not a</em> <em>borrower.”</em>"
+     ]
+    },
+    {
+     "type": "h4",
+     "html": "<strong><em>2.7. A discrepancy within the edition: “prior to 1150”</em></strong>"
+    },
+    {
+     "type": "p",
+     "html": "<strong>Checked against the printed edition.</strong> Below is the text transcribed from the printed book (section “Sūta Saṃhitā – Jñānayogakāṇḍa”). It confirms the reading “prior to 1150 A.D.”, i.e. this is not an OCR error. The beginning and end of the paragraph were missing in the online copy and are restored here."
+    },
+    {
+     "type": "quote",
+     "paragraphs": [
+      "<em>“</em><strong><em>Sūta Saṃhitā- Jñānayogakāṇḍa</em></strong>",
+      "<em>The Sūta Saṃhitā has been published by the Ānandāśrama, Pune. Whilst tracing</em> <em>the pedigree of teachers through whom the work is handed down, the JSS states</em> <em>that Śakti derived the lore from Vasiṣṭha. From this it can be inferred that the JSS</em> <em>borrowed from the dialogue between Śakti and Vasiṣṭha. The Sūta Saṃhitā</em> <em>(Muktikhaṇḍa, VII. 50-55) also refers to Cakradhara Mahānubhāva and to his</em> <em>disciple Subhaga. Cakradhara is assigned to 1250 A.D. But as the VS (as shown</em> <em>below) is prior to 1150 A.D. and as there is a period of hundred years intervening</em> <em>between the VS and Cakradhara, the JSS is certainly the borrower from the VS. We</em> <em>can also point out to influence of Vedānta upon the Sūta Saṃhitā. This also proves</em> <em>that the JSS is later than the VS.”</em>"
+     ]
+    },
+    {
+     "type": "p",
+     "html": "This paragraph gives three arguments that the JSS is later than the VS:"
+    },
+    {
+     "type": "p",
+     "html": "3. In the JSS lineage of teachers Śakti receives the teaching from Vasiṣṭha. From this the editors infer that the JSS borrows from the dialogue of Vasiṣṭha and Śakti."
+    },
+    {
+     "type": "p",
+     "html": "4. The Sūta Saṃhitā mentions Cakradhara Mahānubhāva, whom the editors assign to 1250. The VS, according to them, is older than 1150."
+    },
+    {
+     "type": "p",
+     "html": "5. The influence of Vedānta is noticeable in the Sūta Saṃhitā. No concrete examples are given in this paragraph."
+    },
+    {
+     "type": "p",
+     "html": "<em>Compiler's note.</em>"
+    },
+    {
+     "type": "list",
+     "items": [
+      {
+       "html": "Within the sentence the arithmetic is consistent: 1250 − 100 = 1150. So “1150” is not a misprint but an intended figure.",
+       "level": 1
+      },
+      {
+       "html": "The reference “as shown below” points to the section “Chronology”. But there a different conclusion is reached: “after the 12th century A.D.” and “we can assign the VS to about 1250 A.D.” (§§2.1, 2.3). The same book thus gives two incompatible dates for the VS: “prior to 1150” and “about 1250”. The book does not explain this discrepancy.",
+       "level": 1
+      },
+      {
+       "html": "Why this happened cannot be established from the printed text of 2005. One could check whether these passages agree in the 1984 edition.",
+       "level": 1
+      },
+      {
+       "html": "Argument (2) depends on the date. If the VS belongs to “about 1250”, it is contemporary with Cakradhara rather than a hundred years older. Then this argument for the JSS borrowing from the VS loses its force. This is my observation, not the editors'.",
+       "level": 1
+      }
+     ]
+    },
+    {
+     "type": "h3",
+     "html": "<strong>3. Jason Birch, 2011</strong>"
+    },
+    {
+     "type": "p",
+     "html": "<strong>Publication:</strong> Jason Birch, “The Meaning of haṭha in Early Haṭhayoga”, <em>Journal of the</em> <em>American Oriental Society</em> 131.4 (2011): 527–554. Open copy: <a href=\"https://www.themathesontrust.org/papers/hinduism/Birch-Meaning_of_hatha_in_E\" target=\"_blank\" rel=\"noopener nofollow\">https://www.themathesontrust.org/papers/hinduism/Birch-Meaning_of_hatha_in_E</a> arly_Hathayoga.pdf"
+    },
+    {
+     "type": "p",
+     "html": "In the list of early texts (p. 528): “Vasiṣṭhasaṃhitā (12/13th century)”, “Yogayājñavalkya (13/14th century)”."
+    },
+    {
+     "type": "p",
+     "html": "Note 8 (p. 528):"
+    },
+    {
+     "type": "quote",
+     "paragraphs": [
+      "<em>“The Kaivalyadhama Research Department (2005: 30–32) has argued convincingly</em> <em>that the terminus ad quem of the Vasiṣṭhasaṃhitā is the Yogayājñavalkya. Also, it</em> <em>presents evidence for a terminus a quo of the twelfth century.”</em>"
+     ]
+    },
+    {
+     "type": "p",
+     "html": "Note 10 (p. 528):"
+    },
+    {
+     "type": "quote",
+     "paragraphs": [
+      "<em>“The Yogayājñavalkya's terminus a quo is the Vasiṣṭhasaṃhitā (see n. 8). Bouy</em> <em>(1994: 84) has identified a citation of the Yogayājñavalkya in the</em> <em>Sarvadarśanasaṅgraha, which gives it a terminus ad quem of the fourteenth</em> <em>century.”</em>"
+     ]
+    },
+    {
+     "type": "h3",
+     "html": "<strong>4. Jason Birch, 2018: the most detailed critical assessment</strong>"
+    },
+    {
+     "type": "p",
+     "html": "<strong>Publication:</strong> Jason Birch, “Premodern Yoga Traditions and Ayurveda: Preliminary Remarks on Shared Terminology, Theory, and Praxis”, <em>History of Science in South Asia</em> 6 (2018): 1–83. DOI: 10.18732/hssa.v6i0.25. Open PDF: <a href=\"https://journals.library.ualberta.ca/hssa/index.php/hssa/article/download/25/89\" target=\"_blank\" rel=\"noopener nofollow\">https://journals.library.ualberta.ca/hssa/index.php/hssa/article/download/25/89</a>"
+    },
+    {
+     "type": "p",
+     "html": "Note 92 (p. 25), the key passage on dating:"
+    },
+    {
+     "type": "quote",
+     "paragraphs": [
+      "<em>“Gérard Colas considers the Vimānārcanākalpa to be one of the earliest texts of</em> <em>the Vaikhānasa Saṃhitā corpus, which he dates between the 9th and 13th–14th</em> <em>centuries (Colas 2012:158). There is no firm terminus a quo for the</em> <em>Vasiṣṭhasaṃhitā, although the editors of the text argue for a post-12th century</em> <em>date, based on the absence of citations in earlier works in which they expected to</em> <em>find it. The Vasiṣṭhasaṃhitā's terminus ad quem is the Yogayājñavalkya, which</em> <em>predates the Haṭhapradīpikā (15th century). Therefore, one might tentatively date</em> <em>the Vasiṣṭhasaṃhitā between the 12th-13th centuries and thus, it is possible that</em> <em>the Vimānārcanākalpa is older than the Vasiṣṭhasaṃhitā and a source text for it.”</em>"
+     ]
+    },
+    {
+     "type": "p",
+     "html": "P. 21, the scale of the Yogayājñavalkya's borrowings:"
+    },
+    {
+     "type": "quote",
+     "paragraphs": [
+      "<em>“The Yogayājñavalkya is a compilation and much of it is based on the</em> <em>Vasiṣṭhasaṃhitā. In fact, the former borrowed over two hundred and fifty verses</em> <em>from the latter.”</em>"
+     ]
+    },
+    {
+     "type": "p",
+     "html": "(In n. 81 Birch cites p. 28 of the introduction to the Kaivalyadhāma edition. Pp. 21–22 give Table 1 with parallel verses of the two texts.)"
+    },
+    {
+     "type": "p",
+     "html": "P. 25, on the source of the section on the marmans:"
+    },
+    {
+     "type": "quote",
+     "paragraphs": [
+      "<em>“[…] verbatim from the Vasiṣṭhasaṃhitā, which probably borrowed it from the</em> <em>Vimānārcanākalpa, a Vaikhānasa text that could date to the ninth century.”</em>"
+     ]
+    },
+    {
+     "type": "p",
+     "html": "Pp. 45–46, directly on the āsana section (VS 1.67–82, translated in this document):"
+    },
+    {
+     "type": "quote",
+     "paragraphs": [
+      "<em>“The āsanas of Vasiṣṭha are those described in the Vasiṣṭhasaṃhitā, which</em> <em>Svātmārāma borrowed verbatim (Mallinson 2013b:227f.).”</em>",
+      "<em>“[…] the Vimānārcanākalpa, which is probably the source of the Vasiṣṭhasaṃhitā's</em> <em>āsanas, contains no statements on the diseases cured by āsanas.”</em>"
+     ]
+    },
+    {
+     "type": "p",
+     "html": "(N. 180: “Mallinson 2013b:227f. See also Dominik Wujastyk 2017.”)"
+    },
+    {
+     "type": "h3",
+     "html": "<strong>5. Dominik Wujastyk, 2017</strong>"
+    },
+    {
+     "type": "p",
+     "html": "<strong>Publication:</strong> Dominik Wujastyk, “The Yoga Texts Attributed to Yājñavalkya and their Remarks on Posture”, <em>Asian Literature and Translation</em> 4.1 (2017): 159–186. DOI:"
+    },
+    {
+     "type": "p",
+     "html": "10.18573/j.2017.10192. Open copies: <a href=\"https://orca.cardiff.ac.uk/id/eprint/104136/\" target=\"_blank\" rel=\"noopener nofollow\">https://orca.cardiff.ac.uk/id/eprint/104136/</a> and <a href=\"https://ualberta.scholaris.ca/server/api/core/bitstreams/67551b96-7949-472e-bf3f-\" target=\"_blank\" rel=\"noopener nofollow\">https://ualberta.scholaris.ca/server/api/core/bitstreams/67551b96-7949-472e-bf3f-</a> 8e8d93808e6e/content"
+    },
+    {
+     "type": "p",
+     "html": "5.1. P. 162, main text and n. 18:"
+    },
+    {
+     "type": "quote",
+     "paragraphs": [
+      "<em>“[…] more literary research is required into the rich intertextuality of these and</em> <em>related works such as the Vasiṣṭhasaṃhitā (before 1250).”</em>",
+      "<em>N. 18: “On the date of the Vasiṣṭhasaṃhitā see Bouy (ibid.: n. 343 et passim), Birch</em> <em>(2011: notes 8, 10). The section of the text on postures is translated by Mallinson</em> <em>and Singleton (2017: 104 f.).”</em>"
+     ]
+    },
+    {
+     "type": "p",
+     "html": "5.2. P. 164, Bouy's conclusions on the Yogayājñavalkya:"
+    },
+    {
+     "type": "quote",
+     "paragraphs": [
+      "<em>“Taking earlier scholarship into account, Bouy made the following key assertions</em> <em>about the Yogayājñavalkya(gītā): • it is later than the Sarvayogasamuccaya in the</em> <em>Yogayājñavalkya, • it owes a great deal to the earlier Vasiṣṭhasaṃhitā, and • it is</em> <em>datable to the period between about 900 and 1350.”</em>"
+     ]
+    },
+    {
+     "type": "p",
+     "html": "(N. 33: “Bouy 1994: n. 360”.)"
+    },
+    {
+     "type": "p",
+     "html": "5.3. P. 164, n. 35:"
+    },
+    {
+     "type": "quote",
+     "paragraphs": [
+      "<em>“Birch (2011: 528, no. 8) noted that Maheshananda et al. (2005) presented</em> <em>evidence for thinking that the Vasiṣṭhasaṃhitā is twelfth century or later. This</em> <em>would narrow the Yogayājñavalkya(gītā)'s date to the range 1100–1350.”</em>"
+     ]
+    },
+    {
+     "type": "p",
+     "html": "5.4. P. 164, on the Vimānārcanākalpa as a common source:"
+    },
+    {
+     "type": "quote",
+     "paragraphs": [
+      "<em>“One of the earliest works in this canon, the Vimānārcanākalpa, contains material</em> <em>that is similar to passages in the Vāsiṣṭhasaṃhitā as well as to texts from the</em> <em>Ahirbudhnyasaṃhitā of the Pāñcarātra Corpus. If the Vimānārcanākalpa is</em> <em>datable to about 900 ce, as Colas (ibid.) suggests, then it is likely that all these</em> <em>works, including the Yogayājñavalkya(gītā), can trace parts of their content to this</em> <em>source.”</em>"
+     ]
+    },
+    {
+     "type": "p",
+     "html": "Ibid., n. 36: “Nine postures are described: Brāhmya, Svastika, Padma, Gomukha, Siṃha, Mukta, Vīra, Bhadra and Mayūra.” Eight of these names coincide with the āsanas of VS 1.67–82."
+    },
+    {
+     "type": "p",
+     "html": "5.5. P. 174, Mallinātha ascribes the verse on vīrāsana to Vasiṣṭha:"
+    },
+    {
+     "type": "quote",
+     "paragraphs": [
+      "<em>“It was also known by name to Kālidāsa, but interestingly, his commentator</em> <em>Mallinātha (fl. 1400) cites a verse describing how to adopt the posture that is</em> <em>identical to our Yogayājñavalkya(gītā) verse. But Mallinātha ascribes it to</em> <em>Vasiṣṭha.”</em>",
+      "<em>N. 63: “The reference is to the Vasiṣṭhasaṃhitā, that was also cited multiple times</em> <em>by the late-sixteenth-century yoga commentator Vijñānabhikṣu (Digambaraji, Jha,</em> <em>and Sahay 1984: 14), including on Pātañjalayogaśāstra 2.46.”</em>"
+     ]
+    },
+    {
+     "type": "p",
+     "html": "(The passage in Mallinātha is Raghuvaṃśa 13.52, n. 62.)"
+    },
+    {
+     "type": "h3",
+     "html": "<strong>6. Jason Birch, 2020</strong>"
+    },
+    {
+     "type": "p",
+     "html": "<strong>Publication:</strong> Jason Birch, “Haṭhayoga's Floruit on the Eve of Colonialism”, in: <em>Śaivism</em> <em>and the Tantric Traditions: Essays in Honour of Alexis G. J. S. Sanderson</em>, Brill, 2020, pp. 451–479. DOI: 10.1163/9789004432802_021 (open access, CC BY-NC). <a href=\"https://brill.com/display/book/edcoll/9789004432802/BP000024.xml\" target=\"_blank\" rel=\"noopener nofollow\">https://brill.com/display/book/edcoll/9789004432802/BP000024.xml</a>"
+    },
+    {
+     "type": "p",
+     "html": "Note 6:"
+    },
+    {
+     "type": "quote",
+     "paragraphs": [
+      "<em>“This Vaiṣṇava form of aṣṭāṅgayoga is taught (without the Haṭhayogic mudrās) in</em> <em>the Vasiṣṭhasaṃhitā and Yogayājñavalkya, which were probably composed in the</em> <em>twelfth and fourteenth centuries, respectively.”</em>"
+     ]
+    },
+    {
+     "type": "h3",
+     "html": "<strong>7. S. V. B. K. V. Gupta, Jason Birch, 2022</strong>"
+    },
+    {
+     "type": "p",
+     "html": "<strong>Publication:</strong> S. V. B. K. V. Gupta, Jason Birch, “The Ocean of Yoga: An Unpublished Compendium Called the Yogārṇava”, <em>Journal of Indian Philosophy</em> 50 (2022): 345–385. DOI: 10.1007/s10781-022-09504-6 (open access). Section “Possible Source Texts of the Yogārṇava”."
+    },
+    {
+     "type": "quote",
+     "paragraphs": [
+      "<em>“There is a complex relationship between the Yogārṇava, Vasiṣṭhasaṃhitā (12th c.)</em> <em>and Yogayājñavalkya (13th–14th c.). The editors of the Kaivalyadhama Yoga</em> <em>Institute's critical edition of the Vasiṣṭhasaṃhitā (2005: 31–32) argue that the</em> <em>Yogayājñavalkya borrowed much material from it. This hypothesis is supported by</em> <em>a comparison of parallel passages in both works that was published in Birch</em> <em>(2018, pp. 21–22), which demonstrated that the redactor of the Yogayājñavalkya</em> <em>borrowed a lengthy discussion on the yogic body from the Vasiṣṭhasaṃhitā and</em> <em>supplemented it with material from elsewhere. Therefore, the Vasiṣṭhasaṃhitā is</em> <em>probably the earlier work, which the editors of the Kaivalyadhama Yoga Institute's</em> <em>edition date to the twelfth century.”</em>"
+     ]
+    },
+    {
+     "type": "p",
+     "html": "<em>Compiler's note.</em> In the section “Chronology” the Kaivalyadhāma editors themselves write “after the 12th century” and “about 1250 A.D.”, i.e. the middle of the 13th century (§§2.1, 2.3). Gupta and Birch's wording “date to the twelfth century” disagrees with this. Note 7 of the same article refers to Birch 2011, p. 528, nn. 8 and 10. Note 15 gives Bouy's pages on texts that borrow from the VS: “Bouy (1994), 13"
+    },
+    {
+     "type": "p",
+     "html": "n. 19, 17 n. 38, 67 n. 293, 68, 82”."
+    },
+    {
+     "type": "h3",
+     "html": "<strong>8. James Mallinson, Mark Singleton, 2017</strong>"
+    },
+    {
+     "type": "p",
+     "html": "<strong>Publication:</strong> James Mallinson, Mark Singleton, <em>Roots of Yoga</em>. London: Penguin Classics, 2017. ISBN 978-0-241-25304-5."
+    },
+    {
+     "type": "p",
+     "html": "In the timeline at the beginning of the book (“Timeline of Important Texts”) the Vasiṣṭha Saṃhitā appears in the 13th-century row (diacritics normalised):"
+    },
+    {
+     "type": "quote",
+     "paragraphs": [
+      "<em>“13th century CE | Saṅgītaratnākara (ŚT), Vasiṣṭhasaṃhitā (H), Candrāvalokana</em> <em>(H), Matsyendrasaṃhitā (ŚT), Vivekamārtaṇḍa (H), Gorakṣaśataka (H),</em> <em>Dattātreyayogaśāstra (H), Jñāneśvarī (H)”</em>"
+     ]
+    },
+    {
+     "type": "p",
+     "html": "In the same timeline “Vimānārcanākalpa (VT)” appears in the row “6th–10th century CE” among the early tantras. According to Wujastyk (nn. 18, 36), the VS section on āsanas is translated on pp. 104 ff., and the āsanas of the Vimānārcanākalpa on pp. 100 ff. The English Wikipedia cites pp. 87–88 and 104–105 of this book for the statement that the VS uses the Vimānārcanākalpa. I have not seen the text of these pages; they need to be checked in the book."
+    },
+    {
+     "type": "h3",
+     "html": "<strong>9. Ruth Westoby</strong>"
+    },
+    {
+     "type": "p",
+     "html": "<strong>Publication:</strong> Ruth Westoby, <em>The Body in Early Haṭha Yoga</em> (study published on wisdomlib.org, 2024), section “The Vasiṣṭhasaṃhitā and Haṭha Yoga”: <a href=\"https://www.wisdomlib.org/hinduism/essay/the-body-in-early-hatha-yoga/d/doc15\" target=\"_blank\" rel=\"noopener nofollow\">https://www.wisdomlib.org/hinduism/essay/the-body-in-early-hatha-yoga/d/doc15</a> 00707.html"
+    },
+    {
+     "type": "quote",
+     "paragraphs": [
+      "<em>“The thirteenth-century Vasiṣṭhasaṃhitā is a dialogue between the sage Vasiṣṭha</em> <em>and his son Śakti. […] Over 250 verses of the Vasiṣṭhasaṃhitā were borrowed by</em> <em>the Yogayājñavalkya and both are derived from earlier vaiṣṇava works such as the</em> <em>Vimānārcanākalpa (Mallinson 2014:227–8) and pāñcarātrika texts, such as the</em> <em>Ahirbudhnyasaṃhitā (Birch 2020b:210).”</em>"
+     ]
+    },
+    {
+     "type": "h3",
+     "html": "<strong>10. Christian Bouy, 1994</strong>"
+    },
+    {
+     "type": "p",
+     "html": "<strong>Publication:</strong> Christian Bouy, <em>Les Nātha-yogin et les Upaniṣads: étude d'histoire de la</em> <em>littérature hindoue</em>. Paris: De Boccard, 1994."
+    },
+    {
+     "type": "p",
+     "html": "I have not found an online text of this book, so there are no direct quotations. Below are the places cited by other authors:"
+    },
+    {
+     "type": "list",
+     "items": [
+      {
+       "html": "n. 343 et passim: on the date of the VS (Wujastyk 2017, n. 18);",
+       "level": 1
+      },
+      {
+       "html": "p. 84: a citation of the Yogayājñavalkya in the Sarvadarśanasaṅgraha, which gives the 14th century as the upper limit for the Yogayājñavalkya (Birch 2011, n. 10);",
+       "level": 1
+      },
+      {
+       "html": "n. 360: conclusions on the Yogayājñavalkya, including its dependence on the VS (Wujastyk 2017, n. 33);",
+       "level": 1
+      },
+      {
+       "html": "p. 13 n. 19, p. 17 n. 38, p. 67 n. 293, p. 68, p. 82: texts that borrow from the VS (Gupta &amp; Birch 2022, n. 15).",
+       "level": 1
+      }
+     ]
+    },
+    {
+     "type": "h3",
+     "html": "<strong>11. A separate question: the entry in Aufrecht's catalogue</strong>"
+    },
+    {
+     "type": "p",
+     "html": "In T. Aufrecht's <em>Catalogus Catalogorum</em> (in the digitisation of the University of Cologne, reproduced on wisdomlib.org) the entry for the yogic Vasiṣṭha Saṃhitā reads:"
+    },
+    {
+     "type": "quote",
+     "paragraphs": [
+      "<em>“Vasiṣṭhasaṃhitā: — yoga. Io. 2609 (in 8 chapters). Quoted by Śaṅkarācārya on</em> <em>Śvetāśvataropaniṣad, by Narasiṃha in Tārābhaktisudhārṇava, Catal. Io. p. 898.”</em>"
+     ]
+    },
+    {
+     "type": "p",
+     "html": "Link: <a href=\"https://www.wisdomlib.org/definition/vasishthasamhita\" target=\"_blank\" rel=\"noopener nofollow\">https://www.wisdomlib.org/definition/vasishthasamhita</a> (original: <a href=\"https://www.sanskrit-lexicon.uni-koeln.de/scans/ACCScan/2020/web/index.php\" target=\"_blank\" rel=\"noopener nofollow\">https://www.sanskrit-lexicon.uni-koeln.de/scans/ACCScan/2020/web/index.php</a>)."
+    },
+    {
+     "type": "p",
+     "html": "<em>Compiler's note.</em> Taken literally, this entry conflicts with all the datings above. Neither the Kaivalyadhāma introduction (in the online copy) nor the articles in §§3–9 discuss this point. I have not checked which verse is quoted in the commentary on the Śvetāśvatara. The attribution of the commentary itself to Śaṅkara is disputed by scholars; see, for example, Ivan Andrijanić, “Śaṅkara and the authorship of Śvetāśvataropaniṣad-Bhāṣya”, <em>Journal of Hindu Studies</em> 12.3: <a href=\"https://academic.oup.com/jhs/article-abstract/12/3/273/5071712\" target=\"_blank\" rel=\"noopener nofollow\">https://academic.oup.com/jhs/article-abstract/12/3/273/5071712</a>. I have not seen the conclusions of this article; only the abstract is accessible."
+    },
+    {
+     "type": "h3",
+     "html": "<strong>12. What to check first</strong>"
+    },
+    {
+     "type": "p",
+     "html": "6. The Kaivalyadhāma introduction (2005): the sections “Suta Samhita – Jnanayogakanda” (§2.7) and “Chronology” (§§2.1–2.4) have already been checked against the printed book. The sections “Extent of the Text” and “Limitations of Vasistha Samhita” (§§2.5–2.6, pp. 27–31 of the online copy) remain to be checked. It is especially important to recover the verse quoted by Nṛsiṃha Vājapeyī, which is illegible in the OCR."
+    },
+    {
+     "type": "p",
+     "html": "7. Birch 2018, n. 92 (p. 25): the only place I found where the editors' argument is explicitly judged inconclusive (“There is no firm terminus a quo”)."
+    },
+    {
+     "type": "p",
+     "html": "8. Birch 2011, nn. 8 and 10 (p. 528)."
+    },
+    {
+     "type": "p",
+     "html": "9. Wujastyk 2017, pp. 162, 164, 174."
+    },
+    {
+     "type": "p",
+     "html": "10.Bouy 1994, nn. 343 and 360, p. 84."
+    }
+   ],
+   "summary": {
+    "header": [
+     "Proposed date",
+     "Proposed by",
+     "Basis (in the authors' own words)"
+    ],
+    "items": [
+     {
+      "when": "“about 1250 A.D.”; “after the 12th century”",
+      "who": "Introduction to the Kaivalyadhāma edition (1984/2005), section Chronology",
+      "basis": "Halāyudha (1050) and Lakṣmīdhara (1150) do not quote the text; Haṭhapradīpikā 1.18 mentions Vasiṣṭha, and the Haṭhapradīpikā is dated to about 1350"
+     },
+     {
+      "when": "“prior to 1150 A.D.”",
+      "who": "Same book, section on the Sūta Saṃhitā (checked against the printed edition)",
+      "basis": "No justification, only the reference “as shown below”; contradicts the conclusion “about 1250” (see §2.7)"
+     },
+     {
+      "when": "12th–13th centuries",
+      "who": "Birch 2011; Birch 2018",
+      "basis": "Lower limit from the Kaivalyadhāma edition; upper limit the Yogayājñavalkya, which borrows from the Vasiṣṭha Saṃhitā and is itself older than the Haṭhapradīpikā (15th c.)"
+     },
+     {
+      "when": "“before 1250”",
+      "who": "Wujastyk 2017",
+      "basis": "References to Bouy 1994 and Birch 2011"
+     },
+     {
+      "when": "12th century",
+      "who": "Birch 2020; Gupta & Birch 2022",
+      "basis": "Reference to the Kaivalyadhāma edition and to the Yogayājñavalkya's borrowings from the Vasiṣṭha Saṃhitā"
+     },
+     {
+      "when": "13th century",
+      "who": "Mallinson & Singleton 2017 (timeline); Westoby 2024",
+      "basis": "No detailed justification in the places quoted"
+     },
+     {
+      "when": "A source older than the text itself: the Vimānārcanākalpa, c. 900 / 9th c.",
+      "who": "Wujastyk 2017 (after Colas); Birch 2018",
+      "basis": "The Vasiṣṭha Saṃhitā probably borrowed material from it, including the section on āsanas"
+     }
+    ]
+   }
+  }
+ },
+ "datingSummary": {
+  "label": {
+   "ru": "На чём основано (по словам самих авторов)",
+   "en": "Basis (in the authors' own words)"
+  },
+  "items": [
+   {
+    "when": {
+     "ru": "«около 1250 г.»; «после XII в.»",
+     "en": "“about 1250 A.D.”; “after the 12th century”"
+    },
+    "who": {
+     "ru": "Введение к изданию Каивалйадхāмы (1984/2005), раздел Chronology",
+     "en": "Introduction to the Kaivalyadhāma edition (1984/2005), section Chronology"
+    },
+    "work": {
+     "ru": "Халāйудха (1050) и Лакшмӣдхара (1150) не цитируют текст; Хат̣ха-прадӣпикā 1.18 упоминает Васишт̣ху, а Хат̣ха-прадӣпикā датируется ок. 1350 г.",
+     "en": "Halāyudha (1050) and Lakṣmīdhara (1150) do not quote the text; Haṭhapradīpikā 1.18 mentions Vasiṣṭha, and the Haṭhapradīpikā is dated to about 1350"
+    }
+   },
+   {
+    "when": {
+     "ru": "«до 1150 г.»",
+     "en": "“prior to 1150 A.D.”"
+    },
+    "who": {
+     "ru": "Та же книга, раздел о Сӯта-сам̣хите (сверено по печатному изданию)",
+     "en": "Same book, section on the Sūta Saṃhitā (checked against the printed edition)"
+    },
+    "work": {
+     "ru": "Обоснования нет, есть только отсылка «as shown below»; расходится с выводом «около 1250 г.» (см. п. 2.7)",
+     "en": "No justification, only the reference “as shown below”; contradicts the conclusion “about 1250” (see §2.7)"
+    }
+   },
+   {
+    "when": {
+     "ru": "XII–XIII вв.",
+     "en": "12th–13th centuries"
+    },
+    "who": {
+     "ru": "Birch 2011; Birch 2018",
+     "en": "Birch 2011; Birch 2018"
+    },
+    "work": {
+     "ru": "Нижняя граница — по изданию Каивалйадхāмы; верхняя граница — Йога-Йāджн̃авалкйа, которая заимствует из Васишт̣ха-сам̣хиты и сама старше Хат̣ха-прадӣпики (XV в.)",
+     "en": "Lower limit from the Kaivalyadhāma edition; upper limit the Yogayājñavalkya, which borrows from the Vasiṣṭha Saṃhitā and is itself older than the Haṭhapradīpikā (15th c.)"
+    }
+   },
+   {
+    "when": {
+     "ru": "«до 1250 г.»",
+     "en": "“before 1250”"
+    },
+    "who": {
+     "ru": "Wujastyk 2017",
+     "en": "Wujastyk 2017"
+    },
+    "work": {
+     "ru": "Ссылки на Bouy 1994 и Birch 2011",
+     "en": "References to Bouy 1994 and Birch 2011"
+    }
+   },
+   {
+    "when": {
+     "ru": "XII в.",
+     "en": "12th century"
+    },
+    "who": {
+     "ru": "Birch 2020; Gupta & Birch 2022",
+     "en": "Birch 2020; Gupta & Birch 2022"
+    },
+    "work": {
+     "ru": "Ссылка на издание Каивалйадхāмы и на заимствования Йога-Йāджн̃авалкйи из Васишт̣ха-сам̣хиты",
+     "en": "Reference to the Kaivalyadhāma edition and to the Yogayājñavalkya's borrowings from the Vasiṣṭha Saṃhitā"
+    }
+   },
+   {
+    "when": {
+     "ru": "XIII в.",
+     "en": "13th century"
+    },
+    "who": {
+     "ru": "Mallinson & Singleton 2017 (хронологическая таблица); Westoby 2024",
+     "en": "Mallinson & Singleton 2017 (timeline); Westoby 2024"
+    },
+    "work": {
+     "ru": "В цитируемых местах развёрнутого обоснования нет",
+     "en": "No detailed justification in the places quoted"
+    }
+   },
+   {
+    "when": {
+     "ru": "Источник, который древнее самого текста: «Вимāнāрчанāкалпа», ок. 900 г. / IX в.",
+     "en": "A source older than the text itself: the Vimānārcanākalpa, c. 900 / 9th c."
+    },
+    "who": {
+     "ru": "Wujastyk 2017 (по Colas); Birch 2018",
+     "en": "Wujastyk 2017 (after Colas); Birch 2018"
+    },
+    "work": {
+     "ru": "Васишт̣ха-сам̣хитā, вероятно, заимствовала из неё материал, в том числе раздел об āсанах",
+     "en": "The Vasiṣṭha Saṃhitā probably borrowed material from it, including the section on āsanas"
+    }
+   }
+  ]
+ },
+ "prologue": {
+  "ru": [
+   {
+    "type": "subhead",
+    "label": "Вводный стих: перечень āсан"
+   },
+   {
+    "type": "verse_card",
+    "sections": [
+     {
+      "type": "verse",
+      "key": "deva",
+      "label": "Деванāгарӣ",
+      "lines": [
+       "आसनानि च वक्ष्यामि शृणु पुत्र समाहितः । स्वस्तिकं गोमुखं पद्मं वीरं सिंहासनं तथा । मायूरं कुक्कुटं चैव कूर्मं भद्रासनं तथा । मुक्तासनं तथा तेषां पृथक् वक्ष्यामि लक्षणम् ॥ ६७ ॥"
+      ],
+      "verses": "67"
+     },
+     {
+      "type": "verse",
+      "key": "iast",
+      "label": "IAST",
+      "lines": [
+       "āsanāni ca vakṣyāmi śṛṇu putra samāhitaḥ । svastikaṃ gomukhaṃ padmaṃ vīraṃ siṃhāsanaṃ tathā । māyūraṃ kukkuṭaṃ caiva kūrmaṃ bhadrāsanaṃ tathā । muktāsanaṃ tathā teṣāṃ pṛthak vakṣyāmi lakṣaṇam ॥ 67 ॥"
+      ]
+     },
+     {
+      "type": "verse",
+      "key": "cyr",
+      "label": "Кириллическая транслитерация",
+      "lines": [
+       "āсанāни ча вакшйāми ш́р̣н̣у путра самāхитах̣ । свастикам̣ гомукхам̣ падмам̣ вӣрам̣ сим̣хāсанам̣ татхā । мāйӯрам̣ куккут̣ам̣ чаива кӯрмам̣ бхадрāсанам̣ татхā । муктāсанам̣ татхā тешāм̣ пр̣тхак вакшйāми лакшан̣ам ॥ 67 ॥"
+      ]
+     }
+    ]
+   },
+   {
+    "type": "words",
+    "key": "words",
+    "label": "Пословный разбор",
+    "paragraphs": [
+     "āсанāни - āсаны; ча - и, также; вакшйāми - изложу; ш́р̣н̣у - слушай; путра - о сын; самāхитах̣ - сосредоточенный; свастикам - Свастику; гомукхам - Гомукху; падмам - Падму (Лотос); вӣрам - Вӣру (Героя); сим̣хāсанам - Сим̣хāсану; татхā - также; мāйӯрам - Мāйӯру (павлинью [позу]); куккут̣ам - Куккут̣у (петушиную [позу]); ча ева - и также; кӯрмам - Кӯрму (черепашью [позу]); бхадрāсанам - Бхадрāсану; татхā - также; муктāсанам - Муктāсану; татхā - также; тешāм - их; пр̣тхак - по отдельности; вакшйāми - изложу; лакшан̣ам - отличительный признак, определение."
+    ],
+    "groups": [
+     [
+      [
+       "āсанāни",
+       "āсаны"
+      ],
+      [
+       "ча",
+       "и, также"
+      ],
+      [
+       "вакшйāми",
+       "изложу"
+      ],
+      [
+       "ш́р̣н̣у",
+       "слушай"
+      ],
+      [
+       "путра",
+       "о сын"
+      ],
+      [
+       "самāхитах̣",
+       "сосредоточенный"
+      ],
+      [
+       "свастикам",
+       "Свастику"
+      ],
+      [
+       "гомукхам",
+       "Гомукху"
+      ],
+      [
+       "падмам",
+       "Падму (Лотос)"
+      ],
+      [
+       "вӣрам",
+       "Вӣру (Героя)"
+      ],
+      [
+       "сим̣хāсанам",
+       "Сим̣хāсану"
+      ],
+      [
+       "татхā",
+       "также"
+      ],
+      [
+       "мāйӯрам",
+       "Мāйӯру (павлинью \u00000\u0000)"
+      ],
+      [
+       "куккут̣ам",
+       "Куккут̣у (петушиную \u00001\u0000)"
+      ],
+      [
+       "ча ева",
+       "и также"
+      ],
+      [
+       "кӯрмам",
+       "Кӯрму (черепашью \u00002\u0000)"
+      ],
+      [
+       "бхадрāсанам",
+       "Бхадрāсану"
+      ],
+      [
+       "татхā",
+       "также"
+      ],
+      [
+       "муктāсанам",
+       "Муктāсану"
+      ],
+      [
+       "татхā",
+       "также"
+      ],
+      [
+       "тешāм",
+       "их"
+      ],
+      [
+       "пр̣тхак",
+       "по отдельности"
+      ],
+      [
+       "вакшйāми",
+       "изложу"
+      ],
+      [
+       "лакшан̣ам",
+       "отличительный признак, определение."
+      ]
+     ]
+    ]
+   },
+   {
+    "type": "prose",
+    "key": "literal",
+    "label": "Буквальный перевод",
+    "paragraphs": [
+     "И āсаны изложу [тебе] – слушай, сын, сосредоточенно: Свастику, Гомукху, Падму, Вӣру, а также Сим̣хāсану, Мāйӯру, Куккут̣у, а также Кӯрму и Бхадрāсану, а также Муктāсану; определение каждой из них изложу по отдельности."
+    ]
+   },
+   {
+    "type": "prose",
+    "key": "literary",
+    "label": "Литературный перевод",
+    "paragraphs": [
+     "Васишт̣ха обещает сыну изложить āсаны и называет десять поз: Свастику, Гомукху, Падму, Вӣру, Сим̣хāсану, Мāйӯру, Куккут̣у, Кӯрму, Бхадрāсану и Муктāсану – с тем, чтобы затем описать каждую в отдельности. (В английском переводе издания Кӯрма в перечне пропущена; в описаниях ниже Бхадрāсана идёт раньше Кӯрмāсаны.)"
+    ]
+   }
+  ],
+  "en": [
+   {
+    "type": "subhead",
+    "label": "Introductory verse: list of āsanas"
+   },
+   {
+    "type": "verse_card",
+    "sections": [
+     {
+      "type": "verse",
+      "key": "deva",
+      "label": "Devanāgarī",
+      "lines": [
+       "आसनानि च वक्ष्यामि शृणु पुत्र समाहितः । स्वस्तिकं गोमुखं पद्मं वीरं सिंहासनं तथा । मायूरं कुक्कुटं चैव कूर्मं भद्रासनं तथा । मुक्तासनं तथा तेषां पृथक् वक्ष्यामि लक्षणम् ॥ ६७ ॥"
+      ],
+      "verses": "67"
+     },
+     {
+      "type": "verse",
+      "key": "iast",
+      "label": "IAST",
+      "lines": [
+       "āsanāni ca vakṣyāmi śṛṇu putra samāhitaḥ । svastikaṃ gomukhaṃ padmaṃ vīraṃ siṃhāsanaṃ tathā । māyūraṃ kukkuṭaṃ caiva kūrmaṃ bhadrāsanaṃ tathā । muktāsanaṃ tathā teṣāṃ pṛthak vakṣyāmi lakṣaṇam ॥ 67 ॥"
+      ]
+     },
+     {
+      "type": "verse",
+      "key": "cyr",
+      "label": "Cyrillic transliteration",
+      "lines": [
+       "āсанāни ча вакшйāми ш́р̣н̣у путра самāхитах̣ । свастикам̣ гомукхам̣ падмам̣ вӣрам̣ сим̣хāсанам̣ татхā । мāйӯрам̣ куккут̣ам̣ чаива кӯрмам̣ бхадрāсанам̣ татхā । муктāсанам̣ татхā тешāм̣ пр̣тхак вакшйāми лакшан̣ам ॥ 67 ॥"
+      ]
+     }
+    ]
+   },
+   {
+    "type": "words",
+    "key": "words",
+    "label": "Word-by-word analysis",
+    "paragraphs": [
+     "āsanāni – āsanas; ca – and, also; vakṣyāmi – I shall explain; śṛṇu – listen; putra – O son; samāhitaḥ – concentrated, attentive; svastikam – Svastika; gomukham – Gomukha; padmam – Padma (Lotus); vīram – Vīra (Hero); siṃhāsanam – Siṃhāsana; tathā – also; māyūram – Māyūra (the peacock [pose]); kukkuṭam – Kukkuṭa (the cock [pose]); ca eva – and also; kūrmam – Kūrma (the tortoise [pose]); bhadrāsanam – Bhadrāsana; tathā – also; muktāsanam – Muktāsana; tathā – also; teṣām – of them; pṛthak – separately; vakṣyāmi – I shall explain; lakṣaṇam – distinguishing mark, definition."
+    ],
+    "groups": [
+     [
+      [
+       "āsanāni",
+       "āsanas"
+      ],
+      [
+       "ca",
+       "and, also"
+      ],
+      [
+       "vakṣyāmi",
+       "I shall explain"
+      ],
+      [
+       "śṛṇu",
+       "listen"
+      ],
+      [
+       "putra",
+       "O son"
+      ],
+      [
+       "samāhitaḥ",
+       "concentrated, attentive"
+      ],
+      [
+       "svastikam",
+       "Svastika"
+      ],
+      [
+       "gomukham",
+       "Gomukha"
+      ],
+      [
+       "padmam",
+       "Padma (Lotus)"
+      ],
+      [
+       "vīram",
+       "Vīra (Hero)"
+      ],
+      [
+       "siṃhāsanam",
+       "Siṃhāsana"
+      ],
+      [
+       "tathā",
+       "also"
+      ],
+      [
+       "māyūram",
+       "Māyūra (the peacock \u00000\u0000)"
+      ],
+      [
+       "kukkuṭam",
+       "Kukkuṭa (the cock \u00001\u0000)"
+      ],
+      [
+       "ca eva",
+       "and also"
+      ],
+      [
+       "kūrmam",
+       "Kūrma (the tortoise \u00002\u0000)"
+      ],
+      [
+       "bhadrāsanam",
+       "Bhadrāsana"
+      ],
+      [
+       "tathā",
+       "also"
+      ],
+      [
+       "muktāsanam",
+       "Muktāsana"
+      ],
+      [
+       "tathā",
+       "also"
+      ],
+      [
+       "teṣām",
+       "of them"
+      ],
+      [
+       "pṛthak",
+       "separately"
+      ],
+      [
+       "vakṣyāmi",
+       "I shall explain"
+      ],
+      [
+       "lakṣaṇam",
+       "distinguishing mark, definition."
+      ]
+     ]
+    ]
+   },
+   {
+    "type": "prose",
+    "key": "literal",
+    "label": "Literal translation",
+    "paragraphs": [
+     "And I shall explain the āsanas [to you] – listen attentively, son: Svastika, Gomukha, Padma, Vīra, and also Siṃhāsana, Māyūra, Kukkuṭa, and also Kūrma and Bhadrāsana, and also Muktāsana; I shall explain the definition of each of them separately."
+    ]
+   },
+   {
+    "type": "prose",
+    "key": "literary",
+    "label": "Literary translation",
+    "paragraphs": [
+     "Vasiṣṭha promises his son to explain the āsanas and names ten postures: Svastika, Gomukha, Padma, Vīra, Siṃhāsana, Māyūra, Kukkuṭa, Kūrma, Bhadrāsana and Muktāsana – in order to describe each of them separately afterwards. (In the edition's English translation Kūrma is omitted from the list; in the descriptions below Bhadrāsana comes before Kūrmāsana.)"
+    ]
+   }
+  ]
+ },
+ "appendix": {
+  "ru": [],
+  "en": []
+ },
+ "notes": {
+  "ru": [],
+  "en": []
+ },
+ "closing": {
+  "ru": [],
+  "en": []
+ },
+ "poses": [
+  {
+   "key": "svastikasana",
+   "iast": "Svastikāsana",
+   "number": 1,
+   "name": {
+    "ru": "Свастикāсана",
+    "en": "Svastikāsana"
+   },
+   "gloss": {
+    "ru": "«Поза свастики», «Благая поза»",
+    "en": "“Svastika Pose”, “Auspicious Pose”"
+   },
+   "verses": {
+    "ru": "68–69",
+    "en": "68–69"
+   },
+   "text": {
+    "ru": [
+     {
+      "type": "verse_card",
+      "sections": [
+       {
+        "type": "verse",
+        "key": "deva",
+        "label": "Деванāгарӣ",
+        "lines": [
+         "जानूर्वोरन्तरं सम्यक् कृत्वा पादतले उभे । ऋजुकायस्तथासीनः स्वस्तिकं तत् प्रचक्षते ॥ ६८ ॥"
+        ],
+        "verses": "68"
+       },
+       {
+        "type": "verse",
+        "key": "iast",
+        "label": "IAST",
+        "lines": [
+         "jānūrvor antaraṃ samyak kṛtvā pādatale ubhe । ṛjukāyas tathāsīnaḥ svastikaṃ tat pracakṣate ॥ 68 ॥"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "cyr",
+        "label": "Кириллическая транслитерация",
+        "lines": [
+         "джāнӯрвор антарам̣ самйак кр̣твā пāдатале убхе । р̣джукāйас татхāсӣнах̣ свастикам̣ тат прачакшате ॥ 68 ॥"
+        ]
+       }
+      ],
+      "verses": "68"
+     },
+     {
+      "type": "verse_card",
+      "sections": [
+       {
+        "type": "verse",
+        "key": "deva",
+        "label": "Деванāгарӣ",
+        "lines": [
+         "सीवन्यामात्मनः पार्श्वे गुल्फौ निक्षिप्य पादयोः । एतद्वा स्वस्तिकं प्रोक्तं सर्वपापप्रणाशनम् ॥ ६९ ॥"
+        ],
+        "verses": "69"
+       },
+       {
+        "type": "verse",
+        "key": "iast",
+        "label": "IAST",
+        "lines": [
+         "sīvanyām ātmanaḥ pārśve gulphau nikṣipya pādayoḥ । etad vā svastikaṃ proktaṃ sarvapāpapraṇāśanam ॥ 69 ॥"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "cyr",
+        "label": "Кириллическая транслитерация",
+        "lines": [
+         "сӣванйāм āтманах̣ пāрш́ве гулпхау никшипйа пāдайох̣ । етад вā свастикам̣ проктам̣ сарвапāпапран̣āш́анам ॥ 69 ॥"
+        ]
+       }
+      ],
+      "verses": "69"
+     },
+     {
+      "type": "words",
+      "key": "words",
+      "label": "Пословный разбор",
+      "paragraphs": [
+       "джāну-ӯрвох̣ - колен и бёдер; антарам - [в] промежуток, между (в других текстах – «अन्तरे», «в промежутке»); самйак - правильно, как следует; кр̣твā - поместив (букв. сделав); пāда-тале - две подошвы; убхе - обе; р̣джу-кāйах̣ - с прямым телом; татхā - так; āсӣнах̣ - сидящий; свастикам - Свастика; тат - то, это; прачакшате - называют.",
+       "сӣванйāм - у шва (промежности); āтманах̣ - собственной; пāрш́ве - сбоку; гулпхау - обе лодыжки; никшипйа - поместив; пāдайох̣ - [обеих] стоп; етат - это; вā - или же, также; свастикам - Свастика; проктам - названо; сарва-пāпа-пран̣āш́анам - уничтожающее все грехи."
+      ],
+      "groups": [
+       [
+        [
+         "джāну-ӯрвох̣",
+         "колен и бёдер"
+        ],
+        [
+         "антарам",
+         "[в] промежуток, между (в других текстах – «अन्तरे», «в промежутке»)"
+        ],
+        [
+         "самйак",
+         "правильно, как следует"
+        ],
+        [
+         "кр̣твā",
+         "поместив (букв. сделав)"
+        ],
+        [
+         "пāда-тале",
+         "две подошвы"
+        ],
+        [
+         "убхе",
+         "обе"
+        ],
+        [
+         "р̣джу-кāйах̣",
+         "с прямым телом"
+        ],
+        [
+         "татхā",
+         "так"
+        ],
+        [
+         "āсӣнах̣",
+         "сидящий"
+        ],
+        [
+         "свастикам",
+         "Свастика"
+        ],
+        [
+         "тат",
+         "то, это"
+        ],
+        [
+         "прачакшате",
+         "называют."
+        ]
+       ],
+       [
+        [
+         "сӣванйāм",
+         "у шва (промежности)"
+        ],
+        [
+         "āтманах̣",
+         "собственной"
+        ],
+        [
+         "пāрш́ве",
+         "сбоку"
+        ],
+        [
+         "гулпхау",
+         "обе лодыжки"
+        ],
+        [
+         "никшипйа",
+         "поместив"
+        ],
+        [
+         "пāдайох̣",
+         "[обеих] стоп"
+        ],
+        [
+         "етат",
+         "это"
+        ],
+        [
+         "вā",
+         "или же, также"
+        ],
+        [
+         "свастикам",
+         "Свастика"
+        ],
+        [
+         "проктам",
+         "названо"
+        ],
+        [
+         "сарва-пāпа-пран̣āш́анам",
+         "уничтожающее все грехи."
+        ]
+       ]
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "literal",
+      "label": "Буквальный перевод",
+      "paragraphs": [
+       "Правильно поместив обе подошвы между коленями и бёдрами и сидя так с прямым телом – это называют Свастикой. Или же, поместив лодыжки [обеих] стоп по сторонам от собственной промежности, – это тоже названо Свастикой, уничтожающей все грехи."
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "literary",
+      "label": "Литературный перевод",
+      "paragraphs": [
+       "Свастикāсана – Благая поза. Сидят с прямым телом, вложив подошвы обеих стоп в промежутки между икрами и бёдрами противоположных ног. Другой вариант: лодыжки кладут по обе стороны промежности. Поза уничтожает все грехи."
+      ]
+     }
+    ],
+    "en": [
+     {
+      "type": "verse_card",
+      "sections": [
+       {
+        "type": "verse",
+        "key": "deva",
+        "label": "Devanāgarī",
+        "lines": [
+         "जानूर्वोरन्तरं सम्यक् कृत्वा पादतले उभे । ऋजुकायस्तथासीनः स्वस्तिकं तत् प्रचक्षते ॥ ६८ ॥"
+        ],
+        "verses": "68"
+       },
+       {
+        "type": "verse",
+        "key": "iast",
+        "label": "IAST",
+        "lines": [
+         "jānūrvor antaraṃ samyak kṛtvā pādatale ubhe । ṛjukāyas tathāsīnaḥ svastikaṃ tat pracakṣate ॥ 68 ॥"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "cyr",
+        "label": "Cyrillic transliteration",
+        "lines": [
+         "джāнӯрвор антарам̣ самйак кр̣твā пāдатале убхе । р̣джукāйас татхāсӣнах̣ свастикам̣ тат прачакшате ॥ 68 ॥"
+        ]
+       }
+      ],
+      "verses": "68"
+     },
+     {
+      "type": "verse_card",
+      "sections": [
+       {
+        "type": "verse",
+        "key": "deva",
+        "label": "Devanāgarī",
+        "lines": [
+         "सीवन्यामात्मनः पार्श्वे गुल्फौ निक्षिप्य पादयोः । एतद्वा स्वस्तिकं प्रोक्तं सर्वपापप्रणाशनम् ॥ ६९ ॥"
+        ],
+        "verses": "69"
+       },
+       {
+        "type": "verse",
+        "key": "iast",
+        "label": "IAST",
+        "lines": [
+         "sīvanyām ātmanaḥ pārśve gulphau nikṣipya pādayoḥ । etad vā svastikaṃ proktaṃ sarvapāpapraṇāśanam ॥ 69 ॥"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "cyr",
+        "label": "Cyrillic transliteration",
+        "lines": [
+         "сӣванйāм āтманах̣ пāрш́ве гулпхау никшипйа пāдайох̣ । етад вā свастикам̣ проктам̣ сарвапāпапран̣āш́анам ॥ 69 ॥"
+        ]
+       }
+      ],
+      "verses": "69"
+     },
+     {
+      "type": "words",
+      "key": "words",
+      "label": "Word-by-word analysis",
+      "paragraphs": [
+       "jānu-ūrvoḥ – of the knees and thighs; antaram – [into] the space, between (other texts read «अन्तरे», “in the space”); samyak – properly, correctly; kṛtvā – having placed (lit. having made); pāda-tale – the two soles; ubhe – both; ṛju-kāyaḥ – with the body straight; tathā – thus; āsīnaḥ – seated; svastikam – Svastika; tat – that, this; pracakṣate – they call.",
+       "sīvanyām – at the seam (perineum); ātmanaḥ – one's own; pārśve – at the side; gulphau – both ankles; nikṣipya – having placed; pādayoḥ – of [both] feet; etat – this; vā – or else, also; svastikam – Svastika; proktam – is called; sarva-pāpa-praṇāśanam – destroying all sins."
+      ],
+      "groups": [
+       [
+        [
+         "jānu-ūrvoḥ",
+         "of the knees and thighs"
+        ],
+        [
+         "antaram",
+         "[into] the space, between (other texts read «अन्तरे», “in the space”)"
+        ],
+        [
+         "samyak",
+         "properly, correctly"
+        ],
+        [
+         "kṛtvā",
+         "having placed (lit. having made)"
+        ],
+        [
+         "pāda-tale",
+         "the two soles"
+        ],
+        [
+         "ubhe",
+         "both"
+        ],
+        [
+         "ṛju-kāyaḥ",
+         "with the body straight"
+        ],
+        [
+         "tathā",
+         "thus"
+        ],
+        [
+         "āsīnaḥ",
+         "seated"
+        ],
+        [
+         "svastikam",
+         "Svastika"
+        ],
+        [
+         "tat",
+         "that, this"
+        ],
+        [
+         "pracakṣate",
+         "they call."
+        ]
+       ],
+       [
+        [
+         "sīvanyām",
+         "at the seam (perineum)"
+        ],
+        [
+         "ātmanaḥ",
+         "one's own"
+        ],
+        [
+         "pārśve",
+         "at the side"
+        ],
+        [
+         "gulphau",
+         "both ankles"
+        ],
+        [
+         "nikṣipya",
+         "having placed"
+        ],
+        [
+         "pādayoḥ",
+         "of [both] feet"
+        ],
+        [
+         "etat",
+         "this"
+        ],
+        [
+         "vā",
+         "or else, also"
+        ],
+        [
+         "svastikam",
+         "Svastika"
+        ],
+        [
+         "proktam",
+         "is called"
+        ],
+        [
+         "sarva-pāpa-praṇāśanam",
+         "destroying all sins."
+        ]
+       ]
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "literal",
+      "label": "Literal translation",
+      "paragraphs": [
+       "Having properly placed both soles between the knees and thighs, and sitting thus with the body straight – this they call Svastika. Or else, having placed the ankles of [both] feet at the sides of one's own perineum – this too is called Svastika, which destroys all sins."
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "literary",
+      "label": "Literary translation",
+      "paragraphs": [
+       "Svastikāsana – the Auspicious Pose. One sits with the body straight, tucking the soles of both feet into the spaces between the calves and thighs of the opposite legs. Another variant: the ankles are placed on either side of the perineum. The pose destroys all sins."
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "key": "gomukhasana",
+   "iast": "Gomukhāsana",
+   "number": 2,
+   "name": {
+    "ru": "Гомукхāсана",
+    "en": "Gomukhāsana"
+   },
+   "gloss": {
+    "ru": "«Поза коровьей морды»",
+    "en": "“Cow-Face Pose”"
+   },
+   "verses": {
+    "ru": "70",
+    "en": "70"
+   },
+   "text": {
+    "ru": [
+     {
+      "type": "verse_card",
+      "sections": [
+       {
+        "type": "verse",
+        "key": "deva",
+        "label": "Деванāгарӣ",
+        "lines": [
+         "सव्ये दक्षिणगुल्फं तु पृष्ठपार्श्वे निवेशयेत् । दक्षिणेऽपि तथा सव्यं गोमुखं तत् प्रचक्षते ॥ ७० ॥"
+        ],
+        "verses": "70"
+       },
+       {
+        "type": "verse",
+        "key": "iast",
+        "label": "IAST",
+        "lines": [
+         "savye dakṣiṇagulphaṃ tu pṛṣṭhapārśve niveśayet । dakṣiṇe 'pi tathā savyaṃ gomukhaṃ tat pracakṣate ॥ 70 ॥"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "cyr",
+        "label": "Кириллическая транслитерация",
+        "lines": [
+         "савйе дакшин̣агулпхам̣ ту пр̣шт̣хапāрш́ве нивеш́айет । дакшин̣е 'пи татхā савйам̣ гомукхам̣ тат прачакшате ॥ 70 ॥"
+        ]
+       }
+      ],
+      "verses": "70"
+     },
+     {
+      "type": "words",
+      "key": "words",
+      "label": "Пословный разбор",
+      "paragraphs": [
+       "савйе - слева, на левой [стороне]; дакшин̣а-гулпхам - правую лодыжку (в файле: «दक्षिणगुल्कं» – ошибка распознавания); ту - же; пр̣шт̣ха-пāрш́ве - сбоку от спины (у ягодицы); нивеш́айет - пусть поместит; дакшин̣е - справа; апи - и; татхā - так же; савйам - левую [лодыжку]; гомукхам - Гомукха; тат - то, это; прачакшате - называют."
+      ],
+      "groups": [
+       [
+        [
+         "савйе",
+         "слева, на левой [стороне]"
+        ],
+        [
+         "дакшин̣а-гулпхам",
+         "правую лодыжку (в файле: «दक्षिणगुल्कं» – ошибка распознавания)"
+        ],
+        [
+         "ту",
+         "же"
+        ],
+        [
+         "пр̣шт̣ха-пāрш́ве",
+         "сбоку от спины (у ягодицы)"
+        ],
+        [
+         "нивеш́айет",
+         "пусть поместит"
+        ],
+        [
+         "дакшин̣е",
+         "справа"
+        ],
+        [
+         "апи",
+         "и"
+        ],
+        [
+         "татхā",
+         "так же"
+        ],
+        [
+         "савйам",
+         "левую [лодыжку]"
+        ],
+        [
+         "гомукхам",
+         "Гомукха"
+        ],
+        [
+         "тат",
+         "то, это"
+        ],
+        [
+         "прачакшате",
+         "называют."
+        ]
+       ]
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "literal",
+      "label": "Буквальный перевод",
+      "paragraphs": [
+       "Правую же лодыжку пусть поместит слева, сбоку от спины, и так же левую – справа; это называют Гомукхой."
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "literary",
+      "label": "Литературный перевод",
+      "paragraphs": [
+       "Гомукхāсана – Поза коровьей морды. Правую лодыжку кладут у левого бока, рядом с ягодицей, а левую – так же у правого."
+      ]
+     }
+    ],
+    "en": [
+     {
+      "type": "verse_card",
+      "sections": [
+       {
+        "type": "verse",
+        "key": "deva",
+        "label": "Devanāgarī",
+        "lines": [
+         "सव्ये दक्षिणगुल्फं तु पृष्ठपार्श्वे निवेशयेत् । दक्षिणेऽपि तथा सव्यं गोमुखं तत् प्रचक्षते ॥ ७० ॥"
+        ],
+        "verses": "70"
+       },
+       {
+        "type": "verse",
+        "key": "iast",
+        "label": "IAST",
+        "lines": [
+         "savye dakṣiṇagulphaṃ tu pṛṣṭhapārśve niveśayet । dakṣiṇe 'pi tathā savyaṃ gomukhaṃ tat pracakṣate ॥ 70 ॥"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "cyr",
+        "label": "Cyrillic transliteration",
+        "lines": [
+         "савйе дакшин̣агулпхам̣ ту пр̣шт̣хапāрш́ве нивеш́айет । дакшин̣е 'пи татхā савйам̣ гомукхам̣ тат прачакшате ॥ 70 ॥"
+        ]
+       }
+      ],
+      "verses": "70"
+     },
+     {
+      "type": "words",
+      "key": "words",
+      "label": "Word-by-word analysis",
+      "paragraphs": [
+       "savye – on the left, on the left [side]; dakṣiṇa-gulpham – the right ankle (in the file: «दक्षिणगुल्कं» – OCR error); tu – indeed; pṛṣṭha-pārśve – beside the back (by the buttock); niveśayet – one should place; dakṣiṇe – on the right; api – and; tathā – likewise; savyam – the left [ankle]; gomukham – Gomukha; tat – that, this; pracakṣate – they call."
+      ],
+      "groups": [
+       [
+        [
+         "savye",
+         "on the left, on the left [side]"
+        ],
+        [
+         "dakṣiṇa-gulpham",
+         "the right ankle (in the file: «दक्षिणगुल्कं» – OCR error)"
+        ],
+        [
+         "tu",
+         "indeed"
+        ],
+        [
+         "pṛṣṭha-pārśve",
+         "beside the back (by the buttock)"
+        ],
+        [
+         "niveśayet",
+         "one should place"
+        ],
+        [
+         "dakṣiṇe",
+         "on the right"
+        ],
+        [
+         "api",
+         "and"
+        ],
+        [
+         "tathā",
+         "likewise"
+        ],
+        [
+         "savyam",
+         "the left [ankle]"
+        ],
+        [
+         "gomukham",
+         "Gomukha"
+        ],
+        [
+         "tat",
+         "that, this"
+        ],
+        [
+         "pracakṣate",
+         "they call."
+        ]
+       ]
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "literal",
+      "label": "Literal translation",
+      "paragraphs": [
+       "One should place the right ankle on the left, beside the back, and likewise the left on the right; this they call Gomukha."
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "literary",
+      "label": "Literary translation",
+      "paragraphs": [
+       "Gomukhāsana – the Cow-Face Pose. The right ankle is placed by the left side, next to the buttock, and the left one likewise by the right side."
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "key": "padmasana",
+   "iast": "Padmāsana",
+   "number": 3,
+   "name": {
+    "ru": "Падмāсана",
+    "en": "Padmāsana"
+   },
+   "gloss": {
+    "ru": "«Поза лотоса»",
+    "en": "“Lotus Pose”"
+   },
+   "verses": {
+    "ru": "71",
+    "en": "71"
+   },
+   "text": {
+    "ru": [
+     {
+      "type": "verse_card",
+      "sections": [
+       {
+        "type": "verse",
+        "key": "deva",
+        "label": "Деванāгарӣ",
+        "lines": [
+         "अङ्गुष्ठौ च निबध्नीयाद्धस्ताभ्यां व्युत्क्रमेण तु । ऊर्वोरुपरि विप्रेन्द्र कृत्वा पादतले उभे । पद्मासनं भवेदेतत् सर्वेषामेव पूजितम् ॥ ७१ ॥"
+        ],
+        "verses": "71"
+       },
+       {
+        "type": "verse",
+        "key": "iast",
+        "label": "IAST",
+        "lines": [
+         "aṅguṣṭhau ca nibadhnīyād dhastābhyāṃ vyutkrameṇa tu । ūrvor upari viprendra kṛtvā pādatale ubhe । padmāsanaṃ bhaved etat sarveṣām eva pūjitam ॥ 71 ॥"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "cyr",
+        "label": "Кириллическая транслитерация",
+        "lines": [
+         "ан̇гушт̣хау ча нибадхнӣйāд дхастāбхйāм̣ вйуткрамен̣а ту । ӯрвор упари випрендра кр̣твā пāдатале убхе । падмāсанам̣ бхавед етат сарвешāм ева пӯджитам ॥ 71 ॥"
+        ]
+       }
+      ],
+      "verses": "71"
+     },
+     {
+      "type": "words",
+      "key": "words",
+      "label": "Пословный разбор",
+      "paragraphs": [
+       "ан̇гушт̣хау - оба больших пальца [ног]; ча - и; нибадхнӣйāт - пусть захватит (букв. свяжет); хастāбхйāм - руками; вйуткрамен̣а - в обратном порядке, крест-накрест; ту - же; ӯрвох̣ - бёдер; упари - поверх; випрендра - о лучший из брāхман̣ов; кр̣твā - поместив (букв. сделав); пāда-тале - две подошвы; убхе - обе; падмāсанам - Падмāсана; бхавет - будет; етат - это; сарвешāм - всеми; ева - именно, воистину; пӯджитам - почитаемое."
+      ],
+      "groups": [
+       [
+        [
+         "ан̇гушт̣хау",
+         "оба больших пальца [ног]"
+        ],
+        [
+         "ча",
+         "и"
+        ],
+        [
+         "нибадхнӣйāт",
+         "пусть захватит (букв. свяжет)"
+        ],
+        [
+         "хастāбхйāм",
+         "руками"
+        ],
+        [
+         "вйуткрамен̣а",
+         "в обратном порядке, крест-накрест"
+        ],
+        [
+         "ту",
+         "же"
+        ],
+        [
+         "ӯрвох̣",
+         "бёдер"
+        ],
+        [
+         "упари",
+         "поверх"
+        ],
+        [
+         "випрендра",
+         "о лучший из брāхман̣ов"
+        ],
+        [
+         "кр̣твā",
+         "поместив (букв. сделав)"
+        ],
+        [
+         "пāда-тале",
+         "две подошвы"
+        ],
+        [
+         "убхе",
+         "обе"
+        ],
+        [
+         "падмāсанам",
+         "Падмāсана"
+        ],
+        [
+         "бхавет",
+         "будет"
+        ],
+        [
+         "етат",
+         "это"
+        ],
+        [
+         "сарвешāм",
+         "всеми"
+        ],
+        [
+         "ева",
+         "именно, воистину"
+        ],
+        [
+         "пӯджитам",
+         "почитаемое."
+        ]
+       ]
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "literal",
+      "label": "Буквальный перевод",
+      "paragraphs": [
+       "И пусть захватит руками крест-накрест большие пальцы ног, о лучший из брāхман̣ов, поместив обе подошвы поверх бёдер. Это будет Падмāсана, почитаемая всеми."
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "literary",
+      "label": "Литературный перевод",
+      "paragraphs": [
+       "Падмāсана – Поза лотоса. Подошвы обеих стоп кладут на бёдра, а скрещёнными руками захватывают большие пальцы ног (английский перевод издания уточняет: руки заводят за спину). Эту позу почитают все."
+      ]
+     }
+    ],
+    "en": [
+     {
+      "type": "verse_card",
+      "sections": [
+       {
+        "type": "verse",
+        "key": "deva",
+        "label": "Devanāgarī",
+        "lines": [
+         "अङ्गुष्ठौ च निबध्नीयाद्धस्ताभ्यां व्युत्क्रमेण तु । ऊर्वोरुपरि विप्रेन्द्र कृत्वा पादतले उभे । पद्मासनं भवेदेतत् सर्वेषामेव पूजितम् ॥ ७१ ॥"
+        ],
+        "verses": "71"
+       },
+       {
+        "type": "verse",
+        "key": "iast",
+        "label": "IAST",
+        "lines": [
+         "aṅguṣṭhau ca nibadhnīyād dhastābhyāṃ vyutkrameṇa tu । ūrvor upari viprendra kṛtvā pādatale ubhe । padmāsanaṃ bhaved etat sarveṣām eva pūjitam ॥ 71 ॥"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "cyr",
+        "label": "Cyrillic transliteration",
+        "lines": [
+         "ан̇гушт̣хау ча нибадхнӣйāд дхастāбхйāм̣ вйуткрамен̣а ту । ӯрвор упари випрендра кр̣твā пāдатале убхе । падмāсанам̣ бхавед етат сарвешāм ева пӯджитам ॥ 71 ॥"
+        ]
+       }
+      ],
+      "verses": "71"
+     },
+     {
+      "type": "words",
+      "key": "words",
+      "label": "Word-by-word analysis",
+      "paragraphs": [
+       "aṅguṣṭhau – both big toes [of the feet]; ca – and; nibadhnīyāt – one should grasp (lit. bind); hastābhyām – with the hands; vyutkrameṇa – in reverse order, crosswise; tu – indeed; ūrvoḥ – of the thighs; upari – on top of; viprendra – O best of brāhmaṇas; kṛtvā – having placed (lit. having made); pāda-tale – the two soles; ubhe – both; padmāsanam – Padmāsana; bhavet – will be; etat – this; sarveṣām – by all; eva – indeed, truly; pūjitam – revered."
+      ],
+      "groups": [
+       [
+        [
+         "aṅguṣṭhau",
+         "both big toes [of the feet]"
+        ],
+        [
+         "ca",
+         "and"
+        ],
+        [
+         "nibadhnīyāt",
+         "one should grasp (lit. bind)"
+        ],
+        [
+         "hastābhyām",
+         "with the hands"
+        ],
+        [
+         "vyutkrameṇa",
+         "in reverse order, crosswise"
+        ],
+        [
+         "tu",
+         "indeed"
+        ],
+        [
+         "ūrvoḥ",
+         "of the thighs"
+        ],
+        [
+         "upari",
+         "on top of"
+        ],
+        [
+         "viprendra",
+         "O best of brāhmaṇas"
+        ],
+        [
+         "kṛtvā",
+         "having placed (lit. having made)"
+        ],
+        [
+         "pāda-tale",
+         "the two soles"
+        ],
+        [
+         "ubhe",
+         "both"
+        ],
+        [
+         "padmāsanam",
+         "Padmāsana"
+        ],
+        [
+         "bhavet",
+         "will be"
+        ],
+        [
+         "etat",
+         "this"
+        ],
+        [
+         "sarveṣām",
+         "by all"
+        ],
+        [
+         "eva",
+         "indeed, truly"
+        ],
+        [
+         "pūjitam",
+         "revered."
+        ]
+       ]
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "literal",
+      "label": "Literal translation",
+      "paragraphs": [
+       "And one should grasp the big toes with the hands crosswise, O best of brāhmaṇas, having placed both soles on top of the thighs. This will be Padmāsana, revered by all."
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "literary",
+      "label": "Literary translation",
+      "paragraphs": [
+       "Padmāsana – the Lotus Pose. The soles of both feet are placed on the thighs, and the big toes are grasped with crossed hands (the edition's English translation specifies that the arms are brought behind the back). This pose is revered by all."
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "key": "virasana",
+   "iast": "Vīrāsana",
+   "number": 4,
+   "name": {
+    "ru": "Вӣрāсана",
+    "en": "Vīrāsana"
+   },
+   "gloss": {
+    "ru": "«Поза героя»",
+    "en": "“Hero Pose”"
+   },
+   "verses": {
+    "ru": "72",
+    "en": "72"
+   },
+   "text": {
+    "ru": [
+     {
+      "type": "verse_card",
+      "sections": [
+       {
+        "type": "verse",
+        "key": "deva",
+        "label": "Деванāгарӣ",
+        "lines": [
+         "एकं पादमथैकस्मिन् विन्यस्योरौ च संस्थितम् । इतरस्मिंस्तथैवोरुं वीरासनमितीरितम् ॥ ७२ ॥"
+        ],
+        "verses": "72"
+       },
+       {
+        "type": "verse",
+        "key": "iast",
+        "label": "IAST",
+        "lines": [
+         "ekaṃ pādam athaikasmin vinyasyorau ca saṃsthitam । itarasmiṃs tathaivoruṃ vīrāsanam itīritam ॥ 72 ॥"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "cyr",
+        "label": "Кириллическая транслитерация",
+        "lines": [
+         "екам̣ пāдам атхаикасмин винйасйорау ча сам̣стхитам । итарасмим̣с татхаиворум̣ вӣрāсанам итӣритам ॥ 72 ॥"
+        ]
+       }
+      ],
+      "verses": "72"
+     },
+     {
+      "type": "words",
+      "key": "words",
+      "label": "Пословный разбор",
+      "paragraphs": [
+       "екам - одну; пāдам - стопу; атха - затем; екасмин - на одно; винйасйа - поместив; ӯрау - на бедро; ча - и; сам̣стхитам - устойчиво установленную; итарасмин - на другую [стопу]; татхā ева - точно так же; ӯрум - бедро; вӣрāсанам - Вӣрāсана; ити - так; ӣритам - названо."
+      ],
+      "groups": [
+       [
+        [
+         "екам",
+         "одну"
+        ],
+        [
+         "пāдам",
+         "стопу"
+        ],
+        [
+         "атха",
+         "затем"
+        ],
+        [
+         "екасмин",
+         "на одно"
+        ],
+        [
+         "винйасйа",
+         "поместив"
+        ],
+        [
+         "ӯрау",
+         "на бедро"
+        ],
+        [
+         "ча",
+         "и"
+        ],
+        [
+         "сам̣стхитам",
+         "устойчиво установленную"
+        ],
+        [
+         "итарасмин",
+         "на другую [стопу]"
+        ],
+        [
+         "татхā ева",
+         "точно так же"
+        ],
+        [
+         "ӯрум",
+         "бедро"
+        ],
+        [
+         "вӣрāсанам",
+         "Вӣрāсана"
+        ],
+        [
+         "ити",
+         "так"
+        ],
+        [
+         "ӣритам",
+         "названо."
+        ]
+       ]
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "literal",
+      "label": "Буквальный перевод",
+      "paragraphs": [
+       "Поместив одну стопу на одно бедро и устойчиво [её] установив, а на другую [стопу] точно так же – [другое] бедро, – [это] названо Вӣрāсаной."
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "literary",
+      "label": "Литературный перевод",
+      "paragraphs": [
+       "Вӣрāсана – Поза героя. Одну стопу устойчиво кладут на бедро противоположной ноги, а другое бедро так же располагают поверх второй стопы."
+      ]
+     }
+    ],
+    "en": [
+     {
+      "type": "verse_card",
+      "sections": [
+       {
+        "type": "verse",
+        "key": "deva",
+        "label": "Devanāgarī",
+        "lines": [
+         "एकं पादमथैकस्मिन् विन्यस्योरौ च संस्थितम् । इतरस्मिंस्तथैवोरुं वीरासनमितीरितम् ॥ ७२ ॥"
+        ],
+        "verses": "72"
+       },
+       {
+        "type": "verse",
+        "key": "iast",
+        "label": "IAST",
+        "lines": [
+         "ekaṃ pādam athaikasmin vinyasyorau ca saṃsthitam । itarasmiṃs tathaivoruṃ vīrāsanam itīritam ॥ 72 ॥"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "cyr",
+        "label": "Cyrillic transliteration",
+        "lines": [
+         "екам̣ пāдам атхаикасмин винйасйорау ча сам̣стхитам । итарасмим̣с татхаиворум̣ вӣрāсанам итӣритам ॥ 72 ॥"
+        ]
+       }
+      ],
+      "verses": "72"
+     },
+     {
+      "type": "words",
+      "key": "words",
+      "label": "Word-by-word analysis",
+      "paragraphs": [
+       "ekam – one; pādam – foot; atha – then; ekasmin – on one; vinyasya – having placed; ūrau – on the thigh; ca – and; saṃsthitam – firmly set; itarasmin – on the other [foot]; tathā eva – in exactly the same way; ūrum – the thigh; vīrāsanam – Vīrāsana; iti – thus; īritam – is called."
+      ],
+      "groups": [
+       [
+        [
+         "ekam",
+         "one"
+        ],
+        [
+         "pādam",
+         "foot"
+        ],
+        [
+         "atha",
+         "then"
+        ],
+        [
+         "ekasmin",
+         "on one"
+        ],
+        [
+         "vinyasya",
+         "having placed"
+        ],
+        [
+         "ūrau",
+         "on the thigh"
+        ],
+        [
+         "ca",
+         "and"
+        ],
+        [
+         "saṃsthitam",
+         "firmly set"
+        ],
+        [
+         "itarasmin",
+         "on the other [foot]"
+        ],
+        [
+         "tathā eva",
+         "in exactly the same way"
+        ],
+        [
+         "ūrum",
+         "the thigh"
+        ],
+        [
+         "vīrāsanam",
+         "Vīrāsana"
+        ],
+        [
+         "iti",
+         "thus"
+        ],
+        [
+         "īritam",
+         "is called."
+        ]
+       ]
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "literal",
+      "label": "Literal translation",
+      "paragraphs": [
+       "Having placed one foot on one thigh and set [it] firmly, and on the other [foot] in exactly the same way the [other] thigh – [this] is called Vīrāsana."
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "literary",
+      "label": "Literary translation",
+      "paragraphs": [
+       "Vīrāsana – the Hero Pose. One foot is firmly placed on the thigh of the opposite leg, and the other thigh is likewise placed over the second foot."
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "key": "simhasana",
+   "iast": "Siṃhāsana",
+   "number": 5,
+   "name": {
+    "ru": "Сим̣хāсана",
+    "en": "Siṃhāsana"
+   },
+   "gloss": {
+    "ru": "«Поза льва»",
+    "en": "“Lion Pose”"
+   },
+   "verses": {
+    "ru": "73–75",
+    "en": "73–75"
+   },
+   "text": {
+    "ru": [
+     {
+      "type": "verse_card",
+      "sections": [
+       {
+        "type": "verse",
+        "key": "deva",
+        "label": "Деванāгарӣ",
+        "lines": [
+         "गुल्फौ च वृषणस्याधः सीवन्याः पार्श्वयोः क्षिपेत् । दक्षिणं सव्यगुल्फेन दक्षिणेनेतरेतरम् ॥ ७३ ॥"
+        ],
+        "verses": "73"
+       },
+       {
+        "type": "verse",
+        "key": "iast",
+        "label": "IAST",
+        "lines": [
+         "gulphau ca vṛṣaṇasyādhaḥ sīvanyāḥ pārśvayoḥ kṣipet । dakṣiṇaṃ savyagulphena dakṣiṇenetaretaram ॥ 73 ॥"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "cyr",
+        "label": "Кириллическая транслитерация",
+        "lines": [
+         "гулпхау ча вр̣шан̣асйāдхах̣ сӣванйāх̣ пāрш́вайох̣ кшипет । дакшин̣ам̣ савйагулпхена дакшин̣енетаретарам ॥ 73 ॥"
+        ]
+       }
+      ],
+      "verses": "73"
+     },
+     {
+      "type": "verse_card",
+      "sections": [
+       {
+        "type": "verse",
+        "key": "deva",
+        "label": "Деванāгарӣ",
+        "lines": [
+         "हस्तौ जानौ च संस्थाप्य स्वाङ्गुलीश्च प्रसार्य च । व्यात्तवक्त्रो निरीक्षेत नासाग्रं सुसमाहितः ॥ ७४ ॥"
+        ],
+        "verses": "74"
+       },
+       {
+        "type": "verse",
+        "key": "iast",
+        "label": "IAST",
+        "lines": [
+         "hastau jānau ca saṃsthāpya svāṅgulīś ca prasārya ca । vyāttavaktro nirīkṣeta nāsāgraṃ susamāhitaḥ ॥ 74 ॥"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "cyr",
+        "label": "Кириллическая транслитерация",
+        "lines": [
+         "хастау джāнау ча сам̣стхāпйа свāн̇гулӣш́ ча прасāрйа ча । вйāттавактро нирӣкшета нāсāграм̣ сусамāхитах̣ ॥ 74 ॥"
+        ]
+       }
+      ],
+      "verses": "74"
+     },
+     {
+      "type": "verse_card",
+      "sections": [
+       {
+        "type": "verse",
+        "key": "deva",
+        "label": "Деванāгарӣ",
+        "lines": [
+         "सिंहासनं भवेदेतत् पूजितं योगिभिः सदा ॥ ७५ ॥"
+        ],
+        "verses": "75"
+       },
+       {
+        "type": "verse",
+        "key": "iast",
+        "label": "IAST",
+        "lines": [
+         "siṃhāsanaṃ bhaved etat pūjitaṃ yogibhiḥ sadā ॥ 75 ॥"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "cyr",
+        "label": "Кириллическая транслитерация",
+        "lines": [
+         "сим̣хāсанам̣ бхавед етат пӯджитам̣ йогибхих̣ садā ॥ 75 ॥"
+        ]
+       }
+      ],
+      "verses": "75"
+     },
+     {
+      "type": "words",
+      "key": "words",
+      "label": "Пословный разбор",
+      "paragraphs": [
+       "гулпхау - обе лодыжки; ча - и; вр̣шан̣асйа - мошонки; адхах̣ - под; сӣванйāх̣ - шва (промежности); пāрш́вайох̣ - по обеим сторонам; кшипет - пусть поместит; дакшин̣ам - правую [сторону]; савйа-гулпхена - левой лодыжкой; дакшин̣ена - правой [лодыжкой]; итаретарам - другую, противоположную [сторону].",
+       "хастау - обе кисти рук; джāнау - на колено (ед. ч.; по смыслу – на колени); ча - и; сам̣стхāпйа - установив; сва-ан̇гулӣх̣ - свои пальцы (в файле: «स्वाड्गुलीश्च» – ошибка распознавания); ча - и; прасāрйа - растопырив, вытянув; ча - и; вйāтта-вактрах̣ - с широко раскрытым ртом; нирӣкшета - пусть смотрит; нāса-аграм - на кончик носа; су-самāхитах̣ - хорошо сосредоточенный.",
+       "сим̣хāсанам - Сим̣хāсана; бхавет - будет; етат - это; пӯджитам - почитаемая; йогибхих̣ - йогинами; садā - всегда."
+      ],
+      "groups": [
+       [
+        [
+         "гулпхау",
+         "обе лодыжки"
+        ],
+        [
+         "ча",
+         "и"
+        ],
+        [
+         "вр̣шан̣асйа",
+         "мошонки"
+        ],
+        [
+         "адхах̣",
+         "под"
+        ],
+        [
+         "сӣванйāх̣",
+         "шва (промежности)"
+        ],
+        [
+         "пāрш́вайох̣",
+         "по обеим сторонам"
+        ],
+        [
+         "кшипет",
+         "пусть поместит"
+        ],
+        [
+         "дакшин̣ам",
+         "правую [сторону]"
+        ],
+        [
+         "савйа-гулпхена",
+         "левой лодыжкой"
+        ],
+        [
+         "дакшин̣ена",
+         "правой [лодыжкой]"
+        ],
+        [
+         "итаретарам",
+         "другую, противоположную [сторону]."
+        ]
+       ],
+       [
+        [
+         "хастау",
+         "обе кисти рук"
+        ],
+        [
+         "джāнау",
+         "на колено (ед. ч.; по смыслу – на колени)"
+        ],
+        [
+         "ча",
+         "и"
+        ],
+        [
+         "сам̣стхāпйа",
+         "установив"
+        ],
+        [
+         "сва-ан̇гулӣх̣",
+         "свои пальцы (в файле: «स्वाड्गुलीश्च» – ошибка распознавания)"
+        ],
+        [
+         "ча",
+         "и"
+        ],
+        [
+         "прасāрйа",
+         "растопырив, вытянув"
+        ],
+        [
+         "ча",
+         "и"
+        ],
+        [
+         "вйāтта-вактрах̣",
+         "с широко раскрытым ртом"
+        ],
+        [
+         "нирӣкшета",
+         "пусть смотрит"
+        ],
+        [
+         "нāса-аграм",
+         "на кончик носа"
+        ],
+        [
+         "су-самāхитах̣",
+         "хорошо сосредоточенный."
+        ]
+       ],
+       [
+        [
+         "сим̣хāсанам",
+         "Сим̣хāсана"
+        ],
+        [
+         "бхавет",
+         "будет"
+        ],
+        [
+         "етат",
+         "это"
+        ],
+        [
+         "пӯджитам",
+         "почитаемая"
+        ],
+        [
+         "йогибхих̣",
+         "йогинами"
+        ],
+        [
+         "садā",
+         "всегда."
+        ]
+       ]
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "literal",
+      "label": "Буквальный перевод",
+      "paragraphs": [
+       "Пусть поместит обе лодыжки под мошонкой по обеим сторонам промежности: правую [сторону] – левой лодыжкой, правой – другую. Установив кисти рук на колени и растопырив свои пальцы, с широко раскрытым ртом, хорошо сосредоточенный, пусть смотрит на кончик носа. Это будет Сим̣хāсана, всегда почитаемая йогинами."
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "literary",
+      "label": "Литературный перевод",
+      "paragraphs": [
+       "Сим̣хāсана – Поза льва. Лодыжки помещают под мошонкой по сторонам промежности накрест: левая лодыжка прижата к правой стороне промежности, правая – к левой. Ладони лежат на коленях, пальцы широко растопырены; рот широко раскрыт, взгляд направлен на кончик носа, ум собран. Эту позу всегда почитают йогины."
+      ]
+     }
+    ],
+    "en": [
+     {
+      "type": "verse_card",
+      "sections": [
+       {
+        "type": "verse",
+        "key": "deva",
+        "label": "Devanāgarī",
+        "lines": [
+         "गुल्फौ च वृषणस्याधः सीवन्याः पार्श्वयोः क्षिपेत् । दक्षिणं सव्यगुल्फेन दक्षिणेनेतरेतरम् ॥ ७३ ॥"
+        ],
+        "verses": "73"
+       },
+       {
+        "type": "verse",
+        "key": "iast",
+        "label": "IAST",
+        "lines": [
+         "gulphau ca vṛṣaṇasyādhaḥ sīvanyāḥ pārśvayoḥ kṣipet । dakṣiṇaṃ savyagulphena dakṣiṇenetaretaram ॥ 73 ॥"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "cyr",
+        "label": "Cyrillic transliteration",
+        "lines": [
+         "гулпхау ча вр̣шан̣асйāдхах̣ сӣванйāх̣ пāрш́вайох̣ кшипет । дакшин̣ам̣ савйагулпхена дакшин̣енетаретарам ॥ 73 ॥"
+        ]
+       }
+      ],
+      "verses": "73"
+     },
+     {
+      "type": "verse_card",
+      "sections": [
+       {
+        "type": "verse",
+        "key": "deva",
+        "label": "Devanāgarī",
+        "lines": [
+         "हस्तौ जानौ च संस्थाप्य स्वाङ्गुलीश्च प्रसार्य च । व्यात्तवक्त्रो निरीक्षेत नासाग्रं सुसमाहितः ॥ ७४ ॥"
+        ],
+        "verses": "74"
+       },
+       {
+        "type": "verse",
+        "key": "iast",
+        "label": "IAST",
+        "lines": [
+         "hastau jānau ca saṃsthāpya svāṅgulīś ca prasārya ca । vyāttavaktro nirīkṣeta nāsāgraṃ susamāhitaḥ ॥ 74 ॥"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "cyr",
+        "label": "Cyrillic transliteration",
+        "lines": [
+         "хастау джāнау ча сам̣стхāпйа свāн̇гулӣш́ ча прасāрйа ча । вйāттавактро нирӣкшета нāсāграм̣ сусамāхитах̣ ॥ 74 ॥"
+        ]
+       }
+      ],
+      "verses": "74"
+     },
+     {
+      "type": "verse_card",
+      "sections": [
+       {
+        "type": "verse",
+        "key": "deva",
+        "label": "Devanāgarī",
+        "lines": [
+         "सिंहासनं भवेदेतत् पूजितं योगिभिः सदा ॥ ७५ ॥"
+        ],
+        "verses": "75"
+       },
+       {
+        "type": "verse",
+        "key": "iast",
+        "label": "IAST",
+        "lines": [
+         "siṃhāsanaṃ bhaved etat pūjitaṃ yogibhiḥ sadā ॥ 75 ॥"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "cyr",
+        "label": "Cyrillic transliteration",
+        "lines": [
+         "сим̣хāсанам̣ бхавед етат пӯджитам̣ йогибхих̣ садā ॥ 75 ॥"
+        ]
+       }
+      ],
+      "verses": "75"
+     },
+     {
+      "type": "words",
+      "key": "words",
+      "label": "Word-by-word analysis",
+      "paragraphs": [
+       "gulphau – both ankles; ca – and; vṛṣaṇasya – of the scrotum; adhaḥ – below; sīvanyāḥ – of the seam (perineum); pārśvayoḥ – on both sides; kṣipet – one should place; dakṣiṇam – the right [side]; savya-gulphena – with the left ankle; dakṣiṇena – with the right [ankle]; itaretaram – the other, opposite [side].",
+       "hastau – both hands; jānau – on the knee (sing.; in sense – on the knees); ca – and; saṃsthāpya – having set; sva-aṅgulīḥ – one's fingers (in the file: «स्वाड्गुलीश्च» – OCR error); ca – and; prasārya – having spread, stretched out; ca – and; vyātta-vaktraḥ – with the mouth wide open; nirīkṣeta – one should gaze; nāsa-agram – at the tip of the nose; su-samāhitaḥ – well concentrated.",
+       "siṃhāsanam – Siṃhāsana; bhavet – will be; etat – this; pūjitam – revered; yogibhiḥ – by yogins; sadā – always."
+      ],
+      "groups": [
+       [
+        [
+         "gulphau",
+         "both ankles"
+        ],
+        [
+         "ca",
+         "and"
+        ],
+        [
+         "vṛṣaṇasya",
+         "of the scrotum"
+        ],
+        [
+         "adhaḥ",
+         "below"
+        ],
+        [
+         "sīvanyāḥ",
+         "of the seam (perineum)"
+        ],
+        [
+         "pārśvayoḥ",
+         "on both sides"
+        ],
+        [
+         "kṣipet",
+         "one should place"
+        ],
+        [
+         "dakṣiṇam",
+         "the right [side]"
+        ],
+        [
+         "savya-gulphena",
+         "with the left ankle"
+        ],
+        [
+         "dakṣiṇena",
+         "with the right [ankle]"
+        ],
+        [
+         "itaretaram",
+         "the other, opposite [side]."
+        ]
+       ],
+       [
+        [
+         "hastau",
+         "both hands"
+        ],
+        [
+         "jānau",
+         "on the knee (sing.; in sense – on the knees)"
+        ],
+        [
+         "ca",
+         "and"
+        ],
+        [
+         "saṃsthāpya",
+         "having set"
+        ],
+        [
+         "sva-aṅgulīḥ",
+         "one's fingers (in the file: «स्वाड्गुलीश्च» – OCR error)"
+        ],
+        [
+         "ca",
+         "and"
+        ],
+        [
+         "prasārya",
+         "having spread, stretched out"
+        ],
+        [
+         "ca",
+         "and"
+        ],
+        [
+         "vyātta-vaktraḥ",
+         "with the mouth wide open"
+        ],
+        [
+         "nirīkṣeta",
+         "one should gaze"
+        ],
+        [
+         "nāsa-agram",
+         "at the tip of the nose"
+        ],
+        [
+         "su-samāhitaḥ",
+         "well concentrated."
+        ]
+       ],
+       [
+        [
+         "siṃhāsanam",
+         "Siṃhāsana"
+        ],
+        [
+         "bhavet",
+         "will be"
+        ],
+        [
+         "etat",
+         "this"
+        ],
+        [
+         "pūjitam",
+         "revered"
+        ],
+        [
+         "yogibhiḥ",
+         "by yogins"
+        ],
+        [
+         "sadā",
+         "always."
+        ]
+       ]
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "literal",
+      "label": "Literal translation",
+      "paragraphs": [
+       "One should place both ankles below the scrotum on both sides of the perineum: the right [side] with the left ankle, the other with the right. Having set the hands on the knees and spread one's fingers, with the mouth wide open, well concentrated, one should gaze at the tip of the nose. This will be Siṃhāsana, always revered by yogins."
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "literary",
+      "label": "Literary translation",
+      "paragraphs": [
+       "Siṃhāsana – the Lion Pose. The ankles are placed crosswise below the scrotum on either side of the perineum: the left ankle is pressed against the right side of the perineum, the right one against the left. The palms rest on the knees with the fingers spread wide; the mouth is wide open, the gaze is directed at the tip of the nose, and the mind is collected. Yogins always revere this pose."
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "key": "mayurasana",
+   "iast": "Mayūrāsana",
+   "number": 6,
+   "name": {
+    "ru": "Майӯрāсана",
+    "en": "Mayūrāsana"
+   },
+   "gloss": {
+    "ru": "«Поза павлина»",
+    "en": "“Peacock Pose”"
+   },
+   "verses": {
+    "ru": "76–77",
+    "en": "76–77"
+   },
+   "text": {
+    "ru": [
+     {
+      "type": "verse_card",
+      "sections": [
+       {
+        "type": "verse",
+        "key": "deva",
+        "label": "Деванāгарӣ",
+        "lines": [
+         "अवष्टभ्य धरां सम्यक् तलाभ्यां च करद्वयम् । हस्तयोः खर्परे चापि स्थापयेन्नाभिपार्श्वयोः ॥ ७६ ॥"
+        ],
+        "verses": "76"
+       },
+       {
+        "type": "verse",
+        "key": "iast",
+        "label": "IAST",
+        "lines": [
+         "avaṣṭabhya dharāṃ samyak talābhyāṃ ca karadvayam । hastayoḥ kharpare cāpi sthāpayen nābhipārśvayoḥ ॥ 76 ॥"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "cyr",
+        "label": "Кириллическая транслитерация",
+        "lines": [
+         "авашт̣абхйа дхарāм̣ самйак талāбхйāм̣ ча карадвайам । хастайох̣ кхарпаре чāпи стхāпайен нāбхипāрш́вайох̣ ॥ 76 ॥"
+        ]
+       }
+      ],
+      "verses": "76"
+     },
+     {
+      "type": "verse_card",
+      "sections": [
+       {
+        "type": "verse",
+        "key": "deva",
+        "label": "Деванāгарӣ",
+        "lines": [
+         "समुन्नतशिरःपादो दण्डवद्व्योम्नि संस्थितः । मयूरासनमेतद्धि सर्वपापविनाशनम् ॥ ७७ ॥"
+        ],
+        "verses": "77"
+       },
+       {
+        "type": "verse",
+        "key": "iast",
+        "label": "IAST",
+        "lines": [
+         "samunnataśiraḥpādo daṇḍavad vyomni saṃsthitaḥ । mayūrāsanam etad dhi sarvapāpavināśanam ॥ 77 ॥"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "cyr",
+        "label": "Кириллическая транслитерация",
+        "lines": [
+         "самуннаташ́ирах̣пāдо дан̣д̣авад вйомни сам̣стхитах̣ । майӯрāсанам етад дхи сарвапāпавинāш́анам ॥ 77 ॥"
+        ]
+       }
+      ],
+      "verses": "77"
+     },
+     {
+      "type": "words",
+      "key": "words",
+      "label": "Пословный разбор",
+      "paragraphs": [
+       "авашт̣абхйа - упершись; дхарāм - в землю (в файле: «घरां» – ошибка распознавания); самйак - как следует, твёрдо; талāбхйāм - ладонями; ча - и; кара-двайам - [обеих] рук, пару рук; хастайох̣ - рук; кхарпаре - локти (так в издании: «खर्परे»; по смыслу и по английскому переводу – «कूर्परे», «локти»); ча апи - и также; стхāпайет - пусть поместит (в деванāгарӣ файла: «स्थापयन्», «помещая»; в IAST издания – «sthāpayen»); нāбхи-пāрш́вайох̣ - по обеим сторонам пупка.",
+       "самунната-ш́ирах̣-пāдах̣ - с высоко поднятыми головой и ногами; дан̣д̣ават - подобно палке; вйомни - в воздухе, в пространстве (в файле: «व्योनि» – ошибка распознавания); сам̣стхитах̣ - пребывающий; майӯрāсанам - Майӯрāсана; етат - это; хи - воистину; сарва-пāпа-винāш́анам - уничтожающая все грехи."
+      ],
+      "groups": [
+       [
+        [
+         "авашт̣абхйа",
+         "упершись"
+        ],
+        [
+         "дхарāм",
+         "в землю (в файле: «घरां» – ошибка распознавания)"
+        ],
+        [
+         "самйак",
+         "как следует, твёрдо"
+        ],
+        [
+         "талāбхйāм",
+         "ладонями"
+        ],
+        [
+         "ча",
+         "и"
+        ],
+        [
+         "кара-двайам",
+         "[обеих] рук, пару рук"
+        ],
+        [
+         "хастайох̣",
+         "рук"
+        ],
+        [
+         "кхарпаре",
+         "локти (так в издании: «खर्परे»; по смыслу и по английскому переводу – «कूर्परे», «локти»)"
+        ],
+        [
+         "ча апи",
+         "и также"
+        ],
+        [
+         "стхāпайет",
+         "пусть поместит (в деванāгарӣ файла: «स्थापयन्», «помещая»; в IAST издания – «sthāpayen»)"
+        ],
+        [
+         "нāбхи-пāрш́вайох̣",
+         "по обеим сторонам пупка."
+        ]
+       ],
+       [
+        [
+         "самунната-ш́ирах̣-пāдах̣",
+         "с высоко поднятыми головой и ногами"
+        ],
+        [
+         "дан̣д̣ават",
+         "подобно палке"
+        ],
+        [
+         "вйомни",
+         "в воздухе, в пространстве (в файле: «व्योनि» – ошибка распознавания)"
+        ],
+        [
+         "сам̣стхитах̣",
+         "пребывающий"
+        ],
+        [
+         "майӯрāсанам",
+         "Майӯрāсана"
+        ],
+        [
+         "етат",
+         "это"
+        ],
+        [
+         "хи",
+         "воистину"
+        ],
+        [
+         "сарва-пāпа-винāш́анам",
+         "уничтожающая все грехи."
+        ]
+       ]
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "literal",
+      "label": "Буквальный перевод",
+      "paragraphs": [
+       "Как следует упершись в землю ладонями обеих рук и поместив локти рук по обеим сторонам пупка, с высоко поднятыми головой и ногами, пребывая в воздухе подобно палке, – это, воистину, Майӯрāсана, уничтожающая все грехи."
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "literary",
+      "label": "Литературный перевод",
+      "paragraphs": [
+       "Майӯрāсана – Поза павлина. Ладонями обеих рук твёрдо упираются в землю, локти ставят по бокам от пупка; голову и ноги поднимают, и тело, словно палка, горизонтально держится в воздухе. Поза уничтожает все грехи."
+      ]
+     }
+    ],
+    "en": [
+     {
+      "type": "verse_card",
+      "sections": [
+       {
+        "type": "verse",
+        "key": "deva",
+        "label": "Devanāgarī",
+        "lines": [
+         "अवष्टभ्य धरां सम्यक् तलाभ्यां च करद्वयम् । हस्तयोः खर्परे चापि स्थापयेन्नाभिपार्श्वयोः ॥ ७६ ॥"
+        ],
+        "verses": "76"
+       },
+       {
+        "type": "verse",
+        "key": "iast",
+        "label": "IAST",
+        "lines": [
+         "avaṣṭabhya dharāṃ samyak talābhyāṃ ca karadvayam । hastayoḥ kharpare cāpi sthāpayen nābhipārśvayoḥ ॥ 76 ॥"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "cyr",
+        "label": "Cyrillic transliteration",
+        "lines": [
+         "авашт̣абхйа дхарāм̣ самйак талāбхйāм̣ ча карадвайам । хастайох̣ кхарпаре чāпи стхāпайен нāбхипāрш́вайох̣ ॥ 76 ॥"
+        ]
+       }
+      ],
+      "verses": "76"
+     },
+     {
+      "type": "verse_card",
+      "sections": [
+       {
+        "type": "verse",
+        "key": "deva",
+        "label": "Devanāgarī",
+        "lines": [
+         "समुन्नतशिरःपादो दण्डवद्व्योम्नि संस्थितः । मयूरासनमेतद्धि सर्वपापविनाशनम् ॥ ७७ ॥"
+        ],
+        "verses": "77"
+       },
+       {
+        "type": "verse",
+        "key": "iast",
+        "label": "IAST",
+        "lines": [
+         "samunnataśiraḥpādo daṇḍavad vyomni saṃsthitaḥ । mayūrāsanam etad dhi sarvapāpavināśanam ॥ 77 ॥"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "cyr",
+        "label": "Cyrillic transliteration",
+        "lines": [
+         "самуннаташ́ирах̣пāдо дан̣д̣авад вйомни сам̣стхитах̣ । майӯрāсанам етад дхи сарвапāпавинāш́анам ॥ 77 ॥"
+        ]
+       }
+      ],
+      "verses": "77"
+     },
+     {
+      "type": "words",
+      "key": "words",
+      "label": "Word-by-word analysis",
+      "paragraphs": [
+       "avaṣṭabhya – pressing against; dharām – the ground (in the file: «घरां» – OCR error); samyak – properly, firmly; talābhyām – with the palms; ca – and; kara-dvayam – [of both] hands, the pair of hands; hastayoḥ – of the hands; kharpare – the elbows (so in the edition: «खर्परे»; by sense and according to the English translation – «कूर्परे», “elbows”); ca api – and also; sthāpayet – one should place (in the file's Devanāgarī: «स्थापयन्», “placing”; in the edition's IAST – «sthāpayen»); nābhi-pārśvayoḥ – on both sides of the navel.",
+       "samunnata-śiraḥ-pādaḥ – with head and feet raised high; daṇḍavat – like a stick; vyomni – in the air, in space (in the file: «व्योनि» – OCR error); saṃsthitaḥ – remaining;",
+       "mayūrāsanam – Mayūrāsana; etat – this; hi – truly; sarva-pāpa-vināśanam – destroying all sins."
+      ],
+      "groups": [
+       [
+        [
+         "avaṣṭabhya",
+         "pressing against"
+        ],
+        [
+         "dharām",
+         "the ground (in the file: «घरां» – OCR error)"
+        ],
+        [
+         "samyak",
+         "properly, firmly"
+        ],
+        [
+         "talābhyām",
+         "with the palms"
+        ],
+        [
+         "ca",
+         "and"
+        ],
+        [
+         "kara-dvayam",
+         "[of both] hands, the pair of hands"
+        ],
+        [
+         "hastayoḥ",
+         "of the hands"
+        ],
+        [
+         "kharpare",
+         "the elbows (so in the edition: «खर्परे»; by sense and according to the English translation – «कूर्परे», “elbows”)"
+        ],
+        [
+         "ca api",
+         "and also"
+        ],
+        [
+         "sthāpayet",
+         "one should place (in the file's Devanāgarī: «स्थापयन्», “placing”; in the edition's IAST – «sthāpayen»)"
+        ],
+        [
+         "nābhi-pārśvayoḥ",
+         "on both sides of the navel."
+        ]
+       ],
+       [
+        [
+         "samunnata-śiraḥ-pādaḥ",
+         "with head and feet raised high"
+        ],
+        [
+         "daṇḍavat",
+         "like a stick"
+        ],
+        [
+         "vyomni",
+         "in the air, in space (in the file: «व्योनि» – OCR error)"
+        ],
+        [
+         "saṃsthitaḥ",
+         "remaining"
+        ]
+       ],
+       [
+        [
+         "mayūrāsanam",
+         "Mayūrāsana"
+        ],
+        [
+         "etat",
+         "this"
+        ],
+        [
+         "hi",
+         "truly"
+        ],
+        [
+         "sarva-pāpa-vināśanam",
+         "destroying all sins."
+        ]
+       ]
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "literal",
+      "label": "Literal translation",
+      "paragraphs": [
+       "Having firmly pressed the ground with the palms of both hands and placed the elbows on both sides of the navel, with head and feet raised high, remaining in the air like a stick – this, truly, is Mayūrāsana, which destroys all sins."
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "literary",
+      "label": "Literary translation",
+      "paragraphs": [
+       "Mayūrāsana – the Peacock Pose. The palms of both hands are pressed firmly into the ground, and the elbows are set at the sides of the navel; the head and legs are raised, and the body is held horizontally in the air like a stick. The pose destroys all sins."
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "key": "kukkutasana",
+   "iast": "Kukkuṭāsana",
+   "number": 7,
+   "name": {
+    "ru": "Куккут̣āсана",
+    "en": "Kukkuṭāsana"
+   },
+   "gloss": {
+    "ru": "«Поза петуха»",
+    "en": "“Cock Pose”"
+   },
+   "verses": {
+    "ru": "78",
+    "en": "78"
+   },
+   "text": {
+    "ru": [
+     {
+      "type": "verse_card",
+      "sections": [
+       {
+        "type": "verse",
+        "key": "deva",
+        "label": "Деванāгарӣ",
+        "lines": [
+         "पद्मासनं समास्थाय जानूर्वोरन्तरे करौ । भूमौ निवेश्य संस्थाप्य व्योमस्थं कुक्कुटासनम् ॥ ७८ ॥"
+        ],
+        "verses": "78"
+       },
+       {
+        "type": "verse",
+        "key": "iast",
+        "label": "IAST",
+        "lines": [
+         "padmāsanaṃ samāsthāya jānūrvor antare karau । bhūmau niveśya saṃsthāpya vyomasthaṃ kukkuṭāsanam ॥ 78 ॥"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "cyr",
+        "label": "Кириллическая транслитерация",
+        "lines": [
+         "падмāсанам̣ самāстхāйа джāнӯрвор антаре карау । бхӯмау нивеш́йа сам̣стхāпйа вйомастхам̣ куккут̣āсанам ॥ 78 ॥"
+        ]
+       }
+      ],
+      "verses": "78"
+     },
+     {
+      "type": "words",
+      "key": "words",
+      "label": "Пословный разбор",
+      "paragraphs": [
+       "падмāсанам - Падмāсану; самāстхāйа - приняв; джāну-ӯрвох̣ - колен и бёдер (в файле: «जानूवोर्» – ошибка распознавания); антаре - в промежуток, между; карау - обе кисти рук; бхӯмау - на землю; нивеш́йа - введя, поместив; сам̣стхāпйа - установив [тело]; вйома-стхам - пребывающее в воздухе; куккут̣āсанам - Куккут̣āсана."
+      ],
+      "groups": [
+       [
+        [
+         "падмāсанам",
+         "Падмāсану"
+        ],
+        [
+         "самāстхāйа",
+         "приняв"
+        ],
+        [
+         "джāну-ӯрвох̣",
+         "колен и бёдер (в файле: «जानूवोर्» – ошибка распознавания)"
+        ],
+        [
+         "антаре",
+         "в промежуток, между"
+        ],
+        [
+         "карау",
+         "обе кисти рук"
+        ],
+        [
+         "бхӯмау",
+         "на землю"
+        ],
+        [
+         "нивеш́йа",
+         "введя, поместив"
+        ],
+        [
+         "сам̣стхāпйа",
+         "установив [тело]"
+        ],
+        [
+         "вйома-стхам",
+         "пребывающее в воздухе"
+        ],
+        [
+         "куккут̣āсанам",
+         "Куккут̣āсана."
+        ]
+       ]
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "literal",
+      "label": "Буквальный перевод",
+      "paragraphs": [
+       "Приняв Падмāсану, введя кисти рук между коленями и бёдрами, поместив [их] на землю и установив [тело] в воздухе, – [это] Куккут̣āсана."
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "literary",
+      "label": "Литературный перевод",
+      "paragraphs": [
+       "Куккут̣āсана – Поза петуха. Сев в Падмāсану, просовывают кисти рук между икрами и бёдрами, упирают ладони в землю и поднимают тело в воздух."
+      ]
+     }
+    ],
+    "en": [
+     {
+      "type": "verse_card",
+      "sections": [
+       {
+        "type": "verse",
+        "key": "deva",
+        "label": "Devanāgarī",
+        "lines": [
+         "पद्मासनं समास्थाय जानूर्वोरन्तरे करौ । भूमौ निवेश्य संस्थाप्य व्योमस्थं कुक्कुटासनम् ॥ ७८ ॥"
+        ],
+        "verses": "78"
+       },
+       {
+        "type": "verse",
+        "key": "iast",
+        "label": "IAST",
+        "lines": [
+         "padmāsanaṃ samāsthāya jānūrvor antare karau । bhūmau niveśya saṃsthāpya vyomasthaṃ kukkuṭāsanam ॥ 78 ॥"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "cyr",
+        "label": "Cyrillic transliteration",
+        "lines": [
+         "падмāсанам̣ самāстхāйа джāнӯрвор антаре карау । бхӯмау нивеш́йа сам̣стхāпйа вйомастхам̣ куккут̣āсанам ॥ 78 ॥"
+        ]
+       }
+      ],
+      "verses": "78"
+     },
+     {
+      "type": "words",
+      "key": "words",
+      "label": "Word-by-word analysis",
+      "paragraphs": [
+       "padmāsanam – Padmāsana; samāsthāya – having assumed; jānu-ūrvoḥ – of the knees and thighs (in the file: «जानूवोर्» – OCR error); antare – into the space, between; karau – both hands; bhūmau – on the ground; niveśya – having inserted, placed; saṃsthāpya – having set [the body]; vyoma-stham – remaining in the air; kukkuṭāsanam – Kukkuṭāsana."
+      ],
+      "groups": [
+       [
+        [
+         "padmāsanam",
+         "Padmāsana"
+        ],
+        [
+         "samāsthāya",
+         "having assumed"
+        ],
+        [
+         "jānu-ūrvoḥ",
+         "of the knees and thighs (in the file: «जानूवोर्» – OCR error)"
+        ],
+        [
+         "antare",
+         "into the space, between"
+        ],
+        [
+         "karau",
+         "both hands"
+        ],
+        [
+         "bhūmau",
+         "on the ground"
+        ],
+        [
+         "niveśya",
+         "having inserted, placed"
+        ],
+        [
+         "saṃsthāpya",
+         "having set [the body]"
+        ],
+        [
+         "vyoma-stham",
+         "remaining in the air"
+        ],
+        [
+         "kukkuṭāsanam",
+         "Kukkuṭāsana."
+        ]
+       ]
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "literal",
+      "label": "Literal translation",
+      "paragraphs": [
+       "Having assumed Padmāsana, inserted the hands between the knees and thighs, placed [them] on the ground and set [the body] in the air – [this is] Kukkuṭāsana."
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "literary",
+      "label": "Literary translation",
+      "paragraphs": [
+       "Kukkuṭāsana – the Cock Pose. Sitting in Padmāsana, one pushes the hands through between the calves and thighs, presses the palms into the ground and lifts the body into the air."
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "key": "bhadrasana",
+   "iast": "Bhadrāsana",
+   "number": 8,
+   "name": {
+    "ru": "Бхадрāсана",
+    "en": "Bhadrāsana"
+   },
+   "gloss": {
+    "ru": "«Благая поза»",
+    "en": "“Auspicious Pose”"
+   },
+   "verses": {
+    "ru": "79",
+    "en": "79"
+   },
+   "text": {
+    "ru": [
+     {
+      "type": "verse_card",
+      "sections": [
+       {
+        "type": "verse",
+        "key": "deva",
+        "label": "Деванāгарӣ",
+        "lines": [
+         "गुल्फौ च वृषणस्याधः सीवन्याः पार्श्वयोः क्षिपन् । पार्श्वपादौ च पाणिभ्यां दृढं बद्ध्वा सुनिश्चलम् । भद्रासनं भवेदेतत् सर्व्याधिविषापहम् ॥ ७९ ॥"
+        ],
+        "verses": "79"
+       },
+       {
+        "type": "verse",
+        "key": "iast",
+        "label": "IAST",
+        "lines": [
+         "gulphau ca vṛṣaṇasyādhaḥ sīvanyāḥ pārśvayoḥ kṣipan । pārśvapādau ca pāṇibhyāṃ dṛḍhaṃ baddhvā suniścalam । bhadrāsanaṃ bhaved etat sarvavyādhiviṣāpaham ॥",
+         "79 ॥"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "cyr",
+        "label": "Кириллическая транслитерация",
+        "lines": [
+         "гулпхау ча вр̣шан̣асйāдхах̣ сӣванйāх̣ пāрш́вайох̣ кшипан । пāрш́вапāдау ча пāн̣ибхйāм̣ др̣д̣хам̣ баддхвā суниш́чалам । бхадрāсанам̣ бхавед етат сарвавйāдхивишāпахам ॥ 79 ॥"
+        ]
+       }
+      ],
+      "verses": "79"
+     },
+     {
+      "type": "words",
+      "key": "words",
+      "label": "Пословный разбор",
+      "paragraphs": [
+       "гулпхау - обе лодыжки (в файле: «गुल्फी» – ошибка распознавания); ча - и; вр̣шан̣асйа - мошонки; адхах̣ - под; сӣванйāх̣ - шва (промежности); пāрш́вайох̣ - по обеим сторонам; кшипан - помещая; пāрш́ва-пāдау - стопы, [оказавшиеся] по бокам; ча - и; пāн̣ибхйāм - руками; др̣д̣хам - крепко; баддхвā - охватив (букв. связав); су-ниш́чалам - совершенно неподвижно; бхадрāсанам - Бхадрāсана; бхавет - будет; етат - это; сарва-вйāдхи-виша-апахам - устраняющая все болезни и яды."
+      ],
+      "groups": [
+       [
+        [
+         "гулпхау",
+         "обе лодыжки (в файле: «गुल्फी» – ошибка распознавания)"
+        ],
+        [
+         "ча",
+         "и"
+        ],
+        [
+         "вр̣шан̣асйа",
+         "мошонки"
+        ],
+        [
+         "адхах̣",
+         "под"
+        ],
+        [
+         "сӣванйāх̣",
+         "шва (промежности)"
+        ],
+        [
+         "пāрш́вайох̣",
+         "по обеим сторонам"
+        ],
+        [
+         "кшипан",
+         "помещая"
+        ],
+        [
+         "пāрш́ва-пāдау",
+         "стопы, [оказавшиеся] по бокам"
+        ],
+        [
+         "ча",
+         "и"
+        ],
+        [
+         "пāн̣ибхйāм",
+         "руками"
+        ],
+        [
+         "др̣д̣хам",
+         "крепко"
+        ],
+        [
+         "баддхвā",
+         "охватив (букв. связав)"
+        ],
+        [
+         "су-ниш́чалам",
+         "совершенно неподвижно"
+        ],
+        [
+         "бхадрāсанам",
+         "Бхадрāсана"
+        ],
+        [
+         "бхавет",
+         "будет"
+        ],
+        [
+         "етат",
+         "это"
+        ],
+        [
+         "сарва-вйāдхи-виша-апахам",
+         "устраняющая все болезни и яды."
+        ]
+       ]
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "literal",
+      "label": "Буквальный перевод",
+      "paragraphs": [
+       "Помещая обе лодыжки под мошонкой по обеим сторонам промежности и крепко, совершенно неподвижно охватив руками стопы, [оказавшиеся] по бокам, – это будет Бхадрāсана, устраняющая все болезни и яды."
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "literary",
+      "label": "Литературный перевод",
+      "paragraphs": [
+       "Бхадрāсана – Благая поза. Лодыжки помещают под мошонкой по сторонам промежности, стопы, оказавшиеся по бокам, крепко охватывают руками и сидят совершенно неподвижно. Поза избавляет от всех болезней и от действия ядов."
+      ]
+     }
+    ],
+    "en": [
+     {
+      "type": "verse_card",
+      "sections": [
+       {
+        "type": "verse",
+        "key": "deva",
+        "label": "Devanāgarī",
+        "lines": [
+         "गुल्फौ च वृषणस्याधः सीवन्याः पार्श्वयोः क्षिपन् । पार्श्वपादौ च पाणिभ्यां दृढं बद्ध्वा सुनिश्चलम् । भद्रासनं भवेदेतत् सर्व्याधिविषापहम् ॥ ७९ ॥"
+        ],
+        "verses": "79"
+       },
+       {
+        "type": "verse",
+        "key": "iast",
+        "label": "IAST",
+        "lines": [
+         "gulphau ca vṛṣaṇasyādhaḥ sīvanyāḥ pārśvayoḥ kṣipan । pārśvapādau ca pāṇibhyāṃ dṛḍhaṃ baddhvā suniścalam । bhadrāsanaṃ bhaved etat sarvavyādhiviṣāpaham ॥",
+         "79 ॥"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "cyr",
+        "label": "Cyrillic transliteration",
+        "lines": [
+         "гулпхау ча вр̣шан̣асйāдхах̣ сӣванйāх̣ пāрш́вайох̣ кшипан । пāрш́вапāдау ча пāн̣ибхйāм̣ др̣д̣хам̣ баддхвā суниш́чалам । бхадрāсанам̣ бхавед етат сарвавйāдхивишāпахам ॥ 79 ॥"
+        ]
+       }
+      ],
+      "verses": "79"
+     },
+     {
+      "type": "words",
+      "key": "words",
+      "label": "Word-by-word analysis",
+      "paragraphs": [
+       "gulphau – both ankles (in the file: «गुल्फी» – OCR error); ca – and; vṛṣaṇasya – of the scrotum; adhaḥ – below; sīvanyāḥ – of the seam (perineum); pārśvayoḥ – on both sides; kṣipan – placing; pārśva-pādau – the feet [that end up] at the sides; ca – and; pāṇibhyām – with the hands; dṛḍham – firmly; baddhvā – having clasped (lit. having bound); su-niścalam – completely motionless; bhadrāsanam – Bhadrāsana; bhavet – will be; etat – this; sarva-vyādhi-viṣa-apaham – removing all diseases and poisons."
+      ],
+      "groups": [
+       [
+        [
+         "gulphau",
+         "both ankles (in the file: «गुल्फी» – OCR error)"
+        ],
+        [
+         "ca",
+         "and"
+        ],
+        [
+         "vṛṣaṇasya",
+         "of the scrotum"
+        ],
+        [
+         "adhaḥ",
+         "below"
+        ],
+        [
+         "sīvanyāḥ",
+         "of the seam (perineum)"
+        ],
+        [
+         "pārśvayoḥ",
+         "on both sides"
+        ],
+        [
+         "kṣipan",
+         "placing"
+        ],
+        [
+         "pārśva-pādau",
+         "the feet [that end up] at the sides"
+        ],
+        [
+         "ca",
+         "and"
+        ],
+        [
+         "pāṇibhyām",
+         "with the hands"
+        ],
+        [
+         "dṛḍham",
+         "firmly"
+        ],
+        [
+         "baddhvā",
+         "having clasped (lit. having bound)"
+        ],
+        [
+         "su-niścalam",
+         "completely motionless"
+        ],
+        [
+         "bhadrāsanam",
+         "Bhadrāsana"
+        ],
+        [
+         "bhavet",
+         "will be"
+        ],
+        [
+         "etat",
+         "this"
+        ],
+        [
+         "sarva-vyādhi-viṣa-apaham",
+         "removing all diseases and poisons."
+        ]
+       ]
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "literal",
+      "label": "Literal translation",
+      "paragraphs": [
+       "Placing both ankles below the scrotum on both sides of the perineum and firmly, completely motionless, clasping with the hands the feet [that end up] at the sides – this will be Bhadrāsana, which removes all diseases and poisons."
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "literary",
+      "label": "Literary translation",
+      "paragraphs": [
+       "Bhadrāsana – the Auspicious Pose. The ankles are placed below the scrotum on either side of the perineum; the feet, now at the sides, are clasped firmly with the hands, and one sits completely still. The pose frees one from all diseases and from the effects of poisons."
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "key": "kurmasana",
+   "iast": "Kūrmāsana",
+   "number": 9,
+   "name": {
+    "ru": "Кӯрмāсана",
+    "en": "Kūrmāsana"
+   },
+   "gloss": {
+    "ru": "«Поза черепахи»",
+    "en": "“Tortoise Pose”"
+   },
+   "verses": {
+    "ru": "80",
+    "en": "80"
+   },
+   "text": {
+    "ru": [
+     {
+      "type": "verse_card",
+      "sections": [
+       {
+        "type": "verse",
+        "key": "deva",
+        "label": "Деванāгарӣ",
+        "lines": [
+         "गुदं निरुध्य गुल्फाभ्यां व्युत्क्रमेण समाहितः । कूर्मासनं भवेदेतदिति योगविदो विदुः ॥ ८० ॥"
+        ],
+        "verses": "80"
+       },
+       {
+        "type": "verse",
+        "key": "iast",
+        "label": "IAST",
+        "lines": [
+         "gudaṃ nirudhya gulphābhyāṃ vyutkrameṇa samāhitaḥ । kūrmāsanaṃ bhaved etad iti yogavido viduḥ ॥ 80 ॥"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "cyr",
+        "label": "Кириллическая транслитерация",
+        "lines": [
+         "гудам̣ нирудхйа гулпхāбхйāм̣ вйуткрамен̣а самāхитах̣ । кӯрмāсанам̣ бхавед етад ити йогавидо видух̣ ॥ 80 ॥"
+        ]
+       }
+      ],
+      "verses": "80"
+     },
+     {
+      "type": "words",
+      "key": "words",
+      "label": "Пословный разбор",
+      "paragraphs": [
+       "гудам - анус; нирудхйа - перекрыв, сдержав; гулпхāбхйāм - обеими лодыжками; вйуткрамен̣а - в обратном порядке, накрест; самāхитах̣ - сосредоточенный; кӯрмāсанам - Кӯрмāсана; бхавет - будет; етат - это; ити - так; йога-видах̣ - знатоки йоги; видух̣ - знают."
+      ],
+      "groups": [
+       [
+        [
+         "гудам",
+         "анус"
+        ],
+        [
+         "нирудхйа",
+         "перекрыв, сдержав"
+        ],
+        [
+         "гулпхāбхйāм",
+         "обеими лодыжками"
+        ],
+        [
+         "вйуткрамен̣а",
+         "в обратном порядке, накрест"
+        ],
+        [
+         "самāхитах̣",
+         "сосредоточенный"
+        ],
+        [
+         "кӯрмāсанам",
+         "Кӯрмāсана"
+        ],
+        [
+         "бхавет",
+         "будет"
+        ],
+        [
+         "етат",
+         "это"
+        ],
+        [
+         "ити",
+         "так"
+        ],
+        [
+         "йога-видах̣",
+         "знатоки йоги"
+        ],
+        [
+         "видух̣",
+         "знают."
+        ]
+       ]
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "literal",
+      "label": "Буквальный перевод",
+      "paragraphs": [
+       "Перекрыв анус обеими лодыжками, [положенными] накрест, сосредоточенный – это будет Кӯрмāсана; так знают знатоки йоги."
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "literary",
+      "label": "Литературный перевод",
+      "paragraphs": [
+       "Кӯрмāсана – Поза черепахи. Скрещёнными лодыжками прижимают и закрывают анус и сидят собранно, сосредоточенно. Так учат знатоки йоги."
+      ]
+     }
+    ],
+    "en": [
+     {
+      "type": "verse_card",
+      "sections": [
+       {
+        "type": "verse",
+        "key": "deva",
+        "label": "Devanāgarī",
+        "lines": [
+         "गुदं निरुध्य गुल्फाभ्यां व्युत्क्रमेण समाहितः । कूर्मासनं भवेदेतदिति योगविदो विदुः ॥ ८० ॥"
+        ],
+        "verses": "80"
+       },
+       {
+        "type": "verse",
+        "key": "iast",
+        "label": "IAST",
+        "lines": [
+         "gudaṃ nirudhya gulphābhyāṃ vyutkrameṇa samāhitaḥ । kūrmāsanaṃ bhaved etad iti yogavido viduḥ ॥ 80 ॥"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "cyr",
+        "label": "Cyrillic transliteration",
+        "lines": [
+         "гудам̣ нирудхйа гулпхāбхйāм̣ вйуткрамен̣а самāхитах̣ । кӯрмāсанам̣ бхавед етад ити йогавидо видух̣ ॥ 80 ॥"
+        ]
+       }
+      ],
+      "verses": "80"
+     },
+     {
+      "type": "words",
+      "key": "words",
+      "label": "Word-by-word analysis",
+      "paragraphs": [
+       "gudam – the anus; nirudhya – having blocked, restrained; gulphābhyām – with both ankles; vyutkrameṇa – in reverse order, crosswise; samāhitaḥ – concentrated; kūrmāsanam – Kūrmāsana; bhavet – will be; etat – this; iti – thus; yoga-vidaḥ – the knowers of yoga; viduḥ – know."
+      ],
+      "groups": [
+       [
+        [
+         "gudam",
+         "the anus"
+        ],
+        [
+         "nirudhya",
+         "having blocked, restrained"
+        ],
+        [
+         "gulphābhyām",
+         "with both ankles"
+        ],
+        [
+         "vyutkrameṇa",
+         "in reverse order, crosswise"
+        ],
+        [
+         "samāhitaḥ",
+         "concentrated"
+        ],
+        [
+         "kūrmāsanam",
+         "Kūrmāsana"
+        ],
+        [
+         "bhavet",
+         "will be"
+        ],
+        [
+         "etat",
+         "this"
+        ],
+        [
+         "iti",
+         "thus"
+        ],
+        [
+         "yoga-vidaḥ",
+         "the knowers of yoga"
+        ],
+        [
+         "viduḥ",
+         "know."
+        ]
+       ]
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "literal",
+      "label": "Literal translation",
+      "paragraphs": [
+       "Having blocked the anus with both ankles [placed] crosswise, concentrated – this will be Kūrmāsana; so the knowers of yoga know."
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "literary",
+      "label": "Literary translation",
+      "paragraphs": [
+       "Kūrmāsana – the Tortoise Pose. The anus is pressed and closed with the crossed ankles, and one sits collected and concentrated. So teach the knowers of yoga."
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "key": "muktasana",
+   "iast": "Muktāsana",
+   "number": 10,
+   "name": {
+    "ru": "Муктāсана",
+    "en": "Muktāsana"
+   },
+   "gloss": {
+    "ru": "«Поза освобождённого»",
+    "en": "“Pose of the Liberated”"
+   },
+   "verses": {
+    "ru": "81–82",
+    "en": "81–82"
+   },
+   "text": {
+    "ru": [
+     {
+      "type": "verse_card",
+      "sections": [
+       {
+        "type": "verse",
+        "key": "deva",
+        "label": "Деванāгарӣ",
+        "lines": [
+         "मेढ्रादुपरि निक्षिप्य सव्यं गुल्फं तथोपरि । गुल्फान्तरं विनिक्षिप्य मुक्तासनमिदं स्मृतम् ॥ ८१ ॥"
+        ],
+        "verses": "81"
+       },
+       {
+        "type": "verse",
+        "key": "iast",
+        "label": "IAST",
+        "lines": [
+         "meḍhrād upari nikṣipya savyaṃ gulphaṃ tathopari । gulphāntaraṃ vinikṣipya muktāsanam idaṃ smṛtam ॥ 81 ॥"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "cyr",
+        "label": "Кириллическая транслитерация",
+        "lines": [
+         "мед̣хрāд упари никшипйа савйам̣ гулпхам̣ татхопари । гулпхāнтарам̣ виникшипйа муктāсанам идам̣ смр̣там ॥ 81 ॥"
+        ]
+       }
+      ],
+      "verses": "81"
+     },
+     {
+      "type": "verse_card",
+      "sections": [
+       {
+        "type": "verse",
+        "key": "deva",
+        "label": "Деванāгарӣ",
+        "lines": [
+         "सम्पीड्य सीवनीं सूक्ष्मां गुल्फेनैव तु सव्यतः । सव्यं दक्षिणगुल्फेन मुक्तासनमिदं तु वा ॥ ८२ ॥"
+        ],
+        "verses": "82"
+       },
+       {
+        "type": "verse",
+        "key": "iast",
+        "label": "IAST",
+        "lines": [
+         "sampīḍya sīvanīṃ sūkṣmāṃ gulphenaiva tu savyataḥ । savyaṃ dakṣiṇagulphena muktāsanam idaṃ tu vā ॥ 82 ॥"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "cyr",
+        "label": "Кириллическая транслитерация",
+        "lines": [
+         "сампӣд̣йа сӣванӣм̣ сӯкшмāм̣ гулпхенаива ту савйатах̣ । савйам̣ дакшин̣агулпхена муктāсанам идам̣ ту вā ॥ 82 ॥"
+        ]
+       }
+      ],
+      "verses": "82"
+     },
+     {
+      "type": "words",
+      "key": "words",
+      "label": "Пословный разбор",
+      "paragraphs": [
+       "мед̣хрāт - полового члена; упари - выше; никшипйа - поместив; савйам - левую; гулпхам - лодыжку; татхā - так же; упари - поверх; гулпха-антарам - другую лодыжку; виникшипйа - положив; муктāсанам - Муктāсана; идам - это; смр̣там - известно, предписано [традицией].",
+       "сампӣд̣йа - сдавив; сӣванӣм - шов, промежность (в файле: «सीवनी» – ошибка распознавания); сӯкшмāм - тонкий; гулпхена - лодыжкой; ева ту - же; савйатах̣ - левой (букв. с левой стороны); савйам - левую [лодыжку] (английский перевод понимает: «левую сторону промежности»); дакшин̣а-гулпхена - правой лодыжкой; муктāсанам - Муктāсана; идам - это; ту - же; вā - или, также."
+      ],
+      "groups": [
+       [
+        [
+         "мед̣хрāт",
+         "полового члена"
+        ],
+        [
+         "упари",
+         "выше"
+        ],
+        [
+         "никшипйа",
+         "поместив"
+        ],
+        [
+         "савйам",
+         "левую"
+        ],
+        [
+         "гулпхам",
+         "лодыжку"
+        ],
+        [
+         "татхā",
+         "так же"
+        ],
+        [
+         "упари",
+         "поверх"
+        ],
+        [
+         "гулпха-антарам",
+         "другую лодыжку"
+        ],
+        [
+         "виникшипйа",
+         "положив"
+        ],
+        [
+         "муктāсанам",
+         "Муктāсана"
+        ],
+        [
+         "идам",
+         "это"
+        ],
+        [
+         "смр̣там",
+         "известно, предписано [традицией]."
+        ]
+       ],
+       [
+        [
+         "сампӣд̣йа",
+         "сдавив"
+        ],
+        [
+         "сӣванӣм",
+         "шов, промежность (в файле: «सीवनी» – ошибка распознавания)"
+        ],
+        [
+         "сӯкшмāм",
+         "тонкий"
+        ],
+        [
+         "гулпхена",
+         "лодыжкой"
+        ],
+        [
+         "ева ту",
+         "же"
+        ],
+        [
+         "савйатах̣",
+         "левой (букв. с левой стороны)"
+        ],
+        [
+         "савйам",
+         "левую [лодыжку] (английский перевод понимает: «левую сторону промежности»)"
+        ],
+        [
+         "дакшин̣а-гулпхена",
+         "правой лодыжкой"
+        ],
+        [
+         "муктāсанам",
+         "Муктāсана"
+        ],
+        [
+         "идам",
+         "это"
+        ],
+        [
+         "ту",
+         "же"
+        ],
+        [
+         "вā",
+         "или, также."
+        ]
+       ]
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "literal",
+      "label": "Буквальный перевод",
+      "paragraphs": [
+       "Поместив левую лодыжку выше полового члена и так же поверх [неё] положив другую лодыжку, – это известно как Муктāсана. Сдавив тонкий шов (промежность) лодыжкой – левой, а левую [лодыжку] – правой лодыжкой: это тоже Муктāсана."
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "literary",
+      "label": "Литературный перевод",
+      "paragraphs": [
+       "Муктāсана – Поза освобождённого. Левую лодыжку кладут над половым органом (у лобковой кости), а правую – поверх неё. Другой вариант: левой лодыжкой прижимают промежность, а правую лодыжку кладут на левую."
+      ]
+     }
+    ],
+    "en": [
+     {
+      "type": "verse_card",
+      "sections": [
+       {
+        "type": "verse",
+        "key": "deva",
+        "label": "Devanāgarī",
+        "lines": [
+         "मेढ्रादुपरि निक्षिप्य सव्यं गुल्फं तथोपरि । गुल्फान्तरं विनिक्षिप्य मुक्तासनमिदं स्मृतम् ॥ ८१ ॥"
+        ],
+        "verses": "81"
+       },
+       {
+        "type": "verse",
+        "key": "iast",
+        "label": "IAST",
+        "lines": [
+         "meḍhrād upari nikṣipya savyaṃ gulphaṃ tathopari । gulphāntaraṃ vinikṣipya muktāsanam idaṃ smṛtam ॥ 81 ॥"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "cyr",
+        "label": "Cyrillic transliteration",
+        "lines": [
+         "мед̣хрāд упари никшипйа савйам̣ гулпхам̣ татхопари । гулпхāнтарам̣ виникшипйа муктāсанам идам̣ смр̣там ॥ 81 ॥"
+        ]
+       }
+      ],
+      "verses": "81"
+     },
+     {
+      "type": "verse_card",
+      "sections": [
+       {
+        "type": "verse",
+        "key": "deva",
+        "label": "Devanāgarī",
+        "lines": [
+         "सम्पीड्य सीवनीं सूक्ष्मां गुल्फेनैव तु सव्यतः । सव्यं दक्षिणगुल्फेन मुक्तासनमिदं तु वा ॥ ८२ ॥"
+        ],
+        "verses": "82"
+       },
+       {
+        "type": "verse",
+        "key": "iast",
+        "label": "IAST",
+        "lines": [
+         "sampīḍya sīvanīṃ sūkṣmāṃ gulphenaiva tu savyataḥ । savyaṃ dakṣiṇagulphena muktāsanam idaṃ tu vā ॥ 82 ॥"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "cyr",
+        "label": "Cyrillic transliteration",
+        "lines": [
+         "сампӣд̣йа сӣванӣм̣ сӯкшмāм̣ гулпхенаива ту савйатах̣ । савйам̣ дакшин̣агулпхена муктāсанам идам̣ ту вā ॥ 82 ॥"
+        ]
+       }
+      ],
+      "verses": "82"
+     },
+     {
+      "type": "words",
+      "key": "words",
+      "label": "Word-by-word analysis",
+      "paragraphs": [
+       "meḍhrāt – the penis (abl.: “than the penis”); upari – above; nikṣipya – having placed; savyam – the left; gulpham – ankle; tathā – likewise; upari – on top; gulpha-antaram – the other ankle; vinikṣipya – having laid; muktāsanam – Muktāsana; idam – this; smṛtam – is known, prescribed [by tradition].",
+       "sampīḍya – having pressed; sīvanīm – the seam, perineum (in the file: «सीवनी» – OCR error); sūkṣmām – fine, thin; gulphena – with the ankle; eva tu – indeed; savyataḥ – the left (lit. from the left side); savyam – the left [ankle] (the English translation understands: “the left side of the perineum”); dakṣiṇa-gulphena – with the right ankle; muktāsanam – Muktāsana; idam – this; tu – indeed; vā – or, also."
+      ],
+      "groups": [
+       [
+        [
+         "meḍhrāt",
+         "the penis (abl.: “than the penis”)"
+        ],
+        [
+         "upari",
+         "above"
+        ],
+        [
+         "nikṣipya",
+         "having placed"
+        ],
+        [
+         "savyam",
+         "the left"
+        ],
+        [
+         "gulpham",
+         "ankle"
+        ],
+        [
+         "tathā",
+         "likewise"
+        ],
+        [
+         "upari",
+         "on top"
+        ],
+        [
+         "gulpha-antaram",
+         "the other ankle"
+        ],
+        [
+         "vinikṣipya",
+         "having laid"
+        ],
+        [
+         "muktāsanam",
+         "Muktāsana"
+        ],
+        [
+         "idam",
+         "this"
+        ],
+        [
+         "smṛtam",
+         "is known, prescribed [by tradition]."
+        ]
+       ],
+       [
+        [
+         "sampīḍya",
+         "having pressed"
+        ],
+        [
+         "sīvanīm",
+         "the seam, perineum (in the file: «सीवनी» – OCR error)"
+        ],
+        [
+         "sūkṣmām",
+         "fine, thin"
+        ],
+        [
+         "gulphena",
+         "with the ankle"
+        ],
+        [
+         "eva tu",
+         "indeed"
+        ],
+        [
+         "savyataḥ",
+         "the left (lit. from the left side)"
+        ],
+        [
+         "savyam",
+         "the left [ankle] (the English translation understands: “the left side of the perineum”)"
+        ],
+        [
+         "dakṣiṇa-gulphena",
+         "with the right ankle"
+        ],
+        [
+         "muktāsanam",
+         "Muktāsana"
+        ],
+        [
+         "idam",
+         "this"
+        ],
+        [
+         "tu",
+         "indeed"
+        ],
+        [
+         "vā",
+         "or, also."
+        ]
+       ]
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "literal",
+      "label": "Literal translation",
+      "paragraphs": [
+       "Having placed the left ankle above the penis and likewise laid the other ankle on top [of it] – this is known as Muktāsana. Having pressed the fine seam (perineum) with the ankle – the left one, and the left [ankle] with the right ankle: this too is Muktāsana."
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "literary",
+      "label": "Literary translation",
+      "paragraphs": [
+       "Muktāsana – the Pose of the Liberated. The left ankle is placed above the genitals (at the pubic bone), and the right one on top of it. Another variant: the perineum is pressed with the left ankle, and the right ankle is placed on the left one."
+      ]
+     }
+    ]
+   }
+  }
+ ]
+}

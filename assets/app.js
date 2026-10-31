@@ -80,7 +80,7 @@
     }
   };
 
-  const BUILD = "2026-10-31.4";
+  const BUILD = "2026-10-31.5";
   const V = "?v=" + BUILD;
 
   const state = {
@@ -93,11 +93,13 @@
   let site = null;
   let treatises = [];
   let activeTreatise = null;
+  let lastPoseKey = null;
 
   const $ = (sel, root) => (root || document).querySelector(sel);
   const $$ = (sel, root) => Array.from((root || document).querySelectorAll(sel));
   const t = (key) => I18N[state.lang][key] || key;
-  const tx = (obj) => (obj && (obj[state.lang] || obj.ru)) || "";
+  const tx = (obj) =>
+    typeof obj === "string" ? obj : (obj && (obj[state.lang] || obj.ru)) || "";
 
   function esc(s) {
     return String(s == null ? "" : s)
@@ -127,7 +129,18 @@
     const loaded = await Promise.all(
       index.treatises.map(async (meta) => {
         const data = await fetch(meta.file + V).then((r) => r.json());
-        return Object.assign({}, meta, data);
+        // registry metadata (short title, edition, PDF) wins over the document's
+        // own long title; the long title stays available as docTitle
+        return Object.assign({}, data, meta, {
+          chapter: data.chapter || meta.chapter,
+          poses: data.poses || [],
+          about: data.about || { ru: [], en: [] },
+          prologue: data.prologue || { ru: [], en: [] },
+          appendix: data.appendix || { ru: [], en: [] },
+          notes: data.notes || { ru: [], en: [] },
+          asanasTitle: data.asanasTitle || null,
+          docTitle: data.title || null
+        });
       })
     );
     treatises = loaded;
@@ -220,41 +233,76 @@
     foot.innerHTML =
       esc(tx(activeTreatise.edition)) +
       (activeTreatise.pdf
-        ? ' · <a href="' + esc(activeTreatise.pdf[state.lang] || activeTreatise.pdf.ru) +
+        ? ' · <a href="' + esc(encodeURI(activeTreatise.pdf[state.lang] || activeTreatise.pdf.ru)) +
           '" target="_blank" rel="noopener">' + esc(t("pdf")) + "</a>"
         : "");
   }
 
+  function chapterTitle() {
+    if (!activeTreatise) return t("chapterLink");
+    const own = tx(activeTreatise.asanasTitle);
+    if (own) return own;
+    const prologue = activeTreatise.prologue[state.lang] || [];
+    const lead = prologue.find((s) => s.type === "subhead");
+    return (lead && lead.label) || t("chapterLink");
+  }
+
+  function chapterNavLabel() {
+    const prologue = (activeTreatise && activeTreatise.prologue[state.lang]) || [];
+    const lead = prologue.find((s) => s.type === "subhead");
+    return (lead && lead.label) || t("chapterLink");
+  }
+
   function buildChapterNav() {
     if (!activeTreatise) return;
-    const prologue = activeTreatise.prologue[state.lang] || [];
     const appendix = activeTreatise.appendix[state.lang] || [];
-    const chapterTitle =
-      (prologue.find((s) => s.type === "subhead") || {}).label || t("chapterLink");
+    const notes = activeTreatise.notes[state.lang] || [];
     const appendixLabel =
       (appendix.find((s) => s.type === "subhead") || {}).label || t("appendix");
     const notesTitle = (activeTreatise.notesTitle && activeTreatise.notesTitle[state.lang]) || t("notes");
 
-    const items = [
-      ["#/chapter", chapterTitle],
-      ["#/appendix", appendixLabel.split(".")[0]],
-      ["#/notes", notesTitle],
-      ["#/about", t("treatiseAbout")]
-    ];
+    const items = [["#/chapter", chapterNavLabel()]];
+    if (appendix.length) items.push(["#/appendix", appendixLabel.split(".")[0]]);
+    if (notes.length) items.push(["#/notes", notesTitle]);
+    items.push(["#/about", t("treatiseAbout")]);
     $("#chapter-nav").innerHTML = items
       .map(([href, label]) => '<li><a href="' + href + '">' + esc(label) + "</a></li>")
       .join("");
   }
 
+  function poseGroups() {
+    const map = new Map();
+    treatises.forEach((tr) => {
+      (tr.poses || []).forEach((pose) => {
+        if (!map.has(pose.key)) map.set(pose.key, []);
+        map.get(pose.key).push({ treatise: tr, pose });
+      });
+    });
+    return map;
+  }
+
   function poseListData() {
-    if (!activeTreatise) return [];
-    return activeTreatise.poses.map((p) => ({
-      key: p.key,
-      number: p.number,
-      name: tx(p.name),
-      gloss: tx(p.gloss),
-      iast: p.iast
-    }));
+    const map = poseGroups();
+    const order = [];
+    const push = (list) =>
+      (list || []).forEach((p) => {
+        if (order.indexOf(p.key) < 0) order.push(p.key);
+      });
+    push(activeTreatise && activeTreatise.poses);
+    treatises.forEach((tr) => push(tr.poses));
+    return order.map((key) => {
+      const group = map.get(key) || [];
+      const pick = group.find((g) => g.treatise === activeTreatise) || group[0] || {};
+      const pose = pick.pose || {};
+      return {
+        key: key,
+        number: pose.number,
+        name: tx(pose.name),
+        gloss: tx(pose.gloss),
+        iast: pose.iast,
+        inTreatise: group.some((g) => g.treatise === activeTreatise)
+      };
+    });
   }
 
   function buildPoseList() {
@@ -276,7 +324,8 @@
           .map((p) => {
             const active = isCurrent("#/pose/" + p.key);
             return (
-              '<li><a href="#/pose/' + p.key + '"' +
+              '<li' + (p.inTreatise === false ? ' class="is-other"' : "") +
+              '><a href="#/pose/' + p.key + '"' +
               (active ? ' aria-current="page"' : "") + ">" +
               '<span class="pose-num">' + String(p.number).padStart(2, "0") + "</span>" +
               '<span class="pose-name"><span class="ru">' + esc(p.name) + "</span>" +
@@ -324,6 +373,13 @@
       return;
     }
 
+    if (route.view === "appendix" && !(activeTreatise.appendix[state.lang] || []).length) {
+      route.view = "about";
+    }
+    if (route.view === "notes" && !(activeTreatise.notes[state.lang] || []).length) {
+      route.view = "about";
+    }
+
     let html = "";
     if (route.view === "pose") html = renderPose(route.key);
     else if (route.view === "chapter") html = renderChapter();
@@ -364,13 +420,18 @@
       const pose = tr.poses.find((p) => p.key === key);
       if (pose) occurrences.push({ treatise: tr, pose });
     });
+    // the treatise chosen in the sidebar is read first
+    occurrences.sort((a, b) => (a.treatise === activeTreatise ? -1 : 0) -
+      (b.treatise === activeTreatise ? -1 : 0));
 
     if (!occurrences.length) {
       return '<p class="empty">' + esc(t("notFound")) + "</p>";
     }
 
-    const primary = occurrences[0].pose;
+    const own = occurrences.find((o) => o.treatise === activeTreatise);
+    const primary = (own || occurrences[0]).pose;
     const multi = occurrences.length > 1;
+    lastPoseKey = key;
     const index = activeTreatise.poses.findIndex((p) => p.key === key);
 
     let html = "";
@@ -408,8 +469,77 @@
 
     html += "</article>";
     html += renderPager(index);
-    html += renderColophon(occurrences[0].treatise);
+    html += renderColophon((own || occurrences[0]).treatise);
     return html;
+  }
+
+
+  /* ------------------------------------------- rich blocks (about, dating) */
+
+  function blockBody(b) {
+    if (b.html != null) return b.html;
+    return esc(b.text || "");
+  }
+
+  function renderTable(b) {
+    const rows = b.rows || [];
+    if (!rows.length) return "";
+    let html = '<div class="doc-table-wrap"><table class="doc-table">';
+    let body = rows;
+    if (rows.length > 1) {
+      html += "<thead><tr>" +
+        rows[0].map((c) => "<th>" + esc(c) + "</th>").join("") + "</tr></thead>";
+      body = rows.slice(1);
+    }
+    html += "<tbody>" +
+      body.map((r) => "<tr>" + r.map((c) => "<td>" + esc(c) + "</td>").join("") + "</tr>").join("") +
+      "</tbody></table></div>";
+    return html;
+  }
+
+  function renderList(b) {
+    const items = b.items || [];
+    const cls = items.some((it) => it && typeof it === "object") ? "doc-list" : "source-list";
+    return '<ul class="' + cls + '">' +
+      (b.items || []).map((item) => {
+        if (item && typeof item === "object") {
+          const level = item.level > 1 ? " lvl" + item.level : "";
+          return '<li class="list-item' + level + '">' + blockBody(item) + "</li>";
+        }
+        return "<li>" + esc(item) + "</li>";
+      }).join("") + "</ul>";
+  }
+
+  function renderQuote(b) {
+    return '<blockquote class="doc-quote">' +
+      (b.paragraphs || []).map((p) => "<p>" + p + "</p>").join("") + "</blockquote>";
+  }
+
+  function renderBlocks(blocks) {
+    return (blocks || []).map((b) => {
+      switch (b.type) {
+        case "title":
+          return '<h1 class="about-title">' + blockBody(b) + "</h1>";
+        case "byline":
+          return '<p class="about-byline">' + blockBody(b) + "</p>";
+        case "h2":
+          return '<h2 class="about-h2">' + blockBody(b) + "</h2>";
+        case "h3":
+          return '<h3 class="about-h3">' + blockBody(b) + "</h3>";
+        case "h4":
+          return '<h4 class="about-h4">' + blockBody(b) + "</h4>";
+        case "subhead":
+          return '<h2 class="subhead">' + esc(b.label) + "</h2>";
+        case "list":
+          return renderList(b);
+        case "quote":
+          return renderQuote(b);
+        case "table":
+          return renderTable(b);
+        default:
+          return '<p class="about-p">' + blockBody(b) + "</p>";
+      }
+    }).join("");
   }
 
   function renderDating(tr) {
@@ -433,8 +563,9 @@
           html += '<span class="dating-when-note">' + esc(tx(item.whenNote)) + "</span>";
         }
         html += "</span>";
+        const workLabel = summary.label ? tx(summary.label) : t("datingSource");
         html += '<span class="dating-work"><span class="dating-work-label">' +
-          esc(t("datingSource")) + "</span>" + esc(tx(item.work)) + "</span>";
+          esc(workLabel) + "</span>" + esc(tx(item.work)) + "</span>";
         html += "</li>";
       });
       html += "</ul>";
@@ -446,9 +577,7 @@
         "</span></summary>";
       html += '<div class="dating-full">';
       html += '<h3 class="dating-full-title">' + esc(full.title) + "</h3>";
-      full.blocks.forEach((b) => {
-        html += "<p>" + esc(b.text) + "</p>";
-      });
+      html += renderBlocks(full.blocks);
       html += '<p class="dating-full-link"><a href="#/about">' +
         esc(t("treatiseAbout")) + " →</a></p>";
       html += "</div></details>";
@@ -463,6 +592,15 @@
     let i = 0;
     while (i < sections.length) {
       const sec = sections[i];
+      if (sec.type === "verse_card") {
+        html += '<div class="verse-card">';
+        if (sec.verses) {
+          html += '<p class="verse-card-num"><span>' + esc(sec.verses) + "</span></p>";
+        }
+        html += renderVerses(sec.sections || []) + "</div>";
+        i += 1;
+        continue;
+      }
       if (sec.type === "verse") {
         const run = [];
         while (i < sections.length && sections[i].type === "verse") {
@@ -474,18 +612,27 @@
       }
       if (sec.type === "words") {
         html += '<section class="section">';
-        html += '<h3 class="section-label">' + esc(sec.label) + "</h3>";
-        html += '<dl class="words">';
-        sec.pairs.forEach((pair) => {
-          const term = pair[0] || "";
-          const gloss = pair[1] || "";
-          if (!term) {
-            html += '<dd class="wide">' + esc(gloss) + "</dd>";
-          } else {
-            html += "<dt>" + esc(term) + "</dt><dd>" + esc(gloss) + "</dd>";
-          }
+        if (sec.label) html += '<h3 class="section-label">' + esc(sec.label) + "</h3>";
+        const groups = sec.groups || (sec.pairs ? [sec.pairs] : []);
+        if (!groups.length) {
+          (sec.paragraphs || []).forEach((p) => {
+            html += '<p class="about-p">' + esc(p) + "</p>";
+          });
+        }
+        groups.forEach((pairs) => {
+          html += '<dl class="words">';
+          pairs.forEach((pair) => {
+            const term = pair[0] || "";
+            const gloss = pair[1] || "";
+            if (!term) {
+              html += '<dd class="wide">' + esc(gloss) + "</dd>";
+            } else {
+              html += "<dt>" + esc(term) + "</dt><dd>" + esc(gloss) + "</dd>";
+            }
+          });
+          html += "</dl>";
         });
-        html += "</dl></section>";
+        html += "</section>";
         i += 1;
         continue;
       }
@@ -555,25 +702,26 @@
   }
 
   function renderPager(index) {
-    const poses = activeTreatise.poses;
+    const poses = poseListData();
     if (!poses.length) return "";
-    const prev = poses[index - 1];
-    const next = poses[index + 1];
+    const here = index >= 0 ? index : poses.findIndex((p) => p.key === (lastPoseKey || ""));
+    const prev = poses[here - 1];
+    const next = poses[here + 1];
     let html = '<nav class="pager" aria-label="' + esc(t("asanas")) + '">';
     html += prev
       ? '<a class="prev" href="#/pose/' + prev.key + '"><span class="dir">' +
-        esc(t("prev")) + '</span><span class="to">' + esc(tx(prev.name)) + "</span></a>"
+        esc(t("prev")) + '</span><span class="to">' + esc(prev.name) + "</span></a>"
       : "<span></span>";
     html += next
       ? '<a class="next" href="#/pose/' + next.key + '"><span class="dir">' +
-        esc(t("next")) + '</span><span class="to">' + esc(tx(next.name)) + "</span></a>"
+        esc(t("next")) + '</span><span class="to">' + esc(next.name) + "</span></a>"
       : "";
     html += "</nav>";
     return html;
   }
 
   function renderColophon(tr) {
-    const pdfHref = tr.pdf ? (tr.pdf[state.lang] || tr.pdf.ru) : null;
+    const pdfHref = tr.pdf ? encodeURI(tr.pdf[state.lang] || tr.pdf.ru) : null;
     let html = '<footer class="colophon">';
     html += "<p><strong>" + esc(tx(tr.title)) + "</strong>" +
       (tr.chapter ? " · " + esc(state.lang === "ru" ? "глава " : "chapter ") + esc(tr.chapter) : "") + "</p>";
@@ -599,9 +747,8 @@
 
   function renderChapter() {
     const all = activeTreatise.prologue[state.lang] || [];
-    const lead = all.find((s) => s.type === "subhead");
-    const title = (lead && lead.label) || t("chapterLink");
-    const sections = lead ? all.filter((s) => s !== lead) : all;
+    const title = chapterTitle();
+    const sections = all;
     let html = pageHead(title, esc(tx(activeTreatise.title)) + " · " + esc(tx(activeTreatise.subtitle)));
     html += renderSections(sections);
     html += renderColophon(activeTreatise);
@@ -650,39 +797,31 @@
     let html = "";
     let metaPlaced = false;
     blocks.forEach((b) => {
-      if (b.type === "list") {
-        html += '<ul class="source-list">';
-        (b.items || []).forEach((item) => {
-          html += "<li>" + esc(item) + "</li>";
-        });
-        html += "</ul>";
-        return;
-      }
       if (b.type === "title") {
-        html += '<h1 class="about-title">' + esc(b.text) + "</h1>";
+        html += renderBlocks([b]);
         if (meta) {
           html += '<p class="about-meta">' + meta + "</p>";
           metaPlaced = true;
         }
         return;
       }
-      if (b.type === "byline") html += '<p class="about-byline">' + esc(b.text) + "</p>";
-      else if (b.type === "h2") html += '<h2 class="about-h2">' + esc(b.text) + "</h2>";
-      else html += '<p class="about-p">' + esc(b.text) + "</p>";
+      html += renderBlocks([b]);
     });
 
     if (!metaPlaced && meta) {
       html = '<p class="about-meta">' + meta + "</p>" + html;
     }
 
-    const pdfHref = activeTreatise.pdf ? (activeTreatise.pdf[state.lang] || activeTreatise.pdf.ru) : null;
+    const pdfHref = activeTreatise.pdf
+      ? encodeURI(activeTreatise.pdf[state.lang] || activeTreatise.pdf.ru)
+      : null;
     if (pdfHref) {
       html += '<p class="about-p"><a class="back-link" href="' + esc(pdfHref) +
         '" target="_blank" rel="noopener">' + esc(t("pdf")) + " ↗</a></p>";
     }
     if (activeTreatise.chapter) {
       html += '<p class="about-p"><a class="back-link" href="#/chapter">' +
-        esc(t("chapterLink")) + " →</a></p>";
+        esc(chapterTitle()) + " →</a></p>";
     }
     return '<article class="view-inner">' + html + "</article>";
   }

@@ -1182,3 +1182,157 @@ h1.pose-title {
   .verses { box-shadow: none; }
   a { text-decoration: none; }
 }
+
+/* ==========================================================================
+   Multi-treatise reading: verse cards, document lists, quotations, tables
+   ========================================================================== */
+
+.verse-card { margin: 0 0 clamp(26px, 3.4vw, 36px); }
+.verse-card .verses { margin-bottom: 0; }
+
+.verse-card-num {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 0 0 10px;
+  font-size: .68rem;
+  letter-spacing: .18em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+.verse-card-num span { color: var(--accent); }
+.verse-card-num::after {
+  content: "";
+  flex: 1 1 auto;
+  height: 1px;
+  background: linear-gradient(90deg, var(--rule), transparent);
+}
+
+/* lists taken from the source (● bullets, nested levels) */
+
+.doc-list {
+  margin: 0 0 1.2em;
+  padding: 0;
+  list-style: none;
+}
+
+.doc-list .list-item {
+  position: relative;
+  padding: 0 0 0 22px;
+  margin: 0 0 .55em;
+  font-size: .97rem;
+  line-height: 1.74;
+  color: var(--ink-2);
+}
+.doc-list .list-item::before {
+  content: "";
+  position: absolute;
+  left: 4px;
+  top: .72em;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: color-mix(in srgb, var(--accent) 62%, transparent);
+}
+.doc-list .list-item:last-child { margin-bottom: 0; }
+.doc-list .list-item.lvl2 { margin-left: 24px; font-size: .93rem; }
+.doc-list .list-item.lvl2::before { left: 2px; width: 4px; height: 4px; opacity: .7; }
+.doc-list .list-item.lvl3 { margin-left: 48px; font-size: .9rem; }
+.doc-list .list-item.lvl3::before { opacity: .5; }
+
+/* quotations from the sources */
+
+.doc-quote {
+  margin: 0 0 1.3em;
+  padding: 2px 0 2px 20px;
+  border-left: 2px solid color-mix(in srgb, var(--accent) 45%, transparent);
+}
+.doc-quote p {
+  margin: 0 0 .85em;
+  font-family: var(--font-display);
+  font-size: 1.06rem;
+  font-style: italic;
+  line-height: 1.7;
+  color: var(--ink);
+}
+.doc-quote p:last-child { margin-bottom: 0; }
+
+/* tables copied from the source */
+
+.doc-table-wrap {
+  margin: 0 0 1.6em;
+  overflow-x: auto;
+  border: 1px solid var(--rule);
+  border-radius: 10px;
+  background: color-mix(in srgb, var(--panel) 60%, transparent);
+}
+
+.doc-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: .88rem;
+  line-height: 1.6;
+}
+
+.doc-table th,
+.doc-table td {
+  padding: 10px 14px;
+  text-align: left;
+  vertical-align: top;
+  border-bottom: 1px solid var(--rule-soft);
+}
+.doc-table th {
+  font-size: .66rem;
+  font-weight: 600;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  color: var(--accent);
+  white-space: nowrap;
+}
+.doc-table td { color: var(--ink-2); }
+.doc-table tbody tr:last-child td { border-bottom: 0; }
+
+/* document headings inside the article and the about page */
+
+.about-h3 {
+  margin: 32px 0 12px;
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 1.16rem;
+  line-height: 1.3;
+  color: var(--ink);
+}
+.about-h4 {
+  margin: 26px 0 10px;
+  font-size: .8rem;
+  font-weight: 600;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+/* the long dating article keeps a comfortable reading size */
+
+.dating-full .about-h2 { font-size: 1.22rem; margin: 26px 0 12px; }
+.dating-full .about-h3 { font-size: 1.05rem; margin: 22px 0 10px; }
+.dating-full .about-h4 { font-size: .74rem; margin: 20px 0 8px; }
+.dating-full .about-p,
+.dating-full .doc-list .list-item { font-size: .93rem; }
+.dating-full .doc-quote p { font-size: .98rem; }
+.dating-full .doc-table { font-size: .8rem; }
+.dating-full .doc-table th,
+.dating-full .doc-table td { padding: 8px 10px; }
+
+@media (max-width: 760px) {
+  .doc-table { font-size: .8rem; }
+  .doc-table th,
+  .doc-table td { padding: 8px 10px; }
+  .doc-list .list-item.lvl2 { margin-left: 14px; }
+  .doc-list .list-item.lvl3 { margin-left: 28px; }
+  .doc-quote { padding-left: 14px; }
+}
+
+/* a pose that belongs to another treatise than the one selected */
+
+.pose-list li.is-other a { opacity: .58; }
+.pose-list li.is-other a:hover { opacity: .9; }

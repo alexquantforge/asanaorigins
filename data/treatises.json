@@ -1,18 +1,30 @@
 {
  "site": {
-  "title": { "ru": "Асаны: истоки", "en": "Āsana: Origins" },
-  "tagline": { "ru": "описания асан в первоисточниках", "en": "āsanas as described in the sources" }
+  "title": {
+   "ru": "Асаны: истоки",
+   "en": "Āsana: Origins"
+  },
+  "tagline": {
+   "ru": "описания асан в первоисточниках",
+   "en": "āsanas as described in the sources"
+  }
  },
  "treatises": [
   {
    "id": "ahirbudhnya-samhita",
    "file": "data/ahirbudhnya-samhita.json",
-   "title": { "ru": "Ахирбудхнья-самхита", "en": "Ahirbudhnya-saṃhitā" },
+   "title": {
+    "ru": "Ахирбудхнья-самхита",
+    "en": "Ahirbudhnya-saṃhitā"
+   },
    "subtitle": {
     "ru": "XXXI глава · одиннадцать главных асан",
     "en": "Chapter XXXI · eleven principal āsanas"
    },
-   "tradition": { "ru": "Панчаратра", "en": "Pāñcarātra" },
+   "tradition": {
+    "ru": "Панчаратра",
+    "en": "Pāñcarātra"
+   },
    "edition": {
     "ru": "Adyar Library Series 4 · Adyar, Madras, 1916 · т. II, с. 293–296",
     "en": "Adyar Library Series 4 · Adyar, Madras, 1916 · vol. II, pp. 293–296"
@@ -32,7 +44,10 @@
     },
     "items": [
      {
-      "who": { "ru": "Ф. Отто Шрадер", "en": "F. Otto Schrader" },
+      "who": {
+       "ru": "Ф. Отто Шрадер",
+       "en": "F. Otto Schrader"
+      },
       "when": {
        "ru": "не позднее VIII в. н. э.",
        "en": "no later than the 8th century CE"
@@ -47,7 +62,10 @@
       }
      },
      {
-      "who": { "ru": "Д. Вьюстик", "en": "D. Wujastyk" },
+      "who": {
+       "ru": "Д. Вьюстик",
+       "en": "D. Wujastyk"
+      },
       "when": {
        "ru": "после 1000 г. н. э.",
        "en": "after 1000 CE"
@@ -62,7 +80,10 @@
       }
      },
      {
-      "who": { "ru": "Марион Растелли", "en": "Marion Rastelli" },
+      "who": {
+       "ru": "Марион Растелли",
+       "en": "Marion Rastelli"
+      },
       "when": {
        "ru": "XII–XIII вв.",
        "en": "12th–13th centuries"
@@ -77,6 +98,30 @@
       }
      }
     ]
+   }
+  },
+  {
+   "id": "vasishtha-samhita",
+   "file": "data/vasishtha-samhita.json",
+   "title": {
+    "ru": "Васишт̣ха-сам̣хитā",
+    "en": "Vasiṣṭha Saṃhitā"
+   },
+   "subtitle": {
+    "ru": "Йога-кāн̣д̣а · глава 1 · стихи 67–82",
+    "en": "Yoga Kāṇḍa · chapter 1 · verses 67–82"
+   },
+   "tradition": {
+    "ru": "санскритский трактат о йоге",
+    "en": "a Sanskrit treatise on yoga"
+   },
+   "edition": {
+    "ru": "Vasistha Samhita (Yoga Kanda). Revised Edition. Editors & Commentators: Philosophico-Literary Research Department, Kaivalyadhama S.M.Y.M. Samiti, Lonavla. First Publication: August 1984; Revised Publication: March 2005. ISBN 81-89485-37-7 · гл. I, с. 20–24",
+    "en": "Vasistha Samhita (Yoga Kanda). Revised Edition. Editors & Commentators: Philosophico-Literary Research Department, Kaivalyadhama S.M.Y.M. Samiti, Lonavla. First Publication: August 1984; Revised Publication: March 2005. ISBN 81-89485-37-7 · ch. I, pp. 20–24"
+   },
+   "pdf": {
+    "ru": "sources/Васишт̣ха-сам̣хитā. Āсаны (Йога-кāн̣д̣а, гл. 1, ст. 67–82).pdf",
+    "en": "sources/Vasiṣṭha Saṃhitā. Āsanas (Yoga Kāṇḍa, ch. 1, vv. 67–82).pdf"
    }
   }
  ]
