@@ -80,7 +80,7 @@
     }
   };
 
-  const BUILD = "2026-11-01.7";
+  const BUILD = "2026-11-01.8";
   const V = "?v=" + BUILD;
 
   const state = {
@@ -310,7 +310,9 @@
       (appendix.find((s) => s.type === "subhead") || {}).label || t("appendix");
     const notesTitle = (activeTreatise.notesTitle && activeTreatise.notesTitle[state.lang]) || t("notes");
 
-    const items = [["#/chapter", chapterNavLabel()]];
+    // a treatise without a chapter page of its own gets no link to one
+    const prologue = activeTreatise.prologue[state.lang] || [];
+    const items = prologue.length ? [["#/chapter", chapterNavLabel()]] : [];
     if (appendix.length) items.push(["#/appendix", appendixLabel.split(".")[0]]);
     if (notes.length) items.push(["#/notes", notesTitle]);
     items.push(["#/about", t("treatiseAbout")]);
@@ -424,6 +426,9 @@
       return;
     }
 
+    if (route.view === "chapter" && !(activeTreatise.prologue[state.lang] || []).length) {
+      route.view = "about";
+    }
     if (route.view === "appendix" && !(activeTreatise.appendix[state.lang] || []).length) {
       route.view = "about";
     }
@@ -508,7 +513,8 @@
       html += '<div class="treatise-head">';
       html += "<h2>" + esc(tx(tr.title)) + "</h2>";
       html += '<span class="ref">' +
-        esc((state.lang === "ru" ? "глава " : "chapter ") + (tr.chapter || "")) + "</span>";
+        esc(tx(tr.chapterWord) || (state.lang === "ru" ? "глава" : "chapter")) +
+        (tr.chapter ? " " + esc(tr.chapter) : "") + "</span>";
       if (multi) {
         html += '<a class="link" href="#/about">' + esc(t("toAbout")) + "</a>";
       }
@@ -556,14 +562,19 @@
   function renderList(b) {
     const items = b.items || [];
     const cls = items.some((it) => it && typeof it === "object") ? "doc-list" : "source-list";
-    return '<ul class="' + cls + '">' +
+    const tag = b.ordered ? "ol" : "ul";
+    const start = b.ordered && b.start && b.start > 1 ? ' start="' + esc(b.start) + '"' : "";
+    return "<" + tag + ' class="' + cls + '"' + start + ">" +
       (b.items || []).map((item) => {
         if (item && typeof item === "object") {
           const level = item.level > 1 ? " lvl" + item.level : "";
-          return '<li class="list-item' + level + '">' + blockBody(item) + "</li>";
+          const code = item.code
+            ? '<pre class="doc-code"><code>' + esc(item.code) + "</code></pre>"
+            : "";
+          return '<li class="list-item' + level + '">' + blockBody(item) + code + "</li>";
         }
         return "<li>" + esc(item) + "</li>";
-      }).join("") + "</ul>";
+      }).join("") + "</" + tag + ">";
   }
 
   function renderQuote(b) {
@@ -592,6 +603,13 @@
           return renderQuote(b);
         case "table":
           return renderTable(b);
+        case "deva":
+          return '<p class="about-deva" lang="sa">' +
+            (b.lines || []).map((line) => "<span>" + esc(line) + "</span>").join("") + "</p>";
+        case "code":
+          return '<pre class="doc-code"><code>' + esc(b.text || "") + "</code></pre>";
+        case "p":
+          return '<p class="about-p">' + blockBody(b) + "</p>";
         default:
           return '<p class="about-p">' + blockBody(b) + "</p>";
       }
@@ -716,6 +734,17 @@
         i += 1;
         continue;
       }
+      if (sec.type === "quote") {
+        html += renderQuote(sec);
+        i += 1;
+        continue;
+      }
+      if (sec.html != null) {
+        // a block of the reference (§8 code sample, a Devanāgarī quotation)
+        html += renderBlocks([sec]);
+        i += 1;
+        continue;
+      }
       // plain paragraphs
       (sec.paragraphs || []).forEach((p) => {
         html += '<p class="about-p">' + esc(p) + "</p>";
@@ -780,7 +809,8 @@
     const pdfHref = tr.pdf ? encodeURI(tr.pdf[state.lang] || tr.pdf.ru) : null;
     let html = '<footer class="colophon">';
     html += "<p><strong>" + esc(tx(tr.title)) + "</strong>" +
-      (tr.chapter ? " · " + esc(state.lang === "ru" ? "глава " : "chapter ") + esc(tr.chapter) : "") + "</p>";
+      (tr.chapter ? " · " + esc(tx(tr.chapterWord) || (state.lang === "ru" ? "глава" : "chapter")) +
+        " " + esc(tr.chapter) : "") + "</p>";
     if (tr.edition) html += "<p>" + esc(t("edition")) + ": " + esc(tx(tr.edition)) + "</p>";
     if (tr.translator) html += "<p>" + esc(tx(tr.translator)) + "</p>";
     if (pdfHref) {

@@ -123,6 +123,26 @@
     "ru": "sources/Васишт̣ха-сам̣хитā. Āсаны (Йога-кāн̣д̣а, гл. 1, ст. 67–82).pdf",
     "en": "sources/Vasiṣṭha Saṃhitā. Āsanas (Yoga Kāṇḍa, ch. 1, vv. 67–82).pdf"
    }
+  },
+  {
+   "id": "manasollasa",
+   "file": "data/manasollasa.json",
+   "title": {
+    "ru": "Ма̄насолла̄са",
+    "en": "Mānasollāsa"
+   },
+   "subtitle": {
+    "ru": "варттика на «Дакшин̣а̄мӯрти-стотру» · улласа IX · ст. 24–26",
+    "en": "a vārttika on the Dakṣiṇāmūrti-stotra · ullāsa IX · vv. 24–26"
+   },
+   "tradition": {
+    "ru": "адвайта-веданта",
+    "en": "Advaita Vedānta"
+   },
+   "edition": {
+    "ru": "изд. 1895 г., с. 156–157 · изд. 2008 г., с. 119",
+    "en": "1895 edition, pp. 156–157 · 2008 edition, p. 119"
+   }
   }
  ]
 }

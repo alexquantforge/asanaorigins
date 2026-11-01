@@ -1310,6 +1310,51 @@ h1.pose-title {
 .doc-list .list-item.lvl3 { margin-left: 48px; font-size: .9rem; }
 .doc-list .list-item.lvl3::before { opacity: .5; }
 
+/* numbered steps: the source numbers them, so the site does too */
+ol.doc-list {
+  list-style: decimal;
+  padding-left: 30px;
+  margin-bottom: 1.3em;
+}
+ol.doc-list .list-item { padding-left: 2px; }
+ol.doc-list .list-item::before { content: none; }
+ol.doc-list .list-item::marker {
+  color: color-mix(in srgb, var(--accent) 80%, transparent);
+  font-size: .84rem;
+  font-variant-numeric: tabular-nums;
+}
+
+/* a code sample printed in the source (§8 of the Manasollasa) */
+.doc-code {
+  margin: 14px 0 1.3em;
+  padding: 14px 18px;
+  overflow-x: auto;
+  background: color-mix(in srgb, var(--rule) 34%, transparent);
+  border-left: 2px solid color-mix(in srgb, var(--accent) 40%, transparent);
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: .84rem;
+  line-height: 1.66;
+  color: var(--ink-2);
+  white-space: pre;
+  tab-size: 2;
+}
+.doc-list .doc-code { margin: 10px 0 6px; }
+.doc-code code { font: inherit; color: inherit; }
+
+/* Devanāgarī quotation inside a reference page */
+.about-deva {
+  margin: 0 0 1.2em;
+  font-family: var(--font-deva);
+  font-size: clamp(1.08rem, 1.6vw, 1.22rem);
+  line-height: 2;
+  color: var(--ink);
+}
+.about-deva > span {
+  display: block;
+  padding-left: 1.1em;
+  text-indent: -1.1em;
+}
+
 /* quotations from the sources */
 
 .doc-quote {
@@ -1351,6 +1396,8 @@ h1.pose-title {
   vertical-align: top;
   border-bottom: 1px solid var(--rule-soft);
 }
+/* a shelf mark or an archive.org address has no space to break at */
+.doc-table td { overflow-wrap: anywhere; }
 .doc-table th {
   font-size: .66rem;
   font-weight: 600;
