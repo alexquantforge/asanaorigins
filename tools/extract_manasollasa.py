@@ -32,6 +32,7 @@ from pathlib import Path
 import pymupdf
 
 import deva as deva_lib
+import iast as iast_lib
 import translit
 
 import sanskrit
@@ -1123,14 +1124,14 @@ TREATISE = {
         "title": "Ма̄насолла̄са. Āсаны (варттика на «Дакшин̣а̄мӯрти-стотру»)",
         "asanasTitle": "Āсаны «Ма̄насолла̄сы» (улласа IX, ст. 24–26)",
         "tradition": "адвайта-веданта · варттика",
-        "edition": "Ānandāśrama Sanskrit Series · 1895, с. 156–157 · изд. 2008 г., с. 119",
+        "edition": "Government Oriental Library Series, Bibliotheca Sanskrita No. 6 · 1895, с. 156–157 · изд. 2008 г., с. 119",
         "datingTitle": "Введение. Датировка «Ма̄насолла̄сы»",
     },
     "en": {
         "title": "Mānasollāsa. Āsanas (a vārttika on the Dakṣiṇāmūrti-stotra)",
         "asanasTitle": "Āsanas of the Mānasollāsa (ullāsa IX, vv. 24–26)",
         "tradition": "Advaita Vedānta · vārttika",
-        "edition": "Ānandāśrama Sanskrit Series · 1895, pp. 156–157 · 2008 edition, p. 119",
+        "edition": "Government Oriental Library Series, Bibliotheca Sanskrita No. 6 · 1895, pp. 156–157 · 2008 edition, p. 119",
         "datingTitle": "Introduction. The Dating of the Mānasollāsa",
     },
 }
@@ -1169,6 +1170,49 @@ def dating_summary(units, lang):
                     .replace("</strong>", "")
                 break
     return items, note
+
+
+# The English volume's §0 bullet list explains the conventions of the
+# edition itself. Two of its bullets described the old simplified spelling
+# ("sureshvara", "Devanagari") and now contradict the text around them, so
+# they are restated as the convention the site actually follows. No other
+# bullet is touched, and nothing is added to the substance.
+CONVENTIONS_EN = {
+    "<strong>Sanskrit is given in Latin transliteration":
+        "<strong>Sanskrit is given in Latin transliteration </strong>in full "
+        "IAST: the diacritics of the Sanskrit spelling are written throughout — "
+        "in headings, in the running text, in the names of the āsanas and in the "
+        "bibliography alike: Śaṅkara, Sureśvarācārya, Maṇḍana Miśra, Mānasollāsa, "
+        "Dakṣiṇāmūrti-stotra, āsana, vārttika. Devanāgarī quotations are left in "
+        "the original script.",
+    "<strong>Names of deities and words long naturalised in English":
+        "<strong>Names of deities and words long naturalised in English </strong>"
+        "— Brahmā, Viṣṇu, Rudra, Śiva, Śakti, Brahman, yoga, Sanskrit — are "
+        "transliterations of Sanskrit and keep their diacritics. Sanskrit place "
+        "names keep them as well (Vārāṇasī, Śṛṅgeri, Kāñcī, Dvārakā), while the "
+        "English forms of modern place names and the official names of "
+        "institutions and libraries are kept as printed (Mysore, Madras, Poona, "
+        "Chennai, Ramtek, Jammu).",
+}
+
+
+def patch_conventions(about):
+    hits = set()
+    for block in about:
+        items = block.get("items")
+        if not isinstance(items, list):
+            continue
+        for item in items:
+            html = item.get("html")
+            if not isinstance(html, str):
+                continue
+            for prefix, new in CONVENTIONS_EN.items():
+                if html.startswith(prefix):
+                    item["html"] = new
+                    hits.add(prefix)
+    if hits != set(CONVENTIONS_EN):
+        raise SystemExit("conventions patch: applied %d of %d"
+                         % (len(hits), len(CONVENTIONS_EN)))
 
 
 def build_lang(lang):
@@ -1214,7 +1258,7 @@ def build_lang(lang):
             "text": {lang: pose_text(lang, group, src)},
         })
 
-    return {
+    data = {
         "title": {lang: meta["title"]},
         "asanasTitle": {lang: meta["asanasTitle"]},
         "tradition": {lang: meta["tradition"]},
@@ -1222,7 +1266,14 @@ def build_lang(lang):
         "about": {lang: about},
         "dating": {lang: dating},
         "datingSummary": dating_summary_out,
-    }, poses, len(units)
+    }
+    if lang == "en":
+        # the English volume prints Sanskrit in the simplified Latin of
+        # English books; the site shows every Sanskrit word in IAST
+        data = iast_lib.fix_tree(data)
+        poses = iast_lib.fix_tree(poses)
+        patch_conventions(data["about"]["en"])
+    return data, poses, len(units)
 
 
 def merge(a, b):

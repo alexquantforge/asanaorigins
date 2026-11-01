@@ -18,8 +18,8 @@
   "en": "Advaita Vedānta · vārttika"
  },
  "edition": {
-  "ru": "Ānandāśrama Sanskrit Series · 1895, с. 156–157 · изд. 2008 г., с. 119",
-  "en": "Ānandāśrama Sanskrit Series · 1895, pp. 156–157 · 2008 edition, p. 119"
+  "ru": "Government Oriental Library Series, Bibliotheca Sanskrita No. 6 · 1895, с. 156–157 · изд. 2008 г., с. 119",
+  "en": "Government Oriental Library Series, Bibliotheca Sanskrita No. 6 · 1895, pp. 156–157 · 2008 edition, p. 119"
  },
  "pdf": {
   "ru": "sources/Ма̄насолла̄са. Āсаны (полная справка с разбором асан).pdf",
@@ -1458,11 +1458,11 @@
   "en": [
    {
     "type": "title",
-    "html": "The \"Manasollasa\" of Sureshvaracharya — A Commentary on the \"Dakshinamurti-stotra\""
+    "html": "The \"Mānasollāsa\" of Sureśvarācārya — A Commentary on the \"Dakṣiṇāmūrti-stotra\""
    },
    {
     "type": "byline",
-    "html": "<strong>A complete reference: what this text is, when it was written, what it contains, which</strong> <strong>manuscripts and editions exist, and what exactly it says about asanas</strong>"
+    "html": "<strong>A complete reference: what this text is, when it was written, what it contains, which</strong> <strong>manuscripts and editions exist, and what exactly it says about āsanas</strong>"
    },
    {
     "type": "byline",
@@ -1484,15 +1484,15 @@
     "type": "list",
     "items": [
      {
-      "html": "<strong>All Sanskrit quotations have been checked against photographs of the printed</strong> <strong>pages </strong>at original resolution (JPEG 2000 image files from the Internet Archive). The passage on asanas is given according to the 2008 edition and collated with the 1895 edition; for verses 24–26 the two editions <strong>agree word for word</strong>.",
+      "html": "<strong>All Sanskrit quotations have been checked against photographs of the printed</strong> <strong>pages </strong>at original resolution (JPEG 2000 image files from the Internet Archive). The passage on āsanas is given according to the 2008 edition and collated with the 1895 edition; for verses 24–26 the two editions <strong>agree word for word</strong>.",
       "level": 1
      },
      {
-      "html": "In the 2008 edition (p. 119) verse 24 is set as …ब्राह्ममासनम्॥२४॥ — the number follows the word immediately. Some settings of the same text show the separate form with two dandas (…ब्राह्ममासनम् ॥२४॥). This is a typographical detail; it does not affect the reading.",
+      "html": "In the 2008 edition (p. 119) verse 24 is set as …ब्राह्ममासनम्॥२४॥ — the number follows the word immediately. Some settings of the same text show the separate form with two daṇḍas (…ब्राह्ममासनम् ॥२४॥). This is a typographical detail; it does not affect the reading.",
       "level": 1
      },
      {
-      "html": "Why quotations must not be taken from the text files supplied with the scans: optical recognition of Devanagari regularly confuses similar letters and loses diacritics. This has been verified on fresh downloads: in the text files of the 1895 edition one indeed finds खरस्तिकं for स्वस्तिकं, पश्यं for पद्मं, धारं for वीरं, and नृपिहादि! for नृसि#ंहादि! — although the book itself prints the correct reading on p. 156.",
+      "html": "Why quotations must not be taken from the text files supplied with the scans: optical recognition of Devanāgarī regularly confuses similar letters and loses diacritics. This has been verified on fresh downloads: in the text files of the 1895 edition one indeed finds खरस्तिकं for स्वस्तिकं, पश्यं for पद्मं, धारं for वीरं, and नृपिहादि! for नृसि#ंहादि! — although the book itself prints the correct reading on p. 156.",
       "level": 1
      },
      {
@@ -1508,11 +1508,11 @@
       "level": 1
      },
      {
-      "html": "<strong>Sanskrit is given in Latin transliteration </strong>in the simplified form conventional in English: Shankara, Sureshvara, Mandana Mishra, Manasollasa, Dakshinamurti-stotra. Diacritics are used only where a quotation reproduces the original spelling, and in the bibliographic section (§10), where titles must match catalogue records exactly. Devanagari quotations are left in the original script.",
+      "html": "<strong>Sanskrit is given in Latin transliteration </strong>in full IAST: the diacritics of the Sanskrit spelling are written throughout — in headings, in the running text, in the names of the āsanas and in the bibliography alike: Śaṅkara, Sureśvarācārya, Maṇḍana Miśra, Mānasollāsa, Dakṣiṇāmūrti-stotra, āsana, vārttika. Devanāgarī quotations are left in the original script.",
       "level": 1
      },
      {
-      "html": "<strong>Names of deities and words long naturalised in English </strong>— Brahma, Vishnu, Rudra, Shiva, Shakti, Brahman, yoga, Sanskrit — are written without diacritics, because they are English words, not transliterations.",
+      "html": "<strong>Names of deities and words long naturalised in English </strong>— Brahmā, Viṣṇu, Rudra, Śiva, Śakti, Brahman, yoga, Sanskrit — are transliterations of Sanskrit and keep their diacritics. Sanskrit place names keep them as well (Vārāṇasī, Śṛṅgeri, Kāñcī, Dvārakā), while the English forms of modern place names and the official names of institutions and libraries are kept as printed (Mysore, Madras, Poona, Chennai, Ramtek, Jammu).",
       "level": 1
      },
      {
@@ -1535,22 +1535,22 @@
    },
    {
     "type": "h3",
-    "html": "1.1. Varttika — What the Word Means"
+    "html": "1.1. Vārttika — What the Word Means"
    },
    {
     "type": "p",
-    "html": "The \"Manasollasa\" is not an independent treatise but a <strong>varttika</strong>. The definition is given by the editor of 1895:"
+    "html": "The \"Mānasollāsa\" is not an independent treatise but a <strong>vārttika</strong>. The definition is given by the editor of 1895:"
    },
    {
     "type": "quote",
     "paragraphs": [
-     "\"'Varttika' is defined thus: Uktanukta-duruktartha-vyaktikari tu varttikam. A varttika is that which clearly explains what has been said, what has not been said, and what has been badly said.\"",
+     "\"'Vārttika' is defined thus: Uktānukta-duruktārtha-vyaktikāri tu vārttikam. A vārttika is that which clearly explains what has been said, what has not been said, and what has been badly said.\"",
      "— A. Mahadeva Sastri, preface to the first edition, 24 May 1899 (quoted from the 3rd edition, p. 5 of the preface; full description in §10)"
     ]
    },
    {
     "type": "p",
-    "html": "A varttika, then, is a genre of commentary that does not merely interpret another text but supplements and corrects it. The \"Manasollasa\" interprets a hymn of ten stanzas attributed to Shankara."
+    "html": "A vārttika, then, is a genre of commentary that does not merely interpret another text but supplements and corrects it. The \"Mānasollāsa\" interprets a hymn of ten stanzas attributed to Śaṅkara."
    },
    {
     "type": "p",
@@ -1558,16 +1558,16 @@
    },
    {
     "type": "h3",
-    "html": "1.2. What the \"Dakshinamurti-stotra\" Is"
+    "html": "1.2. What the \"Dakṣiṇāmūrti-stotra\" Is"
    },
    {
     "type": "p",
-    "html": "The hymn is known as the \"Dakshinamurti-stotra\", after the name that stands at the end of every stanza. But the title is misleading, and the editor expressly says so:"
+    "html": "The hymn is known as the \"Dakṣiṇāmūrti-stotra\", after the name that stands at the end of every stanza. But the title is misleading, and the editor expressly says so:"
    },
    {
     "type": "quote",
     "paragraphs": [
-     "\"The hymn is termed Dakshinámúrti-Stotra merely because the name Dakshinámúrti occurs in the last line of each verse as the burthen of the hymn. <strong>It is not dedicated to the worship</strong> <strong>of any form of Śiva as the title may at first sight imply. </strong>The chief object of the hymn is, as stated in the Vārtika, to expound briefly the nature of the Ātman — the highest self of man as of all other beings, its relation to the Universe, the means by which it may be realised, and the final bliss resulting from this realisation.\"",
+     "\"The hymn is termed Dakṣiṇāmūrti-stotra merely because the name Dakṣiṇāmūrti occurs in the last line of each verse as the burthen of the hymn. <strong>It is not dedicated to the worship</strong> <strong>of any form of Śiva as the title may at first sight imply. </strong>The chief object of the hymn is, as stated in the Vārttika, to expound briefly the nature of the Ātman — the highest self of man as of all other beings, its relation to the Universe, the means by which it may be realised, and the final bliss resulting from this realisation.\"",
      "— Preface to the 1895 edition, p. 4 (text keyed by volunteers of the Ambuda portal)"
     ]
    },
@@ -1578,28 +1578,28 @@
    {
     "type": "quote",
     "paragraphs": [
-     "\"In meditating upon the truths embodied in this short hymn with a view to their complete realisation, the devotee has to bear in mind the fact that the Ātman is Parameśvara, the Supreme Lord Himself, and to look upon his Guru, the spiritual teacher, as the embodiment of the Supreme Lord. The problems to which the hymn is intended to offer solutions are stated in the initial verses of the Vārtika and at the commencement of the several sections thereof. They comprise the main heads of the subject-matter of the Brahma-sūtras and are arranged in a similar order.\"",
+     "\"In meditating upon the truths embodied in this short hymn with a view to their complete realisation, the devotee has to bear in mind the fact that the Ātman is Parameśvara, the Supreme Lord Himself, and to look upon his Guru, the spiritual teacher, as the embodiment of the Supreme Lord. The problems to which the hymn is intended to offer solutions are stated in the initial verses of the Vārttika and at the commencement of the several sections thereof. They comprise the main heads of the subject-matter of the Brahma-sūtras and are arranged in a similar order.\"",
      "— ibid."
     ]
    },
    {
     "type": "p",
-    "html": "And one further observation, directly relevant to our subject (asanas):"
+    "html": "And one further observation, directly relevant to our subject (āsanas):"
    },
    {
     "type": "quote",
     "paragraphs": [
-     "\"Though the hymn discovers no mark of preference on the part of its author for the Śaiva religion in general or any particular form of it, <strong>the author of the Vārtika cannot be said to</strong> <strong>have been completely free from the influence of the Śaiva cult. He invokes Śaivic</strong> <strong>gods and goddesses at the commencement of his work and draws [on] Śaiva-Āgamas,</strong> <strong>or similar works dedicated to the Śaiva cult, for the classification and nomenclature</strong> <strong>of the principles constituting human nature and the cosmos. </strong>The details connected with the mystic practices recommended in the work may also for the most part be traced to the same source.\"",
+     "\"Though the hymn discovers no mark of preference on the part of its author for the Śaiva religion in general or any particular form of it, <strong>the author of the Vārttika cannot be said to</strong> <strong>have been completely free from the influence of the Śaiva cult. He invokes Śaivic</strong> <strong>gods and goddesses at the commencement of his work and draws [on] Śaiva-Āgamas,</strong> <strong>or similar works dedicated to the Śaiva cult, for the classification and nomenclature</strong> <strong>of the principles constituting human nature and the cosmos. </strong>The details connected with the mystic practices recommended in the work may also for the most part be traced to the same source.\"",
      "— ibid., pp. 4–5"
     ]
    },
    {
     "type": "p",
-    "html": "This is the key to the section on asanas: the classification of asanas by deity (brahma, vaishnava, raudra, shakta, shaiva) is part of that same Shaiva scheme of which the editor speaks."
+    "html": "This is the key to the section on āsanas: the classification of āsanas by deity (brāhma, vaiṣṇava, raudra, śākta, śaiva) is part of that same Śaiva scheme of which the editor speaks."
    },
    {
     "type": "p",
-    "html": "The content of the hymn itself, as it reads in the text, is a contemplation of the Atman through the image of Dakshinamurti. The ninth stanza of the hymn (in the printed edition it carries the number 19) enumerates eight principles:"
+    "html": "The content of the hymn itself, as it reads in the text, is a contemplation of the Ātman through the image of Dakṣiṇāmūrti. The ninth stanza of the hymn (in the printed edition it carries the number 19) enumerates eight principles:"
    },
    {
     "type": "deva",
@@ -1614,7 +1614,7 @@
    },
    {
     "type": "p",
-    "html": "\"The moon and the sun, the movers of time, are the prana and the apana of embodied beings; the witness is Purusha. Thus [is contemplated] this body as eightfold, [and thus is] death [overcome].\""
+    "html": "\"The moon and the sun, the movers of time, are the prāṇa and the apāna of embodied beings; the witness is Puruṣa. Thus [is contemplated] this body as eightfold, [and thus is] death [overcome].\""
    },
    {
     "type": "p",
@@ -1636,20 +1636,20 @@
    },
    {
     "type": "h3",
-    "html": "1.3. The Place of the \"Manasollasa\" among the Works of Sureshvara"
+    "html": "1.3. The Place of the \"Mānasollāsa\" among the Works of Sureśvara"
    },
    {
     "type": "quote",
     "paragraphs": [
-     "\"There is a Vārtika or commentary by Sureśvarāchārya on this hymn, named Mānasollāsa. <strong>It</strong> <strong>is one of the five Vārtikas attributed to Sureśvarāchārya.</strong>\"",
+     "\"There is a Vārttika or commentary by Sureśvarācārya on this hymn, named Mānasollāsa. <strong>It</strong> <strong>is one of the five Vārttikas attributed to Sureśvarācārya.</strong>\"",
      "— Preface to the 1895 edition, p. 3",
-     "\"Five works of the kind are attributed to Suresvaracharya, all of them having been recently published in India: (1) Manasollasa (Mysore). (2) Pranava-vartika (\"). … (4) An exposition of Sankaracharya's commentary on the Taittiriya-Upanishad (Poona, Ānandasrama Series). (5) An exposition of Sankaracharya's commentary on the Brihadaranyaka-Upanishad (Poona, Ānandasrama Series).\"",
+     "\"Five works of the kind are attributed to Sureśvarācārya, all of them having been recently published in India: (1) Mānasollāsa (Mysore). (2) Praṇava-vārttika (\"). … (4) An exposition of Śaṅkarācārya's commentary on the Taittirīya-Upaniṣad (Poona, Ānandasrama Series). (5) An exposition of Śaṅkarācārya's commentary on the Bṛhadāraṇyaka-Upaniṣad (Poona, Ānandasrama Series).\"",
      "— Preface to the first edition, 1899 (1978 edition, pp. 6–7 of the preface)"
     ]
    },
    {
     "type": "p",
-    "html": "From the same series: the \"Manasollasa\" and the \"Pranava-vartika\" were published in Mysore, and the \"Naishkarmya-siddhi\" in the \"Bombay Sanskrit Series\" (footnote ibid.)."
+    "html": "From the same series: the \"Mānasollāsa\" and the \"Praṇava-vārttika\" were published in Mysore, and the \"Naiṣkarmya-siddhi\" in the \"Bombay Sanskrit Series\" (footnote ibid.)."
    },
    {
     "type": "h3",
@@ -1657,34 +1657,34 @@
    },
    {
     "type": "p",
-    "html": "The text is divided into <strong>ullasas </strong>(उल्लास, \"wave\") — one for each of the ten stanzas of the hymn. Within each ullasa the verses are counted separately."
+    "html": "The text is divided into <strong>ullāsas </strong>(उल्लास, \"wave\") — one for each of the ten stanzas of the hymn. Within each ullāsa the verses are counted separately."
    },
    {
     "type": "p",
-    "html": "<strong>It is easy to go wrong here, so let me take an example. </strong>In the printed edition the stanzas of the hymn itself do not carry separate numbers 1–10: they are included in the continuous numbering of the ullasa's verses. Hence the ninth stanza of the hymn (the one the ninth ullasa interprets) appears as <strong>verse 19</strong>, and the verses of the varttika that follow it are 20, 21, 22, 23 and so on. The section on asanas is <strong>verses 24–26</strong>."
+    "html": "<strong>It is easy to go wrong here, so let me take an example. </strong>In the printed edition the stanzas of the hymn itself do not carry separate numbers 1–10: they are included in the continuous numbering of the ullāsa's verses. Hence the ninth stanza of the hymn (the one the ninth ullāsa interprets) appears as <strong>verse 19</strong>, and the verses of the vārttika that follow it are 20, 21, 22, 23 and so on. The section on āsanas is <strong>verses 24–26</strong>."
    },
    {
     "type": "p",
-    "html": "Hence the rule for references: 9.24 is read as \"ullasa nine, verse twenty-four\", not as \"verse 24 of the hymn\"."
+    "html": "Hence the rule for references: 9.24 is read as \"ullāsa nine, verse twenty-four\", not as \"verse 24 of the hymn\"."
    },
    {
     "type": "p",
-    "html": "The numbering in the different editions almost coincides, but not entirely. In the \"Madhuri\" edition (1987) the stanza boundaries are shifted by half a verse: the half-verse which in the 1895 edition belongs to verse 23 is marked there as ॥२४ क॥ (\"24a\"). In the English translation (1899/1978) the section on asanas appears as \"24-26\", while the closing verse निरालम्बतया ध्यानं is already assigned to number 27. A reference must therefore always state the edition."
+    "html": "The numbering in the different editions almost coincides, but not entirely. In the \"Mādhurī\" edition (1987) the stanza boundaries are shifted by half a verse: the half-verse which in the 1895 edition belongs to verse 23 is marked there as ॥२४ क॥ (\"24a\"). In the English translation (1899/1978) the section on āsanas appears as \"24-26\", while the closing verse निरालम्बतया ध्यानं is already assigned to number 27. A reference must therefore always state the edition."
    },
    {
     "type": "p",
-    "html": "<strong>Length. </strong>According to Swami Harshananda the text contains 367 shlokas:"
+    "html": "<strong>Length. </strong>According to Swami Harshananda the text contains 367 ślokas:"
    },
    {
     "type": "quote",
     "paragraphs": [
      "\"an exhaustive gloss (vārttika) by Sureśvara (A. D. 800) on the famous hymn … of Śaṅkara (A. D. 788-820)\"",
-     "— Hindupedia, article \"Mānasollāsa\": the same source states that the text contains 367 shlokas and that Ramatirtha's commentary is dated to the 17th century."
+     "— Hindupedia, article \"Mānasollāsa\": the same source states that the text contains 367 ślokas and that Rāmatīrtha's commentary is dated to the 17th century."
     ]
    },
    {
     "type": "p",
-    "html": "This is a figure taken from a reference work, not a fact verified against the editions: the available editions contain no continuous count of shlokas."
+    "html": "This is a figure taken from a reference work, not a fact verified against the editions: the available editions contain no continuous count of ślokas."
    },
    {
     "type": "h3",
@@ -1692,37 +1692,37 @@
    },
    {
     "type": "p",
-    "html": "Several different works bear the word \"Manasollasa\", and catalogues confuse them. They are listed here so that the reader does not mix them up:"
+    "html": "Several different works bear the word \"Mānasollāsa\", and catalogues confuse them. They are listed here so that the reader does not mix them up:"
    },
    {
     "type": "list",
     "items": [
      {
-      "html": "<strong>Our text </strong>— Sureshvara's varttika on the \"Dakshinamurti-stotra\".",
+      "html": "<strong>Our text </strong>— Sureśvara's vārttika on the \"Dakṣiṇāmūrti-stotra\".",
       "level": 1
      },
      {
-      "html": "<strong>\"Manasollasa-vardhini\" </strong>(मानसोल्लासवर्धिनी) — the commentary of Anantakrishna Shastri (20th c.), published in 2008.",
+      "html": "<strong>\"Mānasollāsa-vardhinī\" </strong>(मानसोल्लासवर्धिनी) — the commentary of Anantakrishna Shastri (20th c.), published in 2008.",
       "level": 1
      },
      {
-      "html": "<strong>\"Madhuri\" </strong>(माधुरी) — the commentary of Swami Maheshananda Giri (ed. 1987).",
+      "html": "<strong>\"Mādhurī\" </strong>(माधुरी) — the commentary of Swami Maheshananda Giri (ed. 1987).",
       "level": 1
      },
      {
-      "html": "<strong>The \"Manasollasa\" of Someshvara 3 </strong>— an encyclopaedia of the Western Chalukya court, 1131. A completely different work.",
+      "html": "<strong>The \"Mānasollāsa\" of Someśvara 3 </strong>— an encyclopaedia of the Western Chalukya court, 1131. A completely different work.",
       "level": 1
      },
      {
-      "html": "<strong>The \"Manasollasa\" of Appayya Dikshita </strong>— 17 verses.",
+      "html": "<strong>The \"Mānasollāsa\" of Appayya Dīkṣita </strong>— 17 verses.",
       "level": 1
      },
      {
-      "html": "<strong>The \"Manasollasa\" of Krishnananda </strong>and <strong>the \"Manasollasa\" of Govinda </strong>— other texts.",
+      "html": "<strong>The \"Mānasollāsa\" of Krishnananda </strong>and <strong>the \"Mānasollāsa\" of Govinda </strong>— other texts.",
       "level": 1
      },
      {
-      "html": "<strong>\"Jayamadhava-manasollasa\" </strong>— a work on architecture.",
+      "html": "<strong>\"Jayamādhava-mānasollāsa\" </strong>— a work on architecture.",
       "level": 1
      }
     ],
@@ -1731,7 +1731,7 @@
    },
    {
     "type": "p",
-    "html": "In Aufrecht's \"Catalogus Catalogorum\" our text appears not under its own title but under the heading \"Dakshinamurti-stotra\": \"Manasollasa … — by Sureshvara. See Dakshinamurti-stotra\" (quoted from wisdomlib, article \"Manasollasa\"). This explains why a search for the word \"Manasollasa\" in manuscript catalogues turns up mainly the encyclopaedia of Someshvara."
+    "html": "In Aufrecht's \"Catalogus Catalogorum\" our text appears not under its own title but under the heading \"Dakṣiṇāmūrti-stotra\": \"Mānasollāsa … — by Sureśvara. See Dakṣiṇāmūrti-stotra\" (quoted from wisdomlib, article \"Mānasollāsa\"). This explains why a search for the word \"Mānasollāsa\" in manuscript catalogues turns up mainly the encyclopaedia of Someśvara."
    },
    {
     "type": "h3",
@@ -1749,32 +1749,32 @@
       "What is known about them from verified sources"
      ],
      [
-      "Shankara (Shankaracharya, Adi Shankara)",
-      "Founder of Advaita Vedanta; according to the editor of 1895 the commentaries on the Upanishads, the \"Bhagavadgita\" and the \"Brahma-sutras\" are his. The hymn is attributed to him"
+      "Śaṅkara (Śaṅkarācārya, Adi Śaṅkara)",
+      "Founder of Advaita Vedānta; according to the editor of 1895 the commentaries on the Upaniṣads, the \"Bhagavadgītā\" and the \"Brahma-sūtras\" are his. The hymn is attributed to him"
      ],
      [
-      "Sureshvaracharya",
-      "\"his immediate disciple and co-worker in literary labour\" (preface to the 1899 edition); known as the varttikakara — the author of varttikas; five varttikas are attributed to him, including the \"Manasollasa\""
+      "Sureśvarācārya",
+      "\"his immediate disciple and co-worker in literary labour\" (preface to the 1899 edition); known as the vārttikakāra — the author of vārttikas; five vārttikas are attributed to him, including the \"Mānasollāsa\""
      ],
      [
-      "Mandana Mishra",
-      "Author of the \"Brahmasiddhi\"; in tradition, a Mimamsaka converted by Shankara. 1899 edition: \"the chief object of Sankaracharya's missionary wanderings was to secure the conversion of the distinguished Mimāmsaka to his own system of Vedanta\""
+      "Maṇḍana Miśra",
+      "Author of the \"Brahmasiddhi\"; in tradition, a Mīmāṃsaka converted by Śaṅkara. 1899 edition: \"the chief object of Śaṅkarācārya's missionary wanderings was to secure the conversion of the distinguished Mīmāṃsaka to his own system of Vedānta\""
      ],
      [
-      "Vachaspati Mishra",
-      "Author of the \"Nyaya-suchi-nibandha\", dated by Dasgupta to 842; he wrote a commentary on Mandana's \"Brahmasiddhi\" (Dasgupta, vol. 2)"
+      "Vācaspati Miśra",
+      "Author of the \"Nyāya-sūcī-nibandha\", dated by Dasgupta to 842; he wrote a commentary on Maṇḍana's \"Brahmasiddhi\" (Dasgupta, vol. 2)"
      ],
      [
-      "Sarvajnatman Muni",
-      "Author of the \"Samkshepa-shariraka\"; a pupil of Sureshvara (Dasgupta, vol. 2)"
+      "Sarvajñātman Muni",
+      "Author of the \"Saṃkṣepa-śārīraka\"; a pupil of Sureśvara (Dasgupta, vol. 2)"
      ],
      [
-      "Svayamprakasha Yati",
-      "Author of the \"Tattvasudha\", a commentary on the hymn itself; printed together with the \"Manasollasa\""
+      "Svayamprakāśa Yati",
+      "Author of the \"Tattvasudhā\", a commentary on the hymn itself; printed together with the \"Mānasollāsa\""
      ],
      [
-      "Ramatirtha",
-      "Author of a commentary on the varttika; 17th c., according to Harshananda"
+      "Rāmatīrtha",
+      "Author of a commentary on the vārttika; 17th c., according to Harshananda"
      ],
      [
       "A. Mahadeva Sastri",
@@ -1782,19 +1782,19 @@
      ],
      [
       "Anantakrishna Shastri",
-      "Author of the \"Manasollasa-vardhini\", d. 15 November 1964; according to the English preface of 2008: \"he wrote the 'Nyaya-chandrika' and the 'Madhva-chandrika' in order to refute respectively the positions of Nyaya and of Madhva\""
+      "Author of the \"Mānasollāsa-vardhinī\", d. 15 November 1964; according to the English preface of 2008: \"he wrote the 'Nyāya-candrikā' and the 'Madhva-candrikā' in order to refute respectively the positions of Nyāya and of Madhva\""
      ],
      [
       "Swami Maheshananda Giri",
-      "Mahamandaleshvara; commissioned the \"Vardhini\", author of the preface to the 2008 edition and of the commentary \"Madhuri\" (1987)"
+      "Mahāmaṇḍaleśvara; commissioned the \"Vardhinī\", author of the preface to the 2008 edition and of the commentary \"Mādhurī\" (1987)"
      ],
      [
-      "Dr Sachchidananda Mishra",
+      "Dr Sachchidananda Miśra",
       "Editor of the 2008 edition (Kashi Hindu University)"
      ],
      [
       "D. S. Subbaramaiya",
-      "Author of a two-volume study based on the \"Manasollasa\" and the \"Tattvasudha\" (Sringeri, 1988/1990)"
+      "Author of a two-volume study based on the \"Mānasollāsa\" and the \"Tattvasudhā\" (Śṛṅgeri, 1988/1990)"
      ],
      [
       "Swami Harshananda",
@@ -1812,7 +1812,7 @@
    },
    {
     "type": "p",
-    "html": "The \"Manasollasa\" is a philosophical commentary. Yogic material occupies a subordinate place in it, and the text says so itself:"
+    "html": "The \"Mānasollāsa\" is a philosophical commentary. Yogic material occupies a subordinate place in it, and the text says so itself:"
    },
    {
     "type": "deva",
@@ -1827,19 +1827,19 @@
    },
    {
     "type": "p",
-    "html": "\"Without [the practice of] the worship of the Atman alone, one does not attain the Atman who removes ignorance. Therefore [yoga] is set out here as a limb of yogic practice, or as its means.\""
+    "html": "\"Without [the practice of] the worship of the Ātman alone, one does not attain the Ātman who removes ignorance. Therefore [yoga] is set out here as a limb of yogic practice, or as its means.\""
    },
    {
     "type": "h3",
-    "html": "3.2. The Ninth Ullasa: Verse by Verse"
+    "html": "3.2. The Ninth Ullāsa: Verse by Verse"
    },
    {
     "type": "p",
-    "html": "Below is the composition of the ninth ullasa according to the printed edition of 1895. Verse numbers and pages are those of this edition; all quotations are taken from the scans."
+    "html": "Below is the composition of the ninth ullāsa according to the printed edition of 1895. Verse numbers and pages are those of this edition; all quotations are taken from the scans."
    },
    {
     "type": "p",
-    "html": "<strong>Verses 17–18, pp. 153–154 — the five breaths and space. </strong>The five vayus are enumerated:"
+    "html": "<strong>Verses 17–18, pp. 153–154 — the five breaths and space. </strong>The five vāyus are enumerated:"
    },
    {
     "type": "deva",
@@ -1850,11 +1850,11 @@
    },
    {
     "type": "p",
-    "html": "\"Naga causes hiccups, Kurma the closing and opening of the eyes, Krikara sneezing, Devadatta yawning.\" Verse 18 concerns akasha: आकाशो बहिरप्यन्तरवकाशं प्रयच्छति ॥१८॥."
+    "html": "\"Nāga causes hiccups, Kūrma the closing and opening of the eyes, Kṛkara sneezing, Devadatta yawning.\" Verse 18 concerns ākāśa: आकाशो बहिरप्यन्तरवकाशं प्रयच्छति ॥१८॥."
    },
    {
     "type": "p",
-    "html": "<strong>Verse 19, p. 154 — the stanza of the hymn </strong>(see §1.2): the moon and the sun as prana and apana, the witness being Purusha."
+    "html": "<strong>Verse 19, p. 154 — the stanza of the hymn </strong>(see §1.2): the moon and the sun as prāṇa and apāna, the witness being Puruṣa."
    },
    {
     "type": "p",
@@ -1869,7 +1869,7 @@
    },
    {
     "type": "p",
-    "html": "English translation (1978 edition, p. 168): \"20. Practising samanaska-yoga — this worship with the manas — the yogin, perfected in eight-limbed yoga, goes to Amanaska (Ishvara), to That which has no manas\". There follows the enumeration of the eight limbs themselves: yama, niyama, asana, pranayama, pratyahara, dharana, dhyana, samadhi."
+    "html": "English translation (1978 edition, p. 168): \"20. Practising samanaska-yoga — this worship with the manas — the yogin, perfected in eight-limbed yoga, goes to Amanaska (Īśvara), to That which has no manas\". There follows the enumeration of the eight limbs themselves: yama, niyama, āsana, prāṇāyāma, pratyāhāra, dhāraṇā, dhyāna, samādhi."
    },
    {
     "type": "p",
@@ -1898,11 +1898,11 @@
    },
    {
     "type": "p",
-    "html": "<strong>Verses 24–26, p. 156 — asanas. </strong>Fully analysed in §6."
+    "html": "<strong>Verses 24–26, p. 156 — āsanas. </strong>Fully analysed in §6."
    },
    {
     "type": "p",
-    "html": "<strong>Verse 27, p. 157 — pranayama:</strong>"
+    "html": "<strong>Verse 27, p. 157 — prāṇāyāma:</strong>"
    },
    {
     "type": "deva",
@@ -1912,11 +1912,11 @@
    },
    {
     "type": "p",
-    "html": "\"Restraint of the breath [consists of] exhalation (rechaka), inhalation (puraka) and retention (kumbhaka)\"."
+    "html": "\"Restraint of the breath [consists of] exhalation (recaka), inhalation (pūraka) and retention (kumbhaka)\"."
    },
    {
     "type": "p",
-    "html": "<strong>Verses 28–30, p. 157 — pratyahara, dharana, dhyana, samadhi:</strong>"
+    "html": "<strong>Verses 28–30, p. 157 — pratyāhāra, dhāraṇā, dhyāna, samādhi:</strong>"
    },
    {
     "type": "deva",
@@ -1936,7 +1936,7 @@
    },
    {
     "type": "p",
-    "html": "<strong>Verses 34–37, pp. 159–160 — the four signs of yoga </strong>(yoga-lakshanas), by stages:"
+    "html": "<strong>Verses 34–37, pp. 159–160 — the four signs of yoga </strong>(yoga-lakṣaṇas), by stages:"
    },
    {
     "type": "deva",
@@ -1953,7 +1953,7 @@
    },
    {
     "type": "p",
-    "html": "The signs are: (1) a decrease of impurities, health, lightness of body, a pleasant smell, a clear voice; (2) insensitivity to the tip of a thorn, not sinking in water and mud, endurance of hunger and thirst; (3) the ability to eat and drink much, to endure heat and fire, to hear at a great distance; (4) the \"leap of a frog\" on the ground, the \"leap of a monkey\" in a tree, movement through the air. This is the same set as in the later hatha texts — but here it belongs to the eight-limbed yoga of a Vedantic commentary."
+    "html": "The signs are: (1) a decrease of impurities, health, lightness of body, a pleasant smell, a clear voice; (2) insensitivity to the tip of a thorn, not sinking in water and mud, endurance of hunger and thirst; (3) the ability to eat and drink much, to endure heat and fire, to hear at a great distance; (4) the \"leap of a frog\" on the ground, the \"leap of a monkey\" in a tree, movement through the air. This is the same set as in the later haṭha texts — but here it belongs to the eight-limbed yoga of a Vedantic commentary."
    },
    {
     "type": "h3",
@@ -1967,19 +1967,19 @@
     "type": "list",
     "items": [
      {
-      "html": "<strong>There are no techniques of asanas. </strong>Only names are listed. According to the 1895 edition, the description is placed outside the text: स्वस्तिकाद्यासनानां लक्षणानि योगग्रन्थेभ्योवगन्तव्यानिQ — \"the characteristics of the asanas beginning with svastika are to be learned from yoga-texts\" (p. 157).",
+      "html": "<strong>There are no techniques of āsanas. </strong>Only names are listed. According to the 1895 edition, the description is placed outside the text: स्वस्तिकाद्यासनानां लक्षणानि योगग्रन्थेभ्योवगन्तव्यानिQ — \"the characteristics of the āsanas beginning with svastika are to be learned from yoga-texts\" (p. 157).",
       "level": 1
      },
      {
-      "html": "<strong>There is no kundalini, no bandhas and no mudras in the section on asanas </strong>— in none of the ullasas containing yogic material.",
+      "html": "<strong>There is no kuṇḍalinī, no bandhas and no mudrās in the section on āsanas </strong>— in none of the ullāsas containing yogic material.",
       "level": 1
      },
      {
-      "html": "<strong>There is no Russian translation </strong>— neither complete nor of the asana passage.",
+      "html": "<strong>There is no Russian translation </strong>— neither complete nor of the āsana passage.",
       "level": 1
      },
      {
-      "html": "<strong>There is no critical apparatus to the varttika apart from the 1895 edition. </strong>In the 2008 edition the whole volume contains two marks पाठान्तरम् (\"variant reading\"), and both are outside the section on asanas.",
+      "html": "<strong>There is no critical apparatus to the vārttika apart from the 1895 edition. </strong>In the 2008 edition the whole volume contains two marks पाठान्तरम् (\"variant reading\"), and both are outside the section on āsanas.",
       "level": 1
      }
     ]
@@ -1992,15 +1992,15 @@
     "type": "list",
     "items": [
      {
-      "html": "<strong>This is not a manual of yoga. </strong>There are no descriptions of technique, no rules of performance, no contraindications; the enumeration of asanas occupies three verses and serves as a support for the argument about the Atman, not as a practical guide.",
+      "html": "<strong>This is not a manual of yoga. </strong>There are no descriptions of technique, no rules of performance, no contraindications; the enumeration of āsanas occupies three verses and serves as a support for the argument about the Ātman, not as a practical guide.",
       "level": 1
      },
      {
-      "html": "<strong>This is not hatha yoga. </strong>The word \"hatha\" does not occur in the text; the complex of asanas, bandhas and mudras usually associated with hatha is absent here. The resemblance to later hatha texts lies only in the names of individual postures.",
+      "html": "<strong>This is not haṭha yoga. </strong>The word \"haṭha\" does not occur in the text; the complex of āsanas, bandhas and mudrās usually associated with haṭha is absent here. The resemblance to later haṭha texts lies only in the names of individual postures.",
       "level": 1
      },
      {
-      "html": "<strong>The numbering of the ullasas in the manuscripts does not match the printed one.</strong> The ullasa that is the ninth in the editions is the seventh in the Ramtek manuscript and the sixth in the Jammu manuscript (§4.4, §4.5). A reference such as \"ullasa IX\" is a reference <strong>to the printed editions</strong>.",
+      "html": "<strong>The numbering of the ullāsas in the manuscripts does not match the printed one.</strong> The ullāsa that is the ninth in the editions is the seventh in the Ramtek manuscript and the sixth in the Jammu manuscript (§4.4, §4.5). A reference such as \"ullāsa IX\" is a reference <strong>to the printed editions</strong>.",
       "level": 1
      }
     ]
@@ -2020,8 +2020,8 @@
    {
     "type": "quote",
     "paragraphs": [
-     "\"The works comprised in this volume have been edited from the following manuscripts:— <strong>I.</strong> <strong>The Text with Svayamprakāśa's commentary. </strong>— A Telugu MS. belonging to Pandit Dakshinamurti Śāstri of the Oriental Library. — A Nāgarī MS. procured by Pandit Narahari Jośyar of the Oriental Library.",
-     "— A Telugu MS. kindly lent by Pandit Gangādhara Śāstri of H. H. the Maharaja's Sanskrit College. <strong>2. The Vārtika with Rāmatīrtha's commentary. </strong>— A Grantha MS. of the Vārtika belonging to Sir K. Śeṣādri Iyer, Dewan of Mysore. <strong>This codex is very much injured, and</strong> <strong>in consequence portions of the work have also disappeared. </strong>— A Telugu MS. copy of the Vārtika kindly lent by Pandit Kāma Śāstriar of Madras. — A Grantha MS. of the Vārtika with Rāmatīrtha's commentary thereon, belonging to the Oriental Library.\"",
+     "\"The works comprised in this volume have been edited from the following manuscripts:— <strong>I.</strong> <strong>The Text with Svayamprakāśa's commentary. </strong>— A Telugu MS. belonging to Paṇḍit Dakṣiṇāmūrti Śāstri of the Oriental Library. — A Nāgarī MS. procured by Paṇḍit Narahari Jośyar of the Oriental Library.",
+     "— A Telugu MS. kindly lent by Paṇḍit Gangādhara Śāstri of H. H. the Mahārāja's Sanskrit College. <strong>2. The Vārttika with Rāmatīrtha's commentary. </strong>— A Grantha MS. of the Vārttika belonging to Sir K. Śeṣādri Iyer, Dewan of Mysore. <strong>This codex is very much injured, and</strong> <strong>in consequence portions of the work have also disappeared. </strong>— A Telugu MS. copy of the Vārttika kindly lent by Paṇḍit Kāma Śāstriar of Madras. — A Grantha MS. of the Vārttika with Rāmatīrtha's commentary thereon, belonging to the Oriental Library.\"",
      "— Preface to the 1895 edition"
     ]
    },
@@ -2032,7 +2032,7 @@
    {
     "type": "quote",
     "paragraphs": [
-     "\"The MSS. of Svayamprakāśa's commentary are indifferent; and all of them exhibit errors of commission and of omission, not purely clerical. <strong>The copies of the Vārtika, on the other</strong> <strong>hand, are good, the last being by far the best. </strong>Free as this last is from errors except a few clerical ones … it has been found a very valuable guide as furnishing a commentary which has enabled us to restore the text of the Vārtika to the form in which it was at the time of the commentator. The readings of the other two, where suggestive, have been given as foot-notes.\"",
+     "\"The MSS. of Svayamprakāśa's commentary are indifferent; and all of them exhibit errors of commission and of omission, not purely clerical. <strong>The copies of the Vārttika, on the other</strong> <strong>hand, are good, the last being by far the best. </strong>Free as this last is from errors except a few clerical ones … it has been found a very valuable guide as furnishing a commentary which has enabled us to restore the text of the Vārttika to the form in which it was at the time of the commentator. The readings of the other two, where suggestive, have been given as foot-notes.\"",
      "— ibid."
     ]
    },
@@ -2043,7 +2043,7 @@
    {
     "type": "quote",
     "paragraphs": [
-     "\"Just as I was going to send to the press the final proof of the pages of the Preface …, I came by <strong>a recently written Telugu MS. of the Mánasollása with Rāna-tīrtha's commentary,</strong> <strong>belonging to Pandit Sītārāmaśāstri of the Bangalore Sanskrit College</strong>. Though, as regards general accuracy, this MS. can hardly compare with the <strong>Grantha MS. on which the</strong> <strong>present edition is mainly based</strong>, its readings are in a few cases found decidedly superior to those of the other MS. or MSS. I note at the end of the volume not only all these readings and such variae lectiones as are otherwise deserving of notice, but also some typographical errors…\"",
+     "\"Just as I was going to send to the press the final proof of the pages of the Preface …, I came by <strong>a recently written Telugu MS. of the Mānasollāsa with Rāna-tīrtha's commentary,</strong> <strong>belonging to Paṇḍit Sītārāmaśāstri of the Bangalore Sanskrit College</strong>. Though, as regards general accuracy, this MS. can hardly compare with the <strong>Grantha MS. on which the</strong> <strong>present edition is mainly based</strong>, its readings are in a few cases found decidedly superior to those of the other MS. or MSS. I note at the end of the volume not only all these readings and such variae lectiones as are otherwise deserving of notice, but also some typographical errors…\"",
      "— ibid.; postscript dated 15 April 1895"
     ]
    },
@@ -2070,27 +2070,27 @@
      ],
      [
       "Kavikulguru Kalidas Sanskrit University, Ramtek (Maharashtra), Jnanayogi Dr Shrikant Jichkar Knowledge Resource Centre",
-      "M-1192, \"Manasollasa of Sureshvaracharya\"",
-      "18 leaves, 600 dpi, digitised under the state Namami programme, licence CC0, file 68.7 MB; Devanagari; colophon read: no date, see §4.4",
+      "M-1192, \"Mānasollāsa of Sureśvarācārya\"",
+      "18 leaves, 600 dpi, digitised under the state Namami programme, licence CC0, file 68.7 MB; Devanāgarī; colophon read: no date, see §4.4",
       "archive.org/details/NeGr_m-1192-manasollas-of-sureshvaracharya-kavikulguru-kalidas-sanskrit-university-ramtek-collection"
      ],
      [
-      "Dharma-rtha Trust at the Raghunath temple, Jammu (Gangotri collection)",
+      "Dharmārtha Trust at the Raghunātha temple, Jammu (Gaṅgotrī collection)",
       "Almari 27, shelf 1, no. 6029",
-      "125 leaves, 600 dpi, licence CC0, file 63.2 MB; Devanagari; the colophon contains a Shaka-era year, the number not read, see §4.5",
+      "125 leaves, 600 dpi, licence CC0, file 63.2 MB; Devanāgarī; the colophon contains a Śaka-era year, the number not read, see §4.5",
       "archive.org/details/ManasollasaAlm27Shlf16029DevanagariTantra"
      ],
      [
       "Government Oriental Manuscripts Library, Chennai (formerly Madras)",
       "number not established",
-      "the catalogues are digitised (Descriptive Catalogue, vols 1–13, 1901–1911 and later), but the relevant entry has not been found in the volumes checked; according to Aufrecht the text is catalogued under \"Dakshinamurti-stotra\"",
+      "the catalogues are digitised (Descriptive Catalogue, vols 1–13, 1901–1911 and later), but the relevant entry has not been found in the volumes checked; according to Aufrecht the text is catalogued under \"Dakṣiṇāmūrti-stotra\"",
       "—"
      ]
     ]
    },
    {
     "type": "p",
-    "html": "<strong>An important warning about both available manuscripts. </strong>The text file supplied by the Internet Archive for them is unusable: recognition was run with Devanagari selected, but in fact recognised Latin characters (the file metadata states the alphabet detected as Latin), and the result is garbage. The text can be read only from the images. A textual study of these two manuscripts is a separate piece of work requiring an examination of all 18 leaves and of the colophon."
+    "html": "<strong>An important warning about both available manuscripts. </strong>The text file supplied by the Internet Archive for them is unusable: recognition was run with Devanāgarī selected, but in fact recognised Latin characters (the file metadata states the alphabet detected as Latin), and the result is garbage. The text can be read only from the images. A textual study of these two manuscripts is a separate piece of work requiring an examination of all 18 leaves and of the colophon."
    },
    {
     "type": "h3",
@@ -2121,18 +2121,18 @@
      ],
      [
       "Jammu, Almari 27 no. 6029",
-      "a Shaka-era year is given, the number not read",
+      "a Śaka-era year is given, the number not read",
       "colophon partly read (§4.5)"
      ]
     ]
    },
    {
     "type": "p",
-    "html": "<strong>The conclusion that can be asserted: </strong>no verified source offers a <strong>fully dated </strong>manuscript of the \"Manasollasa\". All the datings of the text itself given in §2 are derived from the dating of the author, not from the manuscripts. But this is no longer a blank space: one manuscript has been examined and proved undated, and in the second there is a date, and it only needs to be read to the end."
+    "html": "<strong>The conclusion that can be asserted: </strong>no verified source offers a <strong>fully dated </strong>manuscript of the \"Mānasollāsa\". All the datings of the text itself given in §2 are derived from the dating of the author, not from the manuscripts. But this is no longer a blank space: one manuscript has been examined and proved undated, and in the second there is a date, and it only needs to be read to the end."
    },
    {
     "type": "p",
-    "html": "<strong>What remains to be done: </strong>to read the year number in the Jammu manuscript (§4.5); to consult the New Catalogus Catalogorum (University of Madras) under the letter \"m\"; to examine the manuscript catalogues of the Government Oriental Manuscripts Library (Chennai), the Sampurnanand Library (Varanasi), the Saraswati Mahal Library (Thanjavur), and Adyar."
+    "html": "<strong>What remains to be done: </strong>to read the year number in the Jammu manuscript (§4.5); to consult the New Catalogus Catalogorum (University of Madras) under the letter \"m\"; to examine the manuscript catalogues of the Government Oriental Manuscripts Library (Chennai), the Sampurnanand Library (Vārāṇasī), the Saraswati Mahal Library (Thanjavur), and Adyar."
    },
    {
     "type": "h3",
@@ -2151,7 +2151,7 @@
    },
    {
     "type": "p",
-    "html": "\"Thus in the 'Varttika' on the 'Dakshinamurti-stotra', [called] 'The Pacification of the Manifested', the seventh ullasa is completed. Thus [ends] the work 'Manasollasa', composed by Shri Shankaracharya.\""
+    "html": "\"Thus in the 'Vārttika' on the 'Dakṣiṇāmūrti-stotra', [called] 'The Pacification of the Manifested', the seventh ullāsa is completed. Thus [ends] the work 'Mānasollāsa', composed by Śrī Śaṅkarācārya.\""
    },
    {
     "type": "p",
@@ -2165,11 +2165,11 @@
       "level": 1
      },
      {
-      "html": "<strong>the author of the varttika is not named</strong>: the colophon names Shankara, that is, the work is ascribed to the author of the hymn, not to the author of the varttika;",
+      "html": "<strong>the author of the vārttika is not named</strong>: the colophon names Śaṅkara, that is, the work is ascribed to the author of the hymn, not to the author of the vārttika;",
       "level": 1
      },
      {
-      "html": "<strong>the count of ullasas is different</strong>: here the same ullasa is called the <strong>seventh</strong>, whereas in the printed editions it is the ninth.",
+      "html": "<strong>the count of ullāsas is different</strong>: here the same ullāsa is called the <strong>seventh</strong>, whereas in the printed editions it is the ninth.",
       "level": 1
      }
     ]
@@ -2198,7 +2198,7 @@
    },
    {
     "type": "p",
-    "html": "<strong>What the manuscript yielded in addition. </strong>First, it is not only a varttika: the incipit begins श्रीगणेशाय नमः ॥ मङ्गलं दिशतु मे विनायको…, that is, both the hymn and the varttika are copied. Second, in verse 24 stands पद्मं — the same reading as in both printed editions, and not पश्यं, which is what machine recognition of the 1895 scan produced. This is an independent confirmation of the correct reading."
+    "html": "<strong>What the manuscript yielded in addition. </strong>First, it is not only a vārttika: the incipit begins श्रीगणेशाय नमः ॥ मङ्गलं दिशतु मे विनायको…, that is, both the hymn and the vārttika are copied. Second, in verse 24 stands पद्मं — the same reading as in both printed editions, and not पश्यं, which is what machine recognition of the 1895 scan produced. This is an independent confirmation of the correct reading."
    },
    {
     "type": "p",
@@ -2210,7 +2210,7 @@
    },
    {
     "type": "p",
-    "html": "Leaf 120. In the last lines the formula … शके … can be read — a <strong>Shaka-era year </strong>is given. Before it come metrical particulars about the number of granthas, after it a wish for well-being."
+    "html": "Leaf 120. In the last lines the formula … शके … can be read — a <strong>Śaka-era year </strong>is given. Before it come metrical particulars about the number of granthas, after it a wish for well-being."
    },
    {
     "type": "p",
@@ -2218,11 +2218,11 @@
    },
    {
     "type": "p",
-    "html": "The conversion, once the number is read: the Shaka era begins in 78 CE, so Shaka year + 78 = CE (for example, 1400 Shaka is 1478 CE). A dated manuscript would give an upper bound for the text: the varttika could not have been composed later."
+    "html": "The conversion, once the number is read: the Śaka era begins in 78 CE, so Śaka year + 78 = CE (for example, 1400 Śaka is 1478 CE). A dated manuscript would give an upper bound for the text: the vārttika could not have been composed later."
    },
    {
     "type": "p",
-    "html": "<strong>On the count of ullasas. </strong>In the Jammu manuscript the same ullasa is called the <strong>sixth</strong>, in the Ramtek one the seventh, in the printed editions the ninth. Three different counts for one text: one cannot refer to the manuscripts by ullasa numbers without collating them."
+    "html": "<strong>On the count of ullāsas. </strong>In the Jammu manuscript the same ullāsa is called the <strong>sixth</strong>, in the Ramtek one the seventh, in the printed editions the ninth. Three different counts for one text: one cannot refer to the manuscripts by ullāsa numbers without collating them."
    },
    {
     "type": "h3",
@@ -2230,7 +2230,7 @@
    },
    {
     "type": "p",
-    "html": "The seven copies of the 1895 edition are not the whole corpus. <strong>Theodor Aufrecht's</strong> \"Catalogus Catalogorum\" (1891–1903), in the article \"Dakṣiṇāmūrtistotra\", lists copies of the work \"Manasollasa or Dakshinamurti-stotravarttika by Sureshvara\" under library shelf marks:"
+    "html": "The seven copies of the 1895 edition are not the whole corpus. <strong>Theodor Aufrecht's</strong> \"Catalogus Catalogorum\" (1891–1903), in the article \"Dakṣiṇāmūrtistotra\", lists copies of the work \"Mānasollāsa or Dakṣiṇāmūrti-stotravarttika by Sureśvara\" under library shelf marks:"
    },
    {
     "type": "quote",
@@ -2240,7 +2240,7 @@
    },
    {
     "type": "p",
-    "html": "In the same place, in a separate nest, copies of Ramatirtha's commentary:"
+    "html": "In the same place, in a separate nest, copies of Rāmatīrtha's commentary:"
    },
    {
     "type": "quote",
@@ -2302,11 +2302,11 @@
    },
    {
     "type": "p",
-    "html": "<strong>About NAMAMI one must speak plainly: </strong>it is there that all the manuscripts of India are registered, and it is precisely this database that could give an exact answer — how many copies of the \"Manasollasa\" exist and where they are held. <strong>It could not be checked</strong>: the domain resolves to an address, but the connection is not established. Hence a dash stands in the table, not a number. That is more honest than an estimate."
+    "html": "<strong>About NAMAMI one must speak plainly: </strong>it is there that all the manuscripts of India are registered, and it is precisely this database that could give an exact answer — how many copies of the \"Mānasollāsa\" exist and where they are held. <strong>It could not be checked</strong>: the domain resolves to an address, but the connection is not established. Hence a dash stands in the table, not a number. That is more honest than an estimate."
    },
    {
     "type": "p",
-    "html": "<strong>The practical conclusion. </strong>For textual work only two manuscripts are at present really available, and both are in Devanagari and both lack a date (in the Jammu one a year is given but not read, see §4.5). All the remaining copies, including the damaged Grantha manuscript on which the 1895 edition is built, are available only in reading rooms. Until they are collated, it is premature to assert anything about the manuscript tradition of the text."
+    "html": "<strong>The practical conclusion. </strong>For textual work only two manuscripts are at present really available, and both are in Devanāgarī and both lack a date (in the Jammu one a year is given but not read, see §4.5). All the remaining copies, including the damaged Grantha manuscript on which the 1895 edition is built, are available only in reading rooms. Until they are collated, it is premature to assert anything about the manuscript tradition of the text."
    },
    {
     "type": "h2",
@@ -2322,18 +2322,18 @@
      ],
      [
       "1895",
-      "Sanskrit: varttika + stotra + Svayamprakasha's \"Tattvasudha\" + Ramatirtha's commentary. Ed. A. Mahadeva Sastri and K. Rangacharya",
+      "Sanskrit: vārttika + stotra + Svayamprakāśa's \"Tattvasudhā\" + Rāmatīrtha's commentary. Ed. A. Mahadeva Sastri and K. Rangacharya",
       "Government Oriental Library Series, Bibliotheca Sanskrita No. 6, Mysore"
      ],
      [
       "1899",
-      "English translation with commentaries; the texts of the stotra and of the \"Dakshinamurti-upanishad\"",
+      "English translation with commentaries; the texts of the stotra and of the \"Dakṣiṇāmūrti-upaniṣad\"",
       "Madras; \"First Published 1899\" (as stated in the 3rd edition)"
      ],
      [
       "1920",
       "2nd edition",
-      "\"In this edition the Sanskrit texts of Manasollasa and Pranava-vartika have been added, while in the first edition the texts of Dakshinamurti-stotra and Dakshinamurti-Upanishad [only]\" — Preface to the Second Edition"
+      "\"In this edition the Sanskrit texts of Mānasollāsa and Praṇava-vārttika have been added, while in the first edition the texts of Dakṣiṇāmūrti-stotra and Dakṣiṇāmūrti-upaniṣad [only]\" — Preface to the Second Edition"
      ],
      [
       "1978",
@@ -2343,38 +2343,38 @@
      [
       "1905",
       "Tamil translation with commentary",
-      "Melmangalam T. Sundararaja Sarma; Sri Jnanananda Niketan, Tapovanam (Villupuram)"
+      "Melmangalam T. Sundararaja Sarma; Śrī Jnanananda Niketan, Tapovanam (Villupuram)"
      ],
      [
       "1972",
       "Kannada: transliteration and translation by Swami Sachchidanandra",
-      "Adhyatma Prakasha, Holenarasipura"
+      "Adhyātma Prakāśa, Holenarasipura"
      ],
      [
       "1987",
-      "Sanskrit + the commentary \"Madhuri\" of Swami Maheshananda Giri",
-      "Shri Dakshinamurti Math, Varanasi (the scan description gives Agra, Nirmal Chitran Press, 1987)"
+      "Sanskrit + the commentary \"Mādhurī\" of Swami Maheshananda Giri",
+      "Śrī Dakṣiṇāmūrti Math, Vārāṇasī (the scan description gives Agra, Nirmal Chitran Press, 1987)"
      ],
      [
       "1988 / 1990",
-      "D. S. Subbaramaiya, Sri Dakṣiṇāmūrtistotram: A Study Based on the Mānasollāsa and the Tattvasudhā, 2 vols",
-      "Dakshinamnaya Sri Sharada Peetham, Sringeri"
+      "D. S. Subbaramaiya, Śrī Dakṣiṇāmūrtistotram: A Study Based on the Mānasollāsa and the Tattvasudhā, 2 vols",
+      "Dakṣiṇāmnāya Śrī Śāradā Pīṭham, Śṛṅgeri"
      ],
      [
       "2008",
-      "Sanskrit + the commentary \"Manasollasa-vardhini\" of Anantakrishna Shastri (d. 15 November 1964), ed. Dr Sachchidananda Mishra; preface by Swami Maheshananda Giri",
-      "Shri Dakshinamurti Math Prakashan, Varanasi. Imprint: «प्रथमसंस्करण, विक्रमाब्द २०६५, भगवत्पादाब्द १२२०, ईस्वी सन् २००८»"
+      "Sanskrit + the commentary \"Mānasollāsa-vardhinī\" of Anantakrishna Shastri (d. 15 November 1964), ed. Dr Sachchidananda Miśra; preface by Swami Maheshananda Giri",
+      "Śrī Dakṣiṇāmūrti Math Prakashan, Vārāṇasī. Imprint: «प्रथमसंस्करण, विक्रमाब्द २०६५, भगवत्पादाब्द १२२०, ईस्वी सन् २००८»"
      ],
      [
       "(reprints)",
-      "\"Dakshinamurti Stotra … with Manasollasa and Pranava Vartika\"",
+      "\"Dakṣiṇāmūrti Stotra … with Mānasollāsa and Praṇava Vārttika\"",
       "Samata Books (1978, 3rd ed.); see also Indian reprints of the 1899/1920 editions"
      ]
     ]
    },
    {
     "type": "p",
-    "html": "<strong>A note on the 2008 imprint: </strong>«भगवत्पादाब्द १२२०» is a year in the \"era of Shankara\" (year 1220), not a historical date. Vikrama 2065 = 2008 CE."
+    "html": "<strong>A note on the 2008 imprint: </strong>«भगवत्पादाब्द १२२०» is a year in the \"era of Śaṅkara\" (year 1220), not a historical date. Vikrama 2065 = 2008 CE."
    },
    {
     "type": "p",
@@ -2390,25 +2390,25 @@
       "What it gives"
      ],
      [
-      "\"Tattvasudha\"",
-      "Svayamprakasha Yati",
+      "\"Tattvasudhā\"",
+      "Svayamprakāśa Yati",
       "16th c. (more precisely not established)",
-      "A commentary on the hymn, not on the varttika; printed together with it"
+      "A commentary on the hymn, not on the vārttika; printed together with it"
      ],
      [
-      "Ramatirtha",
-      "Ramatirtha",
+      "Rāmatīrtha",
+      "Rāmatīrtha",
       "17th c. (according to Harshananda)",
-      "A commentary on the varttika; included in the 1895 edition and determining the understanding of the text in the southern tradition"
+      "A commentary on the vārttika; included in the 1895 edition and determining the understanding of the text in the southern tradition"
      ],
      [
-      "\"Madhuri\"",
+      "\"Mādhurī\"",
       "Swami Maheshananda Giri",
       "20th c.",
-      "Padachcheda (word analysis) and a Hindi translation"
+      "Padaccheda (word analysis) and a Hindi translation"
      ],
      [
-      "\"Manasollasa-vardhini\"",
+      "\"Mānasollāsa-vardhinī\"",
       "Anantakrishna Shastri",
       "20th c.",
       "Commissioned specifically to answer the hypothesis of Abhinavagupta's authorship"
@@ -2417,7 +2417,7 @@
    },
    {
     "type": "h2",
-    "html": "6. Asanas: What the Text Says and Which Edition to Quote"
+    "html": "6. Āsanas: What the Text Says and Which Edition to Quote"
    },
    {
     "type": "h3",
@@ -2431,7 +2431,7 @@
     "type": "list",
     "items": [
      {
-      "html": "It is the <strong>first critical </strong>edition and the <strong>only </strong>one in which the varttika is provided with an apparatus of variants.",
+      "html": "It is the <strong>first critical </strong>edition and the <strong>only </strong>one in which the vārttika is provided with an apparatus of variants.",
       "level": 1
      },
      {
@@ -2439,7 +2439,7 @@
       "level": 1
      },
      {
-      "html": "The numbering of ullasas and verses coincides with that of the 2008 edition, so the reference IX.24 works for both.",
+      "html": "The numbering of ullāsas and verses coincides with that of the 2008 edition, so the reference IX.24 works for both.",
       "level": 1
      }
     ],
@@ -2452,7 +2452,7 @@
    },
    {
     "type": "h3",
-    "html": "6.4. Where to Look for Descriptions of the Asanas — and the Divergence between the Editions"
+    "html": "6.4. Where to Look for Descriptions of the Āsanas — and the Divergence between the Editions"
    },
    {
     "type": "p",
@@ -2470,7 +2470,7 @@
    },
    {
     "type": "p",
-    "html": "\"The characteristics of the asanas beginning with svastika are to be learned from yoga-texts.\""
+    "html": "\"The characteristics of the āsanas beginning with svastika are to be learned from yoga-texts.\""
    },
    {
     "type": "p",
@@ -2485,7 +2485,7 @@
    },
    {
     "type": "p",
-    "html": "\"Then he divides the asanas: 'svastika' and the rest. These kinds of asanas are to be reached through the instruction of a guru; some, beginning with padma- and vajrasana, are indicated in the yoga-upanishads.\""
+    "html": "\"Then he divides the āsanas: 'svastika' and the rest. These kinds of āsanas are to be reached through the instruction of a guru; some, beginning with padma- and vajrāsana, are indicated in the yoga-upaniṣads.\""
    },
    {
     "type": "p",
@@ -2495,7 +2495,7 @@
     "type": "list",
     "items": [
      {
-      "html": "both phrases are set within the section मानसोल्लासवार्तिकम्, that is, <strong>both editors regarded</strong> <strong>them as the text of the varttika</strong>;",
+      "html": "both phrases are set within the section मानसोल्लासवार्तिकम्, that is, <strong>both editors regarded</strong> <strong>them as the text of the vārttika</strong>;",
       "level": 1
      },
      {
@@ -2503,23 +2503,23 @@
       "level": 1
      },
      {
-      "html": "the difference concerns two points: गुरूपदेशगम्याः (\"to be reached through the instruction of a guru\") against योगग्रन्थेभ्योवगन्तव्याः (\"to be learned from yoga-texts\"), and the presence of पद्मवज्रासनादयः … योगोपनिषत्सु निर्दिष्टाः (\"beginning with padma- and vajrasana … indicated in the yoga-upanishads\"), which is entirely absent from the 1895 edition.",
+      "html": "the difference concerns two points: गुरूपदेशगम्याः (\"to be reached through the instruction of a guru\") against योगग्रन्थेभ्योवगन्तव्याः (\"to be learned from yoga-texts\"), and the presence of पद्मवज्रासनादयः … योगोपनिषत्सु निर्दिष्टाः (\"beginning with padma- and vajrāsana … indicated in the yoga-upaniṣads\"), which is entirely absent from the 1895 edition.",
       "level": 1
      }
     ]
    },
    {
     "type": "p",
-    "html": "<strong>The cause of the divergence has not been established. </strong>The possible explanations — all three as yet unverified — are: (a) different readings of different manuscripts (recall that the principal Grantha manuscript was defective and part of the text lost in it); (b) in 2008 the text of a later commentary has been mixed into the varttika; (c) in 1895 the phrase is abridged, and in 2008 given in full. The question can be settled only by collation with the Ramtek M-1192 and Jammu no. 6029 manuscripts."
+    "html": "<strong>The cause of the divergence has not been established. </strong>The possible explanations — all three as yet unverified — are: (a) different readings of different manuscripts (recall that the principal Grantha manuscript was defective and part of the text lost in it); (b) in 2008 the text of a later commentary has been mixed into the vārttika; (c) in 1895 the phrase is abridged, and in 2008 given in full. The question can be settled only by collation with the Ramtek M-1192 and Jammu no. 6029 manuscripts."
    },
    {
     "type": "p",
-    "html": "<strong>Why this matters. </strong>The statement \"the Manasollasa refers to the yoga-upanishads\" rests on the 2008 edition, not on the 1895 edition. Until the manuscripts are collated, the correct formulation is:"
+    "html": "<strong>Why this matters. </strong>The statement \"the Mānasollāsa refers to the yoga-upaniṣads\" rests on the 2008 edition, not on the 1895 edition. Until the manuscripts are collated, the correct formulation is:"
    },
    {
     "type": "quote",
     "paragraphs": [
-     "\"In the 2008 edition (Varanasi) this verse is commented upon with a reference to the yoga-upanishads; in the 1895 edition (Mysore) the reference at this point is to yoga-texts.\""
+     "\"In the 2008 edition (Vārāṇasī) this verse is commented upon with a reference to the yoga-upaniṣads; in the 1895 edition (Mysore) the reference at this point is to yoga-texts.\""
     ]
    },
    {
@@ -2549,15 +2549,15 @@
    },
    {
     "type": "p",
-    "html": "For completeness: in the 1987 edition (\"Madhuri\") the same stanza, in the word analysis (padachcheda), is set as विदुः शाक्तम् (separately), and the preceding half of the stanza is marked ॥२४ क॥. This means that the stanza boundaries there are shifted by half a verse: the verse number will coincide, but the boundaries will not."
+    "html": "For completeness: in the 1987 edition (\"Mādhurī\") the same stanza, in the word analysis (padaccheda), is set as विदुः शाक्तम् (separately), and the preceding half of the stanza is marked ॥२४ क॥. This means that the stanza boundaries there are shifted by half a verse: the verse number will coincide, but the boundaries will not."
    },
    {
     "type": "h3",
-    "html": "6.6. Separately: पश्चिमतानक — Not \"Pashchimottanasana\""
+    "html": "6.6. Separately: पश्चिमतानक — Not \"Paścimottānāsana\""
    },
    {
     "type": "p",
-    "html": "पश्चिमतानक (pashchima-tanaka, literally \"that which stretches the back [of the body]\") is classified in the text as a <strong>shaiva </strong>posture. In the later hatha tradition the name has not survived in this form, and the modern \"pashchimottanasana\" is a different formation ( पश्चिमोत्तान). They must not be identified. This is a case where \"similar\" does not mean \"the same\"."
+    "html": "पश्चिमतानक (paścima-tanaka, literally \"that which stretches the back [of the body]\") is classified in the text as a <strong>śaiva </strong>posture. In the later haṭha tradition the name has not survived in this form, and the modern \"paścimottānāsana\" is a different formation ( पश्चिमोत्तान). They must not be identified. This is a case where \"similar\" does not mean \"the same\"."
    },
    {
     "type": "h2",
@@ -2571,11 +2571,11 @@
     "type": "list",
     "items": [
      {
-      "html": "<strong>The dating of the manuscripts. </strong>No verified source offers a dated manuscript of the \"Manasollasa\". The colophons of Ramtek M-1192 and Jammu no. 6029 are needed, together with a search in the New Catalogus Catalogorum.",
+      "html": "<strong>The dating of the manuscripts. </strong>No verified source offers a dated manuscript of the \"Mānasollāsa\". The colophons of Ramtek M-1192 and Jammu no. 6029 are needed, together with a search in the New Catalogus Catalogorum.",
       "level": 1
      },
      {
-      "html": "<strong>The cause of the divergence in the commentary on verse 24 </strong>(yoga-texts against guru and yoga-upanishads).",
+      "html": "<strong>The cause of the divergence in the commentary on verse 24 </strong>(yoga-texts against guru and yoga-upaniṣads).",
       "level": 1
      },
      {
@@ -2587,7 +2587,7 @@
       "level": 1
      },
      {
-      "html": "<strong>The number of shlokas </strong>(367) — a figure from a reference work; the available editions contain no continuous count. 6.",
+      "html": "<strong>The number of ślokas </strong>(367) — a figure from a reference work; the available editions contain no continuous count. 6.",
       "level": 1
      }
     ],
@@ -2596,7 +2596,7 @@
    },
    {
     "type": "p",
-    "html": "<strong>The precise date of Svayamprakasha's \"Tattvasudha\" </strong>— the 16th century is repeated in the literature, but no substantiation of it is to be found either in the prefaces to the editions of 1895, 1978 and 2008 or in the accessible catalogues. The statement is left without support in a source and requires verification against the colophons of the \"Tattvasudha\" manuscripts."
+    "html": "<strong>The precise date of Svayamprakāśa's \"Tattvasudhā\" </strong>— the 16th century is repeated in the literature, but no substantiation of it is to be found either in the prefaces to the editions of 1895, 1978 and 2008 or in the accessible catalogues. The statement is left without support in a source and requires verification against the colophons of the \"Tattvasudhā\" manuscripts."
    },
    {
     "type": "h2",
@@ -2646,11 +2646,11 @@
       "Meaning"
      ],
      [
-      "varttika (वार्त्तिक)",
+      "vārttika (वार्त्तिक)",
       "a genre of commentary: it explains what has been said, supplies what has not been said, and corrects what has been badly said (definition in §1.1)"
      ],
      [
-      "ullasa (उल्लास)",
+      "ullāsa (उल्लास)",
       "\"wave\"; a unit of division of the text, one for each stanza of the hymn"
      ],
      [
@@ -2658,43 +2658,43 @@
       "a hymn, a text of praise"
      ],
      [
-      "bhashya (भाष्य)",
-      "a commentary on a base text (more independent than a varttika)"
+      "bhāṣya (भाष्य)",
+      "a commentary on a base text (more independent than a vārttika)"
      ],
      [
-      "Advaita Vedanta",
-      "non-dual Vedanta: the doctrine of the identity of the Atman and the Brahman"
+      "Advaita Vedānta",
+      "non-dual Vedānta: the doctrine of the identity of the Ātman and the Brahman"
      ],
      [
-      "Atman / Brahman",
+      "Ātman / Brahman",
       "the individual self / the absolute principle"
      ],
      [
-      "avidya",
-      "ignorance, because of which the Atman is not recognised"
+      "avidyā",
+      "ignorance, because of which the Ātman is not recognised"
      ],
      [
-      "mahavakya",
-      "a \"great saying\" of the Upanishads, for example \"tat tvam asi\""
+      "mahāvākya",
+      "a \"great saying\" of the Upaniṣads, for example \"tat tvam asi\""
      ],
      [
-      "shabda-aparoksha",
-      "immediate knowledge arising from a word (from a saying of the Upanishads)"
+      "śabda-aparokṣa",
+      "immediate knowledge arising from a word (from a saying of the Upaniṣads)"
      ],
      [
-      "sphota",
+      "sphoṭa",
       "the doctrine that the meaning of a word manifests in the sound as a whole"
      ],
      [
-      "Bhamati / Vivarana",
-      "two sub-schools of Advaita, differing among other things in where avidya is located"
+      "Bhāmatī / Vivaraṇa",
+      "two sub-schools of Advaita, differing among other things in where avidyā is located"
      ],
      [
-      "padachcheda",
+      "padaccheda",
       "the analysis of a continuous text into separate words"
      ],
      [
-      "Devanagari, Grantha, Telugu",
+      "Devanāgarī, Grantha, Telugu",
       "the scripts in which the manuscripts are written"
      ],
      [
@@ -2714,8 +2714,8 @@
       "\"the boundary before which\": a date later than which the text cannot have been written"
      ],
      [
-      "shaiva, vaishnava, raudra, shakta, brahma",
-      "relating respectively to Shiva, Vishnu, Rudra, Shakti, Brahma"
+      "śaiva, vaiṣṇava, raudra, śākta, brāhma",
+      "relating respectively to Śiva, Viṣṇu, Rudra, Śakti, Brahmā"
      ]
     ]
    },
@@ -2731,7 +2731,7 @@
     "type": "list",
     "items": [
      {
-      "html": "Dakshinamurti Stotra of Sri Sankaracharya with Svayamprakasa's Tattvasudha and Suresvara's Manasollasa with Ramatirtha's commentary, ed. A. Mahadeva Sastri, K. Rangacharya, Mysore 1895 (Bibliotheca Sanskrita No. 6): archive.org/details/Dakshinamurti.Stotra.of.Sri.Sankaracharya.with.Commentaries; second scan: archive.org/details/in.ernet.dli.2015.496622",
+      "html": "Dakṣiṇāmūrti Stotra of Śrī Śaṅkarācārya with Svayamprakāśa's Tattvasudhā and Sureśvara's Mānasollāsa with Rāmatīrtha's commentary, ed. A. Mahadeva Sastri, K. Rangacharya, Mysore 1895 (Bibliotheca Sanskrita No. 6): archive.org/details/Dakshinamurti.Stotra.of.Sri.Sankaracharya.with.Commentaries; second scan: archive.org/details/in.ernet.dli.2015.496622",
       "level": 1
      },
      {
@@ -2747,7 +2747,7 @@
       "level": 1
      },
      {
-      "html": "\"Madhuri\", 1987: archive.org/details/qVZP_manasollasa-by-sureshwara-acharya-with-commentary-of-madhuri-by-mahesha-ananda-g",
+      "html": "\"Mādhurī\", 1987: archive.org/details/qVZP_manasollasa-by-sureshwara-acharya-with-commentary-of-madhuri-by-mahesha-ananda-g",
       "level": 1
      },
      {
@@ -2793,7 +2793,7 @@
     "type": "list",
     "items": [
      {
-      "html": "S. N. Dasgupta, A History of Indian Philosophy, vol. II, 1932 (the chapter on the Shankara school; text: wisdomlib.org/hinduism/book/a-history-of-indian-philosophy-volume-2/d/doc209874.html)",
+      "html": "S. N. Dasgupta, A History of Indian Philosophy, vol. II, 1932 (the chapter on the Śaṅkara school; text: wisdomlib.org/hinduism/book/a-history-of-indian-philosophy-volume-2/d/doc209874.html)",
       "level": 1
      },
      {
@@ -2846,7 +2846,7 @@
     "type": "list",
     "items": [
      {
-      "html": "The Original Śaṅkarācārya, easterntradition.org (traditional dates according to the guru-paramparas)",
+      "html": "The Original Śaṅkarācārya, easterntradition.org (traditional dates according to the guru-paramparās)",
       "level": 1
      },
      {
@@ -2854,11 +2854,11 @@
       "level": 1
      },
      {
-      "html": "Hindu Blog, \"Manasollasa of Sureshvara\", 2024",
+      "html": "Hindu Blog, \"Mānasollāsa of Sureśvara\", 2024",
       "level": 1
      },
      {
-      "html": "wisdomlib, article \"Manasollasa\" (after Aufrecht, Catalogus Catalogorum)",
+      "html": "wisdomlib, article \"Mānasollāsa\" (after Aufrecht, Catalogus Catalogorum)",
       "level": 1
      }
     ]
@@ -3243,7 +3243,7 @@
     },
     {
      "type": "p",
-     "html": "<strong>No separate study of the dating of the \"Manasollasa\" exists. </strong>All existing datings are derivative: first the author, Sureshvaracharya, is dated, and then the date is transferred to the text. And the dating of Sureshvara depends on two things: which date for Shankara is accepted, and whether the identity of Sureshvara with Mandana Mishra is admitted."
+     "html": "<strong>No separate study of the dating of the \"Mānasollāsa\" exists. </strong>All existing datings are derivative: first the author, Sureśvarācārya, is dated, and then the date is transferred to the text. And the dating of Sureśvara depends on two things: which date for Śaṅkara is accepted, and whether the identity of Sureśvara with Maṇḍana Miśra is admitted."
     },
     {
      "type": "p",
@@ -3252,7 +3252,7 @@
     {
      "type": "quote",
      "paragraphs": [
-      "\"Notwithstanding the attempts of several oriental scholars to fix the date of Śaṅkarāchārya, there has been a certain amount of uncertainty regarding it, the date assigned to him varying from the sixth century before Christ to the eighth century A. D. The date of Sureśvarāchārya, closely connected as it is with that of his reputed teacher, has not been more satisfactorily settled.\"",
+      "\"Notwithstanding the attempts of several oriental scholars to fix the date of Śaṅkarācārya, there has been a certain amount of uncertainty regarding it, the date assigned to him varying from the sixth century before Christ to the eighth century A. D. The date of Sureśvarācārya, closely connected as it is with that of his reputed teacher, has not been more satisfactorily settled.\"",
       "— Preface to the 1895 edition, p. 3 (keyed by the Ambuda portal)"
      ]
     },
@@ -3263,7 +3263,7 @@
     {
      "type": "quote",
      "paragraphs": [
-      "\"<strong>Nowhere in the hymn or the commentary is the author of either mentioned by name.</strong> The commentator refers in his Vārtika to the author of the hymn by mere general terms such as Kavi (author) and Guru (teacher). The style and the subject-matter, however, of the two works incline us to believe in their genuineness.\"",
+      "\"<strong>Nowhere in the hymn or the commentary is the author of either mentioned by name.</strong> The commentator refers in his Vārttika to the author of the hymn by mere general terms such as Kavi (author) and Guru (teacher). The style and the subject-matter, however, of the two works incline us to believe in their genuineness.\"",
       "— ibid."
      ]
     },
@@ -3288,38 +3288,38 @@
        "Argument"
       ],
       [
-       "Shankara born 509 BCE",
-       "Guru-paramparas of the Kalika Matha (Dvaraka) and the Sharada Matha (Kanchi)",
-       "\"The list of the Kalika Matha in the West gives 2631 of the Yudhishthira era for the birth of Shankara, which corresponds to 509 BCE\"; the Kanchi list gives 2593 of the Kali yuga, that is, the same 509 BCE"
+       "Śaṅkara born 509 BCE",
+       "Guru-paramparās of the Kālikā Maṭha (Dvārakā) and the Śāradā Maṭha (Kāñcī)",
+       "\"The list of the Kālikā Maṭha in the West gives 2631 of the Yudhiṣṭhira era for the birth of Śaṅkara, which corresponds to 509 BCE\"; the Kāñcī list gives 2593 of the Kali yuga, that is, the same 509 BCE"
       ],
       [
-       "Shankara born 44 BCE",
-       "The list of the Shringeri Matha",
+       "Śaṅkara born 44 BCE",
+       "The list of the Śṛṅgeri Maṭha",
        "3058 of the Kali yuga; the source itself admits that the list is defective: \"counting only 35 successors, it gives an implausible reign of 785 years for the second successor\""
       ],
       [
-       "Shankara 788–820 CE",
+       "Śaṅkara 788–820 CE",
        "The \"traditional\" date of the school; going back to the chronogram of K. B. Pathak, 1882",
-       "\"K. B. Pathak published in 1882 a chronogram from a little-known manuscript, giving dates corresponding to 788 CE for Shankara's birth and 820 for his death\""
+       "\"K. B. Pathak published in 1882 a chronogram from a little-known manuscript, giving dates corresponding to 788 CE for Śaṅkara's birth and 820 for his death\""
       ]
      ]
     },
     {
      "type": "p",
-     "html": "All three quotations are from The Original Śaṅkarācārya (easterntradition.org), where the guru-parampara data are collected."
+     "html": "All three quotations are from The Original Śaṅkarācārya (easterntradition.org), where the guru-paramparā data are collected."
     },
     {
      "type": "h3",
-     "html": "2.3. The Camp of \"Shankara 788–820 ⇒ Sureshvara c. 800\""
+     "html": "2.3. The Camp of \"Śaṅkara 788–820 ⇒ Sureśvara c. 800\""
     },
     {
      "type": "p",
-     "html": "<strong>S. N. Dasgupta</strong>, A History of Indian Philosophy, vol. 2 (1932), the chapter on the Shankara school. Dates: Sureshvara — 800 CE, Sarvajnatman — 900 CE. Arguments:"
+     "html": "<strong>S. N. Dasgupta</strong>, A History of Indian Philosophy, vol. 2 (1932), the chapter on the Śaṅkara school. Dates: Sureśvara — 800 CE, Sarvajñātman — 900 CE. Arguments:"
     },
     {
      "type": "quote",
      "paragraphs": [
-      "\"Hence there seems to be no reason why the traditionally accepted view that Śaṅkara was born in Samvat 844, or A.D. 788, or Kali age 3889, should be given up.\"",
+      "\"Hence there seems to be no reason why the traditionally accepted view that Śaṅkara was born in Saṃvat 844, or A.D. 788, or Kali age 3889, should be given up.\"",
       "\"Taking the approximate date of Śaṅkara's death to be about A.D. 820 and taking into consideration that Sureśvara, the teacher of Sarvajñātman, occupied his high pontifical position for a long time, the supposition that Sarvajñātman lived in A.D. 900 may not be very far wrong.\"",
       "\"…Vācaspati, who probably wrote his earlier work the Nyāya-sūcī-nibandha in A.D. 842, also wrote his commentary on Maṇḍana's Brahma-siddhi when Sureśvara was occupying the pontifical position.\""
      ]
@@ -3346,11 +3346,11 @@
      "type": "list",
      "items": [
       {
-       "html": "<strong>Swami Harshananda </strong>— \"Sureshvara (A. D. 800)\" (Hindupedia, article \"Mānasollāsa\");",
+       "html": "<strong>Swami Harshananda </strong>— \"Sureśvara (A. D. 800)\" (Hindupedia, article \"Mānasollāsa\");",
        "level": 1
       },
       {
-       "html": "<strong>Hindu Blog</strong>, article \"Manasollasa of Sureshvara\" (2024) — \"written by Sureshvara around 800 CE\";",
+       "html": "<strong>Hindu Blog</strong>, article \"Mānasollāsa of Sureśvara\" (2024) — \"written by Sureśvara around 800 CE\";",
        "level": 1
       },
       {
@@ -3361,7 +3361,7 @@
     },
     {
      "type": "h3",
-     "html": "2.4. The Camp of \"Shankara c. 700 ⇒ Sureshvara early 8th Century\""
+     "html": "2.4. The Camp of \"Śaṅkara c. 700 ⇒ Sureśvara early 8th Century\""
     },
     {
      "type": "table",
@@ -3373,27 +3373,27 @@
       ],
       [
        "Paul Hacker",
-       "Shankara \"c. 700 CE\" — the first to say so",
+       "Śaṅkara \"c. 700 CE\" — the first to say so",
        "\"Zur Geschichte und Beurteilung des Hinduismus\", OLZ 59 (1964), col. 231"
       ],
       [
        "Allen W. Thrasher",
-       "Mandana and Shankara c. 700",
+       "Maṇḍana and Śaṅkara c. 700",
        "\"The Dates of Maṇḍana Miśra and Śaṅkara\", WZKS 23 (1979), pp. 117–139"
       ],
       [
        "Karl H. Potter",
-       "Mandana \"660–720 CE\"; Shankara — \"late 7th to early 8th century\"",
+       "Maṇḍana \"660–720 CE\"; Śaṅkara — \"late 7th to early 8th century\"",
        "Encyclopedia of Indian Philosophies: Advaita Vedānta (1981), pp. 346 and 116"
       ],
       [
        "Carmen Dragonetti and Fernando Tola",
-       "Mandana and Shankara 660–790",
+       "Maṇḍana and Śaṅkara 660–790",
        "\"On the Date of Maṇḍana Miśra and Śaṅkara and their Doctrinal Relation\", ABORI (1989)"
       ],
       [
        "Hajime Nakamura",
-       "Shankara 700–750",
+       "Śaṅkara 700–750",
        "A History of Early Vedānta Philosophy, Part I (1983/1990), pp. 48–88; a special section \"On the relation of the dates of Sureśvara and Śaṅkara\", p. 72"
       ]
      ]
@@ -3405,7 +3405,7 @@
     {
      "type": "quote",
      "paragraphs": [
-      "\"Maṇḍana Miśra must have lived around A.D. 660-720\" (p. 346); Shankara — \"late seventh and early eighth centuries\" (p. 116).",
+      "\"Maṇḍana Miśra must have lived around A.D. 660-720\" (p. 346); Śaṅkara — \"late seventh and early eighth centuries\" (p. 116).",
       "— Potter, Encyclopedia of Indian Philosophies, vol. 3, as reported by Dragonetti and Tola",
       "\"Both Maṇḍana Miśra and Śaṅkara likely lived between 660-790 A.D.\"; \"Maṇḍana Miśra critiques Śaṅkara's ideas in his works, indicating contemporaneity\"; the authors also note \"the limitations of asserting one philosopher influenced the other\".",
       "— Dragonetti and Tola, ABORI, 1989, abstract",
@@ -3421,7 +3421,7 @@
     },
     {
      "type": "h3",
-     "html": "2.5. The Dispute on Which Everything Depends: Sureshvara = Mandana?"
+     "html": "2.5. The Dispute on Which Everything Depends: Sureśvara = Maṇḍana?"
     },
     {
      "type": "p",
@@ -3435,7 +3435,7 @@
      "type": "list",
      "items": [
       {
-       "html": "<strong>M. Hiriyanna</strong>, \"Sureśvara and Maṇḍana-Miśra\", JRAS 55/2 (April 1923), pp. 259–263; continuation ibid., 56/1 (1924), pp. 96–97. Arguments: doctrinal divergences, and the Shringeri tradition, in which Mandana and Sureshvara are different persons.",
+       "html": "<strong>M. Hiriyanna</strong>, \"Sureśvara and Maṇḍana-Miśra\", JRAS 55/2 (April 1923), pp. 259–263; continuation ibid., 56/1 (1924), pp. 96–97. Arguments: doctrinal divergences, and the Śṛṅgeri tradition, in which Maṇḍana and Sureśvara are different persons.",
        "level": 1
       },
       {
@@ -3464,7 +3464,7 @@
        "level": 1
       },
       {
-       "html": "<strong>The Shringeri Matha </strong>— officially, in the documents of the matha and in hagiographies.",
+       "html": "<strong>The Śṛṅgeri Maṭha </strong>— officially, in the documents of the maṭha and in hagiographies.",
        "level": 1
       }
      ]
@@ -3477,15 +3477,15 @@
      "type": "list",
      "items": [
       {
-       "html": "<strong>where avidya </strong>(ignorance) is located: in Mandana it is in the jiva (the individual being), in Sureshvara in Brahman. This reflects the two sub-schools of Advaita — Bhamati and Vivarana;",
+       "html": "<strong>where avidyā </strong>(ignorance) is located: in Maṇḍana it is in the jīva (the individual being), in Sureśvara in Brahman. This reflects the two sub-schools of Advaita — Bhāmatī and Vivaraṇa;",
        "level": 1
       },
       {
-       "html": "<strong>the role of meditation</strong>: for Mandana, knowledge from the mahavakya (\"great sayings\" of the Upanishads) alone is not enough, meditation is required; for Sureshvara knowledge liberates directly, and meditation is an aid;",
+       "html": "<strong>the role of meditation</strong>: for Maṇḍana, knowledge from the mahāvākya (\"great sayings\" of the Upaniṣads) alone is not enough, meditation is required; for Sureśvara knowledge liberates directly, and meditation is an aid;",
        "level": 1
       },
       {
-       "html": "<strong>the attitude to sphota </strong>(the doctrine that the meaning of a word manifests in the sound as such): Mandana accepts shabdadvaita, Sureshvara ignores it.",
+       "html": "<strong>the attitude to sphoṭa </strong>(the doctrine that the meaning of a word manifests in the sound as such): Maṇḍana accepts śabdādvaita, Sureśvara ignores it.",
        "level": 1
       }
      ]
@@ -3496,7 +3496,7 @@
     },
     {
      "type": "p",
-     "html": "In the ninth ullasa, in the commentary on verse 23½, the author refers to <strong>his own</strong> commentary on Mandana's \"Brahmasiddhi\". Reading from the scan of the 2008 edition, p. 119 (sources/scans/mss/2008-str119-celekom.png):"
+     "html": "In the ninth ullāsa, in the commentary on verse 23½, the author refers to <strong>his own</strong> commentary on Maṇḍana's \"Brahmasiddhi\". Reading from the scan of the 2008 edition, p. 119 (sources/scans/mss/2008-str119-celekom.png):"
     },
     {
      "type": "deva",
@@ -3508,7 +3508,7 @@
     },
     {
      "type": "p",
-     "html": "\"Thus, <strong>the doctrine of Maṇḍana is accepted by Sureshvara too</strong>; and, following from it, the doctrine of shabda-aparoksha (immediate knowledge arising from the word). This is set out in detail in the 'Brahmasiddhi' and <strong>in our own bhumika </strong>to it.\""
+     "html": "\"Thus, <strong>the doctrine of Maṇḍana is accepted by Sureśvara too</strong>; and, following from it, the doctrine of śabda-aparokṣa (immediate knowledge arising from the word). This is set out in detail in the 'Brahmasiddhi' and <strong>in our own bhūmikā </strong>to it.\""
     },
     {
      "type": "p",
@@ -3544,7 +3544,7 @@
     {
      "type": "quote",
      "paragraphs": [
-      "— \"Some modern [scholars] have regarded this stotra as a text of Abhinavagupta's Pratyabhijna-darshana\" (p. i). It was precisely to answer this that the commentary \"Manasollasa-vardhini\" was commissioned."
+      "— \"Some modern [scholars] have regarded this stotra as a text of Abhinavagupta's Pratyabhijñā-darśana\" (p. i). It was precisely to answer this that the commentary \"Mānasollāsa-vardhinī\" was commissioned."
      ]
     },
     {
@@ -3554,12 +3554,12 @@
     {
      "type": "quote",
      "paragraphs": [
-      "— \"From the historical point of view Mandana was a predecessor of the Acharya [Shankara]\" (p. ii)."
+      "— \"From the historical point of view Maṇḍana was a predecessor of the Ācārya [Śaṅkara]\" (p. ii)."
      ]
     },
     {
      "type": "p",
-     "html": "The counter-argument against the identification, given in the same place: in the \"Brihadaranyaka-varttika\" Mandana is spoken of in the third person with the pejorative पण्डितम्मन्य (\"one who fancies himself learned\"), which no one writes of himself."
+     "html": "The counter-argument against the identification, given in the same place: in the \"Bṛhadāraṇyaka-vārttika\" Maṇḍana is spoken of in the third person with the pejorative पण्डितम्मन्य (\"one who fancies himself learned\"), which no one writes of himself."
     },
     {
      "type": "h3",
@@ -3572,12 +3572,12 @@
     {
      "type": "quote",
      "paragraphs": [
-      "The \"Manasollasa\" is dated by its author, Sureshvaracharya, and not by internal data of the text. Depending on the date of Shankara accepted (788–820 or c. 700) and on the outcome of the dispute over the identification of Sureshvara with Mandana Mishra, the text is assigned either to the <strong>early 8th century (c. 700–730) </strong>or to the <strong>8th–9th centuries</strong>. There is no independent dating of the text on internal grounds in the literature."
+      "The \"Mānasollāsa\" is dated by its author, Sureśvarācārya, and not by internal data of the text. Depending on the date of Śaṅkara accepted (788–820 or c. 700) and on the outcome of the dispute over the identification of Sureśvara with Maṇḍana Miśra, the text is assigned either to the <strong>early 8th century (c. 700–730) </strong>or to the <strong>8th–9th centuries</strong>. There is no independent dating of the text on internal grounds in the literature."
      ]
     },
     {
      "type": "p",
-     "html": "A supporting boundary that does not depend on the dispute: <strong>Vachaspati Mishra</strong>, writing according to Dasgupta in 842, quotes Sureshvara — which gives an upper bound (\"terminus ante quem\") in the 9th century."
+     "html": "A supporting boundary that does not depend on the dispute: <strong>Vācaspati Miśra</strong>, writing according to Dasgupta in 842, quotes Sureśvara — which gives an upper bound (\"terminus ante quem\") in the 9th century."
     }
    ]
   }
@@ -3591,7 +3591,7 @@
     },
     "when": {
      "ru": "Ш́ан̇кара «ок. 700 г. н. э.» — первым",
-     "en": "Shankara \"c. 700 CE\" — the first to say so"
+     "en": "Śaṅkara \"c. 700 CE\" — the first to say so"
     },
     "work": {
      "ru": "«К истории и оценке индуизма», «Восточная литературная газета» 59 (1964), стлб. 231",
@@ -3605,7 +3605,7 @@
     },
     "when": {
      "ru": "Ман̣д̣ана и Ш́ан̇кара ок. 700",
-     "en": "Mandana and Shankara c. 700"
+     "en": "Maṇḍana and Śaṅkara c. 700"
     },
     "work": {
      "ru": "«Даты Ман̣д̣аны Миш́ры и Ш́ан̇кары», «Венский журнал изучения Южной Азии» 23 (1979), с. 117–139",
@@ -3619,7 +3619,7 @@
     },
     "when": {
      "ru": "Ман̣д̣ана «660–720 гг. н. э.»; Ш́ан̇кара — «конец 7 — начало 8 в.»",
-     "en": "Mandana \"660–720 CE\"; Shankara — \"late 7th to early 8th century\""
+     "en": "Maṇḍana \"660–720 CE\"; Śaṅkara — \"late 7th to early 8th century\""
     },
     "work": {
      "ru": "«Энциклопедия индийских философий: адвайта-веданта» (1981), с. 346 и 116",
@@ -3633,7 +3633,7 @@
     },
     "when": {
      "ru": "Ман̣д̣ана и Ш́ан̇кара 660–790",
-     "en": "Mandana and Shankara 660–790"
+     "en": "Maṇḍana and Śaṅkara 660–790"
     },
     "work": {
      "ru": "«О датировке Ман̣д̣аны Миш́ры и Ш́ан̇кары и их доктринальном отношении», «Анналы Института востоковедения» (1989)",
@@ -3647,7 +3647,7 @@
     },
     "when": {
      "ru": "Ш́ан̇кара 700–750",
-     "en": "Shankara 700–750"
+     "en": "Śaṅkara 700–750"
     },
     "work": {
      "ru": "«История ранней веданты», ч. I (1983/1990), с. 48–88; специальный раздел «Об отношении дат Суреш́вары и Ш́ан̇кары», с. 72",
@@ -3657,7 +3657,7 @@
   ],
   "note": {
    "ru": "«Ма̄насолла̄са» датируется по её автору, Суреш́варача̄рйе, а не по внутренним данным текста. В зависимости от принимаемой даты Ш́ан̇кары (788–820 либо ок. 700) и от решения спора об отождествлении Суреш́вары с Ман̣д̣аной Миш́рой текст относят к началу 8 в. (ок. 700–730) либо к 8–9 вв. Собственной датировки по внутренним признакам текста в литературе нет.",
-   "en": "The \"Manasollasa\" is dated by its author, Sureshvaracharya, and not by internal data of the text. Depending on the date of Shankara accepted (788–820 or c. 700) and on the outcome of the dispute over the identification of Sureshvara with Mandana Mishra, the text is assigned either to the early 8th century (c. 700–730) or to the 8th–9th centuries. There is no independent dating of the text on internal grounds in the literature."
+   "en": "The \"Mānasollāsa\" is dated by its author, Sureśvarācārya, and not by internal data of the text. Depending on the date of Śaṅkara accepted (788–820 or c. 700) and on the outcome of the dispute over the identification of Sureśvara with Maṇḍana Miśra, the text is assigned either to the early 8th century (c. 700–730) or to the 8th–9th centuries. There is no independent dating of the text on internal grounds in the literature."
   }
  },
  "prologue": {
@@ -3778,13 +3778,13 @@
       "key": "translation",
       "label": "Translation",
       "paragraphs": [
-       "Svastika, gomukha, padma, hamsa — the brahma-asana."
+       "Svastika, gomukha, padma, haṃsa — the brāhma-āsana."
       ]
      },
      {
       "type": "quote",
       "paragraphs": [
-       "24-26. Svastika, Gomukha, Padma, Hamsa — these are the Brahmic postures (Asanas)."
+       "24-26. Svastika, Gomukha, Padma, Haṃsa — these are the Brahmic postures (Āsanas)."
       ]
      },
      {
@@ -3797,7 +3797,7 @@
      },
      {
       "type": "p",
-      "html": "The group of four asanas beginning with svastika is the brahma one, that is, having Brahma as its deity."
+      "html": "The group of four āsanas beginning with svastika is the brāhma one, that is, having Brahmā as its deity."
      }
     ]
    }
@@ -3903,13 +3903,13 @@
       "key": "translation",
       "label": "Translation",
       "paragraphs": [
-       "Svastika, gomukha, padma, hamsa — the brahma-asana."
+       "Svastika, gomukha, padma, haṃsa — the brāhma-āsana."
       ]
      },
      {
       "type": "quote",
       "paragraphs": [
-       "24-26. Svastika, Gomukha, Padma, Hamsa — these are the Brahmic postures (Asanas)."
+       "24-26. Svastika, Gomukha, Padma, Haṃsa — these are the Brahmic postures (Āsanas)."
       ]
      },
      {
@@ -3922,7 +3922,7 @@
      },
      {
       "type": "p",
-      "html": "The group of four asanas beginning with svastika is the brahma one, that is, having Brahma as its deity."
+      "html": "The group of four āsanas beginning with svastika is the brāhma one, that is, having Brahmā as its deity."
      }
     ]
    }
@@ -4028,13 +4028,13 @@
       "key": "translation",
       "label": "Translation",
       "paragraphs": [
-       "Svastika, gomukha, padma, hamsa — the brahma-asana."
+       "Svastika, gomukha, padma, haṃsa — the brāhma-āsana."
       ]
      },
      {
       "type": "quote",
       "paragraphs": [
-       "24-26. Svastika, Gomukha, Padma, Hamsa — these are the Brahmic postures (Asanas)."
+       "24-26. Svastika, Gomukha, Padma, Haṃsa — these are the Brahmic postures (Āsanas)."
       ]
      },
      {
@@ -4047,7 +4047,7 @@
      },
      {
       "type": "p",
-      "html": "The group of four asanas beginning with svastika is the brahma one, that is, having Brahma as its deity."
+      "html": "The group of four āsanas beginning with svastika is the brāhma one, that is, having Brahmā as its deity."
      }
     ]
    }
@@ -4153,13 +4153,13 @@
       "key": "translation",
       "label": "Translation",
       "paragraphs": [
-       "Svastika, gomukha, padma, hamsa — the brahma-asana."
+       "Svastika, gomukha, padma, haṃsa — the brāhma-āsana."
       ]
      },
      {
       "type": "quote",
       "paragraphs": [
-       "24-26. Svastika, Gomukha, Padma, Hamsa — these are the Brahmic postures (Asanas)."
+       "24-26. Svastika, Gomukha, Padma, Haṃsa — these are the Brahmic postures (Āsanas)."
       ]
      },
      {
@@ -4172,7 +4172,7 @@
      },
      {
       "type": "p",
-      "html": "The group of four asanas beginning with svastika is the brahma one, that is, having Brahma as its deity."
+      "html": "The group of four āsanas beginning with svastika is the brāhma one, that is, having Brahmā as its deity."
      }
     ]
    }
@@ -4278,13 +4278,13 @@
       "key": "translation",
       "label": "Translation",
       "paragraphs": [
-       "Nrisimha, garuda, kurma, naga — the vaishnava-asana."
+       "Nṛsiṃha, garuḍa, kūrma, nāga — the vaiṣṇava-āsana."
       ]
      },
      {
       "type": "quote",
       "paragraphs": [
-       "Nrisimha, Garuda, Kurma, Naga — these are the Vaishnava postures."
+       "Nṛsiṃha, Garuḍa, Kūrma, Nāga — these are the Vaiṣṇava postures."
       ]
      },
      {
@@ -4297,7 +4297,7 @@
      },
      {
       "type": "p",
-      "html": "The group of four beginning with nrisimha is the vaishnava one, with Vishnu as its deity."
+      "html": "The group of four beginning with nṛsiṃha is the vaiṣṇava one, with Viṣṇu as its deity."
      }
     ]
    }
@@ -4403,13 +4403,13 @@
       "key": "translation",
       "label": "Translation",
       "paragraphs": [
-       "Nrisimha, garuda, kurma, naga — the vaishnava-asana."
+       "Nṛsiṃha, garuḍa, kūrma, nāga — the vaiṣṇava-āsana."
       ]
      },
      {
       "type": "quote",
       "paragraphs": [
-       "Nrisimha, Garuda, Kurma, Naga — these are the Vaishnava postures."
+       "Nṛsiṃha, Garuḍa, Kūrma, Nāga — these are the Vaiṣṇava postures."
       ]
      },
      {
@@ -4422,7 +4422,7 @@
      },
      {
       "type": "p",
-      "html": "The group of four beginning with nrisimha is the vaishnava one, with Vishnu as its deity."
+      "html": "The group of four beginning with nṛsiṃha is the vaiṣṇava one, with Viṣṇu as its deity."
      }
     ]
    }
@@ -4528,13 +4528,13 @@
       "key": "translation",
       "label": "Translation",
       "paragraphs": [
-       "Nrisimha, garuda, kurma, naga — the vaishnava-asana."
+       "Nṛsiṃha, garuḍa, kūrma, nāga — the vaiṣṇava-āsana."
       ]
      },
      {
       "type": "quote",
       "paragraphs": [
-       "Nrisimha, Garuda, Kurma, Naga — these are the Vaishnava postures."
+       "Nṛsiṃha, Garuḍa, Kūrma, Nāga — these are the Vaiṣṇava postures."
       ]
      },
      {
@@ -4547,7 +4547,7 @@
      },
      {
       "type": "p",
-      "html": "The group of four beginning with nrisimha is the vaishnava one, with Vishnu as its deity."
+      "html": "The group of four beginning with nṛsiṃha is the vaiṣṇava one, with Viṣṇu as its deity."
      }
     ]
    }
@@ -4653,13 +4653,13 @@
       "key": "translation",
       "label": "Translation",
       "paragraphs": [
-       "Nrisimha, garuda, kurma, naga — the vaishnava-asana."
+       "Nṛsiṃha, garuḍa, kūrma, nāga — the vaiṣṇava-āsana."
       ]
      },
      {
       "type": "quote",
       "paragraphs": [
-       "Nrisimha, Garuda, Kurma, Naga — these are the Vaishnava postures."
+       "Nṛsiṃha, Garuḍa, Kūrma, Nāga — these are the Vaiṣṇava postures."
       ]
      },
      {
@@ -4672,7 +4672,7 @@
      },
      {
       "type": "p",
-      "html": "The group of four beginning with nrisimha is the vaishnava one, with Vishnu as its deity."
+      "html": "The group of four beginning with nṛsiṃha is the vaiṣṇava one, with Viṣṇu as its deity."
      }
     ]
    }
@@ -4778,13 +4778,13 @@
       "key": "translation",
       "label": "Translation",
       "paragraphs": [
-       "Vira, mayura, vajra, siddha — the raudra-asana."
+       "Vīra, mayūra, vajra, siddha — the raudra-āsana."
       ]
      },
      {
       "type": "quote",
       "paragraphs": [
-       "Vira, Mayura, Vajra, Siddha — these are the Raudra postures."
+       "Vīra, Mayūra, Vajra, Siddha — these are the Raudra postures."
       ]
      },
      {
@@ -4797,7 +4797,7 @@
      },
      {
       "type": "p",
-      "html": "The group of four beginning with vira is the raudra one, with Rudra as its deity."
+      "html": "The group of four beginning with vīra is the raudra one, with Rudra as its deity."
      }
     ]
    }
@@ -4903,13 +4903,13 @@
       "key": "translation",
       "label": "Translation",
       "paragraphs": [
-       "Vira, mayura, vajra, siddha — the raudra-asana."
+       "Vīra, mayūra, vajra, siddha — the raudra-āsana."
       ]
      },
      {
       "type": "quote",
       "paragraphs": [
-       "Vira, Mayura, Vajra, Siddha — these are the Raudra postures."
+       "Vīra, Mayūra, Vajra, Siddha — these are the Raudra postures."
       ]
      },
      {
@@ -4922,7 +4922,7 @@
      },
      {
       "type": "p",
-      "html": "The group of four beginning with vira is the raudra one, with Rudra as its deity."
+      "html": "The group of four beginning with vīra is the raudra one, with Rudra as its deity."
      }
     ]
    }
@@ -5028,13 +5028,13 @@
       "key": "translation",
       "label": "Translation",
       "paragraphs": [
-       "Vira, mayura, vajra, siddha — the raudra-asana."
+       "Vīra, mayūra, vajra, siddha — the raudra-āsana."
       ]
      },
      {
       "type": "quote",
       "paragraphs": [
-       "Vira, Mayura, Vajra, Siddha — these are the Raudra postures."
+       "Vīra, Mayūra, Vajra, Siddha — these are the Raudra postures."
       ]
      },
      {
@@ -5047,7 +5047,7 @@
      },
      {
       "type": "p",
-      "html": "The group of four beginning with vira is the raudra one, with Rudra as its deity."
+      "html": "The group of four beginning with vīra is the raudra one, with Rudra as its deity."
      }
     ]
    }
@@ -5153,13 +5153,13 @@
       "key": "translation",
       "label": "Translation",
       "paragraphs": [
-       "Vira, mayura, vajra, siddha — the raudra-asana."
+       "Vīra, mayūra, vajra, siddha — the raudra-āsana."
       ]
      },
      {
       "type": "quote",
       "paragraphs": [
-       "Vira, Mayura, Vajra, Siddha — these are the Raudra postures."
+       "Vīra, Mayūra, Vajra, Siddha — these are the Raudra postures."
       ]
      },
      {
@@ -5172,7 +5172,7 @@
      },
      {
       "type": "p",
-      "html": "The group of four beginning with vira is the raudra one, with Rudra as its deity."
+      "html": "The group of four beginning with vīra is the raudra one, with Rudra as its deity."
      }
     ]
    }
@@ -5278,13 +5278,13 @@
       "key": "translation",
       "label": "Translation",
       "paragraphs": [
-       "The yoni posture, as they know, is the shakta one; the shaiva one is pashchima-tanaka."
+       "The yoni posture, as they know, is the śākta one; the śaiva one is paścima-tanaka."
       ]
      },
      {
       "type": "quote",
       "paragraphs": [
-       "Yoni is the Sakta posture."
+       "Yoni is the Śākta posture."
       ]
      },
      {
@@ -5297,7 +5297,7 @@
      },
      {
       "type": "p",
-      "html": "The yoni posture, as is to be understood, has Shakti as its deity."
+      "html": "The yoni posture, as is to be understood, has Śakti as its deity."
      }
     ]
    }
@@ -5403,13 +5403,13 @@
       "key": "translation",
       "label": "Translation",
       "paragraphs": [
-       "The yoni posture, as they know, is the shakta one; the shaiva one is pashchima-tanaka."
+       "The yoni posture, as they know, is the śākta one; the śaiva one is paścima-tanaka."
       ]
      },
      {
       "type": "quote",
       "paragraphs": [
-       "Paschima-tanaka is the Saiva posture."
+       "Paścima-tanaka is the Śaiva posture."
       ]
      },
      {
@@ -5422,7 +5422,7 @@
      },
      {
       "type": "p",
-      "html": "And the posture called pashchima-tanaka the yogins consider to be the shaiva one."
+      "html": "And the posture called paścima-tanaka the yogins consider to be the śaiva one."
      }
     ]
    }
@@ -5529,13 +5529,13 @@
       "key": "translation",
       "label": "Translation",
       "paragraphs": [
-       "For niralambana-yoga there is the niralambana-asana; contemplation is without support, and the supportless [Atman] is Sadashiva."
+       "For nirālambana-yoga there is the nirālambana-āsana; contemplation is without support, and the supportless [Ātman] is Sadāśiva."
       ]
      },
      {
       "type": "quote",
       "paragraphs": [
-       "The posture for the Niralambana-Yoga is niralambana (lit. propless, involving no specific position of hands, feet or other members of the body); meditation should be on the Niralambana, and the Niralambana is Sadasiva, the Unconditioned, the Paramatman."
+       "The posture for the Nirālambana-Yoga is nirālambana (lit. propless, involving no specific position of hands, feet or other members of the body); meditation should be on the Nirālambana, and the Nirālambana is Sadāśiva, the Unconditioned, the Paramātman."
       ]
      },
      {
@@ -5543,7 +5543,7 @@
       "key": "class",
       "label": "6.3. The Commentary on Verse 24 — the Classification by Deity",
       "paragraphs": [
-       "In the text it is carried through completely: 4 + 4 + 4 + 1 + 1 asanas for five deities, plus a sixth category — the \"supportless\" one, which is not an asana in the proper sense."
+       "In the text it is carried through completely: 4 + 4 + 4 + 1 + 1 āsanas for five deities, plus a sixth category — the \"supportless\" one, which is not an āsana in the proper sense."
       ]
      }
     ]
