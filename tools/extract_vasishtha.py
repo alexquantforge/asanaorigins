@@ -17,6 +17,7 @@ from pathlib import Path
 
 import pymupdf
 
+import authors
 import sanskrit
 from common import (Block, assemble_paragraphs, clean, looks_like_list,
                     merge_runs, page_items, para_html, runs_html, split_bullets)
@@ -591,9 +592,13 @@ def dating_summary(ru, en):
             "work": {"ru": htmllib.unescape(row.get("basis", "")),
                      "en": htmllib.unescape(other.get("basis", ""))},
         })
-    return {"label": {"ru": htmllib.unescape(label["ru"]),
-                      "en": htmllib.unescape(label["en"])},
-            "items": items}
+    summary = {"label": {"ru": htmllib.unescape(label["ru"]),
+                         "en": htmllib.unescape(label["en"])},
+               "items": items}
+    # The Russian volume names the scholars by Latin bibliography keys in this
+    # table; the rest of its Russian text spells the names in Russian. The site
+    # shows one spelling (see tools/authors.py); the full article is untouched.
+    return authors.ru_summary(summary)
 
 
 def main():
@@ -627,6 +632,9 @@ def main():
         "closing": {"ru": [], "en": []},
         "poses": [],
     }
+    # the same digest also sits inside the dating section: one spelling there too
+    authors.ru_summary(data["dating"]["ru"]["summary"])
+
     for pose in ru.poses + en.poses:
         for sec in pose["sections"]:
             if sec.get("type") != "verse_card":
