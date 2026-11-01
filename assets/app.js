@@ -80,7 +80,7 @@
     }
   };
 
-  const BUILD = "2026-11-01.4";
+  const BUILD = "2026-11-01.6";
   const V = "?v=" + BUILD;
 
   const state = {
@@ -316,7 +316,8 @@
     items.push(["#/about", t("treatiseAbout")]);
     $("#chapter-nav").innerHTML = applyMarks(
       items
-        .map(([href, label]) => '<li><a href="' + href + '">' + esc(label) + "</a></li>")
+        .map(([href, label]) => '<li><a href="' + href + '"><span>' + esc(label) +
+          "</span></a></li>")
         .join(""));
   }
 
@@ -541,8 +542,13 @@
         rows[0].map((c) => "<th>" + esc(c) + "</th>").join("") + "</tr></thead>";
       body = rows.slice(1);
     }
+    // On a phone the table becomes a stack of cards; each cell carries the
+    // name of its column in data-label, so nothing has to be guessed.
+    const heads = rows.length > 1 ? rows[0] : [];
     html += "<tbody>" +
-      body.map((r) => "<tr>" + r.map((c) => "<td>" + esc(c) + "</td>").join("") + "</tr>").join("") +
+      body.map((r) => "<tr>" + r.map((c, i) =>
+        "<td" + (heads[i] ? ' data-label="' + esc(heads[i]) + '"' : "") + ">" +
+        esc(c) + "</td>").join("") + "</tr>").join("") +
       "</tbody></table></div>";
     return html;
   }
@@ -598,7 +604,7 @@
     if (!summary && !(full && full.blocks && full.blocks.length)) return "";
 
     let html = '<section class="dating" aria-label="' + esc(t("datingTitle")) + '">';
-    html += '<p class="dating-kicker">' + esc(t("datingTitle")) + "</p>";
+    html += '<p class="dating-kicker"><span>' + esc(t("datingTitle")) + "</span></p>";
 
     if (summary) {
       if (summary.note) {
@@ -662,7 +668,7 @@
       }
       if (sec.type === "words") {
         html += '<section class="section">';
-        if (sec.label) html += '<h3 class="section-label">' + esc(sec.label) + "</h3>";
+        if (sec.label) html += '<h3 class="section-label"><span>' + esc(sec.label) + "</span></h3>";
         const groups = sec.groups || (sec.pairs ? [sec.pairs] : []);
         if (!groups.length) {
           (sec.paragraphs || []).forEach((p) => {
@@ -697,7 +703,7 @@
       }
       if (sec.type === "prose") {
         html += '<section class="section prose-' + esc(sec.key || "") + '">';
-        if (sec.label) html += '<h3 class="section-label">' + esc(sec.label) + "</h3>";
+        if (sec.label) html += '<h3 class="section-label"><span>' + esc(sec.label) + "</span></h3>";
         (sec.paragraphs || []).forEach((p) => {
           html += "<p>" + esc(p) + "</p>";
         });
