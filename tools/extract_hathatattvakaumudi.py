@@ -435,7 +435,8 @@ def join_text(parts: list[str]) -> str:
 # -------------------------------------------------------------- стихи и āсаны
 
 def verse_number(tok: dict) -> str:
-    m = re.search(r"\(шлока (\d+)", tok["text"]) or re.search(r"\([Vv]erse (\d+)", tok["text"])
+    m = re.search(r"(?:шлока|стих)\s+(\d+)", tok["text"]) or \
+        re.search(r"[Vv]erse\s+(\d+)", tok["text"])
     return m.group(1) if m else ""
 
 
