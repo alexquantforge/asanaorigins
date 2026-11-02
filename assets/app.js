@@ -11,21 +11,21 @@
     ru: {
       skip: "К содержанию",
       treatise: "Трактат",
-      asanas: "Асаны",
-      chapter: "Глава XXXI",
+      asanas: "Āсаны",
+      chapter: "Глава 31",
       sections: "Разделы главы",
-      filter: "Найти асану",
-      asana: "Асана",
+      filter: "Найти āсану",
+      asana: "Āсана",
       verse: "стих",
       about: "О трактате",
-      chapterLink: "Вступление и перечень асан",
+      chapterLink: "Вступление и перечень āсан",
       appendix: "Приложение",
       notes: "Примечания к чтениям",
       copied: "Текст скопирован",
       copy: "Копировать",
       prev: "Предыдущая",
       next: "Следующая",
-      notFound: "Такой асаны нет в этом трактате.",
+      notFound: "Такой āсаны нет в этом трактате.",
       loading: "Загрузка…",
       error: "Не удалось загрузить данные. Откройте сайт через локальный сервер.",
       source: "Источник",
@@ -40,13 +40,14 @@
       datingTitle: "Датировка текста",
       datingOpen: "Читать датировку полностью",
       datingClose: "Свернуть",
-      datingSource: "Источник датировки"
+      datingSource: "Источник датировки",
+      build: "версия"
     },
     en: {
       skip: "Skip to content",
       treatise: "Treatise",
       asanas: "Āsanas",
-      chapter: "Chapter XXXI",
+      chapter: "Chapter 31",
       sections: "Chapter sections",
       filter: "Find a pose",
       asana: "Āsana",
@@ -74,9 +75,13 @@
       datingTitle: "Dating of the text",
       datingOpen: "Read the full dating",
       datingClose: "Collapse",
-      datingSource: "Source of the dating"
+      datingSource: "Source of the dating",
+      build: "build"
     }
   };
+
+  const BUILD = "2026-11-02.5";
+  const V = "?v=" + BUILD;
 
   const state = {
     lang: localStorage.getItem("ao.lang") === "en" ? "en" : "ru",
@@ -88,16 +93,81 @@
   let site = null;
   let treatises = [];
   let activeTreatise = null;
+  let lastPoseKey = null;
 
   const $ = (sel, root) => (root || document).querySelector(sel);
   const $$ = (sel, root) => Array.from((root || document).querySelectorAll(sel));
   const t = (key) => I18N[state.lang][key] || key;
-  const tx = (obj) => (obj && (obj[state.lang] || obj.ru)) || "";
+  const tx = (obj) =>
+    typeof obj === "string" ? obj : (obj && (obj[state.lang] || obj.ru)) || "";
 
   function esc(s) {
     return String(s == null ? "" : s)
       .replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;")
       .replace(/"/g, "&quot;");
+  }
+
+
+  /* ------------------------------------------------------- combining marks
+
+     Cyrillic transliteration needs marks that most display fonts do not have
+     (м̣, р̣, н̇, н̃, ш́). The browser would take the letter from one web font
+     and the mark from another (or from a fallback), and letter-spacing pushed
+     the mark sideways; the marks are therefore drawn by CSS, and the real
+     combining character stays in the text at zero size, so copying, searching
+     and screen readers still get the true letter.
+
+     The mark is placed from the baseline (see .mk in style.css), not from the
+     line box: a line box grows with line-height, so a mark measured from its
+     bottom edge slid down onto the letter in running text (line-height 1.7)
+     and crossed it out. A capital keeps its mark above the cap height.
+  */
+
+  const MARK_CLASS = {
+    "\u0323": "m-b",   // dot below
+    "\u0307": "m-a",   // dot above
+    "\u0301": "m-ac",  // acute
+    "\u0303": "m-t",   // tilde
+    "\u0304": "m-mac"  // macron
+  };
+
+  // У «р» хвост идёт вниз ровно под точкой: точку приходится опускать под него.
+  // У «д» ножки уходят вниз по краям, а под точкой в середине буквы пусто —
+  // поэтому её точка стоит на одной высоте с остальными (см. .mk.m-b).
+  // Прописная «Д» — единственная, где ножки идут вниз по всей ширине.
+  const DESCENDER = { "р": "d-deep", "Д": "d-tail" };
+
+  function marksInText(text) {
+    let out = "";
+    let i = 0;
+    while (i < text.length) {
+      const base = text[i];
+      const marks = [];
+      let j = i + 1;
+      while (j < text.length && MARK_CLASS[text[j]]) {
+        marks.push(text[j]);
+        j += 1;
+      }
+      if (marks.length) {
+        const cls = marks.map((m) => MARK_CLASS[m]);
+        if (base !== base.toLowerCase()) cls.push("is-cap");
+        if (DESCENDER[base]) cls.push(DESCENDER[base]);
+        out += '<span class="mk ' + cls.join(" ") + '">' +
+          base + '<span class="cmb">' + marks.join("") + "</span></span>";
+        i = j;
+      } else {
+        out += base;
+        i += 1;
+      }
+    }
+    return out;
+  }
+
+  function applyMarks(html) {
+    return String(html)
+      .split(/(<[^>]*>)/)
+      .map((part) => (!part || part[0] === "<" ? part : marksInText(part)))
+      .join("");
   }
 
   /* ------------------------------------------------------------------ load */
@@ -109,7 +179,7 @@
 
     let index;
     try {
-      index = await fetch("data/treatises.json").then((r) => {
+      index = await fetch("data/treatises.json" + V).then((r) => {
         if (!r.ok) throw new Error(r.status);
         return r.json();
       });
@@ -121,8 +191,19 @@
     site = index.site || null;
     const loaded = await Promise.all(
       index.treatises.map(async (meta) => {
-        const data = await fetch(meta.file).then((r) => r.json());
-        return Object.assign({}, meta, data);
+        const data = await fetch(meta.file + V).then((r) => r.json());
+        // registry metadata (short title, edition, PDF) wins over the document's
+        // own long title; the long title stays available as docTitle
+        return Object.assign({}, data, meta, {
+          chapter: data.chapter || meta.chapter,
+          poses: data.poses || [],
+          about: data.about || { ru: [], en: [] },
+          prologue: data.prologue || { ru: [], en: [] },
+          appendix: data.appendix || { ru: [], en: [] },
+          notes: data.notes || { ru: [], en: [] },
+          asanasTitle: data.asanasTitle || null,
+          docTitle: data.title || null
+        });
       })
     );
     treatises = loaded;
@@ -209,47 +290,86 @@
       return;
     }
     const parts = [tx(activeTreatise.subtitle), tx(activeTreatise.tradition)];
-    note.textContent = parts.filter(Boolean).join(" · ");
+    note.innerHTML = applyMarks(esc(parts.filter(Boolean).join(" · ")));
 
     const foot = $("#side-source");
-    foot.innerHTML =
+    foot.innerHTML = applyMarks(
       esc(tx(activeTreatise.edition)) +
-      (activeTreatise.pdf
-        ? ' · <a href="' + esc(activeTreatise.pdf[state.lang] || activeTreatise.pdf.ru) +
-          '" target="_blank" rel="noopener">' + esc(t("pdf")) + "</a>"
-        : "");
+        (activeTreatise.pdf
+          ? ' · <a href="' + esc(encodeURI(activeTreatise.pdf[state.lang] || activeTreatise.pdf.ru)) +
+            '" target="_blank" rel="noopener">' + esc(t("pdf")) + "</a>"
+          : ""));
+  }
+
+  function chapterTitle() {
+    if (!activeTreatise) return t("chapterLink");
+    const own = tx(activeTreatise.asanasTitle);
+    if (own) return own;
+    const prologue = activeTreatise.prologue[state.lang] || [];
+    const lead = prologue.find((s) => s.type === "subhead");
+    return (lead && lead.label) || t("chapterLink");
+  }
+
+  function chapterNavLabel() {
+    const prologue = (activeTreatise && activeTreatise.prologue[state.lang]) || [];
+    const lead = prologue.find((s) => s.type === "subhead");
+    return (lead && lead.label) || t("chapterLink");
   }
 
   function buildChapterNav() {
     if (!activeTreatise) return;
-    const prologue = activeTreatise.prologue[state.lang] || [];
     const appendix = activeTreatise.appendix[state.lang] || [];
-    const chapterTitle =
-      (prologue.find((s) => s.type === "subhead") || {}).label || t("chapterLink");
+    const notes = activeTreatise.notes[state.lang] || [];
     const appendixLabel =
       (appendix.find((s) => s.type === "subhead") || {}).label || t("appendix");
     const notesTitle = (activeTreatise.notesTitle && activeTreatise.notesTitle[state.lang]) || t("notes");
 
-    const items = [
-      ["#/chapter", chapterTitle],
-      ["#/appendix", appendixLabel.split(".")[0]],
-      ["#/notes", notesTitle],
-      ["#/about", t("treatiseAbout")]
-    ];
-    $("#chapter-nav").innerHTML = items
-      .map(([href, label]) => '<li><a href="' + href + '">' + esc(label) + "</a></li>")
-      .join("");
+    // a treatise without a chapter page of its own gets no link to one
+    const prologue = activeTreatise.prologue[state.lang] || [];
+    const items = prologue.length ? [["#/chapter", chapterNavLabel()]] : [];
+    if (appendix.length) items.push(["#/appendix", appendixLabel.split(".")[0]]);
+    if (notes.length) items.push(["#/notes", notesTitle]);
+    items.push(["#/about", t("treatiseAbout")]);
+    $("#chapter-nav").innerHTML = applyMarks(
+      items
+        .map(([href, label]) => '<li><a href="' + href + '"><span>' + esc(label) +
+          "</span></a></li>")
+        .join(""));
+  }
+
+  function poseGroups() {
+    const map = new Map();
+    treatises.forEach((tr) => {
+      (tr.poses || []).forEach((pose) => {
+        if (!map.has(pose.key)) map.set(pose.key, []);
+        map.get(pose.key).push({ treatise: tr, pose });
+      });
+    });
+    return map;
   }
 
   function poseListData() {
-    if (!activeTreatise) return [];
-    return activeTreatise.poses.map((p) => ({
-      key: p.key,
-      number: p.number,
-      name: tx(p.name),
-      gloss: tx(p.gloss),
-      iast: p.iast
-    }));
+    const map = poseGroups();
+    const order = [];
+    const push = (list) =>
+      (list || []).forEach((p) => {
+        if (order.indexOf(p.key) < 0) order.push(p.key);
+      });
+    push(activeTreatise && activeTreatise.poses);
+    treatises.forEach((tr) => push(tr.poses));
+    return order.map((key) => {
+      const group = map.get(key) || [];
+      const pick = group.find((g) => g.treatise === activeTreatise) || group[0] || {};
+      const pose = pick.pose || {};
+      return {
+        key: key,
+        number: pose.number,
+        name: tx(pose.name),
+        gloss: tx(pose.gloss),
+        iast: pose.iast,
+        inTreatise: group.some((g) => g.treatise === activeTreatise)
+      };
+    });
   }
 
   function buildPoseList() {
@@ -266,12 +386,13 @@
         )
       : data;
 
-    list.innerHTML = shown.length
+    list.innerHTML = applyMarks(shown.length
       ? shown
           .map((p) => {
             const active = isCurrent("#/pose/" + p.key);
             return (
-              '<li><a href="#/pose/' + p.key + '"' +
+              '<li' + (p.inTreatise === false ? ' class="is-other"' : "") +
+              '><a href="#/pose/' + p.key + '"' +
               (active ? ' aria-current="page"' : "") + ">" +
               '<span class="pose-num">' + String(p.number).padStart(2, "0") + "</span>" +
               '<span class="pose-name"><span class="ru">' + esc(p.name) + "</span>" +
@@ -280,7 +401,7 @@
             );
           })
           .join("")
-      : '<li><p class="side-note">' + esc(t("noMatch")) + "</p></li>";
+      : '<li><p class="side-note">' + esc(t("noMatch")) + "</p></li>");
 
     const count = $("#pose-count");
     if (count) count.textContent = shown.length + " / " + data.length;
@@ -319,6 +440,16 @@
       return;
     }
 
+    if (route.view === "chapter" && !(activeTreatise.prologue[state.lang] || []).length) {
+      route.view = "about";
+    }
+    if (route.view === "appendix" && !(activeTreatise.appendix[state.lang] || []).length) {
+      route.view = "about";
+    }
+    if (route.view === "notes" && !(activeTreatise.notes[state.lang] || []).length) {
+      route.view = "about";
+    }
+
     let html = "";
     if (route.view === "pose") html = renderPose(route.key);
     else if (route.view === "chapter") html = renderChapter();
@@ -326,7 +457,7 @@
     else if (route.view === "notes") html = renderNotes();
     else if (route.view === "about") html = renderAbout();
 
-    view.innerHTML = html;
+    view.innerHTML = applyMarks(html);
     view.style.animation = "none";
     void view.offsetWidth;
     view.style.animation = "";
@@ -359,13 +490,19 @@
       const pose = tr.poses.find((p) => p.key === key);
       if (pose) occurrences.push({ treatise: tr, pose });
     });
+    // the treatise chosen in the sidebar is read first
+    occurrences.sort((a, b) => (a.treatise === activeTreatise ? -1 : 0) -
+      (b.treatise === activeTreatise ? -1 : 0));
 
     if (!occurrences.length) {
       return '<p class="empty">' + esc(t("notFound")) + "</p>";
     }
 
-    const primary = occurrences[0].pose;
+    const own = occurrences.find((o) => o.treatise === activeTreatise);
+    const primaryOcc = own || occurrences[0];
+    const primary = primaryOcc.pose;
     const multi = occurrences.length > 1;
+    lastPoseKey = key;
     const index = activeTreatise.poses.findIndex((p) => p.key === key);
 
     let html = "";
@@ -381,14 +518,17 @@
       '<div class="pose-rule"></div>' +
       "</header>";
 
+    // Every treatise reads as one continuous sheet: the source's name and
+    // reference come first, then its dating, then the text itself.
     occurrences.forEach((occ) => {
       const tr = occ.treatise;
       const pose = occ.pose;
       html += '<section class="treatise-block">';
       html += '<div class="treatise-head">';
-      html += '<h2>' + esc(tx(tr.title)) + "</h2>";
+      html += "<h2>" + esc(tx(tr.title)) + "</h2>";
       html += '<span class="ref">' +
-        esc((state.lang === "ru" ? "глава " : "chapter ") + (tr.chapter || "")) + "</span>";
+        esc(tx(tr.chapterWord) || (state.lang === "ru" ? "глава" : "chapter")) +
+        (tr.chapter ? " " + esc(tr.chapter) : "") + "</span>";
       if (multi) {
         html += '<a class="link" href="#/about">' + esc(t("toAbout")) + "</a>";
       }
@@ -400,8 +540,94 @@
 
     html += "</article>";
     html += renderPager(index);
-    html += renderColophon(occurrences[0].treatise);
+    html += renderColophon((own || occurrences[0]).treatise);
     return html;
+  }
+
+
+  /* ------------------------------------------- rich blocks (about, dating) */
+
+  function blockBody(b) {
+    if (b.html != null) return b.html;
+    return esc(b.text || "");
+  }
+
+  function renderTable(b) {
+    const rows = b.rows || [];
+    if (!rows.length) return "";
+    let html = '<div class="doc-table-wrap"><table class="doc-table">';
+    let body = rows;
+    if (rows.length > 1) {
+      html += "<thead><tr>" +
+        rows[0].map((c) => "<th>" + esc(c) + "</th>").join("") + "</tr></thead>";
+      body = rows.slice(1);
+    }
+    // On a phone the table becomes a stack of cards; each cell carries the
+    // name of its column in data-label, so nothing has to be guessed.
+    const heads = rows.length > 1 ? rows[0] : [];
+    html += "<tbody>" +
+      body.map((r) => "<tr>" + r.map((c, i) =>
+        "<td" + (heads[i] ? ' data-label="' + esc(heads[i]) + '"' : "") + ">" +
+        esc(c) + "</td>").join("") + "</tr>").join("") +
+      "</tbody></table></div>";
+    return html;
+  }
+
+  function renderList(b) {
+    const items = b.items || [];
+    const cls = items.some((it) => it && typeof it === "object") ? "doc-list" : "source-list";
+    const tag = b.ordered ? "ol" : "ul";
+    const start = b.ordered && b.start && b.start > 1 ? ' start="' + esc(b.start) + '"' : "";
+    return "<" + tag + ' class="' + cls + '"' + start + ">" +
+      (b.items || []).map((item) => {
+        if (item && typeof item === "object") {
+          const level = item.level > 1 ? " lvl" + item.level : "";
+          const code = item.code
+            ? '<pre class="doc-code"><code>' + esc(item.code) + "</code></pre>"
+            : "";
+          return '<li class="list-item' + level + '">' + blockBody(item) + code + "</li>";
+        }
+        return "<li>" + esc(item) + "</li>";
+      }).join("") + "</" + tag + ">";
+  }
+
+  function renderQuote(b) {
+    return '<blockquote class="doc-quote">' +
+      (b.paragraphs || []).map((p) => "<p>" + p + "</p>").join("") + "</blockquote>";
+  }
+
+  function renderBlocks(blocks) {
+    return (blocks || []).map((b) => {
+      switch (b.type) {
+        case "title":
+          return '<h1 class="about-title">' + blockBody(b) + "</h1>";
+        case "byline":
+          return '<p class="about-byline">' + blockBody(b) + "</p>";
+        case "h2":
+          return '<h2 class="about-h2">' + blockBody(b) + "</h2>";
+        case "h3":
+          return '<h3 class="about-h3">' + blockBody(b) + "</h3>";
+        case "h4":
+          return '<h4 class="about-h4">' + blockBody(b) + "</h4>";
+        case "subhead":
+          return '<h2 class="subhead">' + esc(b.label) + "</h2>";
+        case "list":
+          return renderList(b);
+        case "quote":
+          return renderQuote(b);
+        case "table":
+          return renderTable(b);
+        case "deva":
+          return '<p class="about-deva" lang="sa">' +
+            (b.lines || []).map((line) => "<span>" + esc(line) + "</span>").join("") + "</p>";
+        case "code":
+          return '<pre class="doc-code"><code>' + esc(b.text || "") + "</code></pre>";
+        case "p":
+          return '<p class="about-p">' + blockBody(b) + "</p>";
+        default:
+          return '<p class="about-p">' + blockBody(b) + "</p>";
+      }
+    }).join("");
   }
 
   function renderDating(tr) {
@@ -410,7 +636,7 @@
     if (!summary && !(full && full.blocks && full.blocks.length)) return "";
 
     let html = '<section class="dating" aria-label="' + esc(t("datingTitle")) + '">';
-    html += '<p class="dating-kicker">' + esc(t("datingTitle")) + "</p>";
+    html += '<p class="dating-kicker"><span>' + esc(t("datingTitle")) + "</span></p>";
 
     if (summary) {
       if (summary.note) {
@@ -425,8 +651,9 @@
           html += '<span class="dating-when-note">' + esc(tx(item.whenNote)) + "</span>";
         }
         html += "</span>";
+        const workLabel = summary.label ? tx(summary.label) : t("datingSource");
         html += '<span class="dating-work"><span class="dating-work-label">' +
-          esc(t("datingSource")) + "</span>" + esc(tx(item.work)) + "</span>";
+          esc(workLabel) + "</span>" + esc(tx(item.work)) + "</span>";
         html += "</li>";
       });
       html += "</ul>";
@@ -438,9 +665,7 @@
         "</span></summary>";
       html += '<div class="dating-full">';
       html += '<h3 class="dating-full-title">' + esc(full.title) + "</h3>";
-      full.blocks.forEach((b) => {
-        html += "<p>" + esc(b.text) + "</p>";
-      });
+      html += renderBlocks(full.blocks);
       html += '<p class="dating-full-link"><a href="#/about">' +
         esc(t("treatiseAbout")) + " →</a></p>";
       html += "</div></details>";
@@ -455,6 +680,15 @@
     let i = 0;
     while (i < sections.length) {
       const sec = sections[i];
+      if (sec.type === "verse_card") {
+        html += '<div class="verse-card">';
+        if (sec.verses) {
+          html += '<p class="verse-card-num"><span>' + esc(sec.verses) + "</span></p>";
+        }
+        html += renderVerses(sec.sections || []) + "</div>";
+        i += 1;
+        continue;
+      }
       if (sec.type === "verse") {
         const run = [];
         while (i < sections.length && sections[i].type === "verse") {
@@ -466,18 +700,27 @@
       }
       if (sec.type === "words") {
         html += '<section class="section">';
-        html += '<h3 class="section-label">' + esc(sec.label) + "</h3>";
-        html += '<dl class="words">';
-        sec.pairs.forEach((pair) => {
-          const term = pair[0] || "";
-          const gloss = pair[1] || "";
-          if (!term) {
-            html += '<dd class="wide">' + esc(gloss) + "</dd>";
-          } else {
-            html += "<dt>" + esc(term) + "</dt><dd>" + esc(gloss) + "</dd>";
-          }
+        if (sec.label) html += '<h3 class="section-label"><span>' + esc(sec.label) + "</span></h3>";
+        const groups = sec.groups || (sec.pairs ? [sec.pairs] : []);
+        if (!groups.length) {
+          (sec.paragraphs || []).forEach((p) => {
+            html += '<p class="about-p">' + esc(p) + "</p>";
+          });
+        }
+        groups.forEach((pairs) => {
+          html += '<dl class="words">';
+          pairs.forEach((pair) => {
+            const term = pair[0] || "";
+            const gloss = pair[1] || "";
+            if (!term) {
+              html += '<dd class="wide">' + esc(gloss) + "</dd>";
+            } else {
+              html += "<dt>" + esc(term) + "</dt><dd>" + esc(gloss) + "</dd>";
+            }
+          });
+          html += "</dl>";
         });
-        html += "</dl></section>";
+        html += "</section>";
         i += 1;
         continue;
       }
@@ -492,7 +735,7 @@
       }
       if (sec.type === "prose") {
         html += '<section class="section prose-' + esc(sec.key || "") + '">';
-        if (sec.label) html += '<h3 class="section-label">' + esc(sec.label) + "</h3>";
+        if (sec.label) html += '<h3 class="section-label"><span>' + esc(sec.label) + "</span></h3>";
         (sec.paragraphs || []).forEach((p) => {
           html += "<p>" + esc(p) + "</p>";
         });
@@ -502,6 +745,24 @@
       }
       if (sec.type === "subhead") {
         html += '<h2 class="subhead">' + esc(sec.label) + "</h2>";
+        i += 1;
+        continue;
+      }
+      if (sec.type === "deva") {
+        // a Devanāgarī quotation inside a pose page (e.g. §6.3 of the
+        // Mānasollāsa), rendered exactly as on the treatise page
+        html += renderBlocks([sec]);
+        i += 1;
+        continue;
+      }
+      if (sec.type === "quote") {
+        html += renderQuote(sec);
+        i += 1;
+        continue;
+      }
+      if (sec.html != null) {
+        // a block of the reference (§8 code sample, a Devanāgarī quotation)
+        html += renderBlocks([sec]);
         i += 1;
         continue;
       }
@@ -547,34 +808,37 @@
   }
 
   function renderPager(index) {
-    const poses = activeTreatise.poses;
+    const poses = poseListData();
     if (!poses.length) return "";
-    const prev = poses[index - 1];
-    const next = poses[index + 1];
+    const here = index >= 0 ? index : poses.findIndex((p) => p.key === (lastPoseKey || ""));
+    const prev = poses[here - 1];
+    const next = poses[here + 1];
     let html = '<nav class="pager" aria-label="' + esc(t("asanas")) + '">';
     html += prev
       ? '<a class="prev" href="#/pose/' + prev.key + '"><span class="dir">' +
-        esc(t("prev")) + '</span><span class="to">' + esc(tx(prev.name)) + "</span></a>"
+        esc(t("prev")) + '</span><span class="to">' + esc(prev.name) + "</span></a>"
       : "<span></span>";
     html += next
       ? '<a class="next" href="#/pose/' + next.key + '"><span class="dir">' +
-        esc(t("next")) + '</span><span class="to">' + esc(tx(next.name)) + "</span></a>"
+        esc(t("next")) + '</span><span class="to">' + esc(next.name) + "</span></a>"
       : "";
     html += "</nav>";
     return html;
   }
 
   function renderColophon(tr) {
-    const pdfHref = tr.pdf ? (tr.pdf[state.lang] || tr.pdf.ru) : null;
+    const pdfHref = tr.pdf ? encodeURI(tr.pdf[state.lang] || tr.pdf.ru) : null;
     let html = '<footer class="colophon">';
     html += "<p><strong>" + esc(tx(tr.title)) + "</strong>" +
-      (tr.chapter ? " · " + esc(state.lang === "ru" ? "глава " : "chapter ") + esc(tr.chapter) : "") + "</p>";
+      (tr.chapter ? " · " + esc(tx(tr.chapterWord) || (state.lang === "ru" ? "глава" : "chapter")) +
+        " " + esc(tr.chapter) : "") + "</p>";
     if (tr.edition) html += "<p>" + esc(t("edition")) + ": " + esc(tx(tr.edition)) + "</p>";
     if (tr.translator) html += "<p>" + esc(tx(tr.translator)) + "</p>";
     if (pdfHref) {
       html += '<p><a href="' + esc(pdfHref) + '" target="_blank" rel="noopener">' +
         esc(t("pdf")) + " ↗</a></p>";
     }
+    html += '<p class="colophon-build">' + esc(t("build")) + " " + esc(BUILD) + "</p>";
     html += "</footer>";
     return html;
   }
@@ -590,9 +854,8 @@
 
   function renderChapter() {
     const all = activeTreatise.prologue[state.lang] || [];
-    const lead = all.find((s) => s.type === "subhead");
-    const title = (lead && lead.label) || t("chapterLink");
-    const sections = lead ? all.filter((s) => s !== lead) : all;
+    const title = chapterTitle();
+    const sections = all;
     let html = pageHead(title, esc(tx(activeTreatise.title)) + " · " + esc(tx(activeTreatise.subtitle)));
     html += renderSections(sections);
     html += renderColophon(activeTreatise);
@@ -641,39 +904,31 @@
     let html = "";
     let metaPlaced = false;
     blocks.forEach((b) => {
-      if (b.type === "list") {
-        html += '<ul class="source-list">';
-        (b.items || []).forEach((item) => {
-          html += "<li>" + esc(item) + "</li>";
-        });
-        html += "</ul>";
-        return;
-      }
       if (b.type === "title") {
-        html += '<h1 class="about-title">' + esc(b.text) + "</h1>";
+        html += renderBlocks([b]);
         if (meta) {
           html += '<p class="about-meta">' + meta + "</p>";
           metaPlaced = true;
         }
         return;
       }
-      if (b.type === "byline") html += '<p class="about-byline">' + esc(b.text) + "</p>";
-      else if (b.type === "h2") html += '<h2 class="about-h2">' + esc(b.text) + "</h2>";
-      else html += '<p class="about-p">' + esc(b.text) + "</p>";
+      html += renderBlocks([b]);
     });
 
     if (!metaPlaced && meta) {
       html = '<p class="about-meta">' + meta + "</p>" + html;
     }
 
-    const pdfHref = activeTreatise.pdf ? (activeTreatise.pdf[state.lang] || activeTreatise.pdf.ru) : null;
+    const pdfHref = activeTreatise.pdf
+      ? encodeURI(activeTreatise.pdf[state.lang] || activeTreatise.pdf.ru)
+      : null;
     if (pdfHref) {
       html += '<p class="about-p"><a class="back-link" href="' + esc(pdfHref) +
         '" target="_blank" rel="noopener">' + esc(t("pdf")) + " ↗</a></p>";
     }
     if (activeTreatise.chapter) {
       html += '<p class="about-p"><a class="back-link" href="#/chapter">' +
-        esc(t("chapterLink")) + " →</a></p>";
+        esc(chapterTitle()) + " →</a></p>";
     }
     return '<article class="view-inner">' + html + "</article>";
   }
@@ -710,7 +965,7 @@
       if (copy) {
         copy.addEventListener("click", () => {
           const active = panels.find((p) => !p.hasAttribute("hidden")) || panels[0];
-          const text = $$(".verse-lines span", active).map((s) => s.textContent).join("\n");
+          const text = $$(".verse-lines > span", active).map((s) => s.textContent).join("\n");
           copyText(text);
         });
       }

@@ -14,6 +14,10 @@ from pathlib import Path
 
 import pymupdf
 
+import numeral
+import sanskrit
+import translit
+
 ZWSP = "\u200b"
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -149,17 +153,27 @@ def word_pairs(text):
     return pairs
 
 
-def to_sections(secs):
+def to_sections(secs, lang="ru"):
     out = []
     for s in secs:
         t = s["type"]
         if t == "verse":
+            lines = [clean(x) for x in s["lines"] if clean(x)]
+            if s["key"] == "cyr":
+                # one dot-below convention for every Cyrillic line (see translit)
+                lines = [translit.normalize_marks(x) for x in lines]
             out.append({"type": "verse", "key": s["key"], "label": s["label"],
-                        "lines": [clean(x) for x in s["lines"] if clean(x)]})
+                        "lines": lines})
         elif t == "words":
             text = " ".join(s["paragraphs"])
+            pairs = word_pairs(text)
+            if lang == "ru":
+                # the Russian edition prints the terms in IAST; the same words
+                # are given in Cyrillic here, by the scheme of its own
+                # "Кириллическая транслитерация" section (see tools/translit.py)
+                pairs = [[translit.term(term), gloss] for term, gloss in pairs]
             out.append({"type": "words", "label": s["label"], "text": text,
-                        "pairs": word_pairs(text)})
+                        "pairs": pairs})
         elif t in ("prose", "note", "p"):
             item = {"type": t, "label": s.get("label") or "",
                     "paragraphs": s["paragraphs"]}
@@ -412,9 +426,9 @@ def main():
         "id": "ahirbudhnya-samhita",
         "chapter": "XXXI",
         "about": {lang: docs[lang].about for lang in docs},
-        "prologue": {lang: to_sections(docs[lang].prologue) for lang in docs},
-        "appendix": {lang: to_sections(docs[lang].appendix) for lang in docs},
-        "notes": {lang: to_sections(docs[lang].notes) for lang in docs},
+        "prologue": {lang: to_sections(docs[lang].prologue, lang) for lang in docs},
+        "appendix": {lang: to_sections(docs[lang].appendix, lang) for lang in docs},
+        "notes": {lang: to_sections(docs[lang].notes, lang) for lang in docs},
         "notesTitle": {lang: docs[lang].notes_title for lang in docs},
         "closing": {lang: docs[lang].closing for lang in docs},
         "dating": {lang: docs[lang].dating for lang in docs},
@@ -428,14 +442,23 @@ def main():
             "name": {"ru": p_ru["title"], "en": p_en["title"]},
             "gloss": {"ru": p_ru["gloss"], "en": p_en["gloss"]},
             "verses": {"ru": p_ru["verses"], "en": p_en["verses"]},
-            "text": {"ru": to_sections(p_ru["sections"]),
-                     "en": to_sections(p_en["sections"])},
+            "text": {"ru": to_sections(p_ru["sections"], "ru"),
+                     "en": to_sections(p_en["sections"], "en")},
         })
-    return treat, docs
+
+    # Sanskrit words in the Russian text: the same letters, with the marks
+    # they need (see tools/sanskrit.py). Verse lines are left untouched.
+    raw = json.loads(json.dumps(treat))
+    sanskrit.fix_tree(treat, skip_keys=("lines", "en"))
+    return treat, docs, raw
 
 
 def coverage(doc, treat):
-    """Check that every block of the PDF is present in the extracted data."""
+    """Check that every block of the PDF is present in the extracted data.
+
+    This runs on the text as the PDF has it, before tools/sanskrit.py adds the
+    marks: the check guards the extraction, not the typography.
+    """
     def texts(obj):
         acc = []
         if isinstance(obj, dict):
@@ -468,7 +491,9 @@ def coverage(doc, treat):
 
 
 if __name__ == "__main__":
-    out, docs = main()
+    out, docs, raw = main()
+    # chapter numbers are Arabic all over the site (see tools/numeral.py)
+    out = numeral.fix_document(out)
     with open(sys.argv[1], "w") as fh:
         json.dump(out, fh, ensure_ascii=False, indent=1)
     for lang in ("ru", "en"):
@@ -481,7 +506,7 @@ if __name__ == "__main__":
         print(p["number"], p["key"], "|", p["verses"]["ru"], "|",
               [s["type"] + ":" + (s.get("key") or s.get("label", "")) for s in p["text"]["ru"]])
     for lang in ("ru", "en"):
-        miss = coverage(docs[lang], out)
+        miss = coverage(docs[lang], raw)
         print(lang, "PDF lines not found in output:", len(miss))
         for line in miss[:25]:
             print("   !", line[:110])
