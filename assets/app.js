@@ -80,7 +80,7 @@
     }
   };
 
-  const BUILD = "2026-11-02.3";
+  const BUILD = "2026-11-02.4";
   const V = "?v=" + BUILD;
 
   const state = {
@@ -111,11 +111,16 @@
   /* ------------------------------------------------------- combining marks
 
      Cyrillic transliteration needs marks that most display fonts do not have
-     (м̣, р̣, н̇, н̃, ш́). The browser would then take the whole letter from a
-     fallback font — it looked heavier than its neighbours — and letter-spacing
-     pushed the mark sideways. The mark is therefore drawn by CSS, while the
-     real combining character stays in the text at zero size, so copying,
-     searching and screen readers still get the true letter.
+     (м̣, р̣, н̇, н̃, ш́). The browser would take the letter from one web font
+     and the mark from another (or from a fallback), and letter-spacing pushed
+     the mark sideways; the marks are therefore drawn by CSS, and the real
+     combining character stays in the text at zero size, so copying, searching
+     and screen readers still get the true letter.
+
+     The mark is placed from the baseline (see .mk in style.css), not from the
+     line box: a line box grows with line-height, so a mark measured from its
+     bottom edge slid down onto the letter in running text (line-height 1.7)
+     and crossed it out. A capital keeps its mark above the cap height.
   */
 
   const MARK_CLASS = {
@@ -125,6 +130,10 @@
     "\u0303": "m-t",   // tilde
     "\u0304": "m-mac"  // macron
   };
+
+  // у этих букв выносной элемент уходит ниже базовой линии: точка снизу
+  // должна встать под ним, а не внутри него
+  const DESCENDER = { "р": "d-deep", "д": "d-tail" };
 
   function marksInText(text) {
     let out = "";
@@ -138,7 +147,10 @@
         j += 1;
       }
       if (marks.length) {
-        out += '<span class="mk ' + marks.map((m) => MARK_CLASS[m]).join(" ") + '">' +
+        const cls = marks.map((m) => MARK_CLASS[m]);
+        if (base !== base.toLowerCase()) cls.push("is-cap");
+        if (DESCENDER[base]) cls.push(DESCENDER[base]);
+        out += '<span class="mk ' + cls.join(" ") + '">' +
           base + '<span class="cmb">' + marks.join("") + "</span></span>";
         i = j;
       } else {

@@ -1479,16 +1479,125 @@ html[data-theme="dark"] .treatise-head {
 }
 
 /* --------------------------------------------------------------------------
-   Diacritics drawn by CSS
+   Шрифты сайта
 
-   The marks are absolutely positioned on the letter itself, so they never
-   depend on a fallback font (which made the letter look bold) and never drift
-   with letter-spacing. Sizes are in em, so they scale with the text.
+   Файлы лежат в assets/fonts (собраны tools/build_fonts.py из полных,
+   ненарезанных файлов Google Fonts, лицензия OFL — см. рядом). Свои файлы
+   нужны ради диакритики: у Google Fonts шрифт нарезан по unicode-range, и
+   знак долготы U+0304 оказывается в другом файле, чем кириллическая «а»;
+   прикрепить знак к букве тогда невозможно, и черта садится поверх буквы.
+   Здесь каждый набор — один файл, поэтому знаки рисует сам шрифт.
+   -------------------------------------------------------------------------- */
+
+@font-face {
+  font-family: "Spectral";
+  src: url("fonts/spectral-400.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Spectral";
+  src: url("fonts/spectral-400i.woff2") format("woff2");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Spectral";
+  src: url("fonts/spectral-500.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Spectral";
+  src: url("fonts/spectral-600.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Spectral";
+  src: url("fonts/spectral-600i.woff2") format("woff2");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Cormorant Garamond";
+  src: url("fonts/cormorant-400.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Cormorant Garamond";
+  src: url("fonts/cormorant-400i.woff2") format("woff2");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Cormorant Garamond";
+  src: url("fonts/cormorant-500.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Cormorant Garamond";
+  src: url("fonts/cormorant-600.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Cormorant Garamond";
+  src: url("fonts/cormorant-600i.woff2") format("woff2");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Noto Serif Devanagari";
+  src: url("fonts/deva-400.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Noto Serif Devanagari";
+  src: url("fonts/deva-500.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* --------------------------------------------------------------------------
+   Знаки кириллической транслитерации: м̣, р̣, н̇, н̃, ш́, ā
+
+   Их рисует CSS: в наших шрифтах часть кириллических букв (м, н, ш, р, т, д, в,
+   х) не имеет якорей GPOS mark-to-base, и браузер ставит знак не над буквой, а
+   справа от неё. Настоящий комбинируемый знак остаётся в тексте нулевого
+   размера — его видят поиск, копирование и скринридер, а не глаз (.cmb ниже).
+
+   Знак отсчитывается от базовой линии. .mk — inline-block высотой 1em с
+   line-height: 1: низ его бокса стоит ниже базовой линии на (ascent − descent)/2
+   — константа шрифта, одинаковая у строчных и у заглавных и не зависящая от
+   line-height строки (у Spectral 0.20em, у Cormorant 0.18em, поэтому в обоих
+   случаях берётся 0.19em). Дальше отсчёт идёт в ex, то есть в высоте строчной
+   буквы: у Cormorant она меньше (0.386em против 0.45em у Spectral), и знак,
+   отмеренный просто в em, висел бы над его буквами слишком высоко. Раньше знак отсчитывался от низа строки, и в тексте
+   с line-height 1.7 черта долготы ложилась поперёк буквы — она и выглядела
+   перечёркнутой. У прописных (is-cap) знак поднят над верхом заглавной.
    -------------------------------------------------------------------------- */
 
 .mk {
   position: relative;
-  display: inline;
+  display: inline-block;
+  line-height: 1;
+  vertical-align: baseline;
 }
 
 .mk::before,
@@ -1498,72 +1607,75 @@ html[data-theme="dark"] .treatise-head {
   left: 50%;
   transform: translateX(-50%);
   pointer-events: none;
-  color: currentColor;
+  background: currentColor;
 }
 
-/* dot below: м̣, р̣, х̣, н̣, т̣, д̣ */
+/* точка снизу: м̣, т̣, х̣, н̣, л̣ */
 .mk.m-b::after {
-  bottom: .12em;
+  bottom: calc(.19em - .55ex);
   width: .13em;
   height: .13em;
   border-radius: 50%;
-  background: currentColor;
 }
 
-/* dot above: н̇ */
+/* точка сверху: н̇ */
 .mk.m-a::before {
-  bottom: .72em;
+  bottom: calc(.19em + 1.38ex);
   width: .13em;
   height: .13em;
   border-radius: 50%;
-  background: currentColor;
 }
 
-/* macron above: р̣̄ */
+/* черта долготы: ā */
 .mk.m-mac::before {
-  bottom: .74em;
-  width: .46em;
-  height: .06em;
-  border-radius: .05em;
-  background: currentColor;
+  bottom: calc(.19em + 1.44ex);
+  width: 82%;
+  max-width: .58em;
+  height: .055em;
+  border-radius: .04em;
 }
 
-/* acute above: ш́ */
+/* акут: ш́ */
 .mk.m-ac::before {
-  bottom: .70em;
+  bottom: calc(.19em + 1.31ex);
   width: .09em;
-  height: .24em;
-  border-radius: .05em;
-  background: currentColor;
+  height: .235em;
+  border-radius: .04em;
   transform: translateX(-50%) rotate(20deg);
 }
 
-/* tilde above: н̃ */
+/* тильда: н̃ */
 .mk.m-t::before {
-  bottom: .72em;
-  width: .34em;
-  height: .14em;
-  border-top: .06em solid currentColor;
+  bottom: calc(.19em + 1.36ex);
+  width: 74%;
+  max-width: .34em;
+  height: .13em;
+  background: none;
+  border-top: .055em solid currentColor;
   border-radius: 40% 40% 0 0 / 100% 100% 0 0;
 }
 
-/* р̣̄: the dot stays below, the macron above */
-.mk.m-b.m-mac::after { bottom: .12em; }
+/* прописные: знак идёт над верхом заглавной буквы, а не над строчной */
+.mk.is-cap.m-mac::before { bottom: 1.05em; }
+.mk.is-cap.m-ac::before { bottom: .99em; }
+.mk.is-cap.m-a::before { bottom: 1.02em; }
+.mk.is-cap.m-t::before { bottom: 1.01em; }
 
-@media print {
-  .mk.m-b::after,
-  .mk.m-a::before,
-  .mk.m-mac::before,
-  .mk.m-ac::before { background: #000; }
-  .mk.m-t::before { border-top-color: #000; }
-}
+/* «р» и «д» уходят ниже базовой линии: точка снизу идёт под выносной элемент */
+.mk.m-b.d-deep::after { bottom: -.28em; }
+.mk.m-b.d-tail::after { bottom: -.16em; }
 
-/* the real combining mark stays in the text (copy, search, screen readers) but
-   is drawn at zero size: the visible mark is the CSS one above */
+/* настоящий знак остаётся в тексте, но не рисуется: видимый знак — CSS */
 .mk > .cmb {
   font-size: 0;
   line-height: 0;
   letter-spacing: 0;
+}
+
+@media print {
+  .mk::before,
+  .mk::after { background: #000; }
+  .mk.m-t::before { background: none; border-top-color: #000; }
 }
 
 /* A table with many columns becomes a stack of cards on a narrow screen: no
