@@ -779,6 +779,7 @@ h1.pose-title {
   font-size: 1.1rem;
   line-height: 1.25;
   color: var(--ink);
+  text-wrap: pretty;
 }
 
 /* These two are plain text columns on purpose: a flex container turns every
@@ -807,6 +808,7 @@ h1.pose-title {
   font-size: .76rem;
   line-height: 1.45;
   color: var(--muted);
+  text-wrap: pretty;              /* no one-word last line in a citation */
 }
 
 .dating-work-label {
