@@ -3854,14 +3854,86 @@
         ]
        }
       ],
-      "verses": "24"
+      "verses": "24",
+      "own": true
+     },
+     {
+      "type": "verse_card",
+      "sections": [
+       {
+        "type": "verse",
+        "key": "deva",
+        "label": "Деванāгарӣ",
+        "lines": [
+         "नृसिंहं गरुडं कूर्मं नागाख्यं वैष्णवासनम् ।",
+         "वीरं मयूरं वज्राख्यं सिद्धाख्यं रौद्रमासनम् ॥२५॥"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "iast",
+        "label": "IAST",
+        "lines": [
+         "nṛsiṃhaṃ garuḍaṃ kūrmaṃ nāgākhyaṃ vaiṣṇavāsanam ।",
+         "vīraṃ mayūraṃ vajrākhyaṃ siddhākhyaṃ raudramāsanam ॥25॥"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "cyr",
+        "label": "Кириллическая транслитерация",
+        "lines": [
+         "нр̣сим̣хам̣ гаруд̣ам̣ кӯрмам̣ нāгāкхйам̣ ваишн̣авāсанам ।",
+         "вӣрам̣ майӯрам̣ ваджрāкхйам̣ сиддхāкхйам̣ раудрамāсанам ॥25॥"
+        ]
+       }
+      ],
+      "verses": "25"
+     },
+     {
+      "type": "verse_card",
+      "sections": [
+       {
+        "type": "verse",
+        "key": "deva",
+        "label": "Деванāгарӣ",
+        "lines": [
+         "योन्यासनं विदुश्शाक्तं शैवं पश्चिमतानकम् ।",
+         "निरालम्बनयोगस्य निरालम्बनमासनम् ॥२६॥",
+         "निरालम्बतया ध्यानं निरालम्बस्सदाशिवः ।"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "iast",
+        "label": "IAST",
+        "lines": [
+         "yonyāsanaṃ viduśśāktaṃ śaivaṃ paścimatānakam ।",
+         "nirālambanayogasya nirālambanamāsanam ॥26॥",
+         "nirālambatayā dhyānaṃ nirālambassadāśivaḥ ।"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "cyr",
+        "label": "Кириллическая транслитерация",
+        "lines": [
+         "йонйāсанам̣ видуш́ш́āктам̣ ш́аивам̣ паш́чиматāнакам ।",
+         "нирāламбанайогасйа нирāламбанамāсанам ॥26॥",
+         "нирāламбатайā дхйāнам̣ нирāламбассадāш́ивах̣ ।"
+        ]
+       }
+      ],
+      "verses": "26"
      },
      {
       "type": "words",
       "key": "words",
       "label": "Пословный разбор",
       "paragraphs": [
-       "свастикам̣ - Свастика; гомукхам̣ - гомукха; падмам̣ - падма; хам̣сāкхйам̣ - хамса; брāхмамāсанам - бра̄хма-асана."
+       "свастикам̣ - Свастика; гомукхам̣ - гомукха; падмам̣ - падма; хам̣сāкхйам̣ - хамса; брāхмамāсанам - бра̄хма-асана.",
+       "нр̣сим̣хам̣ - Нрисимха; гаруд̣ам̣ - гаруда; кӯрмам̣ - курма; нāгāкхйам̣ - нага; ваишн̣авāсанам - вайшнава-асана; вӣрам̣ - Вира; майӯрам̣ - маюра; ваджрāкхйам̣ - ваджра; сиддхāкхйам̣ - сиддха; раудрамāсанам - раудра-асана.",
+       "йонйāсанам̣ - Асана йони; видух̣ - как знают; ш́āктам̣ - ш́а̄кта; ш́аивам̣ - ш́айва; паш́чиматāнакам - пашчиматанака; нирāламбанайогасйа - Для нира̄ламбана-йоги; нирāламбанам - нира̄ламбана; āсанам - асана; нирāламбатайā - без опоры; дхйāнам̣ - созерцание; нирāламбах̣ - безопорный [Аа̄тман]; садāш́ивах̣ - Сада̄шива."
       ],
       "groups": [
        [
@@ -3885,7 +3957,104 @@
          "брāхмамāсанам",
          "бра̄хма-асана"
         ]
+       ],
+       [
+        [
+         "нр̣сим̣хам̣",
+         "Нрисимха"
+        ],
+        [
+         "гаруд̣ам̣",
+         "гаруда"
+        ],
+        [
+         "кӯрмам̣",
+         "курма"
+        ],
+        [
+         "нāгāкхйам̣",
+         "нага"
+        ],
+        [
+         "ваишн̣авāсанам",
+         "вайшнава-асана"
+        ],
+        [
+         "вӣрам̣",
+         "Вира"
+        ],
+        [
+         "майӯрам̣",
+         "маюра"
+        ],
+        [
+         "ваджрāкхйам̣",
+         "ваджра"
+        ],
+        [
+         "сиддхāкхйам̣",
+         "сиддха"
+        ],
+        [
+         "раудрамāсанам",
+         "раудра-асана"
+        ]
+       ],
+       [
+        [
+         "йонйāсанам̣",
+         "Асана йони"
+        ],
+        [
+         "видух̣",
+         "как знают"
+        ],
+        [
+         "ш́āктам̣",
+         "ш́а̄кта"
+        ],
+        [
+         "ш́аивам̣",
+         "ш́айва"
+        ],
+        [
+         "паш́чиматāнакам",
+         "пашчиматанака"
+        ],
+        [
+         "нирāламбанайогасйа",
+         "Для нира̄ламбана-йоги"
+        ],
+        [
+         "нирāламбанам",
+         "нира̄ламбана"
+        ],
+        [
+         "āсанам",
+         "асана"
+        ],
+        [
+         "нирāламбатайā",
+         "без опоры"
+        ],
+        [
+         "дхйāнам̣",
+         "созерцание"
+        ],
+        [
+         "нирāламбах̣",
+         "безопорный [Аа̄тман]"
+        ],
+        [
+         "садāш́ивах̣",
+         "Сада̄шива"
+        ]
        ]
+      ],
+      "titles": [
+       "Стих 24",
+       "Стих 25",
+       "Стих 26"
       ]
      },
      {
@@ -3893,7 +4062,11 @@
       "key": "literal",
       "label": "Буквальный перевод",
       "paragraphs": [
-       "Свастика, гомукха, падма, хамса — бра̄хма-асана."
+       "Свастика, гомукха, падма, хамса — бра̄хма-асана.",
+       "Нрисимха, гаруда, курма, нага — вайшнава-асана.",
+       "Вира, маюра, ваджра, сиддха — раудра-асана.",
+       "Асана йони, как знают, — ш́а̄кта; ш́айва — пашчиматанака.",
+       "Для нира̄ламбана-йоги — нира̄ламбана-асана; созерцание — без опоры, а безопорный [Аа̄тман] — Сада̄шива."
       ]
      },
      {
@@ -3902,6 +4075,11 @@
       "label": "Литературный перевод",
       "paragraphs": [
        "24–26. Свастика, гомукха, падма, хамса — это бра̄хмические позы (асаны).",
+       "Нрисимха, гаруда, кӯрма, нага — это ваишн̣ава-позы.",
+       "Вӣра, майӯра, ваджра, сиддха — это раудра-позы.",
+       "Йони — ш́а̄кта-поза.",
+       "Пашчиматанака — ш́аива-поза.",
+       "Поза для нира̄ламбана-йоги — нира̄ламбана (букв. „беспорная“, не предполагающая определённого положения рук, ног и прочих членов тела); созерцать следует Нира̄ламбану, а Нира̄ламбана — это Сада̄шива, Безусловное, Парама̄тман.",
        "— англ. пер. изд. 1978 г., с. 170"
       ]
      },
@@ -3949,14 +4127,86 @@
         ]
        }
       ],
-      "verses": "24"
+      "verses": "24",
+      "own": true
+     },
+     {
+      "type": "verse_card",
+      "sections": [
+       {
+        "type": "verse",
+        "key": "deva",
+        "label": "Devanāgarī",
+        "lines": [
+         "नृसिंहं गरुडं कूर्मं नागाख्यं वैष्णवासनम् ।",
+         "वीरं मयूरं वज्राख्यं सिद्धाख्यं रौद्रमासनम् ॥२५॥"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "iast",
+        "label": "IAST",
+        "lines": [
+         "nṛsiṃhaṃ garuḍaṃ kūrmaṃ nāgākhyaṃ vaiṣṇavāsanam ।",
+         "vīraṃ mayūraṃ vajrākhyaṃ siddhākhyaṃ raudramāsanam ॥25॥"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "cyr",
+        "label": "Cyrillic transliteration",
+        "lines": [
+         "нр̣сим̣хам̣ гаруд̣ам̣ кӯрмам̣ нāгāкхйам̣ ваишн̣авāсанам ।",
+         "вӣрам̣ майӯрам̣ ваджрāкхйам̣ сиддхāкхйам̣ раудрамāсанам ॥25॥"
+        ]
+       }
+      ],
+      "verses": "25"
+     },
+     {
+      "type": "verse_card",
+      "sections": [
+       {
+        "type": "verse",
+        "key": "deva",
+        "label": "Devanāgarī",
+        "lines": [
+         "योन्यासनं विदुश्शाक्तं शैवं पश्चिमतानकम् ।",
+         "निरालम्बनयोगस्य निरालम्बनमासनम् ॥२६॥",
+         "निरालम्बतया ध्यानं निरालम्बस्सदाशिवः ।"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "iast",
+        "label": "IAST",
+        "lines": [
+         "yonyāsanaṃ viduśśāktaṃ śaivaṃ paścimatānakam ।",
+         "nirālambanayogasya nirālambanamāsanam ॥26॥",
+         "nirālambatayā dhyānaṃ nirālambassadāśivaḥ ।"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "cyr",
+        "label": "Cyrillic transliteration",
+        "lines": [
+         "йонйāсанам̣ видуш́ш́āктам̣ ш́аивам̣ паш́чиматāнакам ।",
+         "нирāламбанайогасйа нирāламбанамāсанам ॥26॥",
+         "нирāламбатайā дхйāнам̣ нирāламбассадāш́ивах̣ ।"
+        ]
+       }
+      ],
+      "verses": "26"
      },
      {
       "type": "words",
       "key": "words",
       "label": "Word-by-word analysis",
       "paragraphs": [
-       "svastikaṃ - Svastika; gomukhaṃ - gomukha; padmaṃ - padma; haṃsākhyaṃ - haṃsa; brāhmamāsanam - the brāhma-āsana."
+       "svastikaṃ - Svastika; gomukhaṃ - gomukha; padmaṃ - padma; haṃsākhyaṃ - haṃsa; brāhmamāsanam - the brāhma-āsana.",
+       "nṛsiṃhaṃ - Nṛsiṃha; garuḍaṃ - garuḍa; kūrmaṃ - kūrma; nāgākhyaṃ - nāga; vaiṣṇavāsanam - the vaiṣṇava-āsana; vīraṃ - Vīra; mayūraṃ - mayūra; vajrākhyaṃ - vajra; siddhākhyaṃ - siddha; raudramāsanam - the raudra-āsana.",
+       "yonyāsanaṃ - The yoni posture; viduḥ - as they know; śāktaṃ - the śākta one; śaivaṃ - the śaiva one; paścimatānakam - paścima-tanaka; nirālambanayogasya - For nirālambana-yoga; nirālambanam - the nirālambana; āsanam - āsana; nirālambatayā - without support; dhyānaṃ - contemplation; nirālambaḥ - the supportless [Ātman]; sadāśivaḥ - Sadāśiva."
       ],
       "groups": [
        [
@@ -3980,7 +4230,104 @@
          "brāhmamāsanam",
          "the brāhma-āsana"
         ]
+       ],
+       [
+        [
+         "nṛsiṃhaṃ",
+         "Nṛsiṃha"
+        ],
+        [
+         "garuḍaṃ",
+         "garuḍa"
+        ],
+        [
+         "kūrmaṃ",
+         "kūrma"
+        ],
+        [
+         "nāgākhyaṃ",
+         "nāga"
+        ],
+        [
+         "vaiṣṇavāsanam",
+         "the vaiṣṇava-āsana"
+        ],
+        [
+         "vīraṃ",
+         "Vīra"
+        ],
+        [
+         "mayūraṃ",
+         "mayūra"
+        ],
+        [
+         "vajrākhyaṃ",
+         "vajra"
+        ],
+        [
+         "siddhākhyaṃ",
+         "siddha"
+        ],
+        [
+         "raudramāsanam",
+         "the raudra-āsana"
+        ]
+       ],
+       [
+        [
+         "yonyāsanaṃ",
+         "The yoni posture"
+        ],
+        [
+         "viduḥ",
+         "as they know"
+        ],
+        [
+         "śāktaṃ",
+         "the śākta one"
+        ],
+        [
+         "śaivaṃ",
+         "the śaiva one"
+        ],
+        [
+         "paścimatānakam",
+         "paścima-tanaka"
+        ],
+        [
+         "nirālambanayogasya",
+         "For nirālambana-yoga"
+        ],
+        [
+         "nirālambanam",
+         "the nirālambana"
+        ],
+        [
+         "āsanam",
+         "āsana"
+        ],
+        [
+         "nirālambatayā",
+         "without support"
+        ],
+        [
+         "dhyānaṃ",
+         "contemplation"
+        ],
+        [
+         "nirālambaḥ",
+         "the supportless [Ātman]"
+        ],
+        [
+         "sadāśivaḥ",
+         "Sadāśiva"
+        ]
        ]
+      ],
+      "titles": [
+       "Verse 24",
+       "Verse 25",
+       "Verse 26"
       ]
      },
      {
@@ -3988,7 +4335,11 @@
       "key": "literal",
       "label": "Literal translation",
       "paragraphs": [
-       "Svastika, gomukha, padma, haṃsa — the brāhma-āsana."
+       "Svastika, gomukha, padma, haṃsa — the brāhma-āsana.",
+       "Nṛsiṃha, garuḍa, kūrma, nāga — the vaiṣṇava-āsana.",
+       "Vīra, mayūra, vajra, siddha — the raudra-āsana.",
+       "The yoni posture, as they know, is the śākta one; the śaiva one is paścima-tanaka.",
+       "For nirālambana-yoga there is the nirālambana-āsana; contemplation is without support, and the supportless [Ātman] is Sadāśiva."
       ]
      },
      {
@@ -3997,6 +4348,11 @@
       "label": "Literary translation",
       "paragraphs": [
        "24-26. Svastika, Gomukha, Padma, Haṃsa — these are the Brahmic postures (Āsanas).",
+       "Nṛsiṃha, Garuḍa, Kūrma, Nāga — these are the Vaiṣṇava postures.",
+       "Vīra, Mayūra, Vajra, Siddha — these are the Raudra postures.",
+       "Yoni is the Śākta posture.",
+       "Paścima-tanaka is the Śaiva posture.",
+       "The posture for the Nirālambana-Yoga is nirālambana (lit. propless, involving no specific position of hands, feet or other members of the body); meditation should be on the Nirālambana, and the Nirālambana is Sadāśiva, the Unconditioned, the Paramātman.",
        "— English translation, 1978 edition, p. 170"
       ]
      },
@@ -4063,14 +4419,86 @@
         ]
        }
       ],
-      "verses": "24"
+      "verses": "24",
+      "own": true
+     },
+     {
+      "type": "verse_card",
+      "sections": [
+       {
+        "type": "verse",
+        "key": "deva",
+        "label": "Деванāгарӣ",
+        "lines": [
+         "नृसिंहं गरुडं कूर्मं नागाख्यं वैष्णवासनम् ।",
+         "वीरं मयूरं वज्राख्यं सिद्धाख्यं रौद्रमासनम् ॥२५॥"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "iast",
+        "label": "IAST",
+        "lines": [
+         "nṛsiṃhaṃ garuḍaṃ kūrmaṃ nāgākhyaṃ vaiṣṇavāsanam ।",
+         "vīraṃ mayūraṃ vajrākhyaṃ siddhākhyaṃ raudramāsanam ॥25॥"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "cyr",
+        "label": "Кириллическая транслитерация",
+        "lines": [
+         "нр̣сим̣хам̣ гаруд̣ам̣ кӯрмам̣ нāгāкхйам̣ ваишн̣авāсанам ।",
+         "вӣрам̣ майӯрам̣ ваджрāкхйам̣ сиддхāкхйам̣ раудрамāсанам ॥25॥"
+        ]
+       }
+      ],
+      "verses": "25"
+     },
+     {
+      "type": "verse_card",
+      "sections": [
+       {
+        "type": "verse",
+        "key": "deva",
+        "label": "Деванāгарӣ",
+        "lines": [
+         "योन्यासनं विदुश्शाक्तं शैवं पश्चिमतानकम् ।",
+         "निरालम्बनयोगस्य निरालम्बनमासनम् ॥२६॥",
+         "निरालम्बतया ध्यानं निरालम्बस्सदाशिवः ।"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "iast",
+        "label": "IAST",
+        "lines": [
+         "yonyāsanaṃ viduśśāktaṃ śaivaṃ paścimatānakam ।",
+         "nirālambanayogasya nirālambanamāsanam ॥26॥",
+         "nirālambatayā dhyānaṃ nirālambassadāśivaḥ ।"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "cyr",
+        "label": "Кириллическая транслитерация",
+        "lines": [
+         "йонйāсанам̣ видуш́ш́āктам̣ ш́аивам̣ паш́чиматāнакам ।",
+         "нирāламбанайогасйа нирāламбанамāсанам ॥26॥",
+         "нирāламбатайā дхйāнам̣ нирāламбассадāш́ивах̣ ।"
+        ]
+       }
+      ],
+      "verses": "26"
      },
      {
       "type": "words",
       "key": "words",
       "label": "Пословный разбор",
       "paragraphs": [
-       "свастикам̣ - Свастика; гомукхам̣ - гомукха; падмам̣ - падма; хам̣сāкхйам̣ - хамса; брāхмамāсанам - бра̄хма-асана."
+       "свастикам̣ - Свастика; гомукхам̣ - гомукха; падмам̣ - падма; хам̣сāкхйам̣ - хамса; брāхмамāсанам - бра̄хма-асана.",
+       "нр̣сим̣хам̣ - Нрисимха; гаруд̣ам̣ - гаруда; кӯрмам̣ - курма; нāгāкхйам̣ - нага; ваишн̣авāсанам - вайшнава-асана; вӣрам̣ - Вира; майӯрам̣ - маюра; ваджрāкхйам̣ - ваджра; сиддхāкхйам̣ - сиддха; раудрамāсанам - раудра-асана.",
+       "йонйāсанам̣ - Асана йони; видух̣ - как знают; ш́āктам̣ - ш́а̄кта; ш́аивам̣ - ш́айва; паш́чиматāнакам - пашчиматанака; нирāламбанайогасйа - Для нира̄ламбана-йоги; нирāламбанам - нира̄ламбана; āсанам - асана; нирāламбатайā - без опоры; дхйāнам̣ - созерцание; нирāламбах̣ - безопорный [Аа̄тман]; садāш́ивах̣ - Сада̄шива."
       ],
       "groups": [
        [
@@ -4094,7 +4522,104 @@
          "брāхмамāсанам",
          "бра̄хма-асана"
         ]
+       ],
+       [
+        [
+         "нр̣сим̣хам̣",
+         "Нрисимха"
+        ],
+        [
+         "гаруд̣ам̣",
+         "гаруда"
+        ],
+        [
+         "кӯрмам̣",
+         "курма"
+        ],
+        [
+         "нāгāкхйам̣",
+         "нага"
+        ],
+        [
+         "ваишн̣авāсанам",
+         "вайшнава-асана"
+        ],
+        [
+         "вӣрам̣",
+         "Вира"
+        ],
+        [
+         "майӯрам̣",
+         "маюра"
+        ],
+        [
+         "ваджрāкхйам̣",
+         "ваджра"
+        ],
+        [
+         "сиддхāкхйам̣",
+         "сиддха"
+        ],
+        [
+         "раудрамāсанам",
+         "раудра-асана"
+        ]
+       ],
+       [
+        [
+         "йонйāсанам̣",
+         "Асана йони"
+        ],
+        [
+         "видух̣",
+         "как знают"
+        ],
+        [
+         "ш́āктам̣",
+         "ш́а̄кта"
+        ],
+        [
+         "ш́аивам̣",
+         "ш́айва"
+        ],
+        [
+         "паш́чиматāнакам",
+         "пашчиматанака"
+        ],
+        [
+         "нирāламбанайогасйа",
+         "Для нира̄ламбана-йоги"
+        ],
+        [
+         "нирāламбанам",
+         "нира̄ламбана"
+        ],
+        [
+         "āсанам",
+         "асана"
+        ],
+        [
+         "нирāламбатайā",
+         "без опоры"
+        ],
+        [
+         "дхйāнам̣",
+         "созерцание"
+        ],
+        [
+         "нирāламбах̣",
+         "безопорный [Аа̄тман]"
+        ],
+        [
+         "садāш́ивах̣",
+         "Сада̄шива"
+        ]
        ]
+      ],
+      "titles": [
+       "Стих 24",
+       "Стих 25",
+       "Стих 26"
       ]
      },
      {
@@ -4102,7 +4627,11 @@
       "key": "literal",
       "label": "Буквальный перевод",
       "paragraphs": [
-       "Свастика, гомукха, падма, хамса — бра̄хма-асана."
+       "Свастика, гомукха, падма, хамса — бра̄хма-асана.",
+       "Нрисимха, гаруда, курма, нага — вайшнава-асана.",
+       "Вира, маюра, ваджра, сиддха — раудра-асана.",
+       "Асана йони, как знают, — ш́а̄кта; ш́айва — пашчиматанака.",
+       "Для нира̄ламбана-йоги — нира̄ламбана-асана; созерцание — без опоры, а безопорный [Аа̄тман] — Сада̄шива."
       ]
      },
      {
@@ -4111,6 +4640,11 @@
       "label": "Литературный перевод",
       "paragraphs": [
        "24–26. Свастика, гомукха, падма, хамса — это бра̄хмические позы (асаны).",
+       "Нрисимха, гаруда, кӯрма, нага — это ваишн̣ава-позы.",
+       "Вӣра, майӯра, ваджра, сиддха — это раудра-позы.",
+       "Йони — ш́а̄кта-поза.",
+       "Пашчиматанака — ш́аива-поза.",
+       "Поза для нира̄ламбана-йоги — нира̄ламбана (букв. „беспорная“, не предполагающая определённого положения рук, ног и прочих членов тела); созерцать следует Нира̄ламбану, а Нира̄ламбана — это Сада̄шива, Безусловное, Парама̄тман.",
        "— англ. пер. изд. 1978 г., с. 170"
       ]
      },
@@ -4158,14 +4692,86 @@
         ]
        }
       ],
-      "verses": "24"
+      "verses": "24",
+      "own": true
+     },
+     {
+      "type": "verse_card",
+      "sections": [
+       {
+        "type": "verse",
+        "key": "deva",
+        "label": "Devanāgarī",
+        "lines": [
+         "नृसिंहं गरुडं कूर्मं नागाख्यं वैष्णवासनम् ।",
+         "वीरं मयूरं वज्राख्यं सिद्धाख्यं रौद्रमासनम् ॥२५॥"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "iast",
+        "label": "IAST",
+        "lines": [
+         "nṛsiṃhaṃ garuḍaṃ kūrmaṃ nāgākhyaṃ vaiṣṇavāsanam ।",
+         "vīraṃ mayūraṃ vajrākhyaṃ siddhākhyaṃ raudramāsanam ॥25॥"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "cyr",
+        "label": "Cyrillic transliteration",
+        "lines": [
+         "нр̣сим̣хам̣ гаруд̣ам̣ кӯрмам̣ нāгāкхйам̣ ваишн̣авāсанам ।",
+         "вӣрам̣ майӯрам̣ ваджрāкхйам̣ сиддхāкхйам̣ раудрамāсанам ॥25॥"
+        ]
+       }
+      ],
+      "verses": "25"
+     },
+     {
+      "type": "verse_card",
+      "sections": [
+       {
+        "type": "verse",
+        "key": "deva",
+        "label": "Devanāgarī",
+        "lines": [
+         "योन्यासनं विदुश्शाक्तं शैवं पश्चिमतानकम् ।",
+         "निरालम्बनयोगस्य निरालम्बनमासनम् ॥२६॥",
+         "निरालम्बतया ध्यानं निरालम्बस्सदाशिवः ।"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "iast",
+        "label": "IAST",
+        "lines": [
+         "yonyāsanaṃ viduśśāktaṃ śaivaṃ paścimatānakam ।",
+         "nirālambanayogasya nirālambanamāsanam ॥26॥",
+         "nirālambatayā dhyānaṃ nirālambassadāśivaḥ ।"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "cyr",
+        "label": "Cyrillic transliteration",
+        "lines": [
+         "йонйāсанам̣ видуш́ш́āктам̣ ш́аивам̣ паш́чиматāнакам ।",
+         "нирāламбанайогасйа нирāламбанамāсанам ॥26॥",
+         "нирāламбатайā дхйāнам̣ нирāламбассадāш́ивах̣ ।"
+        ]
+       }
+      ],
+      "verses": "26"
      },
      {
       "type": "words",
       "key": "words",
       "label": "Word-by-word analysis",
       "paragraphs": [
-       "svastikaṃ - Svastika; gomukhaṃ - gomukha; padmaṃ - padma; haṃsākhyaṃ - haṃsa; brāhmamāsanam - the brāhma-āsana."
+       "svastikaṃ - Svastika; gomukhaṃ - gomukha; padmaṃ - padma; haṃsākhyaṃ - haṃsa; brāhmamāsanam - the brāhma-āsana.",
+       "nṛsiṃhaṃ - Nṛsiṃha; garuḍaṃ - garuḍa; kūrmaṃ - kūrma; nāgākhyaṃ - nāga; vaiṣṇavāsanam - the vaiṣṇava-āsana; vīraṃ - Vīra; mayūraṃ - mayūra; vajrākhyaṃ - vajra; siddhākhyaṃ - siddha; raudramāsanam - the raudra-āsana.",
+       "yonyāsanaṃ - The yoni posture; viduḥ - as they know; śāktaṃ - the śākta one; śaivaṃ - the śaiva one; paścimatānakam - paścima-tanaka; nirālambanayogasya - For nirālambana-yoga; nirālambanam - the nirālambana; āsanam - āsana; nirālambatayā - without support; dhyānaṃ - contemplation; nirālambaḥ - the supportless [Ātman]; sadāśivaḥ - Sadāśiva."
       ],
       "groups": [
        [
@@ -4189,7 +4795,104 @@
          "brāhmamāsanam",
          "the brāhma-āsana"
         ]
+       ],
+       [
+        [
+         "nṛsiṃhaṃ",
+         "Nṛsiṃha"
+        ],
+        [
+         "garuḍaṃ",
+         "garuḍa"
+        ],
+        [
+         "kūrmaṃ",
+         "kūrma"
+        ],
+        [
+         "nāgākhyaṃ",
+         "nāga"
+        ],
+        [
+         "vaiṣṇavāsanam",
+         "the vaiṣṇava-āsana"
+        ],
+        [
+         "vīraṃ",
+         "Vīra"
+        ],
+        [
+         "mayūraṃ",
+         "mayūra"
+        ],
+        [
+         "vajrākhyaṃ",
+         "vajra"
+        ],
+        [
+         "siddhākhyaṃ",
+         "siddha"
+        ],
+        [
+         "raudramāsanam",
+         "the raudra-āsana"
+        ]
+       ],
+       [
+        [
+         "yonyāsanaṃ",
+         "The yoni posture"
+        ],
+        [
+         "viduḥ",
+         "as they know"
+        ],
+        [
+         "śāktaṃ",
+         "the śākta one"
+        ],
+        [
+         "śaivaṃ",
+         "the śaiva one"
+        ],
+        [
+         "paścimatānakam",
+         "paścima-tanaka"
+        ],
+        [
+         "nirālambanayogasya",
+         "For nirālambana-yoga"
+        ],
+        [
+         "nirālambanam",
+         "the nirālambana"
+        ],
+        [
+         "āsanam",
+         "āsana"
+        ],
+        [
+         "nirālambatayā",
+         "without support"
+        ],
+        [
+         "dhyānaṃ",
+         "contemplation"
+        ],
+        [
+         "nirālambaḥ",
+         "the supportless [Ātman]"
+        ],
+        [
+         "sadāśivaḥ",
+         "Sadāśiva"
+        ]
        ]
+      ],
+      "titles": [
+       "Verse 24",
+       "Verse 25",
+       "Verse 26"
       ]
      },
      {
@@ -4197,7 +4900,11 @@
       "key": "literal",
       "label": "Literal translation",
       "paragraphs": [
-       "Svastika, gomukha, padma, haṃsa — the brāhma-āsana."
+       "Svastika, gomukha, padma, haṃsa — the brāhma-āsana.",
+       "Nṛsiṃha, garuḍa, kūrma, nāga — the vaiṣṇava-āsana.",
+       "Vīra, mayūra, vajra, siddha — the raudra-āsana.",
+       "The yoni posture, as they know, is the śākta one; the śaiva one is paścima-tanaka.",
+       "For nirālambana-yoga there is the nirālambana-āsana; contemplation is without support, and the supportless [Ātman] is Sadāśiva."
       ]
      },
      {
@@ -4206,6 +4913,11 @@
       "label": "Literary translation",
       "paragraphs": [
        "24-26. Svastika, Gomukha, Padma, Haṃsa — these are the Brahmic postures (Āsanas).",
+       "Nṛsiṃha, Garuḍa, Kūrma, Nāga — these are the Vaiṣṇava postures.",
+       "Vīra, Mayūra, Vajra, Siddha — these are the Raudra postures.",
+       "Yoni is the Śākta posture.",
+       "Paścima-tanaka is the Śaiva posture.",
+       "The posture for the Nirālambana-Yoga is nirālambana (lit. propless, involving no specific position of hands, feet or other members of the body); meditation should be on the Nirālambana, and the Nirālambana is Sadāśiva, the Unconditioned, the Paramātman.",
        "— English translation, 1978 edition, p. 170"
       ]
      },
@@ -4272,14 +4984,86 @@
         ]
        }
       ],
-      "verses": "24"
+      "verses": "24",
+      "own": true
+     },
+     {
+      "type": "verse_card",
+      "sections": [
+       {
+        "type": "verse",
+        "key": "deva",
+        "label": "Деванāгарӣ",
+        "lines": [
+         "नृसिंहं गरुडं कूर्मं नागाख्यं वैष्णवासनम् ।",
+         "वीरं मयूरं वज्राख्यं सिद्धाख्यं रौद्रमासनम् ॥२५॥"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "iast",
+        "label": "IAST",
+        "lines": [
+         "nṛsiṃhaṃ garuḍaṃ kūrmaṃ nāgākhyaṃ vaiṣṇavāsanam ।",
+         "vīraṃ mayūraṃ vajrākhyaṃ siddhākhyaṃ raudramāsanam ॥25॥"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "cyr",
+        "label": "Кириллическая транслитерация",
+        "lines": [
+         "нр̣сим̣хам̣ гаруд̣ам̣ кӯрмам̣ нāгāкхйам̣ ваишн̣авāсанам ।",
+         "вӣрам̣ майӯрам̣ ваджрāкхйам̣ сиддхāкхйам̣ раудрамāсанам ॥25॥"
+        ]
+       }
+      ],
+      "verses": "25"
+     },
+     {
+      "type": "verse_card",
+      "sections": [
+       {
+        "type": "verse",
+        "key": "deva",
+        "label": "Деванāгарӣ",
+        "lines": [
+         "योन्यासनं विदुश्शाक्तं शैवं पश्चिमतानकम् ।",
+         "निरालम्बनयोगस्य निरालम्बनमासनम् ॥२६॥",
+         "निरालम्बतया ध्यानं निरालम्बस्सदाशिवः ।"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "iast",
+        "label": "IAST",
+        "lines": [
+         "yonyāsanaṃ viduśśāktaṃ śaivaṃ paścimatānakam ।",
+         "nirālambanayogasya nirālambanamāsanam ॥26॥",
+         "nirālambatayā dhyānaṃ nirālambassadāśivaḥ ।"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "cyr",
+        "label": "Кириллическая транслитерация",
+        "lines": [
+         "йонйāсанам̣ видуш́ш́āктам̣ ш́аивам̣ паш́чиматāнакам ।",
+         "нирāламбанайогасйа нирāламбанамāсанам ॥26॥",
+         "нирāламбатайā дхйāнам̣ нирāламбассадāш́ивах̣ ।"
+        ]
+       }
+      ],
+      "verses": "26"
      },
      {
       "type": "words",
       "key": "words",
       "label": "Пословный разбор",
       "paragraphs": [
-       "свастикам̣ - Свастика; гомукхам̣ - гомукха; падмам̣ - падма; хам̣сāкхйам̣ - хамса; брāхмамāсанам - бра̄хма-асана."
+       "свастикам̣ - Свастика; гомукхам̣ - гомукха; падмам̣ - падма; хам̣сāкхйам̣ - хамса; брāхмамāсанам - бра̄хма-асана.",
+       "нр̣сим̣хам̣ - Нрисимха; гаруд̣ам̣ - гаруда; кӯрмам̣ - курма; нāгāкхйам̣ - нага; ваишн̣авāсанам - вайшнава-асана; вӣрам̣ - Вира; майӯрам̣ - маюра; ваджрāкхйам̣ - ваджра; сиддхāкхйам̣ - сиддха; раудрамāсанам - раудра-асана.",
+       "йонйāсанам̣ - Асана йони; видух̣ - как знают; ш́āктам̣ - ш́а̄кта; ш́аивам̣ - ш́айва; паш́чиматāнакам - пашчиматанака; нирāламбанайогасйа - Для нира̄ламбана-йоги; нирāламбанам - нира̄ламбана; āсанам - асана; нирāламбатайā - без опоры; дхйāнам̣ - созерцание; нирāламбах̣ - безопорный [Аа̄тман]; садāш́ивах̣ - Сада̄шива."
       ],
       "groups": [
        [
@@ -4303,7 +5087,104 @@
          "брāхмамāсанам",
          "бра̄хма-асана"
         ]
+       ],
+       [
+        [
+         "нр̣сим̣хам̣",
+         "Нрисимха"
+        ],
+        [
+         "гаруд̣ам̣",
+         "гаруда"
+        ],
+        [
+         "кӯрмам̣",
+         "курма"
+        ],
+        [
+         "нāгāкхйам̣",
+         "нага"
+        ],
+        [
+         "ваишн̣авāсанам",
+         "вайшнава-асана"
+        ],
+        [
+         "вӣрам̣",
+         "Вира"
+        ],
+        [
+         "майӯрам̣",
+         "маюра"
+        ],
+        [
+         "ваджрāкхйам̣",
+         "ваджра"
+        ],
+        [
+         "сиддхāкхйам̣",
+         "сиддха"
+        ],
+        [
+         "раудрамāсанам",
+         "раудра-асана"
+        ]
+       ],
+       [
+        [
+         "йонйāсанам̣",
+         "Асана йони"
+        ],
+        [
+         "видух̣",
+         "как знают"
+        ],
+        [
+         "ш́āктам̣",
+         "ш́а̄кта"
+        ],
+        [
+         "ш́аивам̣",
+         "ш́айва"
+        ],
+        [
+         "паш́чиматāнакам",
+         "пашчиматанака"
+        ],
+        [
+         "нирāламбанайогасйа",
+         "Для нира̄ламбана-йоги"
+        ],
+        [
+         "нирāламбанам",
+         "нира̄ламбана"
+        ],
+        [
+         "āсанам",
+         "асана"
+        ],
+        [
+         "нирāламбатайā",
+         "без опоры"
+        ],
+        [
+         "дхйāнам̣",
+         "созерцание"
+        ],
+        [
+         "нирāламбах̣",
+         "безопорный [Аа̄тман]"
+        ],
+        [
+         "садāш́ивах̣",
+         "Сада̄шива"
+        ]
        ]
+      ],
+      "titles": [
+       "Стих 24",
+       "Стих 25",
+       "Стих 26"
       ]
      },
      {
@@ -4311,7 +5192,11 @@
       "key": "literal",
       "label": "Буквальный перевод",
       "paragraphs": [
-       "Свастика, гомукха, падма, хамса — бра̄хма-асана."
+       "Свастика, гомукха, падма, хамса — бра̄хма-асана.",
+       "Нрисимха, гаруда, курма, нага — вайшнава-асана.",
+       "Вира, маюра, ваджра, сиддха — раудра-асана.",
+       "Асана йони, как знают, — ш́а̄кта; ш́айва — пашчиматанака.",
+       "Для нира̄ламбана-йоги — нира̄ламбана-асана; созерцание — без опоры, а безопорный [Аа̄тман] — Сада̄шива."
       ]
      },
      {
@@ -4320,6 +5205,11 @@
       "label": "Литературный перевод",
       "paragraphs": [
        "24–26. Свастика, гомукха, падма, хамса — это бра̄хмические позы (асаны).",
+       "Нрисимха, гаруда, кӯрма, нага — это ваишн̣ава-позы.",
+       "Вӣра, майӯра, ваджра, сиддха — это раудра-позы.",
+       "Йони — ш́а̄кта-поза.",
+       "Пашчиматанака — ш́аива-поза.",
+       "Поза для нира̄ламбана-йоги — нира̄ламбана (букв. „беспорная“, не предполагающая определённого положения рук, ног и прочих членов тела); созерцать следует Нира̄ламбану, а Нира̄ламбана — это Сада̄шива, Безусловное, Парама̄тман.",
        "— англ. пер. изд. 1978 г., с. 170"
       ]
      },
@@ -4367,14 +5257,86 @@
         ]
        }
       ],
-      "verses": "24"
+      "verses": "24",
+      "own": true
+     },
+     {
+      "type": "verse_card",
+      "sections": [
+       {
+        "type": "verse",
+        "key": "deva",
+        "label": "Devanāgarī",
+        "lines": [
+         "नृसिंहं गरुडं कूर्मं नागाख्यं वैष्णवासनम् ।",
+         "वीरं मयूरं वज्राख्यं सिद्धाख्यं रौद्रमासनम् ॥२५॥"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "iast",
+        "label": "IAST",
+        "lines": [
+         "nṛsiṃhaṃ garuḍaṃ kūrmaṃ nāgākhyaṃ vaiṣṇavāsanam ।",
+         "vīraṃ mayūraṃ vajrākhyaṃ siddhākhyaṃ raudramāsanam ॥25॥"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "cyr",
+        "label": "Cyrillic transliteration",
+        "lines": [
+         "нр̣сим̣хам̣ гаруд̣ам̣ кӯрмам̣ нāгāкхйам̣ ваишн̣авāсанам ।",
+         "вӣрам̣ майӯрам̣ ваджрāкхйам̣ сиддхāкхйам̣ раудрамāсанам ॥25॥"
+        ]
+       }
+      ],
+      "verses": "25"
+     },
+     {
+      "type": "verse_card",
+      "sections": [
+       {
+        "type": "verse",
+        "key": "deva",
+        "label": "Devanāgarī",
+        "lines": [
+         "योन्यासनं विदुश्शाक्तं शैवं पश्चिमतानकम् ।",
+         "निरालम्बनयोगस्य निरालम्बनमासनम् ॥२६॥",
+         "निरालम्बतया ध्यानं निरालम्बस्सदाशिवः ।"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "iast",
+        "label": "IAST",
+        "lines": [
+         "yonyāsanaṃ viduśśāktaṃ śaivaṃ paścimatānakam ।",
+         "nirālambanayogasya nirālambanamāsanam ॥26॥",
+         "nirālambatayā dhyānaṃ nirālambassadāśivaḥ ।"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "cyr",
+        "label": "Cyrillic transliteration",
+        "lines": [
+         "йонйāсанам̣ видуш́ш́āктам̣ ш́аивам̣ паш́чиматāнакам ।",
+         "нирāламбанайогасйа нирāламбанамāсанам ॥26॥",
+         "нирāламбатайā дхйāнам̣ нирāламбассадāш́ивах̣ ।"
+        ]
+       }
+      ],
+      "verses": "26"
      },
      {
       "type": "words",
       "key": "words",
       "label": "Word-by-word analysis",
       "paragraphs": [
-       "svastikaṃ - Svastika; gomukhaṃ - gomukha; padmaṃ - padma; haṃsākhyaṃ - haṃsa; brāhmamāsanam - the brāhma-āsana."
+       "svastikaṃ - Svastika; gomukhaṃ - gomukha; padmaṃ - padma; haṃsākhyaṃ - haṃsa; brāhmamāsanam - the brāhma-āsana.",
+       "nṛsiṃhaṃ - Nṛsiṃha; garuḍaṃ - garuḍa; kūrmaṃ - kūrma; nāgākhyaṃ - nāga; vaiṣṇavāsanam - the vaiṣṇava-āsana; vīraṃ - Vīra; mayūraṃ - mayūra; vajrākhyaṃ - vajra; siddhākhyaṃ - siddha; raudramāsanam - the raudra-āsana.",
+       "yonyāsanaṃ - The yoni posture; viduḥ - as they know; śāktaṃ - the śākta one; śaivaṃ - the śaiva one; paścimatānakam - paścima-tanaka; nirālambanayogasya - For nirālambana-yoga; nirālambanam - the nirālambana; āsanam - āsana; nirālambatayā - without support; dhyānaṃ - contemplation; nirālambaḥ - the supportless [Ātman]; sadāśivaḥ - Sadāśiva."
       ],
       "groups": [
        [
@@ -4398,7 +5360,104 @@
          "brāhmamāsanam",
          "the brāhma-āsana"
         ]
+       ],
+       [
+        [
+         "nṛsiṃhaṃ",
+         "Nṛsiṃha"
+        ],
+        [
+         "garuḍaṃ",
+         "garuḍa"
+        ],
+        [
+         "kūrmaṃ",
+         "kūrma"
+        ],
+        [
+         "nāgākhyaṃ",
+         "nāga"
+        ],
+        [
+         "vaiṣṇavāsanam",
+         "the vaiṣṇava-āsana"
+        ],
+        [
+         "vīraṃ",
+         "Vīra"
+        ],
+        [
+         "mayūraṃ",
+         "mayūra"
+        ],
+        [
+         "vajrākhyaṃ",
+         "vajra"
+        ],
+        [
+         "siddhākhyaṃ",
+         "siddha"
+        ],
+        [
+         "raudramāsanam",
+         "the raudra-āsana"
+        ]
+       ],
+       [
+        [
+         "yonyāsanaṃ",
+         "The yoni posture"
+        ],
+        [
+         "viduḥ",
+         "as they know"
+        ],
+        [
+         "śāktaṃ",
+         "the śākta one"
+        ],
+        [
+         "śaivaṃ",
+         "the śaiva one"
+        ],
+        [
+         "paścimatānakam",
+         "paścima-tanaka"
+        ],
+        [
+         "nirālambanayogasya",
+         "For nirālambana-yoga"
+        ],
+        [
+         "nirālambanam",
+         "the nirālambana"
+        ],
+        [
+         "āsanam",
+         "āsana"
+        ],
+        [
+         "nirālambatayā",
+         "without support"
+        ],
+        [
+         "dhyānaṃ",
+         "contemplation"
+        ],
+        [
+         "nirālambaḥ",
+         "the supportless [Ātman]"
+        ],
+        [
+         "sadāśivaḥ",
+         "Sadāśiva"
+        ]
        ]
+      ],
+      "titles": [
+       "Verse 24",
+       "Verse 25",
+       "Verse 26"
       ]
      },
      {
@@ -4406,7 +5465,11 @@
       "key": "literal",
       "label": "Literal translation",
       "paragraphs": [
-       "Svastika, gomukha, padma, haṃsa — the brāhma-āsana."
+       "Svastika, gomukha, padma, haṃsa — the brāhma-āsana.",
+       "Nṛsiṃha, garuḍa, kūrma, nāga — the vaiṣṇava-āsana.",
+       "Vīra, mayūra, vajra, siddha — the raudra-āsana.",
+       "The yoni posture, as they know, is the śākta one; the śaiva one is paścima-tanaka.",
+       "For nirālambana-yoga there is the nirālambana-āsana; contemplation is without support, and the supportless [Ātman] is Sadāśiva."
       ]
      },
      {
@@ -4415,6 +5478,11 @@
       "label": "Literary translation",
       "paragraphs": [
        "24-26. Svastika, Gomukha, Padma, Haṃsa — these are the Brahmic postures (Āsanas).",
+       "Nṛsiṃha, Garuḍa, Kūrma, Nāga — these are the Vaiṣṇava postures.",
+       "Vīra, Mayūra, Vajra, Siddha — these are the Raudra postures.",
+       "Yoni is the Śākta posture.",
+       "Paścima-tanaka is the Śaiva posture.",
+       "The posture for the Nirālambana-Yoga is nirālambana (lit. propless, involving no specific position of hands, feet or other members of the body); meditation should be on the Nirālambana, and the Nirālambana is Sadāśiva, the Unconditioned, the Paramātman.",
        "— English translation, 1978 edition, p. 170"
       ]
      },
@@ -4481,14 +5549,86 @@
         ]
        }
       ],
-      "verses": "24"
+      "verses": "24",
+      "own": true
+     },
+     {
+      "type": "verse_card",
+      "sections": [
+       {
+        "type": "verse",
+        "key": "deva",
+        "label": "Деванāгарӣ",
+        "lines": [
+         "नृसिंहं गरुडं कूर्मं नागाख्यं वैष्णवासनम् ।",
+         "वीरं मयूरं वज्राख्यं सिद्धाख्यं रौद्रमासनम् ॥२५॥"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "iast",
+        "label": "IAST",
+        "lines": [
+         "nṛsiṃhaṃ garuḍaṃ kūrmaṃ nāgākhyaṃ vaiṣṇavāsanam ।",
+         "vīraṃ mayūraṃ vajrākhyaṃ siddhākhyaṃ raudramāsanam ॥25॥"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "cyr",
+        "label": "Кириллическая транслитерация",
+        "lines": [
+         "нр̣сим̣хам̣ гаруд̣ам̣ кӯрмам̣ нāгāкхйам̣ ваишн̣авāсанам ।",
+         "вӣрам̣ майӯрам̣ ваджрāкхйам̣ сиддхāкхйам̣ раудрамāсанам ॥25॥"
+        ]
+       }
+      ],
+      "verses": "25"
+     },
+     {
+      "type": "verse_card",
+      "sections": [
+       {
+        "type": "verse",
+        "key": "deva",
+        "label": "Деванāгарӣ",
+        "lines": [
+         "योन्यासनं विदुश्शाक्तं शैवं पश्चिमतानकम् ।",
+         "निरालम्बनयोगस्य निरालम्बनमासनम् ॥२६॥",
+         "निरालम्बतया ध्यानं निरालम्बस्सदाशिवः ।"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "iast",
+        "label": "IAST",
+        "lines": [
+         "yonyāsanaṃ viduśśāktaṃ śaivaṃ paścimatānakam ।",
+         "nirālambanayogasya nirālambanamāsanam ॥26॥",
+         "nirālambatayā dhyānaṃ nirālambassadāśivaḥ ।"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "cyr",
+        "label": "Кириллическая транслитерация",
+        "lines": [
+         "йонйāсанам̣ видуш́ш́āктам̣ ш́аивам̣ паш́чиматāнакам ।",
+         "нирāламбанайогасйа нирāламбанамāсанам ॥26॥",
+         "нирāламбатайā дхйāнам̣ нирāламбассадāш́ивах̣ ।"
+        ]
+       }
+      ],
+      "verses": "26"
      },
      {
       "type": "words",
       "key": "words",
       "label": "Пословный разбор",
       "paragraphs": [
-       "свастикам̣ - Свастика; гомукхам̣ - гомукха; падмам̣ - падма; хам̣сāкхйам̣ - хамса; брāхмамāсанам - бра̄хма-асана."
+       "свастикам̣ - Свастика; гомукхам̣ - гомукха; падмам̣ - падма; хам̣сāкхйам̣ - хамса; брāхмамāсанам - бра̄хма-асана.",
+       "нр̣сим̣хам̣ - Нрисимха; гаруд̣ам̣ - гаруда; кӯрмам̣ - курма; нāгāкхйам̣ - нага; ваишн̣авāсанам - вайшнава-асана; вӣрам̣ - Вира; майӯрам̣ - маюра; ваджрāкхйам̣ - ваджра; сиддхāкхйам̣ - сиддха; раудрамāсанам - раудра-асана.",
+       "йонйāсанам̣ - Асана йони; видух̣ - как знают; ш́āктам̣ - ш́а̄кта; ш́аивам̣ - ш́айва; паш́чиматāнакам - пашчиматанака; нирāламбанайогасйа - Для нира̄ламбана-йоги; нирāламбанам - нира̄ламбана; āсанам - асана; нирāламбатайā - без опоры; дхйāнам̣ - созерцание; нирāламбах̣ - безопорный [Аа̄тман]; садāш́ивах̣ - Сада̄шива."
       ],
       "groups": [
        [
@@ -4512,7 +5652,104 @@
          "брāхмамāсанам",
          "бра̄хма-асана"
         ]
+       ],
+       [
+        [
+         "нр̣сим̣хам̣",
+         "Нрисимха"
+        ],
+        [
+         "гаруд̣ам̣",
+         "гаруда"
+        ],
+        [
+         "кӯрмам̣",
+         "курма"
+        ],
+        [
+         "нāгāкхйам̣",
+         "нага"
+        ],
+        [
+         "ваишн̣авāсанам",
+         "вайшнава-асана"
+        ],
+        [
+         "вӣрам̣",
+         "Вира"
+        ],
+        [
+         "майӯрам̣",
+         "маюра"
+        ],
+        [
+         "ваджрāкхйам̣",
+         "ваджра"
+        ],
+        [
+         "сиддхāкхйам̣",
+         "сиддха"
+        ],
+        [
+         "раудрамāсанам",
+         "раудра-асана"
+        ]
+       ],
+       [
+        [
+         "йонйāсанам̣",
+         "Асана йони"
+        ],
+        [
+         "видух̣",
+         "как знают"
+        ],
+        [
+         "ш́āктам̣",
+         "ш́а̄кта"
+        ],
+        [
+         "ш́аивам̣",
+         "ш́айва"
+        ],
+        [
+         "паш́чиматāнакам",
+         "пашчиматанака"
+        ],
+        [
+         "нирāламбанайогасйа",
+         "Для нира̄ламбана-йоги"
+        ],
+        [
+         "нирāламбанам",
+         "нира̄ламбана"
+        ],
+        [
+         "āсанам",
+         "асана"
+        ],
+        [
+         "нирāламбатайā",
+         "без опоры"
+        ],
+        [
+         "дхйāнам̣",
+         "созерцание"
+        ],
+        [
+         "нирāламбах̣",
+         "безопорный [Аа̄тман]"
+        ],
+        [
+         "садāш́ивах̣",
+         "Сада̄шива"
+        ]
        ]
+      ],
+      "titles": [
+       "Стих 24",
+       "Стих 25",
+       "Стих 26"
       ]
      },
      {
@@ -4520,7 +5757,11 @@
       "key": "literal",
       "label": "Буквальный перевод",
       "paragraphs": [
-       "Свастика, гомукха, падма, хамса — бра̄хма-асана."
+       "Свастика, гомукха, падма, хамса — бра̄хма-асана.",
+       "Нрисимха, гаруда, курма, нага — вайшнава-асана.",
+       "Вира, маюра, ваджра, сиддха — раудра-асана.",
+       "Асана йони, как знают, — ш́а̄кта; ш́айва — пашчиматанака.",
+       "Для нира̄ламбана-йоги — нира̄ламбана-асана; созерцание — без опоры, а безопорный [Аа̄тман] — Сада̄шива."
       ]
      },
      {
@@ -4529,6 +5770,11 @@
       "label": "Литературный перевод",
       "paragraphs": [
        "24–26. Свастика, гомукха, падма, хамса — это бра̄хмические позы (асаны).",
+       "Нрисимха, гаруда, кӯрма, нага — это ваишн̣ава-позы.",
+       "Вӣра, майӯра, ваджра, сиддха — это раудра-позы.",
+       "Йони — ш́а̄кта-поза.",
+       "Пашчиматанака — ш́аива-поза.",
+       "Поза для нира̄ламбана-йоги — нира̄ламбана (букв. „беспорная“, не предполагающая определённого положения рук, ног и прочих членов тела); созерцать следует Нира̄ламбану, а Нира̄ламбана — это Сада̄шива, Безусловное, Парама̄тман.",
        "— англ. пер. изд. 1978 г., с. 170"
       ]
      },
@@ -4576,14 +5822,86 @@
         ]
        }
       ],
-      "verses": "24"
+      "verses": "24",
+      "own": true
+     },
+     {
+      "type": "verse_card",
+      "sections": [
+       {
+        "type": "verse",
+        "key": "deva",
+        "label": "Devanāgarī",
+        "lines": [
+         "नृसिंहं गरुडं कूर्मं नागाख्यं वैष्णवासनम् ।",
+         "वीरं मयूरं वज्राख्यं सिद्धाख्यं रौद्रमासनम् ॥२५॥"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "iast",
+        "label": "IAST",
+        "lines": [
+         "nṛsiṃhaṃ garuḍaṃ kūrmaṃ nāgākhyaṃ vaiṣṇavāsanam ।",
+         "vīraṃ mayūraṃ vajrākhyaṃ siddhākhyaṃ raudramāsanam ॥25॥"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "cyr",
+        "label": "Cyrillic transliteration",
+        "lines": [
+         "нр̣сим̣хам̣ гаруд̣ам̣ кӯрмам̣ нāгāкхйам̣ ваишн̣авāсанам ।",
+         "вӣрам̣ майӯрам̣ ваджрāкхйам̣ сиддхāкхйам̣ раудрамāсанам ॥25॥"
+        ]
+       }
+      ],
+      "verses": "25"
+     },
+     {
+      "type": "verse_card",
+      "sections": [
+       {
+        "type": "verse",
+        "key": "deva",
+        "label": "Devanāgarī",
+        "lines": [
+         "योन्यासनं विदुश्शाक्तं शैवं पश्चिमतानकम् ।",
+         "निरालम्बनयोगस्य निरालम्बनमासनम् ॥२६॥",
+         "निरालम्बतया ध्यानं निरालम्बस्सदाशिवः ।"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "iast",
+        "label": "IAST",
+        "lines": [
+         "yonyāsanaṃ viduśśāktaṃ śaivaṃ paścimatānakam ।",
+         "nirālambanayogasya nirālambanamāsanam ॥26॥",
+         "nirālambatayā dhyānaṃ nirālambassadāśivaḥ ।"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "cyr",
+        "label": "Cyrillic transliteration",
+        "lines": [
+         "йонйāсанам̣ видуш́ш́āктам̣ ш́аивам̣ паш́чиматāнакам ।",
+         "нирāламбанайогасйа нирāламбанамāсанам ॥26॥",
+         "нирāламбатайā дхйāнам̣ нирāламбассадāш́ивах̣ ।"
+        ]
+       }
+      ],
+      "verses": "26"
      },
      {
       "type": "words",
       "key": "words",
       "label": "Word-by-word analysis",
       "paragraphs": [
-       "svastikaṃ - Svastika; gomukhaṃ - gomukha; padmaṃ - padma; haṃsākhyaṃ - haṃsa; brāhmamāsanam - the brāhma-āsana."
+       "svastikaṃ - Svastika; gomukhaṃ - gomukha; padmaṃ - padma; haṃsākhyaṃ - haṃsa; brāhmamāsanam - the brāhma-āsana.",
+       "nṛsiṃhaṃ - Nṛsiṃha; garuḍaṃ - garuḍa; kūrmaṃ - kūrma; nāgākhyaṃ - nāga; vaiṣṇavāsanam - the vaiṣṇava-āsana; vīraṃ - Vīra; mayūraṃ - mayūra; vajrākhyaṃ - vajra; siddhākhyaṃ - siddha; raudramāsanam - the raudra-āsana.",
+       "yonyāsanaṃ - The yoni posture; viduḥ - as they know; śāktaṃ - the śākta one; śaivaṃ - the śaiva one; paścimatānakam - paścima-tanaka; nirālambanayogasya - For nirālambana-yoga; nirālambanam - the nirālambana; āsanam - āsana; nirālambatayā - without support; dhyānaṃ - contemplation; nirālambaḥ - the supportless [Ātman]; sadāśivaḥ - Sadāśiva."
       ],
       "groups": [
        [
@@ -4607,7 +5925,104 @@
          "brāhmamāsanam",
          "the brāhma-āsana"
         ]
+       ],
+       [
+        [
+         "nṛsiṃhaṃ",
+         "Nṛsiṃha"
+        ],
+        [
+         "garuḍaṃ",
+         "garuḍa"
+        ],
+        [
+         "kūrmaṃ",
+         "kūrma"
+        ],
+        [
+         "nāgākhyaṃ",
+         "nāga"
+        ],
+        [
+         "vaiṣṇavāsanam",
+         "the vaiṣṇava-āsana"
+        ],
+        [
+         "vīraṃ",
+         "Vīra"
+        ],
+        [
+         "mayūraṃ",
+         "mayūra"
+        ],
+        [
+         "vajrākhyaṃ",
+         "vajra"
+        ],
+        [
+         "siddhākhyaṃ",
+         "siddha"
+        ],
+        [
+         "raudramāsanam",
+         "the raudra-āsana"
+        ]
+       ],
+       [
+        [
+         "yonyāsanaṃ",
+         "The yoni posture"
+        ],
+        [
+         "viduḥ",
+         "as they know"
+        ],
+        [
+         "śāktaṃ",
+         "the śākta one"
+        ],
+        [
+         "śaivaṃ",
+         "the śaiva one"
+        ],
+        [
+         "paścimatānakam",
+         "paścima-tanaka"
+        ],
+        [
+         "nirālambanayogasya",
+         "For nirālambana-yoga"
+        ],
+        [
+         "nirālambanam",
+         "the nirālambana"
+        ],
+        [
+         "āsanam",
+         "āsana"
+        ],
+        [
+         "nirālambatayā",
+         "without support"
+        ],
+        [
+         "dhyānaṃ",
+         "contemplation"
+        ],
+        [
+         "nirālambaḥ",
+         "the supportless [Ātman]"
+        ],
+        [
+         "sadāśivaḥ",
+         "Sadāśiva"
+        ]
        ]
+      ],
+      "titles": [
+       "Verse 24",
+       "Verse 25",
+       "Verse 26"
       ]
      },
      {
@@ -4615,7 +6030,11 @@
       "key": "literal",
       "label": "Literal translation",
       "paragraphs": [
-       "Svastika, gomukha, padma, haṃsa — the brāhma-āsana."
+       "Svastika, gomukha, padma, haṃsa — the brāhma-āsana.",
+       "Nṛsiṃha, garuḍa, kūrma, nāga — the vaiṣṇava-āsana.",
+       "Vīra, mayūra, vajra, siddha — the raudra-āsana.",
+       "The yoni posture, as they know, is the śākta one; the śaiva one is paścima-tanaka.",
+       "For nirālambana-yoga there is the nirālambana-āsana; contemplation is without support, and the supportless [Ātman] is Sadāśiva."
       ]
      },
      {
@@ -4624,6 +6043,11 @@
       "label": "Literary translation",
       "paragraphs": [
        "24-26. Svastika, Gomukha, Padma, Haṃsa — these are the Brahmic postures (Āsanas).",
+       "Nṛsiṃha, Garuḍa, Kūrma, Nāga — these are the Vaiṣṇava postures.",
+       "Vīra, Mayūra, Vajra, Siddha — these are the Raudra postures.",
+       "Yoni is the Śākta posture.",
+       "Paścima-tanaka is the Śaiva posture.",
+       "The posture for the Nirālambana-Yoga is nirālambana (lit. propless, involving no specific position of hands, feet or other members of the body); meditation should be on the Nirālambana, and the Nirālambana is Sadāśiva, the Unconditioned, the Paramātman.",
        "— English translation, 1978 edition, p. 170"
       ]
      },
@@ -4670,7 +6094,7 @@
         "key": "deva",
         "label": "Деванāгарӣ",
         "lines": [
-         "नृसिंहं गरुडं कूर्मं नागाख्यं वैष्णवासनम् ।"
+         "स्वस्तिकं गोमुखं पद्मं हंसाख्यं ब्राह्ममासनम् ॥२४"
         ]
        },
        {
@@ -4678,7 +6102,7 @@
         "key": "iast",
         "label": "IAST",
         "lines": [
-         "nṛsiṃhaṃ garuḍaṃ kūrmaṃ nāgākhyaṃ vaiṣṇavāsanam ।"
+         "svastikaṃ gomukhaṃ padmaṃ haṃsākhyaṃ brāhmamāsanam ॥24"
         ]
        },
        {
@@ -4686,20 +6110,114 @@
         "key": "cyr",
         "label": "Кириллическая транслитерация",
         "lines": [
-         "нр̣сим̣хам̣ гаруд̣ам̣ кӯрмам̣ нāгāкхйам̣ ваишн̣авāсанам ।"
+         "свастикам̣ гомукхам̣ падмам̣ хам̣сāкхйам̣ брāхмамāсанам ॥24"
         ]
        }
       ],
-      "verses": "25"
+      "verses": "24"
+     },
+     {
+      "type": "verse_card",
+      "sections": [
+       {
+        "type": "verse",
+        "key": "deva",
+        "label": "Деванāгарӣ",
+        "lines": [
+         "नृसिंहं गरुडं कूर्मं नागाख्यं वैष्णवासनम् ।",
+         "वीरं मयूरं वज्राख्यं सिद्धाख्यं रौद्रमासनम् ॥२५॥"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "iast",
+        "label": "IAST",
+        "lines": [
+         "nṛsiṃhaṃ garuḍaṃ kūrmaṃ nāgākhyaṃ vaiṣṇavāsanam ।",
+         "vīraṃ mayūraṃ vajrākhyaṃ siddhākhyaṃ raudramāsanam ॥25॥"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "cyr",
+        "label": "Кириллическая транслитерация",
+        "lines": [
+         "нр̣сим̣хам̣ гаруд̣ам̣ кӯрмам̣ нāгāкхйам̣ ваишн̣авāсанам ।",
+         "вӣрам̣ майӯрам̣ ваджрāкхйам̣ сиддхāкхйам̣ раудрамāсанам ॥25॥"
+        ]
+       }
+      ],
+      "verses": "25",
+      "own": true
+     },
+     {
+      "type": "verse_card",
+      "sections": [
+       {
+        "type": "verse",
+        "key": "deva",
+        "label": "Деванāгарӣ",
+        "lines": [
+         "योन्यासनं विदुश्शाक्तं शैवं पश्चिमतानकम् ।",
+         "निरालम्बनयोगस्य निरालम्बनमासनम् ॥२६॥",
+         "निरालम्बतया ध्यानं निरालम्बस्सदाशिवः ।"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "iast",
+        "label": "IAST",
+        "lines": [
+         "yonyāsanaṃ viduśśāktaṃ śaivaṃ paścimatānakam ।",
+         "nirālambanayogasya nirālambanamāsanam ॥26॥",
+         "nirālambatayā dhyānaṃ nirālambassadāśivaḥ ।"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "cyr",
+        "label": "Кириллическая транслитерация",
+        "lines": [
+         "йонйāсанам̣ видуш́ш́āктам̣ ш́аивам̣ паш́чиматāнакам ।",
+         "нирāламбанайогасйа нирāламбанамāсанам ॥26॥",
+         "нирāламбатайā дхйāнам̣ нирāламбассадāш́ивах̣ ।"
+        ]
+       }
+      ],
+      "verses": "26"
      },
      {
       "type": "words",
       "key": "words",
       "label": "Пословный разбор",
       "paragraphs": [
-       "нр̣сим̣хам̣ - Нрисимха; гаруд̣ам̣ - гаруда; кӯрмам̣ - курма; нāгāкхйам̣ - нага; ваишн̣авāсанам - вайшнава-асана."
+       "свастикам̣ - Свастика; гомукхам̣ - гомукха; падмам̣ - падма; хам̣сāкхйам̣ - хамса; брāхмамāсанам - бра̄хма-асана.",
+       "нр̣сим̣хам̣ - Нрисимха; гаруд̣ам̣ - гаруда; кӯрмам̣ - курма; нāгāкхйам̣ - нага; ваишн̣авāсанам - вайшнава-асана; вӣрам̣ - Вира; майӯрам̣ - маюра; ваджрāкхйам̣ - ваджра; сиддхāкхйам̣ - сиддха; раудрамāсанам - раудра-асана.",
+       "йонйāсанам̣ - Асана йони; видух̣ - как знают; ш́āктам̣ - ш́а̄кта; ш́аивам̣ - ш́айва; паш́чиматāнакам - пашчиматанака; нирāламбанайогасйа - Для нира̄ламбана-йоги; нирāламбанам - нира̄ламбана; āсанам - асана; нирāламбатайā - без опоры; дхйāнам̣ - созерцание; нирāламбах̣ - безопорный [Аа̄тман]; садāш́ивах̣ - Сада̄шива."
       ],
       "groups": [
+       [
+        [
+         "свастикам̣",
+         "Свастика"
+        ],
+        [
+         "гомукхам̣",
+         "гомукха"
+        ],
+        [
+         "падмам̣",
+         "падма"
+        ],
+        [
+         "хам̣сāкхйам̣",
+         "хамса"
+        ],
+        [
+         "брāхмамāсанам",
+         "бра̄хма-асана"
+        ]
+       ],
        [
         [
          "нр̣сим̣хам̣",
@@ -4720,8 +6238,83 @@
         [
          "ваишн̣авāсанам",
          "вайшнава-асана"
+        ],
+        [
+         "вӣрам̣",
+         "Вира"
+        ],
+        [
+         "майӯрам̣",
+         "маюра"
+        ],
+        [
+         "ваджрāкхйам̣",
+         "ваджра"
+        ],
+        [
+         "сиддхāкхйам̣",
+         "сиддха"
+        ],
+        [
+         "раудрамāсанам",
+         "раудра-асана"
+        ]
+       ],
+       [
+        [
+         "йонйāсанам̣",
+         "Асана йони"
+        ],
+        [
+         "видух̣",
+         "как знают"
+        ],
+        [
+         "ш́āктам̣",
+         "ш́а̄кта"
+        ],
+        [
+         "ш́аивам̣",
+         "ш́айва"
+        ],
+        [
+         "паш́чиматāнакам",
+         "пашчиматанака"
+        ],
+        [
+         "нирāламбанайогасйа",
+         "Для нира̄ламбана-йоги"
+        ],
+        [
+         "нирāламбанам",
+         "нира̄ламбана"
+        ],
+        [
+         "āсанам",
+         "асана"
+        ],
+        [
+         "нирāламбатайā",
+         "без опоры"
+        ],
+        [
+         "дхйāнам̣",
+         "созерцание"
+        ],
+        [
+         "нирāламбах̣",
+         "безопорный [Аа̄тман]"
+        ],
+        [
+         "садāш́ивах̣",
+         "Сада̄шива"
         ]
        ]
+      ],
+      "titles": [
+       "Стих 24",
+       "Стих 25",
+       "Стих 26"
       ]
      },
      {
@@ -4729,7 +6322,11 @@
       "key": "literal",
       "label": "Буквальный перевод",
       "paragraphs": [
-       "Нрисимха, гаруда, курма, нага — вайшнава-асана."
+       "Свастика, гомукха, падма, хамса — бра̄хма-асана.",
+       "Нрисимха, гаруда, курма, нага — вайшнава-асана.",
+       "Вира, маюра, ваджра, сиддха — раудра-асана.",
+       "Асана йони, как знают, — ш́а̄кта; ш́айва — пашчиматанака.",
+       "Для нира̄ламбана-йоги — нира̄ламбана-асана; созерцание — без опоры, а безопорный [Аа̄тман] — Сада̄шива."
       ]
      },
      {
@@ -4737,7 +6334,12 @@
       "key": "literary",
       "label": "Литературный перевод",
       "paragraphs": [
+       "24–26. Свастика, гомукха, падма, хамса — это бра̄хмические позы (асаны).",
        "Нрисимха, гаруда, кӯрма, нага — это ваишн̣ава-позы.",
+       "Вӣра, майӯра, ваджра, сиддха — это раудра-позы.",
+       "Йони — ш́а̄кта-поза.",
+       "Пашчиматанака — ш́аива-поза.",
+       "Поза для нира̄ламбана-йоги — нира̄ламбана (букв. „беспорная“, не предполагающая определённого положения рук, ног и прочих членов тела); созерцать следует Нира̄ламбану, а Нира̄ламбана — это Сада̄шива, Безусловное, Парама̄тман.",
        "— англ. пер. изд. 1978 г., с. 170"
       ]
      },
@@ -4765,7 +6367,7 @@
         "key": "deva",
         "label": "Devanāgarī",
         "lines": [
-         "नृसिंहं गरुडं कूर्मं नागाख्यं वैष्णवासनम् ।"
+         "स्वस्तिकं गोमुखं पद्मं हंसाख्यं ब्राह्ममासनम् ॥२४"
         ]
        },
        {
@@ -4773,7 +6375,7 @@
         "key": "iast",
         "label": "IAST",
         "lines": [
-         "nṛsiṃhaṃ garuḍaṃ kūrmaṃ nāgākhyaṃ vaiṣṇavāsanam ।"
+         "svastikaṃ gomukhaṃ padmaṃ haṃsākhyaṃ brāhmamāsanam ॥24"
         ]
        },
        {
@@ -4781,20 +6383,114 @@
         "key": "cyr",
         "label": "Cyrillic transliteration",
         "lines": [
-         "нр̣сим̣хам̣ гаруд̣ам̣ кӯрмам̣ нāгāкхйам̣ ваишн̣авāсанам ।"
+         "свастикам̣ гомукхам̣ падмам̣ хам̣сāкхйам̣ брāхмамāсанам ॥24"
         ]
        }
       ],
-      "verses": "25"
+      "verses": "24"
+     },
+     {
+      "type": "verse_card",
+      "sections": [
+       {
+        "type": "verse",
+        "key": "deva",
+        "label": "Devanāgarī",
+        "lines": [
+         "नृसिंहं गरुडं कूर्मं नागाख्यं वैष्णवासनम् ।",
+         "वीरं मयूरं वज्राख्यं सिद्धाख्यं रौद्रमासनम् ॥२५॥"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "iast",
+        "label": "IAST",
+        "lines": [
+         "nṛsiṃhaṃ garuḍaṃ kūrmaṃ nāgākhyaṃ vaiṣṇavāsanam ।",
+         "vīraṃ mayūraṃ vajrākhyaṃ siddhākhyaṃ raudramāsanam ॥25॥"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "cyr",
+        "label": "Cyrillic transliteration",
+        "lines": [
+         "нр̣сим̣хам̣ гаруд̣ам̣ кӯрмам̣ нāгāкхйам̣ ваишн̣авāсанам ।",
+         "вӣрам̣ майӯрам̣ ваджрāкхйам̣ сиддхāкхйам̣ раудрамāсанам ॥25॥"
+        ]
+       }
+      ],
+      "verses": "25",
+      "own": true
+     },
+     {
+      "type": "verse_card",
+      "sections": [
+       {
+        "type": "verse",
+        "key": "deva",
+        "label": "Devanāgarī",
+        "lines": [
+         "योन्यासनं विदुश्शाक्तं शैवं पश्चिमतानकम् ।",
+         "निरालम्बनयोगस्य निरालम्बनमासनम् ॥२६॥",
+         "निरालम्बतया ध्यानं निरालम्बस्सदाशिवः ।"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "iast",
+        "label": "IAST",
+        "lines": [
+         "yonyāsanaṃ viduśśāktaṃ śaivaṃ paścimatānakam ।",
+         "nirālambanayogasya nirālambanamāsanam ॥26॥",
+         "nirālambatayā dhyānaṃ nirālambassadāśivaḥ ।"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "cyr",
+        "label": "Cyrillic transliteration",
+        "lines": [
+         "йонйāсанам̣ видуш́ш́āктам̣ ш́аивам̣ паш́чиматāнакам ।",
+         "нирāламбанайогасйа нирāламбанамāсанам ॥26॥",
+         "нирāламбатайā дхйāнам̣ нирāламбассадāш́ивах̣ ।"
+        ]
+       }
+      ],
+      "verses": "26"
      },
      {
       "type": "words",
       "key": "words",
       "label": "Word-by-word analysis",
       "paragraphs": [
-       "nṛsiṃhaṃ - Nṛsiṃha; garuḍaṃ - garuḍa; kūrmaṃ - kūrma; nāgākhyaṃ - nāga; vaiṣṇavāsanam - the vaiṣṇava-āsana."
+       "svastikaṃ - Svastika; gomukhaṃ - gomukha; padmaṃ - padma; haṃsākhyaṃ - haṃsa; brāhmamāsanam - the brāhma-āsana.",
+       "nṛsiṃhaṃ - Nṛsiṃha; garuḍaṃ - garuḍa; kūrmaṃ - kūrma; nāgākhyaṃ - nāga; vaiṣṇavāsanam - the vaiṣṇava-āsana; vīraṃ - Vīra; mayūraṃ - mayūra; vajrākhyaṃ - vajra; siddhākhyaṃ - siddha; raudramāsanam - the raudra-āsana.",
+       "yonyāsanaṃ - The yoni posture; viduḥ - as they know; śāktaṃ - the śākta one; śaivaṃ - the śaiva one; paścimatānakam - paścima-tanaka; nirālambanayogasya - For nirālambana-yoga; nirālambanam - the nirālambana; āsanam - āsana; nirālambatayā - without support; dhyānaṃ - contemplation; nirālambaḥ - the supportless [Ātman]; sadāśivaḥ - Sadāśiva."
       ],
       "groups": [
+       [
+        [
+         "svastikaṃ",
+         "Svastika"
+        ],
+        [
+         "gomukhaṃ",
+         "gomukha"
+        ],
+        [
+         "padmaṃ",
+         "padma"
+        ],
+        [
+         "haṃsākhyaṃ",
+         "haṃsa"
+        ],
+        [
+         "brāhmamāsanam",
+         "the brāhma-āsana"
+        ]
+       ],
        [
         [
          "nṛsiṃhaṃ",
@@ -4815,8 +6511,83 @@
         [
          "vaiṣṇavāsanam",
          "the vaiṣṇava-āsana"
+        ],
+        [
+         "vīraṃ",
+         "Vīra"
+        ],
+        [
+         "mayūraṃ",
+         "mayūra"
+        ],
+        [
+         "vajrākhyaṃ",
+         "vajra"
+        ],
+        [
+         "siddhākhyaṃ",
+         "siddha"
+        ],
+        [
+         "raudramāsanam",
+         "the raudra-āsana"
+        ]
+       ],
+       [
+        [
+         "yonyāsanaṃ",
+         "The yoni posture"
+        ],
+        [
+         "viduḥ",
+         "as they know"
+        ],
+        [
+         "śāktaṃ",
+         "the śākta one"
+        ],
+        [
+         "śaivaṃ",
+         "the śaiva one"
+        ],
+        [
+         "paścimatānakam",
+         "paścima-tanaka"
+        ],
+        [
+         "nirālambanayogasya",
+         "For nirālambana-yoga"
+        ],
+        [
+         "nirālambanam",
+         "the nirālambana"
+        ],
+        [
+         "āsanam",
+         "āsana"
+        ],
+        [
+         "nirālambatayā",
+         "without support"
+        ],
+        [
+         "dhyānaṃ",
+         "contemplation"
+        ],
+        [
+         "nirālambaḥ",
+         "the supportless [Ātman]"
+        ],
+        [
+         "sadāśivaḥ",
+         "Sadāśiva"
         ]
        ]
+      ],
+      "titles": [
+       "Verse 24",
+       "Verse 25",
+       "Verse 26"
       ]
      },
      {
@@ -4824,7 +6595,11 @@
       "key": "literal",
       "label": "Literal translation",
       "paragraphs": [
-       "Nṛsiṃha, garuḍa, kūrma, nāga — the vaiṣṇava-āsana."
+       "Svastika, gomukha, padma, haṃsa — the brāhma-āsana.",
+       "Nṛsiṃha, garuḍa, kūrma, nāga — the vaiṣṇava-āsana.",
+       "Vīra, mayūra, vajra, siddha — the raudra-āsana.",
+       "The yoni posture, as they know, is the śākta one; the śaiva one is paścima-tanaka.",
+       "For nirālambana-yoga there is the nirālambana-āsana; contemplation is without support, and the supportless [Ātman] is Sadāśiva."
       ]
      },
      {
@@ -4832,7 +6607,12 @@
       "key": "literary",
       "label": "Literary translation",
       "paragraphs": [
+       "24-26. Svastika, Gomukha, Padma, Haṃsa — these are the Brahmic postures (Āsanas).",
        "Nṛsiṃha, Garuḍa, Kūrma, Nāga — these are the Vaiṣṇava postures.",
+       "Vīra, Mayūra, Vajra, Siddha — these are the Raudra postures.",
+       "Yoni is the Śākta posture.",
+       "Paścima-tanaka is the Śaiva posture.",
+       "The posture for the Nirālambana-Yoga is nirālambana (lit. propless, involving no specific position of hands, feet or other members of the body); meditation should be on the Nirālambana, and the Nirālambana is Sadāśiva, the Unconditioned, the Paramātman.",
        "— English translation, 1978 edition, p. 170"
       ]
      },
@@ -4879,7 +6659,7 @@
         "key": "deva",
         "label": "Деванāгарӣ",
         "lines": [
-         "नृसिंहं गरुडं कूर्मं नागाख्यं वैष्णवासनम् ।"
+         "स्वस्तिकं गोमुखं पद्मं हंसाख्यं ब्राह्ममासनम् ॥२४"
         ]
        },
        {
@@ -4887,7 +6667,7 @@
         "key": "iast",
         "label": "IAST",
         "lines": [
-         "nṛsiṃhaṃ garuḍaṃ kūrmaṃ nāgākhyaṃ vaiṣṇavāsanam ।"
+         "svastikaṃ gomukhaṃ padmaṃ haṃsākhyaṃ brāhmamāsanam ॥24"
         ]
        },
        {
@@ -4895,20 +6675,114 @@
         "key": "cyr",
         "label": "Кириллическая транслитерация",
         "lines": [
-         "нр̣сим̣хам̣ гаруд̣ам̣ кӯрмам̣ нāгāкхйам̣ ваишн̣авāсанам ।"
+         "свастикам̣ гомукхам̣ падмам̣ хам̣сāкхйам̣ брāхмамāсанам ॥24"
         ]
        }
       ],
-      "verses": "25"
+      "verses": "24"
+     },
+     {
+      "type": "verse_card",
+      "sections": [
+       {
+        "type": "verse",
+        "key": "deva",
+        "label": "Деванāгарӣ",
+        "lines": [
+         "नृसिंहं गरुडं कूर्मं नागाख्यं वैष्णवासनम् ।",
+         "वीरं मयूरं वज्राख्यं सिद्धाख्यं रौद्रमासनम् ॥२५॥"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "iast",
+        "label": "IAST",
+        "lines": [
+         "nṛsiṃhaṃ garuḍaṃ kūrmaṃ nāgākhyaṃ vaiṣṇavāsanam ।",
+         "vīraṃ mayūraṃ vajrākhyaṃ siddhākhyaṃ raudramāsanam ॥25॥"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "cyr",
+        "label": "Кириллическая транслитерация",
+        "lines": [
+         "нр̣сим̣хам̣ гаруд̣ам̣ кӯрмам̣ нāгāкхйам̣ ваишн̣авāсанам ।",
+         "вӣрам̣ майӯрам̣ ваджрāкхйам̣ сиддхāкхйам̣ раудрамāсанам ॥25॥"
+        ]
+       }
+      ],
+      "verses": "25",
+      "own": true
+     },
+     {
+      "type": "verse_card",
+      "sections": [
+       {
+        "type": "verse",
+        "key": "deva",
+        "label": "Деванāгарӣ",
+        "lines": [
+         "योन्यासनं विदुश्शाक्तं शैवं पश्चिमतानकम् ।",
+         "निरालम्बनयोगस्य निरालम्बनमासनम् ॥२६॥",
+         "निरालम्बतया ध्यानं निरालम्बस्सदाशिवः ।"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "iast",
+        "label": "IAST",
+        "lines": [
+         "yonyāsanaṃ viduśśāktaṃ śaivaṃ paścimatānakam ।",
+         "nirālambanayogasya nirālambanamāsanam ॥26॥",
+         "nirālambatayā dhyānaṃ nirālambassadāśivaḥ ।"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "cyr",
+        "label": "Кириллическая транслитерация",
+        "lines": [
+         "йонйāсанам̣ видуш́ш́āктам̣ ш́аивам̣ паш́чиматāнакам ।",
+         "нирāламбанайогасйа нирāламбанамāсанам ॥26॥",
+         "нирāламбатайā дхйāнам̣ нирāламбассадāш́ивах̣ ।"
+        ]
+       }
+      ],
+      "verses": "26"
      },
      {
       "type": "words",
       "key": "words",
       "label": "Пословный разбор",
       "paragraphs": [
-       "нр̣сим̣хам̣ - Нрисимха; гаруд̣ам̣ - гаруда; кӯрмам̣ - курма; нāгāкхйам̣ - нага; ваишн̣авāсанам - вайшнава-асана."
+       "свастикам̣ - Свастика; гомукхам̣ - гомукха; падмам̣ - падма; хам̣сāкхйам̣ - хамса; брāхмамāсанам - бра̄хма-асана.",
+       "нр̣сим̣хам̣ - Нрисимха; гаруд̣ам̣ - гаруда; кӯрмам̣ - курма; нāгāкхйам̣ - нага; ваишн̣авāсанам - вайшнава-асана; вӣрам̣ - Вира; майӯрам̣ - маюра; ваджрāкхйам̣ - ваджра; сиддхāкхйам̣ - сиддха; раудрамāсанам - раудра-асана.",
+       "йонйāсанам̣ - Асана йони; видух̣ - как знают; ш́āктам̣ - ш́а̄кта; ш́аивам̣ - ш́айва; паш́чиматāнакам - пашчиматанака; нирāламбанайогасйа - Для нира̄ламбана-йоги; нирāламбанам - нира̄ламбана; āсанам - асана; нирāламбатайā - без опоры; дхйāнам̣ - созерцание; нирāламбах̣ - безопорный [Аа̄тман]; садāш́ивах̣ - Сада̄шива."
       ],
       "groups": [
+       [
+        [
+         "свастикам̣",
+         "Свастика"
+        ],
+        [
+         "гомукхам̣",
+         "гомукха"
+        ],
+        [
+         "падмам̣",
+         "падма"
+        ],
+        [
+         "хам̣сāкхйам̣",
+         "хамса"
+        ],
+        [
+         "брāхмамāсанам",
+         "бра̄хма-асана"
+        ]
+       ],
        [
         [
          "нр̣сим̣хам̣",
@@ -4929,8 +6803,83 @@
         [
          "ваишн̣авāсанам",
          "вайшнава-асана"
+        ],
+        [
+         "вӣрам̣",
+         "Вира"
+        ],
+        [
+         "майӯрам̣",
+         "маюра"
+        ],
+        [
+         "ваджрāкхйам̣",
+         "ваджра"
+        ],
+        [
+         "сиддхāкхйам̣",
+         "сиддха"
+        ],
+        [
+         "раудрамāсанам",
+         "раудра-асана"
+        ]
+       ],
+       [
+        [
+         "йонйāсанам̣",
+         "Асана йони"
+        ],
+        [
+         "видух̣",
+         "как знают"
+        ],
+        [
+         "ш́āктам̣",
+         "ш́а̄кта"
+        ],
+        [
+         "ш́аивам̣",
+         "ш́айва"
+        ],
+        [
+         "паш́чиматāнакам",
+         "пашчиматанака"
+        ],
+        [
+         "нирāламбанайогасйа",
+         "Для нира̄ламбана-йоги"
+        ],
+        [
+         "нирāламбанам",
+         "нира̄ламбана"
+        ],
+        [
+         "āсанам",
+         "асана"
+        ],
+        [
+         "нирāламбатайā",
+         "без опоры"
+        ],
+        [
+         "дхйāнам̣",
+         "созерцание"
+        ],
+        [
+         "нирāламбах̣",
+         "безопорный [Аа̄тман]"
+        ],
+        [
+         "садāш́ивах̣",
+         "Сада̄шива"
         ]
        ]
+      ],
+      "titles": [
+       "Стих 24",
+       "Стих 25",
+       "Стих 26"
       ]
      },
      {
@@ -4938,7 +6887,11 @@
       "key": "literal",
       "label": "Буквальный перевод",
       "paragraphs": [
-       "Нрисимха, гаруда, курма, нага — вайшнава-асана."
+       "Свастика, гомукха, падма, хамса — бра̄хма-асана.",
+       "Нрисимха, гаруда, курма, нага — вайшнава-асана.",
+       "Вира, маюра, ваджра, сиддха — раудра-асана.",
+       "Асана йони, как знают, — ш́а̄кта; ш́айва — пашчиматанака.",
+       "Для нира̄ламбана-йоги — нира̄ламбана-асана; созерцание — без опоры, а безопорный [Аа̄тман] — Сада̄шива."
       ]
      },
      {
@@ -4946,7 +6899,12 @@
       "key": "literary",
       "label": "Литературный перевод",
       "paragraphs": [
+       "24–26. Свастика, гомукха, падма, хамса — это бра̄хмические позы (асаны).",
        "Нрисимха, гаруда, кӯрма, нага — это ваишн̣ава-позы.",
+       "Вӣра, майӯра, ваджра, сиддха — это раудра-позы.",
+       "Йони — ш́а̄кта-поза.",
+       "Пашчиматанака — ш́аива-поза.",
+       "Поза для нира̄ламбана-йоги — нира̄ламбана (букв. „беспорная“, не предполагающая определённого положения рук, ног и прочих членов тела); созерцать следует Нира̄ламбану, а Нира̄ламбана — это Сада̄шива, Безусловное, Парама̄тман.",
        "— англ. пер. изд. 1978 г., с. 170"
       ]
      },
@@ -4974,7 +6932,7 @@
         "key": "deva",
         "label": "Devanāgarī",
         "lines": [
-         "नृसिंहं गरुडं कूर्मं नागाख्यं वैष्णवासनम् ।"
+         "स्वस्तिकं गोमुखं पद्मं हंसाख्यं ब्राह्ममासनम् ॥२४"
         ]
        },
        {
@@ -4982,7 +6940,7 @@
         "key": "iast",
         "label": "IAST",
         "lines": [
-         "nṛsiṃhaṃ garuḍaṃ kūrmaṃ nāgākhyaṃ vaiṣṇavāsanam ।"
+         "svastikaṃ gomukhaṃ padmaṃ haṃsākhyaṃ brāhmamāsanam ॥24"
         ]
        },
        {
@@ -4990,20 +6948,114 @@
         "key": "cyr",
         "label": "Cyrillic transliteration",
         "lines": [
-         "нр̣сим̣хам̣ гаруд̣ам̣ кӯрмам̣ нāгāкхйам̣ ваишн̣авāсанам ।"
+         "свастикам̣ гомукхам̣ падмам̣ хам̣сāкхйам̣ брāхмамāсанам ॥24"
         ]
        }
       ],
-      "verses": "25"
+      "verses": "24"
+     },
+     {
+      "type": "verse_card",
+      "sections": [
+       {
+        "type": "verse",
+        "key": "deva",
+        "label": "Devanāgarī",
+        "lines": [
+         "नृसिंहं गरुडं कूर्मं नागाख्यं वैष्णवासनम् ।",
+         "वीरं मयूरं वज्राख्यं सिद्धाख्यं रौद्रमासनम् ॥२५॥"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "iast",
+        "label": "IAST",
+        "lines": [
+         "nṛsiṃhaṃ garuḍaṃ kūrmaṃ nāgākhyaṃ vaiṣṇavāsanam ।",
+         "vīraṃ mayūraṃ vajrākhyaṃ siddhākhyaṃ raudramāsanam ॥25॥"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "cyr",
+        "label": "Cyrillic transliteration",
+        "lines": [
+         "нр̣сим̣хам̣ гаруд̣ам̣ кӯрмам̣ нāгāкхйам̣ ваишн̣авāсанам ।",
+         "вӣрам̣ майӯрам̣ ваджрāкхйам̣ сиддхāкхйам̣ раудрамāсанам ॥25॥"
+        ]
+       }
+      ],
+      "verses": "25",
+      "own": true
+     },
+     {
+      "type": "verse_card",
+      "sections": [
+       {
+        "type": "verse",
+        "key": "deva",
+        "label": "Devanāgarī",
+        "lines": [
+         "योन्यासनं विदुश्शाक्तं शैवं पश्चिमतानकम् ।",
+         "निरालम्बनयोगस्य निरालम्बनमासनम् ॥२६॥",
+         "निरालम्बतया ध्यानं निरालम्बस्सदाशिवः ।"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "iast",
+        "label": "IAST",
+        "lines": [
+         "yonyāsanaṃ viduśśāktaṃ śaivaṃ paścimatānakam ।",
+         "nirālambanayogasya nirālambanamāsanam ॥26॥",
+         "nirālambatayā dhyānaṃ nirālambassadāśivaḥ ।"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "cyr",
+        "label": "Cyrillic transliteration",
+        "lines": [
+         "йонйāсанам̣ видуш́ш́āктам̣ ш́аивам̣ паш́чиматāнакам ।",
+         "нирāламбанайогасйа нирāламбанамāсанам ॥26॥",
+         "нирāламбатайā дхйāнам̣ нирāламбассадāш́ивах̣ ।"
+        ]
+       }
+      ],
+      "verses": "26"
      },
      {
       "type": "words",
       "key": "words",
       "label": "Word-by-word analysis",
       "paragraphs": [
-       "nṛsiṃhaṃ - Nṛsiṃha; garuḍaṃ - garuḍa; kūrmaṃ - kūrma; nāgākhyaṃ - nāga; vaiṣṇavāsanam - the vaiṣṇava-āsana."
+       "svastikaṃ - Svastika; gomukhaṃ - gomukha; padmaṃ - padma; haṃsākhyaṃ - haṃsa; brāhmamāsanam - the brāhma-āsana.",
+       "nṛsiṃhaṃ - Nṛsiṃha; garuḍaṃ - garuḍa; kūrmaṃ - kūrma; nāgākhyaṃ - nāga; vaiṣṇavāsanam - the vaiṣṇava-āsana; vīraṃ - Vīra; mayūraṃ - mayūra; vajrākhyaṃ - vajra; siddhākhyaṃ - siddha; raudramāsanam - the raudra-āsana.",
+       "yonyāsanaṃ - The yoni posture; viduḥ - as they know; śāktaṃ - the śākta one; śaivaṃ - the śaiva one; paścimatānakam - paścima-tanaka; nirālambanayogasya - For nirālambana-yoga; nirālambanam - the nirālambana; āsanam - āsana; nirālambatayā - without support; dhyānaṃ - contemplation; nirālambaḥ - the supportless [Ātman]; sadāśivaḥ - Sadāśiva."
       ],
       "groups": [
+       [
+        [
+         "svastikaṃ",
+         "Svastika"
+        ],
+        [
+         "gomukhaṃ",
+         "gomukha"
+        ],
+        [
+         "padmaṃ",
+         "padma"
+        ],
+        [
+         "haṃsākhyaṃ",
+         "haṃsa"
+        ],
+        [
+         "brāhmamāsanam",
+         "the brāhma-āsana"
+        ]
+       ],
        [
         [
          "nṛsiṃhaṃ",
@@ -5024,8 +7076,83 @@
         [
          "vaiṣṇavāsanam",
          "the vaiṣṇava-āsana"
+        ],
+        [
+         "vīraṃ",
+         "Vīra"
+        ],
+        [
+         "mayūraṃ",
+         "mayūra"
+        ],
+        [
+         "vajrākhyaṃ",
+         "vajra"
+        ],
+        [
+         "siddhākhyaṃ",
+         "siddha"
+        ],
+        [
+         "raudramāsanam",
+         "the raudra-āsana"
+        ]
+       ],
+       [
+        [
+         "yonyāsanaṃ",
+         "The yoni posture"
+        ],
+        [
+         "viduḥ",
+         "as they know"
+        ],
+        [
+         "śāktaṃ",
+         "the śākta one"
+        ],
+        [
+         "śaivaṃ",
+         "the śaiva one"
+        ],
+        [
+         "paścimatānakam",
+         "paścima-tanaka"
+        ],
+        [
+         "nirālambanayogasya",
+         "For nirālambana-yoga"
+        ],
+        [
+         "nirālambanam",
+         "the nirālambana"
+        ],
+        [
+         "āsanam",
+         "āsana"
+        ],
+        [
+         "nirālambatayā",
+         "without support"
+        ],
+        [
+         "dhyānaṃ",
+         "contemplation"
+        ],
+        [
+         "nirālambaḥ",
+         "the supportless [Ātman]"
+        ],
+        [
+         "sadāśivaḥ",
+         "Sadāśiva"
         ]
        ]
+      ],
+      "titles": [
+       "Verse 24",
+       "Verse 25",
+       "Verse 26"
       ]
      },
      {
@@ -5033,7 +7160,11 @@
       "key": "literal",
       "label": "Literal translation",
       "paragraphs": [
-       "Nṛsiṃha, garuḍa, kūrma, nāga — the vaiṣṇava-āsana."
+       "Svastika, gomukha, padma, haṃsa — the brāhma-āsana.",
+       "Nṛsiṃha, garuḍa, kūrma, nāga — the vaiṣṇava-āsana.",
+       "Vīra, mayūra, vajra, siddha — the raudra-āsana.",
+       "The yoni posture, as they know, is the śākta one; the śaiva one is paścima-tanaka.",
+       "For nirālambana-yoga there is the nirālambana-āsana; contemplation is without support, and the supportless [Ātman] is Sadāśiva."
       ]
      },
      {
@@ -5041,7 +7172,12 @@
       "key": "literary",
       "label": "Literary translation",
       "paragraphs": [
+       "24-26. Svastika, Gomukha, Padma, Haṃsa — these are the Brahmic postures (Āsanas).",
        "Nṛsiṃha, Garuḍa, Kūrma, Nāga — these are the Vaiṣṇava postures.",
+       "Vīra, Mayūra, Vajra, Siddha — these are the Raudra postures.",
+       "Yoni is the Śākta posture.",
+       "Paścima-tanaka is the Śaiva posture.",
+       "The posture for the Nirālambana-Yoga is nirālambana (lit. propless, involving no specific position of hands, feet or other members of the body); meditation should be on the Nirālambana, and the Nirālambana is Sadāśiva, the Unconditioned, the Paramātman.",
        "— English translation, 1978 edition, p. 170"
       ]
      },
@@ -5088,7 +7224,7 @@
         "key": "deva",
         "label": "Деванāгарӣ",
         "lines": [
-         "नृसिंहं गरुडं कूर्मं नागाख्यं वैष्णवासनम् ।"
+         "स्वस्तिकं गोमुखं पद्मं हंसाख्यं ब्राह्ममासनम् ॥२४"
         ]
        },
        {
@@ -5096,7 +7232,7 @@
         "key": "iast",
         "label": "IAST",
         "lines": [
-         "nṛsiṃhaṃ garuḍaṃ kūrmaṃ nāgākhyaṃ vaiṣṇavāsanam ।"
+         "svastikaṃ gomukhaṃ padmaṃ haṃsākhyaṃ brāhmamāsanam ॥24"
         ]
        },
        {
@@ -5104,20 +7240,114 @@
         "key": "cyr",
         "label": "Кириллическая транслитерация",
         "lines": [
-         "нр̣сим̣хам̣ гаруд̣ам̣ кӯрмам̣ нāгāкхйам̣ ваишн̣авāсанам ।"
+         "свастикам̣ гомукхам̣ падмам̣ хам̣сāкхйам̣ брāхмамāсанам ॥24"
         ]
        }
       ],
-      "verses": "25"
+      "verses": "24"
+     },
+     {
+      "type": "verse_card",
+      "sections": [
+       {
+        "type": "verse",
+        "key": "deva",
+        "label": "Деванāгарӣ",
+        "lines": [
+         "नृसिंहं गरुडं कूर्मं नागाख्यं वैष्णवासनम् ।",
+         "वीरं मयूरं वज्राख्यं सिद्धाख्यं रौद्रमासनम् ॥२५॥"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "iast",
+        "label": "IAST",
+        "lines": [
+         "nṛsiṃhaṃ garuḍaṃ kūrmaṃ nāgākhyaṃ vaiṣṇavāsanam ।",
+         "vīraṃ mayūraṃ vajrākhyaṃ siddhākhyaṃ raudramāsanam ॥25॥"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "cyr",
+        "label": "Кириллическая транслитерация",
+        "lines": [
+         "нр̣сим̣хам̣ гаруд̣ам̣ кӯрмам̣ нāгāкхйам̣ ваишн̣авāсанам ।",
+         "вӣрам̣ майӯрам̣ ваджрāкхйам̣ сиддхāкхйам̣ раудрамāсанам ॥25॥"
+        ]
+       }
+      ],
+      "verses": "25",
+      "own": true
+     },
+     {
+      "type": "verse_card",
+      "sections": [
+       {
+        "type": "verse",
+        "key": "deva",
+        "label": "Деванāгарӣ",
+        "lines": [
+         "योन्यासनं विदुश्शाक्तं शैवं पश्चिमतानकम् ।",
+         "निरालम्बनयोगस्य निरालम्बनमासनम् ॥२६॥",
+         "निरालम्बतया ध्यानं निरालम्बस्सदाशिवः ।"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "iast",
+        "label": "IAST",
+        "lines": [
+         "yonyāsanaṃ viduśśāktaṃ śaivaṃ paścimatānakam ।",
+         "nirālambanayogasya nirālambanamāsanam ॥26॥",
+         "nirālambatayā dhyānaṃ nirālambassadāśivaḥ ।"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "cyr",
+        "label": "Кириллическая транслитерация",
+        "lines": [
+         "йонйāсанам̣ видуш́ш́āктам̣ ш́аивам̣ паш́чиматāнакам ।",
+         "нирāламбанайогасйа нирāламбанамāсанам ॥26॥",
+         "нирāламбатайā дхйāнам̣ нирāламбассадāш́ивах̣ ।"
+        ]
+       }
+      ],
+      "verses": "26"
      },
      {
       "type": "words",
       "key": "words",
       "label": "Пословный разбор",
       "paragraphs": [
-       "нр̣сим̣хам̣ - Нрисимха; гаруд̣ам̣ - гаруда; кӯрмам̣ - курма; нāгāкхйам̣ - нага; ваишн̣авāсанам - вайшнава-асана."
+       "свастикам̣ - Свастика; гомукхам̣ - гомукха; падмам̣ - падма; хам̣сāкхйам̣ - хамса; брāхмамāсанам - бра̄хма-асана.",
+       "нр̣сим̣хам̣ - Нрисимха; гаруд̣ам̣ - гаруда; кӯрмам̣ - курма; нāгāкхйам̣ - нага; ваишн̣авāсанам - вайшнава-асана; вӣрам̣ - Вира; майӯрам̣ - маюра; ваджрāкхйам̣ - ваджра; сиддхāкхйам̣ - сиддха; раудрамāсанам - раудра-асана.",
+       "йонйāсанам̣ - Асана йони; видух̣ - как знают; ш́āктам̣ - ш́а̄кта; ш́аивам̣ - ш́айва; паш́чиматāнакам - пашчиматанака; нирāламбанайогасйа - Для нира̄ламбана-йоги; нирāламбанам - нира̄ламбана; āсанам - асана; нирāламбатайā - без опоры; дхйāнам̣ - созерцание; нирāламбах̣ - безопорный [Аа̄тман]; садāш́ивах̣ - Сада̄шива."
       ],
       "groups": [
+       [
+        [
+         "свастикам̣",
+         "Свастика"
+        ],
+        [
+         "гомукхам̣",
+         "гомукха"
+        ],
+        [
+         "падмам̣",
+         "падма"
+        ],
+        [
+         "хам̣сāкхйам̣",
+         "хамса"
+        ],
+        [
+         "брāхмамāсанам",
+         "бра̄хма-асана"
+        ]
+       ],
        [
         [
          "нр̣сим̣хам̣",
@@ -5138,8 +7368,83 @@
         [
          "ваишн̣авāсанам",
          "вайшнава-асана"
+        ],
+        [
+         "вӣрам̣",
+         "Вира"
+        ],
+        [
+         "майӯрам̣",
+         "маюра"
+        ],
+        [
+         "ваджрāкхйам̣",
+         "ваджра"
+        ],
+        [
+         "сиддхāкхйам̣",
+         "сиддха"
+        ],
+        [
+         "раудрамāсанам",
+         "раудра-асана"
+        ]
+       ],
+       [
+        [
+         "йонйāсанам̣",
+         "Асана йони"
+        ],
+        [
+         "видух̣",
+         "как знают"
+        ],
+        [
+         "ш́āктам̣",
+         "ш́а̄кта"
+        ],
+        [
+         "ш́аивам̣",
+         "ш́айва"
+        ],
+        [
+         "паш́чиматāнакам",
+         "пашчиматанака"
+        ],
+        [
+         "нирāламбанайогасйа",
+         "Для нира̄ламбана-йоги"
+        ],
+        [
+         "нирāламбанам",
+         "нира̄ламбана"
+        ],
+        [
+         "āсанам",
+         "асана"
+        ],
+        [
+         "нирāламбатайā",
+         "без опоры"
+        ],
+        [
+         "дхйāнам̣",
+         "созерцание"
+        ],
+        [
+         "нирāламбах̣",
+         "безопорный [Аа̄тман]"
+        ],
+        [
+         "садāш́ивах̣",
+         "Сада̄шива"
         ]
        ]
+      ],
+      "titles": [
+       "Стих 24",
+       "Стих 25",
+       "Стих 26"
       ]
      },
      {
@@ -5147,7 +7452,11 @@
       "key": "literal",
       "label": "Буквальный перевод",
       "paragraphs": [
-       "Нрисимха, гаруда, курма, нага — вайшнава-асана."
+       "Свастика, гомукха, падма, хамса — бра̄хма-асана.",
+       "Нрисимха, гаруда, курма, нага — вайшнава-асана.",
+       "Вира, маюра, ваджра, сиддха — раудра-асана.",
+       "Асана йони, как знают, — ш́а̄кта; ш́айва — пашчиматанака.",
+       "Для нира̄ламбана-йоги — нира̄ламбана-асана; созерцание — без опоры, а безопорный [Аа̄тман] — Сада̄шива."
       ]
      },
      {
@@ -5155,7 +7464,12 @@
       "key": "literary",
       "label": "Литературный перевод",
       "paragraphs": [
+       "24–26. Свастика, гомукха, падма, хамса — это бра̄хмические позы (асаны).",
        "Нрисимха, гаруда, кӯрма, нага — это ваишн̣ава-позы.",
+       "Вӣра, майӯра, ваджра, сиддха — это раудра-позы.",
+       "Йони — ш́а̄кта-поза.",
+       "Пашчиматанака — ш́аива-поза.",
+       "Поза для нира̄ламбана-йоги — нира̄ламбана (букв. „беспорная“, не предполагающая определённого положения рук, ног и прочих членов тела); созерцать следует Нира̄ламбану, а Нира̄ламбана — это Сада̄шива, Безусловное, Парама̄тман.",
        "— англ. пер. изд. 1978 г., с. 170"
       ]
      },
@@ -5183,7 +7497,7 @@
         "key": "deva",
         "label": "Devanāgarī",
         "lines": [
-         "नृसिंहं गरुडं कूर्मं नागाख्यं वैष्णवासनम् ।"
+         "स्वस्तिकं गोमुखं पद्मं हंसाख्यं ब्राह्ममासनम् ॥२४"
         ]
        },
        {
@@ -5191,7 +7505,7 @@
         "key": "iast",
         "label": "IAST",
         "lines": [
-         "nṛsiṃhaṃ garuḍaṃ kūrmaṃ nāgākhyaṃ vaiṣṇavāsanam ।"
+         "svastikaṃ gomukhaṃ padmaṃ haṃsākhyaṃ brāhmamāsanam ॥24"
         ]
        },
        {
@@ -5199,20 +7513,114 @@
         "key": "cyr",
         "label": "Cyrillic transliteration",
         "lines": [
-         "нр̣сим̣хам̣ гаруд̣ам̣ кӯрмам̣ нāгāкхйам̣ ваишн̣авāсанам ।"
+         "свастикам̣ гомукхам̣ падмам̣ хам̣сāкхйам̣ брāхмамāсанам ॥24"
         ]
        }
       ],
-      "verses": "25"
+      "verses": "24"
+     },
+     {
+      "type": "verse_card",
+      "sections": [
+       {
+        "type": "verse",
+        "key": "deva",
+        "label": "Devanāgarī",
+        "lines": [
+         "नृसिंहं गरुडं कूर्मं नागाख्यं वैष्णवासनम् ।",
+         "वीरं मयूरं वज्राख्यं सिद्धाख्यं रौद्रमासनम् ॥२५॥"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "iast",
+        "label": "IAST",
+        "lines": [
+         "nṛsiṃhaṃ garuḍaṃ kūrmaṃ nāgākhyaṃ vaiṣṇavāsanam ।",
+         "vīraṃ mayūraṃ vajrākhyaṃ siddhākhyaṃ raudramāsanam ॥25॥"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "cyr",
+        "label": "Cyrillic transliteration",
+        "lines": [
+         "нр̣сим̣хам̣ гаруд̣ам̣ кӯрмам̣ нāгāкхйам̣ ваишн̣авāсанам ।",
+         "вӣрам̣ майӯрам̣ ваджрāкхйам̣ сиддхāкхйам̣ раудрамāсанам ॥25॥"
+        ]
+       }
+      ],
+      "verses": "25",
+      "own": true
+     },
+     {
+      "type": "verse_card",
+      "sections": [
+       {
+        "type": "verse",
+        "key": "deva",
+        "label": "Devanāgarī",
+        "lines": [
+         "योन्यासनं विदुश्शाक्तं शैवं पश्चिमतानकम् ।",
+         "निरालम्बनयोगस्य निरालम्बनमासनम् ॥२६॥",
+         "निरालम्बतया ध्यानं निरालम्बस्सदाशिवः ।"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "iast",
+        "label": "IAST",
+        "lines": [
+         "yonyāsanaṃ viduśśāktaṃ śaivaṃ paścimatānakam ।",
+         "nirālambanayogasya nirālambanamāsanam ॥26॥",
+         "nirālambatayā dhyānaṃ nirālambassadāśivaḥ ।"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "cyr",
+        "label": "Cyrillic transliteration",
+        "lines": [
+         "йонйāсанам̣ видуш́ш́āктам̣ ш́аивам̣ паш́чиматāнакам ।",
+         "нирāламбанайогасйа нирāламбанамāсанам ॥26॥",
+         "нирāламбатайā дхйāнам̣ нирāламбассадāш́ивах̣ ।"
+        ]
+       }
+      ],
+      "verses": "26"
      },
      {
       "type": "words",
       "key": "words",
       "label": "Word-by-word analysis",
       "paragraphs": [
-       "nṛsiṃhaṃ - Nṛsiṃha; garuḍaṃ - garuḍa; kūrmaṃ - kūrma; nāgākhyaṃ - nāga; vaiṣṇavāsanam - the vaiṣṇava-āsana."
+       "svastikaṃ - Svastika; gomukhaṃ - gomukha; padmaṃ - padma; haṃsākhyaṃ - haṃsa; brāhmamāsanam - the brāhma-āsana.",
+       "nṛsiṃhaṃ - Nṛsiṃha; garuḍaṃ - garuḍa; kūrmaṃ - kūrma; nāgākhyaṃ - nāga; vaiṣṇavāsanam - the vaiṣṇava-āsana; vīraṃ - Vīra; mayūraṃ - mayūra; vajrākhyaṃ - vajra; siddhākhyaṃ - siddha; raudramāsanam - the raudra-āsana.",
+       "yonyāsanaṃ - The yoni posture; viduḥ - as they know; śāktaṃ - the śākta one; śaivaṃ - the śaiva one; paścimatānakam - paścima-tanaka; nirālambanayogasya - For nirālambana-yoga; nirālambanam - the nirālambana; āsanam - āsana; nirālambatayā - without support; dhyānaṃ - contemplation; nirālambaḥ - the supportless [Ātman]; sadāśivaḥ - Sadāśiva."
       ],
       "groups": [
+       [
+        [
+         "svastikaṃ",
+         "Svastika"
+        ],
+        [
+         "gomukhaṃ",
+         "gomukha"
+        ],
+        [
+         "padmaṃ",
+         "padma"
+        ],
+        [
+         "haṃsākhyaṃ",
+         "haṃsa"
+        ],
+        [
+         "brāhmamāsanam",
+         "the brāhma-āsana"
+        ]
+       ],
        [
         [
          "nṛsiṃhaṃ",
@@ -5233,8 +7641,83 @@
         [
          "vaiṣṇavāsanam",
          "the vaiṣṇava-āsana"
+        ],
+        [
+         "vīraṃ",
+         "Vīra"
+        ],
+        [
+         "mayūraṃ",
+         "mayūra"
+        ],
+        [
+         "vajrākhyaṃ",
+         "vajra"
+        ],
+        [
+         "siddhākhyaṃ",
+         "siddha"
+        ],
+        [
+         "raudramāsanam",
+         "the raudra-āsana"
+        ]
+       ],
+       [
+        [
+         "yonyāsanaṃ",
+         "The yoni posture"
+        ],
+        [
+         "viduḥ",
+         "as they know"
+        ],
+        [
+         "śāktaṃ",
+         "the śākta one"
+        ],
+        [
+         "śaivaṃ",
+         "the śaiva one"
+        ],
+        [
+         "paścimatānakam",
+         "paścima-tanaka"
+        ],
+        [
+         "nirālambanayogasya",
+         "For nirālambana-yoga"
+        ],
+        [
+         "nirālambanam",
+         "the nirālambana"
+        ],
+        [
+         "āsanam",
+         "āsana"
+        ],
+        [
+         "nirālambatayā",
+         "without support"
+        ],
+        [
+         "dhyānaṃ",
+         "contemplation"
+        ],
+        [
+         "nirālambaḥ",
+         "the supportless [Ātman]"
+        ],
+        [
+         "sadāśivaḥ",
+         "Sadāśiva"
         ]
        ]
+      ],
+      "titles": [
+       "Verse 24",
+       "Verse 25",
+       "Verse 26"
       ]
      },
      {
@@ -5242,7 +7725,11 @@
       "key": "literal",
       "label": "Literal translation",
       "paragraphs": [
-       "Nṛsiṃha, garuḍa, kūrma, nāga — the vaiṣṇava-āsana."
+       "Svastika, gomukha, padma, haṃsa — the brāhma-āsana.",
+       "Nṛsiṃha, garuḍa, kūrma, nāga — the vaiṣṇava-āsana.",
+       "Vīra, mayūra, vajra, siddha — the raudra-āsana.",
+       "The yoni posture, as they know, is the śākta one; the śaiva one is paścima-tanaka.",
+       "For nirālambana-yoga there is the nirālambana-āsana; contemplation is without support, and the supportless [Ātman] is Sadāśiva."
       ]
      },
      {
@@ -5250,7 +7737,12 @@
       "key": "literary",
       "label": "Literary translation",
       "paragraphs": [
+       "24-26. Svastika, Gomukha, Padma, Haṃsa — these are the Brahmic postures (Āsanas).",
        "Nṛsiṃha, Garuḍa, Kūrma, Nāga — these are the Vaiṣṇava postures.",
+       "Vīra, Mayūra, Vajra, Siddha — these are the Raudra postures.",
+       "Yoni is the Śākta posture.",
+       "Paścima-tanaka is the Śaiva posture.",
+       "The posture for the Nirālambana-Yoga is nirālambana (lit. propless, involving no specific position of hands, feet or other members of the body); meditation should be on the Nirālambana, and the Nirālambana is Sadāśiva, the Unconditioned, the Paramātman.",
        "— English translation, 1978 edition, p. 170"
       ]
      },
@@ -5297,7 +7789,7 @@
         "key": "deva",
         "label": "Деванāгарӣ",
         "lines": [
-         "नृसिंहं गरुडं कूर्मं नागाख्यं वैष्णवासनम् ।"
+         "स्वस्तिकं गोमुखं पद्मं हंसाख्यं ब्राह्ममासनम् ॥२४"
         ]
        },
        {
@@ -5305,7 +7797,7 @@
         "key": "iast",
         "label": "IAST",
         "lines": [
-         "nṛsiṃhaṃ garuḍaṃ kūrmaṃ nāgākhyaṃ vaiṣṇavāsanam ।"
+         "svastikaṃ gomukhaṃ padmaṃ haṃsākhyaṃ brāhmamāsanam ॥24"
         ]
        },
        {
@@ -5313,20 +7805,114 @@
         "key": "cyr",
         "label": "Кириллическая транслитерация",
         "lines": [
-         "нр̣сим̣хам̣ гаруд̣ам̣ кӯрмам̣ нāгāкхйам̣ ваишн̣авāсанам ।"
+         "свастикам̣ гомукхам̣ падмам̣ хам̣сāкхйам̣ брāхмамāсанам ॥24"
         ]
        }
       ],
-      "verses": "25"
+      "verses": "24"
+     },
+     {
+      "type": "verse_card",
+      "sections": [
+       {
+        "type": "verse",
+        "key": "deva",
+        "label": "Деванāгарӣ",
+        "lines": [
+         "नृसिंहं गरुडं कूर्मं नागाख्यं वैष्णवासनम् ।",
+         "वीरं मयूरं वज्राख्यं सिद्धाख्यं रौद्रमासनम् ॥२५॥"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "iast",
+        "label": "IAST",
+        "lines": [
+         "nṛsiṃhaṃ garuḍaṃ kūrmaṃ nāgākhyaṃ vaiṣṇavāsanam ।",
+         "vīraṃ mayūraṃ vajrākhyaṃ siddhākhyaṃ raudramāsanam ॥25॥"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "cyr",
+        "label": "Кириллическая транслитерация",
+        "lines": [
+         "нр̣сим̣хам̣ гаруд̣ам̣ кӯрмам̣ нāгāкхйам̣ ваишн̣авāсанам ।",
+         "вӣрам̣ майӯрам̣ ваджрāкхйам̣ сиддхāкхйам̣ раудрамāсанам ॥25॥"
+        ]
+       }
+      ],
+      "verses": "25",
+      "own": true
+     },
+     {
+      "type": "verse_card",
+      "sections": [
+       {
+        "type": "verse",
+        "key": "deva",
+        "label": "Деванāгарӣ",
+        "lines": [
+         "योन्यासनं विदुश्शाक्तं शैवं पश्चिमतानकम् ।",
+         "निरालम्बनयोगस्य निरालम्बनमासनम् ॥२६॥",
+         "निरालम्बतया ध्यानं निरालम्बस्सदाशिवः ।"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "iast",
+        "label": "IAST",
+        "lines": [
+         "yonyāsanaṃ viduśśāktaṃ śaivaṃ paścimatānakam ।",
+         "nirālambanayogasya nirālambanamāsanam ॥26॥",
+         "nirālambatayā dhyānaṃ nirālambassadāśivaḥ ।"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "cyr",
+        "label": "Кириллическая транслитерация",
+        "lines": [
+         "йонйāсанам̣ видуш́ш́āктам̣ ш́аивам̣ паш́чиматāнакам ।",
+         "нирāламбанайогасйа нирāламбанамāсанам ॥26॥",
+         "нирāламбатайā дхйāнам̣ нирāламбассадāш́ивах̣ ।"
+        ]
+       }
+      ],
+      "verses": "26"
      },
      {
       "type": "words",
       "key": "words",
       "label": "Пословный разбор",
       "paragraphs": [
-       "нр̣сим̣хам̣ - Нрисимха; гаруд̣ам̣ - гаруда; кӯрмам̣ - курма; нāгāкхйам̣ - нага; ваишн̣авāсанам - вайшнава-асана."
+       "свастикам̣ - Свастика; гомукхам̣ - гомукха; падмам̣ - падма; хам̣сāкхйам̣ - хамса; брāхмамāсанам - бра̄хма-асана.",
+       "нр̣сим̣хам̣ - Нрисимха; гаруд̣ам̣ - гаруда; кӯрмам̣ - курма; нāгāкхйам̣ - нага; ваишн̣авāсанам - вайшнава-асана; вӣрам̣ - Вира; майӯрам̣ - маюра; ваджрāкхйам̣ - ваджра; сиддхāкхйам̣ - сиддха; раудрамāсанам - раудра-асана.",
+       "йонйāсанам̣ - Асана йони; видух̣ - как знают; ш́āктам̣ - ш́а̄кта; ш́аивам̣ - ш́айва; паш́чиматāнакам - пашчиматанака; нирāламбанайогасйа - Для нира̄ламбана-йоги; нирāламбанам - нира̄ламбана; āсанам - асана; нирāламбатайā - без опоры; дхйāнам̣ - созерцание; нирāламбах̣ - безопорный [Аа̄тман]; садāш́ивах̣ - Сада̄шива."
       ],
       "groups": [
+       [
+        [
+         "свастикам̣",
+         "Свастика"
+        ],
+        [
+         "гомукхам̣",
+         "гомукха"
+        ],
+        [
+         "падмам̣",
+         "падма"
+        ],
+        [
+         "хам̣сāкхйам̣",
+         "хамса"
+        ],
+        [
+         "брāхмамāсанам",
+         "бра̄хма-асана"
+        ]
+       ],
        [
         [
          "нр̣сим̣хам̣",
@@ -5347,8 +7933,83 @@
         [
          "ваишн̣авāсанам",
          "вайшнава-асана"
+        ],
+        [
+         "вӣрам̣",
+         "Вира"
+        ],
+        [
+         "майӯрам̣",
+         "маюра"
+        ],
+        [
+         "ваджрāкхйам̣",
+         "ваджра"
+        ],
+        [
+         "сиддхāкхйам̣",
+         "сиддха"
+        ],
+        [
+         "раудрамāсанам",
+         "раудра-асана"
+        ]
+       ],
+       [
+        [
+         "йонйāсанам̣",
+         "Асана йони"
+        ],
+        [
+         "видух̣",
+         "как знают"
+        ],
+        [
+         "ш́āктам̣",
+         "ш́а̄кта"
+        ],
+        [
+         "ш́аивам̣",
+         "ш́айва"
+        ],
+        [
+         "паш́чиматāнакам",
+         "пашчиматанака"
+        ],
+        [
+         "нирāламбанайогасйа",
+         "Для нира̄ламбана-йоги"
+        ],
+        [
+         "нирāламбанам",
+         "нира̄ламбана"
+        ],
+        [
+         "āсанам",
+         "асана"
+        ],
+        [
+         "нирāламбатайā",
+         "без опоры"
+        ],
+        [
+         "дхйāнам̣",
+         "созерцание"
+        ],
+        [
+         "нирāламбах̣",
+         "безопорный [Аа̄тман]"
+        ],
+        [
+         "садāш́ивах̣",
+         "Сада̄шива"
         ]
        ]
+      ],
+      "titles": [
+       "Стих 24",
+       "Стих 25",
+       "Стих 26"
       ]
      },
      {
@@ -5356,7 +8017,11 @@
       "key": "literal",
       "label": "Буквальный перевод",
       "paragraphs": [
-       "Нрисимха, гаруда, курма, нага — вайшнава-асана."
+       "Свастика, гомукха, падма, хамса — бра̄хма-асана.",
+       "Нрисимха, гаруда, курма, нага — вайшнава-асана.",
+       "Вира, маюра, ваджра, сиддха — раудра-асана.",
+       "Асана йони, как знают, — ш́а̄кта; ш́айва — пашчиматанака.",
+       "Для нира̄ламбана-йоги — нира̄ламбана-асана; созерцание — без опоры, а безопорный [Аа̄тман] — Сада̄шива."
       ]
      },
      {
@@ -5364,7 +8029,12 @@
       "key": "literary",
       "label": "Литературный перевод",
       "paragraphs": [
+       "24–26. Свастика, гомукха, падма, хамса — это бра̄хмические позы (асаны).",
        "Нрисимха, гаруда, кӯрма, нага — это ваишн̣ава-позы.",
+       "Вӣра, майӯра, ваджра, сиддха — это раудра-позы.",
+       "Йони — ш́а̄кта-поза.",
+       "Пашчиматанака — ш́аива-поза.",
+       "Поза для нира̄ламбана-йоги — нира̄ламбана (букв. „беспорная“, не предполагающая определённого положения рук, ног и прочих членов тела); созерцать следует Нира̄ламбану, а Нира̄ламбана — это Сада̄шива, Безусловное, Парама̄тман.",
        "— англ. пер. изд. 1978 г., с. 170"
       ]
      },
@@ -5392,7 +8062,7 @@
         "key": "deva",
         "label": "Devanāgarī",
         "lines": [
-         "नृसिंहं गरुडं कूर्मं नागाख्यं वैष्णवासनम् ।"
+         "स्वस्तिकं गोमुखं पद्मं हंसाख्यं ब्राह्ममासनम् ॥२४"
         ]
        },
        {
@@ -5400,7 +8070,7 @@
         "key": "iast",
         "label": "IAST",
         "lines": [
-         "nṛsiṃhaṃ garuḍaṃ kūrmaṃ nāgākhyaṃ vaiṣṇavāsanam ।"
+         "svastikaṃ gomukhaṃ padmaṃ haṃsākhyaṃ brāhmamāsanam ॥24"
         ]
        },
        {
@@ -5408,20 +8078,114 @@
         "key": "cyr",
         "label": "Cyrillic transliteration",
         "lines": [
-         "нр̣сим̣хам̣ гаруд̣ам̣ кӯрмам̣ нāгāкхйам̣ ваишн̣авāсанам ।"
+         "свастикам̣ гомукхам̣ падмам̣ хам̣сāкхйам̣ брāхмамāсанам ॥24"
         ]
        }
       ],
-      "verses": "25"
+      "verses": "24"
+     },
+     {
+      "type": "verse_card",
+      "sections": [
+       {
+        "type": "verse",
+        "key": "deva",
+        "label": "Devanāgarī",
+        "lines": [
+         "नृसिंहं गरुडं कूर्मं नागाख्यं वैष्णवासनम् ।",
+         "वीरं मयूरं वज्राख्यं सिद्धाख्यं रौद्रमासनम् ॥२५॥"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "iast",
+        "label": "IAST",
+        "lines": [
+         "nṛsiṃhaṃ garuḍaṃ kūrmaṃ nāgākhyaṃ vaiṣṇavāsanam ।",
+         "vīraṃ mayūraṃ vajrākhyaṃ siddhākhyaṃ raudramāsanam ॥25॥"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "cyr",
+        "label": "Cyrillic transliteration",
+        "lines": [
+         "нр̣сим̣хам̣ гаруд̣ам̣ кӯрмам̣ нāгāкхйам̣ ваишн̣авāсанам ।",
+         "вӣрам̣ майӯрам̣ ваджрāкхйам̣ сиддхāкхйам̣ раудрамāсанам ॥25॥"
+        ]
+       }
+      ],
+      "verses": "25",
+      "own": true
+     },
+     {
+      "type": "verse_card",
+      "sections": [
+       {
+        "type": "verse",
+        "key": "deva",
+        "label": "Devanāgarī",
+        "lines": [
+         "योन्यासनं विदुश्शाक्तं शैवं पश्चिमतानकम् ।",
+         "निरालम्बनयोगस्य निरालम्बनमासनम् ॥२६॥",
+         "निरालम्बतया ध्यानं निरालम्बस्सदाशिवः ।"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "iast",
+        "label": "IAST",
+        "lines": [
+         "yonyāsanaṃ viduśśāktaṃ śaivaṃ paścimatānakam ।",
+         "nirālambanayogasya nirālambanamāsanam ॥26॥",
+         "nirālambatayā dhyānaṃ nirālambassadāśivaḥ ।"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "cyr",
+        "label": "Cyrillic transliteration",
+        "lines": [
+         "йонйāсанам̣ видуш́ш́āктам̣ ш́аивам̣ паш́чиматāнакам ।",
+         "нирāламбанайогасйа нирāламбанамāсанам ॥26॥",
+         "нирāламбатайā дхйāнам̣ нирāламбассадāш́ивах̣ ।"
+        ]
+       }
+      ],
+      "verses": "26"
      },
      {
       "type": "words",
       "key": "words",
       "label": "Word-by-word analysis",
       "paragraphs": [
-       "nṛsiṃhaṃ - Nṛsiṃha; garuḍaṃ - garuḍa; kūrmaṃ - kūrma; nāgākhyaṃ - nāga; vaiṣṇavāsanam - the vaiṣṇava-āsana."
+       "svastikaṃ - Svastika; gomukhaṃ - gomukha; padmaṃ - padma; haṃsākhyaṃ - haṃsa; brāhmamāsanam - the brāhma-āsana.",
+       "nṛsiṃhaṃ - Nṛsiṃha; garuḍaṃ - garuḍa; kūrmaṃ - kūrma; nāgākhyaṃ - nāga; vaiṣṇavāsanam - the vaiṣṇava-āsana; vīraṃ - Vīra; mayūraṃ - mayūra; vajrākhyaṃ - vajra; siddhākhyaṃ - siddha; raudramāsanam - the raudra-āsana.",
+       "yonyāsanaṃ - The yoni posture; viduḥ - as they know; śāktaṃ - the śākta one; śaivaṃ - the śaiva one; paścimatānakam - paścima-tanaka; nirālambanayogasya - For nirālambana-yoga; nirālambanam - the nirālambana; āsanam - āsana; nirālambatayā - without support; dhyānaṃ - contemplation; nirālambaḥ - the supportless [Ātman]; sadāśivaḥ - Sadāśiva."
       ],
       "groups": [
+       [
+        [
+         "svastikaṃ",
+         "Svastika"
+        ],
+        [
+         "gomukhaṃ",
+         "gomukha"
+        ],
+        [
+         "padmaṃ",
+         "padma"
+        ],
+        [
+         "haṃsākhyaṃ",
+         "haṃsa"
+        ],
+        [
+         "brāhmamāsanam",
+         "the brāhma-āsana"
+        ]
+       ],
        [
         [
          "nṛsiṃhaṃ",
@@ -5442,8 +8206,83 @@
         [
          "vaiṣṇavāsanam",
          "the vaiṣṇava-āsana"
+        ],
+        [
+         "vīraṃ",
+         "Vīra"
+        ],
+        [
+         "mayūraṃ",
+         "mayūra"
+        ],
+        [
+         "vajrākhyaṃ",
+         "vajra"
+        ],
+        [
+         "siddhākhyaṃ",
+         "siddha"
+        ],
+        [
+         "raudramāsanam",
+         "the raudra-āsana"
+        ]
+       ],
+       [
+        [
+         "yonyāsanaṃ",
+         "The yoni posture"
+        ],
+        [
+         "viduḥ",
+         "as they know"
+        ],
+        [
+         "śāktaṃ",
+         "the śākta one"
+        ],
+        [
+         "śaivaṃ",
+         "the śaiva one"
+        ],
+        [
+         "paścimatānakam",
+         "paścima-tanaka"
+        ],
+        [
+         "nirālambanayogasya",
+         "For nirālambana-yoga"
+        ],
+        [
+         "nirālambanam",
+         "the nirālambana"
+        ],
+        [
+         "āsanam",
+         "āsana"
+        ],
+        [
+         "nirālambatayā",
+         "without support"
+        ],
+        [
+         "dhyānaṃ",
+         "contemplation"
+        ],
+        [
+         "nirālambaḥ",
+         "the supportless [Ātman]"
+        ],
+        [
+         "sadāśivaḥ",
+         "Sadāśiva"
         ]
        ]
+      ],
+      "titles": [
+       "Verse 24",
+       "Verse 25",
+       "Verse 26"
       ]
      },
      {
@@ -5451,7 +8290,11 @@
       "key": "literal",
       "label": "Literal translation",
       "paragraphs": [
-       "Nṛsiṃha, garuḍa, kūrma, nāga — the vaiṣṇava-āsana."
+       "Svastika, gomukha, padma, haṃsa — the brāhma-āsana.",
+       "Nṛsiṃha, garuḍa, kūrma, nāga — the vaiṣṇava-āsana.",
+       "Vīra, mayūra, vajra, siddha — the raudra-āsana.",
+       "The yoni posture, as they know, is the śākta one; the śaiva one is paścima-tanaka.",
+       "For nirālambana-yoga there is the nirālambana-āsana; contemplation is without support, and the supportless [Ātman] is Sadāśiva."
       ]
      },
      {
@@ -5459,7 +8302,12 @@
       "key": "literary",
       "label": "Literary translation",
       "paragraphs": [
+       "24-26. Svastika, Gomukha, Padma, Haṃsa — these are the Brahmic postures (Āsanas).",
        "Nṛsiṃha, Garuḍa, Kūrma, Nāga — these are the Vaiṣṇava postures.",
+       "Vīra, Mayūra, Vajra, Siddha — these are the Raudra postures.",
+       "Yoni is the Śākta posture.",
+       "Paścima-tanaka is the Śaiva posture.",
+       "The posture for the Nirālambana-Yoga is nirālambana (lit. propless, involving no specific position of hands, feet or other members of the body); meditation should be on the Nirālambana, and the Nirālambana is Sadāśiva, the Unconditioned, the Paramātman.",
        "— English translation, 1978 edition, p. 170"
       ]
      },
@@ -5506,6 +8354,37 @@
         "key": "deva",
         "label": "Деванāгарӣ",
         "lines": [
+         "स्वस्तिकं गोमुखं पद्मं हंसाख्यं ब्राह्ममासनम् ॥२४"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "iast",
+        "label": "IAST",
+        "lines": [
+         "svastikaṃ gomukhaṃ padmaṃ haṃsākhyaṃ brāhmamāsanam ॥24"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "cyr",
+        "label": "Кириллическая транслитерация",
+        "lines": [
+         "свастикам̣ гомукхам̣ падмам̣ хам̣сāкхйам̣ брāхмамāсанам ॥24"
+        ]
+       }
+      ],
+      "verses": "24"
+     },
+     {
+      "type": "verse_card",
+      "sections": [
+       {
+        "type": "verse",
+        "key": "deva",
+        "label": "Деванāгарӣ",
+        "lines": [
+         "नृसिंहं गरुडं कूर्मं नागाख्यं वैष्णवासनम् ।",
          "वीरं मयूरं वज्राख्यं सिद्धाख्यं रौद्रमासनम् ॥२५॥"
         ]
        },
@@ -5514,6 +8393,7 @@
         "key": "iast",
         "label": "IAST",
         "lines": [
+         "nṛsiṃhaṃ garuḍaṃ kūrmaṃ nāgākhyaṃ vaiṣṇavāsanam ।",
          "vīraṃ mayūraṃ vajrākhyaṃ siddhākhyaṃ raudramāsanam ॥25॥"
         ]
        },
@@ -5522,21 +8402,103 @@
         "key": "cyr",
         "label": "Кириллическая транслитерация",
         "lines": [
+         "нр̣сим̣хам̣ гаруд̣ам̣ кӯрмам̣ нāгāкхйам̣ ваишн̣авāсанам ।",
          "вӣрам̣ майӯрам̣ ваджрāкхйам̣ сиддхāкхйам̣ раудрамāсанам ॥25॥"
         ]
        }
       ],
-      "verses": "25"
+      "verses": "25",
+      "own": true
+     },
+     {
+      "type": "verse_card",
+      "sections": [
+       {
+        "type": "verse",
+        "key": "deva",
+        "label": "Деванāгарӣ",
+        "lines": [
+         "योन्यासनं विदुश्शाक्तं शैवं पश्चिमतानकम् ।",
+         "निरालम्बनयोगस्य निरालम्बनमासनम् ॥२६॥",
+         "निरालम्बतया ध्यानं निरालम्बस्सदाशिवः ।"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "iast",
+        "label": "IAST",
+        "lines": [
+         "yonyāsanaṃ viduśśāktaṃ śaivaṃ paścimatānakam ।",
+         "nirālambanayogasya nirālambanamāsanam ॥26॥",
+         "nirālambatayā dhyānaṃ nirālambassadāśivaḥ ।"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "cyr",
+        "label": "Кириллическая транслитерация",
+        "lines": [
+         "йонйāсанам̣ видуш́ш́āктам̣ ш́аивам̣ паш́чиматāнакам ।",
+         "нирāламбанайогасйа нирāламбанамāсанам ॥26॥",
+         "нирāламбатайā дхйāнам̣ нирāламбассадāш́ивах̣ ।"
+        ]
+       }
+      ],
+      "verses": "26"
      },
      {
       "type": "words",
       "key": "words",
       "label": "Пословный разбор",
       "paragraphs": [
-       "вӣрам̣ - Вира; майӯрам̣ - маюра; ваджрāкхйам̣ - ваджра; сиддхāкхйам̣ - сиддха; раудрамāсанам - раудра-асана."
+       "свастикам̣ - Свастика; гомукхам̣ - гомукха; падмам̣ - падма; хам̣сāкхйам̣ - хамса; брāхмамāсанам - бра̄хма-асана.",
+       "нр̣сим̣хам̣ - Нрисимха; гаруд̣ам̣ - гаруда; кӯрмам̣ - курма; нāгāкхйам̣ - нага; ваишн̣авāсанам - вайшнава-асана; вӣрам̣ - Вира; майӯрам̣ - маюра; ваджрāкхйам̣ - ваджра; сиддхāкхйам̣ - сиддха; раудрамāсанам - раудра-асана.",
+       "йонйāсанам̣ - Асана йони; видух̣ - как знают; ш́āктам̣ - ш́а̄кта; ш́аивам̣ - ш́айва; паш́чиматāнакам - пашчиматанака; нирāламбанайогасйа - Для нира̄ламбана-йоги; нирāламбанам - нира̄ламбана; āсанам - асана; нирāламбатайā - без опоры; дхйāнам̣ - созерцание; нирāламбах̣ - безопорный [Аа̄тман]; садāш́ивах̣ - Сада̄шива."
       ],
       "groups": [
        [
+        [
+         "свастикам̣",
+         "Свастика"
+        ],
+        [
+         "гомукхам̣",
+         "гомукха"
+        ],
+        [
+         "падмам̣",
+         "падма"
+        ],
+        [
+         "хам̣сāкхйам̣",
+         "хамса"
+        ],
+        [
+         "брāхмамāсанам",
+         "бра̄хма-асана"
+        ]
+       ],
+       [
+        [
+         "нр̣сим̣хам̣",
+         "Нрисимха"
+        ],
+        [
+         "гаруд̣ам̣",
+         "гаруда"
+        ],
+        [
+         "кӯрмам̣",
+         "курма"
+        ],
+        [
+         "нāгāкхйам̣",
+         "нага"
+        ],
+        [
+         "ваишн̣авāсанам",
+         "вайшнава-асана"
+        ],
         [
          "вӣрам̣",
          "Вира"
@@ -5557,7 +8519,62 @@
          "раудрамāсанам",
          "раудра-асана"
         ]
+       ],
+       [
+        [
+         "йонйāсанам̣",
+         "Асана йони"
+        ],
+        [
+         "видух̣",
+         "как знают"
+        ],
+        [
+         "ш́āктам̣",
+         "ш́а̄кта"
+        ],
+        [
+         "ш́аивам̣",
+         "ш́айва"
+        ],
+        [
+         "паш́чиматāнакам",
+         "пашчиматанака"
+        ],
+        [
+         "нирāламбанайогасйа",
+         "Для нира̄ламбана-йоги"
+        ],
+        [
+         "нирāламбанам",
+         "нира̄ламбана"
+        ],
+        [
+         "āсанам",
+         "асана"
+        ],
+        [
+         "нирāламбатайā",
+         "без опоры"
+        ],
+        [
+         "дхйāнам̣",
+         "созерцание"
+        ],
+        [
+         "нирāламбах̣",
+         "безопорный [Аа̄тман]"
+        ],
+        [
+         "садāш́ивах̣",
+         "Сада̄шива"
+        ]
        ]
+      ],
+      "titles": [
+       "Стих 24",
+       "Стих 25",
+       "Стих 26"
       ]
      },
      {
@@ -5565,7 +8582,11 @@
       "key": "literal",
       "label": "Буквальный перевод",
       "paragraphs": [
-       "Вира, маюра, ваджра, сиддха — раудра-асана."
+       "Свастика, гомукха, падма, хамса — бра̄хма-асана.",
+       "Нрисимха, гаруда, курма, нага — вайшнава-асана.",
+       "Вира, маюра, ваджра, сиддха — раудра-асана.",
+       "Асана йони, как знают, — ш́а̄кта; ш́айва — пашчиматанака.",
+       "Для нира̄ламбана-йоги — нира̄ламбана-асана; созерцание — без опоры, а безопорный [Аа̄тман] — Сада̄шива."
       ]
      },
      {
@@ -5573,7 +8594,12 @@
       "key": "literary",
       "label": "Литературный перевод",
       "paragraphs": [
+       "24–26. Свастика, гомукха, падма, хамса — это бра̄хмические позы (асаны).",
+       "Нрисимха, гаруда, кӯрма, нага — это ваишн̣ава-позы.",
        "Вӣра, майӯра, ваджра, сиддха — это раудра-позы.",
+       "Йони — ш́а̄кта-поза.",
+       "Пашчиматанака — ш́аива-поза.",
+       "Поза для нира̄ламбана-йоги — нира̄ламбана (букв. „беспорная“, не предполагающая определённого положения рук, ног и прочих членов тела); созерцать следует Нира̄ламбану, а Нира̄ламбана — это Сада̄шива, Безусловное, Парама̄тман.",
        "— англ. пер. изд. 1978 г., с. 170"
       ]
      },
@@ -5601,6 +8627,37 @@
         "key": "deva",
         "label": "Devanāgarī",
         "lines": [
+         "स्वस्तिकं गोमुखं पद्मं हंसाख्यं ब्राह्ममासनम् ॥२४"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "iast",
+        "label": "IAST",
+        "lines": [
+         "svastikaṃ gomukhaṃ padmaṃ haṃsākhyaṃ brāhmamāsanam ॥24"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "cyr",
+        "label": "Cyrillic transliteration",
+        "lines": [
+         "свастикам̣ гомукхам̣ падмам̣ хам̣сāкхйам̣ брāхмамāсанам ॥24"
+        ]
+       }
+      ],
+      "verses": "24"
+     },
+     {
+      "type": "verse_card",
+      "sections": [
+       {
+        "type": "verse",
+        "key": "deva",
+        "label": "Devanāgarī",
+        "lines": [
+         "नृसिंहं गरुडं कूर्मं नागाख्यं वैष्णवासनम् ।",
          "वीरं मयूरं वज्राख्यं सिद्धाख्यं रौद्रमासनम् ॥२५॥"
         ]
        },
@@ -5609,6 +8666,7 @@
         "key": "iast",
         "label": "IAST",
         "lines": [
+         "nṛsiṃhaṃ garuḍaṃ kūrmaṃ nāgākhyaṃ vaiṣṇavāsanam ।",
          "vīraṃ mayūraṃ vajrākhyaṃ siddhākhyaṃ raudramāsanam ॥25॥"
         ]
        },
@@ -5617,21 +8675,103 @@
         "key": "cyr",
         "label": "Cyrillic transliteration",
         "lines": [
+         "нр̣сим̣хам̣ гаруд̣ам̣ кӯрмам̣ нāгāкхйам̣ ваишн̣авāсанам ।",
          "вӣрам̣ майӯрам̣ ваджрāкхйам̣ сиддхāкхйам̣ раудрамāсанам ॥25॥"
         ]
        }
       ],
-      "verses": "25"
+      "verses": "25",
+      "own": true
+     },
+     {
+      "type": "verse_card",
+      "sections": [
+       {
+        "type": "verse",
+        "key": "deva",
+        "label": "Devanāgarī",
+        "lines": [
+         "योन्यासनं विदुश्शाक्तं शैवं पश्चिमतानकम् ।",
+         "निरालम्बनयोगस्य निरालम्बनमासनम् ॥२६॥",
+         "निरालम्बतया ध्यानं निरालम्बस्सदाशिवः ।"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "iast",
+        "label": "IAST",
+        "lines": [
+         "yonyāsanaṃ viduśśāktaṃ śaivaṃ paścimatānakam ।",
+         "nirālambanayogasya nirālambanamāsanam ॥26॥",
+         "nirālambatayā dhyānaṃ nirālambassadāśivaḥ ।"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "cyr",
+        "label": "Cyrillic transliteration",
+        "lines": [
+         "йонйāсанам̣ видуш́ш́āктам̣ ш́аивам̣ паш́чиматāнакам ।",
+         "нирāламбанайогасйа нирāламбанамāсанам ॥26॥",
+         "нирāламбатайā дхйāнам̣ нирāламбассадāш́ивах̣ ।"
+        ]
+       }
+      ],
+      "verses": "26"
      },
      {
       "type": "words",
       "key": "words",
       "label": "Word-by-word analysis",
       "paragraphs": [
-       "vīraṃ - Vīra; mayūraṃ - mayūra; vajrākhyaṃ - vajra; siddhākhyaṃ - siddha; raudramāsanam - the raudra-āsana."
+       "svastikaṃ - Svastika; gomukhaṃ - gomukha; padmaṃ - padma; haṃsākhyaṃ - haṃsa; brāhmamāsanam - the brāhma-āsana.",
+       "nṛsiṃhaṃ - Nṛsiṃha; garuḍaṃ - garuḍa; kūrmaṃ - kūrma; nāgākhyaṃ - nāga; vaiṣṇavāsanam - the vaiṣṇava-āsana; vīraṃ - Vīra; mayūraṃ - mayūra; vajrākhyaṃ - vajra; siddhākhyaṃ - siddha; raudramāsanam - the raudra-āsana.",
+       "yonyāsanaṃ - The yoni posture; viduḥ - as they know; śāktaṃ - the śākta one; śaivaṃ - the śaiva one; paścimatānakam - paścima-tanaka; nirālambanayogasya - For nirālambana-yoga; nirālambanam - the nirālambana; āsanam - āsana; nirālambatayā - without support; dhyānaṃ - contemplation; nirālambaḥ - the supportless [Ātman]; sadāśivaḥ - Sadāśiva."
       ],
       "groups": [
        [
+        [
+         "svastikaṃ",
+         "Svastika"
+        ],
+        [
+         "gomukhaṃ",
+         "gomukha"
+        ],
+        [
+         "padmaṃ",
+         "padma"
+        ],
+        [
+         "haṃsākhyaṃ",
+         "haṃsa"
+        ],
+        [
+         "brāhmamāsanam",
+         "the brāhma-āsana"
+        ]
+       ],
+       [
+        [
+         "nṛsiṃhaṃ",
+         "Nṛsiṃha"
+        ],
+        [
+         "garuḍaṃ",
+         "garuḍa"
+        ],
+        [
+         "kūrmaṃ",
+         "kūrma"
+        ],
+        [
+         "nāgākhyaṃ",
+         "nāga"
+        ],
+        [
+         "vaiṣṇavāsanam",
+         "the vaiṣṇava-āsana"
+        ],
         [
          "vīraṃ",
          "Vīra"
@@ -5652,7 +8792,62 @@
          "raudramāsanam",
          "the raudra-āsana"
         ]
+       ],
+       [
+        [
+         "yonyāsanaṃ",
+         "The yoni posture"
+        ],
+        [
+         "viduḥ",
+         "as they know"
+        ],
+        [
+         "śāktaṃ",
+         "the śākta one"
+        ],
+        [
+         "śaivaṃ",
+         "the śaiva one"
+        ],
+        [
+         "paścimatānakam",
+         "paścima-tanaka"
+        ],
+        [
+         "nirālambanayogasya",
+         "For nirālambana-yoga"
+        ],
+        [
+         "nirālambanam",
+         "the nirālambana"
+        ],
+        [
+         "āsanam",
+         "āsana"
+        ],
+        [
+         "nirālambatayā",
+         "without support"
+        ],
+        [
+         "dhyānaṃ",
+         "contemplation"
+        ],
+        [
+         "nirālambaḥ",
+         "the supportless [Ātman]"
+        ],
+        [
+         "sadāśivaḥ",
+         "Sadāśiva"
+        ]
        ]
+      ],
+      "titles": [
+       "Verse 24",
+       "Verse 25",
+       "Verse 26"
       ]
      },
      {
@@ -5660,7 +8855,11 @@
       "key": "literal",
       "label": "Literal translation",
       "paragraphs": [
-       "Vīra, mayūra, vajra, siddha — the raudra-āsana."
+       "Svastika, gomukha, padma, haṃsa — the brāhma-āsana.",
+       "Nṛsiṃha, garuḍa, kūrma, nāga — the vaiṣṇava-āsana.",
+       "Vīra, mayūra, vajra, siddha — the raudra-āsana.",
+       "The yoni posture, as they know, is the śākta one; the śaiva one is paścima-tanaka.",
+       "For nirālambana-yoga there is the nirālambana-āsana; contemplation is without support, and the supportless [Ātman] is Sadāśiva."
       ]
      },
      {
@@ -5668,7 +8867,12 @@
       "key": "literary",
       "label": "Literary translation",
       "paragraphs": [
+       "24-26. Svastika, Gomukha, Padma, Haṃsa — these are the Brahmic postures (Āsanas).",
+       "Nṛsiṃha, Garuḍa, Kūrma, Nāga — these are the Vaiṣṇava postures.",
        "Vīra, Mayūra, Vajra, Siddha — these are the Raudra postures.",
+       "Yoni is the Śākta posture.",
+       "Paścima-tanaka is the Śaiva posture.",
+       "The posture for the Nirālambana-Yoga is nirālambana (lit. propless, involving no specific position of hands, feet or other members of the body); meditation should be on the Nirālambana, and the Nirālambana is Sadāśiva, the Unconditioned, the Paramātman.",
        "— English translation, 1978 edition, p. 170"
       ]
      },
@@ -5715,6 +8919,37 @@
         "key": "deva",
         "label": "Деванāгарӣ",
         "lines": [
+         "स्वस्तिकं गोमुखं पद्मं हंसाख्यं ब्राह्ममासनम् ॥२४"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "iast",
+        "label": "IAST",
+        "lines": [
+         "svastikaṃ gomukhaṃ padmaṃ haṃsākhyaṃ brāhmamāsanam ॥24"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "cyr",
+        "label": "Кириллическая транслитерация",
+        "lines": [
+         "свастикам̣ гомукхам̣ падмам̣ хам̣сāкхйам̣ брāхмамāсанам ॥24"
+        ]
+       }
+      ],
+      "verses": "24"
+     },
+     {
+      "type": "verse_card",
+      "sections": [
+       {
+        "type": "verse",
+        "key": "deva",
+        "label": "Деванāгарӣ",
+        "lines": [
+         "नृसिंहं गरुडं कूर्मं नागाख्यं वैष्णवासनम् ।",
          "वीरं मयूरं वज्राख्यं सिद्धाख्यं रौद्रमासनम् ॥२५॥"
         ]
        },
@@ -5723,6 +8958,7 @@
         "key": "iast",
         "label": "IAST",
         "lines": [
+         "nṛsiṃhaṃ garuḍaṃ kūrmaṃ nāgākhyaṃ vaiṣṇavāsanam ।",
          "vīraṃ mayūraṃ vajrākhyaṃ siddhākhyaṃ raudramāsanam ॥25॥"
         ]
        },
@@ -5731,21 +8967,103 @@
         "key": "cyr",
         "label": "Кириллическая транслитерация",
         "lines": [
+         "нр̣сим̣хам̣ гаруд̣ам̣ кӯрмам̣ нāгāкхйам̣ ваишн̣авāсанам ।",
          "вӣрам̣ майӯрам̣ ваджрāкхйам̣ сиддхāкхйам̣ раудрамāсанам ॥25॥"
         ]
        }
       ],
-      "verses": "25"
+      "verses": "25",
+      "own": true
+     },
+     {
+      "type": "verse_card",
+      "sections": [
+       {
+        "type": "verse",
+        "key": "deva",
+        "label": "Деванāгарӣ",
+        "lines": [
+         "योन्यासनं विदुश्शाक्तं शैवं पश्चिमतानकम् ।",
+         "निरालम्बनयोगस्य निरालम्बनमासनम् ॥२६॥",
+         "निरालम्बतया ध्यानं निरालम्बस्सदाशिवः ।"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "iast",
+        "label": "IAST",
+        "lines": [
+         "yonyāsanaṃ viduśśāktaṃ śaivaṃ paścimatānakam ।",
+         "nirālambanayogasya nirālambanamāsanam ॥26॥",
+         "nirālambatayā dhyānaṃ nirālambassadāśivaḥ ।"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "cyr",
+        "label": "Кириллическая транслитерация",
+        "lines": [
+         "йонйāсанам̣ видуш́ш́āктам̣ ш́аивам̣ паш́чиматāнакам ।",
+         "нирāламбанайогасйа нирāламбанамāсанам ॥26॥",
+         "нирāламбатайā дхйāнам̣ нирāламбассадāш́ивах̣ ।"
+        ]
+       }
+      ],
+      "verses": "26"
      },
      {
       "type": "words",
       "key": "words",
       "label": "Пословный разбор",
       "paragraphs": [
-       "вӣрам̣ - Вира; майӯрам̣ - маюра; ваджрāкхйам̣ - ваджра; сиддхāкхйам̣ - сиддха; раудрамāсанам - раудра-асана."
+       "свастикам̣ - Свастика; гомукхам̣ - гомукха; падмам̣ - падма; хам̣сāкхйам̣ - хамса; брāхмамāсанам - бра̄хма-асана.",
+       "нр̣сим̣хам̣ - Нрисимха; гаруд̣ам̣ - гаруда; кӯрмам̣ - курма; нāгāкхйам̣ - нага; ваишн̣авāсанам - вайшнава-асана; вӣрам̣ - Вира; майӯрам̣ - маюра; ваджрāкхйам̣ - ваджра; сиддхāкхйам̣ - сиддха; раудрамāсанам - раудра-асана.",
+       "йонйāсанам̣ - Асана йони; видух̣ - как знают; ш́āктам̣ - ш́а̄кта; ш́аивам̣ - ш́айва; паш́чиматāнакам - пашчиматанака; нирāламбанайогасйа - Для нира̄ламбана-йоги; нирāламбанам - нира̄ламбана; āсанам - асана; нирāламбатайā - без опоры; дхйāнам̣ - созерцание; нирāламбах̣ - безопорный [Аа̄тман]; садāш́ивах̣ - Сада̄шива."
       ],
       "groups": [
        [
+        [
+         "свастикам̣",
+         "Свастика"
+        ],
+        [
+         "гомукхам̣",
+         "гомукха"
+        ],
+        [
+         "падмам̣",
+         "падма"
+        ],
+        [
+         "хам̣сāкхйам̣",
+         "хамса"
+        ],
+        [
+         "брāхмамāсанам",
+         "бра̄хма-асана"
+        ]
+       ],
+       [
+        [
+         "нр̣сим̣хам̣",
+         "Нрисимха"
+        ],
+        [
+         "гаруд̣ам̣",
+         "гаруда"
+        ],
+        [
+         "кӯрмам̣",
+         "курма"
+        ],
+        [
+         "нāгāкхйам̣",
+         "нага"
+        ],
+        [
+         "ваишн̣авāсанам",
+         "вайшнава-асана"
+        ],
         [
          "вӣрам̣",
          "Вира"
@@ -5766,7 +9084,62 @@
          "раудрамāсанам",
          "раудра-асана"
         ]
+       ],
+       [
+        [
+         "йонйāсанам̣",
+         "Асана йони"
+        ],
+        [
+         "видух̣",
+         "как знают"
+        ],
+        [
+         "ш́āктам̣",
+         "ш́а̄кта"
+        ],
+        [
+         "ш́аивам̣",
+         "ш́айва"
+        ],
+        [
+         "паш́чиматāнакам",
+         "пашчиматанака"
+        ],
+        [
+         "нирāламбанайогасйа",
+         "Для нира̄ламбана-йоги"
+        ],
+        [
+         "нирāламбанам",
+         "нира̄ламбана"
+        ],
+        [
+         "āсанам",
+         "асана"
+        ],
+        [
+         "нирāламбатайā",
+         "без опоры"
+        ],
+        [
+         "дхйāнам̣",
+         "созерцание"
+        ],
+        [
+         "нирāламбах̣",
+         "безопорный [Аа̄тман]"
+        ],
+        [
+         "садāш́ивах̣",
+         "Сада̄шива"
+        ]
        ]
+      ],
+      "titles": [
+       "Стих 24",
+       "Стих 25",
+       "Стих 26"
       ]
      },
      {
@@ -5774,7 +9147,11 @@
       "key": "literal",
       "label": "Буквальный перевод",
       "paragraphs": [
-       "Вира, маюра, ваджра, сиддха — раудра-асана."
+       "Свастика, гомукха, падма, хамса — бра̄хма-асана.",
+       "Нрисимха, гаруда, курма, нага — вайшнава-асана.",
+       "Вира, маюра, ваджра, сиддха — раудра-асана.",
+       "Асана йони, как знают, — ш́а̄кта; ш́айва — пашчиматанака.",
+       "Для нира̄ламбана-йоги — нира̄ламбана-асана; созерцание — без опоры, а безопорный [Аа̄тман] — Сада̄шива."
       ]
      },
      {
@@ -5782,7 +9159,12 @@
       "key": "literary",
       "label": "Литературный перевод",
       "paragraphs": [
+       "24–26. Свастика, гомукха, падма, хамса — это бра̄хмические позы (асаны).",
+       "Нрисимха, гаруда, кӯрма, нага — это ваишн̣ава-позы.",
        "Вӣра, майӯра, ваджра, сиддха — это раудра-позы.",
+       "Йони — ш́а̄кта-поза.",
+       "Пашчиматанака — ш́аива-поза.",
+       "Поза для нира̄ламбана-йоги — нира̄ламбана (букв. „беспорная“, не предполагающая определённого положения рук, ног и прочих членов тела); созерцать следует Нира̄ламбану, а Нира̄ламбана — это Сада̄шива, Безусловное, Парама̄тман.",
        "— англ. пер. изд. 1978 г., с. 170"
       ]
      },
@@ -5810,6 +9192,37 @@
         "key": "deva",
         "label": "Devanāgarī",
         "lines": [
+         "स्वस्तिकं गोमुखं पद्मं हंसाख्यं ब्राह्ममासनम् ॥२४"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "iast",
+        "label": "IAST",
+        "lines": [
+         "svastikaṃ gomukhaṃ padmaṃ haṃsākhyaṃ brāhmamāsanam ॥24"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "cyr",
+        "label": "Cyrillic transliteration",
+        "lines": [
+         "свастикам̣ гомукхам̣ падмам̣ хам̣сāкхйам̣ брāхмамāсанам ॥24"
+        ]
+       }
+      ],
+      "verses": "24"
+     },
+     {
+      "type": "verse_card",
+      "sections": [
+       {
+        "type": "verse",
+        "key": "deva",
+        "label": "Devanāgarī",
+        "lines": [
+         "नृसिंहं गरुडं कूर्मं नागाख्यं वैष्णवासनम् ।",
          "वीरं मयूरं वज्राख्यं सिद्धाख्यं रौद्रमासनम् ॥२५॥"
         ]
        },
@@ -5818,6 +9231,7 @@
         "key": "iast",
         "label": "IAST",
         "lines": [
+         "nṛsiṃhaṃ garuḍaṃ kūrmaṃ nāgākhyaṃ vaiṣṇavāsanam ।",
          "vīraṃ mayūraṃ vajrākhyaṃ siddhākhyaṃ raudramāsanam ॥25॥"
         ]
        },
@@ -5826,21 +9240,103 @@
         "key": "cyr",
         "label": "Cyrillic transliteration",
         "lines": [
+         "нр̣сим̣хам̣ гаруд̣ам̣ кӯрмам̣ нāгāкхйам̣ ваишн̣авāсанам ।",
          "вӣрам̣ майӯрам̣ ваджрāкхйам̣ сиддхāкхйам̣ раудрамāсанам ॥25॥"
         ]
        }
       ],
-      "verses": "25"
+      "verses": "25",
+      "own": true
+     },
+     {
+      "type": "verse_card",
+      "sections": [
+       {
+        "type": "verse",
+        "key": "deva",
+        "label": "Devanāgarī",
+        "lines": [
+         "योन्यासनं विदुश्शाक्तं शैवं पश्चिमतानकम् ।",
+         "निरालम्बनयोगस्य निरालम्बनमासनम् ॥२६॥",
+         "निरालम्बतया ध्यानं निरालम्बस्सदाशिवः ।"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "iast",
+        "label": "IAST",
+        "lines": [
+         "yonyāsanaṃ viduśśāktaṃ śaivaṃ paścimatānakam ।",
+         "nirālambanayogasya nirālambanamāsanam ॥26॥",
+         "nirālambatayā dhyānaṃ nirālambassadāśivaḥ ।"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "cyr",
+        "label": "Cyrillic transliteration",
+        "lines": [
+         "йонйāсанам̣ видуш́ш́āктам̣ ш́аивам̣ паш́чиматāнакам ।",
+         "нирāламбанайогасйа нирāламбанамāсанам ॥26॥",
+         "нирāламбатайā дхйāнам̣ нирāламбассадāш́ивах̣ ।"
+        ]
+       }
+      ],
+      "verses": "26"
      },
      {
       "type": "words",
       "key": "words",
       "label": "Word-by-word analysis",
       "paragraphs": [
-       "vīraṃ - Vīra; mayūraṃ - mayūra; vajrākhyaṃ - vajra; siddhākhyaṃ - siddha; raudramāsanam - the raudra-āsana."
+       "svastikaṃ - Svastika; gomukhaṃ - gomukha; padmaṃ - padma; haṃsākhyaṃ - haṃsa; brāhmamāsanam - the brāhma-āsana.",
+       "nṛsiṃhaṃ - Nṛsiṃha; garuḍaṃ - garuḍa; kūrmaṃ - kūrma; nāgākhyaṃ - nāga; vaiṣṇavāsanam - the vaiṣṇava-āsana; vīraṃ - Vīra; mayūraṃ - mayūra; vajrākhyaṃ - vajra; siddhākhyaṃ - siddha; raudramāsanam - the raudra-āsana.",
+       "yonyāsanaṃ - The yoni posture; viduḥ - as they know; śāktaṃ - the śākta one; śaivaṃ - the śaiva one; paścimatānakam - paścima-tanaka; nirālambanayogasya - For nirālambana-yoga; nirālambanam - the nirālambana; āsanam - āsana; nirālambatayā - without support; dhyānaṃ - contemplation; nirālambaḥ - the supportless [Ātman]; sadāśivaḥ - Sadāśiva."
       ],
       "groups": [
        [
+        [
+         "svastikaṃ",
+         "Svastika"
+        ],
+        [
+         "gomukhaṃ",
+         "gomukha"
+        ],
+        [
+         "padmaṃ",
+         "padma"
+        ],
+        [
+         "haṃsākhyaṃ",
+         "haṃsa"
+        ],
+        [
+         "brāhmamāsanam",
+         "the brāhma-āsana"
+        ]
+       ],
+       [
+        [
+         "nṛsiṃhaṃ",
+         "Nṛsiṃha"
+        ],
+        [
+         "garuḍaṃ",
+         "garuḍa"
+        ],
+        [
+         "kūrmaṃ",
+         "kūrma"
+        ],
+        [
+         "nāgākhyaṃ",
+         "nāga"
+        ],
+        [
+         "vaiṣṇavāsanam",
+         "the vaiṣṇava-āsana"
+        ],
         [
          "vīraṃ",
          "Vīra"
@@ -5861,7 +9357,62 @@
          "raudramāsanam",
          "the raudra-āsana"
         ]
+       ],
+       [
+        [
+         "yonyāsanaṃ",
+         "The yoni posture"
+        ],
+        [
+         "viduḥ",
+         "as they know"
+        ],
+        [
+         "śāktaṃ",
+         "the śākta one"
+        ],
+        [
+         "śaivaṃ",
+         "the śaiva one"
+        ],
+        [
+         "paścimatānakam",
+         "paścima-tanaka"
+        ],
+        [
+         "nirālambanayogasya",
+         "For nirālambana-yoga"
+        ],
+        [
+         "nirālambanam",
+         "the nirālambana"
+        ],
+        [
+         "āsanam",
+         "āsana"
+        ],
+        [
+         "nirālambatayā",
+         "without support"
+        ],
+        [
+         "dhyānaṃ",
+         "contemplation"
+        ],
+        [
+         "nirālambaḥ",
+         "the supportless [Ātman]"
+        ],
+        [
+         "sadāśivaḥ",
+         "Sadāśiva"
+        ]
        ]
+      ],
+      "titles": [
+       "Verse 24",
+       "Verse 25",
+       "Verse 26"
       ]
      },
      {
@@ -5869,7 +9420,11 @@
       "key": "literal",
       "label": "Literal translation",
       "paragraphs": [
-       "Vīra, mayūra, vajra, siddha — the raudra-āsana."
+       "Svastika, gomukha, padma, haṃsa — the brāhma-āsana.",
+       "Nṛsiṃha, garuḍa, kūrma, nāga — the vaiṣṇava-āsana.",
+       "Vīra, mayūra, vajra, siddha — the raudra-āsana.",
+       "The yoni posture, as they know, is the śākta one; the śaiva one is paścima-tanaka.",
+       "For nirālambana-yoga there is the nirālambana-āsana; contemplation is without support, and the supportless [Ātman] is Sadāśiva."
       ]
      },
      {
@@ -5877,7 +9432,12 @@
       "key": "literary",
       "label": "Literary translation",
       "paragraphs": [
+       "24-26. Svastika, Gomukha, Padma, Haṃsa — these are the Brahmic postures (Āsanas).",
+       "Nṛsiṃha, Garuḍa, Kūrma, Nāga — these are the Vaiṣṇava postures.",
        "Vīra, Mayūra, Vajra, Siddha — these are the Raudra postures.",
+       "Yoni is the Śākta posture.",
+       "Paścima-tanaka is the Śaiva posture.",
+       "The posture for the Nirālambana-Yoga is nirālambana (lit. propless, involving no specific position of hands, feet or other members of the body); meditation should be on the Nirālambana, and the Nirālambana is Sadāśiva, the Unconditioned, the Paramātman.",
        "— English translation, 1978 edition, p. 170"
       ]
      },
@@ -5924,6 +9484,37 @@
         "key": "deva",
         "label": "Деванāгарӣ",
         "lines": [
+         "स्वस्तिकं गोमुखं पद्मं हंसाख्यं ब्राह्ममासनम् ॥२४"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "iast",
+        "label": "IAST",
+        "lines": [
+         "svastikaṃ gomukhaṃ padmaṃ haṃsākhyaṃ brāhmamāsanam ॥24"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "cyr",
+        "label": "Кириллическая транслитерация",
+        "lines": [
+         "свастикам̣ гомукхам̣ падмам̣ хам̣сāкхйам̣ брāхмамāсанам ॥24"
+        ]
+       }
+      ],
+      "verses": "24"
+     },
+     {
+      "type": "verse_card",
+      "sections": [
+       {
+        "type": "verse",
+        "key": "deva",
+        "label": "Деванāгарӣ",
+        "lines": [
+         "नृसिंहं गरुडं कूर्मं नागाख्यं वैष्णवासनम् ।",
          "वीरं मयूरं वज्राख्यं सिद्धाख्यं रौद्रमासनम् ॥२५॥"
         ]
        },
@@ -5932,6 +9523,7 @@
         "key": "iast",
         "label": "IAST",
         "lines": [
+         "nṛsiṃhaṃ garuḍaṃ kūrmaṃ nāgākhyaṃ vaiṣṇavāsanam ।",
          "vīraṃ mayūraṃ vajrākhyaṃ siddhākhyaṃ raudramāsanam ॥25॥"
         ]
        },
@@ -5940,21 +9532,103 @@
         "key": "cyr",
         "label": "Кириллическая транслитерация",
         "lines": [
+         "нр̣сим̣хам̣ гаруд̣ам̣ кӯрмам̣ нāгāкхйам̣ ваишн̣авāсанам ।",
          "вӣрам̣ майӯрам̣ ваджрāкхйам̣ сиддхāкхйам̣ раудрамāсанам ॥25॥"
         ]
        }
       ],
-      "verses": "25"
+      "verses": "25",
+      "own": true
+     },
+     {
+      "type": "verse_card",
+      "sections": [
+       {
+        "type": "verse",
+        "key": "deva",
+        "label": "Деванāгарӣ",
+        "lines": [
+         "योन्यासनं विदुश्शाक्तं शैवं पश्चिमतानकम् ।",
+         "निरालम्बनयोगस्य निरालम्बनमासनम् ॥२६॥",
+         "निरालम्बतया ध्यानं निरालम्बस्सदाशिवः ।"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "iast",
+        "label": "IAST",
+        "lines": [
+         "yonyāsanaṃ viduśśāktaṃ śaivaṃ paścimatānakam ।",
+         "nirālambanayogasya nirālambanamāsanam ॥26॥",
+         "nirālambatayā dhyānaṃ nirālambassadāśivaḥ ।"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "cyr",
+        "label": "Кириллическая транслитерация",
+        "lines": [
+         "йонйāсанам̣ видуш́ш́āктам̣ ш́аивам̣ паш́чиматāнакам ।",
+         "нирāламбанайогасйа нирāламбанамāсанам ॥26॥",
+         "нирāламбатайā дхйāнам̣ нирāламбассадāш́ивах̣ ।"
+        ]
+       }
+      ],
+      "verses": "26"
      },
      {
       "type": "words",
       "key": "words",
       "label": "Пословный разбор",
       "paragraphs": [
-       "вӣрам̣ - Вира; майӯрам̣ - маюра; ваджрāкхйам̣ - ваджра; сиддхāкхйам̣ - сиддха; раудрамāсанам - раудра-асана."
+       "свастикам̣ - Свастика; гомукхам̣ - гомукха; падмам̣ - падма; хам̣сāкхйам̣ - хамса; брāхмамāсанам - бра̄хма-асана.",
+       "нр̣сим̣хам̣ - Нрисимха; гаруд̣ам̣ - гаруда; кӯрмам̣ - курма; нāгāкхйам̣ - нага; ваишн̣авāсанам - вайшнава-асана; вӣрам̣ - Вира; майӯрам̣ - маюра; ваджрāкхйам̣ - ваджра; сиддхāкхйам̣ - сиддха; раудрамāсанам - раудра-асана.",
+       "йонйāсанам̣ - Асана йони; видух̣ - как знают; ш́āктам̣ - ш́а̄кта; ш́аивам̣ - ш́айва; паш́чиматāнакам - пашчиматанака; нирāламбанайогасйа - Для нира̄ламбана-йоги; нирāламбанам - нира̄ламбана; āсанам - асана; нирāламбатайā - без опоры; дхйāнам̣ - созерцание; нирāламбах̣ - безопорный [Аа̄тман]; садāш́ивах̣ - Сада̄шива."
       ],
       "groups": [
        [
+        [
+         "свастикам̣",
+         "Свастика"
+        ],
+        [
+         "гомукхам̣",
+         "гомукха"
+        ],
+        [
+         "падмам̣",
+         "падма"
+        ],
+        [
+         "хам̣сāкхйам̣",
+         "хамса"
+        ],
+        [
+         "брāхмамāсанам",
+         "бра̄хма-асана"
+        ]
+       ],
+       [
+        [
+         "нр̣сим̣хам̣",
+         "Нрисимха"
+        ],
+        [
+         "гаруд̣ам̣",
+         "гаруда"
+        ],
+        [
+         "кӯрмам̣",
+         "курма"
+        ],
+        [
+         "нāгāкхйам̣",
+         "нага"
+        ],
+        [
+         "ваишн̣авāсанам",
+         "вайшнава-асана"
+        ],
         [
          "вӣрам̣",
          "Вира"
@@ -5975,7 +9649,62 @@
          "раудрамāсанам",
          "раудра-асана"
         ]
+       ],
+       [
+        [
+         "йонйāсанам̣",
+         "Асана йони"
+        ],
+        [
+         "видух̣",
+         "как знают"
+        ],
+        [
+         "ш́āктам̣",
+         "ш́а̄кта"
+        ],
+        [
+         "ш́аивам̣",
+         "ш́айва"
+        ],
+        [
+         "паш́чиматāнакам",
+         "пашчиматанака"
+        ],
+        [
+         "нирāламбанайогасйа",
+         "Для нира̄ламбана-йоги"
+        ],
+        [
+         "нирāламбанам",
+         "нира̄ламбана"
+        ],
+        [
+         "āсанам",
+         "асана"
+        ],
+        [
+         "нирāламбатайā",
+         "без опоры"
+        ],
+        [
+         "дхйāнам̣",
+         "созерцание"
+        ],
+        [
+         "нирāламбах̣",
+         "безопорный [Аа̄тман]"
+        ],
+        [
+         "садāш́ивах̣",
+         "Сада̄шива"
+        ]
        ]
+      ],
+      "titles": [
+       "Стих 24",
+       "Стих 25",
+       "Стих 26"
       ]
      },
      {
@@ -5983,7 +9712,11 @@
       "key": "literal",
       "label": "Буквальный перевод",
       "paragraphs": [
-       "Вира, маюра, ваджра, сиддха — раудра-асана."
+       "Свастика, гомукха, падма, хамса — бра̄хма-асана.",
+       "Нрисимха, гаруда, курма, нага — вайшнава-асана.",
+       "Вира, маюра, ваджра, сиддха — раудра-асана.",
+       "Асана йони, как знают, — ш́а̄кта; ш́айва — пашчиматанака.",
+       "Для нира̄ламбана-йоги — нира̄ламбана-асана; созерцание — без опоры, а безопорный [Аа̄тман] — Сада̄шива."
       ]
      },
      {
@@ -5991,7 +9724,12 @@
       "key": "literary",
       "label": "Литературный перевод",
       "paragraphs": [
+       "24–26. Свастика, гомукха, падма, хамса — это бра̄хмические позы (асаны).",
+       "Нрисимха, гаруда, кӯрма, нага — это ваишн̣ава-позы.",
        "Вӣра, майӯра, ваджра, сиддха — это раудра-позы.",
+       "Йони — ш́а̄кта-поза.",
+       "Пашчиматанака — ш́аива-поза.",
+       "Поза для нира̄ламбана-йоги — нира̄ламбана (букв. „беспорная“, не предполагающая определённого положения рук, ног и прочих членов тела); созерцать следует Нира̄ламбану, а Нира̄ламбана — это Сада̄шива, Безусловное, Парама̄тман.",
        "— англ. пер. изд. 1978 г., с. 170"
       ]
      },
@@ -6019,6 +9757,37 @@
         "key": "deva",
         "label": "Devanāgarī",
         "lines": [
+         "स्वस्तिकं गोमुखं पद्मं हंसाख्यं ब्राह्ममासनम् ॥२४"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "iast",
+        "label": "IAST",
+        "lines": [
+         "svastikaṃ gomukhaṃ padmaṃ haṃsākhyaṃ brāhmamāsanam ॥24"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "cyr",
+        "label": "Cyrillic transliteration",
+        "lines": [
+         "свастикам̣ гомукхам̣ падмам̣ хам̣сāкхйам̣ брāхмамāсанам ॥24"
+        ]
+       }
+      ],
+      "verses": "24"
+     },
+     {
+      "type": "verse_card",
+      "sections": [
+       {
+        "type": "verse",
+        "key": "deva",
+        "label": "Devanāgarī",
+        "lines": [
+         "नृसिंहं गरुडं कूर्मं नागाख्यं वैष्णवासनम् ।",
          "वीरं मयूरं वज्राख्यं सिद्धाख्यं रौद्रमासनम् ॥२५॥"
         ]
        },
@@ -6027,6 +9796,7 @@
         "key": "iast",
         "label": "IAST",
         "lines": [
+         "nṛsiṃhaṃ garuḍaṃ kūrmaṃ nāgākhyaṃ vaiṣṇavāsanam ।",
          "vīraṃ mayūraṃ vajrākhyaṃ siddhākhyaṃ raudramāsanam ॥25॥"
         ]
        },
@@ -6035,21 +9805,103 @@
         "key": "cyr",
         "label": "Cyrillic transliteration",
         "lines": [
+         "нр̣сим̣хам̣ гаруд̣ам̣ кӯрмам̣ нāгāкхйам̣ ваишн̣авāсанам ।",
          "вӣрам̣ майӯрам̣ ваджрāкхйам̣ сиддхāкхйам̣ раудрамāсанам ॥25॥"
         ]
        }
       ],
-      "verses": "25"
+      "verses": "25",
+      "own": true
+     },
+     {
+      "type": "verse_card",
+      "sections": [
+       {
+        "type": "verse",
+        "key": "deva",
+        "label": "Devanāgarī",
+        "lines": [
+         "योन्यासनं विदुश्शाक्तं शैवं पश्चिमतानकम् ।",
+         "निरालम्बनयोगस्य निरालम्बनमासनम् ॥२६॥",
+         "निरालम्बतया ध्यानं निरालम्बस्सदाशिवः ।"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "iast",
+        "label": "IAST",
+        "lines": [
+         "yonyāsanaṃ viduśśāktaṃ śaivaṃ paścimatānakam ।",
+         "nirālambanayogasya nirālambanamāsanam ॥26॥",
+         "nirālambatayā dhyānaṃ nirālambassadāśivaḥ ।"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "cyr",
+        "label": "Cyrillic transliteration",
+        "lines": [
+         "йонйāсанам̣ видуш́ш́āктам̣ ш́аивам̣ паш́чиматāнакам ।",
+         "нирāламбанайогасйа нирāламбанамāсанам ॥26॥",
+         "нирāламбатайā дхйāнам̣ нирāламбассадāш́ивах̣ ।"
+        ]
+       }
+      ],
+      "verses": "26"
      },
      {
       "type": "words",
       "key": "words",
       "label": "Word-by-word analysis",
       "paragraphs": [
-       "vīraṃ - Vīra; mayūraṃ - mayūra; vajrākhyaṃ - vajra; siddhākhyaṃ - siddha; raudramāsanam - the raudra-āsana."
+       "svastikaṃ - Svastika; gomukhaṃ - gomukha; padmaṃ - padma; haṃsākhyaṃ - haṃsa; brāhmamāsanam - the brāhma-āsana.",
+       "nṛsiṃhaṃ - Nṛsiṃha; garuḍaṃ - garuḍa; kūrmaṃ - kūrma; nāgākhyaṃ - nāga; vaiṣṇavāsanam - the vaiṣṇava-āsana; vīraṃ - Vīra; mayūraṃ - mayūra; vajrākhyaṃ - vajra; siddhākhyaṃ - siddha; raudramāsanam - the raudra-āsana.",
+       "yonyāsanaṃ - The yoni posture; viduḥ - as they know; śāktaṃ - the śākta one; śaivaṃ - the śaiva one; paścimatānakam - paścima-tanaka; nirālambanayogasya - For nirālambana-yoga; nirālambanam - the nirālambana; āsanam - āsana; nirālambatayā - without support; dhyānaṃ - contemplation; nirālambaḥ - the supportless [Ātman]; sadāśivaḥ - Sadāśiva."
       ],
       "groups": [
        [
+        [
+         "svastikaṃ",
+         "Svastika"
+        ],
+        [
+         "gomukhaṃ",
+         "gomukha"
+        ],
+        [
+         "padmaṃ",
+         "padma"
+        ],
+        [
+         "haṃsākhyaṃ",
+         "haṃsa"
+        ],
+        [
+         "brāhmamāsanam",
+         "the brāhma-āsana"
+        ]
+       ],
+       [
+        [
+         "nṛsiṃhaṃ",
+         "Nṛsiṃha"
+        ],
+        [
+         "garuḍaṃ",
+         "garuḍa"
+        ],
+        [
+         "kūrmaṃ",
+         "kūrma"
+        ],
+        [
+         "nāgākhyaṃ",
+         "nāga"
+        ],
+        [
+         "vaiṣṇavāsanam",
+         "the vaiṣṇava-āsana"
+        ],
         [
          "vīraṃ",
          "Vīra"
@@ -6070,7 +9922,62 @@
          "raudramāsanam",
          "the raudra-āsana"
         ]
+       ],
+       [
+        [
+         "yonyāsanaṃ",
+         "The yoni posture"
+        ],
+        [
+         "viduḥ",
+         "as they know"
+        ],
+        [
+         "śāktaṃ",
+         "the śākta one"
+        ],
+        [
+         "śaivaṃ",
+         "the śaiva one"
+        ],
+        [
+         "paścimatānakam",
+         "paścima-tanaka"
+        ],
+        [
+         "nirālambanayogasya",
+         "For nirālambana-yoga"
+        ],
+        [
+         "nirālambanam",
+         "the nirālambana"
+        ],
+        [
+         "āsanam",
+         "āsana"
+        ],
+        [
+         "nirālambatayā",
+         "without support"
+        ],
+        [
+         "dhyānaṃ",
+         "contemplation"
+        ],
+        [
+         "nirālambaḥ",
+         "the supportless [Ātman]"
+        ],
+        [
+         "sadāśivaḥ",
+         "Sadāśiva"
+        ]
        ]
+      ],
+      "titles": [
+       "Verse 24",
+       "Verse 25",
+       "Verse 26"
       ]
      },
      {
@@ -6078,7 +9985,11 @@
       "key": "literal",
       "label": "Literal translation",
       "paragraphs": [
-       "Vīra, mayūra, vajra, siddha — the raudra-āsana."
+       "Svastika, gomukha, padma, haṃsa — the brāhma-āsana.",
+       "Nṛsiṃha, garuḍa, kūrma, nāga — the vaiṣṇava-āsana.",
+       "Vīra, mayūra, vajra, siddha — the raudra-āsana.",
+       "The yoni posture, as they know, is the śākta one; the śaiva one is paścima-tanaka.",
+       "For nirālambana-yoga there is the nirālambana-āsana; contemplation is without support, and the supportless [Ātman] is Sadāśiva."
       ]
      },
      {
@@ -6086,7 +9997,12 @@
       "key": "literary",
       "label": "Literary translation",
       "paragraphs": [
+       "24-26. Svastika, Gomukha, Padma, Haṃsa — these are the Brahmic postures (Āsanas).",
+       "Nṛsiṃha, Garuḍa, Kūrma, Nāga — these are the Vaiṣṇava postures.",
        "Vīra, Mayūra, Vajra, Siddha — these are the Raudra postures.",
+       "Yoni is the Śākta posture.",
+       "Paścima-tanaka is the Śaiva posture.",
+       "The posture for the Nirālambana-Yoga is nirālambana (lit. propless, involving no specific position of hands, feet or other members of the body); meditation should be on the Nirālambana, and the Nirālambana is Sadāśiva, the Unconditioned, the Paramātman.",
        "— English translation, 1978 edition, p. 170"
       ]
      },
@@ -6133,6 +10049,37 @@
         "key": "deva",
         "label": "Деванāгарӣ",
         "lines": [
+         "स्वस्तिकं गोमुखं पद्मं हंसाख्यं ब्राह्ममासनम् ॥२४"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "iast",
+        "label": "IAST",
+        "lines": [
+         "svastikaṃ gomukhaṃ padmaṃ haṃsākhyaṃ brāhmamāsanam ॥24"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "cyr",
+        "label": "Кириллическая транслитерация",
+        "lines": [
+         "свастикам̣ гомукхам̣ падмам̣ хам̣сāкхйам̣ брāхмамāсанам ॥24"
+        ]
+       }
+      ],
+      "verses": "24"
+     },
+     {
+      "type": "verse_card",
+      "sections": [
+       {
+        "type": "verse",
+        "key": "deva",
+        "label": "Деванāгарӣ",
+        "lines": [
+         "नृसिंहं गरुडं कूर्मं नागाख्यं वैष्णवासनम् ।",
          "वीरं मयूरं वज्राख्यं सिद्धाख्यं रौद्रमासनम् ॥२५॥"
         ]
        },
@@ -6141,6 +10088,7 @@
         "key": "iast",
         "label": "IAST",
         "lines": [
+         "nṛsiṃhaṃ garuḍaṃ kūrmaṃ nāgākhyaṃ vaiṣṇavāsanam ।",
          "vīraṃ mayūraṃ vajrākhyaṃ siddhākhyaṃ raudramāsanam ॥25॥"
         ]
        },
@@ -6149,21 +10097,103 @@
         "key": "cyr",
         "label": "Кириллическая транслитерация",
         "lines": [
+         "нр̣сим̣хам̣ гаруд̣ам̣ кӯрмам̣ нāгāкхйам̣ ваишн̣авāсанам ।",
          "вӣрам̣ майӯрам̣ ваджрāкхйам̣ сиддхāкхйам̣ раудрамāсанам ॥25॥"
         ]
        }
       ],
-      "verses": "25"
+      "verses": "25",
+      "own": true
+     },
+     {
+      "type": "verse_card",
+      "sections": [
+       {
+        "type": "verse",
+        "key": "deva",
+        "label": "Деванāгарӣ",
+        "lines": [
+         "योन्यासनं विदुश्शाक्तं शैवं पश्चिमतानकम् ।",
+         "निरालम्बनयोगस्य निरालम्बनमासनम् ॥२६॥",
+         "निरालम्बतया ध्यानं निरालम्बस्सदाशिवः ।"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "iast",
+        "label": "IAST",
+        "lines": [
+         "yonyāsanaṃ viduśśāktaṃ śaivaṃ paścimatānakam ।",
+         "nirālambanayogasya nirālambanamāsanam ॥26॥",
+         "nirālambatayā dhyānaṃ nirālambassadāśivaḥ ।"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "cyr",
+        "label": "Кириллическая транслитерация",
+        "lines": [
+         "йонйāсанам̣ видуш́ш́āктам̣ ш́аивам̣ паш́чиматāнакам ।",
+         "нирāламбанайогасйа нирāламбанамāсанам ॥26॥",
+         "нирāламбатайā дхйāнам̣ нирāламбассадāш́ивах̣ ।"
+        ]
+       }
+      ],
+      "verses": "26"
      },
      {
       "type": "words",
       "key": "words",
       "label": "Пословный разбор",
       "paragraphs": [
-       "вӣрам̣ - Вира; майӯрам̣ - маюра; ваджрāкхйам̣ - ваджра; сиддхāкхйам̣ - сиддха; раудрамāсанам - раудра-асана."
+       "свастикам̣ - Свастика; гомукхам̣ - гомукха; падмам̣ - падма; хам̣сāкхйам̣ - хамса; брāхмамāсанам - бра̄хма-асана.",
+       "нр̣сим̣хам̣ - Нрисимха; гаруд̣ам̣ - гаруда; кӯрмам̣ - курма; нāгāкхйам̣ - нага; ваишн̣авāсанам - вайшнава-асана; вӣрам̣ - Вира; майӯрам̣ - маюра; ваджрāкхйам̣ - ваджра; сиддхāкхйам̣ - сиддха; раудрамāсанам - раудра-асана.",
+       "йонйāсанам̣ - Асана йони; видух̣ - как знают; ш́āктам̣ - ш́а̄кта; ш́аивам̣ - ш́айва; паш́чиматāнакам - пашчиматанака; нирāламбанайогасйа - Для нира̄ламбана-йоги; нирāламбанам - нира̄ламбана; āсанам - асана; нирāламбатайā - без опоры; дхйāнам̣ - созерцание; нирāламбах̣ - безопорный [Аа̄тман]; садāш́ивах̣ - Сада̄шива."
       ],
       "groups": [
        [
+        [
+         "свастикам̣",
+         "Свастика"
+        ],
+        [
+         "гомукхам̣",
+         "гомукха"
+        ],
+        [
+         "падмам̣",
+         "падма"
+        ],
+        [
+         "хам̣сāкхйам̣",
+         "хамса"
+        ],
+        [
+         "брāхмамāсанам",
+         "бра̄хма-асана"
+        ]
+       ],
+       [
+        [
+         "нр̣сим̣хам̣",
+         "Нрисимха"
+        ],
+        [
+         "гаруд̣ам̣",
+         "гаруда"
+        ],
+        [
+         "кӯрмам̣",
+         "курма"
+        ],
+        [
+         "нāгāкхйам̣",
+         "нага"
+        ],
+        [
+         "ваишн̣авāсанам",
+         "вайшнава-асана"
+        ],
         [
          "вӣрам̣",
          "Вира"
@@ -6184,7 +10214,62 @@
          "раудрамāсанам",
          "раудра-асана"
         ]
+       ],
+       [
+        [
+         "йонйāсанам̣",
+         "Асана йони"
+        ],
+        [
+         "видух̣",
+         "как знают"
+        ],
+        [
+         "ш́āктам̣",
+         "ш́а̄кта"
+        ],
+        [
+         "ш́аивам̣",
+         "ш́айва"
+        ],
+        [
+         "паш́чиматāнакам",
+         "пашчиматанака"
+        ],
+        [
+         "нирāламбанайогасйа",
+         "Для нира̄ламбана-йоги"
+        ],
+        [
+         "нирāламбанам",
+         "нира̄ламбана"
+        ],
+        [
+         "āсанам",
+         "асана"
+        ],
+        [
+         "нирāламбатайā",
+         "без опоры"
+        ],
+        [
+         "дхйāнам̣",
+         "созерцание"
+        ],
+        [
+         "нирāламбах̣",
+         "безопорный [Аа̄тман]"
+        ],
+        [
+         "садāш́ивах̣",
+         "Сада̄шива"
+        ]
        ]
+      ],
+      "titles": [
+       "Стих 24",
+       "Стих 25",
+       "Стих 26"
       ]
      },
      {
@@ -6192,7 +10277,11 @@
       "key": "literal",
       "label": "Буквальный перевод",
       "paragraphs": [
-       "Вира, маюра, ваджра, сиддха — раудра-асана."
+       "Свастика, гомукха, падма, хамса — бра̄хма-асана.",
+       "Нрисимха, гаруда, курма, нага — вайшнава-асана.",
+       "Вира, маюра, ваджра, сиддха — раудра-асана.",
+       "Асана йони, как знают, — ш́а̄кта; ш́айва — пашчиматанака.",
+       "Для нира̄ламбана-йоги — нира̄ламбана-асана; созерцание — без опоры, а безопорный [Аа̄тман] — Сада̄шива."
       ]
      },
      {
@@ -6200,7 +10289,12 @@
       "key": "literary",
       "label": "Литературный перевод",
       "paragraphs": [
+       "24–26. Свастика, гомукха, падма, хамса — это бра̄хмические позы (асаны).",
+       "Нрисимха, гаруда, кӯрма, нага — это ваишн̣ава-позы.",
        "Вӣра, майӯра, ваджра, сиддха — это раудра-позы.",
+       "Йони — ш́а̄кта-поза.",
+       "Пашчиматанака — ш́аива-поза.",
+       "Поза для нира̄ламбана-йоги — нира̄ламбана (букв. „беспорная“, не предполагающая определённого положения рук, ног и прочих членов тела); созерцать следует Нира̄ламбану, а Нира̄ламбана — это Сада̄шива, Безусловное, Парама̄тман.",
        "— англ. пер. изд. 1978 г., с. 170"
       ]
      },
@@ -6228,6 +10322,37 @@
         "key": "deva",
         "label": "Devanāgarī",
         "lines": [
+         "स्वस्तिकं गोमुखं पद्मं हंसाख्यं ब्राह्ममासनम् ॥२४"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "iast",
+        "label": "IAST",
+        "lines": [
+         "svastikaṃ gomukhaṃ padmaṃ haṃsākhyaṃ brāhmamāsanam ॥24"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "cyr",
+        "label": "Cyrillic transliteration",
+        "lines": [
+         "свастикам̣ гомукхам̣ падмам̣ хам̣сāкхйам̣ брāхмамāсанам ॥24"
+        ]
+       }
+      ],
+      "verses": "24"
+     },
+     {
+      "type": "verse_card",
+      "sections": [
+       {
+        "type": "verse",
+        "key": "deva",
+        "label": "Devanāgarī",
+        "lines": [
+         "नृसिंहं गरुडं कूर्मं नागाख्यं वैष्णवासनम् ।",
          "वीरं मयूरं वज्राख्यं सिद्धाख्यं रौद्रमासनम् ॥२५॥"
         ]
        },
@@ -6236,6 +10361,7 @@
         "key": "iast",
         "label": "IAST",
         "lines": [
+         "nṛsiṃhaṃ garuḍaṃ kūrmaṃ nāgākhyaṃ vaiṣṇavāsanam ।",
          "vīraṃ mayūraṃ vajrākhyaṃ siddhākhyaṃ raudramāsanam ॥25॥"
         ]
        },
@@ -6244,21 +10370,103 @@
         "key": "cyr",
         "label": "Cyrillic transliteration",
         "lines": [
+         "нр̣сим̣хам̣ гаруд̣ам̣ кӯрмам̣ нāгāкхйам̣ ваишн̣авāсанам ।",
          "вӣрам̣ майӯрам̣ ваджрāкхйам̣ сиддхāкхйам̣ раудрамāсанам ॥25॥"
         ]
        }
       ],
-      "verses": "25"
+      "verses": "25",
+      "own": true
+     },
+     {
+      "type": "verse_card",
+      "sections": [
+       {
+        "type": "verse",
+        "key": "deva",
+        "label": "Devanāgarī",
+        "lines": [
+         "योन्यासनं विदुश्शाक्तं शैवं पश्चिमतानकम् ।",
+         "निरालम्बनयोगस्य निरालम्बनमासनम् ॥२६॥",
+         "निरालम्बतया ध्यानं निरालम्बस्सदाशिवः ।"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "iast",
+        "label": "IAST",
+        "lines": [
+         "yonyāsanaṃ viduśśāktaṃ śaivaṃ paścimatānakam ।",
+         "nirālambanayogasya nirālambanamāsanam ॥26॥",
+         "nirālambatayā dhyānaṃ nirālambassadāśivaḥ ।"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "cyr",
+        "label": "Cyrillic transliteration",
+        "lines": [
+         "йонйāсанам̣ видуш́ш́āктам̣ ш́аивам̣ паш́чиматāнакам ।",
+         "нирāламбанайогасйа нирāламбанамāсанам ॥26॥",
+         "нирāламбатайā дхйāнам̣ нирāламбассадāш́ивах̣ ।"
+        ]
+       }
+      ],
+      "verses": "26"
      },
      {
       "type": "words",
       "key": "words",
       "label": "Word-by-word analysis",
       "paragraphs": [
-       "vīraṃ - Vīra; mayūraṃ - mayūra; vajrākhyaṃ - vajra; siddhākhyaṃ - siddha; raudramāsanam - the raudra-āsana."
+       "svastikaṃ - Svastika; gomukhaṃ - gomukha; padmaṃ - padma; haṃsākhyaṃ - haṃsa; brāhmamāsanam - the brāhma-āsana.",
+       "nṛsiṃhaṃ - Nṛsiṃha; garuḍaṃ - garuḍa; kūrmaṃ - kūrma; nāgākhyaṃ - nāga; vaiṣṇavāsanam - the vaiṣṇava-āsana; vīraṃ - Vīra; mayūraṃ - mayūra; vajrākhyaṃ - vajra; siddhākhyaṃ - siddha; raudramāsanam - the raudra-āsana.",
+       "yonyāsanaṃ - The yoni posture; viduḥ - as they know; śāktaṃ - the śākta one; śaivaṃ - the śaiva one; paścimatānakam - paścima-tanaka; nirālambanayogasya - For nirālambana-yoga; nirālambanam - the nirālambana; āsanam - āsana; nirālambatayā - without support; dhyānaṃ - contemplation; nirālambaḥ - the supportless [Ātman]; sadāśivaḥ - Sadāśiva."
       ],
       "groups": [
        [
+        [
+         "svastikaṃ",
+         "Svastika"
+        ],
+        [
+         "gomukhaṃ",
+         "gomukha"
+        ],
+        [
+         "padmaṃ",
+         "padma"
+        ],
+        [
+         "haṃsākhyaṃ",
+         "haṃsa"
+        ],
+        [
+         "brāhmamāsanam",
+         "the brāhma-āsana"
+        ]
+       ],
+       [
+        [
+         "nṛsiṃhaṃ",
+         "Nṛsiṃha"
+        ],
+        [
+         "garuḍaṃ",
+         "garuḍa"
+        ],
+        [
+         "kūrmaṃ",
+         "kūrma"
+        ],
+        [
+         "nāgākhyaṃ",
+         "nāga"
+        ],
+        [
+         "vaiṣṇavāsanam",
+         "the vaiṣṇava-āsana"
+        ],
         [
          "vīraṃ",
          "Vīra"
@@ -6279,7 +10487,62 @@
          "raudramāsanam",
          "the raudra-āsana"
         ]
+       ],
+       [
+        [
+         "yonyāsanaṃ",
+         "The yoni posture"
+        ],
+        [
+         "viduḥ",
+         "as they know"
+        ],
+        [
+         "śāktaṃ",
+         "the śākta one"
+        ],
+        [
+         "śaivaṃ",
+         "the śaiva one"
+        ],
+        [
+         "paścimatānakam",
+         "paścima-tanaka"
+        ],
+        [
+         "nirālambanayogasya",
+         "For nirālambana-yoga"
+        ],
+        [
+         "nirālambanam",
+         "the nirālambana"
+        ],
+        [
+         "āsanam",
+         "āsana"
+        ],
+        [
+         "nirālambatayā",
+         "without support"
+        ],
+        [
+         "dhyānaṃ",
+         "contemplation"
+        ],
+        [
+         "nirālambaḥ",
+         "the supportless [Ātman]"
+        ],
+        [
+         "sadāśivaḥ",
+         "Sadāśiva"
+        ]
        ]
+      ],
+      "titles": [
+       "Verse 24",
+       "Verse 25",
+       "Verse 26"
       ]
      },
      {
@@ -6287,7 +10550,11 @@
       "key": "literal",
       "label": "Literal translation",
       "paragraphs": [
-       "Vīra, mayūra, vajra, siddha — the raudra-āsana."
+       "Svastika, gomukha, padma, haṃsa — the brāhma-āsana.",
+       "Nṛsiṃha, garuḍa, kūrma, nāga — the vaiṣṇava-āsana.",
+       "Vīra, mayūra, vajra, siddha — the raudra-āsana.",
+       "The yoni posture, as they know, is the śākta one; the śaiva one is paścima-tanaka.",
+       "For nirālambana-yoga there is the nirālambana-āsana; contemplation is without support, and the supportless [Ātman] is Sadāśiva."
       ]
      },
      {
@@ -6295,7 +10562,12 @@
       "key": "literary",
       "label": "Literary translation",
       "paragraphs": [
+       "24-26. Svastika, Gomukha, Padma, Haṃsa — these are the Brahmic postures (Āsanas).",
+       "Nṛsiṃha, Garuḍa, Kūrma, Nāga — these are the Vaiṣṇava postures.",
        "Vīra, Mayūra, Vajra, Siddha — these are the Raudra postures.",
+       "Yoni is the Śākta posture.",
+       "Paścima-tanaka is the Śaiva posture.",
+       "The posture for the Nirālambana-Yoga is nirālambana (lit. propless, involving no specific position of hands, feet or other members of the body); meditation should be on the Nirālambana, and the Nirālambana is Sadāśiva, the Unconditioned, the Paramātman.",
        "— English translation, 1978 edition, p. 170"
       ]
      },
@@ -6329,8 +10601,8 @@
     "en": "Śākta āsana"
    },
    "verses": {
-    "ru": "9.25",
-    "en": "9.25"
+    "ru": "9.26",
+    "en": "9.26"
    },
    "text": {
     "ru": [
@@ -6342,7 +10614,7 @@
         "key": "deva",
         "label": "Деванāгарӣ",
         "lines": [
-         "योन्यासनं विदुश्शाक्तं शैवं पश्चिमतानकम् ।"
+         "स्वस्तिकं गोमुखं पद्मं हंसाख्यं ब्राह्ममासनम् ॥२४"
         ]
        },
        {
@@ -6350,7 +10622,7 @@
         "key": "iast",
         "label": "IAST",
         "lines": [
-         "yonyāsanaṃ viduśśāktaṃ śaivaṃ paścimatānakam ।"
+         "svastikaṃ gomukhaṃ padmaṃ haṃsākhyaṃ brāhmamāsanam ॥24"
         ]
        },
        {
@@ -6358,20 +10630,156 @@
         "key": "cyr",
         "label": "Кириллическая транслитерация",
         "lines": [
-         "йонйāсанам̣ видуш́ш́āктам̣ ш́аивам̣ паш́чиматāнакам ।"
+         "свастикам̣ гомукхам̣ падмам̣ хам̣сāкхйам̣ брāхмамāсанам ॥24"
+        ]
+       }
+      ],
+      "verses": "24"
+     },
+     {
+      "type": "verse_card",
+      "sections": [
+       {
+        "type": "verse",
+        "key": "deva",
+        "label": "Деванāгарӣ",
+        "lines": [
+         "नृसिंहं गरुडं कूर्मं नागाख्यं वैष्णवासनम् ।",
+         "वीरं मयूरं वज्राख्यं सिद्धाख्यं रौद्रमासनम् ॥२५॥"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "iast",
+        "label": "IAST",
+        "lines": [
+         "nṛsiṃhaṃ garuḍaṃ kūrmaṃ nāgākhyaṃ vaiṣṇavāsanam ।",
+         "vīraṃ mayūraṃ vajrākhyaṃ siddhākhyaṃ raudramāsanam ॥25॥"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "cyr",
+        "label": "Кириллическая транслитерация",
+        "lines": [
+         "нр̣сим̣хам̣ гаруд̣ам̣ кӯрмам̣ нāгāкхйам̣ ваишн̣авāсанам ।",
+         "вӣрам̣ майӯрам̣ ваджрāкхйам̣ сиддхāкхйам̣ раудрамāсанам ॥25॥"
         ]
        }
       ],
       "verses": "25"
      },
      {
+      "type": "verse_card",
+      "sections": [
+       {
+        "type": "verse",
+        "key": "deva",
+        "label": "Деванāгарӣ",
+        "lines": [
+         "योन्यासनं विदुश्शाक्तं शैवं पश्चिमतानकम् ।",
+         "निरालम्बनयोगस्य निरालम्बनमासनम् ॥२६॥",
+         "निरालम्बतया ध्यानं निरालम्बस्सदाशिवः ।"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "iast",
+        "label": "IAST",
+        "lines": [
+         "yonyāsanaṃ viduśśāktaṃ śaivaṃ paścimatānakam ।",
+         "nirālambanayogasya nirālambanamāsanam ॥26॥",
+         "nirālambatayā dhyānaṃ nirālambassadāśivaḥ ।"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "cyr",
+        "label": "Кириллическая транслитерация",
+        "lines": [
+         "йонйāсанам̣ видуш́ш́āктам̣ ш́аивам̣ паш́чиматāнакам ।",
+         "нирāламбанайогасйа нирāламбанамāсанам ॥26॥",
+         "нирāламбатайā дхйāнам̣ нирāламбассадāш́ивах̣ ।"
+        ]
+       }
+      ],
+      "verses": "26",
+      "own": true
+     },
+     {
       "type": "words",
       "key": "words",
       "label": "Пословный разбор",
       "paragraphs": [
-       "йонйāсанам̣ - Асана йони; видух̣ - как знают; ш́āктам̣ - ш́а̄кта; ш́аивам̣ - ш́айва; паш́чиматāнакам - пашчиматанака."
+       "свастикам̣ - Свастика; гомукхам̣ - гомукха; падмам̣ - падма; хам̣сāкхйам̣ - хамса; брāхмамāсанам - бра̄хма-асана.",
+       "нр̣сим̣хам̣ - Нрисимха; гаруд̣ам̣ - гаруда; кӯрмам̣ - курма; нāгāкхйам̣ - нага; ваишн̣авāсанам - вайшнава-асана; вӣрам̣ - Вира; майӯрам̣ - маюра; ваджрāкхйам̣ - ваджра; сиддхāкхйам̣ - сиддха; раудрамāсанам - раудра-асана.",
+       "йонйāсанам̣ - Асана йони; видух̣ - как знают; ш́āктам̣ - ш́а̄кта; ш́аивам̣ - ш́айва; паш́чиматāнакам - пашчиматанака; нирāламбанайогасйа - Для нира̄ламбана-йоги; нирāламбанам - нира̄ламбана; āсанам - асана; нирāламбатайā - без опоры; дхйāнам̣ - созерцание; нирāламбах̣ - безопорный [Аа̄тман]; садāш́ивах̣ - Сада̄шива."
       ],
       "groups": [
+       [
+        [
+         "свастикам̣",
+         "Свастика"
+        ],
+        [
+         "гомукхам̣",
+         "гомукха"
+        ],
+        [
+         "падмам̣",
+         "падма"
+        ],
+        [
+         "хам̣сāкхйам̣",
+         "хамса"
+        ],
+        [
+         "брāхмамāсанам",
+         "бра̄хма-асана"
+        ]
+       ],
+       [
+        [
+         "нр̣сим̣хам̣",
+         "Нрисимха"
+        ],
+        [
+         "гаруд̣ам̣",
+         "гаруда"
+        ],
+        [
+         "кӯрмам̣",
+         "курма"
+        ],
+        [
+         "нāгāкхйам̣",
+         "нага"
+        ],
+        [
+         "ваишн̣авāсанам",
+         "вайшнава-асана"
+        ],
+        [
+         "вӣрам̣",
+         "Вира"
+        ],
+        [
+         "майӯрам̣",
+         "маюра"
+        ],
+        [
+         "ваджрāкхйам̣",
+         "ваджра"
+        ],
+        [
+         "сиддхāкхйам̣",
+         "сиддха"
+        ],
+        [
+         "раудрамāсанам",
+         "раудра-асана"
+        ]
+       ],
        [
         [
          "йонйāсанам̣",
@@ -6392,8 +10800,41 @@
         [
          "паш́чиматāнакам",
          "пашчиматанака"
+        ],
+        [
+         "нирāламбанайогасйа",
+         "Для нира̄ламбана-йоги"
+        ],
+        [
+         "нирāламбанам",
+         "нира̄ламбана"
+        ],
+        [
+         "āсанам",
+         "асана"
+        ],
+        [
+         "нирāламбатайā",
+         "без опоры"
+        ],
+        [
+         "дхйāнам̣",
+         "созерцание"
+        ],
+        [
+         "нирāламбах̣",
+         "безопорный [Аа̄тман]"
+        ],
+        [
+         "садāш́ивах̣",
+         "Сада̄шива"
         ]
        ]
+      ],
+      "titles": [
+       "Стих 24",
+       "Стих 25",
+       "Стих 26"
       ]
      },
      {
@@ -6401,7 +10842,11 @@
       "key": "literal",
       "label": "Буквальный перевод",
       "paragraphs": [
-       "Асана йони, как знают, — ш́а̄кта; ш́айва — пашчиматанака."
+       "Свастика, гомукха, падма, хамса — бра̄хма-асана.",
+       "Нрисимха, гаруда, курма, нага — вайшнава-асана.",
+       "Вира, маюра, ваджра, сиддха — раудра-асана.",
+       "Асана йони, как знают, — ш́а̄кта; ш́айва — пашчиматанака.",
+       "Для нира̄ламбана-йоги — нира̄ламбана-асана; созерцание — без опоры, а безопорный [Аа̄тман] — Сада̄шива."
       ]
      },
      {
@@ -6409,7 +10854,12 @@
       "key": "literary",
       "label": "Литературный перевод",
       "paragraphs": [
+       "24–26. Свастика, гомукха, падма, хамса — это бра̄хмические позы (асаны).",
+       "Нрисимха, гаруда, кӯрма, нага — это ваишн̣ава-позы.",
+       "Вӣра, майӯра, ваджра, сиддха — это раудра-позы.",
        "Йони — ш́а̄кта-поза.",
+       "Пашчиматанака — ш́аива-поза.",
+       "Поза для нира̄ламбана-йоги — нира̄ламбана (букв. „беспорная“, не предполагающая определённого положения рук, ног и прочих членов тела); созерцать следует Нира̄ламбану, а Нира̄ламбана — это Сада̄шива, Безусловное, Парама̄тман.",
        "— англ. пер. изд. 1978 г., с. 170"
       ]
      },
@@ -6437,7 +10887,7 @@
         "key": "deva",
         "label": "Devanāgarī",
         "lines": [
-         "योन्यासनं विदुश्शाक्तं शैवं पश्चिमतानकम् ।"
+         "स्वस्तिकं गोमुखं पद्मं हंसाख्यं ब्राह्ममासनम् ॥२४"
         ]
        },
        {
@@ -6445,7 +10895,7 @@
         "key": "iast",
         "label": "IAST",
         "lines": [
-         "yonyāsanaṃ viduśśāktaṃ śaivaṃ paścimatānakam ।"
+         "svastikaṃ gomukhaṃ padmaṃ haṃsākhyaṃ brāhmamāsanam ॥24"
         ]
        },
        {
@@ -6453,20 +10903,156 @@
         "key": "cyr",
         "label": "Cyrillic transliteration",
         "lines": [
-         "йонйāсанам̣ видуш́ш́āктам̣ ш́аивам̣ паш́чиматāнакам ।"
+         "свастикам̣ гомукхам̣ падмам̣ хам̣сāкхйам̣ брāхмамāсанам ॥24"
+        ]
+       }
+      ],
+      "verses": "24"
+     },
+     {
+      "type": "verse_card",
+      "sections": [
+       {
+        "type": "verse",
+        "key": "deva",
+        "label": "Devanāgarī",
+        "lines": [
+         "नृसिंहं गरुडं कूर्मं नागाख्यं वैष्णवासनम् ।",
+         "वीरं मयूरं वज्राख्यं सिद्धाख्यं रौद्रमासनम् ॥२५॥"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "iast",
+        "label": "IAST",
+        "lines": [
+         "nṛsiṃhaṃ garuḍaṃ kūrmaṃ nāgākhyaṃ vaiṣṇavāsanam ।",
+         "vīraṃ mayūraṃ vajrākhyaṃ siddhākhyaṃ raudramāsanam ॥25॥"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "cyr",
+        "label": "Cyrillic transliteration",
+        "lines": [
+         "нр̣сим̣хам̣ гаруд̣ам̣ кӯрмам̣ нāгāкхйам̣ ваишн̣авāсанам ।",
+         "вӣрам̣ майӯрам̣ ваджрāкхйам̣ сиддхāкхйам̣ раудрамāсанам ॥25॥"
         ]
        }
       ],
       "verses": "25"
      },
      {
+      "type": "verse_card",
+      "sections": [
+       {
+        "type": "verse",
+        "key": "deva",
+        "label": "Devanāgarī",
+        "lines": [
+         "योन्यासनं विदुश्शाक्तं शैवं पश्चिमतानकम् ।",
+         "निरालम्बनयोगस्य निरालम्बनमासनम् ॥२६॥",
+         "निरालम्बतया ध्यानं निरालम्बस्सदाशिवः ।"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "iast",
+        "label": "IAST",
+        "lines": [
+         "yonyāsanaṃ viduśśāktaṃ śaivaṃ paścimatānakam ।",
+         "nirālambanayogasya nirālambanamāsanam ॥26॥",
+         "nirālambatayā dhyānaṃ nirālambassadāśivaḥ ।"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "cyr",
+        "label": "Cyrillic transliteration",
+        "lines": [
+         "йонйāсанам̣ видуш́ш́āктам̣ ш́аивам̣ паш́чиматāнакам ।",
+         "нирāламбанайогасйа нирāламбанамāсанам ॥26॥",
+         "нирāламбатайā дхйāнам̣ нирāламбассадāш́ивах̣ ।"
+        ]
+       }
+      ],
+      "verses": "26",
+      "own": true
+     },
+     {
       "type": "words",
       "key": "words",
       "label": "Word-by-word analysis",
       "paragraphs": [
-       "yonyāsanaṃ - The yoni posture; viduḥ - as they know; śāktaṃ - the śākta one; śaivaṃ - the śaiva one; paścimatānakam - paścima-tanaka."
+       "svastikaṃ - Svastika; gomukhaṃ - gomukha; padmaṃ - padma; haṃsākhyaṃ - haṃsa; brāhmamāsanam - the brāhma-āsana.",
+       "nṛsiṃhaṃ - Nṛsiṃha; garuḍaṃ - garuḍa; kūrmaṃ - kūrma; nāgākhyaṃ - nāga; vaiṣṇavāsanam - the vaiṣṇava-āsana; vīraṃ - Vīra; mayūraṃ - mayūra; vajrākhyaṃ - vajra; siddhākhyaṃ - siddha; raudramāsanam - the raudra-āsana.",
+       "yonyāsanaṃ - The yoni posture; viduḥ - as they know; śāktaṃ - the śākta one; śaivaṃ - the śaiva one; paścimatānakam - paścima-tanaka; nirālambanayogasya - For nirālambana-yoga; nirālambanam - the nirālambana; āsanam - āsana; nirālambatayā - without support; dhyānaṃ - contemplation; nirālambaḥ - the supportless [Ātman]; sadāśivaḥ - Sadāśiva."
       ],
       "groups": [
+       [
+        [
+         "svastikaṃ",
+         "Svastika"
+        ],
+        [
+         "gomukhaṃ",
+         "gomukha"
+        ],
+        [
+         "padmaṃ",
+         "padma"
+        ],
+        [
+         "haṃsākhyaṃ",
+         "haṃsa"
+        ],
+        [
+         "brāhmamāsanam",
+         "the brāhma-āsana"
+        ]
+       ],
+       [
+        [
+         "nṛsiṃhaṃ",
+         "Nṛsiṃha"
+        ],
+        [
+         "garuḍaṃ",
+         "garuḍa"
+        ],
+        [
+         "kūrmaṃ",
+         "kūrma"
+        ],
+        [
+         "nāgākhyaṃ",
+         "nāga"
+        ],
+        [
+         "vaiṣṇavāsanam",
+         "the vaiṣṇava-āsana"
+        ],
+        [
+         "vīraṃ",
+         "Vīra"
+        ],
+        [
+         "mayūraṃ",
+         "mayūra"
+        ],
+        [
+         "vajrākhyaṃ",
+         "vajra"
+        ],
+        [
+         "siddhākhyaṃ",
+         "siddha"
+        ],
+        [
+         "raudramāsanam",
+         "the raudra-āsana"
+        ]
+       ],
        [
         [
          "yonyāsanaṃ",
@@ -6487,8 +11073,41 @@
         [
          "paścimatānakam",
          "paścima-tanaka"
+        ],
+        [
+         "nirālambanayogasya",
+         "For nirālambana-yoga"
+        ],
+        [
+         "nirālambanam",
+         "the nirālambana"
+        ],
+        [
+         "āsanam",
+         "āsana"
+        ],
+        [
+         "nirālambatayā",
+         "without support"
+        ],
+        [
+         "dhyānaṃ",
+         "contemplation"
+        ],
+        [
+         "nirālambaḥ",
+         "the supportless [Ātman]"
+        ],
+        [
+         "sadāśivaḥ",
+         "Sadāśiva"
         ]
        ]
+      ],
+      "titles": [
+       "Verse 24",
+       "Verse 25",
+       "Verse 26"
       ]
      },
      {
@@ -6496,7 +11115,11 @@
       "key": "literal",
       "label": "Literal translation",
       "paragraphs": [
-       "The yoni posture, as they know, is the śākta one; the śaiva one is paścima-tanaka."
+       "Svastika, gomukha, padma, haṃsa — the brāhma-āsana.",
+       "Nṛsiṃha, garuḍa, kūrma, nāga — the vaiṣṇava-āsana.",
+       "Vīra, mayūra, vajra, siddha — the raudra-āsana.",
+       "The yoni posture, as they know, is the śākta one; the śaiva one is paścima-tanaka.",
+       "For nirālambana-yoga there is the nirālambana-āsana; contemplation is without support, and the supportless [Ātman] is Sadāśiva."
       ]
      },
      {
@@ -6504,7 +11127,12 @@
       "key": "literary",
       "label": "Literary translation",
       "paragraphs": [
+       "24-26. Svastika, Gomukha, Padma, Haṃsa — these are the Brahmic postures (Āsanas).",
+       "Nṛsiṃha, Garuḍa, Kūrma, Nāga — these are the Vaiṣṇava postures.",
+       "Vīra, Mayūra, Vajra, Siddha — these are the Raudra postures.",
        "Yoni is the Śākta posture.",
+       "Paścima-tanaka is the Śaiva posture.",
+       "The posture for the Nirālambana-Yoga is nirālambana (lit. propless, involving no specific position of hands, feet or other members of the body); meditation should be on the Nirālambana, and the Nirālambana is Sadāśiva, the Unconditioned, the Paramātman.",
        "— English translation, 1978 edition, p. 170"
       ]
      },
@@ -6538,8 +11166,8 @@
     "en": "Śaiva āsana"
    },
    "verses": {
-    "ru": "9.25",
-    "en": "9.25"
+    "ru": "9.26",
+    "en": "9.26"
    },
    "text": {
     "ru": [
@@ -6551,7 +11179,7 @@
         "key": "deva",
         "label": "Деванāгарӣ",
         "lines": [
-         "योन्यासनं विदुश्शाक्तं शैवं पश्चिमतानकम् ।"
+         "स्वस्तिकं गोमुखं पद्मं हंसाख्यं ब्राह्ममासनम् ॥२४"
         ]
        },
        {
@@ -6559,7 +11187,7 @@
         "key": "iast",
         "label": "IAST",
         "lines": [
-         "yonyāsanaṃ viduśśāktaṃ śaivaṃ paścimatānakam ।"
+         "svastikaṃ gomukhaṃ padmaṃ haṃsākhyaṃ brāhmamāsanam ॥24"
         ]
        },
        {
@@ -6567,20 +11195,156 @@
         "key": "cyr",
         "label": "Кириллическая транслитерация",
         "lines": [
-         "йонйāсанам̣ видуш́ш́āктам̣ ш́аивам̣ паш́чиматāнакам ।"
+         "свастикам̣ гомукхам̣ падмам̣ хам̣сāкхйам̣ брāхмамāсанам ॥24"
+        ]
+       }
+      ],
+      "verses": "24"
+     },
+     {
+      "type": "verse_card",
+      "sections": [
+       {
+        "type": "verse",
+        "key": "deva",
+        "label": "Деванāгарӣ",
+        "lines": [
+         "नृसिंहं गरुडं कूर्मं नागाख्यं वैष्णवासनम् ।",
+         "वीरं मयूरं वज्राख्यं सिद्धाख्यं रौद्रमासनम् ॥२५॥"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "iast",
+        "label": "IAST",
+        "lines": [
+         "nṛsiṃhaṃ garuḍaṃ kūrmaṃ nāgākhyaṃ vaiṣṇavāsanam ।",
+         "vīraṃ mayūraṃ vajrākhyaṃ siddhākhyaṃ raudramāsanam ॥25॥"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "cyr",
+        "label": "Кириллическая транслитерация",
+        "lines": [
+         "нр̣сим̣хам̣ гаруд̣ам̣ кӯрмам̣ нāгāкхйам̣ ваишн̣авāсанам ।",
+         "вӣрам̣ майӯрам̣ ваджрāкхйам̣ сиддхāкхйам̣ раудрамāсанам ॥25॥"
         ]
        }
       ],
       "verses": "25"
      },
      {
+      "type": "verse_card",
+      "sections": [
+       {
+        "type": "verse",
+        "key": "deva",
+        "label": "Деванāгарӣ",
+        "lines": [
+         "योन्यासनं विदुश्शाक्तं शैवं पश्चिमतानकम् ।",
+         "निरालम्बनयोगस्य निरालम्बनमासनम् ॥२६॥",
+         "निरालम्बतया ध्यानं निरालम्बस्सदाशिवः ।"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "iast",
+        "label": "IAST",
+        "lines": [
+         "yonyāsanaṃ viduśśāktaṃ śaivaṃ paścimatānakam ।",
+         "nirālambanayogasya nirālambanamāsanam ॥26॥",
+         "nirālambatayā dhyānaṃ nirālambassadāśivaḥ ।"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "cyr",
+        "label": "Кириллическая транслитерация",
+        "lines": [
+         "йонйāсанам̣ видуш́ш́āктам̣ ш́аивам̣ паш́чиматāнакам ।",
+         "нирāламбанайогасйа нирāламбанамāсанам ॥26॥",
+         "нирāламбатайā дхйāнам̣ нирāламбассадāш́ивах̣ ।"
+        ]
+       }
+      ],
+      "verses": "26",
+      "own": true
+     },
+     {
       "type": "words",
       "key": "words",
       "label": "Пословный разбор",
       "paragraphs": [
-       "йонйāсанам̣ - Асана йони; видух̣ - как знают; ш́āктам̣ - ш́а̄кта; ш́аивам̣ - ш́айва; паш́чиматāнакам - пашчиматанака."
+       "свастикам̣ - Свастика; гомукхам̣ - гомукха; падмам̣ - падма; хам̣сāкхйам̣ - хамса; брāхмамāсанам - бра̄хма-асана.",
+       "нр̣сим̣хам̣ - Нрисимха; гаруд̣ам̣ - гаруда; кӯрмам̣ - курма; нāгāкхйам̣ - нага; ваишн̣авāсанам - вайшнава-асана; вӣрам̣ - Вира; майӯрам̣ - маюра; ваджрāкхйам̣ - ваджра; сиддхāкхйам̣ - сиддха; раудрамāсанам - раудра-асана.",
+       "йонйāсанам̣ - Асана йони; видух̣ - как знают; ш́āктам̣ - ш́а̄кта; ш́аивам̣ - ш́айва; паш́чиматāнакам - пашчиматанака; нирāламбанайогасйа - Для нира̄ламбана-йоги; нирāламбанам - нира̄ламбана; āсанам - асана; нирāламбатайā - без опоры; дхйāнам̣ - созерцание; нирāламбах̣ - безопорный [Аа̄тман]; садāш́ивах̣ - Сада̄шива."
       ],
       "groups": [
+       [
+        [
+         "свастикам̣",
+         "Свастика"
+        ],
+        [
+         "гомукхам̣",
+         "гомукха"
+        ],
+        [
+         "падмам̣",
+         "падма"
+        ],
+        [
+         "хам̣сāкхйам̣",
+         "хамса"
+        ],
+        [
+         "брāхмамāсанам",
+         "бра̄хма-асана"
+        ]
+       ],
+       [
+        [
+         "нр̣сим̣хам̣",
+         "Нрисимха"
+        ],
+        [
+         "гаруд̣ам̣",
+         "гаруда"
+        ],
+        [
+         "кӯрмам̣",
+         "курма"
+        ],
+        [
+         "нāгāкхйам̣",
+         "нага"
+        ],
+        [
+         "ваишн̣авāсанам",
+         "вайшнава-асана"
+        ],
+        [
+         "вӣрам̣",
+         "Вира"
+        ],
+        [
+         "майӯрам̣",
+         "маюра"
+        ],
+        [
+         "ваджрāкхйам̣",
+         "ваджра"
+        ],
+        [
+         "сиддхāкхйам̣",
+         "сиддха"
+        ],
+        [
+         "раудрамāсанам",
+         "раудра-асана"
+        ]
+       ],
        [
         [
          "йонйāсанам̣",
@@ -6601,8 +11365,41 @@
         [
          "паш́чиматāнакам",
          "пашчиматанака"
+        ],
+        [
+         "нирāламбанайогасйа",
+         "Для нира̄ламбана-йоги"
+        ],
+        [
+         "нирāламбанам",
+         "нира̄ламбана"
+        ],
+        [
+         "āсанам",
+         "асана"
+        ],
+        [
+         "нирāламбатайā",
+         "без опоры"
+        ],
+        [
+         "дхйāнам̣",
+         "созерцание"
+        ],
+        [
+         "нирāламбах̣",
+         "безопорный [Аа̄тман]"
+        ],
+        [
+         "садāш́ивах̣",
+         "Сада̄шива"
         ]
        ]
+      ],
+      "titles": [
+       "Стих 24",
+       "Стих 25",
+       "Стих 26"
       ]
      },
      {
@@ -6610,7 +11407,11 @@
       "key": "literal",
       "label": "Буквальный перевод",
       "paragraphs": [
-       "Асана йони, как знают, — ш́а̄кта; ш́айва — пашчиматанака."
+       "Свастика, гомукха, падма, хамса — бра̄хма-асана.",
+       "Нрисимха, гаруда, курма, нага — вайшнава-асана.",
+       "Вира, маюра, ваджра, сиддха — раудра-асана.",
+       "Асана йони, как знают, — ш́а̄кта; ш́айва — пашчиматанака.",
+       "Для нира̄ламбана-йоги — нира̄ламбана-асана; созерцание — без опоры, а безопорный [Аа̄тман] — Сада̄шива."
       ]
      },
      {
@@ -6618,7 +11419,12 @@
       "key": "literary",
       "label": "Литературный перевод",
       "paragraphs": [
-       "Пашчиматанака — ш́аива-поза",
+       "24–26. Свастика, гомукха, падма, хамса — это бра̄хмические позы (асаны).",
+       "Нрисимха, гаруда, кӯрма, нага — это ваишн̣ава-позы.",
+       "Вӣра, майӯра, ваджра, сиддха — это раудра-позы.",
+       "Йони — ш́а̄кта-поза.",
+       "Пашчиматанака — ш́аива-поза.",
+       "Поза для нира̄ламбана-йоги — нира̄ламбана (букв. „беспорная“, не предполагающая определённого положения рук, ног и прочих членов тела); созерцать следует Нира̄ламбану, а Нира̄ламбана — это Сада̄шива, Безусловное, Парама̄тман.",
        "— англ. пер. изд. 1978 г., с. 170"
       ]
      },
@@ -6646,7 +11452,7 @@
         "key": "deva",
         "label": "Devanāgarī",
         "lines": [
-         "योन्यासनं विदुश्शाक्तं शैवं पश्चिमतानकम् ।"
+         "स्वस्तिकं गोमुखं पद्मं हंसाख्यं ब्राह्ममासनम् ॥२४"
         ]
        },
        {
@@ -6654,7 +11460,7 @@
         "key": "iast",
         "label": "IAST",
         "lines": [
-         "yonyāsanaṃ viduśśāktaṃ śaivaṃ paścimatānakam ।"
+         "svastikaṃ gomukhaṃ padmaṃ haṃsākhyaṃ brāhmamāsanam ॥24"
         ]
        },
        {
@@ -6662,20 +11468,156 @@
         "key": "cyr",
         "label": "Cyrillic transliteration",
         "lines": [
-         "йонйāсанам̣ видуш́ш́āктам̣ ш́аивам̣ паш́чиматāнакам ।"
+         "свастикам̣ гомукхам̣ падмам̣ хам̣сāкхйам̣ брāхмамāсанам ॥24"
+        ]
+       }
+      ],
+      "verses": "24"
+     },
+     {
+      "type": "verse_card",
+      "sections": [
+       {
+        "type": "verse",
+        "key": "deva",
+        "label": "Devanāgarī",
+        "lines": [
+         "नृसिंहं गरुडं कूर्मं नागाख्यं वैष्णवासनम् ।",
+         "वीरं मयूरं वज्राख्यं सिद्धाख्यं रौद्रमासनम् ॥२५॥"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "iast",
+        "label": "IAST",
+        "lines": [
+         "nṛsiṃhaṃ garuḍaṃ kūrmaṃ nāgākhyaṃ vaiṣṇavāsanam ।",
+         "vīraṃ mayūraṃ vajrākhyaṃ siddhākhyaṃ raudramāsanam ॥25॥"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "cyr",
+        "label": "Cyrillic transliteration",
+        "lines": [
+         "нр̣сим̣хам̣ гаруд̣ам̣ кӯрмам̣ нāгāкхйам̣ ваишн̣авāсанам ।",
+         "вӣрам̣ майӯрам̣ ваджрāкхйам̣ сиддхāкхйам̣ раудрамāсанам ॥25॥"
         ]
        }
       ],
       "verses": "25"
      },
      {
+      "type": "verse_card",
+      "sections": [
+       {
+        "type": "verse",
+        "key": "deva",
+        "label": "Devanāgarī",
+        "lines": [
+         "योन्यासनं विदुश्शाक्तं शैवं पश्चिमतानकम् ।",
+         "निरालम्बनयोगस्य निरालम्बनमासनम् ॥२६॥",
+         "निरालम्बतया ध्यानं निरालम्बस्सदाशिवः ।"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "iast",
+        "label": "IAST",
+        "lines": [
+         "yonyāsanaṃ viduśśāktaṃ śaivaṃ paścimatānakam ।",
+         "nirālambanayogasya nirālambanamāsanam ॥26॥",
+         "nirālambatayā dhyānaṃ nirālambassadāśivaḥ ।"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "cyr",
+        "label": "Cyrillic transliteration",
+        "lines": [
+         "йонйāсанам̣ видуш́ш́āктам̣ ш́аивам̣ паш́чиматāнакам ।",
+         "нирāламбанайогасйа нирāламбанамāсанам ॥26॥",
+         "нирāламбатайā дхйāнам̣ нирāламбассадāш́ивах̣ ।"
+        ]
+       }
+      ],
+      "verses": "26",
+      "own": true
+     },
+     {
       "type": "words",
       "key": "words",
       "label": "Word-by-word analysis",
       "paragraphs": [
-       "yonyāsanaṃ - The yoni posture; viduḥ - as they know; śāktaṃ - the śākta one; śaivaṃ - the śaiva one; paścimatānakam - paścima-tanaka."
+       "svastikaṃ - Svastika; gomukhaṃ - gomukha; padmaṃ - padma; haṃsākhyaṃ - haṃsa; brāhmamāsanam - the brāhma-āsana.",
+       "nṛsiṃhaṃ - Nṛsiṃha; garuḍaṃ - garuḍa; kūrmaṃ - kūrma; nāgākhyaṃ - nāga; vaiṣṇavāsanam - the vaiṣṇava-āsana; vīraṃ - Vīra; mayūraṃ - mayūra; vajrākhyaṃ - vajra; siddhākhyaṃ - siddha; raudramāsanam - the raudra-āsana.",
+       "yonyāsanaṃ - The yoni posture; viduḥ - as they know; śāktaṃ - the śākta one; śaivaṃ - the śaiva one; paścimatānakam - paścima-tanaka; nirālambanayogasya - For nirālambana-yoga; nirālambanam - the nirālambana; āsanam - āsana; nirālambatayā - without support; dhyānaṃ - contemplation; nirālambaḥ - the supportless [Ātman]; sadāśivaḥ - Sadāśiva."
       ],
       "groups": [
+       [
+        [
+         "svastikaṃ",
+         "Svastika"
+        ],
+        [
+         "gomukhaṃ",
+         "gomukha"
+        ],
+        [
+         "padmaṃ",
+         "padma"
+        ],
+        [
+         "haṃsākhyaṃ",
+         "haṃsa"
+        ],
+        [
+         "brāhmamāsanam",
+         "the brāhma-āsana"
+        ]
+       ],
+       [
+        [
+         "nṛsiṃhaṃ",
+         "Nṛsiṃha"
+        ],
+        [
+         "garuḍaṃ",
+         "garuḍa"
+        ],
+        [
+         "kūrmaṃ",
+         "kūrma"
+        ],
+        [
+         "nāgākhyaṃ",
+         "nāga"
+        ],
+        [
+         "vaiṣṇavāsanam",
+         "the vaiṣṇava-āsana"
+        ],
+        [
+         "vīraṃ",
+         "Vīra"
+        ],
+        [
+         "mayūraṃ",
+         "mayūra"
+        ],
+        [
+         "vajrākhyaṃ",
+         "vajra"
+        ],
+        [
+         "siddhākhyaṃ",
+         "siddha"
+        ],
+        [
+         "raudramāsanam",
+         "the raudra-āsana"
+        ]
+       ],
        [
         [
          "yonyāsanaṃ",
@@ -6696,8 +11638,41 @@
         [
          "paścimatānakam",
          "paścima-tanaka"
+        ],
+        [
+         "nirālambanayogasya",
+         "For nirālambana-yoga"
+        ],
+        [
+         "nirālambanam",
+         "the nirālambana"
+        ],
+        [
+         "āsanam",
+         "āsana"
+        ],
+        [
+         "nirālambatayā",
+         "without support"
+        ],
+        [
+         "dhyānaṃ",
+         "contemplation"
+        ],
+        [
+         "nirālambaḥ",
+         "the supportless [Ātman]"
+        ],
+        [
+         "sadāśivaḥ",
+         "Sadāśiva"
         ]
        ]
+      ],
+      "titles": [
+       "Verse 24",
+       "Verse 25",
+       "Verse 26"
       ]
      },
      {
@@ -6705,7 +11680,11 @@
       "key": "literal",
       "label": "Literal translation",
       "paragraphs": [
-       "The yoni posture, as they know, is the śākta one; the śaiva one is paścima-tanaka."
+       "Svastika, gomukha, padma, haṃsa — the brāhma-āsana.",
+       "Nṛsiṃha, garuḍa, kūrma, nāga — the vaiṣṇava-āsana.",
+       "Vīra, mayūra, vajra, siddha — the raudra-āsana.",
+       "The yoni posture, as they know, is the śākta one; the śaiva one is paścima-tanaka.",
+       "For nirālambana-yoga there is the nirālambana-āsana; contemplation is without support, and the supportless [Ātman] is Sadāśiva."
       ]
      },
      {
@@ -6713,7 +11692,12 @@
       "key": "literary",
       "label": "Literary translation",
       "paragraphs": [
+       "24-26. Svastika, Gomukha, Padma, Haṃsa — these are the Brahmic postures (Āsanas).",
+       "Nṛsiṃha, Garuḍa, Kūrma, Nāga — these are the Vaiṣṇava postures.",
+       "Vīra, Mayūra, Vajra, Siddha — these are the Raudra postures.",
+       "Yoni is the Śākta posture.",
        "Paścima-tanaka is the Śaiva posture.",
+       "The posture for the Nirālambana-Yoga is nirālambana (lit. propless, involving no specific position of hands, feet or other members of the body); meditation should be on the Nirālambana, and the Nirālambana is Sadāśiva, the Unconditioned, the Paramātman.",
        "— English translation, 1978 edition, p. 170"
       ]
      },
@@ -6760,6 +11744,70 @@
         "key": "deva",
         "label": "Деванāгарӣ",
         "lines": [
+         "स्वस्तिकं गोमुखं पद्मं हंसाख्यं ब्राह्ममासनम् ॥२४"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "iast",
+        "label": "IAST",
+        "lines": [
+         "svastikaṃ gomukhaṃ padmaṃ haṃsākhyaṃ brāhmamāsanam ॥24"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "cyr",
+        "label": "Кириллическая транслитерация",
+        "lines": [
+         "свастикам̣ гомукхам̣ падмам̣ хам̣сāкхйам̣ брāхмамāсанам ॥24"
+        ]
+       }
+      ],
+      "verses": "24"
+     },
+     {
+      "type": "verse_card",
+      "sections": [
+       {
+        "type": "verse",
+        "key": "deva",
+        "label": "Деванāгарӣ",
+        "lines": [
+         "नृसिंहं गरुडं कूर्मं नागाख्यं वैष्णवासनम् ।",
+         "वीरं मयूरं वज्राख्यं सिद्धाख्यं रौद्रमासनम् ॥२५॥"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "iast",
+        "label": "IAST",
+        "lines": [
+         "nṛsiṃhaṃ garuḍaṃ kūrmaṃ nāgākhyaṃ vaiṣṇavāsanam ।",
+         "vīraṃ mayūraṃ vajrākhyaṃ siddhākhyaṃ raudramāsanam ॥25॥"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "cyr",
+        "label": "Кириллическая транслитерация",
+        "lines": [
+         "нр̣сим̣хам̣ гаруд̣ам̣ кӯрмам̣ нāгāкхйам̣ ваишн̣авāсанам ।",
+         "вӣрам̣ майӯрам̣ ваджрāкхйам̣ сиддхāкхйам̣ раудрамāсанам ॥25॥"
+        ]
+       }
+      ],
+      "verses": "25"
+     },
+     {
+      "type": "verse_card",
+      "sections": [
+       {
+        "type": "verse",
+        "key": "deva",
+        "label": "Деванāгарӣ",
+        "lines": [
+         "योन्यासनं विदुश्शाक्तं शैवं पश्चिमतानकम् ।",
          "निरालम्बनयोगस्य निरालम्बनमासनम् ॥२६॥",
          "निरालम्बतया ध्यानं निरालम्बस्सदाशिवः ।"
         ]
@@ -6769,6 +11817,7 @@
         "key": "iast",
         "label": "IAST",
         "lines": [
+         "yonyāsanaṃ viduśśāktaṃ śaivaṃ paścimatānakam ।",
          "nirālambanayogasya nirālambanamāsanam ॥26॥",
          "nirālambatayā dhyānaṃ nirālambassadāśivaḥ ।"
         ]
@@ -6778,23 +11827,110 @@
         "key": "cyr",
         "label": "Кириллическая транслитерация",
         "lines": [
+         "йонйāсанам̣ видуш́ш́āктам̣ ш́аивам̣ паш́чиматāнакам ।",
          "нирāламбанайогасйа нирāламбанамāсанам ॥26॥",
          "нирāламбатайā дхйāнам̣ нирāламбассадāш́ивах̣ ।"
         ]
        }
       ],
-      "verses": "26"
+      "verses": "26",
+      "own": true
      },
      {
       "type": "words",
       "key": "words",
       "label": "Пословный разбор",
       "paragraphs": [
-       "нирāламбанайогасйа - Для нира̄ламбана-йоги; нирāламбанам - нира̄ламбана; āсанам - асана.",
-       "нирāламбатайā - без опоры; дхйāнам̣ - созерцание; нирāламбах̣ - безопорный [Аа̄тман]; садāш́ивах̣ - Сада̄шива."
+       "свастикам̣ - Свастика; гомукхам̣ - гомукха; падмам̣ - падма; хам̣сāкхйам̣ - хамса; брāхмамāсанам - бра̄хма-асана.",
+       "нр̣сим̣хам̣ - Нрисимха; гаруд̣ам̣ - гаруда; кӯрмам̣ - курма; нāгāкхйам̣ - нага; ваишн̣авāсанам - вайшнава-асана; вӣрам̣ - Вира; майӯрам̣ - маюра; ваджрāкхйам̣ - ваджра; сиддхāкхйам̣ - сиддха; раудрамāсанам - раудра-асана.",
+       "йонйāсанам̣ - Асана йони; видух̣ - как знают; ш́āктам̣ - ш́а̄кта; ш́аивам̣ - ш́айва; паш́чиматāнакам - пашчиматанака; нирāламбанайогасйа - Для нира̄ламбана-йоги; нирāламбанам - нира̄ламбана; āсанам - асана; нирāламбатайā - без опоры; дхйāнам̣ - созерцание; нирāламбах̣ - безопорный [Аа̄тман]; садāш́ивах̣ - Сада̄шива."
       ],
       "groups": [
        [
+        [
+         "свастикам̣",
+         "Свастика"
+        ],
+        [
+         "гомукхам̣",
+         "гомукха"
+        ],
+        [
+         "падмам̣",
+         "падма"
+        ],
+        [
+         "хам̣сāкхйам̣",
+         "хамса"
+        ],
+        [
+         "брāхмамāсанам",
+         "бра̄хма-асана"
+        ]
+       ],
+       [
+        [
+         "нр̣сим̣хам̣",
+         "Нрисимха"
+        ],
+        [
+         "гаруд̣ам̣",
+         "гаруда"
+        ],
+        [
+         "кӯрмам̣",
+         "курма"
+        ],
+        [
+         "нāгāкхйам̣",
+         "нага"
+        ],
+        [
+         "ваишн̣авāсанам",
+         "вайшнава-асана"
+        ],
+        [
+         "вӣрам̣",
+         "Вира"
+        ],
+        [
+         "майӯрам̣",
+         "маюра"
+        ],
+        [
+         "ваджрāкхйам̣",
+         "ваджра"
+        ],
+        [
+         "сиддхāкхйам̣",
+         "сиддха"
+        ],
+        [
+         "раудрамāсанам",
+         "раудра-асана"
+        ]
+       ],
+       [
+        [
+         "йонйāсанам̣",
+         "Асана йони"
+        ],
+        [
+         "видух̣",
+         "как знают"
+        ],
+        [
+         "ш́āктам̣",
+         "ш́а̄кта"
+        ],
+        [
+         "ш́аивам̣",
+         "ш́айва"
+        ],
+        [
+         "паш́чиматāнакам",
+         "пашчиматанака"
+        ],
         [
          "нирāламбанайогасйа",
          "Для нира̄ламбана-йоги"
@@ -6806,9 +11942,7 @@
         [
          "āсанам",
          "асана"
-        ]
-       ],
-       [
+        ],
         [
          "нирāламбатайā",
          "без опоры"
@@ -6826,6 +11960,11 @@
          "Сада̄шива"
         ]
        ]
+      ],
+      "titles": [
+       "Стих 24",
+       "Стих 25",
+       "Стих 26"
       ]
      },
      {
@@ -6833,6 +11972,10 @@
       "key": "literal",
       "label": "Буквальный перевод",
       "paragraphs": [
+       "Свастика, гомукха, падма, хамса — бра̄хма-асана.",
+       "Нрисимха, гаруда, курма, нага — вайшнава-асана.",
+       "Вира, маюра, ваджра, сиддха — раудра-асана.",
+       "Асана йони, как знают, — ш́а̄кта; ш́айва — пашчиматанака.",
        "Для нира̄ламбана-йоги — нира̄ламбана-асана; созерцание — без опоры, а безопорный [Аа̄тман] — Сада̄шива."
       ]
      },
@@ -6841,7 +11984,12 @@
       "key": "literary",
       "label": "Литературный перевод",
       "paragraphs": [
-       "Поза для нира̄ламбана-йоги — нира̄ламбана (букв. „беспорная“, не предполагающая определённого положения рук, ног и прочих членов тела); созерцать следует Нира̄ламбану, а Нира̄ламбана — это Сада̄шива, Безусловное, Парама̄тман",
+       "24–26. Свастика, гомукха, падма, хамса — это бра̄хмические позы (асаны).",
+       "Нрисимха, гаруда, кӯрма, нага — это ваишн̣ава-позы.",
+       "Вӣра, майӯра, ваджра, сиддха — это раудра-позы.",
+       "Йони — ш́а̄кта-поза.",
+       "Пашчиматанака — ш́аива-поза.",
+       "Поза для нира̄ламбана-йоги — нира̄ламбана (букв. „беспорная“, не предполагающая определённого положения рук, ног и прочих членов тела); созерцать следует Нира̄ламбану, а Нира̄ламбана — это Сада̄шива, Безусловное, Парама̄тман.",
        "— англ. пер. изд. 1978 г., с. 170"
       ]
      },
@@ -6864,6 +12012,70 @@
         "key": "deva",
         "label": "Devanāgarī",
         "lines": [
+         "स्वस्तिकं गोमुखं पद्मं हंसाख्यं ब्राह्ममासनम् ॥२४"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "iast",
+        "label": "IAST",
+        "lines": [
+         "svastikaṃ gomukhaṃ padmaṃ haṃsākhyaṃ brāhmamāsanam ॥24"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "cyr",
+        "label": "Cyrillic transliteration",
+        "lines": [
+         "свастикам̣ гомукхам̣ падмам̣ хам̣сāкхйам̣ брāхмамāсанам ॥24"
+        ]
+       }
+      ],
+      "verses": "24"
+     },
+     {
+      "type": "verse_card",
+      "sections": [
+       {
+        "type": "verse",
+        "key": "deva",
+        "label": "Devanāgarī",
+        "lines": [
+         "नृसिंहं गरुडं कूर्मं नागाख्यं वैष्णवासनम् ।",
+         "वीरं मयूरं वज्राख्यं सिद्धाख्यं रौद्रमासनम् ॥२५॥"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "iast",
+        "label": "IAST",
+        "lines": [
+         "nṛsiṃhaṃ garuḍaṃ kūrmaṃ nāgākhyaṃ vaiṣṇavāsanam ।",
+         "vīraṃ mayūraṃ vajrākhyaṃ siddhākhyaṃ raudramāsanam ॥25॥"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "cyr",
+        "label": "Cyrillic transliteration",
+        "lines": [
+         "нр̣сим̣хам̣ гаруд̣ам̣ кӯрмам̣ нāгāкхйам̣ ваишн̣авāсанам ।",
+         "вӣрам̣ майӯрам̣ ваджрāкхйам̣ сиддхāкхйам̣ раудрамāсанам ॥25॥"
+        ]
+       }
+      ],
+      "verses": "25"
+     },
+     {
+      "type": "verse_card",
+      "sections": [
+       {
+        "type": "verse",
+        "key": "deva",
+        "label": "Devanāgarī",
+        "lines": [
+         "योन्यासनं विदुश्शाक्तं शैवं पश्चिमतानकम् ।",
          "निरालम्बनयोगस्य निरालम्बनमासनम् ॥२६॥",
          "निरालम्बतया ध्यानं निरालम्बस्सदाशिवः ।"
         ]
@@ -6873,6 +12085,7 @@
         "key": "iast",
         "label": "IAST",
         "lines": [
+         "yonyāsanaṃ viduśśāktaṃ śaivaṃ paścimatānakam ।",
          "nirālambanayogasya nirālambanamāsanam ॥26॥",
          "nirālambatayā dhyānaṃ nirālambassadāśivaḥ ।"
         ]
@@ -6882,23 +12095,110 @@
         "key": "cyr",
         "label": "Cyrillic transliteration",
         "lines": [
+         "йонйāсанам̣ видуш́ш́āктам̣ ш́аивам̣ паш́чиматāнакам ।",
          "нирāламбанайогасйа нирāламбанамāсанам ॥26॥",
          "нирāламбатайā дхйāнам̣ нирāламбассадāш́ивах̣ ।"
         ]
        }
       ],
-      "verses": "26"
+      "verses": "26",
+      "own": true
      },
      {
       "type": "words",
       "key": "words",
       "label": "Word-by-word analysis",
       "paragraphs": [
-       "nirālambanayogasya - For nirālambana-yoga; nirālambanam - the nirālambana; āsanam - āsana.",
-       "nirālambatayā - without support; dhyānaṃ - contemplation; nirālambaḥ - the supportless [Ātman]; sadāśivaḥ - Sadāśiva."
+       "svastikaṃ - Svastika; gomukhaṃ - gomukha; padmaṃ - padma; haṃsākhyaṃ - haṃsa; brāhmamāsanam - the brāhma-āsana.",
+       "nṛsiṃhaṃ - Nṛsiṃha; garuḍaṃ - garuḍa; kūrmaṃ - kūrma; nāgākhyaṃ - nāga; vaiṣṇavāsanam - the vaiṣṇava-āsana; vīraṃ - Vīra; mayūraṃ - mayūra; vajrākhyaṃ - vajra; siddhākhyaṃ - siddha; raudramāsanam - the raudra-āsana.",
+       "yonyāsanaṃ - The yoni posture; viduḥ - as they know; śāktaṃ - the śākta one; śaivaṃ - the śaiva one; paścimatānakam - paścima-tanaka; nirālambanayogasya - For nirālambana-yoga; nirālambanam - the nirālambana; āsanam - āsana; nirālambatayā - without support; dhyānaṃ - contemplation; nirālambaḥ - the supportless [Ātman]; sadāśivaḥ - Sadāśiva."
       ],
       "groups": [
        [
+        [
+         "svastikaṃ",
+         "Svastika"
+        ],
+        [
+         "gomukhaṃ",
+         "gomukha"
+        ],
+        [
+         "padmaṃ",
+         "padma"
+        ],
+        [
+         "haṃsākhyaṃ",
+         "haṃsa"
+        ],
+        [
+         "brāhmamāsanam",
+         "the brāhma-āsana"
+        ]
+       ],
+       [
+        [
+         "nṛsiṃhaṃ",
+         "Nṛsiṃha"
+        ],
+        [
+         "garuḍaṃ",
+         "garuḍa"
+        ],
+        [
+         "kūrmaṃ",
+         "kūrma"
+        ],
+        [
+         "nāgākhyaṃ",
+         "nāga"
+        ],
+        [
+         "vaiṣṇavāsanam",
+         "the vaiṣṇava-āsana"
+        ],
+        [
+         "vīraṃ",
+         "Vīra"
+        ],
+        [
+         "mayūraṃ",
+         "mayūra"
+        ],
+        [
+         "vajrākhyaṃ",
+         "vajra"
+        ],
+        [
+         "siddhākhyaṃ",
+         "siddha"
+        ],
+        [
+         "raudramāsanam",
+         "the raudra-āsana"
+        ]
+       ],
+       [
+        [
+         "yonyāsanaṃ",
+         "The yoni posture"
+        ],
+        [
+         "viduḥ",
+         "as they know"
+        ],
+        [
+         "śāktaṃ",
+         "the śākta one"
+        ],
+        [
+         "śaivaṃ",
+         "the śaiva one"
+        ],
+        [
+         "paścimatānakam",
+         "paścima-tanaka"
+        ],
         [
          "nirālambanayogasya",
          "For nirālambana-yoga"
@@ -6910,9 +12210,7 @@
         [
          "āsanam",
          "āsana"
-        ]
-       ],
-       [
+        ],
         [
          "nirālambatayā",
          "without support"
@@ -6930,6 +12228,11 @@
          "Sadāśiva"
         ]
        ]
+      ],
+      "titles": [
+       "Verse 24",
+       "Verse 25",
+       "Verse 26"
       ]
      },
      {
@@ -6937,6 +12240,10 @@
       "key": "literal",
       "label": "Literal translation",
       "paragraphs": [
+       "Svastika, gomukha, padma, haṃsa — the brāhma-āsana.",
+       "Nṛsiṃha, garuḍa, kūrma, nāga — the vaiṣṇava-āsana.",
+       "Vīra, mayūra, vajra, siddha — the raudra-āsana.",
+       "The yoni posture, as they know, is the śākta one; the śaiva one is paścima-tanaka.",
        "For nirālambana-yoga there is the nirālambana-āsana; contemplation is without support, and the supportless [Ātman] is Sadāśiva."
       ]
      },
@@ -6945,6 +12252,11 @@
       "key": "literary",
       "label": "Literary translation",
       "paragraphs": [
+       "24-26. Svastika, Gomukha, Padma, Haṃsa — these are the Brahmic postures (Āsanas).",
+       "Nṛsiṃha, Garuḍa, Kūrma, Nāga — these are the Vaiṣṇava postures.",
+       "Vīra, Mayūra, Vajra, Siddha — these are the Raudra postures.",
+       "Yoni is the Śākta posture.",
+       "Paścima-tanaka is the Śaiva posture.",
        "The posture for the Nirālambana-Yoga is nirālambana (lit. propless, involving no specific position of hands, feet or other members of the body); meditation should be on the Nirālambana, and the Nirālambana is Sadāśiva, the Unconditioned, the Paramātman.",
        "— English translation, 1978 edition, p. 170"
       ]

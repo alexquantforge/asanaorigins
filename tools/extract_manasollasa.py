@@ -17,8 +17,11 @@ Two things this volume needs that the earlier ones did not:
   the repair can be checked line by line;
 * the treatise has no descriptions of āsanas at all: verses 24–26 name
   fourteen poses and sort them by deity (§6.3). A pose page of this treatise
-  therefore carries the verse that names the pose and that classification —
-  and nothing else.
+  therefore carries the whole passage — all three verses, their word-by-word
+  analysis and both translations — and the clause of §6.3 that classifies the
+  pose itself. The passage is short and is quoted whole; the verse the pose is
+  named in carries a mark, so the reader can see at once which of the three it
+  is, but nothing is cut out of the other two.
 
 Run: python3 extract_manasollasa.py ../data/manasollasa.json
 """
@@ -890,6 +893,7 @@ LABELS = {
         "lit_src": "— англ. пер. изд. 1978 г., с. 170",
         "class": "Классификация по божествам",
         "note": "Примечание",
+        "verse_num": "Стих",
     },
     "en": {
         "deva": "Devanāgarī",
@@ -902,6 +906,7 @@ LABELS = {
         "lit_src": "— English translation, 1978 edition, p. 170",
         "class": "The Classification by Deity",
         "note": "Note",
+        "verse_num": "Verse",
     },
 }
 
@@ -981,20 +986,66 @@ def check_words(src, lang):
                 raise SystemExit("gloss %r is not in §6.2: %r" % (gloss, sentence))
 
 
-def words_block(lang, lines, src):
-    """The word-by-word analysis of the verse lines the pose is named in."""
+DEV_DIGITS = "०१२३४५६७८९"
+
+
+def verse_number(line):
+    """The number the edition prints at the end of a verse («…॥२५॥»)."""
+    match = re.search(r"॥\s*([०-९]+)", line)
+    if not match:
+        return ""
+    return "".join(str(DEV_DIGITS.index(c)) for c in match.group(1)
+                   if c in DEV_DIGITS)
+
+
+def verse_groups(lines):
+    """The verses of the passage, cut where the edition puts its numbers.
+
+    The number closes a verse, so a verse runs from the line after the previous
+    number through the numbered line; the half-line printed after the last
+    number («निरालम्बतया ध्यानं…») closes the last verse it belongs to. The
+    lines come back as their positions, the way WORDS and GROUP_INDEX use them.
+    """
+    verses, current = [], []
+    for index, line in enumerate(lines):
+        current.append(index)
+        num = verse_number(line)
+        if num:
+            verses.append({"num": num, "lines": current})
+            current = []
+    if current:
+        if verses:
+            verses[-1]["lines"].extend(current)
+        else:
+            verses.append({"num": "", "lines": current})
+    return verses
+
+
+def words_block(lang, verses, src):
+    """The word-by-word analysis of every word of the passage.
+
+    One group per verse, so the list stays readable: the three verses name
+    fourteen poses in a row, and a single column of twenty-eight pairs would
+    lose the verse boundaries.
+    """
     labels = LABELS[lang]
-    groups, parts = [], []
-    for index in lines:
+    groups, parts, titles = [], [], []
+    for verse in verses:
         pairs = []
-        for deva, ru, en in WORDS[index]:
-            iast = deva_lib.to_iast(deva)
-            term = iast if lang == "en" else translit.translit(iast)
-            pairs.append([term, en if lang == "en" else ru])
+        for index in verse["lines"]:
+            for deva, ru, en in WORDS[index]:
+                iast = deva_lib.to_iast(deva)
+                term = iast if lang == "en" else translit.translit(iast)
+                pairs.append([term, en if lang == "en" else ru])
         groups.append(pairs)
         parts.append("; ".join("%s - %s" % (t, g) for t, g in pairs) + ".")
-    return {"type": "words", "key": "words", "label": labels["words"],
-            "paragraphs": parts, "groups": groups}
+        titles.append(("%s %s" % (labels["verse_num"], verse["num"])
+                       if verse["num"] else ""))
+    block = {"type": "words", "key": "words", "label": labels["words"],
+             "paragraphs": parts, "groups": groups}
+    if all(titles):
+        block["titles"] = titles
+    return block
 
 
 # The verse names fifteen postures in four lines: four brāhma, four vaiṣṇava,
@@ -1013,8 +1064,8 @@ POSES = [
     ("mayurasana", "Mayūra", "raudra", "IX.25"),
     ("vajrasana", "Vajra", "raudra", "IX.25"),
     ("siddhasana", "Siddha", "raudra", "IX.25"),
-    ("yoniasana", "Yoni", "shakta", "IX.25"),
-    ("pashchimatana", "Paścima-tānaka", "shaiva", "IX.25"),
+    ("yoniasana", "Yoni", "shakta", "IX.26"),
+    ("pashchimatana", "Paścima-tānaka", "shaiva", "IX.26"),
     ("niralambana", "Nirālambana", "niralambana", "IX.26"),
 ]
 
@@ -1072,14 +1123,23 @@ def unwrap(text):
 
 
 def quoted_segments(paragraphs):
-    """Each «…» or “…” of a quotation, without its quotation marks."""
+    """Each «…» or “…” of a quotation, without its quotation marks.
+
+    Russian typography puts the full stop after the closing guillemet — the
+    volume prints «…ш́а̄ива-поза». — so a stop that directly follows the mark is
+    the stop of the sentence inside it, and it is kept: without it the sentence
+    would end bare, while the same sentence in the English volume ends with a
+    stop inside its quotes.
+    """
     out = []
     for part in paragraphs:
-        found = re.findall(r'«[^»]*»|“[^”]*”|"[^"]*"', part)
+        found = re.findall(r'(«[^»]*»|“[^”]*”|"[^"]*")(\.?)', part)
         if not found:
-            found = [part]
-        for seg in found:
-            seg = unwrap(seg)
+            found = [(part, "")]
+        for seg, stop in found:
+            seg = unwrap(seg).rstrip()
+            if stop:
+                seg += "."
             for sentence in split_sentences(seg):
                 out.append(sentence)
     return out
@@ -1197,32 +1257,57 @@ def danda(text):
 
 def pose_text(lang, group, src, ref):
     """The blocks of one pose page, in the order the other treatises use:
-    the verse (Devanāgarī, IAST, Cyrillic), the word-by-word analysis, the
-    literal translation, the literary one, then the classification of §6.3."""
-    labels = LABELS[lang]
-    lines, tr_i, q_i, cl_i = GROUP_INDEX[group]
-    deva = [src["verse"][i] for i in lines]
-    iast = [danda(deva_lib.to_iast(line)) for line in deva]
-    sections = [{"type": "verse", "key": "deva", "label": labels["deva"],
-                 "lines": deva},
-                {"type": "verse", "key": "iast", "label": labels["iast"],
-                 "lines": iast},
-                {"type": "verse", "key": "cyr", "label": labels["cyr"],
-                 "lines": [translit.translit(line) for line in iast]}]
-    # the verse the site cites for this pose (the reference prints the number
-    # at the end of the line, not at the end of the pose's clause)
-    blocks = [{"type": "verse_card", "sections": sections,
-               "verses": ref.split(".")[-1]},
-              words_block(lang, lines, src)]
+    the verses (Devanāgarī, IAST, Cyrillic), the word-by-word analysis, the
+    literal translation, the literary one, then the classification of §6.3.
 
-    # the volume's own translation: it renders the verse word by word
+    The treatise names fifteen postures and describes none of them, so a pose
+    page quotes the whole passage — verses 24, 25 and 26 — rather than the one
+    clause the pose stands in: a single line out of context says nothing about
+    what the classification is for. What is the pose's own is the closing
+    clause of §6.3, and that clause is the one this page prints.
+    """
+    labels = LABELS[lang]
+    own_lines, _, _, cl_i = GROUP_INDEX[group]
+    verses = verse_groups(src["verse"])
+
+    # the number on the page is the verse the pose is named in; the edition
+    # prints its numbers at the end of a verse, so this is worth checking
+    for verse in verses:
+        if set(verse["lines"]) & set(own_lines):
+            if verse["num"] and verse["num"] != ref.split(".")[-1]:
+                raise SystemExit("pose %s stands in verse %s, not %s"
+                                 % (group, verse["num"], ref))
+            break
+
+    blocks = []
+    for verse in verses:
+        deva = [src["verse"][index] for index in verse["lines"]]
+        iast = [danda(deva_lib.to_iast(line)) for line in deva]
+        sections = [{"type": "verse", "key": "deva", "label": labels["deva"],
+                     "lines": deva},
+                    {"type": "verse", "key": "iast", "label": labels["iast"],
+                     "lines": iast},
+                    {"type": "verse", "key": "cyr", "label": labels["cyr"],
+                     "lines": [translit.translit(line) for line in iast]}]
+        card = {"type": "verse_card", "sections": sections,
+                "verses": verse["num"]}
+        if verse["num"] == ref.split(".")[-1]:
+            # the verse this pose is named in, marked for the reader: the same
+            # three verses stand on all fifteen pages
+            card["own"] = True
+        blocks.append(card)
+
+    blocks.append(words_block(lang, verses, src))
+
+    # the volume's own translation: it renders the passage word by word
     blocks.append({"type": "prose", "key": "literal", "label": labels["literal"],
-                   "paragraphs": [src["trans"][tr_i]]})
-    # the published translation of 1978, quoted as the volume quotes it
-    if q_i < len(src["quote"]):
+                   "paragraphs": list(src["trans"])})
+    # the published translation of 1978, quoted as the volume quotes it: one
+    # sentence per group of poses, the last one about nirālambana
+    if src["quote"]:
         blocks.append({"type": "prose", "key": "literary",
                        "label": labels["literary"],
-                       "paragraphs": [src["quote"][q_i], labels["lit_src"]]})
+                       "paragraphs": list(src["quote"]) + [labels["lit_src"]]})
     if cl_i is not None and cl_i < len(src["class_deva"]):
         blocks.append({"type": "prose", "key": "class", "label": labels["class"],
                        "paragraphs": [src["class_tr"][cl_i]]})

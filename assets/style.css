@@ -674,6 +674,18 @@ h1.pose-title {
 
 .words .wide { grid-column: 1 / -1; }
 
+/* the verse a group of words belongs to, when a passage is quoted whole */
+.words-verse {
+  margin: 20px 0 7px;
+  font-size: .66rem;
+  font-weight: 500;
+  letter-spacing: .2em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+.words-verse:first-of-type { margin-top: 2px; }
+.words-verse + .words { border-top: 0; }
+
 
 /* --------------------------------------------------------------- dating --- */
 
@@ -1326,6 +1338,16 @@ h1.pose-title {
   color: var(--muted);
 }
 .verse-card-num span { color: var(--accent); }
+
+/* the verse a pose is named in — the same three verses stand on every page */
+.verse-card-num .verse-card-own {
+  font-style: normal;
+  font-size: .62rem;
+  letter-spacing: .1em;
+  text-transform: none;
+  color: color-mix(in srgb, var(--accent) 78%, var(--muted));
+}
+.verse-card.is-own .verse-card-num span { font-weight: 600; }
 .verse-card-num::after {
   content: "";
   flex: 1 1 auto;

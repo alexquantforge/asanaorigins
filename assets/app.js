@@ -41,6 +41,7 @@
       datingOpen: "Читать датировку полностью",
       datingClose: "Свернуть",
       datingSource: "Источник датировки",
+      verseOwn: "здесь названа эта асана",
       build: "версия"
     },
     en: {
@@ -76,11 +77,12 @@
       datingOpen: "Read the full dating",
       datingClose: "Collapse",
       datingSource: "Source of the dating",
+      verseOwn: "this pose is named here",
       build: "build"
     }
   };
 
-  const BUILD = "2026-11-02.7";
+  const BUILD = "2026-11-02.8";
   const V = "?v=" + BUILD;
 
   const state = {
@@ -705,9 +707,11 @@
     while (i < sections.length) {
       const sec = sections[i];
       if (sec.type === "verse_card") {
-        html += '<div class="verse-card">';
+        html += '<div class="verse-card' + (sec.own ? " is-own" : "") + '">';
         if (sec.verses) {
-          html += '<p class="verse-card-num"><span>' + esc(sec.verses) + "</span></p>";
+          html += '<p class="verse-card-num"><span>' + esc(sec.verses) + "</span>" +
+            (sec.own ? '<em class="verse-card-own">' + esc(t("verseOwn")) + "</em>" : "") +
+            "</p>";
         }
         html += renderVerses(sec.sections || []) + "</div>";
         i += 1;
@@ -731,7 +735,12 @@
             html += '<p class="about-p">' + esc(p) + "</p>";
           });
         }
-        groups.forEach((pairs) => {
+        const titles = sec.titles || [];
+        groups.forEach((pairs, gi) => {
+          // a passage quoted in full keeps the verses apart in the analysis too
+          if (titles[gi]) {
+            html += '<p class="words-verse">' + esc(titles[gi]) + "</p>";
+          }
           html += '<dl class="words">';
           pairs.forEach((pair) => {
             const term = pair[0] || "";
