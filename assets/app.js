@@ -99,7 +99,7 @@
   /* ---------------------------------------------------------- page addresses
 
      Every route is a real file on GitHub Pages: /asana/padmasana/,
-     /traktat/manasollasa/, and the same under /en/. tools/prerender.js writes
+     /treatise/manasollasa/, and the same under /en/. tools/prerender.js writes
      those files and marks each page with data-static, data-route, data-base and
      data-treatise; the same script still answers old hash links (#/pose/…),
      which keep working wherever they were already shared.
@@ -138,9 +138,9 @@
     if (view === "home") return prefix;
     if (view === "pose") return prefix + "asana/" + key + "/";
     const id = treatiseId || (activeTreatise && activeTreatise.id) || "";
-    if (view === "about") return prefix + "traktat/" + id + "/";
+    if (view === "about") return prefix + "treatise/" + id + "/";
     const slug = SECTION_SLUGS[view];
-    return prefix + "traktat/" + id + "/" + (slug ? slug[lang === "en" ? "en" : "ru"] : "") + "/";
+    return prefix + "treatise/" + id + "/" + (slug ? slug[lang === "en" ? "en" : "ru"] : "") + "/";
   }
 
   // Where a link to that page points from the page we are on: a real relative
@@ -163,7 +163,7 @@
     if (route.view === "pose") return "pose/" + route.key;
     const id = route.treatise || (activeTreatise && activeTreatise.id) || "";
     const slug = SECTION_SLUGS[route.view];
-    return "traktat/" + id + (slug ? "/" + slug[state.lang === "en" ? "en" : "ru"] : "");
+    return "treatise/" + id + (slug ? "/" + slug[state.lang === "en" ? "en" : "ru"] : "");
   }
 
   // The page we are on, written the way url() writes it.
@@ -294,7 +294,7 @@
 
     // a prerendered treatise page says which treatise it is; that wins over the
     // one the visitor last looked at
-    if (DECLARED.startsWith("traktat/")) {
+    if (DECLARED.startsWith("treatise/")) {
       state.treatiseId = DECLARED.split("/")[1];
       localStorage.setItem("ao.treatise", state.treatiseId);
     }
@@ -508,7 +508,7 @@
   function declaredRoute() {
     const parts = DECLARED.split("/").filter(Boolean);
     if (parts[0] === "pose" && parts[1]) return { view: "pose", key: parts[1] };
-    if (parts[0] === "traktat" && parts[1]) {
+    if (parts[0] === "treatise" && parts[1]) {
       return { view: SUB_VIEWS[parts[2]] || "about", treatise: parts[1] };
     }
     return { view: "home" };

@@ -23,41 +23,42 @@
 ## Что где лежит
 
 ```
-index.html                  шаблон сайта и главная страница (собирается)
-asana/<key>/index.html      страница асаны (собирается)
-traktat/<id>/index.html     о трактате (собирается)
-traktat/<id>/vstuplenie/    вступление и перечень асан (собирается)
-traktat/<id>/prilozhenie/   приложение (собирается)
-traktat/<id>/primechaniya/  примечания к чтениям (собирается)
-en/…                        те же страницы по-английски (собираются)
-sitemap.xml, robots.txt     карта сайта и правила для роботов (собираются)
-assets/style.css            оформление
-assets/app.js               загрузка данных, навигация, рендер
-assets/fonts/*.woff2        шрифты сайта (собираются из Google Fonts, лицензия OFL)
-data/treatises.json         индекс трактатов и общие подписи сайта
-data/ahirbudhnya-samhita.json   данные трактата (генерируются из PDF)
-data/vasishtha-samhita.json     данные второго трактата (тоже из PDF)
-data/manasollasa.json       данные третьего трактата (тоже из PDF)
-sources/*.pdf               исходные PDF (русский и английский)
-tools/extract.py            сборка JSON Ахирбудхнья-самхиты
-tools/extract_vasishtha.py  сборка JSON Васишт̣ха-сам̣хиты
-tools/extract_manasollasa.py сборка JSON Ма̄насолла̄сы
-tools/deva.py               девана̄гарӣ → IAST, буква в букву
-tools/common.py             общие разборщики PDF (блоки, строки, таблицы)
-tools/translit.py           карта транслитерации IAST → кириллица
-tools/sanskrit.py           знаки у санскритских слов в русском тексте
-tools/authors.py            русские фамилии в краткой датировке
-tools/build_fonts.py        нарезка шрифтов в assets/fonts
-tools/prerender.js          сборка статических страниц (node)
-tools/prerender_check.py    проверка собранных страниц (python)
-package.json                зависимость сборки страниц (jsdom)
+index.html                     шаблон сайта и главная страница (собирается)
+asana/<key>/index.html         страница асаны (собирается)
+treatise/<id>/index.html       о трактате (собирается)
+treatise/<id>/vstuplenie/      вступление и перечень асан (собирается)
+treatise/<id>/prilozhenie/     приложение (собирается)
+treatise/<id>/primechaniya/    примечания к чтениям (собирается)
+en/…                           те же страницы по-английски (собираются)
+sitemap.xml, robots.txt        карта сайта и правила для роботов (собираются)
+assets/style.css               оформление
+assets/app.js                  загрузка данных, навигация, рендер
+assets/fonts/*.woff2           шрифты сайта (из Google Fonts, лицензия OFL)
+data/treatises.json            индекс трактатов и общие подписи сайта
+data/ahirbudhnya-samhita.json  данные трактата (генерируются из PDF)
+data/vasishtha-samhita.json    данные второго трактата (тоже из PDF)
+data/manasollasa.json          данные третьего трактата (тоже из PDF)
+sources/*.pdf                  исходные PDF (русский и английский)
+tools/extract.py               сборка JSON Ахирбудхнья-самхиты
+tools/extract_vasishtha.py     сборка JSON Васишт̣ха-сам̣хиты
+tools/extract_manasollasa.py   сборка JSON Ма̄насолла̄сы
+tools/deva.py                  девана̄гарӣ → IAST, буква в букву
+tools/common.py                общие разборщики PDF (блоки, строки, таблицы)
+tools/translit.py              карта транслитерации IAST → кириллица
+tools/sanskrit.py              знаки у санскритских слов в русском тексте
+tools/authors.py               русские фамилии в краткой датировке
+tools/build_fonts.py           нарезка шрифтов в assets/fonts
+tools/prerender.js             сборка статических страниц (node)
+tools/prerender_check.py       проверка собранных страниц (python)
+package.json                   зависимость сборки страниц (jsdom)
 ```
 
 ## Адреса страниц и сборка
 
 Каждая асана и каждый трактат — отдельный адрес, а не хеш в одном документе:
-`/asana/padmasana/`, `/traktat/manasollasa/`, `/traktat/manasollasa/vstuplenie/`,
-и то же самое под `/en/`. Это важно не для красоты: по хеш-адресу поисковик
+`/asana/padmasana/`, `/treatise/manasollasa/`, `/treatise/manasollasa/vstuplenie/`,
+и то же самое под `/en/`. Общие части адреса — латинские слова, а не транслит:
+`asana`, `treatise`; язык различается только префиксом. Это важно не для красоты: по хеш-адресу поисковик
 видит один документ, а ассистенты (ChatGPT, Claude, Perplexity) вообще не
 исполняют JavaScript — им нужен текст в самом HTML.
 

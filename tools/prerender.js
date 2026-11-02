@@ -98,7 +98,7 @@ function routesOf(treatises) {
     else {
       const id = route.split("/")[1];
       const section = route.split("/")[2] || "";
-      dir = prefix + "traktat/" + id + "/" + (section ? section + "/" : "");
+      dir = prefix + "treatise/" + id + "/" + (section ? section + "/" : "");
     }
     pages.push({
       route, lang, treatiseId, dir,
@@ -115,7 +115,7 @@ function routesOf(treatises) {
     }));
     keys.forEach((treatiseId, key) => push("pose/" + key, lang, treatiseId));
     treatises.forEach((tr) => {
-      push("traktat/" + tr.id, lang, tr.id);
+      push("treatise/" + tr.id, lang, tr.id);
       const slug = { chapter: { ru: "vstuplenie", en: "intro" },
                      appendix: { ru: "prilozhenie", en: "appendix" },
                      notes: { ru: "primechaniya", en: "notes" } };
@@ -123,7 +123,7 @@ function routesOf(treatises) {
       const field = { chapter: "prologue", appendix: "appendix", notes: "notes" };
       for (const view of ["chapter", "appendix", "notes"]) {
         if ((tr[field[view]] && tr[field[view]][lang] || []).length) {
-          push("traktat/" + tr.id + "/" + slug[view][lang === "en" ? "en" : "ru"], lang, tr.id);
+          push("treatise/" + tr.id + "/" + slug[view][lang === "en" ? "en" : "ru"], lang, tr.id);
         }
       }
     });
@@ -138,9 +138,9 @@ function twin(page) {
   if (page.route === "home") {
     return { route: "home", lang: page.lang === "ru" ? "en" : "ru" };
   }
-  if (parts[0] === "traktat" && parts[2]) {
+  if (parts[0] === "treatise" && parts[2]) {
     const back = Object.entries(slugRu).find(([, en]) => en === parts[2]);
-    return { route: parts[2] ? "traktat/" + parts[1] + "/" + (page.lang === "en" ? back[0] : slugRu[parts[2]]) : page.route,
+    return { route: parts[2] ? "treatise/" + parts[1] + "/" + (page.lang === "en" ? back[0] : slugRu[parts[2]]) : page.route,
              lang: page.lang === "ru" ? "en" : "ru" };
   }
   return { route: page.route, lang: page.lang === "ru" ? "en" : "ru" };
@@ -151,7 +151,7 @@ function dirOf(route, lang) {
   if (route === "home") return prefix;
   if (route.startsWith("pose/")) return prefix + "asana/" + route.split("/")[1] + "/";
   const parts = route.split("/");
-  return prefix + "traktat/" + parts[1] + "/" + (parts[2] ? parts[2] + "/" : "");
+  return prefix + "treatise/" + parts[1] + "/" + (parts[2] ? parts[2] + "/" : "");
 }
 
 /* ---------------------------------------------------------------- rendering */
@@ -232,8 +232,8 @@ function seoBlock(page, title, description, h1, site, treatiseTitle) {
   const crumbs = [{ name: site, url: SITE + "/" }];
   if (page.route.startsWith("pose/")) {
     crumbs.push({ name: h1 || title, url });
-  } else if (page.route.startsWith("traktat/")) {
-    crumbs.push({ name: treatiseTitle, url: SITE + "/" + dirOf("traktat/" + page.route.split("/")[1], page.lang) });
+  } else if (page.route.startsWith("treatise/")) {
+    crumbs.push({ name: treatiseTitle, url: SITE + "/" + dirOf("treatise/" + page.route.split("/")[1], page.lang) });
     if (page.route.split("/")[2]) crumbs.push({ name: h1 || title, url });
   }
 
