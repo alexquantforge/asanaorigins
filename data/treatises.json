@@ -167,6 +167,30 @@
     "ru": "sources/Hathatattvakaumudi_Chapter_7_Critical_Edition_RU.pdf",
     "en": "sources/Hathatattvakaumudi_Chapter_7_Critical_Edition_EN.pdf"
    }
+  },
+  {
+   "id": "sharngadharapaddhati",
+   "file": "data/sharngadharapaddhati.json",
+   "title": {
+    "ru": "Ш́āрн̇гадхара-паддхати",
+    "en": "Śārṅgadharapaddhati"
+   },
+   "subtitle": {
+    "ru": "главы 157–158 · раздел хатха-йоги · девять стихов об āсанах",
+    "en": "chapters 157–158 · the haṭha-yoga section · nine verses on āsanas"
+   },
+   "tradition": {
+    "ru": "хат̣ха-йога",
+    "en": "Haṭha yoga"
+   },
+   "edition": {
+    "ru": "санскритская антология 1363 г. · печатное издание: Петерсон, Bombay Sanskrit Series XXXVII (1888) · стихи 4375–4437",
+    "en": "Sanskrit anthology of 1363 · printed edition: Peterson, Bombay Sanskrit Series XXXVII (1888) · verses 4375–4437"
+   },
+   "pdf": {
+    "ru": "sources/Ш́āрн̇гадхара-паддхати (1363 г. н. э.).pdf",
+    "en": "sources/Śārṅgadharapaddhati (1363 CE).pdf"
+   }
   }
  ]
 }

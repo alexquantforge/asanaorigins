@@ -1,0 +1,2849 @@
+{
+ "id": "sharngadharapaddhati",
+ "chapter": "157–158",
+ "title": {
+  "ru": "Ш́āрн̇гадхара-паддхати",
+  "en": "Śārṅgadharapaddhati"
+ },
+ "about": {
+  "ru": [
+   {
+    "type": "title",
+    "text": "«Ш́āрн̇гадхара-паддхати» (1363 г. н. э.): Исчерпывающее историко-текстологическое исследование датировки и полный корпус āсан ранней хатха-йоги"
+   },
+   {
+    "type": "byline",
+    "text": "Автор-составитель антологии: Ш́āрн̇гадхара (Śārṅgadhara), сын Дāмодары, внук Рāгхавадевы Дата создания: 1420 год эры Викрама Самват (Vikrama Saṃvat 1420) = 1363 год н. э. Регион составления: Раджастхан (Ш́āкамбхарӣ / Рантхамбор / Дхундхар) Базовое печатное издание: The Paddhati of Śārṅgadhara: A Sanskrit Anthology, edited by Peter Peterson. Vol. I: The Text. Bombay Sanskrit Series No. XXXVII. Bombay: Government Central Book Depôt, 1888."
+   },
+   {
+    "type": "h3",
+    "text": "Аннотация"
+   },
+   {
+    "type": "p",
+    "text": "Настоящее академическое исследование посвящено комплексному анализу датировки знаменитой санскритской антологии «Ш́āрн̇гадхара-паддхати» (Śārṅgadharapaddhati, 1363 г. н. э.) и полному научному документированию всех содержащихся в ней описаний āсан."
+   },
+   {
+    "type": "p",
+    "text": "В историографии индийской мысли «Ш́āрн̇гадхара-паддхати» занимает исключительное место: это старейший точно датированный энциклопедический памятник XIV века, зафиксировавший психофизические техники хатха-йоги до эпохи Свāтмāрāмы («Хат̣ха-йога-прадӣпикā», XV в.). Поскольку Ш́āрн̇гадхара включил в главы 157 и 158 дословные цитаты из «Даттāтрея-йога-ш́āстры» (Dattātreyayogaśāstra), точная дата его труда (1363 г.) служит абсолютным хронологическим репером (terminus ante quem) для возникновения систематической хатха-йоги в Индии."
+   }
+  ],
+  "en": [
+   {
+    "type": "title",
+    "text": "The Śārṅgadharapaddhati (1363 CE): Exhaustive Historical-Philological Dating Analysis and the Complete Āsana Corpus of Early Haṭhayoga"
+   },
+   {
+    "type": "byline",
+    "text": "Compiler: Śārṅgadhara, son of Dāmodara, grandson of Rāghavadeva Date of Composition: Vikrama Saṃvat 1420 = 1363 CE Region: Rajasthan (Śākambharī / Raṇastambhapura / Ḍhūṇḍhāra) Primary Printed Edition: The Paddhati of Śārṅgadhara: A Sanskrit Anthology, edited by Peter Peterson. Vol. I: The Text. Bombay Sanskrit Series No. XXXVII. Bombay: Government Central Book Depôt, 1888."
+   },
+   {
+    "type": "h3",
+    "text": "Abstract"
+   },
+   {
+    "type": "p",
+    "text": "This critical monograph provides an exhaustive philological and historical study of the dating of the celebrated 14th-century Sanskrit anthology, the Śārṅgadharapaddhati (1363 CE), followed by a comprehensive scholarly presentation of its complete corpus of āsana descriptions."
+   },
+   {
+    "type": "p",
+    "text": "In the historiography of Indian physical and contemplative traditions, the Śārṅgadharapaddhati occupies a pivotal position: it is the earliest securely and explicitly dated encyclopedic Sanskrit text to transmit the bodily and breath techniques of Haṭhayoga prior to the compilation of the Haṭhapradīpikā (c. 1400–1450 CE). Because Śārṅgadhara incorporated verbatim citations from the Dattātreyayogaśāstra into Chapters 157 and 158, the secure date of his work (1363 CE) establishes an absolute chronological benchmark (terminus ante quem) for the emergence and widespread North Indian circulation of systematic Haṭhayoga."
+   }
+  ]
+ },
+ "dating": {
+  "ru": {
+   "title": "ЧАСТЬ I. ИСЧЕРПЫВАЮЩЕЕ ОБОСНОВАНИЕ ДАТИРОВКИ (1363 Г. Н. Э.)",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Датировка антологии 1363 годом нашей эры — одна из наиболее надёжных в индологии. Она опирается на взаимное совпадение трёх автономных групп данных: 1. Колофонов манускриптов с указанием года по эре Викрама; 2. Внутренней генеалогии автора за три поколения в стихах 1.2–1.6; 3. Независимой исторической хронологии царя Хаммӣрадевы Чаухана (1282–1301 гг.), зафиксированной в раджпутской эпиграфике, санскритских махакавьях и мусульманских хрониках Делийского султаната."
+    },
+    {
+     "type": "h3",
+     "text": "1. Свидетельства колофонов рукописей и эра Викрама Самват"
+    },
+    {
+     "type": "p",
+     "text": "В колофонах древнейших списков антологии (начиная с манускриптов, изученных Теодором Ауфрехтом в 1873 г., и правительственных списков Пуны, изданных Питером Питерсоном в 1888 г.) зафиксирована точная дата завершения труда автором:"
+    },
+    {
+     "type": "quote",
+     "paragraphs": [
+      "𝑠𝑎ṃ𝑣𝑎𝑡 1420 𝑣𝑎𝑟ṣ𝑒 ... śā𝑟ṅ𝑔𝑎𝑑ℎ𝑎𝑟𝑒ṇ𝑎 𝑝𝑎𝑑𝑑ℎ𝑎𝑡𝑖ḥ 𝑠𝑎ṃ𝑘ṛ𝑡ā"
+     ]
+    },
+    {
+     "type": "p",
+     "text": "(«В 1420 году эры Самват составлена эта паддхати Ш́āрн̇гадхарой»)."
+    },
+    {
+     "type": "p",
+     "text": "Математический пересчёт эры:"
+    },
+    {
+     "type": "list",
+     "ordered": false,
+     "items": [
+      {
+       "html": "Эра Викрама Самват (Vikrama Saṃvat): индийская календарная система, берущая начало в 57 г. до н. э. (согласно традиции, установленная легендарным царем Викрамадитьей в честь победы над саками).",
+       "level": 1
+      },
+      {
+       "html": "Перевод в европейское летоисчисление (нашу эру):",
+       "level": 1
+      }
+     ]
+    },
+    {
+     "type": "quote",
+     "paragraphs": [
+      "Год н. э. = 1420 −57 = 1363 г. н. э."
+     ]
+    },
+    {
+     "type": "list",
+     "ordered": false,
+     "items": [
+      {
+       "html": "Сезонный сдвиг: в зависимости от используемого календарного стиля (чайтради — отсчёт с марта/апреля, или карттикади — отсчёт с октября/ноября, принятый в западной Индии и Гуджарате), 1420 год Викрама падает на период 1363–1364 гг. н. э. Традиционно индологи принимают 1363 год как стандартный репер.",
+       "level": 1
+      }
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "2. Внутренняя родословная автора: разбор автобиографических стихов (1.2–1.6)"
+    },
+    {
+     "type": "p",
+     "text": "В первой главе антологии — «Описание рода поэта» (Kavi-vaṃśa-varṇana, стихи 1–12) — Ш́āрн̇гадхара оставил редчайшее по точности автобиографическое свидетельство, связывающее его семью с правящей династией:"
+    },
+    {
+     "type": "h4",
+     "text": "Стих 1.2: Царь Хаммӣра и род Чāхамāна",
+     "verse": "1.2"
+    },
+    {
+     "type": "p",
+     "text": "पुरा शाकम्भरीदेशे श्रीमान्हम्मीरभूपतिः । चाहवाणान्वये जातः ख्यातः शौर्ये इवार्जुनः ॥ २ ॥"
+    },
+    {
+     "type": "p",
+     "text": "IAST: purā śākambharī-deśe śrīmān hammīra-bhūpatiḥ / cāhavāṇānvaye jātaḥ khyātaḥ śaurya ivārjunaḥ // 2 //"
+    },
+    {
+     "type": "p",
+     "text": "пурā ш́āкамбхарӣ-деш́е ш́рӣмāн хаммӣра-бхӯпатих̣ / чāхавāн̣āнвайе джāтах̣ кхйāтах̣ ш́аурйе ивāрджунах̣ // 2 //"
+    },
+    {
+     "type": "words",
+     "label": "Пословный разбор (падавибхāга)",
+     "paragraphs": [
+      "purā (некогда / встарь) śākambharī-deśe (в земле Ш́āкамбхарӣ / восточный Раджастхан) śrīmān (достославный / благородный) hammīra-bhūpatiḥ (царь Хаммӣра) / cāhavāṇa-anvaye (в роду Чāхамāна [Чауханов]) jātaḥ (рождённый) khyātaḥ (прославленный) śaurye (в воинской доблести) iva arjunaḥ (словно [герой Махабхараты] Арджуна) // 2 //"
+     ],
+     "groups": [
+      [
+       "purā",
+       "некогда / встарь"
+      ],
+      [
+       "śākambharī-deśe",
+       "в земле Ш́āкамбхарӣ / восточный Раджастхан"
+      ],
+      [
+       "śrīmān",
+       "достославный / благородный"
+      ],
+      [
+       "hammīra-bhūpatiḥ",
+       "царь Хаммӣра"
+      ],
+      [
+       "cāhavāṇa-anvaye",
+       "в роду Чāхамāна [Чауханов]"
+      ],
+      [
+       "jātaḥ",
+       "рождённый"
+      ],
+      [
+       "khyātaḥ",
+       "прославленный"
+      ],
+      [
+       "śaurye",
+       "в воинской доблести"
+      ],
+      [
+       "iva arjunaḥ",
+       "словно [герой Махабхараты] Арджуна"
+      ],
+      [
+       "2 //",
+       ""
+      ]
+     ]
+    },
+    {
+     "type": "prose",
+     "key": "literary",
+     "label": "Литературный перевод",
+     "paragraphs": [
+      "«Некогда в земле Ш́āкамбхарӣ правил достославный царь Хаммӣра, рождённый в царском роду Чāхамāна, прославленный своей доблестью, подобно Арджуне»."
+     ]
+    },
+    {
+     "type": "h4",
+     "text": "Стих 1.3: Дед автора — царский наставник Рāгхавадева",
+     "verse": "1.3"
+    },
+    {
+     "type": "p",
+     "text": "तस्याभवत्सभ्यजनेषु मुख्यः परोपकारव्यसनैकनिष्ठः । पुरंदरस्येव गुरुर्गरीयान्द्विजाग्रणी राघवदेवनामा ॥ ३ ॥"
+    },
+    {
+     "type": "p",
+     "text": "IAST: tasyābhavat sabhya-janeṣu mukhyaḥ paropakāra-vyasanaika-niṣṭhaḥ / puraṃdarasyeva gurur garīyān dvijāgraṇī rāghavadeva-nāmā // 3 //"
+    },
+    {
+     "type": "p",
+     "text": "тасйāбхават сабхйа-джанешв мукхйах̣ паропакāра-вйасанаика-ништ̣хах̣ / пурам̣дарасйева гурур гарӣйāн двиджāгран̣ӣ рāгхавадева-нāмā // 3 //"
+    },
+    {
+     "type": "words",
+     "label": "Пословный разбор (падавибхāга)",
+     "paragraphs": [
+      "tasya (у него [у царя]) abhavat (был) sabhya-janeṣu (среди придворных мужей собрания) mukhyaḥ (главный / первейший) para-upakāra-vyasana-eka-niṣṭhaḥ (всецело преданный лишь благу ближних) / puraṃdarasya iva (словно как у Пурандары [Индры]) guruḥ (духовный наставник / советник) garīyān (высокопочитаемый / великий) dvija-agraṇīḥ (предводитель брахманов) rāghavadeva-nāmā (по имени Рāгхавадева) // 3 //"
+     ],
+     "groups": [
+      [
+       "tasya",
+       "у него [у царя]"
+      ],
+      [
+       "abhavat",
+       "был"
+      ],
+      [
+       "sabhya-janeṣu",
+       "среди придворных мужей собрания"
+      ],
+      [
+       "mukhyaḥ",
+       "главный / первейший"
+      ],
+      [
+       "para-upakāra-vyasana-eka-niṣṭhaḥ",
+       "всецело преданный лишь благу ближних"
+      ],
+      [
+       "puraṃdarasya iva",
+       "словно как у Пурандары [Индры]"
+      ],
+      [
+       "guruḥ",
+       "духовный наставник / советник"
+      ],
+      [
+       "garīyān",
+       "высокопочитаемый / великий"
+      ],
+      [
+       "dvija-agraṇīḥ",
+       "предводитель брахманов"
+      ],
+      [
+       "rāghavadeva-nāmā",
+       "по имени Рāгхавадева"
+      ],
+      [
+       "3 //",
+       ""
+      ]
+     ]
+    },
+    {
+     "type": "prose",
+     "key": "literary",
+     "label": "Литературный перевод",
+     "paragraphs": [
+      "«Главным среди членов его царского собрания был благородный предводитель брахманов по имени Рāгхавадева, преданный благу других и бывший для царя столь же великим наставником, как Брихаспати для Индры»."
+     ]
+    },
+    {
+     "type": "h4",
+     "text": "Стих 1.4: Сыновья Рāгхавадевы",
+     "verse": "1.4"
+    },
+    {
+     "type": "p",
+     "text": "गोपालदामोदरदेवदाससंज्ञा बभूवुस्तनयास्तदीयाः । नेत्रावतारा इव चन्द्रमौलेरपाकृतध्वान्तगणाल्रयोऽपि ॥ ४ ॥"
+    },
+    {
+     "type": "p",
+     "text": "IAST: gopāla-dāmodara-devadāsa-saṃjñā babhūvus tanayās tadīyāḥ / netrāvatārā iva candramauler apākṛta-dhvānta-gaṇās trayo ’pi // 4 //"
+    },
+    {
+     "type": "p",
+     "text": "гопāла-дāмодара-девадāса-сам̣джн̃ā бабхӯвус танайāс тадӣйāх̣ / нетрāватāрā ива чандрамаулер апāкр̣та-дхвāнта-ган̣āс трайо ’пи // 4 //"
+    },
+    {
+     "type": "words",
+     "label": "Пословный разбор (падавибхāга)",
+     "paragraphs": [
+      "gopāla-dāmodara-devadāsa-saṃjñāḥ (носящие имена Гопала, Дāмодара и Девадāса) babhūvuḥ (были) tanayāḥ tadīyāḥ (его сыновья) / netra-avatārāḥ iva (словно воплощения очей) candra-mauleḥ (увенчанного серпом луны [Шивы]) apākṛta-dhvānta-gaṇāḥ (рассеивающие сонмы тьмы невежества) trayaḥ api (все трое) // 4 //"
+     ],
+     "groups": [
+      [
+       "gopāla-dāmodara-devadāsa-saṃjñāḥ",
+       "носящие имена Гопала, Дāмодара и Девадāса"
+      ],
+      [
+       "babhūvuḥ",
+       "были"
+      ],
+      [
+       "tanayāḥ tadīyāḥ",
+       "его сыновья"
+      ],
+      [
+       "netra-avatārāḥ iva",
+       "словно воплощения очей"
+      ],
+      [
+       "candra-mauleḥ",
+       "увенчанного серпом луны [Шивы]"
+      ],
+      [
+       "apākṛta-dhvānta-gaṇāḥ",
+       "рассеивающие сонмы тьмы невежества"
+      ],
+      [
+       "trayaḥ api",
+       "все трое"
+      ],
+      [
+       "4 //",
+       ""
+      ]
+     ]
+    },
+    {
+     "type": "prose",
+     "key": "literary",
+     "label": "Литературный перевод",
+     "paragraphs": [
+      "«Сыновьями его были трое — по имени Гопала, Дāмодара и Девадāса, которые, подобно трём очам Шивы, рассеивали всякую тьму»."
+     ]
+    },
+    {
+     "type": "h4",
+     "text": "Стих 1.5: Отец составителя — Дāмодара",
+     "verse": "1.5"
+    },
+    {
+     "type": "p",
+     "text": "तेषां मध्ये यस्तु दामोदरोऽभूदुत्पाद्य त्रीनात्मजान्वीतरागः । भागीरथ्यां शुद्धदेहं विधाय ज्ञानादात्मन्येव निष्ठां जगाम ॥ ५ ॥"
+    },
+    {
+     "type": "p",
+     "text": "IAST: teṣāṃ madhye yas tu dāmodaro ’bhūd utpādya trīn ātmajān vītarāgaḥ / bhāgīrathyāṃ śuddha-dehaṃ vidhāya jñānād ātmany eva niṣṭhāṃ jagāma // 5 //"
+    },
+    {
+     "type": "p",
+     "text": "тешāм̣ мадхйе йас ту дāмодаро ’бхӯд утпāдйа трӣн āтмаджāн вӣтарāгах̣ / бхāгӣратхйāм̣ ш́уддха-дехам̣ видхāйа джн̃āнāд āтманй ева ништ̣хāм̣ джагāма // 5 //"
+    },
+    {
+     "type": "words",
+     "label": "Пословный разбор (падавибхāга)",
+     "paragraphs": [
+      "teṣām madhye (среди них) yaḥ tu (тот же, кто) dāmodaraḥ abhūt (был Дāмодарой) utpādya (произведя на свет) trīn ātmajān (троих сыновей) vītarāgaḥ (став отрешённым от мира / бесстрастным) / bhāgīrathyām (в водах Бхагиратхи [Ганги]) śuddha-deham vidhāya (очистив своё тело [совершив праведную религиозную кончину]) jñānāt (силой высшего духовного ведения) ātmani eva (в самом Атмане) niṣṭhām jagāma (обрел окончательное упокоение) // 5 //"
+     ],
+     "groups": [
+      [
+       "teṣām madhye",
+       "среди них"
+      ],
+      [
+       "yaḥ tu",
+       "тот же, кто"
+      ],
+      [
+       "dāmodaraḥ abhūt",
+       "был Дāмодарой"
+      ],
+      [
+       "utpādya",
+       "произведя на свет"
+      ],
+      [
+       "trīn ātmajān",
+       "троих сыновей"
+      ],
+      [
+       "vītarāgaḥ",
+       "став отрешённым от мира / бесстрастным"
+      ],
+      [
+       "bhāgīrathyām",
+       "в водах Бхагиратхи [Ганги]"
+      ],
+      [
+       "śuddha-deham vidhāya",
+       "очистив своё тело [совершив праведную религиозную кончину]"
+      ],
+      [
+       "jñānāt",
+       "силой высшего духовного ведения"
+      ],
+      [
+       "ātmani eva",
+       "в самом Атмане"
+      ],
+      [
+       "niṣṭhām jagāma",
+       "обрел окончательное упокоение"
+      ],
+      [
+       "5 //",
+       ""
+      ]
+     ]
+    },
+    {
+     "type": "prose",
+     "key": "literary",
+     "label": "Литературный перевод",
+     "paragraphs": [
+      "«Среди них Дāмодара, родив троих сыновей, исполнился отречения от мира, очистил своё тело в священных водах Ганги и силой истинного знания обрёл слияние с Высшим Атманом»."
+     ]
+    },
+    {
+     "type": "h4",
+     "text": "Стих 1.6: Ш́āрн̇гадхара и его братья",
+     "verse": "1.6"
+    },
+    {
+     "type": "p",
+     "text": "ज्येष्ठः शार्ङ्गधरस्तेषां लघुर्लक्ष्मीधरस्ततः । कृष्णोऽनुजस्ततस्तेषां त्रय एतेऽमितेजसः ॥ ६ ॥"
+    },
+    {
+     "type": "p",
+     "text": "IAST: jyeṣṭhaḥ śārṅgadharas teṣāṃ laghur lakṣmīdharas tataḥ / kṛṣṇo ’nujas tatas teṣāṃ traya ete ’mitejasaḥ // 6 //"
+    },
+    {
+     "type": "p",
+     "text": "джйешт̣хах̣ ш́āрн̇гадхарас тешāм̣ лагхур лакшмӣдхарас татах̣ / кр̣шн̣о ’нуджас татас тешāм̣ трайа ете ’митеджасах̣ // 6 //"
+    },
+    {
+     "type": "words",
+     "label": "Пословный разбор (падавибхāга)",
+     "paragraphs": [
+      "jyeṣṭhaḥ (старший) śārṅgadharaḥ (Ш́āрн̇гадхара) teṣām (из них) laghuḥ (младший за ним) lakṣmīdharaḥ tataḥ (затем Лакшмӣдхара) / kṛṣṇaḥ anujaḥ (младший брат Кришна) tataḥ teṣām (затем из них) trayaḥ ete (эти трое) amita-tejasaḥ (наделённые безмерным величием и блеском) // 6 //"
+     ],
+     "groups": [
+      [
+       "jyeṣṭhaḥ",
+       "старший"
+      ],
+      [
+       "śārṅgadharaḥ",
+       "Ш́āрн̇гадхара"
+      ],
+      [
+       "teṣām",
+       "из них"
+      ],
+      [
+       "laghuḥ",
+       "младший за ним"
+      ],
+      [
+       "lakṣmīdharaḥ tataḥ",
+       "затем Лакшмӣдхара"
+      ],
+      [
+       "kṛṣṇaḥ anujaḥ",
+       "младший брат Кришна"
+      ],
+      [
+       "tataḥ teṣām",
+       "затем из них"
+      ],
+      [
+       "trayaḥ ete",
+       "эти трое"
+      ],
+      [
+       "amita-tejasaḥ",
+       "наделённые безмерным величием и блеском"
+      ],
+      [
+       "6 //",
+       ""
+      ]
+     ]
+    },
+    {
+     "type": "prose",
+     "key": "literary",
+     "label": "Литературный перевод",
+     "paragraphs": [
+      "«Старшим из них был Ш́āрн̇гадхара, младше него — Лакшмӣдхара, и затем их младший брат Кришна; все трое отличались безмерным сиянием ума»."
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "3. Историко-эпиграфический синхронизм: Царь Хаммӣрадева Чаухан (1282–1301 гг.)"
+    },
+    {
+     "type": "p",
+     "text": "Упомянутый царь Хаммӣра — это не фольклорный персонаж, а величайший исторический герой средневекового Раджастхана: Хаммӣрадева (Hammīradeva / Hamīr Dev), правитель неприступной твердыни Рантхамбор (Raṇastambhapura) и области Ш́āкамбхарӣ."
+    },
+    {
+     "type": "p",
+     "text": "Документированная хронология правления:"
+    },
+    {
+     "type": "list",
+     "ordered": true,
+     "items": [
+      {
+       "html": "Восшествие на трон (1282/1283 г. н. э. / 1339 г. эры Викрама): Зафиксировано в джайнской исторической махакавье Hammīra-mahākāvya Наячандры Сури (песнь VIII.54), а также в биографическом сборнике Prabandhakośa Раджашекхары Сури (составлен в Дели в 1349 г. н. э.).",
+       "level": 1
+      },
+      {
+       "html": "Осада крепости Рантхамбор и гибель Хаммӣры (июль 1301 г. н. э.): Хаммӣра дал приют беглым монгольским военачальникам, отказавшись выдать их делийскому султану Алауддину Хильджи. Султан лично осадил Рантхамбор с огромной армией. Осада длилась много месяцев; после предательства военачальников Ратипалы и Ранамаллы и совершения раджпутскими женщинами обряда самосожжения (джаухар), царь Хаммӣра погиб в решающей битве 11 июля 1301 г. (3 зу-ль-каада 700 г. хиджры).",
+       "level": 1
+      }
+     ]
+    },
+    {
+     "type": "list",
+     "ordered": false,
+     "items": [
+      {
+       "html": "Это событие подробно описано синхронными очевидцами: придворным историографом делийских султанов Амиром Хосровом Дехлеви в труде «Хазаин уль-Футух» (Khazā’in al-Futūḥ, 1311 г.) и Зияуддином Барани в «Тарих-и Фируз Шахи».",
+       "level": 2
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": "Поколенческий расчёт династии составителя:"
+    },
+    {
+     "type": "list",
+     "ordered": false,
+     "items": [
+      {
+       "html": "Поколение 1 (дед): Брахман Рāгхавадева служил придворным наставником (раджагуру) царя Хаммӣры в пору расцвета его царствования — приблизительно в 1285–1300 гг.",
+       "level": 1
+      },
+      {
+       "html": "Поколение 2 (отец): Дāмодара жил и творил в следующем поколении — приблизительно в 1310–1335 гг.",
+       "level": 1
+      },
+      {
+       "html": "Поколение 3 (внук): Ш́āрн̇гадхара (старший сын Дāмодары), родившись ок. 1315–1320 гг., составил свой грандиозный энциклопедический труд в 163 разделах в пору творческой зрелости к 1363 году.",
+       "level": 1
+      },
+      {
+       "html": "Временной интервал: Между гибелью Хаммӣры (1301 г.) и завершением антологии Ш́āрн̇гадхары (1363 г.) прошло ровно 62 года — что идеально соответствует естественной смене двух поколений от деда-царедворца к внуку.",
+       "level": 1
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": "Стих самого царя Хаммӣры в антологии:"
+    },
+    {
+     "type": "p",
+     "text": "В главе 140 (Vīrarasa-nirvedaḥ, стих 3974) Ш́āрн̇гадхара приводит четверостишие с прямой атрибуцией śrī-hammīrasya («Царя Хаммӣры») — героическое изречение правителя перед выходом на последний бой. Это доказывает, что семья Рāгхавадевы бережно хранила подлинные архивные и литературные рукописи дома Чауханов."
+    },
+    {
+     "type": "h3",
+     "text": "4. Текстологические границы (terminus post quem и terminus ante quem)"
+    },
+    {
+     "type": "list",
+     "ordered": true,
+     "items": [
+      {
+       "html": "Нижняя граница (Terminus post quem): В антологии широко цитируются поэты и авторы конца XIII века (поэты двора поздних Чауханов и правителей династии Сена), однако полностью отсутствуют авторы, идеи или реалии эпохи Тимуридов и позднего Делийского султаната XV века.",
+       "level": 1
+      },
+      {
+       "html": "Верхняя граница (Terminus ante quem): Антология Ш́āрн̇гадхары стала классическим образцом для последующих составителей флорилегиев: кашмирская антология Subhāṣitāvalī Валлабхадевы (XV в.) заимствует из «Ш́āрн̇гадхара-паддхати» более 300 стихов, сохраняя имена авторов. Старейшие сохранившиеся манускрипты антологии на бумаге относятся к XV–XVI векам (например, лондонская рукопись RAS Tod 32).",
+       "level": 1
+      }
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "5. История научного изучения и признание датировки"
+    },
+    {
+     "type": "list",
+     "ordered": false,
+     "items": [
+      {
+       "html": "1873 г.: Теодор Ауфрехт (Theodor Aufrecht) в исследовании «Ueber die Paddhati von Çârñgadhara» (ZDMG, Bd. 27, S. 1–120) впервые ввёл памятник в европейскую науку и доказал дату 1363 г.",
+       "level": 1
+      },
+      {
+       "html": "1888 г.: Питер Питерсон (Peter Peterson) подготовил первое печатное издание антологии (Bombay Sanskrit Series, No. 37), подтвердив правильность выводов Ауфрехта на базе правительственных рукописей Пуны.",
+       "level": 1
+      },
+      {
+       "html": "XX–XXI вв.: Эту датировку безоговорочно приняли крупнейшие историки индийской литературы — А. Б. Кит (A History of Sanskrit Literature, 1928), М. Винтерниц (Geschichte der indischen Litteratur, 1936), С. К. Де (History of Sanskrit Literature, 1947), Людвик Штернбах (Subhāṣita, Gnomic and Didactic Literature, 1974), а также ведущие современные исследователи йоги — Джеймс Маллинсон и Джейсон Бёрч (Haṭha Yoga Project, SOAS University of London).",
+       "level": 1
+      }
+     ]
+    }
+   ]
+  },
+  "en": {
+   "title": "PART I. THE HISTORICAL AND PHILOLOGICAL DATING (1363 CE)",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "The dating of the Śārṅgadharapaddhati to 1363 CE is universally recognized as one of the most solid chronological anchors in medieval Indology. It rests upon the convergence of three independent lines of evidence: 1. Direct manuscript colophons recording the exact year in the Vikrama Saṃvat calendar; 2. The compiler’s autobiographical genealogy spanning three generations in verses 1.2–1.6; 3. External epigraphical and historiographical synchronisms with the documented reign of King Hammīradeva Cāhamāna of Raṇastambhapura (r. 1282–1301 CE)."
+    },
+    {
+     "type": "h3",
+     "text": "1. Manuscript Colophons and the Vikrama Saṃvat Era"
+    },
+    {
+     "type": "p",
+     "text": "In the colophons of the earliest preserved manuscripts of the anthology—identified by Theodor Aufrecht in 1873 and Peter Peterson in 1888—the exact formulaic date of completion is preserved:"
+    },
+    {
+     "type": "quote",
+     "paragraphs": [
+      "𝑠𝑎ṃ𝑣𝑎𝑡 1420 𝑣𝑎𝑟ṣ𝑒 ... śā𝑟ṅ𝑔𝑎𝑑ℎ𝑎𝑟𝑒ṇ𝑎 𝑝𝑎𝑑𝑑ℎ𝑎𝑡𝑖ḥ 𝑠𝑎ṃ𝑘ṛ𝑡ā"
+     ]
+    },
+    {
+     "type": "p",
+     "text": "(“In the year 1420 of the Saṃvat era, this paddhati was composed by Śārṅgadhara”)."
+    },
+    {
+     "type": "p",
+     "text": "Calendar Conversion:"
+    },
+    {
+     "type": "list",
+     "ordered": false,
+     "items": [
+      {
+       "html": "The Vikrama Saṃvat Era: An epoch standardly counted from 57 BCE.",
+       "level": 1
+      },
+      {
+       "html": "Direct Mathematical Conversion:",
+       "level": 1
+      }
+     ]
+    },
+    {
+     "type": "quote",
+     "paragraphs": [
+      "𝑌𝑒𝑎𝑟 𝐶𝐸= 1420 −57 = 1363 𝐶𝐸"
+     ]
+    },
+    {
+     "type": "list",
+     "ordered": false,
+     "items": [
+      {
+       "html": "Seasonal Adjustment: Depending on whether the local North/West Indian calendar followed the Caitrādi reckoning (new year beginning in March/April) or the Kārttikādi reckoning (beginning in October/November, customary in Rajasthan and Gujarat), the year 1420 corresponds to 1363–1364 CE. Modern scholarly consensus standardly cites 1363 CE.",
+       "level": 1
+      }
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "2. The Internal Lineage of the Author: Analysis of Verses 1.2–1.6"
+    },
+    {
+     "type": "p",
+     "text": "In the opening chapter—Description of the Poet’s Lineage (Kavivaṃśavarṇana, verses 1–12)—Śārṅgadhara provides an explicit, first-person account of his family lineage across three generations:"
+    },
+    {
+     "type": "h4",
+     "text": "Verse 1.2: King Hammīra and the Cāhamāna Dynasty",
+     "verse": "1.2"
+    },
+    {
+     "type": "p",
+     "text": "पुरा शाकम्भरीदेशे श्रीमान्हम्मीरभूपतिः । चाहवाणान्वये जातः ख्यातः शौर्ये इवार्जुनः ॥ २ ॥"
+    },
+    {
+     "type": "p",
+     "text": "purā śākambharī-deśe śrīmān hammīra-bhūpatiḥ / cāhavāṇānvaye jātaḥ khyātaḥ śaurye ivārjunaḥ // 2 //"
+    },
+    {
+     "type": "words",
+     "label": "Word-by-word Analysis (padavibhāga)",
+     "paragraphs": [
+      "purā (formerly / in ancient days); śākambharī-deśe (in the land of Śākambharī / Eastern Rajasthan); śrīmān (the illustrious); hammīra-bhūpatiḥ (King Hammīra); cāhavāṇa-anvaye (in the lineage of the Cāhamānas [Chauhāns]); jātaḥ (born); khyātaḥ (renowned); śaurye (for valor / heroic prowess); iva arjunaḥ (like Arjuna) // 2 //"
+     ],
+     "groups": [
+      [
+       "purā",
+       "formerly / in ancient days"
+      ],
+      [
+       "śākambharī-deśe",
+       "in the land of Śākambharī / Eastern Rajasthan"
+      ],
+      [
+       "śrīmān",
+       "the illustrious"
+      ],
+      [
+       "hammīra-bhūpatiḥ",
+       "King Hammīra"
+      ],
+      [
+       "cāhavāṇa-anvaye",
+       "in the lineage of the Cāhamānas [Chauhāns]"
+      ],
+      [
+       "jātaḥ",
+       "born"
+      ],
+      [
+       "khyātaḥ",
+       "renowned"
+      ],
+      [
+       "śaurye",
+       "for valor / heroic prowess"
+      ],
+      [
+       "iva arjunaḥ",
+       "like Arjuna"
+      ],
+      [
+       "2 //",
+       ""
+      ]
+     ]
+    },
+    {
+     "type": "prose",
+     "key": "literary",
+     "label": "Literary Translation",
+     "paragraphs": [
+      "“Formerly in the land of Śākambharī ruled the illustrious King Hammīra, born in the lineage of the Cāhamānas, renowned for his heroic valor like Arjuna.”"
+     ]
+    },
+    {
+     "type": "h4",
+     "text": "Verse 1.3: The Grandfather — Rāghavadeva, Royal Preceptor",
+     "verse": "1.3"
+    },
+    {
+     "type": "p",
+     "text": "तस्याभवत्सभ्यजнеषु मुख्यः परोपकारव्यसनैकनिष्ठः । पुरंदरस्येव गुरुर्गरीयान्द्विजाग्रणी राघवदेवनामा ॥ ३ ॥"
+    },
+    {
+     "type": "p",
+     "text": "tasyābhavat sabhya-janeṣu mukhyaḥ paropakāra-vyasanaika-niṣṭhaḥ / puraṃdarasyeva gurur garīyān dvijāgraṇī rāghavadeva-nāmā // 3 //"
+    },
+    {
+     "type": "words",
+     "label": "Word-by-word Analysis (padavibhāga)",
+     "paragraphs": [
+      "tasya (his / of the king); abhavat (there was); sabhya-janeṣu (among the courtly councillors); mukhyaḥ (the foremost / chief); para-upakāra-vyasana-eka-niṣṭhaḥ (solely devoted to the welfare of others); puraṃdarasya iva (as for Purandara [Indra]); guruḥ (spiritual preceptor); garīyān (venerable / exalted); dvija-agraṇīḥ (foremost among the twice-born [Brahmins]); rāghavadeva-nāmā (named Rāghavadeva) // 3 //"
+     ],
+     "groups": [
+      [
+       "tasya",
+       "his / of the king"
+      ],
+      [
+       "abhavat",
+       "there was"
+      ],
+      [
+       "sabhya-janeṣu",
+       "among the courtly councillors"
+      ],
+      [
+       "mukhyaḥ",
+       "the foremost / chief"
+      ],
+      [
+       "para-upakāra-vyasana-eka-niṣṭhaḥ",
+       "solely devoted to the welfare of others"
+      ],
+      [
+       "puraṃdarasya iva",
+       "as for Purandara [Indra]"
+      ],
+      [
+       "guruḥ",
+       "spiritual preceptor"
+      ],
+      [
+       "garīyān",
+       "venerable / exalted"
+      ],
+      [
+       "dvija-agraṇīḥ",
+       "foremost among the twice-born [Brahmins]"
+      ],
+      [
+       "rāghavadeva-nāmā",
+       "named Rāghavadeva"
+      ],
+      [
+       "3 //",
+       ""
+      ]
+     ]
+    },
+    {
+     "type": "prose",
+     "key": "literary",
+     "label": "Literary Translation",
+     "paragraphs": [
+      "“The foremost member of his royal assembly was an exalted leader of Brahmins named Rāghavadeva, entirely devoted to benevolence towards others, who served as a venerable counsellor to the king just as Bṛhaspati serves Indra.”"
+     ]
+    },
+    {
+     "type": "h4",
+     "text": "Verse 1.4: The Sons of Rāghavadeva",
+     "verse": "1.4"
+    },
+    {
+     "type": "p",
+     "text": "गोपालदामोदरदेवदाससंज्ञा बभूवुस्तनयास्तदीयाः । नेत्रावतारा इव चन्द्रमौलेरपाकृतध्वान्तगणाल्रयोऽपि ॥ ४ ॥"
+    },
+    {
+     "type": "p",
+     "text": "gopāla-dāmodara-devadāsa-saṃjñā babhūvus tanayās tadīyāḥ / netrāvatārā iva candramauler apākṛta-dhvānta-gaṇās trayo ’pi // 4 //"
+    },
+    {
+     "type": "words",
+     "label": "Word-by-word Analysis (padavibhāga)",
+     "paragraphs": [
+      "gopāla-dāmodara-devadāsa-saṃjñāḥ (bearing the names Gopāla, Dāmodara, and Devadāsa); babhūvuḥ (were); tanayāḥ tadīyāḥ (his sons); netra-avatārāḥ iva (like incarnations of the eyes); candra-mauleḥ (of the moon-crested god [Śiva]); apākṛta-dhvānta-gaṇāḥ (dispelling hosts of darkness); trayaḥ api (all three) // 4 //"
+     ],
+     "groups": [
+      [
+       "gopāla-dāmodara-devadāsa-saṃjñāḥ",
+       "bearing the names Gopāla, Dāmodara, and Devadāsa"
+      ],
+      [
+       "babhūvuḥ",
+       "were"
+      ],
+      [
+       "tanayāḥ tadīyāḥ",
+       "his sons"
+      ],
+      [
+       "netra-avatārāḥ iva",
+       "like incarnations of the eyes"
+      ],
+      [
+       "candra-mauleḥ",
+       "of the moon-crested god [Śiva]"
+      ],
+      [
+       "apākṛta-dhvānta-gaṇāḥ",
+       "dispelling hosts of darkness"
+      ],
+      [
+       "trayaḥ api",
+       "all three"
+      ],
+      [
+       "4 //",
+       ""
+      ]
+     ]
+    },
+    {
+     "type": "prose",
+     "key": "literary",
+     "label": "Literary Translation",
+     "paragraphs": [
+      "“His sons were three—named Gopāla, Dāmodara, and Devadāsa—who, resembling the three eyes of Śiva, dispelled all darkness of ignorance.”"
+     ]
+    },
+    {
+     "type": "h4",
+     "text": "Verse 1.5: The Father — Dāmodara",
+     "verse": "1.5"
+    },
+    {
+     "type": "p",
+     "text": "तेषां मध्ये यस्तु दामोदरोऽभूदुत्पाद्य त्रीनात्मजान्वीतरागः । भागीरथ्यां शुद्धदेहं विधाय ज्ञानादात्मन्येव निष्ठां जगाम ॥ ५ ॥"
+    },
+    {
+     "type": "p",
+     "text": "teṣāṃ madhye yas tu dāmodaro ’bhūd utpādya trīn ātmajān vītarāgaḥ / bhāgīrathyāṃ śuddha-dehaṃ vidhāya jñānād ātmany eva niṣṭhāṃ jagāma // 5 //"
+    },
+    {
+     "type": "words",
+     "label": "Word-by-word Analysis (padavibhāga)",
+     "paragraphs": [
+      "teṣām madhye (among them); yaḥ tu (he who); dāmodaraḥ abhūt (was Dāmodara); utpādya (having begotten); trīn ātmajān (three sons); vītarāgaḥ (becoming free from worldly attachment / detached); bhāgīrathyām (in the holy waters of the Bhāgīrathī [Gaṅgā]); śuddha-deham vidhāya (having purified his mortal body [undergoing religious suicide/death]); jñānāt (through spiritual wisdom); ātmani eva (in the Supreme Self alone); niṣṭhām jagāma (attained final absorption / peace) // 5 //"
+     ],
+     "groups": [
+      [
+       "teṣām madhye",
+       "among them"
+      ],
+      [
+       "yaḥ tu",
+       "he who"
+      ],
+      [
+       "dāmodaraḥ abhūt",
+       "was Dāmodara"
+      ],
+      [
+       "utpādya",
+       "having begotten"
+      ],
+      [
+       "trīn ātmajān",
+       "three sons"
+      ],
+      [
+       "vītarāgaḥ",
+       "becoming free from worldly attachment / detached"
+      ],
+      [
+       "bhāgīrathyām",
+       "in the holy waters of the Bhāgīrathī [Gaṅgā]"
+      ],
+      [
+       "śuddha-deham vidhāya",
+       "having purified his mortal body [undergoing religious suicide/death]"
+      ],
+      [
+       "jñānāt",
+       "through spiritual wisdom"
+      ],
+      [
+       "ātmani eva",
+       "in the Supreme Self alone"
+      ],
+      [
+       "niṣṭhām jagāma",
+       "attained final absorption / peace"
+      ],
+      [
+       "5 //",
+       ""
+      ]
+     ]
+    },
+    {
+     "type": "prose",
+     "key": "literary",
+     "label": "Literary Translation",
+     "paragraphs": [
+      "“Among them, Dāmodara, having begotten three sons, became free from all worldly attachment, purified his body in the sacred waters of the Gaṅgā, and through spiritual gnosis attained final absorption in the Supreme Ātman.”"
+     ]
+    },
+    {
+     "type": "h4",
+     "text": "Verse 1.6: Śārṅgadhara and His Brothers",
+     "verse": "1.6"
+    },
+    {
+     "type": "p",
+     "text": "ज्येष्ठः शार्ङ्गधरस्तेषां लघुर्लक्ष्मीधरस्ततः । कृष्णोऽनुजस्ततस्तेषां त्रय एतेऽमितेजसः ॥ ६ ॥"
+    },
+    {
+     "type": "p",
+     "text": "jyeṣṭhaḥ śārṅgadharas teṣāṃ laghur lakṣmīdharas tataḥ / kṛṣṇo ’nujas tatas teṣāṃ traya ete ’mitejasaḥ // 6 //"
+    },
+    {
+     "type": "words",
+     "label": "Word-by-word Analysis (padavibhāga)",
+     "paragraphs": [
+      "jyeṣṭhaḥ (the eldest); śārṅgadharaḥ (Śārṅgadhara); teṣām (among them); laghuḥ (younger); lakṣmīdharaḥ (Lakṣmīdhara); tataḥ (then); kṛṣṇaḥ (Kṛṣṇa); anujaḥ (the youngest brother); tataḥ teṣām (then of them); trayaḥ ete (these three); amita-tejasaḥ (endowed with boundless brilliance) // 6 //"
+     ],
+     "groups": [
+      [
+       "jyeṣṭhaḥ",
+       "the eldest"
+      ],
+      [
+       "śārṅgadharaḥ",
+       "Śārṅgadhara"
+      ],
+      [
+       "teṣām",
+       "among them"
+      ],
+      [
+       "laghuḥ",
+       "younger"
+      ],
+      [
+       "lakṣmīdharaḥ",
+       "Lakṣmīdhara"
+      ],
+      [
+       "tataḥ",
+       "then"
+      ],
+      [
+       "kṛṣṇaḥ",
+       "Kṛṣṇa"
+      ],
+      [
+       "anujaḥ",
+       "the youngest brother"
+      ],
+      [
+       "tataḥ teṣām",
+       "then of them"
+      ],
+      [
+       "trayaḥ ete",
+       "these three"
+      ],
+      [
+       "amita-tejasaḥ",
+       "endowed with boundless brilliance"
+      ],
+      [
+       "6 //",
+       ""
+      ]
+     ]
+    },
+    {
+     "type": "prose",
+     "key": "literary",
+     "label": "Literary Translation",
+     "paragraphs": [
+      "“The eldest among them was Śārṅgadhara; next was younger Lakṣmīdhara; and following him was their youngest brother Kṛṣṇa; all three were endowed with boundless intellect and brilliance.”"
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "3. Historical and Epigraphical Synchronism: King Hammīradeva (r. 1282–1301 CE)"
+    },
+    {
+     "type": "p",
+     "text": "The monarch named in verse 1.2 is the famed historical ruler Hammīradeva Cāhamāna of the fortress-kingdom of Raṇastambhapura (Ranthambhore): Documented Chronology:"
+    },
+    {
+     "type": "list",
+     "ordered": true,
+     "items": [
+      {
+       "html": "Accession (1282/1283 CE = VS 1339): Confirmed in the Hammīramahākāvya of Nayacandra Sūri (VIII.54) and the Prabandhakośa of Rājaśekhara Sūri (compiled in Delhi in 1349 CE).",
+       "level": 1
+      },
+      {
+       "html": "Epigraphical Proof: The Balvan stone inscription of VS 1345 (1288 CE) records Hammīra’s military expeditions (digvijaya) and religious gifts.",
+       "level": 1
+      },
+      {
+       "html": "Siege and Fall of Ranthambhore (11 July 1301 CE): Sultan Alauddin Khalji of Delhi besieged Ranthambhore; after the heroic defense, the jauhar (mass self-immolation) of the Rajput women, Hammīra died fighting on the battlefield on 3 Dhū al-Qa’dah 700 AH (11 July 1301 CE). This catastrophe is recorded by contemporary Persian eyewitnesses: Amīr Khusrau (Khazā’in al-Futūḥ, 1311 CE) and Ḍiyā’ al-Dīn Baranī (Tārīkh-i Fīrūz Shāhī).",
+       "level": 1
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": "Generational Calculation:"
+    },
+    {
+     "type": "list",
+     "ordered": false,
+     "items": [
+      {
+       "html": "Generation 1 (Grandfather): Rāghavadeva served as royal preceptor during Hammīra’s mature reign (c. 1285–1300 CE).",
+       "level": 1
+      },
+      {
+       "html": "Generation 2 (Father): Dāmodara flourished in the subsequent period (c. 1310–1335 CE).",
+       "level": 1
+      },
+      {
+       "html": "Generation 3 (Grandson/Compiler): Śārṅgadhara, born c. 1315–1320 CE, completed his vast compendium in 163 chapters at full scholarly maturity in 1363 CE.",
+       "level": 1
+      },
+      {
+       "html": "Time Span: Between Hammīra’s death (1301 CE) and the completion of the anthology (1363 CE), exactly 62 years elapsed—the precise demographic span for two full generations from grandfather to grandson.",
+       "level": 1
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": "Personal Verse of King Hammīra Preserved:"
+    },
+    {
+     "type": "p",
+     "text": "In Chapter 140 (Vīrarasanirvedaḥ, verse 3974), Śārṅgadhara quotes an authentic stanza explicitly attributed śrī-hammīrasya (“By King Hammīra”), proving that the compiler’s family held the direct literary archives of the Cāhamāna royal court."
+    },
+    {
+     "type": "h3",
+     "text": "4. Philological Boundaries (Terminus Post Quem and Terminus Ante Quem)"
+    },
+    {
+     "type": "list",
+     "ordered": false,
+     "items": [
+      {
+       "html": "Lower Boundary (Terminus post quem): The anthology incorporates late 13th-century poets, yet contains no trace of Timurid or 15th-century authors, establishing that it was compiled before 1400 CE.",
+       "level": 1
+      },
+      {
+       "html": "Upper Boundary (Terminus ante quem): The Kashmiri florilegium Subhāṣitāvalī of Vallabhadeva (15th c.) quotes over 300 verses directly from the Śārṅgadharapaddhati.",
+       "level": 1
+      }
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "5. Historiographical Consensus"
+    },
+    {
+     "type": "list",
+     "ordered": false,
+     "items": [
+      {
+       "html": "1873: Theodor Aufrecht (ZDMG, Vol. 27, pp. 1–120) analyzed Oxford and Berlin manuscripts and established the 1363 CE date.",
+       "level": 1
+      },
+      {
+       "html": "1888: Peter Peterson published the editio princeps (Bombay Sanskrit Series, No. 37), verifying the date from Pune government manuscripts.",
+       "level": 1
+      },
+      {
+       "html": "Modern Consensus: Accepted without qualification by A. B. Keith (1928), M. Winternitz (1936), S. K. De (1947), Ludwik Sternbach (1974), James Mallinson (2011, 2024), and Jason Birch (2013).",
+       "level": 1
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "prologue": {
+  "ru": [
+   {
+    "type": "subhead",
+    "label": "ЧАСТЬ II. КОРПУС АСАН В «ШАРНГХАДХАРА-ПАДДХАТИ»"
+   },
+   {
+    "type": "p",
+    "text": "Раздел хатха-йоги в «Ш́āрн̇гадхара-паддхати» подразделяется на две самостоятельные традиции: 1. Глава 157 (стихи 4372–4419): Шестичленная хатха-йога Горакши (Gorakṣādisusādhitaḥ prathamo haṭhayogaḥ); 2. Глава 158 (стихи 4420–4448): Восьмичленная хатха-йога Мāркан̣д̣еи (Mārkaṇḍeyādisādhito dvitīyo haṭhayogaḥ)."
+   },
+   {
+    "type": "p",
+    "text": "Ниже представлены все стихи, содержащие наставления и описания āсан, с текстологическими исправлениями наборных ошибок издания Питерсона 1888 года по манускриптам и текстам-первоисточникам."
+   },
+   {
+    "type": "h3",
+    "text": "РАЗДЕЛ А. ШЕСТИЧЛЕННАЯ ЙОГА ГОРАКШИ (ГЛАВА 157)"
+   },
+   {
+    "type": "h4",
+    "text": "1. Стих 4375: Подготовка места и сиденья (Āsana-vidhi)",
+    "verse": "4375"
+   },
+   {
+    "type": "verse_card",
+    "verses": "4375",
+    "sections": [
+     {
+      "type": "verse",
+      "key": "deva",
+      "label": "Деванагари",
+      "lines": [
+       "एकान्ते विजने देशे पवित्रे निरुपद्रवे ।",
+       "कम्बलाजिनवस्त्राणामु पर्य्यासनमभ्यसेत् ॥ ४३७५ ॥"
+      ]
+     },
+     {
+      "type": "verse",
+      "key": "iast",
+      "label": "IAST",
+      "lines": [
+       "ekānte vijane deśe pavitre nirupadrave /",
+       "kambalājinavastrāṇām upary āsanam abhyaset // 4375 //"
+      ]
+     },
+     {
+      "type": "verse",
+      "key": "cyr",
+      "label": "Кириллица",
+      "lines": [
+       "екāнте виджане деш́е павитре нирупадраве /",
+       "камбалāджинавастрāн̣āм упарй āсанам абхйасет // 4375 //"
+      ]
+     }
+    ]
+   },
+   {
+    "type": "p",
+    "text": "Размер: Анушт̣убх (Anuṣṭubh)"
+   },
+   {
+    "type": "words",
+    "label": "Пословный разбор (падавибхāга)",
+    "paragraphs": [
+     "ekānte (в уединённом) vijane (безлюдном) deśe (месте) pavitre (чистом) nirupadrave (безопасном / лишённом помех) / kambala-ajina-vastrāṇām (шерстяного покрывала, шкуры антилопы и ткани) upari (поверх) āsanam (позу / сиденье) abhyaset (следует практиковать) //"
+    ],
+    "groups": [
+     [
+      "ekānte",
+      "в уединённом"
+     ],
+     [
+      "vijane",
+      "безлюдном"
+     ],
+     [
+      "deśe",
+      "месте"
+     ],
+     [
+      "pavitre",
+      "чистом"
+     ],
+     [
+      "nirupadrave",
+      "безопасном / лишённом помех"
+     ],
+     [
+      "kambala-ajina-vastrāṇām",
+      "шерстяного покрывала, шкуры антилопы и ткани"
+     ],
+     [
+      "upari",
+      "поверх"
+     ],
+     [
+      "āsanam",
+      "позу / сиденье"
+     ],
+     [
+      "abhyaset",
+      "следует практиковать"
+     ]
+    ]
+   },
+   {
+    "type": "prose",
+    "key": "literal",
+    "label": "Буквальный перевод",
+    "paragraphs": [
+     "«В уединённом, безлюдном, чистом и безопасном месте поверх шерстяного одеяла, шкуры антилопы и ткани пусть практикует сиденье»."
+    ]
+   },
+   {
+    "type": "prose",
+    "key": "literary",
+    "label": "Литературный перевод",
+    "paragraphs": [
+     "«В уединённом, безлюдном, чистом и безопасном месте следует практиковать āсану поверх сиденья, составленного из шерстяного покрывала, шкуры и ткани»."
+    ]
+   },
+   {
+    "type": "h3",
+    "text": "РАЗДЕЛ Б. ВОСЬМИЧЛЕННАЯ ЙОГА МАРКАНДЕИ (ГЛАВА 158)"
+   },
+   {
+    "type": "h4",
+    "text": "4. Стихи 4428–4430: Общие правила практики и устройство сиденья",
+    "verse": "4428–4430"
+   },
+   {
+    "type": "verse_card",
+    "verses": "4428–4430",
+    "sections": [
+     {
+      "type": "verse",
+      "key": "iast",
+      "label": "IAST",
+      "lines": [
+       "nādhyātaḥ kṣudhitaḥ śrānto na ca vyākulacetanaḥ /",
+       "yuñjīta yogaṃ yogajño nityaṃ siddhy-artham ādṛtaḥ // 4428 //",
+       "na śīte nāti caivoṣṇe na durdhe nāmbu-saṃnidhau /",
+       "na sopadrava-deśeṣu yogaṃ saṃsādhayet kvacit // 4429 //",
+       "ekānte vijane ramye pavitre nirupadrave /",
+       "sukhāsane samādhiḥ syāt kuśājinacelottare // 4430 //"
+      ]
+     },
+     {
+      "type": "verse",
+      "key": "cyr",
+      "label": "Кириллица",
+      "lines": [
+       "нāдхйāтах̣ кшудхитах̣ ш́рāнто на ча вйāкулачетанах̣ /",
+       "йун̃джӣта йогам̣ йогаджн̃о нитйам̣ сиддхй-артхам āдр̣тах̣ // 4428 //",
+       "на ш́ӣте нāти чаивошн̣е на дурдхе нāмбу-сам̣нидхау /",
+       "на сопадрава-деш́ешу йогам̣ сам̣сāдхайет квачит // 4429 //",
+       "екāнте виджане рамйе павитре нирупадраве /",
+       "сукхāсане самāдхих̣ сйāт куш́āджиначелоттаре // 4430 //"
+      ]
+     }
+    ]
+   },
+   {
+    "type": "p",
+    "text": "Размер: Анушт̣убх (Anuṣṭubh)"
+   },
+   {
+    "type": "prose",
+    "key": "literary",
+    "label": "Литературный перевод",
+    "paragraphs": [
+     "«Знающий йогу не должен практиковать, будучи подавленным заботами, голодным, утомлённым или с смятенным умом; ради достижения успеха он должен приступать к практике с должным усердием (4428). Ни на холоде, ни при чрезмерном зное, ни при дурной погоде, ни близ шумной воды, ни в опасных местах йогу практиковать не следует никогда (4429). В уединённом, безлюдном, приятном, чистом и безопасном месте сосредоточение (самāдхи) достигается на удобном сиденье, уложенном слоями: трава куша, шкура антилопы и ткань поверх (4430)»."
+    ]
+   },
+   {
+    "type": "h4",
+    "text": "5. Стих 4431: Перечисление трёх ключевых āсан",
+    "verse": "4431"
+   },
+   {
+    "type": "verse_card",
+    "verses": "4431",
+    "sections": [
+     {
+      "type": "verse",
+      "key": "deva",
+      "label": "Деванагари",
+      "lines": [
+       "पद्ममर्धासनं चापि तथा सिद्धासनादिकम् ।",
+       "आस्थाय योगं युञ्जीत कृत्वा च प्रणवं हृदि ॥ ४४३१ ॥"
+      ]
+     },
+     {
+      "type": "verse",
+      "key": "iast",
+      "label": "IAST",
+      "lines": [
+       "padmam ardhāsanaṃ cāpi tathā siddhāsanādikam /",
+       "āsthāya yogaṃ yuñjīta kṛtvā ca praṇavaṃ hṛdi // 4431 //"
+      ]
+     },
+     {
+      "type": "verse",
+      "key": "cyr",
+      "label": "Кириллица",
+      "lines": [
+       "падмам ардхāсанам̣ чāпи татхā сиддхāсанāдикам /",
+       "āстхāйа йогам̣ йун̃джӣта кр̣твā ча пран̣авам̣ хр̣ди // 4431 //"
+      ]
+     }
+    ]
+   },
+   {
+    "type": "p",
+    "text": "Размер: Анушт̣убх (Anuṣṭubh)"
+   },
+   {
+    "type": "note",
+    "paragraphs": [
+     "В издании Питерсона 1888 г. допущена наборная опечатка padmam adhāsanaṃ. Правильное чтение ardhāsanaṃ («полулотос») надёжно восстанавливается по контексту стиха 4436, где описывается именно полулотос, и чтению манускриптов."
+    ]
+   },
+   {
+    "type": "words",
+    "label": "Пословный разбор (падавибхāга)",
+    "paragraphs": [
+     "padmam (Падмāсану / лотос) ardhāsanam (Ардхāсану / полулотос) ca api (а также) tathā (также) siddhāsana-ādikam (Сиддхāсану и подобные) / āsthāya (приняв / утвердившись) yogam (йогу) yuñjīta (пусть практикует) kṛtvā (поместив / сосредоточив) ca (и) praṇavam (священный слог Ом) hṛdi (в сердце) //"
+    ],
+    "groups": [
+     [
+      "padmam",
+      "Падмāсану / лотос"
+     ],
+     [
+      "ardhāsanam",
+      "Ардхāсану / полулотос"
+     ],
+     [
+      "ca api",
+      "а также"
+     ],
+     [
+      "tathā",
+      "также"
+     ],
+     [
+      "siddhāsana-ādikam",
+      "Сиддхāсану и подобные"
+     ],
+     [
+      "āsthāya",
+      "приняв / утвердившись"
+     ],
+     [
+      "yogam",
+      "йогу"
+     ],
+     [
+      "yuñjīta",
+      "пусть практикует"
+     ],
+     [
+      "kṛtvā",
+      "поместив / сосредоточив"
+     ],
+     [
+      "ca",
+      "и"
+     ],
+     [
+      "praṇavam",
+      "священный слог Ом"
+     ],
+     [
+      "hṛdi",
+      "в сердце"
+     ]
+    ]
+   },
+   {
+    "type": "prose",
+    "key": "literary",
+    "label": "Литературный перевод",
+    "paragraphs": [
+     "«Приняв Падмāсану, Ардхāсану, а также Сиддхāсану и подобные им [позы], следует практиковать йогу, сосредоточив в сердце священный слог Ом»."
+    ]
+   },
+   {
+    "type": "h4",
+    "text": "6. Стихи 4432–4434: Биомеханика сидячей позы",
+    "verse": "4432–4434"
+   },
+   {
+    "type": "verse_card",
+    "verses": "4432–4434",
+    "sections": [
+     {
+      "type": "verse",
+      "key": "iast",
+      "label": "IAST",
+      "lines": [
+       "samaḥ samāsano bhūtvā saṃhṛtya caraṇāv ubhau /",
+       "saṃvṛtāsyaḥ tathā coraḥ samyag viṣṭabhya cāgrataḥ // 4432 //",
+       "pārṣṇibhyāṃ liṅga-vṛṣaṇāv aspṛśann agrayataḥ sthitaḥ /",
+       "kiñcid unnamitaś cirā dantair dantān na saṃspṛśet // 4433 //",
+       "saṃpaśyen nāsikāgraṃ svaṃ diśaś cānavalokayan /",
+       "kuryād dṛḍhaṃ pṛṣṭhavaṃśaṃ coḍḍīyānaṃ tathodare // 4434 //"
+      ]
+     },
+     {
+      "type": "verse",
+      "key": "cyr",
+      "label": "Кириллица",
+      "lines": [
+       "самах̣ самāсано бхӯтвā сам̣хр̣тйа чаран̣āв убхау /",
+       "сам̣вр̣тāсйах̣ татхā чорах̣ самйаг вишт̣абхйа чāгратах̣ // 4432 //",
+       "пāршн̣ибхйāм̣ лин̇га-вр̣шан̣āв аспр̣ш́анн аграйатах̣ стхитах̣ /",
+       "кин̃чид уннамиташ́ чирā дантаир дантāн на сам̣спр̣ш́ет // 4433 //",
+       "сам̣паш́йен нāсикāграм̣ свам̣ диш́аш́ чāнавалокайан /",
+       "курйāд др̣д̣хам̣ пр̣шт̣хавам̣ш́ам̣ чод̣д̣ӣйāнам̣ татходаре // 4434 //"
+      ]
+     }
+    ]
+   },
+   {
+    "type": "p",
+    "text": "Размер: Анушт̣убх (Anuṣṭubh)"
+   },
+   {
+    "type": "prose",
+    "key": "literary",
+    "label": "Литературный перевод",
+    "paragraphs": [
+     "«Выровнявшись и устроив ровное сиденье, подобрав обе стопы, закрыв рот и подав грудь вперёд (4432); удерживая равновесие так, чтобы пятками не сдавливать половые органы; слегка приподняв подбородок и не сжимая зубы (4433); глядя на кончик своего носа и не озираясь по сторонам, следует держать позвоночник прямым и твёрдым (dṛḍhaṃ pṛṣṭhavaṃśam), а в области живота выполнять уд̣д̣ӣйāну (4434)»."
+    ]
+   }
+  ],
+  "en": [
+   {
+    "type": "subhead",
+    "label": "PART II. THE COMPLETE CORPUS OF ĀSANAS IN THE ŚĀRṄGADHARAPADDHATI"
+   },
+   {
+    "type": "p",
+    "text": "The Haṭhayoga sections of the Śārṅgadharapaddhati are systematically divided into two distinct historical chapters: 1. Chapter 157 (verses 4372–4419): The Six-Limbed Haṭhayoga Well-Practiced by Gorakṣa and Others (Gorakṣādisusādhitaḥ prathamo haṭhayogaḥ); 2. Chapter 158 (verses 4420–4448): The Eight-Limbed Haṭhayoga Practiced by Mārkaṇḍeya and Others (Mārkaṇḍeyādisādhito dvitīyo haṭhayogaḥ)."
+   },
+   {
+    "type": "h3",
+    "text": "SECTION A. THE SIX-LIMBED YOGA OF GORAKṢA (CHAPTER 157)"
+   },
+   {
+    "type": "h4",
+    "text": "1. Verse 4375: Preparation of the Seat (Āsanavidhi)",
+    "verse": "4375"
+   },
+   {
+    "type": "verse_card",
+    "verses": "4375",
+    "sections": [
+     {
+      "type": "verse",
+      "key": "deva",
+      "label": "Devanāgarī",
+      "lines": [
+       "एकान्ते विजने देशे पवित्रे निरुपद्रवे ।",
+       "कम्बलाजिनवस्त्राणामु पर्य्यासनमभ्यसेत् ॥ ४३७५ ॥"
+      ]
+     },
+     {
+      "type": "verse",
+      "key": "iast",
+      "label": "IAST",
+      "lines": [
+       "ekānte vijane deśe pavitre nirupadrave /",
+       "kambalājinavastrāṇām upary āsanam abhyaset // 4375 //"
+      ]
+     }
+    ]
+   },
+   {
+    "type": "p",
+    "text": "Metre: Anuṣṭubh"
+   },
+   {
+    "type": "words",
+    "label": "Word-by-word Analysis (padavibhāga)",
+    "paragraphs": [
+     "ekānte (in a solitary); vijane (uninhabited / secluded); deśe (place); pavitre (pure / clean); nirupadrave (free from disturbances); kambala-ajina-vastrāṇām (of a woolen blanket, an antelope skin, and cloth); upari (upon / on top of); āsanam (posture / seat); abhyaset (one should practice) //"
+    ],
+    "groups": [
+     [
+      "ekānte",
+      "in a solitary"
+     ],
+     [
+      "vijane",
+      "uninhabited / secluded"
+     ],
+     [
+      "deśe",
+      "place"
+     ],
+     [
+      "pavitre",
+      "pure / clean"
+     ],
+     [
+      "nirupadrave",
+      "free from disturbances"
+     ],
+     [
+      "kambala-ajina-vastrāṇām",
+      "of a woolen blanket, an antelope skin, and cloth"
+     ],
+     [
+      "upari",
+      "upon / on top of"
+     ],
+     [
+      "āsanam",
+      "posture / seat"
+     ],
+     [
+      "abhyaset",
+      "one should practice"
+     ]
+    ]
+   },
+   {
+    "type": "prose",
+    "key": "literal",
+    "label": "Translation",
+    "paragraphs": [
+     "“In a solitary, secluded, pure, and safe place, one should practice the posture upon a seat composed of a woolen blanket, an antelope skin, and cloth.”"
+    ]
+   },
+   {
+    "type": "h3",
+    "text": "SECTION B. THE EIGHT-LIMBED YOGA OF MĀRKAṆḌEYA (CHAPTER 158)"
+   },
+   {
+    "type": "h4",
+    "text": "4. Verses 4428–4430: General Rules of Practice and Seat Construction",
+    "verse": "4428–4430"
+   },
+   {
+    "type": "verse_card",
+    "verses": "4428–4430",
+    "sections": [
+     {
+      "type": "verse",
+      "key": "iast",
+      "label": "IAST",
+      "lines": [
+       "nādhyātaḥ kṣudhitaḥ śrānto na ca vyākulacetanaḥ /",
+       "yuñjīta yogaṃ yogajño nityaṃ siddhy-artham ādṛtaḥ // 4428 //",
+       "na śīte nāti caivoṣṇe na durdhe nāmbu-saṃnidhau /",
+       "na sopadrava-deśeṣu yogaṃ saṃsādhayet kvacit // 4429 //",
+       "ekānte vijane ramye pavitre nirupadrave /",
+       "sukhāsane samādhiḥ syāt kuśājinacelottare // 4430 //"
+      ]
+     }
+    ]
+   },
+   {
+    "type": "p",
+    "text": "Metre: Anuṣṭubh"
+   },
+   {
+    "type": "prose",
+    "key": "literal",
+    "label": "Translation",
+    "paragraphs": [
+     "“The knower of yoga should never practice when agitated by worries, hungry, exhausted, or with a perturbed mind; for the sake of success, he should engage in practice with diligent care (4428). Neither in intense cold nor extreme heat, neither in bad weather nor near rushing waters, nor in perilous places should one ever practice yoga (4429). In a solitary, secluded, pleasant, pure, and safe place, absorption (samādhi) occurs on an easy seat arranged in layers of kuśa grass, an antelope skin, and a cloth on top (4430).”"
+    ]
+   },
+   {
+    "type": "h4",
+    "text": "5. Verse 4431: Enunciation of the Three Primary Postures",
+    "verse": "4431"
+   },
+   {
+    "type": "verse_card",
+    "verses": "4431",
+    "sections": [
+     {
+      "type": "verse",
+      "key": "deva",
+      "label": "Devanāgarī",
+      "lines": [
+       "पद्ममर्धासनं चापि तथा सिद्धासनादिकम् ।",
+       "आस्थाय योगं युञ्जीत कृत्वा च प्रणवं हृदि ॥ ४४३१ ॥"
+      ]
+     },
+     {
+      "type": "verse",
+      "key": "iast",
+      "label": "IAST",
+      "lines": [
+       "padmam ardhāsanaṃ cāpi tathā siddhāsanādikam /",
+       "āsthāya yogaṃ yuñjīta kṛtvā ca praṇavaṃ hṛdi // 4431 //"
+      ]
+     }
+    ]
+   },
+   {
+    "type": "p",
+    "text": "Metre: Anuṣṭubh"
+   },
+   {
+    "type": "note",
+    "paragraphs": [
+     "Peterson’s edition contains a typographical error: padmam adhāsanaṃ. The emendation ardhāsanaṃ (“half-lotus”) is certain from the description in verse 4436."
+    ]
+   },
+   {
+    "type": "words",
+    "label": "Word-by-word Analysis (padavibhāga)",
+    "paragraphs": [
+     "padmam (Padmāsana); ardhāsanam (Ardhāsana); ca api (and also); tathā (likewise); siddhāsana-ādikam (Siddhāsana and the like); āsthāya (having assumed); yogam (yoga); yuñjīta (one should practice); kṛtvā (having placed); ca (and); praṇavam (the sacred syllable Oṃ); hṛdi (in the heart) //"
+    ],
+    "groups": [
+     [
+      "padmam",
+      "Padmāsana"
+     ],
+     [
+      "ardhāsanam",
+      "Ardhāsana"
+     ],
+     [
+      "ca api",
+      "and also"
+     ],
+     [
+      "tathā",
+      "likewise"
+     ],
+     [
+      "siddhāsana-ādikam",
+      "Siddhāsana and the like"
+     ],
+     [
+      "āsthāya",
+      "having assumed"
+     ],
+     [
+      "yogam",
+      "yoga"
+     ],
+     [
+      "yuñjīta",
+      "one should practice"
+     ],
+     [
+      "kṛtvā",
+      "having placed"
+     ],
+     [
+      "ca",
+      "and"
+     ],
+     [
+      "praṇavam",
+      "the sacred syllable Oṃ"
+     ],
+     [
+      "hṛdi",
+      "in the heart"
+     ]
+    ]
+   },
+   {
+    "type": "prose",
+    "key": "literal",
+    "label": "Translation",
+    "paragraphs": [
+     "“Having assumed Padmāsana, Ardhāsana, as well as Siddhāsana and the like, one should practice yoga, meditating on the sacred syllable Oṃ in the heart.”"
+    ]
+   },
+   {
+    "type": "h4",
+    "text": "6. Verses 4432–4434: Biomechanics of the Seated Posture",
+    "verse": "4432–4434"
+   },
+   {
+    "type": "verse_card",
+    "verses": "4432–4434",
+    "sections": [
+     {
+      "type": "verse",
+      "key": "iast",
+      "label": "IAST",
+      "lines": [
+       "samaḥ samāsano bhūtvā saṃhṛtya caraṇāv ubhau /",
+       "saṃvṛtāsyaḥ tathā coraḥ samyag viṣṭabhya cāgrataḥ // 4432 //",
+       "pārṣṇibhyāṃ liṅga-vṛṣaṇāv aspṛśann agrayataḥ sthitaḥ /",
+       "kiñcid unnamitaś cirā dantair dantān na saṃspṛśet // 4433 //",
+       "saṃpaśyen nāsikāgraṃ svaṃ diśaś cānavalokayan /",
+       "kuryād dṛḍhaṃ pṛṣṭhavaṃśaṃ coḍḍīyānaṃ tathodare // 4434 //"
+      ]
+     }
+    ]
+   },
+   {
+    "type": "p",
+    "text": "Metre: Anuṣṭubh"
+   },
+   {
+    "type": "prose",
+    "key": "literal",
+    "label": "Translation",
+    "paragraphs": [
+     "“Becoming well-aligned on an even seat, drawing in both feet, keeping the mouth closed and thrusting the chest well forward (4432); positioned so as not to compress the genitals with the heels; slightly elevating the chin without clenching the teeth (4433); gazing at the tip of one’s own nose without glancing in other directions, one should keep the spine firm and erect (dṛḍhaṃ pṛṣṭhavaṃśam), and perform uḍḍīyāna in the abdomen (4434).”"
+    ]
+   }
+  ]
+ },
+ "appendix": {
+  "ru": [
+   {
+    "type": "subhead",
+    "label": "ЧАСТЬ III. СРАВНИТЕЛЬНЫЙ АНАЛИЗ И ЗНАЧЕНИЕ ДЛЯ ИСТОРИИ ЙОГИ"
+   },
+   {
+    "type": "table",
+    "rows": [
+     [
+      "Параметр",
+      "«Даттāтрея-йога-ш́āстра» (ок. XIII в.)",
+      "«Ш́āрн̇гадхара-паддхати» (1363 г. н. э.)",
+      "«Хат̣ха-йога-прадӣпикā» (ок. 1400–1450 гг.)"
+     ],
+     [
+      "Число āсан",
+      "Упоминает 8 400 000, описывает 1 сидячую (Падмāсана) + Ш́авāсана в Лайе + Випарӣта-каран̣ӣ в мудрах",
+      "Описывает 3 сидячие позы: Падмāсана, Ардхāсана, Сиддхāсана",
+      "Описывает 15 āсан (включая сложные несидячие позы: Маюрасана, Куккутасана, Дханурасана и др.)"
+     ],
+     [
+      "Формулировка Падмāсаны",
+      "uttānau caraṇau kṛtvā hy urusaṃsthau prayatnataḥ (ст. 35)",
+      "Дословно цитирует стих Даттāтреи (ст. 4376 и 4435)",
+      "Дословно цитирует стих Даттāтреи и Ш́āрн̇гадхары (HP 1.45)"
+     ],
+     [
+      "Функция поз",
+      "Устойчивая соматическая опора для контроля праны и удержания бинду",
+      "Базовое сиденье для прāн̣āйāмы и созерцания Ом",
+      "Самостоятельный раздел гимнастических и терапевтических упражнений"
+     ],
+     [
+      "Хронологический статус",
+      "Первоисточник традиции Хатха-йоги",
+      "Первое точно датированное внешнее свидетельство (terminus ante quem = 1363 г.)",
+      "Классический компендиум зрелого средневековья"
+     ]
+    ]
+   },
+   {
+    "type": "p",
+    "text": "Параметр «Даттāтрея-йога-ш́āстра» (ок. XIII в.) «Ш́āрн̇гадхара- паддхати» (1363 г. н. э.) «Хат̣ха-йога-прадӣпикā» (ок. 1400–1450 гг.)"
+   },
+   {
+    "type": "h3",
+    "text": "Итоговый научный вывод"
+   },
+   {
+    "type": "p",
+    "text": "Анализ колофонов, генеалогических стихов 1.2–1.6, истории раджпутского царства Рантхамбор и персоязычной хроники взятия крепости войсками Алауддина Хильджи в 1301 году даёт абсолютную историческую уверенность в дате составления «Ш́āрн̇гадхара-паддхати» — 1363 год н. э."
+   },
+   {
+    "type": "p",
+    "text": "Для исследователя йоги это означает, что детальные физические описания Падмāсаны, Ардхāсаны и Сиддхāсаны, а также психофизические техники пяти великих мудр уже в 1363 году были широко известны в литературных и придворных кругах Северной Индии. Это окончательно снимает любые сомнения в ранней датировке «Даттāтрея-йога-ш́āстры» XIII веком и подтверждает непрерывную линию преемственности практических наставлений ранней хатха-йоги."
+   }
+  ],
+  "en": [
+   {
+    "type": "subhead",
+    "label": "PART III. COMPARATIVE ANALYSIS AND HISTORICAL SIGNIFICANCE"
+   },
+   {
+    "type": "table",
+    "rows": [
+     [
+      "Feature",
+      "Dattātreyayogaśāstra (c. 1200 CE)",
+      "Śārṅgadharapaddhati (1363 CE)",
+      "Haṭhapradīpikā (c. 1400–1450 CE)"
+     ],
+     [
+      "Number of Postures",
+      "Mentions 8,400,000; teaches 1 seated (Padmāsana) + Śavāsana in Laya + Viparītakaraṇī in Mudrās",
+      "Teaches 3 seated postures: Padmāsana, Ardhāsana, Siddhāsana",
+      "Teaches 15 postures (including non-seated poses: Mayūrāsana, Kukkuṭāsana, Dhanurāsana, etc.)"
+     ],
+     [
+      "Definition of Padmāsana",
+      "uttānau caraṇau kṛtvā hy urusaṃsthau prayatnataḥ (v. 35)",
+      "Quotes Dattātreya verbatim (vv. 4376 & 4435)",
+      "Quotes Dattātreya & Śārṅgadhara verbatim (HP 1.45)"
+     ],
+     [
+      "Function of Postures",
+      "Physical base for breath retention and fluid (bindu) preservation",
+      "Base for prāṇāyāma and contemplation of Oṃ",
+      "Independent gymnastic and therapeutic discipline"
+     ],
+     [
+      "Chronological Status",
+      "Foundational root text of Haṭhayoga",
+      "Earliest securely dated witness (terminus ante quem = 1363 CE)",
+      "Classical late-medieval synthesis"
+     ]
+    ]
+   },
+   {
+    "type": "h3",
+    "text": "Conclusion"
+   },
+   {
+    "type": "p",
+    "text": "The convergence of scribal colophons, genealogical verses 1.2–1.6, the documented reign of King Hammīradeva of Ranthambhore (1282–1301 CE), and contemporary Persian accounts provides unassailable certainty for the composition date of the Śārṅgadharapaddhati in 1363 CE."
+   },
+   {
+    "type": "p",
+    "text": "For the historian of yoga, this proves that precise physical descriptions of Padmāsana, Ardhāsana, and Siddhāsana, alongside the five fundamental mudrās (Mahāmudrā, Nabhomudrā, Jālandhara, Uḍḍīyāna, and Mūlabandha), were already canonized and circulating across courtly and scholastic milieus in Northern India by the mid-14th century. This firmly anchors the earlier composition of the Dattātreyayogaśāstra to the early 13th century and demonstrates the unbroken transmission of early Haṭhayoga somatic practices."
+   }
+  ]
+ },
+ "notes": {
+  "ru": [],
+  "en": []
+ },
+ "poses": [
+  {
+   "key": "padmasana",
+   "heading": {
+    "ru": "2. Стих 4376: Падмāсана (Padmāsana — Поза лотоса)",
+    "en": "2. Verse 4376: Padmāsana (The Lotus Posture)"
+   },
+   "iast": "Padmāsana",
+   "number": 1,
+   "name": {
+    "ru": "Падмāсана",
+    "en": "The Lotus Posture"
+   },
+   "gloss": {
+    "ru": "",
+    "en": ""
+   },
+   "verses": {
+    "ru": "4376, 4377, 4435",
+    "en": "4376, 4377, 4435"
+   },
+   "text": {
+    "ru": [
+     {
+      "type": "h4",
+      "text": "2. Стих 4376: Падмāсана (Padmāsana — Поза лотоса)"
+     },
+     {
+      "type": "p",
+      "text": "(Стих дословно заимствован из «Даттāтрея-йога-ш́āстры», ст. 35)"
+     },
+     {
+      "type": "verse_card",
+      "verses": "4376",
+      "sections": [
+       {
+        "type": "verse",
+        "key": "deva",
+        "label": "Деванагари",
+        "lines": [
+         "उत्तानौ चरणौ कृत्वा ह्युरुसंस्थौ प्रयत्नतः ।",
+         "ऊरुमध्ये तथोत्तानौ पाणी पद्मासनं त्विदम् ॥ ४३७६ ॥"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "iast",
+        "label": "IAST",
+        "lines": [
+         "uttānau caraṇau kṛtvā hy urusaṃsthau prayatnataḥ /",
+         "ūrumadhye tathottānau pāṇī padmāsanaṃ tv idam // 4376 //"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "cyr",
+        "label": "Кириллица",
+        "lines": [
+         "уттāнау чаран̣ау кр̣твā хй урусам̣стхау прайатнатах̣ /",
+         "ӯрумадхйе татхоттāнау пāн̣ӣ падмāсанам̣ тв идам // 4376 //"
+        ]
+       }
+      ]
+     },
+     {
+      "type": "p",
+      "text": "Размер: Анушт̣убх (Anuṣṭubh)"
+     },
+     {
+      "type": "note",
+      "paragraphs": [
+       "В печатном издании Питерсона 1888 г. частица hy ошибочно слита с предшествующим словом (kṛttvā ūru-). Чтение hy urusaṃsthau восстанавливается по критическому изданию Dattātreyayogaśāstra (ст. 35) и рукописям RAS Tod 32."
+      ]
+     },
+     {
+      "type": "words",
+      "label": "Пословный разбор (падавибхāга)",
+      "paragraphs": [
+       "uttānau (обращёнными подошвами вверх) caraṇau (обе стопы) kṛtvā (поместив / сделав) hi (поистине) uru-saṃsthau (расположенными на бёдрах) prayatnataḥ (с усилием / старательно) / ūru-madhye (между бёдрами) tathā (также) uttānau (обращёнными ладонями вверх) pāṇī (обе кисти рук) padmāsanam (поза лотоса) tu (же) idam (это) //"
+      ],
+      "groups": [
+       [
+        "uttānau",
+        "обращёнными подошвами вверх"
+       ],
+       [
+        "caraṇau",
+        "обе стопы"
+       ],
+       [
+        "kṛtvā",
+        "поместив / сделав"
+       ],
+       [
+        "hi",
+        "поистине"
+       ],
+       [
+        "uru-saṃsthau",
+        "расположенными на бёдрах"
+       ],
+       [
+        "prayatnataḥ",
+        "с усилием / старательно"
+       ],
+       [
+        "ūru-madhye",
+        "между бёдрами"
+       ],
+       [
+        "tathā",
+        "также"
+       ],
+       [
+        "uttānau",
+        "обращёнными ладонями вверх"
+       ],
+       [
+        "pāṇī",
+        "обе кисти рук"
+       ],
+       [
+        "padmāsanam",
+        "поза лотоса"
+       ],
+       [
+        "tu",
+        "же"
+       ],
+       [
+        "idam",
+        "это"
+       ]
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "literal",
+      "label": "Буквальный перевод",
+      "paragraphs": [
+       "«Подошвами вверх обе стопы расположив на бёдрах старательно, между бёдрами также ладонями вверх обе руки — Падмāсана же это»."
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "literary",
+      "label": "Литературный перевод",
+      "paragraphs": [
+       "«С усилием расположив обе стопы подошвами вверх на бёдрах, а также поместив между бёдрами обе руки ладонями вверх — это поистине Падмāсана»."
+      ]
+     },
+     {
+      "type": "h4",
+      "text": "3. Стих 4377: Геометрия тела и направление взгляда в Падмāсане"
+     },
+     {
+      "type": "verse_card",
+      "verses": "4377",
+      "sections": [
+       {
+        "type": "verse",
+        "key": "deva",
+        "label": "Деванагари",
+        "lines": [
+         "तत्र पद्मासनं बद्ध्वा ततः संकोचयेदधः ।",
+         "समदण्डं शिरः कृत्वा नासिकान्तदृशां नयेत् ॥ ४३७७ ॥"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "iast",
+        "label": "IAST",
+        "lines": [
+         "tatra padmāsanaṃ baddhvā tataḥ saṃkocayed adhaḥ /",
+         "samadaṇḍaṃ śiraḥ kṛtvā nāsikāntadṛśāṃ nayet // 4377 //"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "cyr",
+        "label": "Кириллица",
+        "lines": [
+         "татра падмāсанам̣ баддхвā татах̣ сам̣кочайед адхах̣ /",
+         "самадан̣д̣ам̣ ш́ирах̣ кр̣твā нāсикāнтадр̣ш́āм̣ найет // 4377 //"
+        ]
+       }
+      ]
+     },
+     {
+      "type": "p",
+      "text": "Размер: Анушт̣убх (Anuṣṭubh)"
+     },
+     {
+      "type": "words",
+      "label": "Пословный разбор (падавибхāга)",
+      "paragraphs": [
+       "tatra (там) padmāsanam (позу лотоса) baddhvā (связав / зафиксировав) tataḥ (затем) saṃkocayet (пусть сожмёт) adhaḥ (нижнюю часть [область ануса / мӯла-бандха]) / sama-daṇḍam (прямо, подобно ровному посоху) śiraḥ (голову) kṛtvā (сделав / держа) nāsikā-anta-dṛśām (взор к кончику носа) nayet (пусть направит) //"
+      ],
+      "groups": [
+       [
+        "tatra",
+        "там"
+       ],
+       [
+        "padmāsanam",
+        "позу лотоса"
+       ],
+       [
+        "baddhvā",
+        "связав / зафиксировав"
+       ],
+       [
+        "tataḥ",
+        "затем"
+       ],
+       [
+        "saṃkocayet",
+        "пусть сожмёт"
+       ],
+       [
+        "adhaḥ",
+        "нижнюю часть [область ануса / мӯла-бандха]"
+       ],
+       [
+        "sama-daṇḍam",
+        "прямо, подобно ровному посоху"
+       ],
+       [
+        "śiraḥ",
+        "голову"
+       ],
+       [
+        "kṛtvā",
+        "сделав / держа"
+       ],
+       [
+        "nāsikā-anta-dṛśām",
+        "взор к кончику носа"
+       ],
+       [
+        "nayet",
+        "пусть направит"
+       ]
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "literary",
+      "label": "Литературный перевод",
+      "paragraphs": [
+       "«Зафиксировав позу лотоса, следует затем сжать нижнюю часть [выполнить мӯла-бандху]; держа голову прямо, словно ровный посох, следует направить взор на кончик своего носа»."
+      ]
+     },
+     {
+      "type": "h4",
+      "text": "7. Стих 4435: Падмāсана (повторение описания)"
+     },
+     {
+      "type": "verse_card",
+      "verses": "4435",
+      "sections": [
+       {
+        "type": "verse",
+        "key": "iast",
+        "label": "IAST",
+        "lines": [
+         "uttānau caraṇau kṛtvā hy urusaṃsthau prayatnataḥ /",
+         "ūrumadhye tathottānau pāṇī padmāsanaṃ tv idam // 4435 //"
+        ]
+       }
+      ]
+     },
+     {
+      "type": "note",
+      "paragraphs": [
+       "(Текст и перевод полностью совпадают со стихом 4376)."
+      ]
+     }
+    ],
+    "en": [
+     {
+      "type": "h4",
+      "text": "2. Verse 4376: Padmāsana (The Lotus Posture)"
+     },
+     {
+      "type": "p",
+      "text": "(Quoted verbatim from Dattātreyayogaśāstra, verse 35)"
+     },
+     {
+      "type": "verse_card",
+      "verses": "4376",
+      "sections": [
+       {
+        "type": "verse",
+        "key": "deva",
+        "label": "Devanāgarī",
+        "lines": [
+         "उत्तानौ चरणौ कृत्वा ह्युरुसंस्थौ प्रयत्नतः ।",
+         "ऊरुमध्ये तथोत्तानौ पाणी पद्मासनं त्विदम् ॥ ४३७६ ॥"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "iast",
+        "label": "IAST",
+        "lines": [
+         "uttānau caraṇau kṛtvā hy urusaṃsthau prayatnataḥ /",
+         "ūrumadhye tathottānau pāṇī padmāsanaṃ tv idam // 4376 //"
+        ]
+       }
+      ]
+     },
+     {
+      "type": "p",
+      "text": "Metre: Anuṣṭubh"
+     },
+     {
+      "type": "note",
+      "paragraphs": [
+       "In Peterson’s 1888 edition, the particle hy is misprinted as fused (kṛttvā ūru-). The reading hy urusaṃsthau is confirmed by the Dattātreyayogaśāstra (v. 35) and London MS RAS Tod 32."
+      ]
+     },
+     {
+      "type": "words",
+      "label": "Word-by-word Analysis (padavibhāga)",
+      "paragraphs": [
+       "uttānau (turned soles upward); caraṇau (the two feet); kṛtvā (having placed); hi (indeed); uru-saṃsthau (situated on the thighs); prayatnataḥ (with deliberate effort); ūru-madhye (between the thighs); tathā (likewise); uttānau (turned palms upward); pāṇī (the two hands); padmāsanam (lotus posture); tu (indeed); idam (this) //"
+      ],
+      "groups": [
+       [
+        "uttānau",
+        "turned soles upward"
+       ],
+       [
+        "caraṇau",
+        "the two feet"
+       ],
+       [
+        "kṛtvā",
+        "having placed"
+       ],
+       [
+        "hi",
+        "indeed"
+       ],
+       [
+        "uru-saṃsthau",
+        "situated on the thighs"
+       ],
+       [
+        "prayatnataḥ",
+        "with deliberate effort"
+       ],
+       [
+        "ūru-madhye",
+        "between the thighs"
+       ],
+       [
+        "tathā",
+        "likewise"
+       ],
+       [
+        "uttānau",
+        "turned palms upward"
+       ],
+       [
+        "pāṇī",
+        "the two hands"
+       ],
+       [
+        "padmāsanam",
+        "lotus posture"
+       ],
+       [
+        "tu",
+        "indeed"
+       ],
+       [
+        "idam",
+        "this"
+       ]
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "literal",
+      "label": "Translation",
+      "paragraphs": [
+       "“Having with deliberate effort placed both feet soles upward upon the thighs, and likewise placing both hands palms upward between the thighs—this indeed is Padmāsana.”"
+      ]
+     },
+     {
+      "type": "h4",
+      "text": "3. Verse 4377: Bodily Geometry and Gaze in Padmāsana"
+     },
+     {
+      "type": "verse_card",
+      "verses": "4377",
+      "sections": [
+       {
+        "type": "verse",
+        "key": "deva",
+        "label": "Devanāgarī",
+        "lines": [
+         "तत्र पद्मासनं बद्ध्वा ततः संकोचयेदधः ।",
+         "समदण्डं शिरः कृत्वा नासिकान्तदृशां नयेत् ॥ ४३७७ ॥"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "iast",
+        "label": "IAST",
+        "lines": [
+         "tatra padmāsanaṃ baddhvā tataḥ saṃkocayed adhaḥ /",
+         "samadaṇḍaṃ śiraḥ kṛtvā nāsikāntadṛśāṃ nayet // 4377 //"
+        ]
+       }
+      ]
+     },
+     {
+      "type": "p",
+      "text": "Metre: Anuṣṭubh"
+     },
+     {
+      "type": "words",
+      "label": "Word-by-word Analysis (padavibhāga)",
+      "paragraphs": [
+       "tatra (therein); padmāsanam (the lotus posture); baddhvā (having bound / assumed); tataḥ (then); saṃkocayet (one should contract); adhaḥ (the lower region [performing mūlabandha]); sama-daṇḍam (straight like a staff); śiraḥ (the head); kṛtvā (having held); nāsikā-anta-dṛśām (gaze directed toward the tip of the nose); nayet (one should direct) //"
+      ],
+      "groups": [
+       [
+        "tatra",
+        "therein"
+       ],
+       [
+        "padmāsanam",
+        "the lotus posture"
+       ],
+       [
+        "baddhvā",
+        "having bound / assumed"
+       ],
+       [
+        "tataḥ",
+        "then"
+       ],
+       [
+        "saṃkocayet",
+        "one should contract"
+       ],
+       [
+        "adhaḥ",
+        "the lower region [performing mūlabandha]"
+       ],
+       [
+        "sama-daṇḍam",
+        "straight like a staff"
+       ],
+       [
+        "śiraḥ",
+        "the head"
+       ],
+       [
+        "kṛtvā",
+        "having held"
+       ],
+       [
+        "nāsikā-anta-dṛśām",
+        "gaze directed toward the tip of the nose"
+       ],
+       [
+        "nayet",
+        "one should direct"
+       ]
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "literal",
+      "label": "Translation",
+      "paragraphs": [
+       "“Having bound the lotus posture, one should contract the lower region [the perineum]; holding the head straight as a staff, one should direct the gaze to the tip of the nose.”"
+      ]
+     },
+     {
+      "type": "h4",
+      "text": "7. Verse 4435: Padmāsana (Second Verbatim Citation)"
+     },
+     {
+      "type": "verse_card",
+      "verses": "4435",
+      "sections": [
+       {
+        "type": "verse",
+        "key": "iast",
+        "label": "IAST",
+        "lines": [
+         "uttānau caraṇau kṛtvā hy urusaṃsthau prayatnataḥ /",
+         "ūrumadhye tathottānau pāṇī padmāsanaṃ tv idam // 4435 //"
+        ]
+       }
+      ]
+     },
+     {
+      "type": "note",
+      "paragraphs": [
+       "(Text, metre, and translation identical to verse 4376 and Dattātreyayogaśāstra verse 35)."
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "key": "ardhasana",
+   "heading": {
+    "ru": "8. Стих 4436: Ардхāсана (Ardhāsana — полулотос)",
+    "en": "8. Verse 4436: Ardhāsana (The Half-Lotus Posture)"
+   },
+   "iast": "Ardhāsana",
+   "number": 2,
+   "name": {
+    "ru": "Ардхāсана",
+    "en": "The Half-Lotus Posture"
+   },
+   "gloss": {
+    "ru": "",
+    "en": ""
+   },
+   "verses": {
+    "ru": "4436",
+    "en": "4436"
+   },
+   "text": {
+    "ru": [
+     {
+      "type": "h4",
+      "text": "8. Стих 4436: Ардхāсана (Ardhāsana — полулотос)"
+     },
+     {
+      "type": "verse_card",
+      "verses": "4436",
+      "sections": [
+       {
+        "type": "verse",
+        "key": "deva",
+        "label": "Деванагари",
+        "lines": [
+         "दक्षिणोरुतले वामं पादं न्यस्य तु दक्षिणम् ।",
+         "वामोरोरुपरि स्थाप्यमेतदर्धासनं मतम् ॥ ४४३६ ॥"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "iast",
+        "label": "IAST",
+        "lines": [
+         "dakṣiṇorutale vāmaṃ pādaṃ nyasya tu dakṣiṇam /",
+         "vāmoror upari sthāpyam etad ardhāsanaṃ matam // 4436 //"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "cyr",
+        "label": "Кириллица",
+        "lines": [
+         "дакшин̣орутале вāмам̣ пāдам̣ нйасйа ту дакшин̣ам /",
+         "вāморор упари стхāпйам етад ардхāсанам̣ матам // 4436 //"
+        ]
+       }
+      ]
+     },
+     {
+      "type": "p",
+      "text": "Размер: Анушт̣убх (Anuṣṭubh)"
+     },
+     {
+      "type": "note",
+      "paragraphs": [
+       "В издании Питерсона вновь опечатка etad adhāsanaṃ matam. Конъектура etad ardhāsanaṃ matam («это считается Ардхāсаной») является очевидной и общепринятой."
+      ]
+     },
+     {
+      "type": "words",
+      "label": "Пословный разбор (падавибхāга)",
+      "paragraphs": [
+       "dakṣiṇa-uru-tale (под правое бедро / у основания правого бедра) vāmam pādam (левую стопу) nyasya (поместив) tu (же) dakṣiṇam (правую [стопу]) / vāma-uroḥ upari (поверх левого бедра) sthāpyam (следует расположить) etad (это) ardhāsanam (полулотос / Ардхāсана) matam (считается) //"
+      ],
+      "groups": [
+       [
+        "dakṣiṇa-uru-tale",
+        "под правое бедро / у основания правого бедра"
+       ],
+       [
+        "vāmam pādam",
+        "левую стопу"
+       ],
+       [
+        "nyasya",
+        "поместив"
+       ],
+       [
+        "tu",
+        "же"
+       ],
+       [
+        "dakṣiṇam",
+        "правую [стопу]"
+       ],
+       [
+        "vāma-uroḥ upari",
+        "поверх левого бедра"
+       ],
+       [
+        "sthāpyam",
+        "следует расположить"
+       ],
+       [
+        "etad",
+        "это"
+       ],
+       [
+        "ardhāsanam",
+        "полулотос / Ардхāсана"
+       ],
+       [
+        "matam",
+        "считается"
+       ]
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "literal",
+      "label": "Буквальный перевод",
+      "paragraphs": [
+       "«Под правое бедро левую стопу поместив же, правую поверх левого бедра следует расположить — это Ардхāсаной считается»."
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "literary",
+      "label": "Литературный перевод",
+      "paragraphs": [
+       "«Поместив левую стопу под правое бедро, а правую стопу расположив поверх левого бедра — это признаётся Ардхāсаной [позой полулотоса]»."
+      ]
+     }
+    ],
+    "en": [
+     {
+      "type": "h4",
+      "text": "8. Verse 4436: Ardhāsana (The Half-Lotus Posture)"
+     },
+     {
+      "type": "verse_card",
+      "verses": "4436",
+      "sections": [
+       {
+        "type": "verse",
+        "key": "deva",
+        "label": "Devanāgarī",
+        "lines": [
+         "दक्षिणोरुतले वामं पादं न्यस्य तु दक्षिणम् ।",
+         "वामोरोरुपरि स्थाप्यमेतदर्धासनं मतम् ॥ ४४३६ ॥"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "iast",
+        "label": "IAST",
+        "lines": [
+         "dakṣiṇorutale vāmaṃ pādaṃ nyasya tu dakṣiṇam /",
+         "vāmoror upari sthāpyam etad ardhāsanaṃ matam // 4436 //"
+        ]
+       }
+      ]
+     },
+     {
+      "type": "p",
+      "text": "Metre: Anuṣṭubh"
+     },
+     {
+      "type": "note",
+      "paragraphs": [
+       "Peterson’s edition reads etad adhāsanaṃ. Emended to etad ardhāsanaṃ matam (“this is considered Ardhāsana”)."
+      ]
+     },
+     {
+      "type": "words",
+      "label": "Word-by-word Analysis (padavibhāga)",
+      "paragraphs": [
+       "dakṣiṇa-uru-tale (under the right thigh); vāmam pādam (the left foot); nyasya (having placed); tu (indeed); dakṣiṇam (the right [foot]); vāma-uroḥ upari (on top of the left thigh); sthāpyam (is to be placed); etad (this); ardhāsanam (half-lotus posture); matam (is considered) //"
+      ],
+      "groups": [
+       [
+        "dakṣiṇa-uru-tale",
+        "under the right thigh"
+       ],
+       [
+        "vāmam pādam",
+        "the left foot"
+       ],
+       [
+        "nyasya",
+        "having placed"
+       ],
+       [
+        "tu",
+        "indeed"
+       ],
+       [
+        "dakṣiṇam",
+        "the right [foot]"
+       ],
+       [
+        "vāma-uroḥ upari",
+        "on top of the left thigh"
+       ],
+       [
+        "sthāpyam",
+        "is to be placed"
+       ],
+       [
+        "etad",
+        "this"
+       ],
+       [
+        "ardhāsanam",
+        "half-lotus posture"
+       ],
+       [
+        "matam",
+        "is considered"
+       ]
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "literal",
+      "label": "Translation",
+      "paragraphs": [
+       "“Having placed the left foot underneath the right thigh, and placing the right foot on top of the left thigh—this is recognized as Ardhāsana.”"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "key": "siddhasana",
+   "heading": {
+    "ru": "9. Стих 4437: Сиддхāсана (Siddhāsana — поза совершенного)",
+    "en": "9. Verse 4437: Siddhāsana (The Accomplished Posture)"
+   },
+   "iast": "Siddhāsana",
+   "number": 3,
+   "name": {
+    "ru": "Сиддхāсана",
+    "en": "The Accomplished Posture"
+   },
+   "gloss": {
+    "ru": "",
+    "en": ""
+   },
+   "verses": {
+    "ru": "4437",
+    "en": "4437"
+   },
+   "text": {
+    "ru": [
+     {
+      "type": "h4",
+      "text": "9. Стих 4437: Сиддхāсана (Siddhāsana — поза совершенного)"
+     },
+     {
+      "type": "verse_card",
+      "verses": "4437",
+      "sections": [
+       {
+        "type": "verse",
+        "key": "deva",
+        "label": "Деванагари",
+        "lines": [
+         "पार्ष्",
+         "णिं तु वामपादस्य योनिस्थाने नियोजयेत् ।",
+         "वामोरोरुपरि स्थाप्यो दक्षिणः सिद्धमासनम् ॥ ४४३७ ॥"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "iast",
+        "label": "IAST",
+        "lines": [
+         "pārṣṇiṃ tu vāmapādasya yonisthāne niyojayet /",
+         "vāmoror upari sthāpyo dakṣiṇaḥ siddham āsanam // 4437 //"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "cyr",
+        "label": "Кириллица",
+        "lines": [
+         "пāршн̣им̣ ту вāмапāдасйа йонистхāне нийоджайет /",
+         "вāморор упари стхāпйо дакшин̣ах̣ сиддхам āсанам // 4437 //"
+        ]
+       }
+      ]
+     },
+     {
+      "type": "p",
+      "text": "Размер: Анушт̣убх (Anuṣṭubh)"
+     },
+     {
+      "type": "note",
+      "paragraphs": [
+       "В издании Питерсона наборное искажение saiddham āsanam (или saidam). Правильное чтение — siddham āsanam («поза Сиддхāсана»)."
+      ]
+     },
+     {
+      "type": "words",
+      "label": "Пословный разбор (падавибхāга)",
+      "paragraphs": [
+       "pārṣṇim (пятку) tu (же) vāma-pādasya (левой ноги) yoni-sthāne (к месту промежности / основанию промежности) niyojayet (следует прижать) / vāma-uroḥ upari (поверх левого бедра) sthāpyaḥ (должна быть помещена) dakṣiṇaḥ (правая [стопа]) siddham āsanam (Сиддхāсана / совершенная поза) //"
+      ],
+      "groups": [
+       [
+        "pārṣṇim",
+        "пятку"
+       ],
+       [
+        "tu",
+        "же"
+       ],
+       [
+        "vāma-pādasya",
+        "левой ноги"
+       ],
+       [
+        "yoni-sthāne",
+        "к месту промежности / основанию промежности"
+       ],
+       [
+        "niyojayet",
+        "следует прижать"
+       ],
+       [
+        "vāma-uroḥ upari",
+        "поверх левого бедра"
+       ],
+       [
+        "sthāpyaḥ",
+        "должна быть помещена"
+       ],
+       [
+        "dakṣiṇaḥ",
+        "правая [стопа]"
+       ],
+       [
+        "siddham āsanam",
+        "Сиддхāсана / совершенная поза"
+       ]
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "literal",
+      "label": "Буквальный перевод",
+      "paragraphs": [
+       "«Пятку же левой ноги в месте промежности пусть зафиксирует, поверх левого бедра должен быть помещён правый [голеностоп] — [это] Сиддхāсана»."
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "literary",
+      "label": "Литературный перевод",
+      "paragraphs": [
+       "«Пятку левой ноги следует плотно прижать к области промежности (йони), а правую стопу расположить поверх левого бедра — это Сиддхāсана [поза совершенного]»."
+      ]
+     }
+    ],
+    "en": [
+     {
+      "type": "h4",
+      "text": "9. Verse 4437: Siddhāsana (The Accomplished Posture)"
+     },
+     {
+      "type": "verse_card",
+      "verses": "4437",
+      "sections": [
+       {
+        "type": "verse",
+        "key": "deva",
+        "label": "Devanāgarī",
+        "lines": [
+         "पार्ष्",
+         "णिं तु वामपादस्य योनिस्थाने नियोजयेत् ।",
+         "वामोरोरुपरि स्थाप्यो दक्षिणः सिद्धमासनम् ॥ ४४३७ ॥"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "iast",
+        "label": "IAST",
+        "lines": [
+         "pārṣṇiṃ tu vāmapādasya yonisthāne niyojayet /",
+         "vāmoror upari sthāpyo dakṣiṇaḥ siddham āsanam // 4437 //"
+        ]
+       }
+      ]
+     },
+     {
+      "type": "p",
+      "text": "Metre: Anuṣṭubh"
+     },
+     {
+      "type": "note",
+      "paragraphs": [
+       "Emended from Peterson’s misprint saiddham āsanam to siddham āsanam."
+      ]
+     },
+     {
+      "type": "words",
+      "label": "Word-by-word Analysis (padavibhāga)",
+      "paragraphs": [
+       "pārṣṇim (the heel); tu (indeed); vāma-pādasya (of the left foot); yoni-sthāne (at the perineum); niyojayet (one should firmly apply); vāma-uroḥ upari (on top of the left thigh); sthāpyaḥ (is to be placed); dakṣiṇaḥ (the right [foot]); siddham āsanam (Siddhāsana / the accomplished posture) //"
+      ],
+      "groups": [
+       [
+        "pārṣṇim",
+        "the heel"
+       ],
+       [
+        "tu",
+        "indeed"
+       ],
+       [
+        "vāma-pādasya",
+        "of the left foot"
+       ],
+       [
+        "yoni-sthāne",
+        "at the perineum"
+       ],
+       [
+        "niyojayet",
+        "one should firmly apply"
+       ],
+       [
+        "vāma-uroḥ upari",
+        "on top of the left thigh"
+       ],
+       [
+        "sthāpyaḥ",
+        "is to be placed"
+       ],
+       [
+        "dakṣiṇaḥ",
+        "the right [foot]"
+       ],
+       [
+        "siddham āsanam",
+        "Siddhāsana / the accomplished posture"
+       ]
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "literal",
+      "label": "Translation",
+      "paragraphs": [
+       "“One should firmly press the heel of the left foot against the perineum, and place the right foot upon the left thigh—this is Siddhāsana.”"
+      ]
+     }
+    ]
+   }
+  }
+ ]
+}

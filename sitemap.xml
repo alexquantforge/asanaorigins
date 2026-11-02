@@ -158,6 +158,12 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://alexquantforge.github.io/asanaorigins/en/asana/baddhapadmasana/"/>
   </url>
   <url>
+    <loc>https://alexquantforge.github.io/asanaorigins/asana/ardhasana/</loc>
+    <lastmod>2026-11-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://alexquantforge.github.io/asanaorigins/asana/ardhasana/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://alexquantforge.github.io/asanaorigins/en/asana/ardhasana/"/>
+  </url>
+  <url>
     <loc>https://alexquantforge.github.io/asanaorigins/treatise/ahirbudhnya-samhita/</loc>
     <lastmod>2026-11-02</lastmod>
     <xhtml:link rel="alternate" hreflang="ru" href="https://alexquantforge.github.io/asanaorigins/treatise/ahirbudhnya-samhita/"/>
@@ -216,6 +222,24 @@
     <lastmod>2026-11-02</lastmod>
     <xhtml:link rel="alternate" hreflang="ru" href="https://alexquantforge.github.io/asanaorigins/treatise/hathatattvakaumudi/appendix/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://alexquantforge.github.io/asanaorigins/en/treatise/hathatattvakaumudi/appendix/"/>
+  </url>
+  <url>
+    <loc>https://alexquantforge.github.io/asanaorigins/treatise/sharngadharapaddhati/</loc>
+    <lastmod>2026-11-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://alexquantforge.github.io/asanaorigins/treatise/sharngadharapaddhati/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://alexquantforge.github.io/asanaorigins/en/treatise/sharngadharapaddhati/"/>
+  </url>
+  <url>
+    <loc>https://alexquantforge.github.io/asanaorigins/treatise/sharngadharapaddhati/introduction/</loc>
+    <lastmod>2026-11-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://alexquantforge.github.io/asanaorigins/treatise/sharngadharapaddhati/introduction/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://alexquantforge.github.io/asanaorigins/en/treatise/sharngadharapaddhati/introduction/"/>
+  </url>
+  <url>
+    <loc>https://alexquantforge.github.io/asanaorigins/treatise/sharngadharapaddhati/appendix/</loc>
+    <lastmod>2026-11-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://alexquantforge.github.io/asanaorigins/treatise/sharngadharapaddhati/appendix/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://alexquantforge.github.io/asanaorigins/en/treatise/sharngadharapaddhati/appendix/"/>
   </url>
   <url>
     <loc>https://alexquantforge.github.io/asanaorigins/en/</loc>
@@ -374,6 +398,12 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://alexquantforge.github.io/asanaorigins/en/asana/baddhapadmasana/"/>
   </url>
   <url>
+    <loc>https://alexquantforge.github.io/asanaorigins/en/asana/ardhasana/</loc>
+    <lastmod>2026-11-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://alexquantforge.github.io/asanaorigins/asana/ardhasana/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://alexquantforge.github.io/asanaorigins/en/asana/ardhasana/"/>
+  </url>
+  <url>
     <loc>https://alexquantforge.github.io/asanaorigins/en/treatise/ahirbudhnya-samhita/</loc>
     <lastmod>2026-11-02</lastmod>
     <xhtml:link rel="alternate" hreflang="ru" href="https://alexquantforge.github.io/asanaorigins/treatise/ahirbudhnya-samhita/"/>
@@ -432,5 +462,23 @@
     <lastmod>2026-11-02</lastmod>
     <xhtml:link rel="alternate" hreflang="ru" href="https://alexquantforge.github.io/asanaorigins/treatise/hathatattvakaumudi/appendix/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://alexquantforge.github.io/asanaorigins/en/treatise/hathatattvakaumudi/appendix/"/>
+  </url>
+  <url>
+    <loc>https://alexquantforge.github.io/asanaorigins/en/treatise/sharngadharapaddhati/</loc>
+    <lastmod>2026-11-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://alexquantforge.github.io/asanaorigins/treatise/sharngadharapaddhati/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://alexquantforge.github.io/asanaorigins/en/treatise/sharngadharapaddhati/"/>
+  </url>
+  <url>
+    <loc>https://alexquantforge.github.io/asanaorigins/en/treatise/sharngadharapaddhati/introduction/</loc>
+    <lastmod>2026-11-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://alexquantforge.github.io/asanaorigins/treatise/sharngadharapaddhati/introduction/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://alexquantforge.github.io/asanaorigins/en/treatise/sharngadharapaddhati/introduction/"/>
+  </url>
+  <url>
+    <loc>https://alexquantforge.github.io/asanaorigins/en/treatise/sharngadharapaddhati/appendix/</loc>
+    <lastmod>2026-11-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://alexquantforge.github.io/asanaorigins/treatise/sharngadharapaddhati/appendix/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://alexquantforge.github.io/asanaorigins/en/treatise/sharngadharapaddhati/appendix/"/>
   </url>
 </urlset>

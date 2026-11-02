@@ -86,7 +86,7 @@
     }
   };
 
-  const BUILD = "2026-11-02.10";
+  const BUILD = "2026-11-02.11";
   const V = "?v=" + BUILD;
 
   const state = {
@@ -954,6 +954,13 @@
         i += 1;
         continue;
       }
+      if ((sec.type === "p" || sec.type === "h3" || sec.type === "h4") &&
+          (sec.text != null || sec.html != null)) {
+        // заголовок или абзац внутри раздела: классы те же, что у «О трактате»
+        html += renderBlocks([sec]);
+        i += 1;
+        continue;
+      }
       // plain paragraphs
       (sec.paragraphs || []).forEach((p) => {
         html += '<p class="about-p">' + esc(p) + "</p>";
@@ -1049,7 +1056,9 @@
   function renderChapter() {
     const all = activeTreatise.prologue[state.lang] || [];
     const title = chapterTitle();
-    const sections = all;
+    // первый подзаголовок служит и названием страницы — второй раз не печатаем
+    const lead = all[0] && all[0].type === "subhead" ? all[0] : null;
+    const sections = lead && lead.label === title ? all.slice(1) : all;
     let html = pageHead(title, esc(tx(activeTreatise.title)) + " · " + esc(tx(activeTreatise.subtitle)));
     html += renderSections(sections);
     html += renderColophon(activeTreatise);
