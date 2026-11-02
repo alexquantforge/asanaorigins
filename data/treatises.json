@@ -143,6 +143,30 @@
     "ru": "изд. 1895 г., с. 156–157 · изд. 2008 г., с. 119",
     "en": "1895 edition, pp. 156–157 · 2008 edition, p. 119"
    }
+  },
+  {
+   "id": "hathatattvakaumudi",
+   "file": "data/hathatattvakaumudi.json",
+   "title": {
+    "ru": "Хат̣хататтвакаумудӣ",
+    "en": "Haṭhatattvakaumudī"
+   },
+   "subtitle": {
+    "ru": "глава 7 · Athāsanāni · пятнадцать āсан",
+    "en": "chapter 7 · Athāsanāni · fifteen āsanas"
+   },
+   "tradition": {
+    "ru": "хат̣ха-йога",
+    "en": "Haṭha yoga"
+   },
+   "edition": {
+    "ru": "критическое издание · на основе печатного издания М. Л. Гхароте (Лонавла, 2007/2020) · шлоки 1–45",
+    "en": "critical edition · after M. L. Gharote's printed edition (Lonavla, 2007/2020) · verses 1–45"
+   },
+   "pdf": {
+    "ru": "sources/Hathatattvakaumudi_Chapter_7_Critical_Edition_RU.pdf",
+    "en": "sources/Hathatattvakaumudi_Chapter_7_Critical_Edition_EN.pdf"
+   }
   }
  ]
 }

@@ -86,7 +86,7 @@
     }
   };
 
-  const BUILD = "2026-11-02.9";
+  const BUILD = "2026-11-02.10";
   const V = "?v=" + BUILD;
 
   const state = {
@@ -582,7 +582,7 @@
     const tr = activeTreatise ? tx(activeTreatise.title) : "";
     const titled = (label) => [label, tr, base].filter(Boolean).join(" — ");
     if (route.view === "about") return titled(t("about"));
-    if (route.view === "chapter") return titled(t("chapterLink"));
+    if (route.view === "chapter") return titled(chapterTitle());
     if (route.view === "appendix") return titled(t("appendix"));
     if (route.view === "notes") return titled(t("notes"));
     return base;
@@ -657,7 +657,7 @@
       String(primary.number).padStart(2, "0") + "</span>" +
       '<span class="dot"></span><span>' + esc(tx(primary.verses)) + "</span></p>" +
       '<h1 class="pose-title">' + esc(tx(primary.name)) + "</h1>" +
-      '<p class="pose-gloss">' + esc(tx(primary.gloss)) + "</p>" +
+      (tx(primary.gloss) ? '<p class="pose-gloss">' + esc(tx(primary.gloss)) + "</p>" : "") +
       '<p class="pose-iast">' + esc(primary.iast || "") + "</p>" +
       '<div class="pose-rule"></div>' +
       "</header>";
@@ -776,7 +776,8 @@
   }
 
   function renderDating(tr) {
-    const summary = tr.datingSummary;
+    // сводка датировки хранится по языкам: {ru:{…}, en:{…}}
+    const summary = tx(tr.datingSummary);
     const full = tr.dating && tr.dating[state.lang];
     if (!summary && !(full && full.blocks && full.blocks.length)) return "";
 
@@ -916,6 +917,18 @@
           html += "<p>" + esc(p) + "</p>";
         });
         html += "</section>";
+        i += 1;
+        continue;
+      }
+      if (sec.type === "label") {
+        html += '<h3 class="section-label"><span>' + esc(sec.label) + "</span></h3>";
+        i += 1;
+        continue;
+      }
+      if (sec.type === "list" || sec.type === "table") {
+        html += '<section class="section">' +
+          (sec.label ? '<h3 class="section-label"><span>' + esc(sec.label) + "</span></h3>" : "") +
+          renderBlocks([sec]) + "</section>";
         i += 1;
         continue;
       }

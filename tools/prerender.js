@@ -298,7 +298,13 @@ function applyHead(html, page, title, description, h1, site, treatiseTitle) {
   out = out.replace(/<meta name="description"[^>]*>/,
     '<meta name="description" content="' + esc(description) + '">');
   out = out.replace(/<\/head>/, seoBlock(page, title, description, h1, site, treatiseTitle) + "\n</head>");
-  if (page.lang === "en") out = out.replace(/<html lang="ru"/, '<html lang="en"');
+  if (page.lang === "en") {
+    out = out.replace(/<html lang="ru"/, '<html lang="en"');
+    // the shell ships a Russian <noscript>; an English page needs its own
+    out = out.replace(/<noscript>[\s\S]*?<\/noscript>/,
+      '<noscript><p class="noscript">The text of every page is readable without ' +
+      'JavaScript; switching script, theme and filtering the pose list need it.</p></noscript>');
+  }
   return out;
 }
 
