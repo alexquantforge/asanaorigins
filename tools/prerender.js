@@ -116,14 +116,13 @@ function routesOf(treatises) {
     keys.forEach((treatiseId, key) => push("pose/" + key, lang, treatiseId));
     treatises.forEach((tr) => {
       push("treatise/" + tr.id, lang, tr.id);
-      const slug = { chapter: { ru: "vstuplenie", en: "intro" },
-                     appendix: { ru: "prilozhenie", en: "appendix" },
-                     notes: { ru: "primechaniya", en: "notes" } };
+      // Адрес раздела одинаков в обоих языках: различается только префикс /en/.
+      const slug = { chapter: "introduction", appendix: "appendix", notes: "notes" };
       // «вступление» — это поле prologue: так раздел назван в данных
       const field = { chapter: "prologue", appendix: "appendix", notes: "notes" };
       for (const view of ["chapter", "appendix", "notes"]) {
         if ((tr[field[view]] && tr[field[view]][lang] || []).length) {
-          push("treatise/" + tr.id + "/" + slug[view][lang === "en" ? "en" : "ru"], lang, tr.id);
+          push("treatise/" + tr.id + "/" + slug[view], lang, tr.id);
         }
       }
     });
@@ -131,18 +130,10 @@ function routesOf(treatises) {
   return pages;
 }
 
-/* The same page in the other language: hreflang pairs must exist both ways. */
-const slugRu = { vstuplenie: "intro", prilozhenie: "appendix", primechaniya: "notes" };
+/* The same page in the other language: hreflang pairs must exist both ways.
+   The address of a page does not depend on its language, so the only thing
+   that changes is the /en/ prefix. */
 function twin(page) {
-  const parts = page.route.split("/");
-  if (page.route === "home") {
-    return { route: "home", lang: page.lang === "ru" ? "en" : "ru" };
-  }
-  if (parts[0] === "treatise" && parts[2]) {
-    const back = Object.entries(slugRu).find(([, en]) => en === parts[2]);
-    return { route: parts[2] ? "treatise/" + parts[1] + "/" + (page.lang === "en" ? back[0] : slugRu[parts[2]]) : page.route,
-             lang: page.lang === "ru" ? "en" : "ru" };
-  }
   return { route: page.route, lang: page.lang === "ru" ? "en" : "ru" };
 }
 

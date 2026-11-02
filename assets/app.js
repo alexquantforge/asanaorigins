@@ -115,15 +115,19 @@
     state.lang = document.documentElement.lang === "en" ? "en" : "ru";
   }
 
+  // Разделы названы по-английски в обоих языках: адрес трактата одинаков
+  // в русской и английской версии и различается только префиксом /en/.
   const SECTION_SLUGS = {
-    chapter: { ru: "vstuplenie", en: "intro" },
-    appendix: { ru: "prilozhenie", en: "appendix" },
-    notes: { ru: "primechaniya", en: "notes" }
+    chapter: "introduction",
+    appendix: "appendix",
+    notes: "notes"
   };
+  // Старые написания раздела (в том числе хеш-адреса из первых версий сайта)
+  // читаются по-прежнему, чтобы уже разосланные ссылки не ломались.
   const SUB_VIEWS = {
-    vstuplenie: "chapter", intro: "chapter",
-    prilozhenie: "appendix", appendix: "appendix",
-    primechaniya: "notes", notes: "notes"
+    introduction: "chapter", vstuplenie: "chapter", intro: "chapter",
+    appendix: "appendix", prilozhenie: "appendix",
+    notes: "notes", primechaniya: "notes"
   };
 
   let site = null;
@@ -140,7 +144,7 @@
     const id = treatiseId || (activeTreatise && activeTreatise.id) || "";
     if (view === "about") return prefix + "treatise/" + id + "/";
     const slug = SECTION_SLUGS[view];
-    return prefix + "treatise/" + id + "/" + (slug ? slug[lang === "en" ? "en" : "ru"] : "") + "/";
+    return prefix + "treatise/" + id + "/" + (slug ? slug + "/" : "");
   }
 
   // Where a link to that page points from the page we are on: a real relative
@@ -163,7 +167,7 @@
     if (route.view === "pose") return "pose/" + route.key;
     const id = route.treatise || (activeTreatise && activeTreatise.id) || "";
     const slug = SECTION_SLUGS[route.view];
-    return "treatise/" + id + (slug ? "/" + slug[state.lang === "en" ? "en" : "ru"] : "");
+    return "treatise/" + id + (slug ? "/" + slug : "");
   }
 
   // The page we are on, written the way url() writes it.
