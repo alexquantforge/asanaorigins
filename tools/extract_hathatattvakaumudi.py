@@ -483,6 +483,13 @@ def sections_of(tokens: list[dict], fallback: str = "") -> list[dict]:
         label_text = ""
 
     for tok in tokens:
+        if tok["kind"] in ("h2", "h3"):
+            # заголовок внутри главы: «Шлока 2: …», «ШЛОКИ 36–40: …»
+            flush_mode()
+            flush_card()
+            out.append({"type": "subhead", "label": tok["text"]})
+            prev = tok
+            continue
         if tok["kind"] == "label" and tok["label"] in ("deva", "iast", "cyr"):
             flush_mode()
             # «Кириллическая транслитерация (с диакритикой)» идёт без номера
@@ -503,7 +510,7 @@ def sections_of(tokens: list[dict], fallback: str = "") -> list[dict]:
             card["sections"][-1]["lines"].append(tok["text"])
             prev = tok
             continue
-        if card and tok["kind"] in ("para", "num", "h3") and not mode:
+        if card and tok["kind"] in ("para", "num") and not mode:
             flush_card()
         if tok["kind"] == "label":
             flush_mode()
@@ -575,6 +582,7 @@ def pose_from(unit: dict, lang: str) -> dict | None:
         else " ".join(w.capitalize() for w in bits[0].split())
     return {
         "key": key,
+        "heading": unit["head"],
         "iast": iast,
         "number": num,
         "name": name,
@@ -588,99 +596,28 @@ def titlecase(name: str) -> str:
     return " / ".join(p.strip().capitalize() for p in name.split("/"))
 
 
-# ------------------------------------------------------------------ датировка
-
-# Короткие строки датировки: только то, что авторы издания говорят о дате,
-# их же словами. Полная статья (§1.2) остаётся на странице асаны целиком.
-DATING_SUMMARY = {
-    "ru": {
-        "label": "Кто как датирует (по §1.2 издания)",
-        "items": [
-            {
-                "who": "М. Л. Гхароте, М. Венката Редди",
-                "when": "1700–1750 гг. н. э.",
-                "work": "Вывод издания: «Трактат был создан в период между 1700 и 1750 гг. н. э. "
-                        "(первая половина XVIII века)». Нижняя граница — цитаты из «Хат̣харатнāвалӣ» "
-                        "(ок. 1670–1695), верхняя — рукопись MS. No. 4235 с датой 1789 г.",
-            },
-            {
-                "who": "Джейсон Бёрч",
-                "when": "первая половина XVIII столетия",
-                "work": "Дату текста отдельно не называет: относит жанр «энциклопедизма», к которому "
-                        "принадлежит «Хат̣хататтвакаумудӣ», к первой половине XVIII века и Вāрāн̣асӣ.",
-            },
-            {
-                "who": "Гудрун Бюнеманн",
-                "when": "дата не названа",
-                "work": "Говорит о месте главы 7 в истории перечней āсан: канонический костяк из 15 āсан "
-                        "переосмыслен терапевтически, «перед бурным расцветом более обширных перечней āсан "
-                        "(84 и более) в конце XVIII — начале XIX века».",
-            },
-            {
-                "who": "Марк Синглтон",
-                "when": "XVIII век",
-                "work": "Дату текста отдельно не называет: объясняет фигуру Сундарадевы условиями "
-                        "«космополитического Вāрāн̣аси XVIII века».",
-            },
-        ],
-    },
-    "en": {
-        "label": "Who dates it how (per §1.2 of the edition)",
-        "items": [
-            {
-                "who": "M. L. Gharote, M. Venkata Reddy",
-                "when": "1700–1750 CE",
-                "work": "The edition's conclusion: “The treatise was composed between 1700 and 1750 CE "
-                        "(the first half of the 18th century)”. The lower bound is its citations of the "
-                        "Haṭharatnāvalī (c. 1670–1695); the upper bound is MS. No. 4235, dated 1789.",
-            },
-            {
-                "who": "Jason Birch",
-                "when": "first half of the 18th century",
-                "work": "Gives no separate date for the text: places the “age of encyclopaedism” to which "
-                        "the Haṭhatattvakaumudī belongs in the first half of the 18th century and in Vārāṇasī.",
-            },
-            {
-                "who": "Gudrun Bühnemann",
-                "when": "no date given",
-                "work": "Discusses the place of chapter 7 in the history of āsana lists: the canonical "
-                        "fifteen are recast therapeutically, “before the flowering of longer lists of āsanas "
-                        "(84 and more) in the late 18th and early 19th centuries”.",
-            },
-            {
-                "who": "Mark Singleton",
-                "when": "18th century",
-                "work": "Gives no separate date for the text: explains Sundaradeva's figure by the conditions "
-                        "of “cosmopolitan 18th-century Vārāṇasī”.",
-            },
-        ],
-    },
-}
-
-
-# --------------------------------------------------------------------- сборка
-
-def grouped(summary: dict) -> dict:
-    """Сводка датировки: один заголовок на группу, а не подпись к каждой строке."""
-    return {"groups": [{"title": summary.get("label"), "items": summary.get("items", [])}]}
-
-
 def build(lang: str) -> dict:
-    tokens = tokens_of(lang)
-    parts = split_parts(merge_headings(tokens))
+    tokens = merge_headings(tokens_of(lang))
+    parts = split_parts(tokens)
     if len(parts) < 3:
         raise SystemExit(f"{lang}: ожидалось три раздела, найдено {len(parts)}")
     intro, chapter, summary = parts[0], parts[1], parts[2]
     poses_part = chapter["subparts"][0] if chapter["subparts"] else {"tokens": []}
 
-    # §1.2 — датировка: она живёт отдельной статьёй, а не внутри «О трактате»
+    # §1.2 — датировка: она живёт отдельной статьёй, а не внутри «О трактате».
+    # Заголовок параграфа становится заголовком статьи, остальное — её текстом
+    # вместе с подзаголовками четырёх научных лагерей.
     all_blocks = blocks_of(intro["tokens"], intro["title"])
-    about, dating, in_dating = [], [], False
+    about, dating, dating_title, in_dating = [], [], "", False
     for block in all_blocks:
         if block.get("type") in ("h3", "h4"):
             m = NUM_HEAD.match(block.get("text", ""))
+            if m and m.group(1) == "1.2":
+                in_dating = True
+                dating_title = block["text"]
+                continue
             if m:
-                in_dating = m.group(1) == "1.2"
+                in_dating = False
             if in_dating:
                 dating.append(block)
                 continue
@@ -699,17 +636,25 @@ def build(lang: str) -> dict:
 
     pose_units = [u for u in units_of(poses_part["tokens"], poser_head) if u["head"]]
 
-    # титул издания: имя памятника и строка главы — дословно с первой страницы
-    head = [t["text"] for t in tokens[:4] if t["size"] >= 14]
-    about = ([{"type": "title", "text": head[0]}] if head else []) + \
-            ([{"type": "byline", "text": head[1]}] if len(head) > 1 else []) + about
+    # шапка издания — всё, что стоит до первого «РАЗДЕЛ»: титул, строка главы
+    # и подзаголовок. Раньше подзаголовок терялся: он идёт до раздела, а не в нём.
+    front = []
+    for tok in tokens:
+        if tok["kind"] == "part":
+            break
+        if tok["kind"] in ("h2", "h3"):
+            front.append(tok["text"])
+    about = ([{"type": "title", "text": front[0]}] if front else []) + \
+            ([{"type": "byline", "text": front[1]}] if len(front) > 1 else []) + \
+            [{"type": "p", "text": text} for text in front[2:]] + about
 
     return {
         "about": about,
-        "dating": [b for b in dating if b.get("type") not in ("h3", "h4")],
+        "dating": dating,
+        "dating_title": dating_title,
         "chapter_title": chapter["title"],
-        "chapter": units_of(chapter["tokens"], lambda t: bool(
-            t["kind"] == "h3" and VERSE_HEAD.match(t["text"]))),
+        "chapter_tokens": chapter["tokens"],
+        "poses_title": poses_part.get("title", ""),
         "poses": [pose_from(u, lang) for u in pose_units],
         "summary_title": summary["title"],
         "summary_text": summary["tokens"],
@@ -719,11 +664,9 @@ def build(lang: str) -> dict:
 
 def chapter_sections(data: dict) -> list[dict]:
     out = [{"type": "subhead", "label": data["chapter_title"]}]
-    for unit in data["chapter"]:
-        if not unit["head"]:
-            continue
-        out.append({"type": "subhead", "label": unit["head"]})
-        out.extend(sections_of(unit["tokens"]))
+    out.extend(sections_of(data["chapter_tokens"]))
+    if data.get("poses_title"):
+        out.append({"type": "subhead", "label": data["poses_title"]})
     return out
 
 
@@ -736,12 +679,6 @@ def appendix_sections(data: dict) -> list[dict]:
         out.append({"type": "p", "text": text})
     out.append({"type": "table", "rows": data["summary_table"]})
     return out
-
-
-DATING_TITLE = {
-    "ru": "1.2. Проблема датировки текста: аргументы и научная дискуссия",
-    "en": "1.2. The Chronological Problem: Scholarly Arguments and Dating Debate",
-}
 
 
 def strings_of(payload) -> str:
@@ -777,7 +714,7 @@ def coverage(lang: str, payload: dict) -> tuple[int, list[str]]:
     blob = strings_of(payload)
     missing = []
     for tok in tokens_of(lang):
-        if tok["kind"] not in ("para", "num", "bullet", "verse", "table"):
+        if tok["kind"] not in ("para", "num", "bullet", "verse", "table", "h2", "h3"):
             continue
         text = norm(re.sub(r"^\d+\.\s+", "", tok["text"]))
         if len(text) < 30:
@@ -798,6 +735,7 @@ def main() -> None:
             print("  ! ключи расходятся:", ru_pose["key"], en_pose["key"])
         poses.append({
             "key": ru_pose["key"],
+            "heading": {"ru": ru_pose["heading"], "en": en_pose["heading"]},
             # IAST общий для двух языков; в английском томе имя печатается
             # полнее («SIṂHĀSANA / YOGASIṂHĀSANA»), его и берём
             "iast": max(ru_pose["iast"], en_pose["iast"], key=len),
@@ -814,10 +752,9 @@ def main() -> None:
         "title": {"ru": "Хат̣хататтвакаумудӣ", "en": "Haṭhatattvakaumudī"},
         "about": {"ru": data_ru["about"], "en": data_en["about"]},
         "dating": {
-            "ru": {"title": DATING_TITLE["ru"], "blocks": data_ru["dating"]},
-            "en": {"title": DATING_TITLE["en"], "blocks": data_en["dating"]},
+            "ru": {"title": data_ru["dating_title"], "blocks": data_ru["dating"]},
+            "en": {"title": data_en["dating_title"], "blocks": data_en["dating"]},
         },
-        "datingSummary": {k: grouped(v) for k, v in DATING_SUMMARY.items()},
         "prologue": {"ru": chapter_sections(data_ru), "en": chapter_sections(data_en)},
         "appendix": {"ru": appendix_sections(data_ru), "en": appendix_sections(data_en)},
         "notes": {"ru": [], "en": []},

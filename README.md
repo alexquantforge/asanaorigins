@@ -38,10 +38,12 @@ data/treatises.json            индекс трактатов и общие п�
 data/ahirbudhnya-samhita.json  данные трактата (генерируются из PDF)
 data/vasishtha-samhita.json    данные второго трактата (тоже из PDF)
 data/manasollasa.json          данные третьего трактата (тоже из PDF)
+data/hathatattvakaumudi.json   данные четвёртого трактата (тоже из PDF)
 sources/*.pdf                  исходные PDF (русский и английский)
 tools/extract.py               сборка JSON Ахирбудхнья-самхиты
 tools/extract_vasishtha.py     сборка JSON Васишт̣ха-сам̣хиты
 tools/extract_manasollasa.py   сборка JSON Ма̄насолла̄сы
+tools/extract_hathatattvakaumudi.py  сборка JSON Хат̣хататтвакаумудӣ
 tools/deva.py                  девана̄гарӣ → IAST, буква в букву
 tools/common.py                общие разборщики PDF (блоки, строки, таблицы)
 tools/translit.py              карта транслитерации IAST → кириллица

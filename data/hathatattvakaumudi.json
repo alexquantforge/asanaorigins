@@ -16,6 +16,10 @@
     "text": "ГЛАВА 7: «ATHĀSANĀNI» (НАСТАВЛЕНИЕ В ĀСАНАХ)"
    },
    {
+    "type": "p",
+    "text": "Академическое критическое текстологическое издание, пословный грамматический анализ и исследование"
+   },
+   {
     "type": "h2",
     "text": "РАЗДЕЛ I. ИСТОРИКО-ФИЛОЛОГИЧЕСКОЕ И ТЕКСТОЛОГИЧЕСКОЕ ВВЕДЕНИЕ"
    },
@@ -443,6 +447,10 @@
     "text": "CHAPTER 7: ATHĀSANĀNI (TEACHING ON ĀSANAS)"
    },
    {
+    "type": "p",
+    "text": "Academic Critical Textological Edition, Word-by-Word Grammatical Analysis, and Philological Study"
+   },
+   {
     "type": "h2",
     "text": "SECTION I. HISTORICAL, PHILOLOGICAL, AND TEXTOLOGICAL INTRODUCTION"
    },
@@ -846,6 +854,10 @@
      "text": "Вопрос хронологической локализации «Хат̣хататтвакаумудӣ» исследовался ведущими санскритологами и историками йоги:"
     },
     {
+     "type": "h4",
+     "text": "1. Аргументы д-ра М. Л. Гхароте (M. L. Gharote) и д-ра М. Венката Редди (M. Venkata Reddy):"
+    },
+    {
      "type": "list",
      "ordered": false,
      "items": [
@@ -876,6 +888,10 @@
      ]
     },
     {
+     "type": "h4",
+     "text": "2. Текстологические аргументы Джейсона Бёрча (Jason Birch, Oxford University / Haṭha Yoga Project):"
+    },
+    {
      "type": "list",
      "ordered": false,
      "items": [
@@ -890,6 +906,10 @@
      ]
     },
     {
+     "type": "h4",
+     "text": "3. Иконографические и структурные штудии Гудрун Бюнеманн (Gudrun Bühnemann):"
+    },
+    {
      "type": "list",
      "ordered": false,
      "items": [
@@ -898,6 +918,10 @@
        "level": 1
       }
      ]
+    },
+    {
+     "type": "h4",
+     "text": "4. Социологический анализ Марка Синглтона (Mark Singleton):"
     },
     {
      "type": "list",
@@ -917,6 +941,10 @@
     {
      "type": "p",
      "text": "The historical dating of the Haṭhatattvakaumudī has been examined by leading Sanskritists and historians of yoga:"
+    },
+    {
+     "type": "h4",
+     "text": "1. Arguments of Dr. M. L. Gharote and Dr. M. Venkata Reddy (Critical Edition, 2007):"
     },
     {
      "type": "list",
@@ -949,6 +977,10 @@
      ]
     },
     {
+     "type": "h4",
+     "text": "2. Textological Arguments of Dr. Jason Birch (Oxford University / Haṭha Yoga Project):"
+    },
+    {
      "type": "list",
      "ordered": false,
      "items": [
@@ -963,6 +995,10 @@
      ]
     },
     {
+     "type": "h4",
+     "text": "3. Iconographic and Structural Analysis of Prof. Gudrun Bühnemann:"
+    },
+    {
      "type": "list",
      "ordered": false,
      "items": [
@@ -971,6 +1007,10 @@
        "level": 1
       }
      ]
+    },
+    {
+     "type": "h4",
+     "text": "4. Sociological Synthesis by Dr. Mark Singleton:"
     },
     {
      "type": "list",
@@ -985,71 +1025,15 @@
    ]
   }
  },
- "datingSummary": {
-  "ru": {
-   "groups": [
-    {
-     "title": "Кто как датирует (по §1.2 издания)",
-     "items": [
-      {
-       "who": "М. Л. Гхароте, М. Венката Редди",
-       "when": "1700–1750 гг. н. э.",
-       "work": "Вывод издания: «Трактат был создан в период между 1700 и 1750 гг. н. э. (первая половина XVIII века)». Нижняя граница — цитаты из «Хат̣харатнāвалӣ» (ок. 1670–1695), верхняя — рукопись MS. No. 4235 с датой 1789 г."
-      },
-      {
-       "who": "Джейсон Бёрч",
-       "when": "первая половина XVIII столетия",
-       "work": "Дату текста отдельно не называет: относит жанр «энциклопедизма», к которому принадлежит «Хат̣хататтвакаумудӣ», к первой половине XVIII века и Вāрāн̣асӣ."
-      },
-      {
-       "who": "Гудрун Бюнеманн",
-       "when": "дата не названа",
-       "work": "Говорит о месте главы 7 в истории перечней āсан: канонический костяк из 15 āсан переосмыслен терапевтически, «перед бурным расцветом более обширных перечней āсан (84 и более) в конце XVIII — начале XIX века»."
-      },
-      {
-       "who": "Марк Синглтон",
-       "when": "XVIII век",
-       "work": "Дату текста отдельно не называет: объясняет фигуру Сундарадевы условиями «космополитического Вāрāн̣аси XVIII века»."
-      }
-     ]
-    }
-   ]
-  },
-  "en": {
-   "groups": [
-    {
-     "title": "Who dates it how (per §1.2 of the edition)",
-     "items": [
-      {
-       "who": "M. L. Gharote, M. Venkata Reddy",
-       "when": "1700–1750 CE",
-       "work": "The edition's conclusion: “The treatise was composed between 1700 and 1750 CE (the first half of the 18th century)”. The lower bound is its citations of the Haṭharatnāvalī (c. 1670–1695); the upper bound is MS. No. 4235, dated 1789."
-      },
-      {
-       "who": "Jason Birch",
-       "when": "first half of the 18th century",
-       "work": "Gives no separate date for the text: places the “age of encyclopaedism” to which the Haṭhatattvakaumudī belongs in the first half of the 18th century and in Vārāṇasī."
-      },
-      {
-       "who": "Gudrun Bühnemann",
-       "when": "no date given",
-       "work": "Discusses the place of chapter 7 in the history of āsana lists: the canonical fifteen are recast therapeutically, “before the flowering of longer lists of āsanas (84 and more) in the late 18th and early 19th centuries”."
-      },
-      {
-       "who": "Mark Singleton",
-       "when": "18th century",
-       "work": "Gives no separate date for the text: explains Sundaradeva's figure by the conditions of “cosmopolitan 18th-century Vārāṇasī”."
-      }
-     ]
-    }
-   ]
-  }
- },
  "prologue": {
   "ru": [
    {
     "type": "subhead",
     "label": "РАЗДЕЛ II. КРИТИЧЕСКИЙ ТЕКСТОЛОГИЧЕСКИЙ РАЗБОР ГЛАВЫ 7 («ATHĀSANĀNI»)"
+   },
+   {
+    "type": "subhead",
+    "label": "ВВОДНАЯ ЧАСТЬ: МЕТОДОЛОГИЯ, ПРЕОДОЛЕНИЕ ДВОЙСТВЕННОСТИ И ТРИАДА ПРАКТИК (ШЛОКИ 1–4)"
    },
    {
     "type": "subhead",
@@ -1582,12 +1566,20 @@
       "level": 1
      }
     ]
+   },
+   {
+    "type": "subhead",
+    "label": "РАЗДЕЛ II.1. ПЯТНАДЦАТЬ КЛАССИЧЕСКИХ ĀСАН"
    }
   ],
   "en": [
    {
     "type": "subhead",
     "label": "SECTION II. CRITICAL TEXTOLOGICAL ANALYSIS OF CHAPTER 7 («ATHĀSANĀNI»)"
+   },
+   {
+    "type": "subhead",
+    "label": "INTRODUCTORY SECTION: METHODOLOGY, TRANSCENDENCE OF DUALITY, AND THE TRIAD OF PRACTICES (VERSES 1–4)"
    },
    {
     "type": "subhead",
@@ -2084,6 +2076,10 @@
       "level": 1
      }
     ]
+   },
+   {
+    "type": "subhead",
+    "label": "SECTION II.1. THE FIFTEEN CLASSICAL ĀSANAS"
    }
   ]
  },
@@ -2374,6 +2370,10 @@
  "poses": [
   {
    "key": "dhanurasana",
+   "heading": {
+    "ru": "1. ДХАНУРĀСАНА (DHANURĀSANA, ШЛОКА 5)",
+    "en": "1. DHANURĀSANA (BOW POSE, VERSE 5)"
+   },
    "iast": "Dhanurāsana",
    "number": 1,
    "name": {
@@ -2634,6 +2634,10 @@
   },
   {
    "key": "kukkutasana",
+   "heading": {
+    "ru": "2. КУККУТ̣ĀСАНА (KUKKUṬĀSANA, ШЛОКА 6)",
+    "en": "2. KUKKUṬĀSANA (COCKEREL POSE, VERSE 6)"
+   },
    "iast": "Kukkuṭāsana",
    "number": 2,
    "name": {
@@ -2902,6 +2906,10 @@
   },
   {
    "key": "matsyendrapitha",
+   "heading": {
+    "ru": "3. МАТСЙЕНДРАПӢТ̣ХА (MATSYENDRAPĪṬHA, ШЛОКИ 7–8)",
+    "en": "3. MATSYENDRAPĪṬHA (MATSYENDRA'S SEAT, VERSES 7–8)"
+   },
    "iast": "Matsyendrapīṭha",
    "number": 3,
    "name": {
@@ -3347,6 +3355,10 @@
   },
   {
    "key": "mayurasana",
+   "heading": {
+    "ru": "4. МАЙӮРĀСАНА (MAYŪRĀSANA, ШЛОКИ 9–10)",
+    "en": "4. MAYŪRĀSANA (PEACOCK POSE, VERSES 9–10)"
+   },
    "iast": "Mayūrāsana",
    "number": 4,
    "name": {
@@ -3872,6 +3884,10 @@
   },
   {
    "key": "shavasana",
+   "heading": {
+    "ru": "5. Ш́АВĀСАНА (ŚAVĀSANA, ШЛОКИ 11–13)",
+    "en": "5. ŚAVĀSANA (CORPSE POSE, VERSES 11–13)"
+   },
    "iast": "Śavāsana",
    "number": 5,
    "name": {
@@ -4486,6 +4502,10 @@
   },
   {
    "key": "simhasana",
+   "heading": {
+    "ru": "6. СИМ̣ХĀСАНА / ЙОГАСИМ̣ХĀСАНА (SIṂHĀSANA, ШЛОКИ 14–16)",
+    "en": "6. SIṂHĀSANA / YOGASIṂHĀSANA (LION POSE, VERSES 14–16)"
+   },
    "iast": "Siṃhāsana / Yogasiṃhāsana",
    "number": 6,
    "name": {
@@ -5104,6 +5124,10 @@
   },
   {
    "key": "bhadrasana",
+   "heading": {
+    "ru": "7. БХАДРĀСАНА (BHADRĀSANA, ШЛОКА 17)",
+    "en": "7. BHADRĀSANA (BENIGN POSE, VERSE 17)"
+   },
    "iast": "Bhadrāsana",
    "number": 7,
    "name": {
@@ -5441,6 +5465,10 @@
   },
   {
    "key": "virasana",
+   "heading": {
+    "ru": "8. ВӢРĀСАНА (VĪRĀSANA, ШЛОКИ 18–19)",
+    "en": "8. VĪRĀSANA (HERO POSE, VERSES 18–19)"
+   },
    "iast": "Vīrāsana",
    "number": 8,
    "name": {
@@ -5874,6 +5902,10 @@
   },
   {
    "key": "kurmasana",
+   "heading": {
+    "ru": "9. КӮРМĀСАНА (KŪRMĀSANA, ШЛОКА 20)",
+    "en": "9. KŪRMĀSANA (TORTOISE POSE, VERSE 20)"
+   },
    "iast": "Kūrmāsana",
    "number": 9,
    "name": {
@@ -6134,6 +6166,10 @@
   },
   {
    "key": "prasaritasana",
+   "heading": {
+    "ru": "10. ПРАСĀРИТĀСАНА (PRASĀRITĀSANA, ШЛОКА 21)",
+    "en": "10. PRASĀRITĀSANA (EXTENDED POSE, VERSE 21)"
+   },
    "iast": "Prasāritāsana",
    "number": 10,
    "name": {
@@ -6402,6 +6438,10 @@
   },
   {
    "key": "padmasana",
+   "heading": {
+    "ru": "11. ПАДМĀСАНА / АМБУРУХĀСАНА (PADMĀSANA, ШЛОКИ 22–28)",
+    "en": "11. PADMĀSANA / AMBURUHĀSANA (LOTUS POSE, VERSES 22–28)"
+   },
    "iast": "Padmāsana / Amburuhāsana",
    "number": 11,
    "name": {
@@ -7894,6 +7934,10 @@
   },
   {
    "key": "baddhapadmasana",
+   "heading": {
+    "ru": "12. БАДДХАПАДМĀСАНА (BADDHAPADMĀSANA, ШЛОКИ 29–32)",
+    "en": "12. BADDHAPADMĀSANA (BOUND LOTUS POSE, VERSES 29–32)"
+   },
    "iast": "Baddhapadmāsana",
    "number": 12,
    "name": {
@@ -8613,6 +8657,10 @@
   },
   {
    "key": "siddhasana",
+   "heading": {
+    "ru": "13. СИДДХĀСАНА / ЙОНЙĀСАНА (SIDDHĀSANA / YONYĀSANA, ШЛОКИ 33–35)",
+    "en": "13. SIDDHĀSANA / YONYĀSANA (ACCOMPLISHED POSE, VERSES 33–40)"
+   },
    "iast": "Siddhāsana / Yonyāsana",
    "number": 13,
    "name": {
@@ -9011,10 +9059,14 @@
         "level": 1
        },
        {
-        "html": "В «b»: сиддхāсанам этад āхур амалам (siddhāsanam etad āhur amalam — «называют незапятнанной»). Лексический синоним (anagha / amala). ШЛОКИ 36–40: ПРЕВОСХОДСТВО ЙОНЙĀСАНЫ И СИДДХĀСАНЫ НАД ДРУГИМИ ПРАКТИКАМИ",
+        "html": "В «b»: сиддхāсанам этад āхур амалам (siddhāsanam etad āhur amalam — «называют незапятнанной»). Лексический синоним (anagha / amala).",
         "level": 1
        }
       ]
+     },
+     {
+      "type": "subhead",
+      "label": "ШЛОКИ 36–40: ПРЕВОСХОДСТВО ЙОНЙĀСАНЫ И СИДДХĀСАНЫ НАД ДРУГИМИ ПРАКТИКАМИ"
      },
      {
       "type": "verse_card",
@@ -10204,6 +10256,10 @@
   },
   {
    "key": "pashchimatana",
+   "heading": {
+    "ru": "14. ПАШ́ЧИМАТĀНĀСАНА (PAŚCIMATĀNĀSANA, ШЛОКИ 41–43)",
+    "en": "14. PAŚCIMATĀNĀSANA (POSTERIOR STRETCH POSE, VERSES 41–43)"
+   },
    "iast": "Paścimatānāsana",
    "number": 14,
    "name": {
@@ -10859,6 +10915,10 @@
   },
   {
    "key": "svastikasana",
+   "heading": {
+    "ru": "15. СВАСТИКĀСАНА (SVASTIKĀSANA, ШЛОКИ 44–45)",
+    "en": "15. SVASTIKĀSANA (AUSPICIOUS POSE, VERSES 44–45)"
+   },
    "iast": "Svastikāsana",
    "number": 15,
    "name": {

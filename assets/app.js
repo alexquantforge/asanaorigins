@@ -776,8 +776,7 @@
   }
 
   function renderDating(tr) {
-    // сводка датировки хранится по языкам: {ru:{…}, en:{…}}
-    const summary = tx(tr.datingSummary);
+    const summary = tr.datingSummary;
     const full = tr.dating && tr.dating[state.lang];
     if (!summary && !(full && full.blocks && full.blocks.length)) return "";
 
@@ -1098,16 +1097,17 @@
 
     let html = "";
     let metaPlaced = false;
-    blocks.forEach((b) => {
-      if (b.type === "title") {
-        html += renderBlocks([b]);
-        if (meta) {
-          html += '<p class="about-meta">' + meta + "</p>";
-          metaPlaced = true;
-        }
-        return;
-      }
+    // подпись издания идёт после шапки: титул, строка главы, подзаголовок
+    let head = 0;
+    while (head < blocks.length && (blocks[head].type === "title" || blocks[head].type === "byline")) {
+      head += 1;
+    }
+    blocks.forEach((b, i) => {
       html += renderBlocks([b]);
+      if (meta && !metaPlaced && i === head - 1) {
+        html += '<p class="about-meta">' + meta + "</p>";
+        metaPlaced = true;
+      }
     });
 
     if (!metaPlaced && meta) {
