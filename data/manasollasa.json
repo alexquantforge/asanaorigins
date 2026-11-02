@@ -2998,8 +2998,10 @@
        "level": 1
       },
       {
-       "html": "<strong>Блог «Хинду Блог»</strong>, ст. «Манасолласа Суреш́вары» (2024) — «написана Сурешварой около 800 г. н. э.»; − <strong>П. С. Роодурмум</strong>, «Школы бха̄матӣ и виваран̣а в адвайта-веданте» (2002), с. 29–30 — «расцвет ок. 800–900 гг. н. э.» (в передаче «Википедии», ст. «Суреш́вара»).",
-       "level": 1
+       "html": "<strong>Блог «Хинду Блог»</strong>, ст. «Манасолласа Суреш́вары» (2024) — «написана Сурешварой около 800 г. н. э.»"
+      },
+      {
+       "html": "<strong>П. С. Роодурмум</strong>, «Школы бха̄матӣ и виваран̣а в адвайта-веданте» (2002), с. 29–30 — «расцвет ок. 800–900 гг. н. э.» (в передаче «Википедии», ст. «Суреш́вара»)."
       }
      ]
     },
@@ -3583,81 +3585,210 @@
   }
  },
  "datingSummary": {
-  "items": [
+  "groups": [
    {
-    "who": {
-     "ru": "Пауль Хакер",
-     "en": "Paul Hacker"
+    "num": "2.3",
+    "title": {
+     "ru": "Лагерь «Ш́ан̇кара 788–820 ⇒ Суреш́вара ок. 800»",
+     "en": "The Camp of \"Śaṅkara 788–820 ⇒ Sureśvara c. 800\""
     },
-    "when": {
-     "ru": "Ш́ан̇кара «ок. 700 г. н. э.» — первым",
-     "en": "Śaṅkara \"c. 700 CE\" — the first to say so"
-    },
-    "work": {
-     "ru": "«К истории и оценке индуизма», «Восточная литературная газета» 59 (1964), стлб. 231",
-     "en": "\"Zur Geschichte und Beurteilung des Hinduismus\", OLZ 59 (1964), col. 231"
+    "items": [
+     {
+      "who": {
+       "ru": "С. Н. Дасугупта",
+       "en": "S. N. Dasgupta"
+      },
+      "when": {
+       "ru": "Суреш́вара — 800 г. н. э., Сарваджн̃а̄тман — 900 г. н. э.",
+       "en": "Sureśvara — 800 CE, Sarvajñātman — 900 CE"
+      },
+      "work": {
+       "ru": "«История индийской философии», т. 2 (1932), глава о школе Ш́ан̇кары",
+       "en": "A History of Indian Philosophy, vol. 2 (1932), the chapter on the Śaṅkara school"
+      }
+     },
+     {
+      "who": {
+       "ru": "Свами Харша̄нанда",
+       "en": "Swami Harshananda"
+      },
+      "when": {
+       "ru": "Суреш́вара (800 г. н. э.)",
+       "en": "Sureśvara (A. D. 800)"
+      },
+      "work": {
+       "ru": "энциклопедия «Хиндупедия», ст. «Ма̄насолла̄са»",
+       "en": "Hindupedia, article \"Mānasollāsa\""
+      }
+     },
+     {
+      "who": {
+       "ru": "Блог «Хинду Блог»",
+       "en": "Hindu Blog"
+      },
+      "when": {
+       "ru": "написана Сурешварой около 800 г. н. э.",
+       "en": "written by Sureśvara around 800 CE"
+      },
+      "work": {
+       "ru": "ст. «Манасолласа Суреш́вары» (2024)",
+       "en": "article \"Mānasollāsa of Sureśvara\" (2024)"
+      }
+     },
+     {
+      "who": {
+       "ru": "П. С. Роодурмум",
+       "en": "P. S. Roodurmum"
+      },
+      "when": {
+       "ru": "расцвет ок. 800–900 гг. н. э.",
+       "en": "flourished c. 800–900 CE"
+      },
+      "work": {
+       "ru": "«Школы бха̄матӣ и виваран̣а в адвайта-веданте» (2002), с. 29–30",
+       "en": "Bhāmatī and Vivaraṇa Schools of Advaita Vedānta (2002), pp. 29–30"
+      }
+     }
+    ],
+    "label": {
+     "ru": "Работа, где это сказано",
+     "en": "Work in which it is stated"
     }
    },
    {
-    "who": {
-     "ru": "Аллен У. Трэшер",
-     "en": "Allen W. Thrasher"
+    "num": "2.4",
+    "title": {
+     "ru": "Лагерь «Ш́ан̇кара ок. 700 ⇒ Суреш́вара начало 8 в.»",
+     "en": "The Camp of \"Śaṅkara c. 700 ⇒ Sureśvara early 8th Century\""
     },
-    "when": {
-     "ru": "Ман̣д̣ана и Ш́ан̇кара ок. 700",
-     "en": "Maṇḍana and Śaṅkara c. 700"
-    },
-    "work": {
-     "ru": "«Даты Ман̣д̣аны Миш́ры и Ш́ан̇кары», «Венский журнал изучения Южной Азии» 23 (1979), с. 117–139",
-     "en": "\"The Dates of Maṇḍana Miśra and Śaṅkara\", WZKS 23 (1979), pp. 117–139"
+    "items": [
+     {
+      "who": {
+       "ru": "Пауль Хакер",
+       "en": "Paul Hacker"
+      },
+      "when": {
+       "ru": "Ш́ан̇кара «ок. 700 г. н. э.» — первым",
+       "en": "Śaṅkara \"c. 700 CE\" — the first to say so"
+      },
+      "work": {
+       "ru": "«К истории и оценке индуизма», «Восточная литературная газета» 59 (1964), стлб. 231",
+       "en": "\"Zur Geschichte und Beurteilung des Hinduismus\", OLZ 59 (1964), col. 231"
+      }
+     },
+     {
+      "who": {
+       "ru": "Аллен У. Трэшер",
+       "en": "Allen W. Thrasher"
+      },
+      "when": {
+       "ru": "Ман̣д̣ана и Ш́ан̇кара ок. 700",
+       "en": "Maṇḍana and Śaṅkara c. 700"
+      },
+      "work": {
+       "ru": "«Даты Ман̣д̣аны Миш́ры и Ш́ан̇кары», «Венский журнал изучения Южной Азии» 23 (1979), с. 117–139",
+       "en": "\"The Dates of Maṇḍana Miśra and Śaṅkara\", WZKS 23 (1979), pp. 117–139"
+      }
+     },
+     {
+      "who": {
+       "ru": "Карл Х. Поттер",
+       "en": "Karl H. Potter"
+      },
+      "when": {
+       "ru": "Ман̣д̣ана «660–720 гг. н. э.»; Ш́ан̇кара — «конец 7 — начало 8 в.»",
+       "en": "Maṇḍana \"660–720 CE\"; Śaṅkara — \"late 7th to early 8th century\""
+      },
+      "work": {
+       "ru": "«Энциклопедия индийских философий: адвайта-веданта» (1981), с. 346 и 116",
+       "en": "Encyclopedia of Indian Philosophies: Advaita Vedānta (1981), pp. 346 and 116"
+      }
+     },
+     {
+      "who": {
+       "ru": "Кармен Драгонетти и Фернандо Тола",
+       "en": "Carmen Dragonetti and Fernando Tola"
+      },
+      "when": {
+       "ru": "Ман̣д̣ана и Ш́ан̇кара 660–790",
+       "en": "Maṇḍana and Śaṅkara 660–790"
+      },
+      "work": {
+       "ru": "«О датировке Ман̣д̣аны Миш́ры и Ш́ан̇кары и их доктринальном отношении», «Анналы Института востоковедения» (1989)",
+       "en": "\"On the Date of Maṇḍana Miśra and Śaṅkara and their Doctrinal Relation\", ABORI (1989)"
+      }
+     },
+     {
+      "who": {
+       "ru": "Хадзиме Накамура",
+       "en": "Hajime Nakamura"
+      },
+      "when": {
+       "ru": "Ш́ан̇кара 700–750",
+       "en": "Śaṅkara 700–750"
+      },
+      "work": {
+       "ru": "«История ранней веданты», ч. I (1983/1990), с. 48–88; специальный раздел «Об отношении дат Суреш́вары и Ш́ан̇кары», с. 72",
+       "en": "A History of Early Vedānta Philosophy, Part I (1983/1990), pp. 48–88; a special section \"On the relation of the dates of Sureśvara and Śaṅkara\", p. 72"
+      }
+     }
+    ],
+    "label": {
+     "ru": "Работа, где это сказано",
+     "en": "Work in which it is stated"
     }
    },
    {
-    "who": {
-     "ru": "Карл Х. Поттер",
-     "en": "Karl H. Potter"
+    "num": "2.2",
+    "title": {
+     "ru": "Традиционные (агиографические) даты",
+     "en": "Traditional (Hagiographic) Dates"
     },
-    "when": {
-     "ru": "Ман̣д̣ана «660–720 гг. н. э.»; Ш́ан̇кара — «конец 7 — начало 8 в.»",
-     "en": "Maṇḍana \"660–720 CE\"; Śaṅkara — \"late 7th to early 8th century\""
-    },
-    "work": {
-     "ru": "«Энциклопедия индийских философий: адвайта-веданта» (1981), с. 346 и 116",
-     "en": "Encyclopedia of Indian Philosophies: Advaita Vedānta (1981), pp. 346 and 116"
-    }
-   },
-   {
-    "who": {
-     "ru": "Кармен Драгонетти и Фернандо Тола",
-     "en": "Carmen Dragonetti and Fernando Tola"
-    },
-    "when": {
-     "ru": "Ман̣д̣ана и Ш́ан̇кара 660–790",
-     "en": "Maṇḍana and Śaṅkara 660–790"
-    },
-    "work": {
-     "ru": "«О датировке Ман̣д̣аны Миш́ры и Ш́ан̇кары и их доктринальном отношении», «Анналы Института востоковедения» (1989)",
-     "en": "\"On the Date of Maṇḍana Miśra and Śaṅkara and their Doctrinal Relation\", ABORI (1989)"
-    }
-   },
-   {
-    "who": {
-     "ru": "Хадзиме Накамура",
-     "en": "Hajime Nakamura"
-    },
-    "when": {
-     "ru": "Ш́ан̇кара 700–750",
-     "en": "Śaṅkara 700–750"
-    },
-    "work": {
-     "ru": "«История ранней веданты», ч. I (1983/1990), с. 48–88; специальный раздел «Об отношении дат Суреш́вары и Ш́ан̇кары», с. 72",
-     "en": "A History of Early Vedānta Philosophy, Part I (1983/1990), pp. 48–88; a special section \"On the relation of the dates of Sureśvara and Śaṅkara\", p. 72"
+    "items": [
+     {
+      "who": {
+       "ru": "Гуру-парампары Ка̄лика-матха (Дварака) и Шарада-матха (Канчи)",
+       "en": "Guru-paramparās of the Kālikā Maṭha (Dvārakā) and the Śāradā Maṭha (Kāñcī)"
+      },
+      "when": {
+       "ru": "Ш́ан̇кара род. 509 до н. э.",
+       "en": "Śaṅkara born 509 BCE"
+      }
+     },
+     {
+      "who": {
+       "ru": "Список Шрингери-матха",
+       "en": "The list of the Śṛṅgeri Maṭha"
+      },
+      "when": {
+       "ru": "Ш́ан̇кара род. 44 до н. э.",
+       "en": "Śaṅkara born 44 BCE"
+      }
+     },
+     {
+      "who": {
+       "ru": "«Традиционная» дата школы; восходит к хронограмме К. Б. Патхака, 1882",
+       "en": "The \"traditional\" date of the school; going back to the chronogram of K. B. Pathak, 1882"
+      },
+      "when": {
+       "ru": "Ш́ан̇кара 788–820 н. э.",
+       "en": "Śaṅkara 788–820 CE"
+      }
+     }
+    ],
+    "intro": {
+     "ru": "Это даты из монастырских списков преемников, а не научные датировки.",
+     "en": "These are dates from monastic lists of successors, not scholarly datings."
     }
    }
   ],
   "note": {
    "ru": "«Ма̄насолла̄са» датируется по её автору, Суреш́варача̄рйе, а не по внутренним данным текста. В зависимости от принимаемой даты Ш́ан̇кары (788–820 либо ок. 700) и от решения спора об отождествлении Суреш́вары с Ман̣д̣аной Миш́рой текст относят к началу 8 в. (ок. 700–730) либо к 8–9 вв. Собственной датировки по внутренним признакам текста в литературе нет.",
    "en": "The \"Mānasollāsa\" is dated by its author, Sureśvarācārya, and not by internal data of the text. Depending on the date of Śaṅkara accepted (788–820 or c. 700) and on the outcome of the dispute over the identification of Sureśvara with Maṇḍana Miśra, the text is assigned either to the early 8th century (c. 700–730) or to the 8th–9th centuries. There is no independent dating of the text on internal grounds in the literature."
+  },
+  "note2": {
+   "ru": "Опорная граница, не зависящая от спора: Ва̄часпати Миш́ра, писавший, по Дасугупте, в 842 г., цитирует Суреш́вару — это даёт верхнюю границу («терминус анте квем») 9 веком.",
+   "en": "A supporting boundary that does not depend on the dispute: Vācaspati Miśra, writing according to Dasgupta in 842, quotes Sureśvara — which gives an upper bound (\"terminus ante quem\") in the 9th century."
   }
  },
  "prologue": {

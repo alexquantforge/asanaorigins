@@ -80,7 +80,7 @@
     }
   };
 
-  const BUILD = "2026-11-02.5";
+  const BUILD = "2026-11-02.6";
   const V = "?v=" + BUILD;
 
   const state = {
@@ -639,24 +639,48 @@
     html += '<p class="dating-kicker"><span>' + esc(t("datingTitle")) + "</span></p>";
 
     if (summary) {
+      // The short block lists every date the article has, in the camps the
+      // article itself puts them in: showing one camp alone read as if five
+      // scholars were the whole literature. A treatise that still carries a
+      // single flat list (items, no groups) renders exactly as before.
+      const groups = summary.groups && summary.groups.length
+        ? summary.groups
+        : [{ items: summary.items || [], label: summary.label }];
       if (summary.note) {
-        html += '<p class="dating-note">' + esc(tx(summary.note)) + "</p>";
+        html += '<p class="dating-note dating-lead">' + esc(tx(summary.note)) + "</p>";
       }
-      html += '<ul class="dating-rows">';
-      (summary.items || []).forEach((item) => {
-        html += "<li>";
-        html += '<span class="dating-who">' + esc(tx(item.who)) + "</span>";
-        html += '<span class="dating-when">' + esc(tx(item.when));
-        if (item.whenNote) {
-          html += '<span class="dating-when-note">' + esc(tx(item.whenNote)) + "</span>";
+      groups.forEach((group) => {
+        const items = (group && group.items) || [];
+        if (!items.length) return;
+        html += '<div class="dating-group">';
+        if (group.title) {
+          html += '<p class="dating-group-title"><span>' + esc(tx(group.title)) + "</span></p>";
         }
-        html += "</span>";
-        const workLabel = summary.label ? tx(summary.label) : t("datingSource");
-        html += '<span class="dating-work"><span class="dating-work-label">' +
-          esc(workLabel) + "</span>" + esc(tx(item.work)) + "</span>";
-        html += "</li>";
+        if (group.intro) {
+          html += '<p class="dating-group-intro">' + esc(tx(group.intro)) + "</p>";
+        }
+        html += '<ul class="dating-rows">';
+        items.forEach((item) => {
+          html += "<li>";
+          html += '<span class="dating-who">' + esc(tx(item.who)) + "</span>";
+          html += '<span class="dating-when">' + esc(tx(item.when));
+          if (item.whenNote) {
+            html += '<span class="dating-when-note">' + esc(tx(item.whenNote)) + "</span>";
+          }
+          html += "</span>";
+          if (item.work) {
+            const label = group.label || summary.label;
+            const workLabel = label ? tx(label) : t("datingSource");
+            html += '<span class="dating-work"><span class="dating-work-label">' +
+              esc(workLabel) + "</span>" + esc(tx(item.work)) + "</span>";
+          }
+          html += "</li>";
+        });
+        html += "</ul></div>";
       });
-      html += "</ul>";
+      if (summary.note2) {
+        html += '<p class="dating-note dating-bound">' + esc(tx(summary.note2)) + "</p>";
+      }
     }
 
     if (full && full.blocks && full.blocks.length) {

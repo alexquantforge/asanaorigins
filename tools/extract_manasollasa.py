@@ -1256,37 +1256,205 @@ TREATISE = {
 ABOUT_SKIP = ("2",)          # the dating section has a page of its own
 
 
-def dating_summary(units, lang):
-    """Short rows: who dates the text when, and on what grounds.
+# §2.3 argues in prose and names its followers in a bullet list, so the short
+# rows for that camp below are transcribed from that section word for word;
+# check_dating_rows() fails the build if any fragment is not found in the
+# article, so the short list cannot drift away from the long one. §2.2 and §2.4
+# are tables in the source and are taken as they stand.
+CAMP_800 = [
+    {
+        "who": {"ru": "С. Н. Дасугупта", "en": "S. N. Dasgupta"},
+        "when": {"ru": "Суреш́вара — 800 г. н. э., Сарваджн̃а̄тман — 900 г. н. э.",
+                 "en": "Sureśvara — 800 CE, Sarvajñātman — 900 CE"},
+        "work": {"ru": "«История индийской философии», т. 2 (1932), глава о школе Ш́ан̇кары",
+                 "en": "A History of Indian Philosophy, vol. 2 (1932), the chapter "
+                       "on the Śaṅkara school"},
+    },
+    {
+        "who": {"ru": "Свами Харша̄нанда", "en": "Swami Harshananda"},
+        "when": {"ru": "Суреш́вара (800 г. н. э.)", "en": "Sureśvara (A. D. 800)"},
+        "work": {"ru": "энциклопедия «Хиндупедия», ст. «Ма̄насолла̄са»",
+                 "en": "Hindupedia, article \"Mānasollāsa\""},
+    },
+    {
+        "who": {"ru": "Блог «Хинду Блог»", "en": "Hindu Blog"},
+        "when": {"ru": "написана Сурешварой около 800 г. н. э.",
+                 "en": "written by Sureśvara around 800 CE"},
+        "work": {"ru": "ст. «Манасолласа Суреш́вары» (2024)",
+                 "en": "article \"Mānasollāsa of Sureśvara\" (2024)"},
+    },
+    {
+        "who": {"ru": "П. С. Роодурмум", "en": "P. S. Roodurmum"},
+        "when": {"ru": "расцвет ок. 800–900 гг. н. э.",
+                 "en": "flourished c. 800–900 CE"},
+        "work": {"ru": "«Школы бха̄матӣ и виваран̣а в адвайта-веданте» (2002), с. 29–30",
+                 "en": "Bhāmatī and Vivaraṇa Schools of Advaita Vedānta (2002), pp. 29–30"},
+    },
+]
 
-    The two tables of §2.2 and §2.4 already have exactly the shape the site
-    shows under a pose name: who — when — the work it is said in.
+# The order the short block reads in: the two scholarly camps, then the
+# monastic lists that the source itself prints apart as "not scholarly datings".
+CAMP_ORDER = ("2.3", "2.4", "2.2")
+
+
+def _norm(text):
+    return re.sub(r"\s+", " ", _plain(text)).strip()
+
+
+def _unit_text(unit):
+    """The words of one unit, whatever shape it has."""
+    kind = unit["type"]
+    if kind in ("h2", "h3", "h4", "p"):
+        return [_plain(unit.get("html", ""))]
+    if kind == "quote":
+        return [_plain(p) for p in unit.get("paragraphs", [])]
+    if kind == "list":
+        return [_plain(item.get("html", "")) if isinstance(item, dict) else item
+                for item in unit.get("items", [])]
+    if kind == "table":
+        return [cell for row in unit.get("rows", []) for cell in row]
+    return []
+
+
+def _section_text(units):
+    return _norm(" ".join(" ".join(_unit_text(u)) for u in units))
+
+
+def check_dating_rows(groups, text, lang):
+    """Every short row must be a phrase of the article, not a summary of it.
+
+    The units are still in the spelling of the PDF (Sureshvara); the rows are
+    written the way the site prints them (Sureśvara), so both sides go through
+    the same transliteration map before they are compared.
     """
+    text = _norm(iast_lib.fix_text(text))
+    missing = []
+    for group in groups:
+        for row in group["items"]:
+            for key in ("who", "when", "work"):
+                value = row.get(key, {}).get(lang)
+                if value and _norm(iast_lib.fix_text(value)) not in text:
+                    missing.append(value)
+    if missing:
+        raise SystemExit("dating rows not found in the article (%s): %s"
+                         % (lang, "; ".join(missing)))
+
+
+def table_items(rows, lang, keep_work=True):
+    """Short rows from one three-column table of §2.2 or §2.4.
+
+    §2.2 prints the date first, §2.4 the author; both keep their own header of
+    the third column, which then labels that column in the short block. §2.2's
+    third column is not a title but the argument behind the date, and those
+    pages long quotations stay in the article: the short block carries the date
+    and the list it comes from.
+    """
+    if not rows or len(rows[0]) != 3:
+        return [], None
+    head = [_norm(cell) for cell in rows[0]]
+    date_first = head[0].lower() in ("дата", "date")
     items = []
-    h3 = ""
-    for unit in section_units(units, {"2"}, drop_h2=True):
+    for row in rows[1:]:
+        if len(row) != 3:
+            continue
+        when, who, work = row if date_first else (row[1], row[0], row[2])
+        item = {"who": {lang: who}, "when": {lang: when}}
+        if keep_work:
+            item["work"] = {lang: work}
+        items.append(item)
+    return items, (head[2] if keep_work else None)
+
+
+def dating_summary(units, lang):
+    """Every date the article gives, in its own three camps.
+
+    The short block under a pose name showed one camp only, which read as if
+    five authors were the whole literature on the question. Nothing is added
+    here that the article does not say: two camps come out of its tables, the
+    third out of its prose and its bullet list.
+    """
+    section = section_units(units, {"2"}, drop_h2=True)
+    text = _section_text(section)
+
+    titles, tables, intros = {}, {}, {}
+    h3, fresh = "", False
+    for unit in section:
         if unit["type"] == "h3":
-            h3 = _plain(unit["html"])
-        if unit["type"] == "table" and h3.startswith("2.4") and unit["rows"] \
-                and len(unit["rows"][0]) == 3:
-            rows = unit["rows"]
-            head = " ".join(rows[0])
-            for row in rows[1:]:
-                if "Источник" in head or "Source" in head:
-                    when, who, work = row[0], row[1], row[2]
-                else:
-                    who, when, work = row[0], row[1], row[2]
-                items.append({k: {lang: v} for k, v in
-                              (("who", who), ("when", when), ("work", work))})
-    note = ""
+            h3 = _plain(unit.get("html", "")).strip()
+            titles[".".join(h3.split(".")[:2])] = h3
+            fresh = True
+        elif h3:
+            num = ".".join(h3.split(".")[:2])
+            if unit["type"] == "table" and num not in tables:
+                tables[num] = unit["rows"]
+            elif unit["type"] == "p" and fresh:
+                # the sentence a section opens with, when it is a caveat rather
+                # than the opening of an argument
+                plain = _norm(unit.get("html", ""))
+                if plain and len(plain) <= 120:
+                    intros[num] = plain
+            fresh = False
+
+    groups = []
+    for num in CAMP_ORDER:
+        if num not in titles:
+            continue
+        # the number of the section stays in the long article; the short block
+        # reads better without it
+        title = re.sub(r"^\d+(\.\d+)*\.?\s*", "", titles[num])
+        group = {"num": num, "title": {lang: title}}
+        if num == "2.3":
+            group["items"] = [{k: {lang: v[lang]} for k, v in row.items()}
+                              for row in CAMP_800]
+            group["label"] = {"ru": "Работа, где это сказано",
+                              "en": "Work in which it is stated"}
+        else:
+            items, label = table_items(tables.get(num, []), lang,
+                                       keep_work=(num != "2.2"))
+            group["items"] = items
+            if label:
+                group["label"] = {lang: label}
+        if num in intros:
+            group["intro"] = {lang: intros[num]}
+        groups.append(group)
+
+    check_dating_rows(groups, text, lang)
+
+    note = note2 = ""
     i28, _ = find_unit(units, "2.8", "h3")
     if i28 >= 0:
+        seen_quote = False
         for unit in units[i28:]:
-            if unit["type"] == "quote" and unit.get("paragraphs"):
-                note = _plain(unit["paragraphs"][0]).replace("<strong>", "") \
-                    .replace("</strong>", "")
+            if unit["type"] == "quote" and not seen_quote:
+                note = _norm(unit["paragraphs"][0])
+                seen_quote = True
+            elif unit["type"] == "p" and seen_quote:
+                note2 = _norm(unit.get("html", ""))
                 break
-    return items, note
+    return groups, note, note2
+
+
+def split_glued_bullets(blocks):
+    """The RU PDF prints a bullet's dash at the end of the previous line.
+
+    «…(2024) — „написана …“; − П. С. Роодурмум, …» is two bullets of the source,
+    so it is printed as two bullets again; not a word is added or removed.
+    """
+    for unit in blocks:
+        if unit["type"] != "list":
+            continue
+        items = []
+        for item in unit["items"]:
+            if not isinstance(item, dict):
+                items.append(item)
+                continue
+            parts = re.split(r"\s*;\s*−\s+", item.get("html", ""))
+            if len(parts) > 1:
+                items.extend({"html": part.strip()} for part in parts)
+            else:
+                items.append(item)
+        unit["items"] = items
+    return blocks
 
 
 # The English volume's §0 bullet list explains the conventions of the
@@ -1351,12 +1519,13 @@ def build_lang(lang):
 
     dating_units = section_units(units, {"2"}, drop_h2=True)
     dating = {"title": meta["datingTitle"],
-              "blocks": [block(u) for u in dating_units]}
-    items, note = dating_summary(units, lang)
-    summary_items = items
-    dating_summary_out = {"items": summary_items}
+              "blocks": split_glued_bullets([block(u) for u in dating_units])}
+    groups, note, note2 = dating_summary(units, lang)
+    dating_summary_out = {"groups": groups}
     if note:
         dating_summary_out["note"] = {lang: note}
+    if note2:
+        dating_summary_out["note2"] = {lang: note2}
 
     src = pose_source(units, lang)
     poses = []
@@ -1440,9 +1609,11 @@ if __name__ == "__main__":
     with open(out, "w") as fh:
         json.dump(data, fh, ensure_ascii=False, indent=1)
     print("units:", n_ru, "ru /", n_en, "en")
+    summary = data["datingSummary"]["groups"]
     print("about blocks:", len(data["about"]["ru"]), "| dating blocks:",
-          len(data["dating"]["ru"]["blocks"]), "| summary rows:",
-          len(data["datingSummary"]["items"]), "| poses:", len(data["poses"]))
+          len(data["dating"]["ru"]["blocks"]), "| summary groups:",
+          len(summary), "| summary rows:",
+          sum(len(g["items"]) for g in summary), "| poses:", len(data["poses"]))
     for pose in data["poses"]:
         print(" ", pose["number"], pose["key"], "|", pose["name"]["ru"], "|",
               pose["gloss"]["ru"], "|", len(pose["text"]["ru"]), "blocks")

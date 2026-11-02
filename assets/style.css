@@ -717,6 +717,41 @@ h1.pose-title {
   color: var(--ink-2);
 }
 
+/* The dates come in the camps the article itself distinguishes; each camp has
+   its own heading, so the block cannot read as one undivided list. */
+
+.dating-lead { margin-bottom: 16px; }
+
+.dating-group + .dating-group { margin-top: 18px; }
+
+.dating-group-title {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  margin: 0 0 2px;
+  font-family: var(--font-display);
+  font-size: .98rem;
+  line-height: 1.3;
+  font-weight: 600;
+  color: var(--ink);
+}
+.dating-group-title > span { min-width: 0; }
+.dating-group-title::before {
+  content: "";
+  flex: none;
+  width: 14px;
+  height: 1px;
+  transform: translateY(-.32em);
+  background: var(--accent);
+}
+
+.dating-group-intro {
+  margin: 0 0 2px;
+  font-size: .8rem;
+  line-height: 1.5;
+  color: var(--muted);
+}
+
 .dating-rows {
   list-style: none;
   margin: 0 0 10px;
@@ -725,10 +760,18 @@ h1.pose-title {
 
 .dating-rows li {
   display: grid;
-  grid-template-columns: minmax(126px, 26%) minmax(150px, 28%) minmax(0, 1fr);
-  gap: 4px 20px;
-  padding: 12px 0;
+  grid-template-columns: minmax(116px, 25%) minmax(132px, 23%) minmax(0, 1fr);
+  gap: 4px 18px;
+  padding: 10px 0;
   border-top: 1px solid var(--rule-soft);
+}
+
+/* a row whose third column is empty (the date and the list it comes from);
+   only while the grid still has columns -- on a phone every row stacks */
+@media (min-width: 761px) {
+  .dating-rows li:not(:has(.dating-work)) {
+    grid-template-columns: minmax(116px, 25%) minmax(0, 1fr);
+  }
 }
 
 .dating-who {
@@ -761,8 +804,8 @@ h1.pose-title {
 
 .dating-work {
   display: block;
-  font-size: .79rem;
-  line-height: 1.5;
+  font-size: .76rem;
+  line-height: 1.45;
   color: var(--muted);
 }
 
@@ -776,6 +819,16 @@ h1.pose-title {
 }
 
 /* the toggle + full article */
+
+.dating-bound {
+  margin: 2px 0 0;
+  padding: 10px 0 0 12px;
+  border-top: 1px solid var(--rule-soft);
+  border-left: 2px solid color-mix(in srgb, var(--accent) 32%, transparent);
+  font-style: normal;
+  font-size: .82rem;
+  line-height: 1.55;
+}
 
 .dating-more {
   border-top: 1px solid var(--rule-soft);
