@@ -3711,7 +3711,7 @@
         "key": "iast",
         "label": "IAST",
         "lines": [
-         "svastikaṃ gomukhaṃ padmaṃ haṃsākhyaṃ brāhmamāsanam ||24"
+         "svastikaṃ gomukhaṃ padmaṃ haṃsākhyaṃ brāhmamāsanam ॥24"
         ]
        },
        {
@@ -3719,36 +3719,74 @@
         "key": "cyr",
         "label": "Кириллическая транслитерация",
         "lines": [
-         "свастикам̣ гомукхам̣ падмам̣ хам̣сāкхйам̣ брāхмамāсанам ||24"
+         "свастикам̣ гомукхам̣ падмам̣ хам̣сāкхйам̣ брāхмамāсанам ॥24"
         ]
        }
+      ],
+      "verses": "24"
+     },
+     {
+      "type": "words",
+      "key": "words",
+      "label": "Пословный разбор",
+      "paragraphs": [
+       "свастикам̣ - Свастика; гомукхам̣ - гомукха; падмам̣ - падма; хам̣сāкхйам̣ - хамса; брāхмамāсанам - бра̄хма-асана."
+      ],
+      "groups": [
+       [
+        [
+         "свастикам̣",
+         "Свастика"
+        ],
+        [
+         "гомукхам̣",
+         "гомукха"
+        ],
+        [
+         "падмам̣",
+         "падма"
+        ],
+        [
+         "хам̣сāкхйам̣",
+         "хамса"
+        ],
+        [
+         "брāхмамāсанам",
+         "бра̄хма-асана"
+        ]
+       ]
       ]
      },
      {
       "type": "prose",
-      "key": "translation",
-      "label": "Перевод",
+      "key": "literal",
+      "label": "Буквальный перевод",
       "paragraphs": [
        "Свастика, гомукха, падма, хамса — бра̄хма-асана."
       ]
      },
      {
-      "type": "quote",
+      "type": "prose",
+      "key": "literary",
+      "label": "Литературный перевод",
       "paragraphs": [
-       "24–26. Свастика, гомукха, падма, хамса — это бра̄хмические позы (асаны)."
+       "24–26. Свастика, гомукха, падма, хамса — это бра̄хмические позы (асаны).",
+       "— англ. пер. изд. 1978 г., с. 170"
       ]
      },
      {
       "type": "prose",
       "key": "class",
-      "label": "6.3. Комментарий к стиху 24 — классификация по божествам",
+      "label": "Классификация по божествам",
       "paragraphs": [
-       "स्वस्तिकाद्यासनचतुष्टयं ब्राह्मं ब्रह्मदेवत्यमित्यर्थः ।"
+       "Четвёрка асан, начиная со свастики, — бра̄хма, то есть имеющая божеством Брахму."
       ]
      },
      {
-      "type": "p",
-      "html": "Четвёрка асан, начиная со свастики, — бра̄хма, то есть имеющая божеством Брахму."
+      "type": "deva",
+      "lines": [
+       "स्वस्तिकाद्यासनचतुष्टयं ब्राह्मं ब्रह्मदेवत्यमित्यर्थः ।"
+      ]
      }
     ],
     "en": [
@@ -3768,36 +3806,82 @@
         "key": "iast",
         "label": "IAST",
         "lines": [
-         "svastikaṃ gomukhaṃ padmaṃ haṃsākhyaṃ brāhmamāsanam ||24"
+         "svastikaṃ gomukhaṃ padmaṃ haṃsākhyaṃ brāhmamāsanam ॥24"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "cyr",
+        "label": "Cyrillic transliteration",
+        "lines": [
+         "свастикам̣ гомукхам̣ падмам̣ хам̣сāкхйам̣ брāхмамāсанам ॥24"
         ]
        }
+      ],
+      "verses": "24"
+     },
+     {
+      "type": "words",
+      "key": "words",
+      "label": "Word-by-word analysis",
+      "paragraphs": [
+       "svastikaṃ - Svastika; gomukhaṃ - gomukha; padmaṃ - padma; haṃsākhyaṃ - haṃsa; brāhmamāsanam - the brāhma-āsana."
+      ],
+      "groups": [
+       [
+        [
+         "svastikaṃ",
+         "Svastika"
+        ],
+        [
+         "gomukhaṃ",
+         "gomukha"
+        ],
+        [
+         "padmaṃ",
+         "padma"
+        ],
+        [
+         "haṃsākhyaṃ",
+         "haṃsa"
+        ],
+        [
+         "brāhmamāsanam",
+         "the brāhma-āsana"
+        ]
+       ]
       ]
      },
      {
       "type": "prose",
-      "key": "translation",
-      "label": "Translation",
+      "key": "literal",
+      "label": "Literal translation",
       "paragraphs": [
        "Svastika, gomukha, padma, haṃsa — the brāhma-āsana."
       ]
      },
      {
-      "type": "quote",
+      "type": "prose",
+      "key": "literary",
+      "label": "Literary translation",
       "paragraphs": [
-       "24-26. Svastika, Gomukha, Padma, Haṃsa — these are the Brahmic postures (Āsanas)."
+       "24-26. Svastika, Gomukha, Padma, Haṃsa — these are the Brahmic postures (Āsanas).",
+       "— English translation, 1978 edition, p. 170"
       ]
      },
      {
       "type": "prose",
       "key": "class",
-      "label": "6.3. The Commentary on Verse 24 — the Classification by Deity",
+      "label": "The Classification by Deity",
       "paragraphs": [
-       "स्वस्तिकाद्यासनचतुष्टयं ब्राह्मं ब्रह्मदेवत्यमित्यर्थः ।"
+       "The group of four āsanas beginning with svastika is the brāhma one, that is, having Brahmā as its deity."
       ]
      },
      {
-      "type": "p",
-      "html": "The group of four āsanas beginning with svastika is the brāhma one, that is, having Brahmā as its deity."
+      "type": "deva",
+      "lines": [
+       "स्वस्तिकाद्यासनचतुष्टयं ब्राह्मं ब्रह्मदेवत्यमित्यर्थः ।"
+      ]
      }
     ]
    }
@@ -3836,7 +3920,7 @@
         "key": "iast",
         "label": "IAST",
         "lines": [
-         "svastikaṃ gomukhaṃ padmaṃ haṃsākhyaṃ brāhmamāsanam ||24"
+         "svastikaṃ gomukhaṃ padmaṃ haṃsākhyaṃ brāhmamāsanam ॥24"
         ]
        },
        {
@@ -3844,36 +3928,74 @@
         "key": "cyr",
         "label": "Кириллическая транслитерация",
         "lines": [
-         "свастикам̣ гомукхам̣ падмам̣ хам̣сāкхйам̣ брāхмамāсанам ||24"
+         "свастикам̣ гомукхам̣ падмам̣ хам̣сāкхйам̣ брāхмамāсанам ॥24"
         ]
        }
+      ],
+      "verses": "24"
+     },
+     {
+      "type": "words",
+      "key": "words",
+      "label": "Пословный разбор",
+      "paragraphs": [
+       "свастикам̣ - Свастика; гомукхам̣ - гомукха; падмам̣ - падма; хам̣сāкхйам̣ - хамса; брāхмамāсанам - бра̄хма-асана."
+      ],
+      "groups": [
+       [
+        [
+         "свастикам̣",
+         "Свастика"
+        ],
+        [
+         "гомукхам̣",
+         "гомукха"
+        ],
+        [
+         "падмам̣",
+         "падма"
+        ],
+        [
+         "хам̣сāкхйам̣",
+         "хамса"
+        ],
+        [
+         "брāхмамāсанам",
+         "бра̄хма-асана"
+        ]
+       ]
       ]
      },
      {
       "type": "prose",
-      "key": "translation",
-      "label": "Перевод",
+      "key": "literal",
+      "label": "Буквальный перевод",
       "paragraphs": [
        "Свастика, гомукха, падма, хамса — бра̄хма-асана."
       ]
      },
      {
-      "type": "quote",
+      "type": "prose",
+      "key": "literary",
+      "label": "Литературный перевод",
       "paragraphs": [
-       "24–26. Свастика, гомукха, падма, хамса — это бра̄хмические позы (асаны)."
+       "24–26. Свастика, гомукха, падма, хамса — это бра̄хмические позы (асаны).",
+       "— англ. пер. изд. 1978 г., с. 170"
       ]
      },
      {
       "type": "prose",
       "key": "class",
-      "label": "6.3. Комментарий к стиху 24 — классификация по божествам",
+      "label": "Классификация по божествам",
       "paragraphs": [
-       "स्वस्तिकाद्यासनचतुष्टयं ब्राह्मं ब्रह्मदेवत्यमित्यर्थः ।"
+       "Четвёрка асан, начиная со свастики, — бра̄хма, то есть имеющая божеством Брахму."
       ]
      },
      {
-      "type": "p",
-      "html": "Четвёрка асан, начиная со свастики, — бра̄хма, то есть имеющая божеством Брахму."
+      "type": "deva",
+      "lines": [
+       "स्वस्तिकाद्यासनचतुष्टयं ब्राह्मं ब्रह्मदेवत्यमित्यर्थः ।"
+      ]
      }
     ],
     "en": [
@@ -3893,36 +4015,82 @@
         "key": "iast",
         "label": "IAST",
         "lines": [
-         "svastikaṃ gomukhaṃ padmaṃ haṃsākhyaṃ brāhmamāsanam ||24"
+         "svastikaṃ gomukhaṃ padmaṃ haṃsākhyaṃ brāhmamāsanam ॥24"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "cyr",
+        "label": "Cyrillic transliteration",
+        "lines": [
+         "свастикам̣ гомукхам̣ падмам̣ хам̣сāкхйам̣ брāхмамāсанам ॥24"
         ]
        }
+      ],
+      "verses": "24"
+     },
+     {
+      "type": "words",
+      "key": "words",
+      "label": "Word-by-word analysis",
+      "paragraphs": [
+       "svastikaṃ - Svastika; gomukhaṃ - gomukha; padmaṃ - padma; haṃsākhyaṃ - haṃsa; brāhmamāsanam - the brāhma-āsana."
+      ],
+      "groups": [
+       [
+        [
+         "svastikaṃ",
+         "Svastika"
+        ],
+        [
+         "gomukhaṃ",
+         "gomukha"
+        ],
+        [
+         "padmaṃ",
+         "padma"
+        ],
+        [
+         "haṃsākhyaṃ",
+         "haṃsa"
+        ],
+        [
+         "brāhmamāsanam",
+         "the brāhma-āsana"
+        ]
+       ]
       ]
      },
      {
       "type": "prose",
-      "key": "translation",
-      "label": "Translation",
+      "key": "literal",
+      "label": "Literal translation",
       "paragraphs": [
        "Svastika, gomukha, padma, haṃsa — the brāhma-āsana."
       ]
      },
      {
-      "type": "quote",
+      "type": "prose",
+      "key": "literary",
+      "label": "Literary translation",
       "paragraphs": [
-       "24-26. Svastika, Gomukha, Padma, Haṃsa — these are the Brahmic postures (Āsanas)."
+       "24-26. Svastika, Gomukha, Padma, Haṃsa — these are the Brahmic postures (Āsanas).",
+       "— English translation, 1978 edition, p. 170"
       ]
      },
      {
       "type": "prose",
       "key": "class",
-      "label": "6.3. The Commentary on Verse 24 — the Classification by Deity",
+      "label": "The Classification by Deity",
       "paragraphs": [
-       "स्वस्तिकाद्यासनचतुष्टयं ब्राह्मं ब्रह्मदेवत्यमित्यर्थः ।"
+       "The group of four āsanas beginning with svastika is the brāhma one, that is, having Brahmā as its deity."
       ]
      },
      {
-      "type": "p",
-      "html": "The group of four āsanas beginning with svastika is the brāhma one, that is, having Brahmā as its deity."
+      "type": "deva",
+      "lines": [
+       "स्वस्तिकाद्यासनचतुष्टयं ब्राह्मं ब्रह्मदेवत्यमित्यर्थः ।"
+      ]
      }
     ]
    }
@@ -3961,7 +4129,7 @@
         "key": "iast",
         "label": "IAST",
         "lines": [
-         "svastikaṃ gomukhaṃ padmaṃ haṃsākhyaṃ brāhmamāsanam ||24"
+         "svastikaṃ gomukhaṃ padmaṃ haṃsākhyaṃ brāhmamāsanam ॥24"
         ]
        },
        {
@@ -3969,36 +4137,74 @@
         "key": "cyr",
         "label": "Кириллическая транслитерация",
         "lines": [
-         "свастикам̣ гомукхам̣ падмам̣ хам̣сāкхйам̣ брāхмамāсанам ||24"
+         "свастикам̣ гомукхам̣ падмам̣ хам̣сāкхйам̣ брāхмамāсанам ॥24"
         ]
        }
+      ],
+      "verses": "24"
+     },
+     {
+      "type": "words",
+      "key": "words",
+      "label": "Пословный разбор",
+      "paragraphs": [
+       "свастикам̣ - Свастика; гомукхам̣ - гомукха; падмам̣ - падма; хам̣сāкхйам̣ - хамса; брāхмамāсанам - бра̄хма-асана."
+      ],
+      "groups": [
+       [
+        [
+         "свастикам̣",
+         "Свастика"
+        ],
+        [
+         "гомукхам̣",
+         "гомукха"
+        ],
+        [
+         "падмам̣",
+         "падма"
+        ],
+        [
+         "хам̣сāкхйам̣",
+         "хамса"
+        ],
+        [
+         "брāхмамāсанам",
+         "бра̄хма-асана"
+        ]
+       ]
       ]
      },
      {
       "type": "prose",
-      "key": "translation",
-      "label": "Перевод",
+      "key": "literal",
+      "label": "Буквальный перевод",
       "paragraphs": [
        "Свастика, гомукха, падма, хамса — бра̄хма-асана."
       ]
      },
      {
-      "type": "quote",
+      "type": "prose",
+      "key": "literary",
+      "label": "Литературный перевод",
       "paragraphs": [
-       "24–26. Свастика, гомукха, падма, хамса — это бра̄хмические позы (асаны)."
+       "24–26. Свастика, гомукха, падма, хамса — это бра̄хмические позы (асаны).",
+       "— англ. пер. изд. 1978 г., с. 170"
       ]
      },
      {
       "type": "prose",
       "key": "class",
-      "label": "6.3. Комментарий к стиху 24 — классификация по божествам",
+      "label": "Классификация по божествам",
       "paragraphs": [
-       "स्वस्तिकाद्यासनचतुष्टयं ब्राह्मं ब्रह्मदेवत्यमित्यर्थः ।"
+       "Четвёрка асан, начиная со свастики, — бра̄хма, то есть имеющая божеством Брахму."
       ]
      },
      {
-      "type": "p",
-      "html": "Четвёрка асан, начиная со свастики, — бра̄хма, то есть имеющая божеством Брахму."
+      "type": "deva",
+      "lines": [
+       "स्वस्तिकाद्यासनचतुष्टयं ब्राह्मं ब्रह्मदेवत्यमित्यर्थः ।"
+      ]
      }
     ],
     "en": [
@@ -4018,36 +4224,82 @@
         "key": "iast",
         "label": "IAST",
         "lines": [
-         "svastikaṃ gomukhaṃ padmaṃ haṃsākhyaṃ brāhmamāsanam ||24"
+         "svastikaṃ gomukhaṃ padmaṃ haṃsākhyaṃ brāhmamāsanam ॥24"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "cyr",
+        "label": "Cyrillic transliteration",
+        "lines": [
+         "свастикам̣ гомукхам̣ падмам̣ хам̣сāкхйам̣ брāхмамāсанам ॥24"
         ]
        }
+      ],
+      "verses": "24"
+     },
+     {
+      "type": "words",
+      "key": "words",
+      "label": "Word-by-word analysis",
+      "paragraphs": [
+       "svastikaṃ - Svastika; gomukhaṃ - gomukha; padmaṃ - padma; haṃsākhyaṃ - haṃsa; brāhmamāsanam - the brāhma-āsana."
+      ],
+      "groups": [
+       [
+        [
+         "svastikaṃ",
+         "Svastika"
+        ],
+        [
+         "gomukhaṃ",
+         "gomukha"
+        ],
+        [
+         "padmaṃ",
+         "padma"
+        ],
+        [
+         "haṃsākhyaṃ",
+         "haṃsa"
+        ],
+        [
+         "brāhmamāsanam",
+         "the brāhma-āsana"
+        ]
+       ]
       ]
      },
      {
       "type": "prose",
-      "key": "translation",
-      "label": "Translation",
+      "key": "literal",
+      "label": "Literal translation",
       "paragraphs": [
        "Svastika, gomukha, padma, haṃsa — the brāhma-āsana."
       ]
      },
      {
-      "type": "quote",
+      "type": "prose",
+      "key": "literary",
+      "label": "Literary translation",
       "paragraphs": [
-       "24-26. Svastika, Gomukha, Padma, Haṃsa — these are the Brahmic postures (Āsanas)."
+       "24-26. Svastika, Gomukha, Padma, Haṃsa — these are the Brahmic postures (Āsanas).",
+       "— English translation, 1978 edition, p. 170"
       ]
      },
      {
       "type": "prose",
       "key": "class",
-      "label": "6.3. The Commentary on Verse 24 — the Classification by Deity",
+      "label": "The Classification by Deity",
       "paragraphs": [
-       "स्वस्तिकाद्यासनचतुष्टयं ब्राह्मं ब्रह्मदेवत्यमित्यर्थः ।"
+       "The group of four āsanas beginning with svastika is the brāhma one, that is, having Brahmā as its deity."
       ]
      },
      {
-      "type": "p",
-      "html": "The group of four āsanas beginning with svastika is the brāhma one, that is, having Brahmā as its deity."
+      "type": "deva",
+      "lines": [
+       "स्वस्तिकाद्यासनचतुष्टयं ब्राह्मं ब्रह्मदेवत्यमित्यर्थः ।"
+      ]
      }
     ]
    }
@@ -4086,7 +4338,7 @@
         "key": "iast",
         "label": "IAST",
         "lines": [
-         "svastikaṃ gomukhaṃ padmaṃ haṃsākhyaṃ brāhmamāsanam ||24"
+         "svastikaṃ gomukhaṃ padmaṃ haṃsākhyaṃ brāhmamāsanam ॥24"
         ]
        },
        {
@@ -4094,36 +4346,74 @@
         "key": "cyr",
         "label": "Кириллическая транслитерация",
         "lines": [
-         "свастикам̣ гомукхам̣ падмам̣ хам̣сāкхйам̣ брāхмамāсанам ||24"
+         "свастикам̣ гомукхам̣ падмам̣ хам̣сāкхйам̣ брāхмамāсанам ॥24"
         ]
        }
+      ],
+      "verses": "24"
+     },
+     {
+      "type": "words",
+      "key": "words",
+      "label": "Пословный разбор",
+      "paragraphs": [
+       "свастикам̣ - Свастика; гомукхам̣ - гомукха; падмам̣ - падма; хам̣сāкхйам̣ - хамса; брāхмамāсанам - бра̄хма-асана."
+      ],
+      "groups": [
+       [
+        [
+         "свастикам̣",
+         "Свастика"
+        ],
+        [
+         "гомукхам̣",
+         "гомукха"
+        ],
+        [
+         "падмам̣",
+         "падма"
+        ],
+        [
+         "хам̣сāкхйам̣",
+         "хамса"
+        ],
+        [
+         "брāхмамāсанам",
+         "бра̄хма-асана"
+        ]
+       ]
       ]
      },
      {
       "type": "prose",
-      "key": "translation",
-      "label": "Перевод",
+      "key": "literal",
+      "label": "Буквальный перевод",
       "paragraphs": [
        "Свастика, гомукха, падма, хамса — бра̄хма-асана."
       ]
      },
      {
-      "type": "quote",
+      "type": "prose",
+      "key": "literary",
+      "label": "Литературный перевод",
       "paragraphs": [
-       "24–26. Свастика, гомукха, падма, хамса — это бра̄хмические позы (асаны)."
+       "24–26. Свастика, гомукха, падма, хамса — это бра̄хмические позы (асаны).",
+       "— англ. пер. изд. 1978 г., с. 170"
       ]
      },
      {
       "type": "prose",
       "key": "class",
-      "label": "6.3. Комментарий к стиху 24 — классификация по божествам",
+      "label": "Классификация по божествам",
       "paragraphs": [
-       "स्वस्तिकाद्यासनचतुष्टयं ब्राह्मं ब्रह्मदेवत्यमित्यर्थः ।"
+       "Четвёрка асан, начиная со свастики, — бра̄хма, то есть имеющая божеством Брахму."
       ]
      },
      {
-      "type": "p",
-      "html": "Четвёрка асан, начиная со свастики, — бра̄хма, то есть имеющая божеством Брахму."
+      "type": "deva",
+      "lines": [
+       "स्वस्तिकाद्यासनचतुष्टयं ब्राह्मं ब्रह्मदेवत्यमित्यर्थः ।"
+      ]
      }
     ],
     "en": [
@@ -4143,36 +4433,82 @@
         "key": "iast",
         "label": "IAST",
         "lines": [
-         "svastikaṃ gomukhaṃ padmaṃ haṃsākhyaṃ brāhmamāsanam ||24"
+         "svastikaṃ gomukhaṃ padmaṃ haṃsākhyaṃ brāhmamāsanam ॥24"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "cyr",
+        "label": "Cyrillic transliteration",
+        "lines": [
+         "свастикам̣ гомукхам̣ падмам̣ хам̣сāкхйам̣ брāхмамāсанам ॥24"
         ]
        }
+      ],
+      "verses": "24"
+     },
+     {
+      "type": "words",
+      "key": "words",
+      "label": "Word-by-word analysis",
+      "paragraphs": [
+       "svastikaṃ - Svastika; gomukhaṃ - gomukha; padmaṃ - padma; haṃsākhyaṃ - haṃsa; brāhmamāsanam - the brāhma-āsana."
+      ],
+      "groups": [
+       [
+        [
+         "svastikaṃ",
+         "Svastika"
+        ],
+        [
+         "gomukhaṃ",
+         "gomukha"
+        ],
+        [
+         "padmaṃ",
+         "padma"
+        ],
+        [
+         "haṃsākhyaṃ",
+         "haṃsa"
+        ],
+        [
+         "brāhmamāsanam",
+         "the brāhma-āsana"
+        ]
+       ]
       ]
      },
      {
       "type": "prose",
-      "key": "translation",
-      "label": "Translation",
+      "key": "literal",
+      "label": "Literal translation",
       "paragraphs": [
        "Svastika, gomukha, padma, haṃsa — the brāhma-āsana."
       ]
      },
      {
-      "type": "quote",
+      "type": "prose",
+      "key": "literary",
+      "label": "Literary translation",
       "paragraphs": [
-       "24-26. Svastika, Gomukha, Padma, Haṃsa — these are the Brahmic postures (Āsanas)."
+       "24-26. Svastika, Gomukha, Padma, Haṃsa — these are the Brahmic postures (Āsanas).",
+       "— English translation, 1978 edition, p. 170"
       ]
      },
      {
       "type": "prose",
       "key": "class",
-      "label": "6.3. The Commentary on Verse 24 — the Classification by Deity",
+      "label": "The Classification by Deity",
       "paragraphs": [
-       "स्वस्तिकाद्यासनचतुष्टयं ब्राह्मं ब्रह्मदेवत्यमित्यर्थः ।"
+       "The group of four āsanas beginning with svastika is the brāhma one, that is, having Brahmā as its deity."
       ]
      },
      {
-      "type": "p",
-      "html": "The group of four āsanas beginning with svastika is the brāhma one, that is, having Brahmā as its deity."
+      "type": "deva",
+      "lines": [
+       "स्वस्तिकाद्यासनचतुष्टयं ब्राह्मं ब्रह्मदेवत्यमित्यर्थः ।"
+      ]
      }
     ]
    }
@@ -4211,7 +4547,7 @@
         "key": "iast",
         "label": "IAST",
         "lines": [
-         "nṛsiṃhaṃ garuḍaṃ kūrmaṃ nāgākhyaṃ vaiṣṇavāsanam |"
+         "nṛsiṃhaṃ garuḍaṃ kūrmaṃ nāgākhyaṃ vaiṣṇavāsanam ।"
         ]
        },
        {
@@ -4219,36 +4555,74 @@
         "key": "cyr",
         "label": "Кириллическая транслитерация",
         "lines": [
-         "нр̣сим̣хам̣ гаруд̣ам̣ кӯрмам̣ нāгāкхйам̣ ваишн̣авāсанам |"
+         "нр̣сим̣хам̣ гаруд̣ам̣ кӯрмам̣ нāгāкхйам̣ ваишн̣авāсанам ।"
         ]
        }
+      ],
+      "verses": "25"
+     },
+     {
+      "type": "words",
+      "key": "words",
+      "label": "Пословный разбор",
+      "paragraphs": [
+       "нр̣сим̣хам̣ - Нрисимха; гаруд̣ам̣ - гаруда; кӯрмам̣ - курма; нāгāкхйам̣ - нага; ваишн̣авāсанам - вайшнава-асана."
+      ],
+      "groups": [
+       [
+        [
+         "нр̣сим̣хам̣",
+         "Нрисимха"
+        ],
+        [
+         "гаруд̣ам̣",
+         "гаруда"
+        ],
+        [
+         "кӯрмам̣",
+         "курма"
+        ],
+        [
+         "нāгāкхйам̣",
+         "нага"
+        ],
+        [
+         "ваишн̣авāсанам",
+         "вайшнава-асана"
+        ]
+       ]
       ]
      },
      {
       "type": "prose",
-      "key": "translation",
-      "label": "Перевод",
+      "key": "literal",
+      "label": "Буквальный перевод",
       "paragraphs": [
        "Нрисимха, гаруда, курма, нага — вайшнава-асана."
       ]
      },
      {
-      "type": "quote",
+      "type": "prose",
+      "key": "literary",
+      "label": "Литературный перевод",
       "paragraphs": [
-       "Нрисимха, гаруда, кӯрма, нага — это ваишн̣ава-позы."
+       "Нрисимха, гаруда, кӯрма, нага — это ваишн̣ава-позы.",
+       "— англ. пер. изд. 1978 г., с. 170"
       ]
      },
      {
       "type": "prose",
       "key": "class",
-      "label": "6.3. Комментарий к стиху 24 — классификация по божествам",
+      "label": "Классификация по божествам",
       "paragraphs": [
-       "नृसिंहादिचतुष्टयं वैष्णवं विष्णुदेवत्यम् ।"
+       "Четвёрка, начиная с нрисимхи, — вайшнава, с божеством Вишну."
       ]
      },
      {
-      "type": "p",
-      "html": "Четвёрка, начиная с нрисимхи, — вайшнава, с божеством Вишну."
+      "type": "deva",
+      "lines": [
+       "नृसिंहादिचतुष्टयं वैष्णवं विष्णुदेवत्यम् ।"
+      ]
      }
     ],
     "en": [
@@ -4268,36 +4642,82 @@
         "key": "iast",
         "label": "IAST",
         "lines": [
-         "nṛsiṃhaṃ garuḍaṃ kūrmaṃ nāgākhyaṃ vaiṣṇavāsanam |"
+         "nṛsiṃhaṃ garuḍaṃ kūrmaṃ nāgākhyaṃ vaiṣṇavāsanam ।"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "cyr",
+        "label": "Cyrillic transliteration",
+        "lines": [
+         "нр̣сим̣хам̣ гаруд̣ам̣ кӯрмам̣ нāгāкхйам̣ ваишн̣авāсанам ।"
         ]
        }
+      ],
+      "verses": "25"
+     },
+     {
+      "type": "words",
+      "key": "words",
+      "label": "Word-by-word analysis",
+      "paragraphs": [
+       "nṛsiṃhaṃ - Nṛsiṃha; garuḍaṃ - garuḍa; kūrmaṃ - kūrma; nāgākhyaṃ - nāga; vaiṣṇavāsanam - the vaiṣṇava-āsana."
+      ],
+      "groups": [
+       [
+        [
+         "nṛsiṃhaṃ",
+         "Nṛsiṃha"
+        ],
+        [
+         "garuḍaṃ",
+         "garuḍa"
+        ],
+        [
+         "kūrmaṃ",
+         "kūrma"
+        ],
+        [
+         "nāgākhyaṃ",
+         "nāga"
+        ],
+        [
+         "vaiṣṇavāsanam",
+         "the vaiṣṇava-āsana"
+        ]
+       ]
       ]
      },
      {
       "type": "prose",
-      "key": "translation",
-      "label": "Translation",
+      "key": "literal",
+      "label": "Literal translation",
       "paragraphs": [
        "Nṛsiṃha, garuḍa, kūrma, nāga — the vaiṣṇava-āsana."
       ]
      },
      {
-      "type": "quote",
+      "type": "prose",
+      "key": "literary",
+      "label": "Literary translation",
       "paragraphs": [
-       "Nṛsiṃha, Garuḍa, Kūrma, Nāga — these are the Vaiṣṇava postures."
+       "Nṛsiṃha, Garuḍa, Kūrma, Nāga — these are the Vaiṣṇava postures.",
+       "— English translation, 1978 edition, p. 170"
       ]
      },
      {
       "type": "prose",
       "key": "class",
-      "label": "6.3. The Commentary on Verse 24 — the Classification by Deity",
+      "label": "The Classification by Deity",
       "paragraphs": [
-       "नृसिंहादिचतुष्टयं वैष्णवं विष्णुदेवत्यम् ।"
+       "The group of four beginning with nṛsiṃha is the vaiṣṇava one, with Viṣṇu as its deity."
       ]
      },
      {
-      "type": "p",
-      "html": "The group of four beginning with nṛsiṃha is the vaiṣṇava one, with Viṣṇu as its deity."
+      "type": "deva",
+      "lines": [
+       "नृसिंहादिचतुष्टयं वैष्णवं विष्णुदेवत्यम् ।"
+      ]
      }
     ]
    }
@@ -4336,7 +4756,7 @@
         "key": "iast",
         "label": "IAST",
         "lines": [
-         "nṛsiṃhaṃ garuḍaṃ kūrmaṃ nāgākhyaṃ vaiṣṇavāsanam |"
+         "nṛsiṃhaṃ garuḍaṃ kūrmaṃ nāgākhyaṃ vaiṣṇavāsanam ।"
         ]
        },
        {
@@ -4344,36 +4764,74 @@
         "key": "cyr",
         "label": "Кириллическая транслитерация",
         "lines": [
-         "нр̣сим̣хам̣ гаруд̣ам̣ кӯрмам̣ нāгāкхйам̣ ваишн̣авāсанам |"
+         "нр̣сим̣хам̣ гаруд̣ам̣ кӯрмам̣ нāгāкхйам̣ ваишн̣авāсанам ।"
         ]
        }
+      ],
+      "verses": "25"
+     },
+     {
+      "type": "words",
+      "key": "words",
+      "label": "Пословный разбор",
+      "paragraphs": [
+       "нр̣сим̣хам̣ - Нрисимха; гаруд̣ам̣ - гаруда; кӯрмам̣ - курма; нāгāкхйам̣ - нага; ваишн̣авāсанам - вайшнава-асана."
+      ],
+      "groups": [
+       [
+        [
+         "нр̣сим̣хам̣",
+         "Нрисимха"
+        ],
+        [
+         "гаруд̣ам̣",
+         "гаруда"
+        ],
+        [
+         "кӯрмам̣",
+         "курма"
+        ],
+        [
+         "нāгāкхйам̣",
+         "нага"
+        ],
+        [
+         "ваишн̣авāсанам",
+         "вайшнава-асана"
+        ]
+       ]
       ]
      },
      {
       "type": "prose",
-      "key": "translation",
-      "label": "Перевод",
+      "key": "literal",
+      "label": "Буквальный перевод",
       "paragraphs": [
        "Нрисимха, гаруда, курма, нага — вайшнава-асана."
       ]
      },
      {
-      "type": "quote",
+      "type": "prose",
+      "key": "literary",
+      "label": "Литературный перевод",
       "paragraphs": [
-       "Нрисимха, гаруда, кӯрма, нага — это ваишн̣ава-позы."
+       "Нрисимха, гаруда, кӯрма, нага — это ваишн̣ава-позы.",
+       "— англ. пер. изд. 1978 г., с. 170"
       ]
      },
      {
       "type": "prose",
       "key": "class",
-      "label": "6.3. Комментарий к стиху 24 — классификация по божествам",
+      "label": "Классификация по божествам",
       "paragraphs": [
-       "नृसिंहादिचतुष्टयं वैष्णवं विष्णुदेवत्यम् ।"
+       "Четвёрка, начиная с нрисимхи, — вайшнава, с божеством Вишну."
       ]
      },
      {
-      "type": "p",
-      "html": "Четвёрка, начиная с нрисимхи, — вайшнава, с божеством Вишну."
+      "type": "deva",
+      "lines": [
+       "नृसिंहादिचतुष्टयं वैष्णवं विष्णुदेवत्यम् ।"
+      ]
      }
     ],
     "en": [
@@ -4393,36 +4851,82 @@
         "key": "iast",
         "label": "IAST",
         "lines": [
-         "nṛsiṃhaṃ garuḍaṃ kūrmaṃ nāgākhyaṃ vaiṣṇavāsanam |"
+         "nṛsiṃhaṃ garuḍaṃ kūrmaṃ nāgākhyaṃ vaiṣṇavāsanam ।"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "cyr",
+        "label": "Cyrillic transliteration",
+        "lines": [
+         "нр̣сим̣хам̣ гаруд̣ам̣ кӯрмам̣ нāгāкхйам̣ ваишн̣авāсанам ।"
         ]
        }
+      ],
+      "verses": "25"
+     },
+     {
+      "type": "words",
+      "key": "words",
+      "label": "Word-by-word analysis",
+      "paragraphs": [
+       "nṛsiṃhaṃ - Nṛsiṃha; garuḍaṃ - garuḍa; kūrmaṃ - kūrma; nāgākhyaṃ - nāga; vaiṣṇavāsanam - the vaiṣṇava-āsana."
+      ],
+      "groups": [
+       [
+        [
+         "nṛsiṃhaṃ",
+         "Nṛsiṃha"
+        ],
+        [
+         "garuḍaṃ",
+         "garuḍa"
+        ],
+        [
+         "kūrmaṃ",
+         "kūrma"
+        ],
+        [
+         "nāgākhyaṃ",
+         "nāga"
+        ],
+        [
+         "vaiṣṇavāsanam",
+         "the vaiṣṇava-āsana"
+        ]
+       ]
       ]
      },
      {
       "type": "prose",
-      "key": "translation",
-      "label": "Translation",
+      "key": "literal",
+      "label": "Literal translation",
       "paragraphs": [
        "Nṛsiṃha, garuḍa, kūrma, nāga — the vaiṣṇava-āsana."
       ]
      },
      {
-      "type": "quote",
+      "type": "prose",
+      "key": "literary",
+      "label": "Literary translation",
       "paragraphs": [
-       "Nṛsiṃha, Garuḍa, Kūrma, Nāga — these are the Vaiṣṇava postures."
+       "Nṛsiṃha, Garuḍa, Kūrma, Nāga — these are the Vaiṣṇava postures.",
+       "— English translation, 1978 edition, p. 170"
       ]
      },
      {
       "type": "prose",
       "key": "class",
-      "label": "6.3. The Commentary on Verse 24 — the Classification by Deity",
+      "label": "The Classification by Deity",
       "paragraphs": [
-       "नृसिंहादिचतुष्टयं वैष्णवं विष्णुदेवत्यम् ।"
+       "The group of four beginning with nṛsiṃha is the vaiṣṇava one, with Viṣṇu as its deity."
       ]
      },
      {
-      "type": "p",
-      "html": "The group of four beginning with nṛsiṃha is the vaiṣṇava one, with Viṣṇu as its deity."
+      "type": "deva",
+      "lines": [
+       "नृसिंहादिचतुष्टयं वैष्णवं विष्णुदेवत्यम् ।"
+      ]
      }
     ]
    }
@@ -4461,7 +4965,7 @@
         "key": "iast",
         "label": "IAST",
         "lines": [
-         "nṛsiṃhaṃ garuḍaṃ kūrmaṃ nāgākhyaṃ vaiṣṇavāsanam |"
+         "nṛsiṃhaṃ garuḍaṃ kūrmaṃ nāgākhyaṃ vaiṣṇavāsanam ।"
         ]
        },
        {
@@ -4469,36 +4973,74 @@
         "key": "cyr",
         "label": "Кириллическая транслитерация",
         "lines": [
-         "нр̣сим̣хам̣ гаруд̣ам̣ кӯрмам̣ нāгāкхйам̣ ваишн̣авāсанам |"
+         "нр̣сим̣хам̣ гаруд̣ам̣ кӯрмам̣ нāгāкхйам̣ ваишн̣авāсанам ।"
         ]
        }
+      ],
+      "verses": "25"
+     },
+     {
+      "type": "words",
+      "key": "words",
+      "label": "Пословный разбор",
+      "paragraphs": [
+       "нр̣сим̣хам̣ - Нрисимха; гаруд̣ам̣ - гаруда; кӯрмам̣ - курма; нāгāкхйам̣ - нага; ваишн̣авāсанам - вайшнава-асана."
+      ],
+      "groups": [
+       [
+        [
+         "нр̣сим̣хам̣",
+         "Нрисимха"
+        ],
+        [
+         "гаруд̣ам̣",
+         "гаруда"
+        ],
+        [
+         "кӯрмам̣",
+         "курма"
+        ],
+        [
+         "нāгāкхйам̣",
+         "нага"
+        ],
+        [
+         "ваишн̣авāсанам",
+         "вайшнава-асана"
+        ]
+       ]
       ]
      },
      {
       "type": "prose",
-      "key": "translation",
-      "label": "Перевод",
+      "key": "literal",
+      "label": "Буквальный перевод",
       "paragraphs": [
        "Нрисимха, гаруда, курма, нага — вайшнава-асана."
       ]
      },
      {
-      "type": "quote",
+      "type": "prose",
+      "key": "literary",
+      "label": "Литературный перевод",
       "paragraphs": [
-       "Нрисимха, гаруда, кӯрма, нага — это ваишн̣ава-позы."
+       "Нрисимха, гаруда, кӯрма, нага — это ваишн̣ава-позы.",
+       "— англ. пер. изд. 1978 г., с. 170"
       ]
      },
      {
       "type": "prose",
       "key": "class",
-      "label": "6.3. Комментарий к стиху 24 — классификация по божествам",
+      "label": "Классификация по божествам",
       "paragraphs": [
-       "नृसिंहादिचतुष्टयं वैष्णवं विष्णुदेवत्यम् ।"
+       "Четвёрка, начиная с нрисимхи, — вайшнава, с божеством Вишну."
       ]
      },
      {
-      "type": "p",
-      "html": "Четвёрка, начиная с нрисимхи, — вайшнава, с божеством Вишну."
+      "type": "deva",
+      "lines": [
+       "नृसिंहादिचतुष्टयं वैष्णवं विष्णुदेवत्यम् ।"
+      ]
      }
     ],
     "en": [
@@ -4518,36 +5060,82 @@
         "key": "iast",
         "label": "IAST",
         "lines": [
-         "nṛsiṃhaṃ garuḍaṃ kūrmaṃ nāgākhyaṃ vaiṣṇavāsanam |"
+         "nṛsiṃhaṃ garuḍaṃ kūrmaṃ nāgākhyaṃ vaiṣṇavāsanam ।"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "cyr",
+        "label": "Cyrillic transliteration",
+        "lines": [
+         "нр̣сим̣хам̣ гаруд̣ам̣ кӯрмам̣ нāгāкхйам̣ ваишн̣авāсанам ।"
         ]
        }
+      ],
+      "verses": "25"
+     },
+     {
+      "type": "words",
+      "key": "words",
+      "label": "Word-by-word analysis",
+      "paragraphs": [
+       "nṛsiṃhaṃ - Nṛsiṃha; garuḍaṃ - garuḍa; kūrmaṃ - kūrma; nāgākhyaṃ - nāga; vaiṣṇavāsanam - the vaiṣṇava-āsana."
+      ],
+      "groups": [
+       [
+        [
+         "nṛsiṃhaṃ",
+         "Nṛsiṃha"
+        ],
+        [
+         "garuḍaṃ",
+         "garuḍa"
+        ],
+        [
+         "kūrmaṃ",
+         "kūrma"
+        ],
+        [
+         "nāgākhyaṃ",
+         "nāga"
+        ],
+        [
+         "vaiṣṇavāsanam",
+         "the vaiṣṇava-āsana"
+        ]
+       ]
       ]
      },
      {
       "type": "prose",
-      "key": "translation",
-      "label": "Translation",
+      "key": "literal",
+      "label": "Literal translation",
       "paragraphs": [
        "Nṛsiṃha, garuḍa, kūrma, nāga — the vaiṣṇava-āsana."
       ]
      },
      {
-      "type": "quote",
+      "type": "prose",
+      "key": "literary",
+      "label": "Literary translation",
       "paragraphs": [
-       "Nṛsiṃha, Garuḍa, Kūrma, Nāga — these are the Vaiṣṇava postures."
+       "Nṛsiṃha, Garuḍa, Kūrma, Nāga — these are the Vaiṣṇava postures.",
+       "— English translation, 1978 edition, p. 170"
       ]
      },
      {
       "type": "prose",
       "key": "class",
-      "label": "6.3. The Commentary on Verse 24 — the Classification by Deity",
+      "label": "The Classification by Deity",
       "paragraphs": [
-       "नृसिंहादिचतुष्टयं वैष्णवं विष्णुदेवत्यम् ।"
+       "The group of four beginning with nṛsiṃha is the vaiṣṇava one, with Viṣṇu as its deity."
       ]
      },
      {
-      "type": "p",
-      "html": "The group of four beginning with nṛsiṃha is the vaiṣṇava one, with Viṣṇu as its deity."
+      "type": "deva",
+      "lines": [
+       "नृसिंहादिचतुष्टयं वैष्णवं विष्णुदेवत्यम् ।"
+      ]
      }
     ]
    }
@@ -4586,7 +5174,7 @@
         "key": "iast",
         "label": "IAST",
         "lines": [
-         "nṛsiṃhaṃ garuḍaṃ kūrmaṃ nāgākhyaṃ vaiṣṇavāsanam |"
+         "nṛsiṃhaṃ garuḍaṃ kūrmaṃ nāgākhyaṃ vaiṣṇavāsanam ।"
         ]
        },
        {
@@ -4594,36 +5182,74 @@
         "key": "cyr",
         "label": "Кириллическая транслитерация",
         "lines": [
-         "нр̣сим̣хам̣ гаруд̣ам̣ кӯрмам̣ нāгāкхйам̣ ваишн̣авāсанам |"
+         "нр̣сим̣хам̣ гаруд̣ам̣ кӯрмам̣ нāгāкхйам̣ ваишн̣авāсанам ।"
         ]
        }
+      ],
+      "verses": "25"
+     },
+     {
+      "type": "words",
+      "key": "words",
+      "label": "Пословный разбор",
+      "paragraphs": [
+       "нр̣сим̣хам̣ - Нрисимха; гаруд̣ам̣ - гаруда; кӯрмам̣ - курма; нāгāкхйам̣ - нага; ваишн̣авāсанам - вайшнава-асана."
+      ],
+      "groups": [
+       [
+        [
+         "нр̣сим̣хам̣",
+         "Нрисимха"
+        ],
+        [
+         "гаруд̣ам̣",
+         "гаруда"
+        ],
+        [
+         "кӯрмам̣",
+         "курма"
+        ],
+        [
+         "нāгāкхйам̣",
+         "нага"
+        ],
+        [
+         "ваишн̣авāсанам",
+         "вайшнава-асана"
+        ]
+       ]
       ]
      },
      {
       "type": "prose",
-      "key": "translation",
-      "label": "Перевод",
+      "key": "literal",
+      "label": "Буквальный перевод",
       "paragraphs": [
        "Нрисимха, гаруда, курма, нага — вайшнава-асана."
       ]
      },
      {
-      "type": "quote",
+      "type": "prose",
+      "key": "literary",
+      "label": "Литературный перевод",
       "paragraphs": [
-       "Нрисимха, гаруда, кӯрма, нага — это ваишн̣ава-позы."
+       "Нрисимха, гаруда, кӯрма, нага — это ваишн̣ава-позы.",
+       "— англ. пер. изд. 1978 г., с. 170"
       ]
      },
      {
       "type": "prose",
       "key": "class",
-      "label": "6.3. Комментарий к стиху 24 — классификация по божествам",
+      "label": "Классификация по божествам",
       "paragraphs": [
-       "नृसिंहादिचतुष्टयं वैष्णवं विष्णुदेवत्यम् ।"
+       "Четвёрка, начиная с нрисимхи, — вайшнава, с божеством Вишну."
       ]
      },
      {
-      "type": "p",
-      "html": "Четвёрка, начиная с нрисимхи, — вайшнава, с божеством Вишну."
+      "type": "deva",
+      "lines": [
+       "नृसिंहादिचतुष्टयं वैष्णवं विष्णुदेवत्यम् ।"
+      ]
      }
     ],
     "en": [
@@ -4643,36 +5269,82 @@
         "key": "iast",
         "label": "IAST",
         "lines": [
-         "nṛsiṃhaṃ garuḍaṃ kūrmaṃ nāgākhyaṃ vaiṣṇavāsanam |"
+         "nṛsiṃhaṃ garuḍaṃ kūrmaṃ nāgākhyaṃ vaiṣṇavāsanam ।"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "cyr",
+        "label": "Cyrillic transliteration",
+        "lines": [
+         "нр̣сим̣хам̣ гаруд̣ам̣ кӯрмам̣ нāгāкхйам̣ ваишн̣авāсанам ।"
         ]
        }
+      ],
+      "verses": "25"
+     },
+     {
+      "type": "words",
+      "key": "words",
+      "label": "Word-by-word analysis",
+      "paragraphs": [
+       "nṛsiṃhaṃ - Nṛsiṃha; garuḍaṃ - garuḍa; kūrmaṃ - kūrma; nāgākhyaṃ - nāga; vaiṣṇavāsanam - the vaiṣṇava-āsana."
+      ],
+      "groups": [
+       [
+        [
+         "nṛsiṃhaṃ",
+         "Nṛsiṃha"
+        ],
+        [
+         "garuḍaṃ",
+         "garuḍa"
+        ],
+        [
+         "kūrmaṃ",
+         "kūrma"
+        ],
+        [
+         "nāgākhyaṃ",
+         "nāga"
+        ],
+        [
+         "vaiṣṇavāsanam",
+         "the vaiṣṇava-āsana"
+        ]
+       ]
       ]
      },
      {
       "type": "prose",
-      "key": "translation",
-      "label": "Translation",
+      "key": "literal",
+      "label": "Literal translation",
       "paragraphs": [
        "Nṛsiṃha, garuḍa, kūrma, nāga — the vaiṣṇava-āsana."
       ]
      },
      {
-      "type": "quote",
+      "type": "prose",
+      "key": "literary",
+      "label": "Literary translation",
       "paragraphs": [
-       "Nṛsiṃha, Garuḍa, Kūrma, Nāga — these are the Vaiṣṇava postures."
+       "Nṛsiṃha, Garuḍa, Kūrma, Nāga — these are the Vaiṣṇava postures.",
+       "— English translation, 1978 edition, p. 170"
       ]
      },
      {
       "type": "prose",
       "key": "class",
-      "label": "6.3. The Commentary on Verse 24 — the Classification by Deity",
+      "label": "The Classification by Deity",
       "paragraphs": [
-       "नृसिंहादिचतुष्टयं वैष्णवं विष्णुदेवत्यम् ।"
+       "The group of four beginning with nṛsiṃha is the vaiṣṇava one, with Viṣṇu as its deity."
       ]
      },
      {
-      "type": "p",
-      "html": "The group of four beginning with nṛsiṃha is the vaiṣṇava one, with Viṣṇu as its deity."
+      "type": "deva",
+      "lines": [
+       "नृसिंहादिचतुष्टयं वैष्णवं विष्णुदेवत्यम् ।"
+      ]
      }
     ]
    }
@@ -4711,7 +5383,7 @@
         "key": "iast",
         "label": "IAST",
         "lines": [
-         "vīraṃ mayūraṃ vajrākhyaṃ siddhākhyaṃ raudramāsanam ||25||"
+         "vīraṃ mayūraṃ vajrākhyaṃ siddhākhyaṃ raudramāsanam ॥25॥"
         ]
        },
        {
@@ -4719,36 +5391,74 @@
         "key": "cyr",
         "label": "Кириллическая транслитерация",
         "lines": [
-         "вӣрам̣ майӯрам̣ ваджрāкхйам̣ сиддхāкхйам̣ раудрамāсанам ||25||"
+         "вӣрам̣ майӯрам̣ ваджрāкхйам̣ сиддхāкхйам̣ раудрамāсанам ॥25॥"
         ]
        }
+      ],
+      "verses": "25"
+     },
+     {
+      "type": "words",
+      "key": "words",
+      "label": "Пословный разбор",
+      "paragraphs": [
+       "вӣрам̣ - Вира; майӯрам̣ - маюра; ваджрāкхйам̣ - ваджра; сиддхāкхйам̣ - сиддха; раудрамāсанам - раудра-асана."
+      ],
+      "groups": [
+       [
+        [
+         "вӣрам̣",
+         "Вира"
+        ],
+        [
+         "майӯрам̣",
+         "маюра"
+        ],
+        [
+         "ваджрāкхйам̣",
+         "ваджра"
+        ],
+        [
+         "сиддхāкхйам̣",
+         "сиддха"
+        ],
+        [
+         "раудрамāсанам",
+         "раудра-асана"
+        ]
+       ]
       ]
      },
      {
       "type": "prose",
-      "key": "translation",
-      "label": "Перевод",
+      "key": "literal",
+      "label": "Буквальный перевод",
       "paragraphs": [
        "Вира, маюра, ваджра, сиддха — раудра-асана."
       ]
      },
      {
-      "type": "quote",
+      "type": "prose",
+      "key": "literary",
+      "label": "Литературный перевод",
       "paragraphs": [
-       "Вӣра, майӯра, ваджра, сиддха — это раудра-позы."
+       "Вӣра, майӯра, ваджра, сиддха — это раудра-позы.",
+       "— англ. пер. изд. 1978 г., с. 170"
       ]
      },
      {
       "type": "prose",
       "key": "class",
-      "label": "6.3. Комментарий к стиху 24 — классификация по божествам",
+      "label": "Классификация по божествам",
       "paragraphs": [
-       "वीरादिचतुष्टयं रौद्रं रुद्रदेवत्यम् ।"
+       "Четвёрка, начиная с виры, — раудра, с божеством Рудрой."
       ]
      },
      {
-      "type": "p",
-      "html": "Четвёрка, начиная с виры, — раудра, с божеством Рудрой."
+      "type": "deva",
+      "lines": [
+       "वीरादिचतुष्टयं रौद्रं रुद्रदेवत्यम् ।"
+      ]
      }
     ],
     "en": [
@@ -4768,36 +5478,82 @@
         "key": "iast",
         "label": "IAST",
         "lines": [
-         "vīraṃ mayūraṃ vajrākhyaṃ siddhākhyaṃ raudramāsanam ||25||"
+         "vīraṃ mayūraṃ vajrākhyaṃ siddhākhyaṃ raudramāsanam ॥25॥"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "cyr",
+        "label": "Cyrillic transliteration",
+        "lines": [
+         "вӣрам̣ майӯрам̣ ваджрāкхйам̣ сиддхāкхйам̣ раудрамāсанам ॥25॥"
         ]
        }
+      ],
+      "verses": "25"
+     },
+     {
+      "type": "words",
+      "key": "words",
+      "label": "Word-by-word analysis",
+      "paragraphs": [
+       "vīraṃ - Vīra; mayūraṃ - mayūra; vajrākhyaṃ - vajra; siddhākhyaṃ - siddha; raudramāsanam - the raudra-āsana."
+      ],
+      "groups": [
+       [
+        [
+         "vīraṃ",
+         "Vīra"
+        ],
+        [
+         "mayūraṃ",
+         "mayūra"
+        ],
+        [
+         "vajrākhyaṃ",
+         "vajra"
+        ],
+        [
+         "siddhākhyaṃ",
+         "siddha"
+        ],
+        [
+         "raudramāsanam",
+         "the raudra-āsana"
+        ]
+       ]
       ]
      },
      {
       "type": "prose",
-      "key": "translation",
-      "label": "Translation",
+      "key": "literal",
+      "label": "Literal translation",
       "paragraphs": [
        "Vīra, mayūra, vajra, siddha — the raudra-āsana."
       ]
      },
      {
-      "type": "quote",
+      "type": "prose",
+      "key": "literary",
+      "label": "Literary translation",
       "paragraphs": [
-       "Vīra, Mayūra, Vajra, Siddha — these are the Raudra postures."
+       "Vīra, Mayūra, Vajra, Siddha — these are the Raudra postures.",
+       "— English translation, 1978 edition, p. 170"
       ]
      },
      {
       "type": "prose",
       "key": "class",
-      "label": "6.3. The Commentary on Verse 24 — the Classification by Deity",
+      "label": "The Classification by Deity",
       "paragraphs": [
-       "वीरादिचतुष्टयं रौद्रं रुद्रदेवत्यम् ।"
+       "The group of four beginning with vīra is the raudra one, with Rudra as its deity."
       ]
      },
      {
-      "type": "p",
-      "html": "The group of four beginning with vīra is the raudra one, with Rudra as its deity."
+      "type": "deva",
+      "lines": [
+       "वीरादिचतुष्टयं रौद्रं रुद्रदेवत्यम् ।"
+      ]
      }
     ]
    }
@@ -4836,7 +5592,7 @@
         "key": "iast",
         "label": "IAST",
         "lines": [
-         "vīraṃ mayūraṃ vajrākhyaṃ siddhākhyaṃ raudramāsanam ||25||"
+         "vīraṃ mayūraṃ vajrākhyaṃ siddhākhyaṃ raudramāsanam ॥25॥"
         ]
        },
        {
@@ -4844,36 +5600,74 @@
         "key": "cyr",
         "label": "Кириллическая транслитерация",
         "lines": [
-         "вӣрам̣ майӯрам̣ ваджрāкхйам̣ сиддхāкхйам̣ раудрамāсанам ||25||"
+         "вӣрам̣ майӯрам̣ ваджрāкхйам̣ сиддхāкхйам̣ раудрамāсанам ॥25॥"
         ]
        }
+      ],
+      "verses": "25"
+     },
+     {
+      "type": "words",
+      "key": "words",
+      "label": "Пословный разбор",
+      "paragraphs": [
+       "вӣрам̣ - Вира; майӯрам̣ - маюра; ваджрāкхйам̣ - ваджра; сиддхāкхйам̣ - сиддха; раудрамāсанам - раудра-асана."
+      ],
+      "groups": [
+       [
+        [
+         "вӣрам̣",
+         "Вира"
+        ],
+        [
+         "майӯрам̣",
+         "маюра"
+        ],
+        [
+         "ваджрāкхйам̣",
+         "ваджра"
+        ],
+        [
+         "сиддхāкхйам̣",
+         "сиддха"
+        ],
+        [
+         "раудрамāсанам",
+         "раудра-асана"
+        ]
+       ]
       ]
      },
      {
       "type": "prose",
-      "key": "translation",
-      "label": "Перевод",
+      "key": "literal",
+      "label": "Буквальный перевод",
       "paragraphs": [
        "Вира, маюра, ваджра, сиддха — раудра-асана."
       ]
      },
      {
-      "type": "quote",
+      "type": "prose",
+      "key": "literary",
+      "label": "Литературный перевод",
       "paragraphs": [
-       "Вӣра, майӯра, ваджра, сиддха — это раудра-позы."
+       "Вӣра, майӯра, ваджра, сиддха — это раудра-позы.",
+       "— англ. пер. изд. 1978 г., с. 170"
       ]
      },
      {
       "type": "prose",
       "key": "class",
-      "label": "6.3. Комментарий к стиху 24 — классификация по божествам",
+      "label": "Классификация по божествам",
       "paragraphs": [
-       "वीरादिचतुष्टयं रौद्रं रुद्रदेवत्यम् ।"
+       "Четвёрка, начиная с виры, — раудра, с божеством Рудрой."
       ]
      },
      {
-      "type": "p",
-      "html": "Четвёрка, начиная с виры, — раудра, с божеством Рудрой."
+      "type": "deva",
+      "lines": [
+       "वीरादिचतुष्टयं रौद्रं रुद्रदेवत्यम् ।"
+      ]
      }
     ],
     "en": [
@@ -4893,36 +5687,82 @@
         "key": "iast",
         "label": "IAST",
         "lines": [
-         "vīraṃ mayūraṃ vajrākhyaṃ siddhākhyaṃ raudramāsanam ||25||"
+         "vīraṃ mayūraṃ vajrākhyaṃ siddhākhyaṃ raudramāsanam ॥25॥"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "cyr",
+        "label": "Cyrillic transliteration",
+        "lines": [
+         "вӣрам̣ майӯрам̣ ваджрāкхйам̣ сиддхāкхйам̣ раудрамāсанам ॥25॥"
         ]
        }
+      ],
+      "verses": "25"
+     },
+     {
+      "type": "words",
+      "key": "words",
+      "label": "Word-by-word analysis",
+      "paragraphs": [
+       "vīraṃ - Vīra; mayūraṃ - mayūra; vajrākhyaṃ - vajra; siddhākhyaṃ - siddha; raudramāsanam - the raudra-āsana."
+      ],
+      "groups": [
+       [
+        [
+         "vīraṃ",
+         "Vīra"
+        ],
+        [
+         "mayūraṃ",
+         "mayūra"
+        ],
+        [
+         "vajrākhyaṃ",
+         "vajra"
+        ],
+        [
+         "siddhākhyaṃ",
+         "siddha"
+        ],
+        [
+         "raudramāsanam",
+         "the raudra-āsana"
+        ]
+       ]
       ]
      },
      {
       "type": "prose",
-      "key": "translation",
-      "label": "Translation",
+      "key": "literal",
+      "label": "Literal translation",
       "paragraphs": [
        "Vīra, mayūra, vajra, siddha — the raudra-āsana."
       ]
      },
      {
-      "type": "quote",
+      "type": "prose",
+      "key": "literary",
+      "label": "Literary translation",
       "paragraphs": [
-       "Vīra, Mayūra, Vajra, Siddha — these are the Raudra postures."
+       "Vīra, Mayūra, Vajra, Siddha — these are the Raudra postures.",
+       "— English translation, 1978 edition, p. 170"
       ]
      },
      {
       "type": "prose",
       "key": "class",
-      "label": "6.3. The Commentary on Verse 24 — the Classification by Deity",
+      "label": "The Classification by Deity",
       "paragraphs": [
-       "वीरादिचतुष्टयं रौद्रं रुद्रदेवत्यम् ।"
+       "The group of four beginning with vīra is the raudra one, with Rudra as its deity."
       ]
      },
      {
-      "type": "p",
-      "html": "The group of four beginning with vīra is the raudra one, with Rudra as its deity."
+      "type": "deva",
+      "lines": [
+       "वीरादिचतुष्टयं रौद्रं रुद्रदेवत्यम् ।"
+      ]
      }
     ]
    }
@@ -4961,7 +5801,7 @@
         "key": "iast",
         "label": "IAST",
         "lines": [
-         "vīraṃ mayūraṃ vajrākhyaṃ siddhākhyaṃ raudramāsanam ||25||"
+         "vīraṃ mayūraṃ vajrākhyaṃ siddhākhyaṃ raudramāsanam ॥25॥"
         ]
        },
        {
@@ -4969,36 +5809,74 @@
         "key": "cyr",
         "label": "Кириллическая транслитерация",
         "lines": [
-         "вӣрам̣ майӯрам̣ ваджрāкхйам̣ сиддхāкхйам̣ раудрамāсанам ||25||"
+         "вӣрам̣ майӯрам̣ ваджрāкхйам̣ сиддхāкхйам̣ раудрамāсанам ॥25॥"
         ]
        }
+      ],
+      "verses": "25"
+     },
+     {
+      "type": "words",
+      "key": "words",
+      "label": "Пословный разбор",
+      "paragraphs": [
+       "вӣрам̣ - Вира; майӯрам̣ - маюра; ваджрāкхйам̣ - ваджра; сиддхāкхйам̣ - сиддха; раудрамāсанам - раудра-асана."
+      ],
+      "groups": [
+       [
+        [
+         "вӣрам̣",
+         "Вира"
+        ],
+        [
+         "майӯрам̣",
+         "маюра"
+        ],
+        [
+         "ваджрāкхйам̣",
+         "ваджра"
+        ],
+        [
+         "сиддхāкхйам̣",
+         "сиддха"
+        ],
+        [
+         "раудрамāсанам",
+         "раудра-асана"
+        ]
+       ]
       ]
      },
      {
       "type": "prose",
-      "key": "translation",
-      "label": "Перевод",
+      "key": "literal",
+      "label": "Буквальный перевод",
       "paragraphs": [
        "Вира, маюра, ваджра, сиддха — раудра-асана."
       ]
      },
      {
-      "type": "quote",
+      "type": "prose",
+      "key": "literary",
+      "label": "Литературный перевод",
       "paragraphs": [
-       "Вӣра, майӯра, ваджра, сиддха — это раудра-позы."
+       "Вӣра, майӯра, ваджра, сиддха — это раудра-позы.",
+       "— англ. пер. изд. 1978 г., с. 170"
       ]
      },
      {
       "type": "prose",
       "key": "class",
-      "label": "6.3. Комментарий к стиху 24 — классификация по божествам",
+      "label": "Классификация по божествам",
       "paragraphs": [
-       "वीरादिचतुष्टयं रौद्रं रुद्रदेवत्यम् ।"
+       "Четвёрка, начиная с виры, — раудра, с божеством Рудрой."
       ]
      },
      {
-      "type": "p",
-      "html": "Четвёрка, начиная с виры, — раудра, с божеством Рудрой."
+      "type": "deva",
+      "lines": [
+       "वीरादिचतुष्टयं रौद्रं रुद्रदेवत्यम् ।"
+      ]
      }
     ],
     "en": [
@@ -5018,36 +5896,82 @@
         "key": "iast",
         "label": "IAST",
         "lines": [
-         "vīraṃ mayūraṃ vajrākhyaṃ siddhākhyaṃ raudramāsanam ||25||"
+         "vīraṃ mayūraṃ vajrākhyaṃ siddhākhyaṃ raudramāsanam ॥25॥"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "cyr",
+        "label": "Cyrillic transliteration",
+        "lines": [
+         "вӣрам̣ майӯрам̣ ваджрāкхйам̣ сиддхāкхйам̣ раудрамāсанам ॥25॥"
         ]
        }
+      ],
+      "verses": "25"
+     },
+     {
+      "type": "words",
+      "key": "words",
+      "label": "Word-by-word analysis",
+      "paragraphs": [
+       "vīraṃ - Vīra; mayūraṃ - mayūra; vajrākhyaṃ - vajra; siddhākhyaṃ - siddha; raudramāsanam - the raudra-āsana."
+      ],
+      "groups": [
+       [
+        [
+         "vīraṃ",
+         "Vīra"
+        ],
+        [
+         "mayūraṃ",
+         "mayūra"
+        ],
+        [
+         "vajrākhyaṃ",
+         "vajra"
+        ],
+        [
+         "siddhākhyaṃ",
+         "siddha"
+        ],
+        [
+         "raudramāsanam",
+         "the raudra-āsana"
+        ]
+       ]
       ]
      },
      {
       "type": "prose",
-      "key": "translation",
-      "label": "Translation",
+      "key": "literal",
+      "label": "Literal translation",
       "paragraphs": [
        "Vīra, mayūra, vajra, siddha — the raudra-āsana."
       ]
      },
      {
-      "type": "quote",
+      "type": "prose",
+      "key": "literary",
+      "label": "Literary translation",
       "paragraphs": [
-       "Vīra, Mayūra, Vajra, Siddha — these are the Raudra postures."
+       "Vīra, Mayūra, Vajra, Siddha — these are the Raudra postures.",
+       "— English translation, 1978 edition, p. 170"
       ]
      },
      {
       "type": "prose",
       "key": "class",
-      "label": "6.3. The Commentary on Verse 24 — the Classification by Deity",
+      "label": "The Classification by Deity",
       "paragraphs": [
-       "वीरादिचतुष्टयं रौद्रं रुद्रदेवत्यम् ।"
+       "The group of four beginning with vīra is the raudra one, with Rudra as its deity."
       ]
      },
      {
-      "type": "p",
-      "html": "The group of four beginning with vīra is the raudra one, with Rudra as its deity."
+      "type": "deva",
+      "lines": [
+       "वीरादिचतुष्टयं रौद्रं रुद्रदेवत्यम् ।"
+      ]
      }
     ]
    }
@@ -5086,7 +6010,7 @@
         "key": "iast",
         "label": "IAST",
         "lines": [
-         "vīraṃ mayūraṃ vajrākhyaṃ siddhākhyaṃ raudramāsanam ||25||"
+         "vīraṃ mayūraṃ vajrākhyaṃ siddhākhyaṃ raudramāsanam ॥25॥"
         ]
        },
        {
@@ -5094,36 +6018,74 @@
         "key": "cyr",
         "label": "Кириллическая транслитерация",
         "lines": [
-         "вӣрам̣ майӯрам̣ ваджрāкхйам̣ сиддхāкхйам̣ раудрамāсанам ||25||"
+         "вӣрам̣ майӯрам̣ ваджрāкхйам̣ сиддхāкхйам̣ раудрамāсанам ॥25॥"
         ]
        }
+      ],
+      "verses": "25"
+     },
+     {
+      "type": "words",
+      "key": "words",
+      "label": "Пословный разбор",
+      "paragraphs": [
+       "вӣрам̣ - Вира; майӯрам̣ - маюра; ваджрāкхйам̣ - ваджра; сиддхāкхйам̣ - сиддха; раудрамāсанам - раудра-асана."
+      ],
+      "groups": [
+       [
+        [
+         "вӣрам̣",
+         "Вира"
+        ],
+        [
+         "майӯрам̣",
+         "маюра"
+        ],
+        [
+         "ваджрāкхйам̣",
+         "ваджра"
+        ],
+        [
+         "сиддхāкхйам̣",
+         "сиддха"
+        ],
+        [
+         "раудрамāсанам",
+         "раудра-асана"
+        ]
+       ]
       ]
      },
      {
       "type": "prose",
-      "key": "translation",
-      "label": "Перевод",
+      "key": "literal",
+      "label": "Буквальный перевод",
       "paragraphs": [
        "Вира, маюра, ваджра, сиддха — раудра-асана."
       ]
      },
      {
-      "type": "quote",
+      "type": "prose",
+      "key": "literary",
+      "label": "Литературный перевод",
       "paragraphs": [
-       "Вӣра, майӯра, ваджра, сиддха — это раудра-позы."
+       "Вӣра, майӯра, ваджра, сиддха — это раудра-позы.",
+       "— англ. пер. изд. 1978 г., с. 170"
       ]
      },
      {
       "type": "prose",
       "key": "class",
-      "label": "6.3. Комментарий к стиху 24 — классификация по божествам",
+      "label": "Классификация по божествам",
       "paragraphs": [
-       "वीरादिचतुष्टयं रौद्रं रुद्रदेवत्यम् ।"
+       "Четвёрка, начиная с виры, — раудра, с божеством Рудрой."
       ]
      },
      {
-      "type": "p",
-      "html": "Четвёрка, начиная с виры, — раудра, с божеством Рудрой."
+      "type": "deva",
+      "lines": [
+       "वीरादिचतुष्टयं रौद्रं रुद्रदेवत्यम् ।"
+      ]
      }
     ],
     "en": [
@@ -5143,36 +6105,82 @@
         "key": "iast",
         "label": "IAST",
         "lines": [
-         "vīraṃ mayūraṃ vajrākhyaṃ siddhākhyaṃ raudramāsanam ||25||"
+         "vīraṃ mayūraṃ vajrākhyaṃ siddhākhyaṃ raudramāsanam ॥25॥"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "cyr",
+        "label": "Cyrillic transliteration",
+        "lines": [
+         "вӣрам̣ майӯрам̣ ваджрāкхйам̣ сиддхāкхйам̣ раудрамāсанам ॥25॥"
         ]
        }
+      ],
+      "verses": "25"
+     },
+     {
+      "type": "words",
+      "key": "words",
+      "label": "Word-by-word analysis",
+      "paragraphs": [
+       "vīraṃ - Vīra; mayūraṃ - mayūra; vajrākhyaṃ - vajra; siddhākhyaṃ - siddha; raudramāsanam - the raudra-āsana."
+      ],
+      "groups": [
+       [
+        [
+         "vīraṃ",
+         "Vīra"
+        ],
+        [
+         "mayūraṃ",
+         "mayūra"
+        ],
+        [
+         "vajrākhyaṃ",
+         "vajra"
+        ],
+        [
+         "siddhākhyaṃ",
+         "siddha"
+        ],
+        [
+         "raudramāsanam",
+         "the raudra-āsana"
+        ]
+       ]
       ]
      },
      {
       "type": "prose",
-      "key": "translation",
-      "label": "Translation",
+      "key": "literal",
+      "label": "Literal translation",
       "paragraphs": [
        "Vīra, mayūra, vajra, siddha — the raudra-āsana."
       ]
      },
      {
-      "type": "quote",
+      "type": "prose",
+      "key": "literary",
+      "label": "Literary translation",
       "paragraphs": [
-       "Vīra, Mayūra, Vajra, Siddha — these are the Raudra postures."
+       "Vīra, Mayūra, Vajra, Siddha — these are the Raudra postures.",
+       "— English translation, 1978 edition, p. 170"
       ]
      },
      {
       "type": "prose",
       "key": "class",
-      "label": "6.3. The Commentary on Verse 24 — the Classification by Deity",
+      "label": "The Classification by Deity",
       "paragraphs": [
-       "वीरादिचतुष्टयं रौद्रं रुद्रदेवत्यम् ।"
+       "The group of four beginning with vīra is the raudra one, with Rudra as its deity."
       ]
      },
      {
-      "type": "p",
-      "html": "The group of four beginning with vīra is the raudra one, with Rudra as its deity."
+      "type": "deva",
+      "lines": [
+       "वीरादिचतुष्टयं रौद्रं रुद्रदेवत्यम् ।"
+      ]
      }
     ]
    }
@@ -5211,7 +6219,7 @@
         "key": "iast",
         "label": "IAST",
         "lines": [
-         "yonyāsanaṃ viduśśāktaṃ śaivaṃ paścimatānakam |"
+         "yonyāsanaṃ viduśśāktaṃ śaivaṃ paścimatānakam ।"
         ]
        },
        {
@@ -5219,36 +6227,74 @@
         "key": "cyr",
         "label": "Кириллическая транслитерация",
         "lines": [
-         "йонйāсанам̣ видуш́ш́āктам̣ ш́аивам̣ паш́чиматāнакам |"
+         "йонйāсанам̣ видуш́ш́āктам̣ ш́аивам̣ паш́чиматāнакам ।"
         ]
        }
+      ],
+      "verses": "25"
+     },
+     {
+      "type": "words",
+      "key": "words",
+      "label": "Пословный разбор",
+      "paragraphs": [
+       "йонйāсанам̣ - Асана йони; видух̣ - как знают; ш́āктам̣ - ш́а̄кта; ш́аивам̣ - ш́айва; паш́чиматāнакам - пашчиматанака."
+      ],
+      "groups": [
+       [
+        [
+         "йонйāсанам̣",
+         "Асана йони"
+        ],
+        [
+         "видух̣",
+         "как знают"
+        ],
+        [
+         "ш́āктам̣",
+         "ш́а̄кта"
+        ],
+        [
+         "ш́аивам̣",
+         "ш́айва"
+        ],
+        [
+         "паш́чиматāнакам",
+         "пашчиматанака"
+        ]
+       ]
       ]
      },
      {
       "type": "prose",
-      "key": "translation",
-      "label": "Перевод",
+      "key": "literal",
+      "label": "Буквальный перевод",
       "paragraphs": [
        "Асана йони, как знают, — ш́а̄кта; ш́айва — пашчиматанака."
       ]
      },
      {
-      "type": "quote",
+      "type": "prose",
+      "key": "literary",
+      "label": "Литературный перевод",
       "paragraphs": [
-       "Йони — ш́а̄кта-поза."
+       "Йони — ш́а̄кта-поза.",
+       "— англ. пер. изд. 1978 г., с. 170"
       ]
      },
      {
       "type": "prose",
       "key": "class",
-      "label": "6.3. Комментарий к стиху 24 — классификация по божествам",
+      "label": "Классификация по божествам",
       "paragraphs": [
-       "योन्यासनं शक्तिदेवत्यं विदुरित्यर्थः ।"
+       "Асана йони, как следует понимать, — с божеством Шакти."
       ]
      },
      {
-      "type": "p",
-      "html": "Асана йони, как следует понимать, — с божеством Шакти."
+      "type": "deva",
+      "lines": [
+       "योन्यासनं शक्तिदेवत्यं विदुरित्यर्थः ।"
+      ]
      }
     ],
     "en": [
@@ -5268,36 +6314,82 @@
         "key": "iast",
         "label": "IAST",
         "lines": [
-         "yonyāsanaṃ viduśśāktaṃ śaivaṃ paścimatānakam |"
+         "yonyāsanaṃ viduśśāktaṃ śaivaṃ paścimatānakam ।"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "cyr",
+        "label": "Cyrillic transliteration",
+        "lines": [
+         "йонйāсанам̣ видуш́ш́āктам̣ ш́аивам̣ паш́чиматāнакам ।"
         ]
        }
+      ],
+      "verses": "25"
+     },
+     {
+      "type": "words",
+      "key": "words",
+      "label": "Word-by-word analysis",
+      "paragraphs": [
+       "yonyāsanaṃ - The yoni posture; viduḥ - as they know; śāktaṃ - the śākta one; śaivaṃ - the śaiva one; paścimatānakam - paścima-tanaka."
+      ],
+      "groups": [
+       [
+        [
+         "yonyāsanaṃ",
+         "The yoni posture"
+        ],
+        [
+         "viduḥ",
+         "as they know"
+        ],
+        [
+         "śāktaṃ",
+         "the śākta one"
+        ],
+        [
+         "śaivaṃ",
+         "the śaiva one"
+        ],
+        [
+         "paścimatānakam",
+         "paścima-tanaka"
+        ]
+       ]
       ]
      },
      {
       "type": "prose",
-      "key": "translation",
-      "label": "Translation",
+      "key": "literal",
+      "label": "Literal translation",
       "paragraphs": [
        "The yoni posture, as they know, is the śākta one; the śaiva one is paścima-tanaka."
       ]
      },
      {
-      "type": "quote",
+      "type": "prose",
+      "key": "literary",
+      "label": "Literary translation",
       "paragraphs": [
-       "Yoni is the Śākta posture."
+       "Yoni is the Śākta posture.",
+       "— English translation, 1978 edition, p. 170"
       ]
      },
      {
       "type": "prose",
       "key": "class",
-      "label": "6.3. The Commentary on Verse 24 — the Classification by Deity",
+      "label": "The Classification by Deity",
       "paragraphs": [
-       "योन्यासनं शक्तिदेवत्यं विदुरित्यर्थः ।"
+       "The yoni posture, as is to be understood, has Śakti as its deity."
       ]
      },
      {
-      "type": "p",
-      "html": "The yoni posture, as is to be understood, has Śakti as its deity."
+      "type": "deva",
+      "lines": [
+       "योन्यासनं शक्तिदेवत्यं विदुरित्यर्थः ।"
+      ]
      }
     ]
    }
@@ -5336,7 +6428,7 @@
         "key": "iast",
         "label": "IAST",
         "lines": [
-         "yonyāsanaṃ viduśśāktaṃ śaivaṃ paścimatānakam |"
+         "yonyāsanaṃ viduśśāktaṃ śaivaṃ paścimatānakam ।"
         ]
        },
        {
@@ -5344,36 +6436,74 @@
         "key": "cyr",
         "label": "Кириллическая транслитерация",
         "lines": [
-         "йонйāсанам̣ видуш́ш́āктам̣ ш́аивам̣ паш́чиматāнакам |"
+         "йонйāсанам̣ видуш́ш́āктам̣ ш́аивам̣ паш́чиматāнакам ।"
         ]
        }
+      ],
+      "verses": "25"
+     },
+     {
+      "type": "words",
+      "key": "words",
+      "label": "Пословный разбор",
+      "paragraphs": [
+       "йонйāсанам̣ - Асана йони; видух̣ - как знают; ш́āктам̣ - ш́а̄кта; ш́аивам̣ - ш́айва; паш́чиматāнакам - пашчиматанака."
+      ],
+      "groups": [
+       [
+        [
+         "йонйāсанам̣",
+         "Асана йони"
+        ],
+        [
+         "видух̣",
+         "как знают"
+        ],
+        [
+         "ш́āктам̣",
+         "ш́а̄кта"
+        ],
+        [
+         "ш́аивам̣",
+         "ш́айва"
+        ],
+        [
+         "паш́чиматāнакам",
+         "пашчиматанака"
+        ]
+       ]
       ]
      },
      {
       "type": "prose",
-      "key": "translation",
-      "label": "Перевод",
+      "key": "literal",
+      "label": "Буквальный перевод",
       "paragraphs": [
        "Асана йони, как знают, — ш́а̄кта; ш́айва — пашчиматанака."
       ]
      },
      {
-      "type": "quote",
+      "type": "prose",
+      "key": "literary",
+      "label": "Литературный перевод",
       "paragraphs": [
-       "Пашчиматанака — ш́аива-поза"
+       "Пашчиматанака — ш́аива-поза",
+       "— англ. пер. изд. 1978 г., с. 170"
       ]
      },
      {
       "type": "prose",
       "key": "class",
-      "label": "6.3. Комментарий к стиху 24 — классификация по божествам",
+      "label": "Классификация по божествам",
       "paragraphs": [
-       "पश्चिमतानकं नामासनं शैवं विदुर्योगिन इति योजना ॥"
+       "Асану же под названием пашчиматанака йогины считают ш́айвой."
       ]
      },
      {
-      "type": "p",
-      "html": "Асану же под названием пашчиматанака йогины считают ш́айвой."
+      "type": "deva",
+      "lines": [
+       "पश्चिमतानकं नामासनं शैवं विदुर्योगिन इति योजना ॥"
+      ]
      }
     ],
     "en": [
@@ -5393,36 +6523,82 @@
         "key": "iast",
         "label": "IAST",
         "lines": [
-         "yonyāsanaṃ viduśśāktaṃ śaivaṃ paścimatānakam |"
+         "yonyāsanaṃ viduśśāktaṃ śaivaṃ paścimatānakam ।"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "cyr",
+        "label": "Cyrillic transliteration",
+        "lines": [
+         "йонйāсанам̣ видуш́ш́āктам̣ ш́аивам̣ паш́чиматāнакам ।"
         ]
        }
+      ],
+      "verses": "25"
+     },
+     {
+      "type": "words",
+      "key": "words",
+      "label": "Word-by-word analysis",
+      "paragraphs": [
+       "yonyāsanaṃ - The yoni posture; viduḥ - as they know; śāktaṃ - the śākta one; śaivaṃ - the śaiva one; paścimatānakam - paścima-tanaka."
+      ],
+      "groups": [
+       [
+        [
+         "yonyāsanaṃ",
+         "The yoni posture"
+        ],
+        [
+         "viduḥ",
+         "as they know"
+        ],
+        [
+         "śāktaṃ",
+         "the śākta one"
+        ],
+        [
+         "śaivaṃ",
+         "the śaiva one"
+        ],
+        [
+         "paścimatānakam",
+         "paścima-tanaka"
+        ]
+       ]
       ]
      },
      {
       "type": "prose",
-      "key": "translation",
-      "label": "Translation",
+      "key": "literal",
+      "label": "Literal translation",
       "paragraphs": [
        "The yoni posture, as they know, is the śākta one; the śaiva one is paścima-tanaka."
       ]
      },
      {
-      "type": "quote",
+      "type": "prose",
+      "key": "literary",
+      "label": "Literary translation",
       "paragraphs": [
-       "Paścima-tanaka is the Śaiva posture."
+       "Paścima-tanaka is the Śaiva posture.",
+       "— English translation, 1978 edition, p. 170"
       ]
      },
      {
       "type": "prose",
       "key": "class",
-      "label": "6.3. The Commentary on Verse 24 — the Classification by Deity",
+      "label": "The Classification by Deity",
       "paragraphs": [
-       "पश्चिमतानकं नामासनं शैवं विदुर्योगिन इति योजना ॥"
+       "And the posture called paścima-tanaka the yogins consider to be the śaiva one."
       ]
      },
      {
-      "type": "p",
-      "html": "And the posture called paścima-tanaka the yogins consider to be the śaiva one."
+      "type": "deva",
+      "lines": [
+       "पश्चिमतानकं नामासनं शैवं विदुर्योगिन इति योजना ॥"
+      ]
      }
     ]
    }
@@ -5462,8 +6638,8 @@
         "key": "iast",
         "label": "IAST",
         "lines": [
-         "nirālambanayogasya nirālambanamāsanam ||26||",
-         "nirālambatayā dhyānaṃ nirālambassadāśivaḥ |"
+         "nirālambanayogasya nirālambanamāsanam ॥26॥",
+         "nirālambatayā dhyānaṃ nirālambassadāśivaḥ ।"
         ]
        },
        {
@@ -5471,31 +6647,79 @@
         "key": "cyr",
         "label": "Кириллическая транслитерация",
         "lines": [
-         "нирāламбанайогасйа нирāламбанамāсанам ||26||",
-         "нирāламбатайā дхйāнам̣ нирāламбассадāш́ивах̣ |"
+         "нирāламбанайогасйа нирāламбанамāсанам ॥26॥",
+         "нирāламбатайā дхйāнам̣ нирāламбассадāш́ивах̣ ।"
         ]
        }
+      ],
+      "verses": "26"
+     },
+     {
+      "type": "words",
+      "key": "words",
+      "label": "Пословный разбор",
+      "paragraphs": [
+       "нирāламбанайогасйа - Для нира̄ламбана-йоги; нирāламбанам - нира̄ламбана; āсанам - асана.",
+       "нирāламбатайā - без опоры; дхйāнам̣ - созерцание; нирāламбах̣ - безопорный [Аа̄тман]; садāш́ивах̣ - Сада̄шива."
+      ],
+      "groups": [
+       [
+        [
+         "нирāламбанайогасйа",
+         "Для нира̄ламбана-йоги"
+        ],
+        [
+         "нирāламбанам",
+         "нира̄ламбана"
+        ],
+        [
+         "āсанам",
+         "асана"
+        ]
+       ],
+       [
+        [
+         "нирāламбатайā",
+         "без опоры"
+        ],
+        [
+         "дхйāнам̣",
+         "созерцание"
+        ],
+        [
+         "нирāламбах̣",
+         "безопорный [Аа̄тман]"
+        ],
+        [
+         "садāш́ивах̣",
+         "Сада̄шива"
+        ]
+       ]
       ]
      },
      {
       "type": "prose",
-      "key": "translation",
-      "label": "Перевод",
+      "key": "literal",
+      "label": "Буквальный перевод",
       "paragraphs": [
        "Для нира̄ламбана-йоги — нира̄ламбана-асана; созерцание — без опоры, а безопорный [Аа̄тман] — Сада̄шива."
       ]
      },
      {
-      "type": "quote",
+      "type": "prose",
+      "key": "literary",
+      "label": "Литературный перевод",
       "paragraphs": [
-       "Поза для нира̄ламбана-йоги — нира̄ламбана (букв. „беспорная“, не предполагающая определённого положения рук, ног и прочих членов тела); созерцать следует Нира̄ламбану, а Нира̄ламбана — это Сада̄шива, Безусловное, Парама̄тман"
+       "Поза для нира̄ламбана-йоги — нира̄ламбана (букв. „беспорная“, не предполагающая определённого положения рук, ног и прочих членов тела); созерцать следует Нира̄ламбану, а Нира̄ламбана — это Сада̄шива, Безусловное, Парама̄тман",
+       "— англ. пер. изд. 1978 г., с. 170"
       ]
      },
      {
-      "type": "prose",
-      "key": "class",
-      "label": "6.3. Комментарий к стиху 24 — классификация по божествам",
+      "type": "note",
+      "key": "note",
+      "label": "Примечание",
       "paragraphs": [
+       "Это и есть классификация асан по божествам — та самая, о которой издатель писал, что источник её — ш́айвские агамы (см. §1.2).",
        "В тексте она проведена полностью: 4 + 4 + 4 + 1 + 1 асана по пяти божествам, плюс шестая категория — «безопорная», которая асаной в собственном смысле не является."
       ]
      }
@@ -5518,31 +6742,88 @@
         "key": "iast",
         "label": "IAST",
         "lines": [
-         "nirālambanayogasya nirālambanamāsanam ||26||",
-         "nirālambatayā dhyānaṃ nirālambassadāśivaḥ |"
+         "nirālambanayogasya nirālambanamāsanam ॥26॥",
+         "nirālambatayā dhyānaṃ nirālambassadāśivaḥ ।"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "cyr",
+        "label": "Cyrillic transliteration",
+        "lines": [
+         "нирāламбанайогасйа нирāламбанамāсанам ॥26॥",
+         "нирāламбатайā дхйāнам̣ нирāламбассадāш́ивах̣ ।"
         ]
        }
+      ],
+      "verses": "26"
+     },
+     {
+      "type": "words",
+      "key": "words",
+      "label": "Word-by-word analysis",
+      "paragraphs": [
+       "nirālambanayogasya - For nirālambana-yoga; nirālambanam - the nirālambana; āsanam - āsana.",
+       "nirālambatayā - without support; dhyānaṃ - contemplation; nirālambaḥ - the supportless [Ātman]; sadāśivaḥ - Sadāśiva."
+      ],
+      "groups": [
+       [
+        [
+         "nirālambanayogasya",
+         "For nirālambana-yoga"
+        ],
+        [
+         "nirālambanam",
+         "the nirālambana"
+        ],
+        [
+         "āsanam",
+         "āsana"
+        ]
+       ],
+       [
+        [
+         "nirālambatayā",
+         "without support"
+        ],
+        [
+         "dhyānaṃ",
+         "contemplation"
+        ],
+        [
+         "nirālambaḥ",
+         "the supportless [Ātman]"
+        ],
+        [
+         "sadāśivaḥ",
+         "Sadāśiva"
+        ]
+       ]
       ]
      },
      {
       "type": "prose",
-      "key": "translation",
-      "label": "Translation",
+      "key": "literal",
+      "label": "Literal translation",
       "paragraphs": [
        "For nirālambana-yoga there is the nirālambana-āsana; contemplation is without support, and the supportless [Ātman] is Sadāśiva."
       ]
      },
      {
-      "type": "quote",
+      "type": "prose",
+      "key": "literary",
+      "label": "Literary translation",
       "paragraphs": [
-       "The posture for the Nirālambana-Yoga is nirālambana (lit. propless, involving no specific position of hands, feet or other members of the body); meditation should be on the Nirālambana, and the Nirālambana is Sadāśiva, the Unconditioned, the Paramātman."
+       "The posture for the Nirālambana-Yoga is nirālambana (lit. propless, involving no specific position of hands, feet or other members of the body); meditation should be on the Nirālambana, and the Nirālambana is Sadāśiva, the Unconditioned, the Paramātman.",
+       "— English translation, 1978 edition, p. 170"
       ]
      },
      {
-      "type": "prose",
-      "key": "class",
-      "label": "6.3. The Commentary on Verse 24 — the Classification by Deity",
+      "type": "note",
+      "key": "note",
+      "label": "Note",
       "paragraphs": [
+       "This is precisely the classification of āsanas by deity — the one of which the editor wrote that its source is the Śaiva āgamas (see §1.2).",
        "In the text it is carried through completely: 4 + 4 + 4 + 1 + 1 āsanas for five deities, plus a sixth category — the \"supportless\" one, which is not an āsana in the proper sense."
       ]
      }

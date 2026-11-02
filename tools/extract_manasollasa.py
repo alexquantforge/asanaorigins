@@ -884,18 +884,118 @@ LABELS = {
         "iast": "IAST",
         "cyr": "Кириллическая транслитерация",
         "verse": "Стих",
-        "translation": "Перевод",
-        "class": "6.3. Комментарий к стиху 24 — классификация по божествам",
+        "words": "Пословный разбор",
+        "literal": "Буквальный перевод",
+        "literary": "Литературный перевод",
+        "lit_src": "— англ. пер. изд. 1978 г., с. 170",
+        "class": "Классификация по божествам",
+        "note": "Примечание",
     },
     "en": {
         "deva": "Devanāgarī",
         "iast": "IAST",
         "cyr": "Cyrillic transliteration",
         "verse": "Verse",
-        "translation": "Translation",
-        "class": "6.3. The Commentary on Verse 24 — the Classification by Deity",
+        "words": "Word-by-word analysis",
+        "literal": "Literal translation",
+        "literary": "Literary translation",
+        "lit_src": "— English translation, 1978 edition, p. 170",
+        "class": "The Classification by Deity",
+        "note": "Note",
     },
 }
+
+# The word-by-word analysis of §6.2, in the same shape as the other two
+# treatises: each Sanskrit word of the verse and the gloss the volume itself
+# gives it. Every gloss below is a verbatim fragment of the translation printed
+# in §6.2 of the same volume, so the analysis adds no meaning of its own; the
+# check below refuses to build the pages if a gloss is not found there.
+#
+# Three printed words are written together by sandhi and are shown here as the
+# two words they are — the same division the reference itself makes in §6.5
+# (निरालम्बस्सदाशिवः is निरालम्बः + सदाशिवः). No letter is added or removed:
+# the two parts joined give the printed word back, with the sandhi change.
+SANDHI = {
+    "विदुश्शाक्तं": ("विदुः", "शाक्तं"),
+    "निरालम्बनमासनम्": ("निरालम्बनम्", "आसनम्"),
+    "निरालम्बस्सदाशिवः": ("निरालम्बः", "सदाशिवः"),
+}
+
+WORDS = {
+    # verse line -> [(devanāgarī, русский gloss, English gloss), …]
+    0: [("स्वस्तिकं", "Свастика", "Svastika"),
+        ("गोमुखं", "гомукха", "gomukha"),
+        ("पद्मं", "падма", "padma"),
+        ("हंसाख्यं", "хамса", "hamsa"),
+        ("ब्राह्ममासनम्", "бра̄хма-асана", "the brahma-asana")],
+    1: [("नृसिंहं", "Нрисимха", "Nrisimha"),
+        ("गरुडं", "гаруда", "garuda"),
+        ("कूर्मं", "курма", "kurma"),
+        ("नागाख्यं", "нага", "naga"),
+        ("वैष्णवासनम्", "вайшнава-асана", "the vaishnava-asana")],
+    2: [("वीरं", "Вира", "Vira"),
+        ("मयूरं", "маюра", "mayura"),
+        ("वज्राख्यं", "ваджра", "vajra"),
+        ("सिद्धाख्यं", "сиддха", "siddha"),
+        ("रौद्रमासनम्", "раудра-асана", "the raudra-asana")],
+    3: [("योन्यासनं", "Асана йони", "The yoni posture"),
+        ("विदुः", "как знают", "as they know"),
+        ("शाक्तं", "ш́а̄кта", "the shakta one"),
+        ("शैवं", "ш́айва", "the shaiva one"),
+        ("पश्चिमतानकम्", "пашчиматанака", "pashchima-tanaka")],
+    4: [("निरालम्बनयोगस्य", "Для нира̄ламбана-йоги", "For niralambana-yoga"),
+        ("निरालम्बनम्", "нира̄ламбана", "the niralambana"),
+        ("आसनम्", "асана", "asana")],
+    5: [("निरालम्बतया", "без опоры", "without support"),
+        ("ध्यानं", "созерцание", "contemplation"),
+        ("निरालम्बः", "безопорный [Аа̄тман]", "the supportless [Atman]"),
+        ("सदाशिवः", "Сада̄шива", "Sadashiva")],
+}
+
+# which sentence of §6.2 translates which verse line
+LINE_SENTENCE = {0: 0, 1: 1, 2: 2, 3: 3, 4: 4, 5: 4}
+
+
+def verse_tokens(line):
+    """The printed words of a verse line, without the daṇḍa and the number."""
+    text = line.replace("॥", " ").replace("।", " ")
+    text = re.sub(r"[०-९]+", " ", text)
+    return text.split()
+
+
+def check_words(src, lang):
+    """The analysis must be the text itself: every word, and only its words."""
+    for index, entries in WORDS.items():
+        printed = []
+        for token in verse_tokens(src["verse"][index]):
+            printed.extend(SANDHI.get(token, (token,)))
+        mine = []
+        for deva, _ru, _en in entries:
+            mine.extend(SANDHI.get(deva, (deva,)))
+        if mine != printed:
+            raise SystemExit("words of line %d: %s != %s" % (index, mine, printed))
+        sentence = src["trans"][LINE_SENTENCE[index]]
+        for _deva, ru, en in entries:
+            gloss = ru if lang == "ru" else en
+            if gloss not in sentence:
+                raise SystemExit("gloss %r is not in §6.2: %r" % (gloss, sentence))
+
+
+def words_block(lang, lines, src):
+    """The word-by-word analysis of the verse lines the pose is named in."""
+    labels = LABELS[lang]
+    groups, parts = [], []
+    for index in lines:
+        pairs = []
+        for deva, ru, en in WORDS[index]:
+            iast = deva_lib.to_iast(deva)
+            term = iast if lang == "en" else translit.translit(iast)
+            pairs.append([term, en if lang == "en" else ru])
+        groups.append(pairs)
+        parts.append("; ".join("%s - %s" % (t, g) for t, g in pairs) + ".")
+    return {"type": "words", "key": "words", "label": labels["words"],
+            "paragraphs": parts, "groups": groups}
+
 
 # The verse names fifteen postures in four lines: four brāhma, four vaiṣṇava,
 # four raudra, one śākta (yoni), one śaiva (paścima-tānaka), and — the sixth
@@ -1077,7 +1177,7 @@ def pose_source(units, lang):
             if text.startswith(("Это и есть", "This is precisely")):
                 tail = text
                 break
-    return {
+    out = {
         "verse": verse,
         "trans": split_sentences(unwrap(_plain(trans["html"]))),
         "quote": quoted_segments(quote["paragraphs"]),
@@ -1085,38 +1185,54 @@ def pose_source(units, lang):
         "class_tr": split_sentences(unwrap(_plain(class_tr["html"]))),
         "tail": tail,
     }
+    check_words(out, lang)
+    return out
 
 
-def pose_text(lang, group, src):
-    """The blocks of one pose page: the verse, the source's translations, §6.3."""
+def danda(text):
+    """Devanāgarī daṇḍas in a Latin transliteration, as the other volumes
+    print them: «।» and «॥» rather than «|» and «||»."""
+    return text.replace("||", "॥").replace("|", "।")
+
+
+def pose_text(lang, group, src, ref):
+    """The blocks of one pose page, in the order the other treatises use:
+    the verse (Devanāgarī, IAST, Cyrillic), the word-by-word analysis, the
+    literal translation, the literary one, then the classification of §6.3."""
     labels = LABELS[lang]
     lines, tr_i, q_i, cl_i = GROUP_INDEX[group]
     deva = [src["verse"][i] for i in lines]
-    iast = [deva_lib.to_iast(line) for line in deva]
+    iast = [danda(deva_lib.to_iast(line)) for line in deva]
     sections = [{"type": "verse", "key": "deva", "label": labels["deva"],
                  "lines": deva},
                 {"type": "verse", "key": "iast", "label": labels["iast"],
-                 "lines": iast}]
-    if lang == "ru":
-        sections.append({"type": "verse", "key": "cyr", "label": labels["cyr"],
-                         "lines": [translit.translit(line) for line in iast]})
-    blocks = [{"type": "verse_card", "sections": sections}]
+                 "lines": iast},
+                {"type": "verse", "key": "cyr", "label": labels["cyr"],
+                 "lines": [translit.translit(line) for line in iast]}]
+    # the verse the site cites for this pose (the reference prints the number
+    # at the end of the line, not at the end of the pose's clause)
+    blocks = [{"type": "verse_card", "sections": sections,
+               "verses": ref.split(".")[-1]},
+              words_block(lang, lines, src)]
 
-    trans = src["trans"][tr_i]
-    blocks.append({"type": "prose", "key": "translation",
-                   "label": labels["translation"], "paragraphs": [trans]})
+    # the volume's own translation: it renders the verse word by word
+    blocks.append({"type": "prose", "key": "literal", "label": labels["literal"],
+                   "paragraphs": [src["trans"][tr_i]]})
+    # the published translation of 1978, quoted as the volume quotes it
     if q_i < len(src["quote"]):
-        blocks.append({"type": "quote", "paragraphs": [src["quote"][q_i]]})
+        blocks.append({"type": "prose", "key": "literary",
+                       "label": labels["literary"],
+                       "paragraphs": [src["quote"][q_i], labels["lit_src"]]})
     if cl_i is not None and cl_i < len(src["class_deva"]):
         blocks.append({"type": "prose", "key": "class", "label": labels["class"],
-                       "paragraphs": [src["class_deva"][cl_i]]})
-        if cl_i < len(src["class_tr"]):
-            blocks.append({"type": "p", "html": html.escape(src["class_tr"][cl_i])})
-    else:
-        if src["tail"]:
-            tail = split_sentences(unwrap(src["tail"]))[-1]
-            blocks.append({"type": "prose", "key": "class",
-                           "label": labels["class"], "paragraphs": [tail]})
+                       "paragraphs": [src["class_tr"][cl_i]]})
+        # the Sanskrit clause the translation renders, as printed — quoted
+        # after it, the way the reference prints text and translation
+        blocks.append({"type": "deva", "lines": [src["class_deva"][cl_i]]})
+    elif src["tail"]:
+        # the reference's own closing remark about the classification
+        blocks.append({"type": "note", "key": "note", "label": labels["note"],
+                       "paragraphs": split_sentences(unwrap(src["tail"]))})
     return blocks
 
 
@@ -1256,7 +1372,7 @@ def build_lang(lang):
             "gloss": {lang: gloss[1] if lang == "en" else
                       translit.translit(gloss[0])},
             "verses": {lang: ref},
-            "text": {lang: pose_text(lang, group, src)},
+            "text": {lang: pose_text(lang, group, src, ref)},
         })
 
     data = {

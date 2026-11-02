@@ -80,7 +80,7 @@
     }
   };
 
-  const BUILD = "2026-11-02.1";
+  const BUILD = "2026-11-02.3";
   const V = "?v=" + BUILD;
 
   const state = {
@@ -731,6 +731,13 @@
       }
       if (sec.type === "subhead") {
         html += '<h2 class="subhead">' + esc(sec.label) + "</h2>";
+        i += 1;
+        continue;
+      }
+      if (sec.type === "deva") {
+        // a Devanāgarī quotation inside a pose page (e.g. §6.3 of the
+        // Mānasollāsa), rendered exactly as on the treatise page
+        html += renderBlocks([sec]);
         i += 1;
         continue;
       }
