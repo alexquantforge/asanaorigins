@@ -1,6 +1,6 @@
 {
  "id": "manasollasa",
- "chapter": "IX",
+ "chapter": "9",
  "chapterWord": {
   "ru": "улласа",
   "en": "ullāsa"
@@ -10,8 +10,8 @@
   "en": "Mānasollāsa. Āsanas (a vārttika on the Dakṣiṇāmūrti-stotra)"
  },
  "asanasTitle": {
-  "ru": "Āсаны «Ма̄насолла̄сы» (улласа IX, ст. 24–26)",
-  "en": "Āsanas of the Mānasollāsa (ullāsa IX, vv. 24–26)"
+  "ru": "Āсаны «Ма̄насолла̄сы» (улласа 9, ст. 24–26)",
+  "en": "Āsanas of the Mānasollāsa (ullāsa 9, vv. 24–26)"
  },
  "tradition": {
   "ru": "адвайта-веданта · варттика",
@@ -583,7 +583,7 @@
       "level": 1
      },
      {
-      "html": "<strong>Нумерация уллас в рукописях не совпадает с печатной. </strong>Та же улласа, что в изданиях девятая, в рамтекской рукописи седьмая, в джаммуской шестая (§4.4, §4.5). Ссылка вида «улласа IX» — это ссылка <strong>по печатным изданиям</strong>.",
+      "html": "<strong>Нумерация уллас в рукописях не совпадает с печатной. </strong>Та же улласа, что в изданиях девятая, в рамтекской рукописи седьмая, в джаммуской шестая (§4.4, §4.5). Ссылка вида «улласа 9» — это ссылка <strong>по печатным изданиям</strong>.",
       "level": 1
      }
     ]
@@ -1030,7 +1030,7 @@
       "level": 1
      },
      {
-      "html": "Нумерация уллас и стихов совпадает с изданием 2008 г., то есть ссылка IX.24 работает для обоих.",
+      "html": "Нумерация уллас и стихов совпадает с изданием 2008 г., то есть ссылка 9.24 работает для обоих.",
       "level": 1
      }
     ],
@@ -2000,7 +2000,7 @@
       "level": 1
      },
      {
-      "html": "<strong>The numbering of the ullāsas in the manuscripts does not match the printed one.</strong> The ullāsa that is the ninth in the editions is the seventh in the Ramtek manuscript and the sixth in the Jammu manuscript (§4.4, §4.5). A reference such as \"ullāsa IX\" is a reference <strong>to the printed editions</strong>.",
+      "html": "<strong>The numbering of the ullāsas in the manuscripts does not match the printed one.</strong> The ullāsa that is the ninth in the editions is the seventh in the Ramtek manuscript and the sixth in the Jammu manuscript (§4.4, §4.5). A reference such as \"ullāsa 9\" is a reference <strong>to the printed editions</strong>.",
       "level": 1
      }
     ]
@@ -2439,7 +2439,7 @@
       "level": 1
      },
      {
-      "html": "The numbering of ullāsas and verses coincides with that of the 2008 edition, so the reference IX.24 works for both.",
+      "html": "The numbering of ullāsas and verses coincides with that of the 2008 edition, so the reference 9.24 works for both.",
       "level": 1
      }
     ],
@@ -3690,8 +3690,8 @@
     "en": "Brāhma āsana"
    },
    "verses": {
-    "ru": "IX.24",
-    "en": "IX.24"
+    "ru": "9.24",
+    "en": "9.24"
    },
    "text": {
     "ru": [
@@ -3815,8 +3815,8 @@
     "en": "Brāhma āsana"
    },
    "verses": {
-    "ru": "IX.24",
-    "en": "IX.24"
+    "ru": "9.24",
+    "en": "9.24"
    },
    "text": {
     "ru": [
@@ -3940,8 +3940,8 @@
     "en": "Brāhma āsana"
    },
    "verses": {
-    "ru": "IX.24",
-    "en": "IX.24"
+    "ru": "9.24",
+    "en": "9.24"
    },
    "text": {
     "ru": [
@@ -4065,8 +4065,8 @@
     "en": "Brāhma āsana"
    },
    "verses": {
-    "ru": "IX.24",
-    "en": "IX.24"
+    "ru": "9.24",
+    "en": "9.24"
    },
    "text": {
     "ru": [
@@ -4190,8 +4190,8 @@
     "en": "Vaiṣṇava āsana"
    },
    "verses": {
-    "ru": "IX.25",
-    "en": "IX.25"
+    "ru": "9.25",
+    "en": "9.25"
    },
    "text": {
     "ru": [
@@ -4315,8 +4315,8 @@
     "en": "Vaiṣṇava āsana"
    },
    "verses": {
-    "ru": "IX.25",
-    "en": "IX.25"
+    "ru": "9.25",
+    "en": "9.25"
    },
    "text": {
     "ru": [
@@ -4440,8 +4440,8 @@
     "en": "Vaiṣṇava āsana"
    },
    "verses": {
-    "ru": "IX.25",
-    "en": "IX.25"
+    "ru": "9.25",
+    "en": "9.25"
    },
    "text": {
     "ru": [
@@ -4565,8 +4565,8 @@
     "en": "Vaiṣṇava āsana"
    },
    "verses": {
-    "ru": "IX.25",
-    "en": "IX.25"
+    "ru": "9.25",
+    "en": "9.25"
    },
    "text": {
     "ru": [
@@ -4690,8 +4690,8 @@
     "en": "Raudra āsana"
    },
    "verses": {
-    "ru": "IX.25",
-    "en": "IX.25"
+    "ru": "9.25",
+    "en": "9.25"
    },
    "text": {
     "ru": [
@@ -4815,8 +4815,8 @@
     "en": "Raudra āsana"
    },
    "verses": {
-    "ru": "IX.25",
-    "en": "IX.25"
+    "ru": "9.25",
+    "en": "9.25"
    },
    "text": {
     "ru": [
@@ -4940,8 +4940,8 @@
     "en": "Raudra āsana"
    },
    "verses": {
-    "ru": "IX.25",
-    "en": "IX.25"
+    "ru": "9.25",
+    "en": "9.25"
    },
    "text": {
     "ru": [
@@ -5065,8 +5065,8 @@
     "en": "Raudra āsana"
    },
    "verses": {
-    "ru": "IX.25",
-    "en": "IX.25"
+    "ru": "9.25",
+    "en": "9.25"
    },
    "text": {
     "ru": [
@@ -5190,8 +5190,8 @@
     "en": "Śākta āsana"
    },
    "verses": {
-    "ru": "IX.25",
-    "en": "IX.25"
+    "ru": "9.25",
+    "en": "9.25"
    },
    "text": {
     "ru": [
@@ -5315,8 +5315,8 @@
     "en": "Śaiva āsana"
    },
    "verses": {
-    "ru": "IX.25",
-    "en": "IX.25"
+    "ru": "9.25",
+    "en": "9.25"
    },
    "text": {
     "ru": [
@@ -5440,8 +5440,8 @@
     "en": "Nirālambana āsana"
    },
    "verses": {
-    "ru": "IX.26",
-    "en": "IX.26"
+    "ru": "9.26",
+    "en": "9.26"
    },
    "text": {
     "ru": [

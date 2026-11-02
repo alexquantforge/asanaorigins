@@ -33,6 +33,7 @@ import pymupdf
 
 import deva as deva_lib
 import iast as iast_lib
+import numeral
 import translit
 
 import sanskrit
@@ -1318,6 +1319,8 @@ def main():
 if __name__ == "__main__":
     out = sys.argv[1] if len(sys.argv) > 1 else str(SRC.parent / "data" / "manasollasa.json")
     data, n_ru, n_en = main()
+    # chapter and ullāsa numbers are Arabic all over the site (tools/numeral.py)
+    data = numeral.fix_document(data)
     with open(out, "w") as fh:
         json.dump(data, fh, ensure_ascii=False, indent=1)
     print("units:", n_ru, "ru /", n_en, "en")

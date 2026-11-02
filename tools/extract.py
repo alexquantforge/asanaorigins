@@ -14,6 +14,7 @@ from pathlib import Path
 
 import pymupdf
 
+import numeral
 import sanskrit
 import translit
 
@@ -491,6 +492,8 @@ def coverage(doc, treat):
 
 if __name__ == "__main__":
     out, docs, raw = main()
+    # chapter numbers are Arabic all over the site (see tools/numeral.py)
+    out = numeral.fix_document(out)
     with open(sys.argv[1], "w") as fh:
         json.dump(out, fh, ensure_ascii=False, indent=1)
     for lang in ("ru", "en"):

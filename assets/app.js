@@ -12,7 +12,7 @@
       skip: "К содержанию",
       treatise: "Трактат",
       asanas: "Āсаны",
-      chapter: "Глава XXXI",
+      chapter: "Глава 31",
       sections: "Разделы главы",
       filter: "Найти āсану",
       asana: "Āсана",
@@ -47,7 +47,7 @@
       skip: "Skip to content",
       treatise: "Treatise",
       asanas: "Āsanas",
-      chapter: "Chapter XXXI",
+      chapter: "Chapter 31",
       sections: "Chapter sections",
       filter: "Find a pose",
       asana: "Āsana",
@@ -80,7 +80,7 @@
     }
   };
 
-  const BUILD = "2026-11-01.9";
+  const BUILD = "2026-11-02.1";
   const V = "?v=" + BUILD;
 
   const state = {
