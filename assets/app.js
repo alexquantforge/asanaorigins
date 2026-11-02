@@ -42,6 +42,8 @@
       datingClose: "Свернуть",
       datingSource: "Источник датировки",
       verseOwn: "здесь названа эта асана",
+      treatises: "Трактаты",
+      allAsanas: "Все āсаны",
       build: "версия"
     },
     en: {
@@ -78,11 +80,13 @@
       datingClose: "Collapse",
       datingSource: "Source of the dating",
       verseOwn: "this pose is named here",
+      treatises: "Treatises",
+      allAsanas: "All āsanas",
       build: "build"
     }
   };
 
-  const BUILD = "2026-11-02.8";
+  const BUILD = "2026-11-02.9";
   const V = "?v=" + BUILD;
 
   const state = {
@@ -92,10 +96,82 @@
     filter: ""
   };
 
+  /* ---------------------------------------------------------- page addresses
+
+     Every route is a real file on GitHub Pages: /asana/padmasana/,
+     /traktat/manasollasa/, and the same under /en/. tools/prerender.js writes
+     those files and marks each page with data-static, data-route, data-base and
+     data-treatise; the same script still answers old hash links (#/pose/…),
+     which keep working wherever they were already shared.
+  */
+  const STATIC = document.body.dataset.static === "1";
+  const BASE = document.body.dataset.base || "";        // prefix back to the site root
+  const DECLARED = document.body.dataset.route || "";   // the route this file is
+
+  // На статической странице язык задан самой страницей (<html lang>), а не
+  // памятью прошлой сессии: иначе английская страница открылась бы по-русски,
+  // пока посетитель не переключит язык вручную.
+  if (STATIC) {
+    state.lang = document.documentElement.lang === "en" ? "en" : "ru";
+  }
+
+  const SECTION_SLUGS = {
+    chapter: { ru: "vstuplenie", en: "intro" },
+    appendix: { ru: "prilozhenie", en: "appendix" },
+    notes: { ru: "primechaniya", en: "notes" }
+  };
+  const SUB_VIEWS = {
+    vstuplenie: "chapter", intro: "chapter",
+    prilozhenie: "appendix", appendix: "appendix",
+    primechaniya: "notes", notes: "notes"
+  };
+
   let site = null;
   let treatises = [];
   let activeTreatise = null;
   let lastPoseKey = null;
+
+  /* ------------------------------------------------ addresses of the routes */
+
+  function pagePath(view, key, lang, treatiseId) {
+    const prefix = lang === "en" ? "en/" : "";
+    if (view === "home") return prefix;
+    if (view === "pose") return prefix + "asana/" + key + "/";
+    const id = treatiseId || (activeTreatise && activeTreatise.id) || "";
+    if (view === "about") return prefix + "traktat/" + id + "/";
+    const slug = SECTION_SLUGS[view];
+    return prefix + "traktat/" + id + "/" + (slug ? slug[lang === "en" ? "en" : "ru"] : "") + "/";
+  }
+
+  // Where a link to that page points from the page we are on: a real relative
+  // address on the prerendered site, a hash in the old single-page mode.
+  function url(view, key, lang, treatiseId) {
+    const lng = lang || state.lang;
+    if (!STATIC) {
+      if (view === "home") return "#/";
+      if (view === "pose") return "#/pose/" + key;
+      return "#/" + view;
+    }
+    return BASE + pagePath(view, key, lng, treatiseId);
+  }
+
+  // Маршрут словами — тот же, что лежит в data-route статической страницы.
+  // Сборщик страниц ждёт, пока он появится: так видно, что отрисована именно
+  // эта страница, а не та, что осталась в шаблоне от прошлой сборки.
+  function routeString(route) {
+    if (route.view === "home") return "home";
+    if (route.view === "pose") return "pose/" + route.key;
+    const id = route.treatise || (activeTreatise && activeTreatise.id) || "";
+    const slug = SECTION_SLUGS[route.view];
+    return "traktat/" + id + (slug ? "/" + slug[state.lang === "en" ? "en" : "ru"] : "");
+  }
+
+  // The page we are on, written the way url() writes it.
+  function herePath() {
+    const route = parseRoute();
+    return pagePath(route.view, route.key, state.lang,
+                    route.treatise || (activeTreatise && activeTreatise.id));
+  }
 
   const $ = (sel, root) => (root || document).querySelector(sel);
   const $$ = (sel, root) => Array.from((root || document).querySelectorAll(sel));
@@ -174,6 +250,12 @@
 
   /* ------------------------------------------------------------------ load */
 
+  // Файлы (данные, PDF источника) лежат в корне сайта, а страница может стоять
+  // на три уровня глубже — тогда к адресу приписывается data-base.
+  function asset(href) {
+    return href && STATIC && !/^(https?:|data:|\/|#)/.test(href) ? BASE + href : href;
+  }
+
   async function boot() {
     document.documentElement.setAttribute("data-theme", state.theme);
     applyStaticText();
@@ -181,7 +263,7 @@
 
     let index;
     try {
-      index = await fetch("data/treatises.json" + V).then((r) => {
+      index = await fetch(asset("data/treatises.json") + V).then((r) => {
         if (!r.ok) throw new Error(r.status);
         return r.json();
       });
@@ -193,7 +275,7 @@
     site = index.site || null;
     const loaded = await Promise.all(
       index.treatises.map(async (meta) => {
-        const data = await fetch(meta.file + V).then((r) => r.json());
+        const data = await fetch(asset(meta.file) + V).then((r) => r.json());
         // registry metadata (short title, edition, PDF) wins over the document's
         // own long title; the long title stays available as docTitle
         return Object.assign({}, data, meta, {
@@ -210,6 +292,12 @@
     );
     treatises = loaded;
 
+    // a prerendered treatise page says which treatise it is; that wins over the
+    // one the visitor last looked at
+    if (DECLARED.startsWith("traktat/")) {
+      state.treatiseId = DECLARED.split("/")[1];
+      localStorage.setItem("ao.treatise", state.treatiseId);
+    }
     if (!state.treatiseId || !treatises.some((x) => x.id === state.treatiseId)) {
       state.treatiseId = treatises[0] ? treatises[0].id : null;
     }
@@ -230,12 +318,7 @@
     buildPoseList();
     wireEvents();
 
-    if (!location.hash) {
-      const first = activeTreatise && activeTreatise.poses[0];
-      location.replace(first ? "#/pose/" + first.key : "#/about");
-    } else {
-      render();
-    }
+    render();
   }
 
   /* ----------------------------------------------------------- static text */
@@ -282,7 +365,7 @@
   function updateBrand() {
     const first = activeTreatise && activeTreatise.poses[0];
     const brand = $(".brand");
-    if (brand) brand.setAttribute("href", first ? "#/pose/" + first.key : "#/about");
+    if (brand) brand.setAttribute("href", url("home"));
   }
 
   function updateTreatiseNote() {
@@ -328,10 +411,10 @@
 
     // a treatise without a chapter page of its own gets no link to one
     const prologue = activeTreatise.prologue[state.lang] || [];
-    const items = prologue.length ? [["#/chapter", chapterNavLabel()]] : [];
-    if (appendix.length) items.push(["#/appendix", appendixLabel.split(".")[0]]);
-    if (notes.length) items.push(["#/notes", notesTitle]);
-    items.push(["#/about", t("treatiseAbout")]);
+    const items = prologue.length ? [[url("chapter"), chapterNavLabel()]] : [];
+    if (appendix.length) items.push([url("appendix"), appendixLabel.split(".")[0]]);
+    if (notes.length) items.push([url("notes"), notesTitle]);
+    items.push([url("about"), t("treatiseAbout")]);
     $("#chapter-nav").innerHTML = applyMarks(
       items
         .map(([href, label]) => '<li><a href="' + href + '"><span>' + esc(label) +
@@ -391,10 +474,10 @@
     list.innerHTML = applyMarks(shown.length
       ? shown
           .map((p) => {
-            const active = isCurrent("#/pose/" + p.key);
+            const active = isCurrent(url("pose", p.key));
             return (
               '<li' + (p.inTreatise === false ? ' class="is-other"' : "") +
-              '><a href="#/pose/' + p.key + '"' +
+              '><a href="' + url("pose", p.key) + '"' +
               (active ? ' aria-current="page"' : "") + ">" +
               '<span class="pose-num">' + String(p.number).padStart(2, "0") + "</span>" +
               '<span class="pose-name"><span class="ru">' + esc(p.name) + "</span>" +
@@ -410,31 +493,43 @@
   }
 
   function isCurrent(href) {
-    return location.hash === href;
+    return STATIC ? href === BASE + herePath() : location.hash === href;
   }
 
   function markCurrent() {
     $$(".pose-list a, #chapter-nav a").forEach((a) => {
-      if (a.getAttribute("href") === location.hash) a.setAttribute("aria-current", "page");
+      if (isCurrent(a.getAttribute("href"))) a.setAttribute("aria-current", "page");
       else a.removeAttribute("aria-current");
     });
   }
 
   /* --------------------------------------------------------------- routing */
 
-  function parseRoute() {
-    const hash = location.hash || "#/";
-    const parts = hash.replace(/^#\/?/, "").split("/");
+  function declaredRoute() {
+    const parts = DECLARED.split("/").filter(Boolean);
     if (parts[0] === "pose" && parts[1]) return { view: "pose", key: parts[1] };
-    if (["chapter", "appendix", "notes", "about"].includes(parts[0])) {
-      return { view: parts[0] };
+    if (parts[0] === "traktat" && parts[1]) {
+      return { view: SUB_VIEWS[parts[2]] || "about", treatise: parts[1] };
     }
-    return { view: "pose", key: activeTreatise && activeTreatise.poses[0] ? activeTreatise.poses[0].key : null };
+    return { view: "home" };
+  }
+
+  function parseRoute() {
+    const hash = location.hash || "";
+    if (hash && hash !== "#/") {
+      const parts = hash.replace(/^#\/?/, "").split("/");
+      if (parts[0] === "pose" && parts[1]) return { view: "pose", key: parts[1] };
+      if (["chapter", "appendix", "notes", "about"].includes(parts[0])) {
+        return { view: parts[0] };
+      }
+    }
+    return declaredRoute();
   }
 
   function render() {
     const route = parseRoute();
     const view = $("#view");
+    verseSeq = 0;
     view.innerHTML = "";
 
     if (!activeTreatise) {
@@ -453,7 +548,8 @@
     }
 
     let html = "";
-    if (route.view === "pose") html = renderPose(route.key);
+    if (route.view === "home") html = renderHome();
+    else if (route.view === "pose") html = renderPose(route.key);
     else if (route.view === "chapter") html = renderChapter();
     else if (route.view === "appendix") html = renderAppendix();
     else if (route.view === "notes") html = renderNotes();
@@ -464,6 +560,7 @@
     void view.offsetWidth;
     view.style.animation = "";
 
+    document.documentElement.dataset.rendered = routeString(route);
     markCurrent();
     wireDating(view);
     wireVerseTabs(view);
@@ -473,18 +570,59 @@
 
   function pageTitle(route) {
     const base = site && site.title ? tx(site.title) : "Āsana: Origins";
+    if (route.view === "home") return base + " — " + (site && site.tagline ? tx(site.tagline) : base);
     if (route.view === "pose") {
       const found = activeTreatise.poses.find((p) => p.key === route.key);
       return found ? tx(found.name) + " — " + base : base;
     }
-    if (route.view === "about") return t("about") + " — " + base;
-    if (route.view === "chapter") return t("chapterLink") + " — " + base;
-    if (route.view === "appendix") return t("appendix") + " — " + base;
-    if (route.view === "notes") return t("notes") + " — " + base;
+    const tr = activeTreatise ? tx(activeTreatise.title) : "";
+    const titled = (label) => [label, tr, base].filter(Boolean).join(" — ");
+    if (route.view === "about") return titled(t("about"));
+    if (route.view === "chapter") return titled(t("chapterLink"));
+    if (route.view === "appendix") return titled(t("appendix"));
+    if (route.view === "notes") return titled(t("notes"));
     return base;
   }
 
   /* ------------------------------------------------------------ rendering */
+
+  function renderHome() {
+    const base = site && site.title ? tx(site.title) : "Āsana: Origins";
+    const all = [];
+    treatises.forEach((tr) => (tr.poses || []).forEach((p) => all.push(p)));
+
+    let html = '<article class="view-inner">';
+    html += '<header class="page-head home-head"><h1>' + esc(base) + "</h1>";
+    if (site && site.tagline) {
+      html += '<p class="page-meta">' + esc(tx(site.tagline)) + "</p>";
+    }
+    html += '</header>';
+
+    html += '<section class="home-block">';
+    html += '<h2 class="about-h2">' + esc(t("treatises")) + "</h2>";
+    treatises.forEach((tr) => {
+      const bits = [];
+      if (tr.tradition) bits.push(esc(tx(tr.tradition)));
+      if (tr.edition) bits.push(esc(tx(tr.edition)));
+      html += '<section class="home-treatise">';
+      html += '<h3 class="about-h3"><a href="' + url("about", null, null, tr.id) + '">' +
+        esc(tx(tr.title)) + "</a></h3>";
+      if (bits.length) html += '<p class="about-meta">' + bits.join(" · ") + "</p>";
+      html += '<ul class="home-poses">';
+      (tr.poses || []).forEach((pose) => {
+        html += '<li><a href="' + url("pose", pose.key) + '">' + esc(tx(pose.name)) +
+          "</a><span>" + esc(tx(pose.verses)) + "</span></li>";
+      });
+      html += "</ul></section>";
+    });
+    html += "</section>";
+
+    const unique = [];
+    all.forEach((p) => { if (!unique.includes(p.key)) unique.push(p.key); });
+    html += '<p class="home-total">' + esc(t("allAsanas")) + " — " + unique.length + "</p>";
+    html += "</article>";
+    return html;
+  }
 
   function renderPose(key) {
     const occurrences = [];
@@ -532,7 +670,8 @@
         esc(tx(tr.chapterWord) || (state.lang === "ru" ? "глава" : "chapter")) +
         (tr.chapter ? " " + esc(tr.chapter) : "") + "</span>";
       if (multi) {
-        html += '<a class="link" href="#/about">' + esc(t("toAbout")) + "</a>";
+        html += '<a class="link" href="' + url("about", null, null, tr.id) + '">' +
+          esc(t("toAbout")) + "</a>";
       }
       html += "</div>";
       html += renderDating(tr);
@@ -692,7 +831,7 @@
       html += '<div class="dating-full">';
       html += '<h3 class="dating-full-title">' + esc(full.title) + "</h3>";
       html += renderBlocks(full.blocks);
-      html += '<p class="dating-full-link"><a href="#/about">' +
+      html += '<p class="dating-full-link"><a href="' + url("about", null, null, tr.id) + '">' +
         esc(t("treatiseAbout")) + " →</a></p>";
       html += "</div></details>";
     }
@@ -808,11 +947,17 @@
     return html;
   }
 
+  // Идентификаторы вкладок считаются, а не берутся случайными: иначе две
+  // сборки одной и той же страницы различались бы, и `node tools/prerender.js
+  // --check` не мог бы сказать, изменилось ли что-нибудь на самом деле.
+  let verseSeq = 0;
+
   function renderVerses(run) {
     let tabs = "";
     let panels = "";
     run.forEach((sec, idx) => {
-      const id = "verse-" + Math.random().toString(36).slice(2, 8) + "-" + idx;
+      verseSeq += 1;
+      const id = "verse-" + (sec.key || "v") + "-" + verseSeq + "-" + idx;
       const selected = idx === 0;
       tabs +=
         '<button type="button" role="tab" id="tab-' + id + '" aria-controls="' + id +
@@ -848,11 +993,11 @@
     const next = poses[here + 1];
     let html = '<nav class="pager" aria-label="' + esc(t("asanas")) + '">';
     html += prev
-      ? '<a class="prev" href="#/pose/' + prev.key + '"><span class="dir">' +
+      ? '<a class="prev" href="' + url("pose", prev.key) + '"><span class="dir">' +
         esc(t("prev")) + '</span><span class="to">' + esc(prev.name) + "</span></a>"
       : "<span></span>";
     html += next
-      ? '<a class="next" href="#/pose/' + next.key + '"><span class="dir">' +
+      ? '<a class="next" href="' + url("pose", next.key) + '"><span class="dir">' +
         esc(t("next")) + '</span><span class="to">' + esc(next.name) + "</span></a>"
       : "";
     html += "</nav>";
@@ -860,7 +1005,7 @@
   }
 
   function renderColophon(tr) {
-    const pdfHref = tr.pdf ? encodeURI(tr.pdf[state.lang] || tr.pdf.ru) : null;
+    const pdfHref = tr.pdf ? asset(encodeURI(tr.pdf[state.lang] || tr.pdf.ru)) : null;
     let html = '<footer class="colophon">';
     html += "<p><strong>" + esc(tx(tr.title)) + "</strong>" +
       (tr.chapter ? " · " + esc(tx(tr.chapterWord) || (state.lang === "ru" ? "глава" : "chapter")) +
@@ -953,14 +1098,15 @@
     }
 
     const pdfHref = activeTreatise.pdf
-      ? encodeURI(activeTreatise.pdf[state.lang] || activeTreatise.pdf.ru)
+      ? asset(encodeURI(activeTreatise.pdf[state.lang] || activeTreatise.pdf.ru))
       : null;
     if (pdfHref) {
       html += '<p class="about-p"><a class="back-link" href="' + esc(pdfHref) +
         '" target="_blank" rel="noopener">' + esc(t("pdf")) + " ↗</a></p>";
     }
-    if (activeTreatise.chapter) {
-      html += '<p class="about-p"><a class="back-link" href="#/chapter">' +
+    // ссылка на вступление — только если оно есть: у «Ма̄насолла̄сы» его нет
+    if (activeTreatise.chapter && (activeTreatise.prologue[state.lang] || []).length) {
+      html += '<p class="about-p"><a class="back-link" href="' + url("chapter") + '">' +
         esc(chapterTitle()) + " →</a></p>";
     }
     return '<article class="view-inner">' + html + "</article>";
@@ -1064,6 +1210,12 @@
     $("#treatise-select").addEventListener("change", (e) => {
       state.treatiseId = e.target.value;
       localStorage.setItem("ao.treatise", state.treatiseId);
+      if (STATIC) {
+        // one treatise is one set of pages, so choosing another one is a
+        // normal page load, not a repaint
+        location.href = url("about", null, null, state.treatiseId);
+        return;
+      }
       activeTreatise = treatises.find((x) => x.id === state.treatiseId) || treatises[0];
       buildPoseList();
       buildChapterNav();
@@ -1090,6 +1242,12 @@
 
     $$(".lang-switch button").forEach((btn) => {
       btn.addEventListener("click", () => {
+        if (STATIC && btn.dataset.lang !== state.lang) {
+          const route = parseRoute();
+          location.href = url(route.view, route.key, btn.dataset.lang,
+                              route.treatise || (activeTreatise && activeTreatise.id));
+          return;
+        }
         state.lang = btn.dataset.lang;
         localStorage.setItem("ao.lang", state.lang);
         applyStaticText();
@@ -1135,7 +1293,7 @@
       const nextIdx = (e.key === "j" || e.key === "ArrowDown") ? idx + 1 : idx - 1;
       if (nextIdx < 0 || nextIdx >= poses.length) return;
       e.preventDefault();
-      location.hash = "#/pose/" + poses[nextIdx].key;
+      location.href = url("pose", poses[nextIdx].key);
     });
 
     window.addEventListener("resize", () => {

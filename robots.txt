@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# поисковые системы и ИИ-краулеры читают те же страницы, что и люди
+Sitemap: https://alexquantforge.github.io/asanaorigins/sitemap.xml

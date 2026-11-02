@@ -1,0 +1,12 @@
+{
+  "name": "asanaorigins",
+  "private": true,
+  "description": "Сборка статических страниц сайта «Āсаны: истоки» (см. tools/prerender.js)",
+  "scripts": {
+    "build": "node tools/prerender.js",
+    "check": "node tools/prerender.js --check"
+  },
+  "devDependencies": {
+    "jsdom": "^27.0.0"
+  }
+}

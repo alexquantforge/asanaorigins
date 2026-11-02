@@ -687,6 +687,54 @@ h1.pose-title {
 .words-verse + .words { border-top: 0; }
 
 
+/* ---------------------------------------------------------------- home --- */
+
+.home-head { margin-bottom: 26px; }
+
+.home-block { margin: 0 0 8px; }
+
+.home-treatise { margin: 0 0 30px; }
+
+.home-treatise .about-h3 { margin: 0 0 6px; }
+.home-treatise .about-h3 a { color: var(--ink); text-decoration: none; border-bottom: 1px solid transparent; }
+.home-treatise .about-h3 a:hover { color: var(--accent); border-bottom-color: var(--accent); }
+
+.home-poses {
+  list-style: none;
+  margin: 12px 0 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 8px;
+}
+
+.home-poses li {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 6px;
+  padding: 5px 10px 6px;
+  border: 1px solid var(--rule);
+  border-radius: 999px;
+  font-size: .92rem;
+  line-height: 1.2;
+  background: var(--panel-2);
+}
+.home-poses li a { color: var(--ink); text-decoration: none; }
+.home-poses li a:hover { color: var(--accent); }
+.home-poses li span {
+  font-size: .68rem;
+  letter-spacing: .06em;
+  color: var(--muted);
+}
+
+.home-total {
+  margin: 4px 0 0;
+  font-size: .74rem;
+  letter-spacing: .16em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
 /* --------------------------------------------------------------- dating --- */
 
 .dating {
