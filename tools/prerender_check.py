@@ -68,6 +68,11 @@ def check(page):
     length = len(text_of(html))
     need(length > 1200, "текста в HTML всего %d символов" % length)
 
+    # Пустой абзац — след блока, который рендер не понял (так статья о
+    # датировке теряла пословный разбор и литературный перевод).
+    empty_p = len(re.findall(r'<p class="about-p">\s*</p>', html))
+    need(empty_p == 0, "пустых абзацев: %d" % empty_p)
+
     # Пословный разбор не должен рассыпа́ться на буквы: <dt>u</dt><dd>t</dd>
     # вместо <dt>uttānau</dt><dd>turned soles upward</dd>. Так бывает, когда
     # список пар принимают за список групп пар.

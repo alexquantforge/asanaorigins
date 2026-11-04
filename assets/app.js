@@ -86,7 +86,7 @@
     }
   };
 
-  const BUILD = "2026-11-02.14";
+  const BUILD = "2026-11-02.15";
   const V = "?v=" + BUILD;
 
   const state = {
@@ -721,6 +721,53 @@
     return flat ? [raw] : raw;
   }
 
+  // Разбор по словам. Один и тот же код для страницы асаны и для статьи о
+  // датировке: раньше статья о датировке шла через renderBlocks(), где этого
+  // типа не было, и разбор с литературным переводом молча выпадали, оставляя
+  // пустые абзацы.
+  function renderWordsBlock(sec) {
+    let html = '<section class="section">';
+    if (sec.label) html += '<h3 class="section-label"><span>' + esc(sec.label) + "</span></h3>";
+    const groups = wordGroups(sec);
+    if (!groups.length) {
+      (sec.paragraphs || []).forEach((p) => {
+        html += '<p class="about-p">' + esc(p) + "</p>";
+      });
+    }
+    const titles = sec.titles || [];
+    groups.forEach((pairs, gi) => {
+      // a passage quoted in full keeps the verses apart in the analysis too
+      if (titles[gi]) {
+        html += '<p class="words-verse">' + esc(titles[gi]) + "</p>";
+      }
+      html += '<dl class="words">';
+      pairs.forEach((pair) => {
+        const term = pair[0] || "";
+        const gloss = pair[1] || "";
+        if (!term) {
+          html += '<dd class="wide">' + esc(gloss) + "</dd>";
+        } else {
+          html += "<dt>" + esc(term) + "</dt><dd>" + esc(gloss) + "</dd>";
+        }
+      });
+      html += "</dl>";
+    });
+    return html + "</section>";
+  }
+
+  function renderNoteBlock(sec) {
+    return '<aside class="note">' +
+      (sec.paragraphs || []).map((p) => "<p>" + esc(p) + "</p>").join("") +
+      "</aside>";
+  }
+
+  function renderProseBlock(sec) {
+    let html = '<section class="section prose-' + esc(sec.key || "") + '">';
+    if (sec.label) html += '<h3 class="section-label"><span>' + esc(sec.label) + "</span></h3>";
+    return html + (sec.paragraphs || []).map((p) => "<p>" + esc(p) + "</p>").join("") +
+      "</section>";
+  }
+
   function renderTable(b) {
     const rows = b.rows || [];
     if (!rows.length) return "";
@@ -791,6 +838,12 @@
             (b.lines || []).map((line) => "<span>" + esc(line) + "</span>").join("") + "</p>";
         case "code":
           return '<pre class="doc-code"><code>' + esc(b.text || "") + "</code></pre>";
+        case "words":
+          return renderWordsBlock(b);
+        case "note":
+          return renderNoteBlock(b);
+        case "prose":
+          return renderProseBlock(b);
         case "p":
           return '<p class="about-p">' + blockBody(b) + "</p>";
         default:
@@ -894,52 +947,17 @@
         continue;
       }
       if (sec.type === "words") {
-        html += '<section class="section">';
-        if (sec.label) html += '<h3 class="section-label"><span>' + esc(sec.label) + "</span></h3>";
-        const groups = wordGroups(sec);
-        if (!groups.length) {
-          (sec.paragraphs || []).forEach((p) => {
-            html += '<p class="about-p">' + esc(p) + "</p>";
-          });
-        }
-        const titles = sec.titles || [];
-        groups.forEach((pairs, gi) => {
-          // a passage quoted in full keeps the verses apart in the analysis too
-          if (titles[gi]) {
-            html += '<p class="words-verse">' + esc(titles[gi]) + "</p>";
-          }
-          html += '<dl class="words">';
-          pairs.forEach((pair) => {
-            const term = pair[0] || "";
-            const gloss = pair[1] || "";
-            if (!term) {
-              html += '<dd class="wide">' + esc(gloss) + "</dd>";
-            } else {
-              html += "<dt>" + esc(term) + "</dt><dd>" + esc(gloss) + "</dd>";
-            }
-          });
-          html += "</dl>";
-        });
-        html += "</section>";
+        html += renderWordsBlock(sec);
         i += 1;
         continue;
       }
       if (sec.type === "note") {
-        html += '<aside class="note">';
-        (sec.paragraphs || []).forEach((p) => {
-          html += "<p>" + esc(p) + "</p>";
-        });
-        html += "</aside>";
+        html += renderNoteBlock(sec);
         i += 1;
         continue;
       }
       if (sec.type === "prose") {
-        html += '<section class="section prose-' + esc(sec.key || "") + '">';
-        if (sec.label) html += '<h3 class="section-label"><span>' + esc(sec.label) + "</span></h3>";
-        (sec.paragraphs || []).forEach((p) => {
-          html += "<p>" + esc(p) + "</p>";
-        });
-        html += "</section>";
+        html += renderProseBlock(sec);
         i += 1;
         continue;
       }
