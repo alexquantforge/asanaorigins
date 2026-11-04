@@ -599,8 +599,10 @@ def words_block(label: str, text: str) -> dict:
         left = " ".join(t + " " + g for t, g in groups)
         if words_of(left) != words_of(text):
             raise ValueError("пословный разбор не совпал с текстом издания: " + text[:80])
+        # та же форма, что у остальных трактатов: список групп, а в группе —
+        # пары «слово → значение». Разбор одного стиха — одна группа.
         if len(groups) >= 2:
-            block["groups"] = groups
+            block["groups"] = [groups]
     return block
 
 

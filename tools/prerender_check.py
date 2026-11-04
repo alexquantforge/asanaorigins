@@ -68,6 +68,16 @@ def check(page):
     length = len(text_of(html))
     need(length > 1200, "текста в HTML всего %d символов" % length)
 
+    # Пословный разбор не должен рассыпа́ться на буквы: <dt>u</dt><dd>t</dd>
+    # вместо <dt>uttānau</dt><dd>turned soles upward</dd>. Так бывает, когда
+    # список пар принимают за список групп пар.
+    for dl in re.findall(r'<dl class="words">(.*?)</dl>', html, re.S):
+        terms = re.findall(r"<dt>(.*?)</dt>", dl, re.S)
+        if len(terms) >= 6 and all(len(t) == 1 for t in terms):
+            problems.append("%s: пословный разбор разбит на буквы (%s)"
+                            % (where, "".join(terms)[:20]))
+            break
+
     # ссылки внутри сайта должны вести на существующий файл
     base = page.parent
     for href in re.findall(r'href="([^"#][^"]*)"', html):

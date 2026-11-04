@@ -86,7 +86,7 @@
     }
   };
 
-  const BUILD = "2026-11-02.13";
+  const BUILD = "2026-11-02.14";
   const V = "?v=" + BUILD;
 
   const state = {
@@ -709,6 +709,18 @@
     return cell == null ? "" : String(cell);
   }
 
+  // Пословный разбор приходит в двух формах: список групп, где группа — это
+  // список пар «слово → значение» (так у большинства трактатов), и просто
+  // список пар (так записан Ш́āрн̇гадхара-паддхати). Раньше вторая форма
+  // принималась за список групп, и разбор рассыпа́лся на отдельные буквы:
+  // «uttānau» превращалось в d t → u, d d → t и так далее.
+  function wordGroups(sec) {
+    const raw = sec.groups || (sec.pairs ? [sec.pairs] : []);
+    if (!raw.length) return [];
+    const flat = raw.every((g) => Array.isArray(g) && typeof g[0] === "string");
+    return flat ? [raw] : raw;
+  }
+
   function renderTable(b) {
     const rows = b.rows || [];
     if (!rows.length) return "";
@@ -884,7 +896,7 @@
       if (sec.type === "words") {
         html += '<section class="section">';
         if (sec.label) html += '<h3 class="section-label"><span>' + esc(sec.label) + "</span></h3>";
-        const groups = sec.groups || (sec.pairs ? [sec.pairs] : []);
+        const groups = wordGroups(sec);
         if (!groups.length) {
           (sec.paragraphs || []).forEach((p) => {
             html += '<p class="about-p">' + esc(p) + "</p>";
