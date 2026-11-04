@@ -57,9 +57,11 @@ body {
   line-height: 1.7;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
-  /* words are never broken letter by letter: only links (long URLs in the
-     dating article) may break anywhere, see `.view-inner a` below */
-  overflow-wrap: normal;
+  /* Обычные слова не рвутся: break-word срабатывает только там, где слово
+     не влезает в свою колонку целиком (длинные сложные термины, адреса).
+     `anywhere` тут не годится — он меняет расчёт min-content и ломает
+     таблицы; ссылки поэтому остаются на `anywhere`, см. `.view-inner a`. */
+  overflow-wrap: break-word;
 }
 
 body::before {
@@ -666,6 +668,9 @@ h1.pose-title {
 
 .words dt {
   padding-right: 16px;
+  /* самый длинный термин — 11.8em; в узком окне колонка уже, и без этого
+     буквы термина уезжали поверх перевода */
+  overflow-wrap: break-word;
   font-style: italic;
   color: var(--accent);
   letter-spacing: .01em;
@@ -1733,6 +1738,11 @@ html[data-theme="dark"] .treatise-head {
   display: inline-block;
   line-height: 1;
   vertical-align: baseline;
+  /* Межбуквенный интервал наследуется внутрь бокса: с одной буквой он добавляет
+     ширину справа, и знак, поставленный по центру бокса (left: 50%), съезжает
+     на половину интервала. Внутри .mk интервал гасим — снаружи его добавит
+     родитель, ровно один раз. */
+  letter-spacing: 0;
 }
 
 .mk::before,
