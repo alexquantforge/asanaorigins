@@ -30,6 +30,8 @@
 
 from __future__ import annotations
 
+import sharngadhara_refs as refs   # раздел «Рукописи и издания» — не из PDF
+
 import json
 import re
 import unicodedata
@@ -842,7 +844,8 @@ def main() -> None:
         },
         "prologue": {"ru": data_ru["chapter"], "en": data_en["chapter"]},
         "appendix": {"ru": data_ru["appendix"], "en": data_en["appendix"]},
-        "notes": {"ru": [], "en": []},
+        "notesTitle": refs.TITLE,
+        "notes": {"ru": refs.RU, "en": refs.EN},
         "poses": poses,
     }
 

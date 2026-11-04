@@ -86,7 +86,7 @@
     }
   };
 
-  const BUILD = "2026-11-02.11";
+  const BUILD = "2026-11-02.12";
   const V = "?v=" + BUILD;
 
   const state = {
@@ -1082,6 +1082,12 @@
     let html = pageHead(title, esc(tx(activeTreatise.title)));
     html += '<div class="notes-stack">';
     sections.forEach((sec) => {
+      // раздел с типом — заголовок, список, таблица или цитата; так же, как в
+      // остальных разделах трактата. Без типа — прежнее примечание абзацами.
+      if (sec && sec.type) {
+        html += renderSections([sec]);
+        return;
+      }
       html += '<div class="note">';
       (sec.paragraphs || []).forEach((p) => {
         html += "<p>" + esc(p) + "</p>";
