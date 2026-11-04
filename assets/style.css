@@ -1523,6 +1523,16 @@ ol.doc-list .list-item::marker {
 }
 /* a shelf mark or an archive.org address has no space to break at */
 .doc-table td { overflow-wrap: anywhere; }
+
+/* ссылки в ячейках таблицы: подчёркнуты, чтобы их было видно без наведения */
+.doc-table td a {
+  color: var(--accent);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+}
+
+.doc-table td a:hover { text-decoration-thickness: 2px; }
 .doc-table th {
   font-size: .66rem;
   font-weight: 600;

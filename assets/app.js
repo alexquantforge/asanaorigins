@@ -86,7 +86,7 @@
     }
   };
 
-  const BUILD = "2026-11-02.12";
+  const BUILD = "2026-11-02.13";
   const V = "?v=" + BUILD;
 
   const state = {
@@ -697,6 +697,18 @@
     return esc(b.text || "");
   }
 
+  // Ячейка таблицы — строка текста или {html}: во второй можно поставить
+  // ссылку (данные свои, из data/*.json).
+  function cellHtml(cell) {
+    if (cell && typeof cell === "object") return cell.html != null ? cell.html : esc(cell.text || "");
+    return esc(cell == null ? "" : cell);
+  }
+
+  function cellText(cell) {
+    if (cell && typeof cell === "object") return (cell.text || "").replace(/<[^>]*>/g, "");
+    return cell == null ? "" : String(cell);
+  }
+
   function renderTable(b) {
     const rows = b.rows || [];
     if (!rows.length) return "";
@@ -704,7 +716,7 @@
     let body = rows;
     if (rows.length > 1) {
       html += "<thead><tr>" +
-        rows[0].map((c) => "<th>" + esc(c) + "</th>").join("") + "</tr></thead>";
+        rows[0].map((c) => "<th>" + cellHtml(c) + "</th>").join("") + "</tr></thead>";
       body = rows.slice(1);
     }
     // On a phone the table becomes a stack of cards; each cell carries the
@@ -712,8 +724,8 @@
     const heads = rows.length > 1 ? rows[0] : [];
     html += "<tbody>" +
       body.map((r) => "<tr>" + r.map((c, i) =>
-        "<td" + (heads[i] ? ' data-label="' + esc(heads[i]) + '"' : "") + ">" +
-        esc(c) + "</td>").join("") + "</tr>").join("") +
+        "<td" + (heads[i] ? ' data-label="' + esc(cellText(heads[i])) + '"' : "") + ">" +
+        cellHtml(c) + "</td>").join("") + "</tr>").join("") +
       "</tbody></table></div>";
     return html;
   }

@@ -1881,6 +1881,47 @@
    },
    {
     "type": "h3",
+    "text": "Скачать и посмотреть"
+   },
+   {
+    "type": "p",
+    "text": "Всё, что перечислено ниже, лежит в открытом доступе — по этим ссылкам видно, что сведения взяты из изданий и каталогов, а не составлены. Всё открывается без подписки; JSTOR может попросить бесплатную учётную запись."
+   },
+   {
+    "type": "list",
+    "items": [
+     {
+      "html": "Издание 1888 года, скан: <a href=\"https://archive.org/details/in.ernet.dli.2015.283591\" target=\"_blank\" rel=\"noopener\">The Paddhati of Sarngadhara, vol. I (1888)</a> — читать и скачать (PDF).",
+      "level": 1
+     },
+     {
+      "html": "Оно же, другой скан: <a href=\"https://archive.org/details/sarngadharapaddhati-peterson\" target=\"_blank\" rel=\"noopener\">Śārṅgadharapaddhati, ed. Peterson</a>.",
+      "level": 1
+     },
+     {
+      "html": "Перепечатка 1987 года с предисловием Петерсона и перечнем рукописей: <a href=\"https://archive.org/details/in.ernet.dli.2015.407770\" target=\"_blank\" rel=\"noopener\">Sarngadhara Paddhati, Delhi 1987</a>; распознанный текст того же издания (CC0) — <a href=\"https://archive.org/details/vNnG_sharangadhara-paddhati-dr.-peter-peterson\" target=\"_blank\" rel=\"noopener\">второй скан</a>.",
+      "level": 1
+     },
+     {
+      "html": "Том ZDMG 27 (1873) с работой Ауфрехта о паддхати: <a href=\"https://archive.org/details/zeitschriftderd134gesegoog\" target=\"_blank\" rel=\"noopener\">Zeitschrift der Deutschen Morgenländischen Gesellschaft 27</a>.",
+      "level": 1
+     },
+     {
+      "html": "Библиографическая запись тома I и поиск по тексту: <a href=\"https://catalog.hathitrust.org/Record/100401324\" target=\"_blank\" rel=\"noopener\">HathiTrust</a> (полный просмотр там ограничен, скачивания нет); ещё один скан 1888 года: <a href=\"https://books.google.com/books?id=eM4oAAAAYAAJ\" target=\"_blank\" rel=\"noopener\">Google Books</a>.",
+      "level": 1
+     },
+     {
+      "html": "Рукописи в Кембридже: <a href=\"https://cudl.lib.cam.ac.uk/collections/sanskrit/1\" target=\"_blank\" rel=\"noopener\">собрание санскритских рукописей</a> (три списка ниже открываются постранично).",
+      "level": 1
+     },
+     {
+      "html": "Непальские плёнки: <a href=\"https://www-archiv.fdm.uni-hamburg.de/ngmcp/index.html\" target=\"_blank\" rel=\"noopener\">указатель NGMCP</a>",
+      "level": 1
+     }
+    ]
+   },
+   {
+    "type": "h3",
     "text": "Печатные издания"
    },
    {
@@ -1893,37 +1934,50 @@
      [
       "Издание",
       "Год",
-      "Что это"
+      "Что это",
+      "Посмотреть и скачать"
      ],
      [
       "The Paddhati of Śārṅgadhara: A Sanskrit Anthology, vol. I: The Text. Ed. Peter Peterson. Bombay Sanskrit Series 37. Bombay: Government Central Book Depôt",
       "1888",
-      "Полный санскритский текст по шести рукописям. Критическим изданием не является; обещанный второй том (введение, разночтения, примечания) так и не вышел."
+      "Полный санскритский текст по шести рукописям. Критическим изданием не является; обещанный второй том (введение, разночтения, примечания) так и не вышел.",
+      {
+       "html": "<a href=\"https://archive.org/details/in.ernet.dli.2015.283591\" target=\"_blank\" rel=\"noopener\">скан</a> · <a href=\"https://archive.org/details/sarngadharapaddhati-peterson\" target=\"_blank\" rel=\"noopener\">ещё скан</a> · <a href=\"https://books.google.com/books?id=eM4oAAAAYAAJ\" target=\"_blank\" rel=\"noopener\">Google Books</a>"
+      }
      ],
      [
       "Перепечатки Nirṇaya Sāgara Press, Bombay",
       "1906 и 1915 — по разным библиографиям",
-      "Перепечатка текста Петерсона."
+      "Перепечатка текста Петерсона.",
+      "отдельного скана не нашлось; та же книга — в перепечатке 1987 г. ниже"
      ],
      [
       "Sarngadhara Paddhati, being an Anthology of Sanskrit Verses. Delhi: Chaukhamba Sanskrit Pratishthan (Vrajajivan Prachyabharati Granthamala 25)",
       "1987",
-      "Воспроизведение издания Nirṇaya Sāgara Press — вместе с предисловием Петерсона и его перечнем рукописей."
+      "Воспроизведение издания Nirṇaya Sāgara Press — вместе с предисловием Петерсона и его перечнем рукописей.",
+      {
+       "html": "<a href=\"https://archive.org/details/in.ernet.dli.2015.407770\" target=\"_blank\" rel=\"noopener\">скан</a> · <a href=\"https://archive.org/details/vNnG_sharangadhara-paddhati-dr.-peter-peterson\" target=\"_blank\" rel=\"noopener\">распознанный текст</a>"
+      }
      ],
      [
       "The Paddhati of Sarngadhara, vol. I. Kessinger Publishing",
       "2010",
-      "Фотоперепечатка тома I; ISBN 978-1-120-91138-4."
+      "Фотоперепечатка тома I; ISBN 978-1-120-91138-4.",
+      "свободного скана нет — это платная печать того же тома"
      ],
      [
       "Th. Aufrecht. Ueber die Paddhati von Çârñgadhara. — ZDMG 27",
       "1873",
-      "264 стиха по шести рукописям с немецким переводом и исследование; статья открывает том. Первая публикация текста."
+      "264 стиха по шести рукописям с немецким переводом и исследование; статья открывает том. Первая публикация текста.",
+      {
+       "html": "<a href=\"https://archive.org/details/zeitschriftderd134gesegoog\" target=\"_blank\" rel=\"noopener\">том ZDMG 27</a> · <a href=\"https://www.jstor.org/stable/43366109\" target=\"_blank\" rel=\"noopener\">JSTOR</a>"
+      }
      ],
      [
       "O. Böhtlingk. Einige Bemerkungen zu den von Th. Aufrecht … veröffentlichten und übersetzten Sprüchen aus Çârñgadhara’s Paddhati. Halle",
       "1873",
-      "Замечания к публикации Ауфрехта."
+      "Замечания к публикации Ауфрехта.",
+      "отдельного скана не нашлось; известно по библиографиям"
      ]
     ]
    },
@@ -2013,7 +2067,7 @@
     "type": "list",
     "items": [
      {
-      "html": "Кембридж, University Library: <a href=\"https://cudl.lib.cam.ac.uk/view/MS-ADD-00884/1\" target=\"_blank\" rel=\"noopener\">Add.884</a> — 334 листа, Vikrama 1926 = 1869 г., полный; <a href=\"https://cudl.lib.cam.ac.uk/view/MS-ADD-01824/1\" target=\"_blank\" rel=\"noopener\">Add.1824</a> — 103 листа, 1857 г.; <a href=\"https://cudl.lib.cam.ac.uk/view/MS-ADD-02111/1\" target=\"_blank\" rel=\"noopener\">Add.2111</a> — 9 листов, XVII в., выборка.",
+      "html": "Кембридж, University Library: <a href=\"https://cudl.lib.cam.ac.uk/view/MS-ADD-00884/1\" target=\"_blank\" rel=\"noopener\">Add.884</a> — 334 листа, Vikrama 1926 = 1869 г., полный (открывается постранично, есть кнопка скачивания); <a href=\"https://cudl.lib.cam.ac.uk/view/MS-ADD-01824/1\" target=\"_blank\" rel=\"noopener\">Add.1824</a> — 103 листа, 1857 г.; <a href=\"https://cudl.lib.cam.ac.uk/view/MS-ADD-02111/1\" target=\"_blank\" rel=\"noopener\">Add.2111</a> — 9 листов, XVII в., выборка.",
       "level": 1
      },
      {
@@ -2021,15 +2075,15 @@
       "level": 1
      },
      {
-      "html": "Катманду, National Archives, NAK 3/132 — плёнка NGMCP <a href=\"https://ngmcp.fdm.uni-hamburg.de/mediawiki/index.php/B_323-4_%C5%9A%C4%81r%E1%B9%85gadharapaddhati\" target=\"_blank\" rel=\"noopener\">B 323/4</a>: 257 листов, 10 строк на странице, переписана saṃ 1847 в Vaṃdīpura, писец Kriṣṇa Newar.",
+      "html": "Катманду, National Archives, NAK 3/132 — плёнка NGMCP <a href=\"https://ngmcp.fdm.uni-hamburg.de/mediawiki/index.php/B_323-4_%C5%9A%C4%81r%E1%B9%85gadharapaddhati\" target=\"_blank\" rel=\"noopener\">B 323/4</a>: 257 листов, 10 строк на странице, переписана saṃ 1847 в Vaṃdīpura, писец Kriṣṇa Newar. Это запись каталога: плёнка хранится в Гамбурге и в сети не выложена.",
       "level": 1
      },
      {
-      "html": "Сурат, Chunilal Gandhi Vidyabhavan — <a href=\"https://archive.org/details/sharngadharapaddhati-CGV-SDPB-0193\" target=\"_blank\" rel=\"noopener\">SDPB 0193</a>: 79 листов, неполный список, обрывается.",
+      "html": "Сурат, Chunilal Gandhi Vidyabhavan — <a href=\"https://archive.org/details/sharngadharapaddhati-CGV-SDPB-0193\" target=\"_blank\" rel=\"noopener\">SDPB 0193</a>: 79 листов, неполный список, обрывается; скан целиком, можно скачать в PDF.",
       "level": 1
      },
      {
-      "html": "Дели, IGNCA, VMR 688: микрофильм рукописи из Пуны (Vaidika Saṃśodhana Maṇḍala), 289 листов. <a href=\"https://ignca.bestbookbuddies.com/cgi-bin/koha/opac-detail.pl?biblionumber=743620\" target=\"_blank\" rel=\"noopener\">Запись каталога</a>",
+      "html": "Дели, IGNCA, VMR 688: микрофильм рукописи из Пуны (Vaidika Saṃśodhana Maṇḍala), 289 листов; в записи каталога список помечен как неполный. <a href=\"https://ignca.bestbookbuddies.com/cgi-bin/koha/opac-detail.pl?biblionumber=743620\" target=\"_blank\" rel=\"noopener\">Запись каталога</a>",
       "level": 1
      }
     ]
@@ -2091,6 +2145,47 @@
    },
    {
     "type": "h3",
+    "text": "Where to look and download"
+   },
+   {
+    "type": "p",
+    "text": "Everything listed below is open access: the links show that the information comes from editions and catalogues rather than from this site. Everything opens without a subscription; JSTOR may ask for a free account."
+   },
+   {
+    "type": "list",
+    "items": [
+     {
+      "html": "The edition of 1888, scanned: <a href=\"https://archive.org/details/in.ernet.dli.2015.283591\" target=\"_blank\" rel=\"noopener\">The Paddhati of Sarngadhara, vol. I (1888)</a> — to read and download as PDF.",
+      "level": 1
+     },
+     {
+      "html": "The same, another scan: <a href=\"https://archive.org/details/sarngadharapaddhati-peterson\" target=\"_blank\" rel=\"noopener\">Śārṅgadharapaddhati, ed. Peterson</a>.",
+      "level": 1
+     },
+     {
+      "html": "The 1987 reprint with Peterson’s preface and list of manuscripts: <a href=\"https://archive.org/details/in.ernet.dli.2015.407770\" target=\"_blank\" rel=\"noopener\">Sarngadhara Paddhati, Delhi 1987</a>; searchable text of the same edition (CC0) — <a href=\"https://archive.org/details/vNnG_sharangadhara-paddhati-dr.-peter-peterson\" target=\"_blank\" rel=\"noopener\">another scan</a>.",
+      "level": 1
+     },
+     {
+      "html": "Volume 27 of the ZDMG (1873) with Aufrecht’s study of the paddhati: <a href=\"https://archive.org/details/zeitschriftderd134gesegoog\" target=\"_blank\" rel=\"noopener\">Zeitschrift der Deutschen Morgenländischen Gesellschaft 27</a>.",
+      "level": 1
+     },
+     {
+      "html": "Bibliographic record of volume I and full-text search: <a href=\"https://catalog.hathitrust.org/Record/100401324\" target=\"_blank\" rel=\"noopener\">HathiTrust</a> (full view is limited there, with no download); another scan of the 1888 volume: <a href=\"https://books.google.com/books?id=eM4oAAAAYAAJ\" target=\"_blank\" rel=\"noopener\">Google Books</a>.",
+      "level": 1
+     },
+     {
+      "html": "The Cambridge manuscripts: <a href=\"https://cudl.lib.cam.ac.uk/collections/sanskrit/1\" target=\"_blank\" rel=\"noopener\">the Sanskrit collections</a> (the three copies listed below open page by page).",
+      "level": 1
+     },
+     {
+      "html": "The Nepalese reels: <a href=\"https://www-archiv.fdm.uni-hamburg.de/ngmcp/index.html\" target=\"_blank\" rel=\"noopener\">the NGMCP index</a>",
+      "level": 1
+     }
+    ]
+   },
+   {
+    "type": "h3",
     "text": "Printed editions"
    },
    {
@@ -2103,37 +2198,50 @@
      [
       "Edition",
       "Year",
-      "What it is"
+      "What it is",
+      "Where to look and download"
      ],
      [
       "The Paddhati of Śārṅgadhara: A Sanskrit Anthology, vol. I: The Text. Ed. Peter Peterson. Bombay Sanskrit Series 37. Bombay: Government Central Book Depôt",
       "1888",
-      "The complete Sanskrit text, based on six manuscripts. Not a critical edition; the promised second volume (introduction, variant readings, notes) never appeared."
+      "The complete Sanskrit text, based on six manuscripts. Not a critical edition; the promised second volume (introduction, variant readings, notes) never appeared.",
+      {
+       "html": "<a href=\"https://archive.org/details/in.ernet.dli.2015.283591\" target=\"_blank\" rel=\"noopener\">scan</a> · <a href=\"https://archive.org/details/sarngadharapaddhati-peterson\" target=\"_blank\" rel=\"noopener\">another scan</a> · <a href=\"https://books.google.com/books?id=eM4oAAAAYAAJ\" target=\"_blank\" rel=\"noopener\">Google Books</a>"
+      }
      ],
      [
       "Reprints, Nirṇaya Sāgara Press, Bombay",
       "1906 and 1915, according to different bibliographies",
-      "A reprint of Peterson’s text."
+      "A reprint of Peterson’s text.",
+      "no separate scan found; the same book is in the 1987 reprint below"
      ],
      [
       "Sarngadhara Paddhati, being an Anthology of Sanskrit Verses. Delhi: Chaukhamba Sanskrit Pratishthan (Vrajajivan Prachyabharati Granthamala 25)",
       "1987",
-      "A reproduction of the Nirṇaya Sāgara Press edition, with Peterson’s preface and his list of manuscripts."
+      "A reproduction of the Nirṇaya Sāgara Press edition, with Peterson’s preface and his list of manuscripts.",
+      {
+       "html": "<a href=\"https://archive.org/details/in.ernet.dli.2015.407770\" target=\"_blank\" rel=\"noopener\">scan</a> · <a href=\"https://archive.org/details/vNnG_sharangadhara-paddhati-dr.-peter-peterson\" target=\"_blank\" rel=\"noopener\">OCR text</a>"
+      }
      ],
      [
       "The Paddhati of Sarngadhara, vol. I. Kessinger Publishing",
       "2010",
-      "A photographic reprint of volume I; ISBN 978-1-120-91138-4."
+      "A photographic reprint of volume I; ISBN 978-1-120-91138-4.",
+      "no free scan: a paid print of the same volume"
      ],
      [
       "Th. Aufrecht. Ueber die Paddhati von Çârñgadhara. — ZDMG 27",
       "1873",
-      "264 verses from six manuscripts with a German translation, plus a study; the article opens the volume. The first publication of the text."
+      "264 verses from six manuscripts with a German translation, plus a study; the article opens the volume. The first publication of the text.",
+      {
+       "html": "<a href=\"https://archive.org/details/zeitschriftderd134gesegoog\" target=\"_blank\" rel=\"noopener\">ZDMG vol. 27</a> · <a href=\"https://www.jstor.org/stable/43366109\" target=\"_blank\" rel=\"noopener\">JSTOR</a>"
+      }
      ],
      [
       "O. Böhtlingk. Einige Bemerkungen zu den von Th. Aufrecht … veröffentlichten und übersetzten Sprüchen aus Çârñgadhara’s Paddhati. Halle",
       "1873",
-      "Remarks on Aufrecht’s publication."
+      "Remarks on Aufrecht’s publication.",
+      "no separate scan found; known from bibliographies"
      ]
     ]
    },
@@ -2223,7 +2331,7 @@
     "type": "list",
     "items": [
      {
-      "html": "Cambridge, University Library: <a href=\"https://cudl.lib.cam.ac.uk/view/MS-ADD-00884/1\" target=\"_blank\" rel=\"noopener\">Add.884</a> — 334 ff., Vikrama 1926 = 1869 CE, complete; <a href=\"https://cudl.lib.cam.ac.uk/view/MS-ADD-01824/1\" target=\"_blank\" rel=\"noopener\">Add.1824</a> — 103 ff., 1857; <a href=\"https://cudl.lib.cam.ac.uk/view/MS-ADD-02111/1\" target=\"_blank\" rel=\"noopener\">Add.2111</a> — 9 ff., 17th c., a selection.",
+      "html": "Cambridge, University Library: <a href=\"https://cudl.lib.cam.ac.uk/view/MS-ADD-00884/1\" target=\"_blank\" rel=\"noopener\">Add.884</a> — 334 ff., Vikrama 1926 = 1869 CE, complete (opens page by page, with a download button); <a href=\"https://cudl.lib.cam.ac.uk/view/MS-ADD-01824/1\" target=\"_blank\" rel=\"noopener\">Add.1824</a> — 103 ff., 1857; <a href=\"https://cudl.lib.cam.ac.uk/view/MS-ADD-02111/1\" target=\"_blank\" rel=\"noopener\">Add.2111</a> — 9 ff., 17th c., a selection.",
       "level": 1
      },
      {
@@ -2231,15 +2339,15 @@
       "level": 1
      },
      {
-      "html": "Kathmandu, National Archives, NAK 3/132 — NGMCP reel <a href=\"https://ngmcp.fdm.uni-hamburg.de/mediawiki/index.php/B_323-4_%C5%9A%C4%81r%E1%B9%85gadharapaddhati\" target=\"_blank\" rel=\"noopener\">B 323/4</a>: 257 ff., 10 lines to a page, copied in saṃ 1847 at Vaṃdīpura by the scribe Kriṣṇa Newar.",
+      "html": "Kathmandu, National Archives, NAK 3/132 — NGMCP reel <a href=\"https://ngmcp.fdm.uni-hamburg.de/mediawiki/index.php/B_323-4_%C5%9A%C4%81r%E1%B9%85gadharapaddhati\" target=\"_blank\" rel=\"noopener\">B 323/4</a>: 257 ff., 10 lines to a page, copied in saṃ 1847 at Vaṃdīpura by the scribe Kriṣṇa Newar. This is a catalogue record: the reel is held in Hamburg and is not online.",
       "level": 1
      },
      {
-      "html": "Surat, Chunilal Gandhi Vidyabhavan — <a href=\"https://archive.org/details/sharngadharapaddhati-CGV-SDPB-0193\" target=\"_blank\" rel=\"noopener\">SDPB 0193</a>: 79 ff., an incomplete copy that ends abruptly.",
+      "html": "Surat, Chunilal Gandhi Vidyabhavan — <a href=\"https://archive.org/details/sharngadharapaddhati-CGV-SDPB-0193\" target=\"_blank\" rel=\"noopener\">SDPB 0193</a>: 79 ff., an incomplete copy that ends abruptly; the whole scan can be downloaded as PDF.",
       "level": 1
      },
      {
-      "html": "Delhi, IGNCA, VMR 688: a microfilm of a manuscript from Pune (Vaidika Saṃśodhana Maṇḍala), 289 ff. <a href=\"https://ignca.bestbookbuddies.com/cgi-bin/koha/opac-detail.pl?biblionumber=743620\" target=\"_blank\" rel=\"noopener\">Catalogue record</a>",
+      "html": "Delhi, IGNCA, VMR 688: a microfilm of a manuscript from Pune (Vaidika Saṃśodhana Maṇḍala), 289 ff.; the catalogue marks the copy as incomplete. <a href=\"https://ignca.bestbookbuddies.com/cgi-bin/koha/opac-detail.pl?biblionumber=743620\" target=\"_blank\" rel=\"noopener\">Catalogue record</a>",
       "level": 1
      }
     ]
