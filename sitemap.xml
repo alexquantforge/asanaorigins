@@ -170,6 +170,12 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://alexquantforge.github.io/asanaorigins/en/asana/viparitakarani/"/>
   </url>
   <url>
+    <loc>https://alexquantforge.github.io/asanaorigins/asana/uttanakurmaka/</loc>
+    <lastmod>2026-11-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://alexquantforge.github.io/asanaorigins/asana/uttanakurmaka/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://alexquantforge.github.io/asanaorigins/en/asana/uttanakurmaka/"/>
+  </url>
+  <url>
     <loc>https://alexquantforge.github.io/asanaorigins/treatise/ahirbudhnya-samhita/</loc>
     <lastmod>2026-11-05</lastmod>
     <xhtml:link rel="alternate" hreflang="ru" href="https://alexquantforge.github.io/asanaorigins/treatise/ahirbudhnya-samhita/"/>
@@ -276,6 +282,30 @@
     <lastmod>2026-11-05</lastmod>
     <xhtml:link rel="alternate" hreflang="ru" href="https://alexquantforge.github.io/asanaorigins/treatise/dattatreyayogasastra/notes/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://alexquantforge.github.io/asanaorigins/en/treatise/dattatreyayogasastra/notes/"/>
+  </url>
+  <url>
+    <loc>https://alexquantforge.github.io/asanaorigins/treatise/hathapradipika/</loc>
+    <lastmod>2026-11-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://alexquantforge.github.io/asanaorigins/treatise/hathapradipika/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://alexquantforge.github.io/asanaorigins/en/treatise/hathapradipika/"/>
+  </url>
+  <url>
+    <loc>https://alexquantforge.github.io/asanaorigins/treatise/hathapradipika/introduction/</loc>
+    <lastmod>2026-11-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://alexquantforge.github.io/asanaorigins/treatise/hathapradipika/introduction/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://alexquantforge.github.io/asanaorigins/en/treatise/hathapradipika/introduction/"/>
+  </url>
+  <url>
+    <loc>https://alexquantforge.github.io/asanaorigins/treatise/hathapradipika/appendix/</loc>
+    <lastmod>2026-11-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://alexquantforge.github.io/asanaorigins/treatise/hathapradipika/appendix/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://alexquantforge.github.io/asanaorigins/en/treatise/hathapradipika/appendix/"/>
+  </url>
+  <url>
+    <loc>https://alexquantforge.github.io/asanaorigins/treatise/hathapradipika/notes/</loc>
+    <lastmod>2026-11-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://alexquantforge.github.io/asanaorigins/treatise/hathapradipika/notes/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://alexquantforge.github.io/asanaorigins/en/treatise/hathapradipika/notes/"/>
   </url>
   <url>
     <loc>https://alexquantforge.github.io/asanaorigins/en/</loc>
@@ -446,6 +476,12 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://alexquantforge.github.io/asanaorigins/en/asana/viparitakarani/"/>
   </url>
   <url>
+    <loc>https://alexquantforge.github.io/asanaorigins/en/asana/uttanakurmaka/</loc>
+    <lastmod>2026-11-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://alexquantforge.github.io/asanaorigins/asana/uttanakurmaka/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://alexquantforge.github.io/asanaorigins/en/asana/uttanakurmaka/"/>
+  </url>
+  <url>
     <loc>https://alexquantforge.github.io/asanaorigins/en/treatise/ahirbudhnya-samhita/</loc>
     <lastmod>2026-11-05</lastmod>
     <xhtml:link rel="alternate" hreflang="ru" href="https://alexquantforge.github.io/asanaorigins/treatise/ahirbudhnya-samhita/"/>
@@ -552,5 +588,29 @@
     <lastmod>2026-11-05</lastmod>
     <xhtml:link rel="alternate" hreflang="ru" href="https://alexquantforge.github.io/asanaorigins/treatise/dattatreyayogasastra/notes/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://alexquantforge.github.io/asanaorigins/en/treatise/dattatreyayogasastra/notes/"/>
+  </url>
+  <url>
+    <loc>https://alexquantforge.github.io/asanaorigins/en/treatise/hathapradipika/</loc>
+    <lastmod>2026-11-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://alexquantforge.github.io/asanaorigins/treatise/hathapradipika/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://alexquantforge.github.io/asanaorigins/en/treatise/hathapradipika/"/>
+  </url>
+  <url>
+    <loc>https://alexquantforge.github.io/asanaorigins/en/treatise/hathapradipika/introduction/</loc>
+    <lastmod>2026-11-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://alexquantforge.github.io/asanaorigins/treatise/hathapradipika/introduction/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://alexquantforge.github.io/asanaorigins/en/treatise/hathapradipika/introduction/"/>
+  </url>
+  <url>
+    <loc>https://alexquantforge.github.io/asanaorigins/en/treatise/hathapradipika/appendix/</loc>
+    <lastmod>2026-11-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://alexquantforge.github.io/asanaorigins/treatise/hathapradipika/appendix/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://alexquantforge.github.io/asanaorigins/en/treatise/hathapradipika/appendix/"/>
+  </url>
+  <url>
+    <loc>https://alexquantforge.github.io/asanaorigins/en/treatise/hathapradipika/notes/</loc>
+    <lastmod>2026-11-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://alexquantforge.github.io/asanaorigins/treatise/hathapradipika/notes/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://alexquantforge.github.io/asanaorigins/en/treatise/hathapradipika/notes/"/>
   </url>
 </urlset>

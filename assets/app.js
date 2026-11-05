@@ -44,6 +44,9 @@
       verseOwn: "здесь названа эта асана",
       treatises: "Трактаты",
       allAsanas: "Все āсаны",
+      verseDeva: "Деванагари",
+      verseIast: "IAST",
+      verseCyr: "Кириллическая транслитерация",
       build: "версия"
     },
     en: {
@@ -82,11 +85,14 @@
       verseOwn: "this pose is named here",
       treatises: "Treatises",
       allAsanas: "All āsanas",
+      verseDeva: "Devanagari",
+      verseIast: "IAST",
+      verseCyr: "Cyrillic transliteration",
       build: "build"
     }
   };
 
-  const BUILD = "2026-11-02.16";
+  const BUILD = "2026-11-05.01";
   const V = "?v=" + BUILD;
 
   const state = {
@@ -1027,7 +1033,8 @@
       tabs +=
         '<button type="button" role="tab" id="tab-' + id + '" aria-controls="' + id +
         '" aria-selected="' + (selected ? "true" : "false") + '" data-tab="' + id + '">' +
-        esc(sec.label) + "</button>";
+        esc(sec.label || t("verse" + (sec.key || "").charAt(0).toUpperCase() +
+          (sec.key || "").slice(1))) + "</button>";
       panels +=
         '<div class="verse-body" id="' + id + '" role="tabpanel" aria-labelledby="tab-' + id + '"' +
         (selected ? "" : " hidden") + ">" +

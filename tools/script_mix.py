@@ -74,17 +74,30 @@ def walk(node, path=""):
         yield path, node
 
 
+def mixed(token: str) -> str:
+    """Латинские знаки внутри одного слова (пустая строка — слово чистое).
+
+    Дефис делит сложное слово на части: «LaTeX-файлов» — это латинское
+    название и русское слово, а не слово из двух алфавитов, поэтому каждая
+    часть проверяется отдельно.
+    """
+    if not (CYRILLIC.search(token) and LATIN.search(token)):
+        return ""
+    if FILENAME.search(token) or ABBREVIATION.match(token):
+        return ""
+    return "".join(sorted({ch for ch in token if LATIN.match(ch)} - ALLOWED))
+
+
 def scan(text: str) -> list[tuple[str, str]]:
     """Слова, где кириллица и латиница стоят вместе."""
     found: list[tuple[str, str]] = []
     for token in TOKEN.findall(TAG.sub(" ", text)):
-        if not (CYRILLIC.search(token) and LATIN.search(token)):
-            continue
-        if FILENAME.search(token) or ABBREVIATION.match(token):
-            continue
-        foreign = {ch for ch in token if LATIN.match(ch)} - ALLOWED
-        if foreign:
-            found.append((token, "".join(sorted(foreign))))
+        parts = token.split("-") if "-" in token else [token]
+        for part in parts:
+            foreign = mixed(part)
+            if foreign:
+                found.append((token, foreign))
+                break
     return found
 
 

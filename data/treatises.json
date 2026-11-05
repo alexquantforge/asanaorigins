@@ -215,6 +215,30 @@
     "ru": "sources/«Даттāтрея-йога-ш́āстра»_ три āсаны (Падмāсана, Ш́авāсана, Випарӣта-каран̣ӣ).pdf",
     "en": "sources/Dattātreyayogaśāstra_ all 3 āsanas (Padmāsana, Śavāsana, Viparītakaraṇī).pdf"
    }
+  },
+  {
+   "id": "hathapradipika",
+   "file": "data/hathapradipika.json",
+   "title": {
+    "ru": "Хат̣хапрадӣпика̄",
+    "en": "Haṭhapradīpikā"
+   },
+   "subtitle": {
+    "ru": "глава 1 · пятнадцать āсан · стихи 1.19–1.54",
+    "en": "chapter 1 · fifteen āsanas · verses 1.19–1.54"
+   },
+   "tradition": {
+    "ru": "хат̣ха-йога",
+    "en": "Haṭha yoga"
+   },
+   "edition": {
+    "ru": "критическое электронное издание «Light on Haṭha Yoga» · Оксфорд – Марбург, 2024 · стихи 1.19–1.54 с рамкой 1.17–1.18 и 1.55–1.56",
+    "en": "the electronic critical edition “Light on Haṭha Yoga” · Oxford – Marburg, 2024 · verses 1.19–1.54 with the frame 1.17–1.18 and 1.55–1.56"
+   },
+   "pdf": {
+    "ru": "sources/Хат̣хапрадӣпика̄_ все 15 а̄сан — полный разбор по критическому изданию (Оксфорд – Марбург, 2024).pdf",
+    "en": "sources/Haṭhapradīpikā_ all 15 āsanas — a full study based on the critical edition (Oxford – Marburg, 2024).pdf"
+   }
   }
  ]
 }
