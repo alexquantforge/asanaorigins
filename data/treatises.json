@@ -191,6 +191,30 @@
     "ru": "sources/Ш́āрн̇гадхара-паддхати (1363 г. н. э.).pdf",
     "en": "sources/Śārṅgadharapaddhati (1363 CE).pdf"
    }
+  },
+  {
+   "id": "dattatreyayogasastra",
+   "file": "data/dattatreyayogasastra.json",
+   "title": {
+    "ru": "Даттāтрея-йога-ш́āстра",
+    "en": "Dattātreyayogaśāstra"
+   },
+   "subtitle": {
+    "ru": "ок. 1200–1250 гг. · четыре пути йоги · три āсаны",
+    "en": "c. 1200–1250 CE · four paths of yoga · three āsanas"
+   },
+   "tradition": {
+    "ru": "хат̣ха-йога",
+    "en": "Haṭha yoga"
+   },
+   "edition": {
+    "ru": "критическое издание Дж. Маллинсона · Collection Indologie n° 162 / Haṭha Yoga Series n° 5 · Пондичерри – Оксфорд, 2024",
+    "en": "critical edition by J. Mallinson · Collection Indologie n° 162 / Haṭha Yoga Series n° 5 · Pondicherry – Oxford, 2024"
+   },
+   "pdf": {
+    "ru": "sources/«Даттāтрея-йога-ш́āстра»_ три āсаны (Падмāсана, Ш́авāсана, Випарӣта-каран̣ӣ).pdf",
+    "en": "sources/Dattātreyayogaśāstra_ all 3 āsanas (Padmāsana, Śavāsana, Viparītakaraṇī).pdf"
+   }
   }
  ]
 }
