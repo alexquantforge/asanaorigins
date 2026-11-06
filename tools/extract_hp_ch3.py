@@ -85,6 +85,33 @@ def split_sigla(text: str) -> tuple[str, list[str]]:
     return text[:m.start()].strip(), signs
 
 
+# Как называть тексты, на которые ссылается аппарат. Сокращений на странице
+# не остаётся: «DYŚ» читатель не обязан знать, а «Даттāтрея-йога-ш́āстра» —
+# знает каждый, кто открыл эту позу.
+WORKS = {
+    "DYŚ": {"ru": "Даттāтрея-йога-ш́āстра", "en": "Dattātreyayogaśāstra"},
+    "DYS": {"ru": "Даттāтрея-йога-ш́āстра", "en": "Dattātreyayogaśāstra"},
+    "HRĀ": {"ru": "Хат̣харатнāвали", "en": "Haṭharatnāvalī"},
+    "YCM": {"ru": "Йогачинтāман̣и", "en": "Yogacintāmaṇi"},
+    "YBhD": {"ru": "Йуктабхавадева", "en": "Yuktabhavadeva"},
+    "HSC": {"ru": "Хат̣хасан̇кетачандрикā", "en": "Haṭhasaṅketacandrikā"},
+    "VM": {"ru": "Вивека-мāртан̣д̣а", "en": "Vivekamārtaṇḍa"},
+    "ŚS": {"ru": "Ш́ива-сам̣хитā", "en": "Śivasaṃhitā"},
+    "VS": {"ru": "Васишт̣ха-сам̣хитā", "en": "Vasiṣṭha Saṃhitā"},
+    "YY": {"ru": "Йога-йāджн̃авалкйа", "en": "Yogayājñānvalkya"},
+    "HTK": {"ru": "Хат̣хататтвакаумудӣ", "en": "Haṭhatattvakaumudī"},
+    "ŚP": {"ru": "Ш́āрн̇гадхара-паддхати", "en": "Śārṅgadharapaddhati"},
+    "HP": {"ru": "Хат̣хапрадӣпикā", "en": "Haṭhapradīpikā"},
+    "ХП": {"ru": "Хат̣хапрадӣпикā", "en": "Haṭhapradīpikā"},
+}
+WORK_RE = re.compile(r"(?<![A-Za-zА-Яа-я])(%s)(?![A-Za-zА-Яа-я])" % "|".join(
+    sorted(map(re.escape, WORKS), key=len, reverse=True)))
+
+
+def quoted(text: str, lang: str) -> str:
+    return f"“{text}”" if lang == "en" else f"«{text}»"
+
+
 def names(signs: list[str], table: dict[str, str], lang: str) -> str:
     out = []
     for sign in signs:
@@ -92,71 +119,164 @@ def names(signs: list[str], table: dict[str, str], lang: str) -> str:
         if not full:
             raise SystemExit(f"условный знак «{sign}» не найден в таблице рукописей")
         out.append(full)
-    sep = ", " if lang == "en" else "; "
-    return sep.join(out)
+    if lang == "en":
+        return ", ".join(out) if len(out) < 3 else ", ".join(out[:-1]) + ", and " + out[-1]
+    return "; ".join(out)
+
+
+def works(signs: list[str], lang: str) -> str:
+    """«HRĀ YBhD» → ««Хат̣харатнāвали» и «Йуктабхавадеве»»."""
+    names_ = [quoted(WORKS[s][lang], lang) for s in signs]
+    if lang == "en":
+        return names_[0] if len(names_) == 1 else ", ".join(names_[:-1]) + " and " + names_[-1]
+    return names_[0] if len(names_) == 1 else ", ".join(names_[:-1]) + " и " + names_[-1]
+
+
+def side(text: str, lang: str, table: dict[str, str], default: str) -> str:
+    """Одна половина строки аппарата: «кто» и «что у него стоит».
+
+    В издании запись выглядит как «чтение ] варианты», где варианты бывают
+    и в рукописях (δ1ζ2 …), и в других текстах (HRĀ, YCM …), а «v.l.» значит
+    «вариант чтения». Здесь из неё делается обычная фраза.
+    """
+    codes = WORK_RE.findall(text)
+    variant = "v.l." in text
+    body = WORK_RE.sub("", text).replace("v.l.", "").replace("om.", "").strip(" ,;")
+    body = re.sub(r"\s+", " ", body).strip()
+    if not body:
+        return ""
+    who = works(codes, lang) if codes else default
+    tail = ""
+    if variant:
+        tail = " (variant reading)" if lang == "en" else " (вариант чтения)"
+    if lang == "en":
+        return f"In {who} — “{body}”{tail}."
+    return f"В {who} — «{body}»{tail}."
 
 
 def expand(line: str, table: dict[str, str], lang: str) -> str:
-    """Строка аппарата издания → фраза на языке страницы."""
+    """Строка аппарата издания → фраза без единого сокращения."""
     lemma_raw, _, rest = line.partition("|")
     lemma_sigla_raw, _, variants_raw = rest.partition("|")
     cett = "_cett." in lemma_raw
+    incl = re.search(r"incl\.\s*(\S+)", lemma_raw)
     lemma = lemma_raw.replace("_cett.", "").strip()
     lemma = re.sub(r"\s*incl\.\s*(.+)$", "", lemma).strip()
-    incl = re.search(r"incl\.\s*(\S+)", lemma_raw)
     lemma_sigla = [s.group(0) for s in SIGLUM.finditer(lemma_sigla_raw)]
-
     chunks = [c.strip() for c in variants_raw.split(",") if c.strip()] if variants_raw.strip() else []
-    parts: list[str] = []
 
     # «pāda c ] om. δ1ζ2» — целого полустишия в этих рукописях нет
     if lemma.startswith("pāda") and chunks and chunks[0].startswith("om."):
         part = lemma.split()[-1]
         who = names([s.group(0) for s in SIGLUM.finditer(" ".join(chunks))], table, lang)
-        if lang == "en":
-            parts.append(f"Quarter {part} is absent in: {who}.")
-        else:
-            parts.append(f"Полустишие {part} отсутствует в: {who}.")
-        return " ".join(parts)
+        return (f"Quarter {part} is absent in: {who}." if lang == "en"
+                else f"Полустишие {part} отсутствует в: {who}.")
 
+    parts: list[str] = []
     if lemma_sigla:
         who = names(lemma_sigla, table, lang)
-        if lang == "en":
-            parts.append(f"In the edition — “{lemma}” (so in: {who}).")
-        else:
-            parts.append(f"В издании — «{lemma}» (так в: {who}).")
-    elif cett:
+        parts.append(f"In the edition — “{lemma}” (so in: {who})." if lang == "en"
+                     else f"В издании — «{lemma}» (так в: {who}).")
+    elif lemma_raw.strip() == "" or cett:
         if incl:
             extra = names([s.group(0) for s in SIGLUM.finditer(incl.group(1))], table, lang)
-            if lang == "en":
-                parts.append(f"In the edition — “{lemma}” (so in all the manuscripts, including {extra}).")
-            else:
-                parts.append(f"В издании — «{lemma}» (так во всех рукописях, включая {extra}).")
+            parts.append(f"In the edition — “{lemma}” (so in all the manuscripts, including {extra})."
+                         if lang == "en" else
+                         f"В издании — «{lemma}» (так во всех рукописях, включая {extra}).")
         elif lang == "en":
-            parts.append(f"In the edition — “{lemma}” (so in all the manuscripts except those listed here).")
+            parts.append(f"In the edition — “{lemma}” (so in all the manuscripts except those listed below).")
         else:
             parts.append(f"В издании — «{lemma}» (так во всех рукописях, кроме перечисленных ниже).")
     else:
-        if lang == "en":
-            parts.append(f"Reading checked: “{lemma}”.")
-        else:
-            parts.append(f"Проверяемое чтение — «{lemma}».")
+        parts.append(f"Reading checked: “{lemma}”." if lang == "en"
+                     else f"Проверяемое чтение — «{lemma}».")
 
     for chunk in chunks:
         if chunk.startswith("om."):
             who = names([s.group(0) for s in SIGLUM.finditer(chunk)], table, lang)
-            parts.append(f"Нет в: {who}." if lang == "ru" else f"Absent in: {who}.")
+            parts.append(f"Absent in: {who}." if lang == "en" else f"Нет в: {who}.")
+            continue
+        codes = WORK_RE.findall(chunk)
+        if codes:
+            parts.append(side(chunk, lang, table, default="the edition" if lang == "en" else "издании"))
             continue
         reading, signs = split_sigla(chunk)
         if not signs:
-            parts.append(f"Ещё «{reading}»." if lang == "ru" else f"Also “{reading}”.")
+            parts.append(f"Also “{reading}”." if lang == "en" else f"Ещё «{reading}».")
             continue
         who = names(signs, table, lang)
-        if lang == "en":
-            parts.append(f"Also “{reading}” — so in: {who}.")
-        else:
-            parts.append(f"Ещё «{reading}» — так в: {who}.")
+        parts.append(f"Also “{reading}” — so in: {who}." if lang == "en"
+                     else f"Ещё «{reading}» — так в: {who}.")
     return " ".join(parts)
+
+
+FOLIO = re.compile(r"\bf\.\s?(\d+)\s?([rv])?")
+ATTRIB = re.compile(r"\(attrib\.\s*([^)]+)\)")
+
+
+def plain(text: str, lang: str) -> str:
+    """Убрать сокращения из готовой строки источника (свидетели, источники).
+
+    «Yogacintāmaṇi f. 78r (attrib. Dattātreya)» превращается в
+    ««Йогачинтāман̣и», лист 78, лицевая сторона (приписывается Даттāтрее)»:
+    ни одной буквы не добавлено, только раскрыто то, что стояло за знаками.
+    """
+    def folio(m):
+        num, side = m.group(1), m.group(2)
+        if lang == "en":
+            return f"f. {num}" if not side else (
+                f"f. {num}, recto" if side == "r" else f"f. {num}, verso")
+        return f"лист {num}" + ("" if not side else
+                                 (", лицевая сторона" if side == "r" else ", оборотная сторона"))
+
+    def attrib(m):
+        return f"(attributed to {m.group(1)})" if lang == "en" else f"(приписывается {m.group(1)})"
+
+    text = FOLIO.sub(folio, text)
+    text = ATTRIB.sub(attrib, text)
+    text = WORK_RE.sub(lambda m: quoted(WORKS[m.group(1)][lang], lang), text)
+    return text
+
+
+def cross_reference(line: str, lang: str, table: dict[str, str]) -> str:
+    """Строка сверки с другим текстом: «чтение ] чтение DYŚ v.l.»."""
+    lemma_raw, _, rest = line.partition("|")
+    lemma, _, variants = lemma_raw.partition("]")
+    lemma = lemma.strip()
+    variants = variants.strip()
+    parts = []
+    if lemma:
+        parts.append(f"In the edition — “{lemma}”." if lang == "en" else f"В издании — «{lemma}».")
+    # разбираем правую часть по запятым, каждая — своё чтение
+    for chunk in [c.strip() for c in _split_variants(variants) if c.strip()]:
+        codes = WORK_RE.findall(chunk)
+        variant = "v.l." in chunk
+        body = WORK_RE.sub("", chunk).replace("v.l.", "").strip(" ,;")
+        if not body:
+            continue
+        tail = " (variant reading)" if variant and lang == "en" else (" (вариант чтения)" if variant else "")
+        if codes:
+            who = works(codes, lang)
+            parts.append(f"In {who} — “{body}”{tail}." if lang == "en"
+                         else f"В {who} — «{body}»{tail}.")
+        else:
+            parts.append(f"Also “{body}”{tail}." if lang == "en" else f"Ещё «{body}»{tail}.")
+    return " ".join(parts)
+
+
+def _split_variants(text: str) -> list[str]:
+    """Запятая разделяет варианты, но «f. 78r, 79v» — это один шифр."""
+    out, buf = [], ""
+    for piece in text.split(","):
+        if re.match(r"^\s*\d", piece) and buf:
+            buf += "," + piece
+            continue
+        if buf:
+            out.append(buf)
+        buf = piece
+    if buf:
+        out.append(buf)
+    return out
 
 
 def build(lang: str, raw: dict, table: dict[str, str]) -> list[dict]:
@@ -207,16 +327,22 @@ def build(lang: str, raw: dict, table: dict[str, str]) -> list[dict]:
         blocks.append({"type": "list", "ordered": False, "label": labels["readings"],
                        "items": items})
         if verse.get("sources"):
-            paragraphs = [verse["sources"]]
-            paragraphs.extend(verse.get("sources_readings", []))
+            lead = plain(verse["sources"], lang)
+            if lang == "en":
+                lead = "Source text: " + lead + "."
+            else:
+                lead = "Текст-источник: " + lead + "."
+            paragraphs = [lead]
+            paragraphs.extend(cross_reference(row, lang, table)
+                              for row in verse.get("sources_readings", []))
             blocks.append({"type": "prose", "key": "sources", "label": labels["sources"],
                            "paragraphs": paragraphs})
         if verse.get("testimonia"):
             blocks.append({"type": "prose", "key": "testimonia",
                            "label": labels["testimonia"],
-                           "paragraphs": [verse["testimonia"]]})
+                           "paragraphs": [plain(verse["testimonia"], lang)]})
             for row in verse.get("testimonia_readings", []):
-                blocks.append({"type": "p", "text": row})
+                blocks.append({"type": "p", "text": cross_reference(row, lang, table)})
 
     # пословный разбор, буквальный и литературный переводы — в конце раздела,
     # как во всех остальных позах: сначала все стихи, потом разбор

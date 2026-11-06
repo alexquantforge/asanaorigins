@@ -45,7 +45,7 @@
       treatises: "Трактаты",
       allAsanas: "Все āсаны",
       verseDeva: "Деванагари",
-      verseIast: "IAST",
+      verseIast: "Латинская транслитерация",
       verseCyr: "Кириллическая транслитерация",
       hpRefLead: "Этот стих напечатан в критическом издании так; ниже — перевод и все рукописи, названные в его аппарате, чтобы ни за чем не приходилось идти в другой раздел.",
       hpRefVerse: "стих",
@@ -57,7 +57,6 @@
       hpRefEditionTr: "Перевод издания",
       hpRefOwnTr: "Наш подстрочник",
       hpRefMetre: "Метр",
-      abbrHead: "Сокращения в этом разделе",
       build: "версия"
     },
     en: {
@@ -97,7 +96,7 @@
       treatises: "Treatises",
       allAsanas: "All āsanas",
       verseDeva: "Devanagari",
-      verseIast: "IAST",
+      verseIast: "Latin transliteration",
       verseCyr: "Cyrillic transliteration",
       hpRefLead: "This is how the verse is printed in the critical edition; below are the translation and every manuscript named in its apparatus, so that nothing has to be looked up in another section.",
       hpRefVerse: "verse",
@@ -109,12 +108,11 @@
       hpRefEditionTr: "Edition translation",
       hpRefOwnTr: "Our rendering",
       hpRefMetre: "Metre",
-      abbrHead: "Abbreviations in this section",
       build: "build"
     }
   };
 
-  const BUILD = "2026-11-06.01";
+  const BUILD = "2026-11-06.03";
   const V = "?v=" + BUILD;
 
   const state = {
@@ -162,7 +160,6 @@
   let treatises = [];
   let activeTreatise = null;
   let lastPoseKey = null;
-  let abbrList = [];      // сокращения, раскрытые в data/abbreviations.json
   let hpIndex = null;     // стихи «Хат̣хапрадӣпики» по номерам: 1.30 → карточка
   let hpAlias = {};       // старая нумерация → критическое издание: 3.79 → 3.74
 
@@ -327,15 +324,6 @@
     );
     treatises = loaded;
 
-    // Справочник сокращений — отдельный файл: он не про трактат, а про то,
-    // как читать аппарат любого из них.
-    try {
-      const abbr = await fetch(asset("data/abbreviations.json") + V).then((r) =>
-        (r.ok ? r.json() : null));
-      abbrList = (abbr && abbr.entries) || [];
-    } catch (e) {
-      abbrList = [];
-    }
     // Глава 3 «Хат̣хапрадӣпики» лежит отдельным файлом: в двух PDF её не было,
     // а позу Випарӣта-каран̣ӣ трактат описывает именно там. Стихи встают
     // в тот же трактат, чтобы у позы был его собственный раздел, а не сноска.
@@ -628,8 +616,8 @@
     markCurrent();
     wireDating(view);
     wireVerseTabs(view);
-    wireAbbrNotes(view);
     wireHpRefs(view);
+    plainWording(view);
     document.title = pageTitle(route);
     window.scrollTo({ top: 0, behavior: "auto" });
   }
@@ -1417,39 +1405,407 @@
     });
   }
 
-  /* ------------------------------- сокращения: расшифровка в каждом разделе
+  /* ------------------------------------- никаких сокращений: только слова
 
-     Аппарат цитируется дословно, поэтому сокращение внутри цитаты остаётся
-     как в источнике. Расшифровка ставится в начале раздела — до того места,
-     где сокращение встретится, — и перечисляет только те сокращения, которые
-     в этом разделе действительно есть.
+     Источники печатают аппарат сокращениями: «GOML 18885, Ченнаи (GOML —
+     Government Oriental Manuscripts Library…)», «NGMPP B 62-20, Непал
+     (микрофильм; NGMPP — …)», «HP 1.30», «f. 78r», «ms. no. 2230», «v.l.».
+     Читателю эти знаки ничего не дают: он не обязан их знать, а страница —
+     не аппарат критического издания, а объяснение.
+
+     Поэтому перед показом в каждом текстовом узле сокращение заменяется
+     полным названием, а дублирующие пояснения в скобках («GOML — …») снимаются.
+     Ничего не дописывается: раскрывается только то, что стояло за знаком.
+     Язык подстановки берётся из самого узла: в русской фразе — русское
+     название, в английской — английское.
   */
-  function wireAbbrNotes(root) {
-    if (!abbrList.length) return;
-    $$(".treatise-block", root).forEach((block) => {
-      const text = block.textContent || "";
-      const used = abbrList.filter((a) => {
-        // границы слова — по свойствам Unicode, без перечисления алфавитов:
-        // иначе в самом коде страницы оказалось бы слово из двух письменностей
-        const re = new RegExp("(^|[^\\p{L}\\p{N}])" +
-          a.code.replace(/[.*+?^${}()|[\]\\]/g, "\\$&") +
-          "($|[^\\p{L}\\p{N}])", "u");
-        return re.test(text);
-      });
-      if (!used.length) return;
-      const head = $(".treatise-head", block);
-      const box = document.createElement("div");
-      box.className = "abbr-note";
-      box.innerHTML = '<p class="abbr-note-head">' + esc(t("abbrHead")) + "</p>" +
-        '<ul class="abbr-list">' + used.map((a) =>
-          '<li><b>' + esc(a.code) + "</b> — " +
-          esc(state.lang === "en" ? a.en : a.ru) + "</li>").join("") + "</ul>";
-      if (head && head.parentElement === block) {
-        block.insertBefore(box, head.nextSibling);
-      } else {
-        block.insertBefore(box, block.firstChild);
-      }
+
+  const LIBRARIES = [
+    { code: "GOML", kind: "ms",
+      ru: "Государственная библиотека восточных рукописей, Ченнаи",
+      en: "Government Oriental Manuscripts Library" },
+    { code: "NGMPP", kind: "film",
+      ru: "Непальско-германский проект сохранения рукописей",
+      en: "Nepalese-German Manuscript Preservation Project" },
+    { code: "NGMCP", kind: "none",
+      ru: "Непальско-германский проект каталогизации рукописей",
+      en: "Nepalese-German Manuscript Cataloguing Project" },
+    { code: "BISM", kind: "ms",
+      ru: "Bhārata Itihāsa Saṃśodhaka Maṇḍala, Пуне",
+      en: "Bharata Itihasa Samshodhaka Mandala" },
+    { code: "MSPP", kind: "ms",
+      ru: "Maharaja Man Singh Pustak Prakash, форт Мехрангарх, Джодхпур",
+      en: "Maharaja Man Singh Pustak Prakash, Mehrangarh Fort, Jodhpur" },
+    { code: "MMSPP", kind: "ms",
+      ru: "Maharaja Man Singh Pustak Prakash, форт Мехрангарх, Джодхпур",
+      en: "Maharaja Man Singh Pustak Prakash, Mehrangarh Fort, Jodhpur" },
+    { code: "ORI", kind: "none",
+      ru: "Восточный научно-исследовательский институт, Майсур",
+      en: "Oriental Research Institute, Mysore" },
+    { code: "BHU", kind: "ms",
+      ru: "Бенаресский индуистский университет, Варанаси",
+      en: "Banaras Hindu University, Varanasi" },
+    { code: "TMSSML", kind: "ms",
+      ru: "Thanjavur Maharaja Serfoji’s Sarasvatī Mahal Library, Тханджавур",
+      en: "Thanjavur Maharaja Serfoji’s Sarasvatī Mahal Library" },
+    { code: "EFEO", kind: "none",
+      ru: "Французская школа Дальнего Востока, Пондичерри",
+      en: "École française d’Extrême-Orient" },
+    { code: "IGNCA", kind: "none",
+      ru: "Национальный центр искусств имени Индиры Ганди, Нью-Дели",
+      en: "Indira Gandhi National Centre for the Arts, New Delhi" },
+    { code: "BORI", kind: "none",
+      ru: "Bhandarkar Oriental Research Institute, Пуне",
+      en: "Bhandarkar Oriental Research Institute" },
+    { code: "VOHD", kind: "none",
+      ru: "сводный каталог восточных рукописей в собраниях Германии (Verzeichnis der orientalischen Handschriften in Deutschland)",
+      en: "Verzeichnis der orientalischen Handschriften in Deutschland" }
+  ];
+
+  const TEXTS = {
+    "HP": ["Хат̣хапрадӣпикā", "Haṭhapradīpikā"],
+    "ХП": ["Хат̣хапрадӣпикā", "Haṭhapradīpikā"],
+    "ВС": ["Васишт̣ха-сам̣хитā", "Vasiṣṭha Saṃhitā"],
+    "VS": ["Васишт̣ха-сам̣хитā", "Vasiṣṭha Saṃhitā"],
+    "YY": ["Йога-йāджн̃авалкйа", "Yogayājñavalkya"],
+    "JSS": ["Джн̃āнайогакāн̣д̣а Сӯта-сам̣хиты", "Jñānayogakāṇḍa of the Sūta Saṃhitā"],
+    "DYS": ["Даттāтрея-йога-ш́āстра", "Dattātreyayogaśāstra"],
+    "DYŚ": ["Даттāтрея-йога-ш́āстра", "Dattātreyayogaśāstra"],
+    "HRĀ": ["Хат̣харатнāвали", "Haṭharatnāvalī"],
+    "YCM": ["Йогачинтāман̣и", "Yogacintāmaṇi"],
+    "YBhD": ["Йуктабхавадева", "Yuktabhavadeva"],
+    "HSC": ["Хат̣хасан̇кетачандрикā", "Haṭhasaṅketacandrikā"],
+    "VM": ["Вивека-мāртан̣д̣а", "Vivekamārtaṇḍa"],
+    "ŚS": ["Ш́ива-сам̣хитā", "Śivasaṃhitā"],
+    "HTK": ["Хат̣хататтвакаумудӣ", "Haṭhatattvakaumudī"],
+    "ŚP": ["Ш́āрн̇гадхара-паддхати", "Śārṅgadharapaddhati"]
+  };
+
+  // Язык подстановки — по самой фразе: санскритские и латинские названия
+  // рукописей в русской фразе не делают её английской, поэтому кириллицы
+  // достаточно и втрое меньше, чем латиницы.
+  function langOf(text) {
+    const cyr = (text.match(/[\u0400-\u04FF]/g) || []).length;
+    const lat = (text.match(/[A-Za-z\u00C0-\u024F]/g) || []).length;
+    if (!cyr) return "en";
+    if (cyr * 3 >= lat) return "ru";
+    // «XIII в.», «т. II, с. 293–296»: латиница здесь — только римские цифры
+    const words = text.match(/[A-Za-z\u00C0-\u024F]+/g) || [];
+    return words.length && words.every((w) => /^[IVXLCDM]+$/.test(w)) ? "ru" : "en";
+  }
+
+  const escRe = (str) => str.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  const LIB_CODES = LIBRARIES.map((l) => l.code).join("|");
+
+  function plainWording(root) {
+    const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, null);
+    const nodes = [];
+    let node = walker.nextNode();
+    while (node) {
+      const parent = node.parentElement;
+      if (parent && !parent.closest("code, script, style, select, textarea")) nodes.push(node);
+      node = walker.nextNode();
+    }
+    // Язык страницы главнее подсчёта букв в узле: в русской статье латинская
+    // библиография всё равно читается по-русски. Исключение — дословный
+    // английский оригинал (prose-orig): он остаётся английским.
+    const pageRu = (document.documentElement.getAttribute("lang") || "").startsWith("ru");
+    nodes.forEach((n) => {
+      const before = n.nodeValue;
+      const english = n.parentElement && n.parentElement.closest(".prose-orig");
+      const forced = english ? "en" : (pageRu ? "ru" : "");
+      const after = plainText(before, forced);
+      if (after !== before) n.nodeValue = after;
     });
+  }
+
+  function plainText(text, forced) {
+    if (!text || (!/\p{L}/u.test(text) && !/№/.test(text))) return text;
+    const nodeRu = langOf(text) === "ru";
+    const ru = forced ? forced === "ru" : nodeRu;
+    const idx = ru ? 0 : 1;
+    let out = text;
+
+    // 1. снять дублирующие расшифровки в скобках: «(GOML — …)», «(MSPP)»
+    out = out.replace(
+      new RegExp("\\s*\\((?:[^()]{0,24}[;,]\\s*)?(?:" + LIB_CODES +
+        ")\\s*[—–-]\\s*[^()]{0,160}\\)", "g"), "");
+    out = out.replace(new RegExp("\\s*\\((?:" + LIB_CODES + ")\\)", "g"), "");
+
+    // 2. собрание + шифр → полное название и слово «рукопись»
+    LIBRARIES.forEach((lib) => {
+      if (lib.kind === "none") return;
+      const code = escRe(lib.code);
+      const name = lib[ru ? "ru" : "en"];
+      const mark = lib.kind === "film"
+        ? (ru ? ", микрофильм " : ", microfilm ")
+        : (ru ? ", рукопись " : ", manuscript ");
+      out = out.replace(
+        new RegExp("\\b" + code + "[,]?\\s*(?:ms\\.|MS|mss\\.)?\\s*(?:no\\.|№)?\\s*" +
+          "([A-Za-z0-9][\\w./()-]*)(,\\s*(\\p{Lu}[^\\s,;)]*))?", "gu"),
+        (m, shelf, withCity, city) =>
+          name + mark + shelf + (withCity && !name.includes(city) ? withCity : ""));
+    });
+    out = out.replace(
+      new RegExp("\\b(?:" + LIB_CODES + ")\\b", "g"),
+      (m) => {
+        const lib = LIBRARIES.find((l) => l.code === m);
+        return lib ? lib[ru ? "ru" : "en"] : m;
+      });
+
+    // 3. сокращения аппарата, библиографии и грамматические пометы → полные слова
+    const W = (r, e) => (ru ? r : e);
+    const ruPrep = "не\\s+позднее(?:\\s+чем)?|не\\s+ранее|начиная\\s+с|вплоть\\s+до|конца|начала|середины" +
+      "|в|во|к|ко|с|со|до|от|после|около|при|о|об|на";
+    const ruPrepKey = (p) => p.toLowerCase().replace(/\s+/g, " ").trim();
+    const ruYearForm = (p) => {
+      const k = ruPrepKey(p);
+      if (/^(в|во|к|ко|о|об|при)$/.test(k)) return "году";
+      if (/^на$/.test(k)) return "год";
+      return "года";
+    };
+    const ruYearsForm = (p) => {
+      const k = ruPrepKey(p);
+      if (k === "в" || k === "во") return "годах";
+      if (k === "на") return "годы";
+      return "годов";
+    };
+    const swap = (pairs) => {
+      pairs.forEach(([a, b]) => {
+        const body = a.replace(/[.*+?^${}()|[\]\\]/g, "\\$&").replace(/\s+/g, "\\s+");
+        out = out.replace(new RegExp("(?<![\\p{L}\\p{N}])" + body + "(?![\\p{L}])", "gu"), b);
+      });
+    };
+
+    // 3.1 эры до общей эры и эра Викрамы — раньше чисел, чтобы «г.» попал в оборот
+    out = out.replace(/(?<![\p{L}])V\.\s?S\.\s*(?=\d)/gu, W("эра Викрамы ", "Vikrama era "));
+    const afterSentence = /^(?:\s+[«"(\p{Lu}]|$)/u;
+    out = out.replace(/(?<![\p{L}])A\.\s?D\./gu,
+      (m, off, str) => W("нашей эры", "of the Common Era") + (afterSentence.test(str.slice(off + m.length)) ? "." : ""));
+    out = out.replace(/(?<![\p{L}])B\.\s?C\./gu,
+      (m, off, str) => W("до нашей эры", "before the Common Era") + (afterSentence.test(str.slice(off + m.length)) ? "." : ""));
+    out = out.replace(/(?<![\p{L}])до\s+н\.\s*э\./giu, "до нашей эры");
+    out = out.replace(/(?<![\p{L}])н\.\s*э\./giu,
+      (m, off, str) => "нашей эры" + (afterSentence.test(str.slice(off + m.length)) ? "." : ""));
+
+    // 3.2 словарные сокращения — раньше чисел, чтобы «ок. 1350 г.» стало «около 1350 года».
+    if (ru) {
+      out = out.replace(/(?<![\p{L}])к\s+изд\./gu, "к изданию");
+      out = out.replace(/(?<![\p{L}])в\s+изд\./gu, "в издании");
+      swap([
+        ["ср. р.", "средний род"], ["муж. р.", "мужской род"], ["жен. р.", "женский род"],
+        ["в вин. пад.", "в винительном падеже"], ["в им. пад.", "в именительном падеже"],
+        ["в род. пад.", "в родительном падеже"], ["в дат. пад.", "в дательном падеже"],
+        ["в творит. пад.", "в творительном падеже"], ["в местн. пад.", "в местном падеже"],
+        ["в зват. пад.", "в звательном падеже"],
+        ["отложит. пад.", "отложительный падеж"],
+        ["вин. пад.", "винительный падеж"], ["им. пад.", "именительный падеж"],
+        ["род. пад.", "родительный падеж"], ["дат. пад.", "дательный падеж"],
+        ["творит. пад.", "творительный падеж"], ["местн. пад.", "местный падеж"],
+        ["зват. пад.", "звательный падеж"],
+        ["ед. ч.", "единственное число"], ["мн. ч.", "множественное число"],
+        ["двойств. ч.", "двойственное число"], ["двойств.", "двойственное число"],
+        ["прош. вр.", "прошедшего времени"], ["наст. вр.", "настоящего времени"],
+        ["буд. вр.", "будущего времени"], ["3-е л.", "третье лицо"],
+        ["страд. залога", "страдательного залога"], ["страд.", "страдательный"],
+        ["действ. залога", "действительного залога"],
+        ["указат. местоим.", "указательное местоимение"],
+        ["местоим. прил.", "местоимённое прилагательное"], ["местоим.", "местоимение"],
+        ["сущ.", "существительное"], ["прил.", "прилагательное"], ["нареч.", "наречие"],
+        ["прич.", "причастие"], ["деепр.", "деепричастие"], ["нескл.", "несклоняемое"],
+        ["букв.", "буквально"],
+        ["т. е.", "то есть"], ["т. п.", "тому подобное"], ["т. д.", "так далее"],
+        ["т. к.", "так как"], ["т. н.", "так называемый"],
+        ["ср.", "сравните"], ["Ср.", "Сравните"], ["см.", "смотрите"], ["См.", "Смотрите"],
+        ["прим.", "примечание"], ["Прим.", "Примечание"],
+        ["изд.", "издание"], ["Изд.", "Издание"],
+        ["ок.", "около"], ["др.", "другие"], ["напр.", "например"], ["соавт.", "соавторы"],
+        ["англ.", "английский"], ["пер.", "перевод"], ["стлб.", "столбец"],
+        ["разд.", "раздел"], ["пп.", "пункты"], ["гл.", "глава"],
+        ["д-ра", "доктора"], ["д-р", "доктор"], ["т.", "том"], ["род.", "родился"],
+      ]);
+      out = out.replace(/(?<![\p{L}\p{N}])ст\.\s*(?=[«"])/gu, "статья ");
+      out = out.replace(/(?<![\p{L}\p{N}])п\.\s*(?=\d)/gu, "пункт ");
+      out = out.replace(/(?<![\p{L}\p{N}])л\.\s*(?=\d)/gu, "лист ");
+      out = out.replace(/(?<![\p{L}\p{N}])ч\.\s*(?=[IVXLC\d])/gu, "часть ");
+    } else {
+      // редкие кириллические пометы внутри английской фразы читаются по-английски
+      swap([["прим.", "note"], ["Прим.", "Note"], ["см.", "see"], ["изд.", "edition"],
+        ["т. е.", "that is"], ["т. п.", "and so on"], ["ср.", "compare"],
+        ["соавт.", "co-authors"], ["ок.", "around"]]);
+    }
+    if (!ru) {
+      swap([
+        ["et al.", "and others"],
+        ["Prof.", "Professor"], ["Dr.", "Doctor"],
+        ["v. l.", "variant reading"], ["v.l.", "variant reading"],
+        ["op. cit.", "the same work"],
+        ["e.g.", "for example"], ["i.e.", "that is"], ["viz.", "namely"],
+        ["Cf.", "Compare"], ["cf.", "compare"], ["etc.", "and so on"],
+        ["ibid.", "there"], ["Ibid.", "There"],
+        ["lit.", "literally"], ["ind.", "indeclinable"],
+        ["imperf.", "imperfect"], ["imperat.", "imperative"], ["pres.", "present"],
+        ["opt.", "optative"],
+      ]);
+    }
+
+    // 3.3 собрания и шифры (латинские обозначения, встречаются в обоих языках)
+    out = out.replace(/(?<![\p{L}\p{N}])Ms?\.\s*or\.\s*(\d)/gu,
+      (m, n) => W("рукопись восточного фонда " + n, "manuscript, Orientalia " + n));
+    out = out.replace(/(?<![\p{L}\p{N}])Ms?\.\s*or\.\s*oct\.\s*/gu,
+      W("рукопись, восточный фонд, октаво ", "manuscript, Orientalia, octavo "));
+    out = out.replace(/(?<![\p{L}\p{N}])or\.\s*fol\.\s*/gu,
+      W("восточный фонд, фолио ", "Orientalia, folio "));
+    out = out.replace(/(?<![\p{L}\p{N}])or\.\s*(?=\d)/gu,
+      (m, off, str) => (/рукопис[ьи]\s*$/u.test(str.slice(0, off))
+        ? W("восточного фонда ", "Orientalia ")
+        : W("Orientalia ", "Orientalia ")));
+    out = out.replace(/(?<![\p{L}\p{N}])MSS\.?\s+(?=[\dA-Z])/gu, W("рукописи ", "manuscripts "));
+    out = out.replace(/(?<![\p{L}\p{N}])MS\.\s*(?=[\dA-Z])/gu, W("рукопись ", "manuscript "));
+    out = out.replace(/(?<![\p{L}\p{N}])mss\.\s*/gu, W("рукописи ", "manuscripts "));
+    out = out.replace(/(?<![\p{L}\p{N}])ms\.\s*/gu, W("рукопись ", "manuscript "));
+    out = out.replace(/(?<![\p{L}\p{N}])Nos\.\s*/gu, W("номера ", "numbers "));
+    out = out.replace(/(?<![\p{L}\p{N}])[Nn]o\.(?=\s|$)/gu, W("номер", "number"));
+    out = out.replace(/(?<![\p{L}\p{N}])Bd\.\s*/gu, W("том ", "volume "));
+    out = out.replace(/(?<![\p{L}\p{N}])S\.\s*(?=\d)/gu, W("страницы ", "pages "));
+    out = out.replace(/(?<![\p{L}\p{N}])vols\.\s*/gu, W("тома ", "volumes "));
+    out = out.replace(/(?<![\p{L}\p{N}])[Vv]ol\.\s*/gu, W("том ", "volume "));
+    out = out.replace(/(?<![\p{L}\p{N}])col\.\s*/gu, W("столбец ", "column "));
+    out = out.replace(/(?<![\p{L}\p{N}])pp\.\s*/gu, W("страницы ", "pages "));
+    out = out.replace(/(?<![\p{L}\p{N}])Pp\.\s*/gu, W("Страницы ", "Pages "));
+    out = out.replace(/(?<![\p{L}\p{N}])p\.\s*(?=\d|[ivxlc]+\b)/gu, W("страница ", "page "));
+    out = out.replace(/(?<![\p{L}\p{N}])vv\.\s*/gu, W("стихи ", "verses "));
+    out = out.replace(/(?<![\p{L}\p{N}])v\.\s*(?=\d)/gu, W("стих ", "verse "));
+    out = out.replace(/(?<![\p{L}\p{N}])(?:[Cc]h|CH)\.\s*/gu, W("глава ", "chapter "));
+    out = out.replace(/(\d)\s*ff\.(?![\p{L}])/gu, W("$1 и следующие страницы", "$1 and the following pages"));
+    out = out.replace(/(\d)\s*f\.(?![\p{L}])/gu, W("$1 и следующая страница", "$1 and the following page"));
+    out = out.replace(/(?<![\p{L}\p{N}])(?:f|fol)\.\s*(\d+)\s*([rv])(?![\p{L}])/gu,
+      (m, n, side) => W("лист " + n + (side === "r" ? ", лицевая сторона" : ", оборотная сторона"),
+        "folio " + n + (side === "r" ? ", recto" : ", verso")));
+    out = out.replace(/(?<![\p{L}\p{N}])(?:f|fol)\.\s*(\d+)(?![\p{L}\d])/gu,
+      (m, n) => W("лист " + n, "folio " + n));
+    out = out.replace(/(?<![\p{L}\p{N}])(?:[Ee]d|EDS|Eds)\.\s*/gu, W("издание ", "edited by "));
+    out = out.replace(/(?<![\p{L}\p{N}])fl\.\s*(?=\d)/gu, W("годы деятельности — ", "flourished "));
+
+    // 3.34 «ca.», «n°», «CE»/«BCE»
+    out = out.replace(/(?<![\p{L}\p{N}])(?:ca|circa)\.\s*(?=\d)/gu, W("около ", "around "));
+    out = out.replace(/(?<![\p{L}\p{N}])n°/gu, W("номер ", "number "));
+    out = out.replace(/(\d)\s*BCE(?![\p{L}])/gu, W("$1 до нашей эры", "$1 BCE"));
+    out = out.replace(/(\d)\s*CE(?![\p{L}])/gu, W("$1 нашей эры", "$1 CE"));
+
+    // 3.35 сокращения в названиях собраний и серий
+    out = out.replace(/(?<![\p{L}])колледж\s+DAV(?!\p{L})/gu,
+      W("Англо-ведический колледж имени Даянанды", "Dayanand Anglo-Vedic College"));
+    out = out.replace(/(?<![\p{L}])DAV\s+College(?!\p{L})/gu, "Dayanand Anglo-Vedic College");
+    out = out.replace(/(?<![\p{L}])DAV(?!\p{L})/gu,
+      W("Англо-ведический колледж имени Даянанды", "Dayanand Anglo-Vedic College"));
+    out = out.replace(/(?<![\p{L}])GOS(?!\p{L})/gu, "Gaekwad’s Oriental Series");
+
+    // 3.4 годы и века
+    if (ru) {
+      out = out.replace(new RegExp("(?<![\\p{L}])((?:" + ruPrep + ")\\s+)(\\d{3,4}[–—-]\\d{3,4})\\s*гг\\.(?!\\p{L})", "giu"),
+        (m, p, r) => p + r + " " + ruYearsForm(p));
+      out = out.replace(new RegExp("(?<![\\p{L}])((?:" + ruPrep + ")\\s+)(\\d{3,4})\\s*г\\.(?!\\p{L})", "giu"),
+        (m, p, y) => p + y + " " + ruYearForm(p));
+      out = out.replace(new RegExp("(?<![\\p{L}])((?:" + ruPrep + ")\\s+)([IVXLC]+)\\s*в\\.(?![\\p{L}])", "gu"),
+        (m, p, c) => {
+          const k = ruPrepKey(p);
+          const form = { "в": "веке", "во": "веке", "к": "веку", "ко": "веку", "до": "века",
+            "с": "века", "со": "века", "конца": "века", "начала": "века", "середины": "века",
+            "на": "век", "о": "веке", "об": "веке", "при": "веке",
+            "от": "века", "после": "века", "около": "века" }[k] || "века";
+          return p + c + " " + form;
+        });
+      out = out.replace(/(?<![\p{L}])([IVXLC]+(?:[–—-][IVXLC]+)?)\s*вв\.(?![\p{L}])/gu, "$1 века");
+      out = out.replace(/(?<![\p{L}])([IVXLC]+)\s*в\.(?![\p{L}])/gu, "$1 век");
+      out = out.replace(/(?<![\p{L}])(\d{3,4}[–—-]\d{3,4})\s*гг\.(?![\p{L}])/gu, "$1 годы");
+      out = out.replace(/(?<![\p{L}])(\d{3,4})\s*гг\.(?![\p{L}])/gu, "$1 годы");
+      out = out.replace(/(издани\p{L}*\s+)(\d{3,4})\s*г\./gu, "$1$2 года");
+      out = out.replace(/(?<![\p{L}])(\d{3,4})\s*г\.(?![\p{L}])/gu, "$1 год");
+
+      // страницы: «на с. 94–99» → «на страницах 94–99», «С. 21» → «Страница 21»
+      out = out.replace(/(?<=на\s+)[Сс]\.\s*(?=\d)/gu, "страницах ");
+      out = out.replace(/(?<![\p{L}])([Сс])\.\s*(\d+)\s*([–—-])\s*(\d+)/gu,
+        (m, c, a, d, b) => (c === "С" ? "Страницы " : "страницы ") + a + d + b);
+      out = out.replace(/(?<![\p{L}\p{N}])([Сс])\.\s*(\d)/gu,
+        (m, c, d) => (c === "С" ? "Страница " : "страница ") + d);
+      out = out.replace(/(\d)\s*об\.(?![\p{L}])/gu, "$1, оборотная сторона");
+      // арабские века: «к началу 8 в.», «7–8 вв.»
+      out = out.replace(new RegExp("(?<![\\p{L}])((?:" + ruPrep + ")\\s+)(\\d{1,2})\\s*в\\.(?![\\p{L}])", "gu"),
+        (m, p, c) => {
+          const k = ruPrepKey(p);
+          const form = { "в": "веке", "во": "веке", "к": "веку", "ко": "веку", "до": "века",
+            "с": "века", "со": "века", "конца": "века", "начала": "века", "середины": "века",
+            "на": "век", "о": "веке", "об": "веке", "при": "веке" }[k] || "века";
+          return p + c + " " + form;
+        });
+      out = out.replace(/(?<![\p{L}])(\d{1,2}(?:[–—-]\d{1,2})?)\s*вв\.(?![\p{L}])/gu, "$1 века");
+      out = out.replace(/(?<![\p{L}])(\d{1,2})\s*в\.(?![\p{L}])/gu, "$1 век");
+    } else {
+      out = out.replace(/(?<![\p{L}])(\d{3,4}[–—-]\d{3,4})\s*гг\.(?!\p{L})/gu, "$1 years");
+      out = out.replace(/(?<![\p{L}])(\d{3,4})\s*г\.(?!\p{L})/gu, "$1 year");
+      out = out.replace(/(?<![\p{L}])([IVXLC]+|\d{1,2})\s*вв\.(?!\p{L})/gu, "$1 centuries");
+      out = out.replace(/(?<![\p{L}])([IVXLC]+|\d{1,2})\s*в\.(?!\p{L})/gu, "$1 century");
+      out = out.replace(/(?<![\p{L}\p{N}])([Сс])\.\s*(\d+)\s*([–—-])\s*(\d+)/gu, "pages $2$3$4");
+      out = out.replace(/(?<![\p{L}\p{N}])([Сс])\.\s*(\d)/gu, "page $2");
+    }
+    if (!ru) {
+      out = out.replace(/(?<!\d)(\d+(?:th|st|nd|rd))\s*c\.(?![\p{L}])/g, "$1 century");
+      out = out.replace(/(?<![\p{L}\p{N}])c\.\s*(?=\d)/g, "around ");
+    }
+
+    // 3.5 грамматические пометы в скобках: «(acc. sg. n.)» → «(accusative singular neuter)».
+    // Пометы латинские, поэтому и раскрываются по-английски: они принадлежат
+    // английскому разбору, даже когда стоят в русской статье.
+    const grammar = {
+      acc: "accusative", nom: "nominative", gen: "genitive", dat: "dative",
+      abl: "ablative", loc: "locative", voc: "vocative", instr: "instrumental",
+      sg: "singular", du: "dual", pl: "plural",
+      m: "masculine", f: "feminine", n: "neuter",
+      ind: "indeclinable", adv: "adverb", imperat: "imperative", opt: "optative",
+      part: "participle", pp: "past participle", ger: "gerund", caus: "causative",
+      pres: "present", imperf: "imperfect", lit: "literally",
+      ppp: "perfect passive participle", rel: "relative", pron: "pronoun",
+      act: "active", pass: "passive", med: "middle",
+    };
+    out = out.replace(/\(([^()]{1,48})\)/g, (m, inner) => {
+      const raw = inner.trim();
+      if (!raw || /[^a-z./\s]/.test(raw)) return m;
+      const groups = raw.split("/").map((g) => g.replace(/\./g, " ").trim());
+      const parsed = groups.map((g) => g.split(/\s+/).filter(Boolean));
+      if (!parsed.every((g) => g.length && g.every((p) => grammar[p]))) return m;
+      return "(" + parsed.map((g) => g.map((p) => grammar[p]).join(" ")).join("/") + ")";
+    });
+
+    // 3.6 прочие сокращения
+    if (ru) {
+      swap([["etc.", "и так далее"], ["viz.", "а именно"], ["cf.", "сравните"],
+        ["i.e.", "то есть"], ["e.g.", "например"], ["ibid.", "там же"]]);
+      out = out.replace(/(?<![\p{L}\p{N}])et\s+al\./gu, "и другие");
+      out = out.replace(/(?<![\p{L}\p{N}])[Nn]\.\s*(?=\d)/gu, "примечание ");
+      out = out.replace(/(?<![\p{L}\p{N}])nn\.\s*(?=\d)/gu, "примечания ");
+      out = out.replace(/(?<![\p{L}\p{N}])Dr\.\s*(?=\p{Lu})/gu, "доктор ");
+      out = out.replace(/(?<![\p{L}\p{N}])Prof\.\s*(?=\p{Lu})/gu, "профессор ");
+    }
+    if (!ru) {
+      out = out.replace(/(?<![\p{L}\p{N}])(?:sg|pl)\.(?![\p{L}])/gu, (m) => (m[0] === "s" ? "singular" : "plural"));
+      out = out.replace(/(?<![\p{L}\p{N}])conj\.(?![\p{L}])/gu, "conjunction");
+      out = out.replace(/(?<![\p{L}\p{N}])(act|pass|med)\.(?![\p{L}])/gu,
+        (m, k) => ({ act: "active", pass: "passive", med: "middle" }[k]));
+      out = out.replace(/(?<![\p{L}\p{N}])nn\.\s*(?=\d)/gu, "notes ");
+      out = out.replace(/(?<![\p{L}\p{N}])[Nn]\.\s*(?=\d)/gu, (m) => (m[0] === "N" ? "Note " : "note "));
+    }
+    // знак номера
+    out = out.replace(/№\s*/g, W("номер ", "number "));
+    out = out.replace(/(?<![\p{L}])рукопись\s+номер\s+/gu, "рукопись под номером ");
+
+    // 4. сокращённые названия текстов → полные, в кавычках
+    out = out.replace(/(?<![\p{L}])VS(?=\s*\d)/gu, ru ? "эра Викрамы" : "Vikrama era");
+    out = out.replace(
+      /(?<![\p{L}])(HP|ХП|ВС|VS|YY|JSS|DYŚ|DYS|HRĀ|YCM|YBhD|HSC|VM|ŚS|HTK|ŚP)(?![\p{L}])/gu,
+      (m) => "«" + TEXTS[m][idx] + "»");
+
+    return out;
   }
 
   function wireDating(root) {
