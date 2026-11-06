@@ -47,6 +47,17 @@
       verseDeva: "Деванагари",
       verseIast: "IAST",
       verseCyr: "Кириллическая транслитерация",
+      hpRefLead: "Этот стих напечатан в критическом издании так; ниже — перевод и все рукописи, названные в его аппарате, чтобы ни за чем не приходилось идти в другой раздел.",
+      hpRefVerse: "стих",
+      hpRefVerses: "стихи",
+      hpRefHere: "здесь же",
+      hpRefApparatus: "Рукописи и чтения",
+      hpRefAlias: "Ссылка выше дана по нумерации старых изданий ({old}); в критическом издании этот стих — {new}. Стих напечатан здесь в нумерации критического издания.",
+      chapterAdded: "Сверх главы 1 в собрание добавлена глава 3 — четыре стиха о Випарӣта-каран̣ӣ (3.73–3.77) и ещё один перед ними; они взяты из того же электронного критического издания, потому что других āсан в главе 3 нет. Страница позы: ",
+      hpRefEditionTr: "Перевод издания",
+      hpRefOwnTr: "Наш подстрочник",
+      hpRefMetre: "Метр",
+      abbrHead: "Сокращения в этом разделе",
       build: "версия"
     },
     en: {
@@ -88,11 +99,22 @@
       verseDeva: "Devanagari",
       verseIast: "IAST",
       verseCyr: "Cyrillic transliteration",
+      hpRefLead: "This is how the verse is printed in the critical edition; below are the translation and every manuscript named in its apparatus, so that nothing has to be looked up in another section.",
+      hpRefVerse: "verse",
+      hpRefVerses: "verses",
+      hpRefHere: "right here",
+      hpRefApparatus: "Manuscripts and readings",
+      hpRefAlias: "The reference above uses the numbering of the older editions ({old}); in the critical edition this verse is {new}. The verse is printed here in the critical edition’s numbering.",
+      chapterAdded: "Besides chapter 1, chapter 3 has been added to the collection: the verses on Viparītakaraṇī (3.73–3.77) together with the one before them, taken from the same electronic critical edition, because chapter 3 contains no other āsanas. The pose page: ",
+      hpRefEditionTr: "Edition translation",
+      hpRefOwnTr: "Our rendering",
+      hpRefMetre: "Metre",
+      abbrHead: "Abbreviations in this section",
       build: "build"
     }
   };
 
-  const BUILD = "2026-11-05.01";
+  const BUILD = "2026-11-06.01";
   const V = "?v=" + BUILD;
 
   const state = {
@@ -140,6 +162,9 @@
   let treatises = [];
   let activeTreatise = null;
   let lastPoseKey = null;
+  let abbrList = [];      // сокращения, раскрытые в data/abbreviations.json
+  let hpIndex = null;     // стихи «Хат̣хапрадӣпики» по номерам: 1.30 → карточка
+  let hpAlias = {};       // старая нумерация → критическое издание: 3.79 → 3.74
 
   /* ------------------------------------------------ addresses of the routes */
 
@@ -301,6 +326,35 @@
       })
     );
     treatises = loaded;
+
+    // Справочник сокращений — отдельный файл: он не про трактат, а про то,
+    // как читать аппарат любого из них.
+    try {
+      const abbr = await fetch(asset("data/abbreviations.json") + V).then((r) =>
+        (r.ok ? r.json() : null));
+      abbrList = (abbr && abbr.entries) || [];
+    } catch (e) {
+      abbrList = [];
+    }
+    // Глава 3 «Хат̣хапрадӣпики» лежит отдельным файлом: в двух PDF её не было,
+    // а позу Випарӣта-каран̣ӣ трактат описывает именно там. Стихи встают
+    // в тот же трактат, чтобы у позы был его собственный раздел, а не сноска.
+    const hp = treatises.find((x) => x.id === "hathapradipika");
+    try {
+      const ch3 = await fetch(asset("data/hathapradipika-ch3.json") + V).then((r) =>
+        (r.ok ? r.json() : null));
+      if (hp && ch3 && ch3.poses) {
+        ch3.poses.forEach((pose) => {
+          pose.chapter = 3;
+          pose.addedLater = ch3;
+          hp.poses.push(pose);
+        });
+        hpAlias = (ch3.vulgate && ch3.vulgate.map) || {};
+      }
+    } catch (e) {
+      hpAlias = {};
+    }
+    hpIndex = hp ? buildHpIndex(hp) : null;
 
     // a prerendered treatise page says which treatise it is; that wins over the
     // one the visitor last looked at
@@ -574,6 +628,8 @@
     markCurrent();
     wireDating(view);
     wireVerseTabs(view);
+    wireAbbrNotes(view);
+    wireHpRefs(view);
     document.title = pageTitle(route);
     window.scrollTo({ top: 0, behavior: "auto" });
   }
@@ -676,9 +732,10 @@
       html += '<section class="treatise-block">';
       html += '<div class="treatise-head">';
       html += "<h2>" + esc(tx(tr.title)) + "</h2>";
+      const chap = pose.chapter || tr.chapter;
       html += '<span class="ref">' +
         esc(tx(tr.chapterWord) || (state.lang === "ru" ? "глава" : "chapter")) +
-        (tr.chapter ? " " + esc(tr.chapter) : "") + "</span>";
+        (chap ? " " + esc(chap) : "") + "</span>";
       if (multi) {
         html += '<a class="link" href="' + url("about", null, null, tr.id) + '">' +
           esc(t("toAbout")) + "</a>";
@@ -1178,6 +1235,15 @@
       html = '<p class="about-meta">' + meta + "</p>" + html;
     }
 
+    // Глава, добавленная в собрание сверх PDF (глава 3 «Хат̣хапрадӣпики»),
+    // называется здесь же: в оглавлении самого издания её нет.
+    const added = activeTreatise.poses.find((p) => p.addedLater);
+    if (added) {
+      html += '<p class="about-p about-added">' + esc(t("chapterAdded")) +
+        '<a class="back-link" href="' + url("pose", added.key) + '">' +
+        esc(tx(added.name)) + " →</a></p>";
+    }
+
     const pdfHref = activeTreatise.pdf
       ? asset(encodeURI(activeTreatise.pdf[state.lang] || activeTreatise.pdf.ru))
       : null;
@@ -1194,6 +1260,197 @@
   }
 
   /* ------------------------------------------------------------------- UI */
+
+  /* --------------------------- «Хат̣хапрадӣпикā»: справка прямо на месте
+
+     Другой трактат может сослаться на «Хат̣хапрадӣпику» («ср. HP 1.30»,
+     «HP 1.45–47», «HP 3.79–82»). Читатель не должен ни листать страницу,
+     ни переключать трактат, ни догадываться, о каком стихе речь: рядом
+     с упоминанием встаёт сам стих — деванагари, IAST, кириллица, перевод
+     и весь аппарат с полными названиями рукописей.
+
+     Стихи берутся из данных «Хат̣хапрадӣпики», то есть из того же издания,
+     что и её собственная страница; ничего не переписывается руками.
+  */
+
+  const HP_REF = /(?:\bHP\b|\bХП\b|Haṭhapradīpik\w*)\s*[.:]?\s*(?:гл\.?\s*[1-4]\s*[.,]?\s*)?([1-4])\s*[.,]\s*(\d{1,3})(?:\s*[–—-]\s*(\d{1,3}))?/g;
+
+  // Какой блок данных относится к стиху: заголовок «Стих 1.45–46» открывает
+  // карточку, а всё до следующего заголовка принадлежит ей.
+  function buildHpIndex(doc) {
+    const index = {};
+    const scan = (blocks) => {
+      let entry = null;
+      (blocks || []).forEach((b) => {
+        if (b.type === "h4" && b.text) {
+          const m = /(\d)\s*[.]\s*(\d{1,3})(?:\s*[–—-]\s*(\d{1,3}))?/.exec(b.text);
+          entry = null;
+          if (m) {
+            const chapter = m[1];
+            const from = parseInt(m[2], 10);
+            const to = m[3] ? parseInt(m[3], 10) : from;
+            entry = {
+              chapter: chapter, range: "", sections: null, edition: null,
+              own: null, metre: null, apparatus: [], verses: []
+            };
+            for (let n = from; n <= to; n += 1) {
+              index[chapter + "." + n] = entry;
+              entry.verses.push(chapter + "." + n);
+            }
+            entry.range = to > from
+              ? m[2] + "–" + m[3] : m[2];
+          }
+          return;
+        }
+        if (!entry) return;
+        if (b.type === "verse_card") entry.sections = b.sections;
+        else if (b.type === "prose" && b.key === "edition") entry.edition = b.paragraphs;
+        else if (b.type === "prose" && b.key === "own") entry.own = b.paragraphs;
+        else if (b.type === "prose" && b.key === "metre") entry.metre = b.paragraphs;
+        else if (b.type === "list" && b.items && b.items.length &&
+                 /(Разночтени|Readings)/i.test(String(b.label || ""))) {
+          entry.apparatus = b.items;
+        }
+      });
+    };
+    (doc.poses || []).forEach((p) => scan(p.text[state.lang] || p.text.ru));
+    scan(doc.prologue[state.lang] || doc.prologue.ru);
+    return index;
+  }
+
+  function cardLines(sec) {
+    const lines = (sec && sec.lines) || [];
+    return lines.map((l) => '<span>' + esc(l) + "</span>").join("");
+  }
+
+  function renderHpCard(entry) {
+    const many = String(entry.range).indexOf("–") >= 0;
+    const label = entry.chapter + "." + entry.range;
+    let html = '<aside class="hp-ref">';
+    html += '<p class="hp-ref-head"><span class="hp-ref-name">' +
+      esc(state.lang === "en" ? "Haṭhapradīpikā" : "Хат̣хапрадӣпикā") + "</span>" +
+      '<span class="hp-ref-where">' + esc(many ? t("hpRefVerses") : t("hpRefVerse")) +
+      " " + esc(label) + " · " + esc(t("hpRefHere")) + "</span></p>";
+    html += '<p class="hp-ref-lead">' + esc(t("hpRefLead")) + "</p>";
+    if (entry.printedAs) {
+      html += '<p class="hp-ref-lead hp-ref-alias">' + esc(
+        t("hpRefAlias").replace("{old}", entry.printedAs).replace("{new}", label)
+      ) + "</p>";
+    }
+
+    if (entry.sections) {
+      entry.sections.forEach((sec) => {
+        html += '<p class="hp-ref-line ' + esc(sec.key || "") + '">' +
+          cardLines(sec) + "</p>";
+      });
+    }
+    if (entry.edition && entry.edition.length) {
+      html += '<p class="hp-ref-tr"><span class="hp-ref-tr-label">' +
+        esc(t("hpRefEditionTr")) + "</span> " +
+        entry.edition.map(esc).join(" ") + "</p>";
+    }
+    if (entry.own && entry.own.length) {
+      html += '<p class="hp-ref-tr"><span class="hp-ref-tr-label">' +
+        esc(t("hpRefOwnTr")) + "</span> " +
+        entry.own.map(esc).join(" ") + "</p>";
+    }
+    if (entry.metre && entry.metre.length) {
+      html += '<p class="hp-ref-tr"><span class="hp-ref-tr-label">' +
+        esc(t("hpRefMetre")) + "</span> " + entry.metre.map(esc).join(" ") + "</p>";
+    }
+    if (entry.apparatus && entry.apparatus.length) {
+      html += '<div class="hp-ref-app"><p class="hp-ref-app-head">' +
+        esc(t("hpRefApparatus")) + "</p><ul>";
+      entry.apparatus.forEach((it) => {
+        const body = it && it.html != null ? it.html : esc(it);
+        html += "<li>" + body + "</li>";
+      });
+      html += "</ul></div>";
+    }
+    html += "</aside>";
+    return html;
+  }
+
+  function wireHpRefs(root) {
+    if (!hpIndex) return;
+    const shown = {};
+    const hits = [];
+    const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, null);
+    let node = walker.nextNode();
+    while (node) {
+      const text = node.nodeValue || "";
+      if (/(HP|ХП|Haṭhapradīpik)/.test(text)) {
+        const re = new RegExp(HP_REF.source, "g");
+        let m = re.exec(text);
+        while (m) {
+          const from = parseInt(m[2], 10);
+          const to = m[3] ? parseInt(m[3], 10) : from;
+          const entries = [];
+          for (let n = from; n <= to; n += 1) {
+            const key = m[1] + "." + n;
+            const direct = hpIndex[key];
+            const e = direct || hpIndex[hpAlias[key]];
+            if (e && entries.indexOf(e) < 0) {
+              if (!direct && hpAlias[key]) e.printedAs = key;
+              entries.push(e);
+            }
+          }
+          if (entries.length) hits.push({ node: node, entries: entries });
+          m = re.exec(text);
+        }
+      }
+      node = walker.nextNode();
+    }
+
+    hits.forEach((hit) => {
+      const fresh = hit.entries.filter((e) => !shown[e.range]);
+      if (!fresh.length) return;
+      fresh.forEach((e) => { shown[e.range] = true; });
+      const host = hit.node.parentElement &&
+        hit.node.parentElement.closest("p, li, blockquote, td, dd, figcaption") ||
+        hit.node.parentElement;
+      if (!host || !host.parentElement) return;
+      const holder = document.createElement("div");
+      holder.className = "hp-refs";
+      holder.innerHTML = fresh.map(renderHpCard).join("");
+      host.parentElement.insertBefore(holder, host.nextSibling);
+    });
+  }
+
+  /* ------------------------------- сокращения: расшифровка в каждом разделе
+
+     Аппарат цитируется дословно, поэтому сокращение внутри цитаты остаётся
+     как в источнике. Расшифровка ставится в начале раздела — до того места,
+     где сокращение встретится, — и перечисляет только те сокращения, которые
+     в этом разделе действительно есть.
+  */
+  function wireAbbrNotes(root) {
+    if (!abbrList.length) return;
+    $$(".treatise-block", root).forEach((block) => {
+      const text = block.textContent || "";
+      const used = abbrList.filter((a) => {
+        // границы слова — по свойствам Unicode, без перечисления алфавитов:
+        // иначе в самом коде страницы оказалось бы слово из двух письменностей
+        const re = new RegExp("(^|[^\\p{L}\\p{N}])" +
+          a.code.replace(/[.*+?^${}()|[\]\\]/g, "\\$&") +
+          "($|[^\\p{L}\\p{N}])", "u");
+        return re.test(text);
+      });
+      if (!used.length) return;
+      const head = $(".treatise-head", block);
+      const box = document.createElement("div");
+      box.className = "abbr-note";
+      box.innerHTML = '<p class="abbr-note-head">' + esc(t("abbrHead")) + "</p>" +
+        '<ul class="abbr-list">' + used.map((a) =>
+          '<li><b>' + esc(a.code) + "</b> — " +
+          esc(state.lang === "en" ? a.en : a.ru) + "</li>").join("") + "</ul>";
+      if (head && head.parentElement === block) {
+        block.insertBefore(box, head.nextSibling);
+      } else {
+        block.insertBefore(box, block.firstChild);
+      }
+    });
+  }
 
   function wireDating(root) {
     $$(".dating-more", root).forEach((box) => {

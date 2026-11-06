@@ -1,0 +1,1117 @@
+{
+ "id": "hathapradipika-ch3",
+ "title": {
+  "ru": "«Хат̣хапрадӣпикā», глава 3: Випарӣта-каран̣ӣ",
+  "en": "Haṭhapradīpikā, chapter 3: Viparītakaraṇī"
+ },
+ "source": {
+  "url": "https://yoga.ames.ox.ac.uk/hp/reader/edition/#hp03_073",
+  "title": {
+   "ru": "Haṭhapradīpikā Online — цифровое критическое издание «Light on Haṭha Yoga» (Оксфорд – Марбург, 2024), глава 3",
+   "en": "Haṭhapradīpikā Online — the digital critical edition of the Light on Haṭha Yoga project (Oxford – Marburg, 2024), chapter 3"
+  },
+  "note": {
+   "ru": "Текст главы 3, стихи 3.73–3.77, списан с цифрового критического издания (yoga.ames.ox.ac.uk/hp/reader/edition/). В собрании сайта «Хат̣хапрадӣпикā» была только по главе 1: эти стихи добавлены, чтобы описание Випарӣта-каран̣ӣ было на месте, а не «где-то в другом издании». Деванагари и IAST напечатаны так, как в издании: часть слов издание набирает слитно, потому что от них идёт ссылка на аппарат.",
+   "en": "Chapter 3, verses 3.73–3.77, copied from the digital critical edition (yoga.ames.ox.ac.uk/hp/reader/edition/). The site’s Haṭhapradīpikā previously covered chapter 1 only: these verses are added so that the description of Viparītakaraṇī stands where it is needed. Devanagari and IAST are printed as in the edition: some words are set without spaces because the edition links them to the apparatus."
+  }
+ },
+ "vulgate": {
+  "note": {
+   "ru": "В изданиях старой нумерации те же стихи напечатаны как 3.79–3.82 — так их и цитирует критическое издание Даттāтрея-йоги на странице этой позы. Соответствие: 3.79 = 3.74, 3.80 = 3.75, 3.81 = 3.76, 3.82 = 3.77.",
+   "en": "In editions with the older numbering the same verses are printed as 3.79–3.82, which is how the critical edition of the Dattātreyayogaśāstra cites them on this pose’s page. The correspondence: 3.79 = 3.74, 3.80 = 3.75, 3.81 = 3.76, 3.82 = 3.77."
+  },
+  "map": {
+   "3.79": "3.74",
+   "3.80": "3.75",
+   "3.81": "3.76",
+   "3.82": "3.77"
+  }
+ },
+ "poses": [
+  {
+   "key": "viparitakarani",
+   "number": 1,
+   "name": {
+    "ru": "Випарӣта-каран̣ӣ",
+    "en": "Viparītakaraṇī"
+   },
+   "gloss": {
+    "ru": "«обратное действие», перевёрнутая поза",
+    "en": "the “inverted” position"
+   },
+   "verses": "3.73, 3.74, 3.75, 3.76, 3.77",
+   "text": {
+    "ru": [
+     {
+      "type": "p",
+      "text": "«Хат̣хапрадӣпикā» описывает эту позу в главе 3 — перед разделом о ваджролӣ. Ниже — все пять стихов так, как они напечатаны в критическом издании, и весь аппарат с полными названиями рукописей. Русского подстрочника к этим стихам в собрании нет: в электронном издании перевод только английский, и он приведён здесь целиком."
+     },
+     {
+      "type": "p",
+      "text": "В изданиях старой нумерации те же стихи напечатаны как 3.79–3.82 — так их и цитирует критическое издание Даттāтрея-йоги на странице этой позы. Соответствие: 3.79 = 3.74, 3.80 = 3.75, 3.81 = 3.76, 3.82 = 3.77."
+     },
+     {
+      "type": "h4",
+      "text": "Стих 3.73"
+     },
+     {
+      "type": "verse_card",
+      "verses": "",
+      "sections": [
+       {
+        "type": "verse",
+        "key": "deva",
+        "label": "Деванагари",
+        "lines": [
+         "ऊर्ध्वं नाभिरधस्तालुरूर्ध्वं भानुरधः शशी ।",
+         "करणी विपरीताख्यागुरुवाक्येन लभ्यते ॥"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "iast",
+        "label": "IAST",
+        "lines": [
+         "ūrdhvaṃ nābhir adhas tālur ūrdhvaṃ bhānur adhaḥ śaśī /",
+         "karaṇī viparītākhyāguruvākyena labhyate //"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "cyr",
+        "label": "Кириллическая транслитерация",
+        "lines": [
+         "ӯрдхвам̣ нāбхир адхас тāлур ӯрдхвам̣ бхāнур адхах̣ ш́аш́ӣ /",
+         "каран̣ӣ випарӣтāкхйāгурувāкйена лабхйате //"
+        ]
+       }
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "edition",
+      "label": "Перевод издания (английский)",
+      "paragraphs": [
+       "The navel is up, the palate down; the sun up, the moon down: the bodily position called “inverted” is obtained through the teaching of a guru."
+      ]
+     },
+     {
+      "type": "list",
+      "ordered": false,
+      "label": "Разночтения по рукописям",
+      "items": [
+       {
+        "html": "В издании — «ūrdhvaṃ nābhir» (так в: NGMPP B 62-20, Непал (микрофильм; NGMPP — Непальско-германский проект сохранения рукописей); Jodhpur 02235, Джодхпур; Jodhpur 02241, Джодхпур; Sarasvatī Bhavan, шифр 30069, Ва̄ра̄н̣асӣ; Staatsbibliothek zu Berlin, рукопись or. 11056, Берлин; NGMPP E-1528-1 / E-1527-7(4), Непал (микрофильм; NGMPP — Непальско-германский проект сохранения рукописей); Sarasvatī Bhavan, шифр 30051, Ва̄ра̄н̣асӣ; Sarasvatī Bhavan, шифр 30109, Ва̄ра̄н̣асӣ (старейшая датированная рукопись издания, 1496 год); Maharaja Man Singh Pustak Prakash (MSPP), рукопись № 2230, форт Мехрангарх, Джодхпур; Sarasvatī Bhavan, шифр 29899, Ва̄ра̄н̣асӣ). Ещё «ūrdhvanābhir» — так в: GOML R17256/SR8080, Ченнаи; Рабочий код проекта — P11. Ещё «ūrdhvanābhor» — так в: NGMPP G 25-2, Непал (микрофильм; NGMPP — Непальско-германский проект сохранения рукописей). Ещё «ūrdhvanābher» — так в: текст Брахма̄нанды (его комментарий «Джйотсна̄»; это не рукопись, а поздняя редакция текста). Ещё «ūrdhvaṃ nābher» — так в: Lalchand Research Library, рукопись M-2089, Чандигарх (колледж DAV). Ещё «++ nābher» — так в: GOML 18885, Ченнаи (GOML — Government Oriental Manuscripts Library, Государственная библиотека восточных рукописей)."
+       },
+       {
+        "html": "В издании — «adhas tālur» (так в: Jodhpur 02235, Джодхпур; GOML 18885, Ченнаи (GOML — Government Oriental Manuscripts Library, Государственная библиотека восточных рукописей); Sarasvatī Bhavan, шифр 30069, Ва̄ра̄н̣асӣ; GOML R17256/SR8080, Ченнаи; NGMPP E-1528-1 / E-1527-7(4), Непал (микрофильм; NGMPP — Непальско-германский проект сохранения рукописей); Sarasvatī Bhavan, шифр 30051, Ва̄ра̄н̣асӣ; Maharaja Man Singh Pustak Prakash (MSPP), рукопись № 2230, форт Мехрангарх, Джодхпур; Рабочий код проекта — P11; Lalchand Research Library, рукопись M-2089, Чандигарх (колледж DAV); Sarasvatī Bhavan, шифр 29899, Ва̄ра̄н̣асӣ). Ещё «adhas tālu» — так в: NGMPP B 62-20, Непал (микрофильм; NGMPP — Непальско-германский проект сохранения рукописей); Jodhpur 02241, Джодхпур; Sarasvatī Bhavan, шифр 30109, Ва̄ра̄н̣асӣ (старейшая датированная рукопись издания, 1496 год). Ещё «adhas tāla» — так в: Staatsbibliothek zu Berlin, рукопись or. 11056, Берлин. Ещё «asāluktar» — так в: NGMPP G 25-2, Непал (микрофильм; NGMPP — Непальско-германский проект сохранения рукописей). Ещё «adhastālor» — так в: текст Брахма̄нанды (его комментарий «Джйотсна̄»; это не рукопись, а поздняя редакция текста)."
+       },
+       {
+        "html": "В издании — «ūrdhva» (так во всех рукописях, кроме перечисленных ниже). Ещё «ūrdhva» — так в: Jodhpur 02235, Джодхпур; NGMPP G 25-2, Непал (микрофильм; NGMPP — Непальско-германский проект сохранения рукописей); Sarasvatī Bhavan, шифр 30069, Ва̄ра̄н̣асӣ. Ещё «ūrdhvo» — так в: Sarasvatī Bhavan, шифр 30109, Ва̄ра̄н̣асӣ (старейшая датированная рукопись издания, 1496 год)."
+       },
+       {
+        "html": "Полустишие c отсутствует в: Sarasvatī Bhavan, шифр 30069, Ва̄ра̄н̣асӣ; NGMPP E-1528-1 / E-1527-7(4), Непал (микрофильм; NGMPP — Непальско-германский проект сохранения рукописей); Maharaja Man Singh Pustak Prakash (MSPP), рукопись № 2230, форт Мехрангарх, Джодхпур; Рабочий код проекта — P11; Lalchand Research Library, рукопись M-2089, Чандигарх (колледж DAV)."
+       },
+       {
+        "html": "В издании — «karaṇī viparītākhyā» (так в: NGMPP B 62-20, Непал (микрофильм; NGMPP — Непальско-германский проект сохранения рукописей); NGMPP G 25-2, Непал (микрофильм; NGMPP — Непальско-германский проект сохранения рукописей); Jodhpur 02241, Джодхпур; Staatsbibliothek zu Berlin, рукопись or. 11056, Берлин; GOML R17256/SR8080, Ченнаи; Sarasvatī Bhavan, шифр 30109, Ва̄ра̄н̣асӣ (старейшая датированная рукопись издания, 1496 год); текст Брахма̄нанды (его комментарий «Джйотсна̄»; это не рукопись, а поздняя редакция текста)). Ещё «karaṇī viparītākṣaṃ» — так в: Jodhpur 02235, Джодхпур. Ещё «karaṇaṃ viparītākhyaṃ» — так в: GOML 18885, Ченнаи (GOML — Government Oriental Manuscripts Library, Государственная библиотека восточных рукописей); Sarasvatī Bhavan, шифр 30051, Ва̄ра̄н̣асӣ; Sarasvatī Bhavan, шифр 29899, Ва̄ра̄н̣асӣ."
+       },
+       {
+        "html": "Полустишие d отсутствует в: Sarasvatī Bhavan, шифр 30069, Ва̄ра̄н̣асӣ; NGMPP E-1528-1 / E-1527-7(4), Непал (микрофильм; NGMPP — Непальско-германский проект сохранения рукописей); Maharaja Man Singh Pustak Prakash (MSPP), рукопись № 2230, форт Мехрангарх, Джодхпур; Рабочий код проекта — P11; Lalchand Research Library, рукопись M-2089, Чандигарх (колледж DAV)."
+       },
+       {
+        "html": "В издании — «labhyate» (так в: NGMPP B 62-20, Непал (микрофильм; NGMPP — Непальско-германский проект сохранения рукописей); NGMPP G 25-2, Непал (микрофильм; NGMPP — Непальско-германский проект сохранения рукописей); Sarasvatī Bhavan, шифр 30051, Ва̄ра̄н̣асӣ; Sarasvatī Bhavan, шифр 30109, Ва̄ра̄н̣асӣ (старейшая датированная рукопись издания, 1496 год); Sarasvatī Bhavan, шифр 29899, Ва̄ра̄н̣асӣ; текст Брахма̄нанды (его комментарий «Джйотсна̄»; это не рукопись, а поздняя редакция текста)). Ещё «lakṣate» — так в: Jodhpur 02235, Джодхпур. Ещё «lakṣayet» — так в: GOML 18885, Ченнаи (GOML — Government Oriental Manuscripts Library, Государственная библиотека восточных рукописей); GOML R17256/SR8080, Ченнаи. Ещё «gamyate» — так в: Jodhpur 02241, Джодхпур; Staatsbibliothek zu Berlin, рукопись or. 11056, Берлин."
+       }
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "sources",
+      "label": "Источники",
+      "paragraphs": [
+       "Vivekamārtaṇḍa 115"
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "testimonia",
+      "label": "Свидетели",
+      "paragraphs": [
+       "Haṭharatnāvalī 2.74, Yogacintāmaṇi f. 73r (attrib. HP), Yuktabhavadeva 7.236 (attrib. Gorakṣanātha)"
+      ]
+     },
+     {
+      "type": "p",
+      "text": "ūrdhvaṃ nābhir HRĀ YBhD ] ūrdhvanābhir YCM"
+     },
+     {
+      "type": "p",
+      "text": "ūrdhvaṃ bhānur HRĀ YBhD ] ūrdhvabhānur YCM"
+     },
+     {
+      "type": "p",
+      "text": "guruvākyena labhyate HRĀ ] sarvavyādhivināśinī YCM, guruvaktreṇa gamyate YBhD"
+     },
+     {
+      "type": "h4",
+      "text": "Стих 3.74"
+     },
+     {
+      "type": "verse_card",
+      "verses": "",
+      "sections": [
+       {
+        "type": "verse",
+        "key": "deva",
+        "label": "Деванагари",
+        "lines": [
+         "करणीविपरीताख्यासर्वव्याधिविनाशिनी ।",
+         "नित्यमभ्यासयुक्तस्य जठराग्निविवर्धनी ॥"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "iast",
+        "label": "IAST",
+        "lines": [
+         "karaṇīviparītākhyāsarvavyādhivināśinī /",
+         "nityam abhyāsayuktasya jaṭharāgnivivardhanī //"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "cyr",
+        "label": "Кириллическая транслитерация",
+        "lines": [
+         "каран̣ӣвипарӣтāкхйāсарвавйāдхивинāш́инӣ /",
+         "нитйам абхйāсайуктасйа джат̣харāгнививардханӣ //"
+        ]
+       }
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "edition",
+      "label": "Перевод издания (английский)",
+      "paragraphs": [
+       "The bodily position called “inverted” destroys all diseases. For [the yogi] who regularly engages in [its] practice, it increases the digestive fire."
+      ]
+     },
+     {
+      "type": "list",
+      "ordered": false,
+      "label": "Разночтения по рукописям",
+      "items": [
+       {
+        "html": "Полустишие a отсутствует в: текст Брахма̄нанды (его комментарий «Джйотсна̄»; это не рукопись, а поздняя редакция текста)."
+       },
+       {
+        "html": "В издании — «karaṇī» (так во всех рукописях, кроме перечисленных ниже). Ещё «karaṇaṃ» — так в: Рабочий код проекта — P11."
+       },
+       {
+        "html": "В издании — «viparītākhyā» (так во всех рукописях, кроме перечисленных ниже). Ещё «viparītākhyaṃ» — так в: Lalchand Research Library, рукопись M-2089, Чандигарх (колледж DAV). Ещё «viparītākṣaṃ» — так в: Jodhpur 02235, Джодхпур; NGMPP E-1528-1 / E-1527-7(4), Непал (микрофильм; NGMPP — Непальско-германский проект сохранения рукописей)."
+       },
+       {
+        "html": "Полустишие b отсутствует в: текст Брахма̄нанды (его комментарий «Джйотсна̄»; это не рукопись, а поздняя редакция текста)."
+       },
+       {
+        "html": "В издании — «vināśinī» (так в: NGMPP B 62-20, Непал (микрофильм; NGMPP — Непальско-германский проект сохранения рукописей); NGMPP G 25-2, Непал (микрофильм; NGMPP — Непальско-германский проект сохранения рукописей); Jodhpur 02241, Джодхпур; Sarasvatī Bhavan, шифр 30069, Ва̄ра̄н̣асӣ; Staatsbibliothek zu Berlin, рукопись or. 11056, Берлин; GOML R17256/SR8080, Ченнаи; Sarasvatī Bhavan, шифр 30051, Ва̄ра̄н̣асӣ; Sarasvatī Bhavan, шифр 30109, Ва̄ра̄н̣асӣ (старейшая датированная рукопись издания, 1496 год); Maharaja Man Singh Pustak Prakash (MSPP), рукопись № 2230, форт Мехрангарх, Джодхпур). Ещё «vināśanī» — так в: NGMPP E-1528-1 / E-1527-7(4), Непал (микрофильм; NGMPP — Непальско-германский проект сохранения рукописей); Рабочий код проекта — P11. Ещё «vināśanaṃ» — так в: Jodhpur 02235, Джодхпур; Lalchand Research Library, рукопись M-2089, Чандигарх (колледж DAV); Sarasvatī Bhavan, шифр 29899, Ва̄ра̄н̣асӣ."
+       },
+       {
+        "html": "В издании — «yuktasya» (так во всех рукописях, кроме перечисленных ниже). Ещё «yogena» — так в: GOML R17256/SR8080, Ченнаи. Ещё «saktasya» — так в: Рабочий код проекта — P11."
+       },
+       {
+        "html": "В издании — «vivardhanī» (так в: NGMPP B 62-20, Непал (микрофильм; NGMPP — Непальско-германский проект сохранения рукописей); Jodhpur 02241, Джодхпур; NGMPP E-1528-1 / E-1527-7(4), Непал (микрофильм; NGMPP — Непальско-германский проект сохранения рукописей); Sarasvatī Bhavan, шифр 30051, Ва̄ра̄н̣асӣ; Sarasvatī Bhavan, шифр 30109, Ва̄ра̄н̣асӣ (старейшая датированная рукопись издания, 1496 год)). Ещё «vivardhinī» — так в: NGMPP G 25-2, Непал (микрофильм; NGMPP — Непальско-германский проект сохранения рукописей); Sarasvatī Bhavan, шифр 30069, Ва̄ра̄н̣асӣ; Staatsbibliothek zu Berlin, рукопись or. 11056, Берлин; GOML R17256/SR8080, Ченнаи; Рабочий код проекта — P11; текст Брахма̄нанды (его комментарий «Джйотсна̄»; это не рукопись, а поздняя редакция текста). Ещё «vivardhanaṃ» — так в: Jodhpur 02235, Джодхпур; Lalchand Research Library, рукопись M-2089, Чандигарх (колледж DAV); Sarasvatī Bhavan, шифр 29899, Ва̄ра̄н̣асӣ. Ещё «pravardhinī» — так в: Maharaja Man Singh Pustak Prakash (MSPP), рукопись № 2230, форт Мехрангарх, Джодхпур."
+       }
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "sources",
+      "label": "Источники",
+      "paragraphs": [
+       "Dattātreyayogaśāstra 146",
+       "karaṇī ] karaṇaṃ DYŚ",
+       "vināśinī ] vināśanam DYŚ",
+       "jaṭharāgnivivardhanī ] jaṭharāgnir vivardhate DYŚ"
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "testimonia",
+      "label": "Свидетели",
+      "paragraphs": [
+       "Haṭharatnāvalī 2.75, Yogacintāmaṇi f. 78r (cd only) (attrib. Dattātreya)"
+      ]
+     },
+     {
+      "type": "p",
+      "text": "vivardhanī ] vivardhinī HRĀ, vivardhanam YCM"
+     },
+     {
+      "type": "h4",
+      "text": "Стих 3.75"
+     },
+     {
+      "type": "verse_card",
+      "verses": "",
+      "sections": [
+       {
+        "type": "verse",
+        "key": "deva",
+        "label": "Деванагари",
+        "lines": [
+         "आहारो बहुलस्तस्य संपाद्यः साधकस्य तु ।",
+         "अल्पाहारोयदि भवेदग्निर्देहंदहेत्क्षणात् ॥"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "iast",
+        "label": "IAST",
+        "lines": [
+         "āhāro bahulas tasya saṃpādyaḥ sādhakasya tu /",
+         "alpāhāroyadi bhaved agnir dehaṃdahet kṣaṇāt //"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "cyr",
+        "label": "Кириллическая транслитерация",
+        "lines": [
+         "āхāро бахулас тасйа сам̣пāдйах̣ сāдхакасйа ту /",
+         "алпāхāройади бхавед агнир дехам̣дахет кшан̣āт //"
+        ]
+       }
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "edition",
+      "label": "Перевод издания (английский)",
+      "paragraphs": [
+       "A lot of food should be provided for the practitioner. If the practitioner eats little, fire will quickly consume his body."
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "metre",
+      "label": "Метр",
+      "paragraphs": [
+       "Anuṣṭubh (c: na-vipulā)"
+      ]
+     },
+     {
+      "type": "list",
+      "ordered": false,
+      "label": "Разночтения по рукописям",
+      "items": [
+       {
+        "html": "В издании — «tu» (так во всех рукописях, кроме перечисленных ниже). Ещё «ca» — так в: Jodhpur 02235, Джодхпур; NGMPP G 25-2, Непал (микрофильм; NGMPP — Непальско-германский проект сохранения рукописей); текст Брахма̄нанды (его комментарий «Джйотсна̄»; это не рукопись, а поздняя редакция текста)."
+       },
+       {
+        "html": "В издании — «alpāhāro» (так в: NGMPP B 62-20, Непал (микрофильм; NGMPP — Непальско-германский проект сохранения рукописей); Jodhpur 02235, Джодхпур; GOML 18885, Ченнаи (GOML — Government Oriental Manuscripts Library, Государственная библиотека восточных рукописей); GOML R17256/SR8080, Ченнаи; Sarasvatī Bhavan, шифр 30109, Ва̄ра̄н̣асӣ (старейшая датированная рукопись издания, 1496 год); Maharaja Man Singh Pustak Prakash (MSPP), рукопись № 2230, форт Мехрангарх, Джодхпур; Рабочий код проекта — P11; Lalchand Research Library, рукопись M-2089, Чандигарх (колледж DAV); Sarasvatī Bhavan, шифр 29899, Ва̄ра̄н̣асӣ; текст Брахма̄нанды (его комментарий «Джйотсна̄»; это не рукопись, а поздняя редакция текста)). Ещё «anāhāro» — так в: NGMPP G 25-2, Непал (микрофильм; NGMPP — Непальско-германский проект сохранения рукописей); Jodhpur 02241, Джодхпур; Sarasvatī Bhavan, шифр 30069, Ва̄ра̄н̣асӣ; Staatsbibliothek zu Berlin, рукопись or. 11056, Берлин; NGMPP E-1528-1 / E-1527-7(4), Непал (микрофильм; NGMPP — Непальско-германский проект сохранения рукописей); Sarasvatī Bhavan, шифр 30051, Ва̄ра̄н̣асӣ."
+       },
+       {
+        "html": "В издании — «yadi bhaved» (так во всех рукописях, кроме перечисленных ниже). Ещё «nirāhāraḥ» — так в: Maharaja Man Singh Pustak Prakash (MSPP), рукопись № 2230, форт Мехрангарх, Джодхпур."
+       },
+       {
+        "html": "В издании — «agnir dehaṃ» (так в: NGMPP B 62-20, Непал (микрофильм; NGMPP — Непальско-германский проект сохранения рукописей); GOML 18885, Ченнаи (GOML — Government Oriental Manuscripts Library, Государственная библиотека восточных рукописей); Sarasvatī Bhavan, шифр 30069, Ва̄ра̄н̣асӣ; Staatsbibliothek zu Berlin, рукопись or. 11056, Берлин; GOML R17256/SR8080, Ченнаи; Sarasvatī Bhavan, шифр 30051, Ва̄ра̄н̣асӣ; Sarasvatī Bhavan, шифр 29899, Ва̄ра̄н̣асӣ). Ещё «agnidehaṃ» — так в: Jodhpur 02235, Джодхпур; NGMPP G 25-2, Непал (микрофильм; NGMPP — Непальско-германский проект сохранения рукописей); Jodhpur 02241, Джодхпур; NGMPP E-1528-1 / E-1527-7(4), Непал (микрофильм; NGMPP — Непальско-германский проект сохранения рукописей); Рабочий код проекта — P11. Ещё «deham agnir» — так в: Sarasvatī Bhavan, шифр 30109, Ва̄ра̄н̣асӣ (старейшая датированная рукопись издания, 1496 год). Ещё «agnidāho» — так в: Lalchand Research Library, рукопись M-2089, Чандигарх (колледж DAV). Ещё «agnir daha» — так в: текст Брахма̄нанды (его комментарий «Джйотсна̄»; это не рукопись, а поздняя редакция текста). Ещё «kṣudhālasya» — так в: Maharaja Man Singh Pustak Prakash (MSPP), рукопись № 2230, форт Мехрангарх, Джодхпур."
+       },
+       {
+        "html": "В издании — «dahet» (так в: NGMPP B 62-20, Непал (микрофильм; NGMPP — Непальско-германский проект сохранения рукописей); Jodhpur 02235, Джодхпур; NGMPP G 25-2, Непал (микрофильм; NGMPP — Непальско-германский проект сохранения рукописей); Jodhpur 02241, Джодхпур; Sarasvatī Bhavan, шифр 30069, Ва̄ра̄н̣асӣ; Staatsbibliothek zu Berlin, рукопись or. 11056, Берлин; GOML R17256/SR8080, Ченнаи; NGMPP E-1528-1 / E-1527-7(4), Непал (микрофильм; NGMPP — Непальско-германский проект сохранения рукописей); Sarasvatī Bhavan, шифр 30109, Ва̄ра̄н̣асӣ (старейшая датированная рукопись издания, 1496 год); Sarasvatī Bhavan, шифр 29899, Ва̄ра̄н̣асӣ). Ещё «haret» — так в: GOML 18885, Ченнаи (GOML — Government Oriental Manuscripts Library, Государственная библиотека восточных рукописей); Sarasvatī Bhavan, шифр 30051, Ва̄ра̄н̣асӣ; Рабочий код проекта — P11. Ещё «bhavet» — так в: Lalchand Research Library, рукопись M-2089, Чандигарх (колледж DAV). Ещё «ti tat» — так в: текст Брахма̄нанды (его комментарий «Джйотсна̄»; это не рукопись, а поздняя редакция текста). Ещё «vaśe» — так в: Maharaja Man Singh Pustak Prakash (MSPP), рукопись № 2230, форт Мехрангарх, Джодхпур."
+       },
+       {
+        "html": "В издании — «kṣaṇāt» (так во всех рукописях, включая GOML 18885, Ченнаи (GOML — Government Oriental Manuscripts Library, Государственная библиотека восточных рукописей)). Ещё «kramāt» — так в: NGMPP B 62-20, Непал (микрофильм; NGMPP — Непальско-германский проект сохранения рукописей). Ещё «tataḥ» — так в: Jodhpur 02241, Джодхпур. Ещё «bhavet» — так в: Maharaja Man Singh Pustak Prakash (MSPP), рукопись № 2230, форт Мехрангарх, Джодхпур."
+       }
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "sources",
+      "label": "Источники",
+      "paragraphs": [
+       "Dattātreyayogaśāstra 147",
+       "sādhakasya tu ] sāṃkṛte dhruvam DYŚ"
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "testimonia",
+      "label": "Свидетели",
+      "paragraphs": [
+       "Haṭharatnāvalī 2.76, Yogacintāmaṇi f. 78r (attrib. Dattātreya)"
+      ]
+     },
+     {
+      "type": "p",
+      "text": "sādhakasya tu ] sādhakena vai HRĀ, sāṃkṛte dhruvam YCM"
+     },
+     {
+      "type": "p",
+      "text": "agnir deham ] deham agnir HRĀ, agnir dāhaṃ YCM"
+     },
+     {
+      "type": "p",
+      "text": "dahet kṣaṇāt ] dahet kramāt HRĀ, karoti vai YCM"
+     },
+     {
+      "type": "h4",
+      "text": "Стих 3.76"
+     },
+     {
+      "type": "verse_card",
+      "verses": "",
+      "sections": [
+       {
+        "type": "verse",
+        "key": "deva",
+        "label": "Деванагари",
+        "lines": [
+         "अधःशिरश्चोर्ध्वपादःक्षणं स्यात्प्रथमे दिने ।",
+         "क्षणाच्च किंचिदधिकमभ्यसेच्च दिने दिने ॥"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "iast",
+        "label": "IAST",
+        "lines": [
+         "adhaḥśiraś cordhvapādaḥkṣaṇaṃ syāt prathame dine /",
+         "kṣaṇāc ca kiṃcid adhikam abhyasec ca dine dine //"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "cyr",
+        "label": "Кириллическая транслитерация",
+        "lines": [
+         "адхах̣ш́ираш́ чордхвапāдах̣кшан̣ам̣ сйāт пратхаме дине /",
+         "кшан̣āч ча ким̣чид адхикам абхйасеч ча дине дине //"
+        ]
+       }
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "edition",
+      "label": "Перевод издания (английский)",
+      "paragraphs": [
+       "On the first day [the yogi] should keep his head down and his feet up for a short while, and he should [then] practise for a little longer each day."
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "metre",
+      "label": "Метр",
+      "paragraphs": [
+       "Anuṣṭubh (a: ra-vipulā; c: na-vipulā)"
+      ]
+     },
+     {
+      "type": "list",
+      "ordered": false,
+      "label": "Разночтения по рукописям",
+      "items": [
+       {
+        "html": "В издании — «śiraś» (так в: NGMPP B 62-20, Непал (микрофильм; NGMPP — Непальско-германский проект сохранения рукописей); GOML 18885, Ченнаи (GOML — Government Oriental Manuscripts Library, Государственная библиотека восточных рукописей); Sarasvatī Bhavan, шифр 30069, Ва̄ра̄н̣асӣ; GOML R17256/SR8080, Ченнаи; NGMPP E-1528-1 / E-1527-7(4), Непал (микрофильм; NGMPP — Непальско-германский проект сохранения рукописей); Sarasvatī Bhavan, шифр 30051, Ва̄ра̄н̣асӣ; Sarasvatī Bhavan, шифр 30109, Ва̄ра̄н̣асӣ (старейшая датированная рукопись издания, 1496 год); Maharaja Man Singh Pustak Prakash (MSPP), рукопись № 2230, форт Мехрангарх, Джодхпур; Рабочий код проекта — P11; Lalchand Research Library, рукопись M-2089, Чандигарх (колледж DAV); Sarasvatī Bhavan, шифр 29899, Ва̄ра̄н̣асӣ). Ещё «śira» — так в: Jodhpur 02235, Джодхпур; Staatsbibliothek zu Berlin, рукопись or. 11056, Берлин. Ещё «śirāś» — так в: текст Брахма̄нанды (его комментарий «Джйотсна̄»; это не рукопись, а поздняя редакция текста). Ещё «śirā» — так в: NGMPP G 25-2, Непал (микрофильм; NGMPP — Непальско-германский проект сохранения рукописей); Jodhpur 02241, Джодхпур."
+       },
+       {
+        "html": "В издании — «cordhva» (так во всех рукописях, кроме перечисленных ниже). Ещё «cordhvaṃ» — так в: Sarasvatī Bhavan, шифр 29899, Ва̄ра̄н̣асӣ. Ещё «ūrdhva» — так в: NGMPP G 25-2, Непал (микрофильм; NGMPP — Непальско-германский проект сохранения рукописей); Jodhpur 02241, Джодхпур; Staatsbibliothek zu Berlin, рукопись or. 11056, Берлин."
+       },
+       {
+        "html": "В издании — «pādaḥ» (так в: NGMPP B 62-20, Непал (микрофильм; NGMPP — Непальско-германский проект сохранения рукописей); Jodhpur 02235, Джодхпур; GOML 18885, Ченнаи (GOML — Government Oriental Manuscripts Library, Государственная библиотека восточных рукописей); Jodhpur 02241, Джодхпур; Sarasvatī Bhavan, шифр 30069, Ва̄ра̄н̣асӣ; Staatsbibliothek zu Berlin, рукопись or. 11056, Берлин; GOML R17256/SR8080, Ченнаи; Sarasvatī Bhavan, шифр 30051, Ва̄ра̄н̣асӣ; Рабочий код проекта — P11; Lalchand Research Library, рукопись M-2089, Чандигарх (колледж DAV); текст Брахма̄нанды (его комментарий «Джйотсна̄»; это не рукопись, а поздняя редакция текста)). Ещё «pāda» — так в: NGMPP G 25-2, Непал (микрофильм; NGMPP — Непальско-германский проект сохранения рукописей); NGMPP E-1528-1 / E-1527-7(4), Непал (микрофильм; NGMPP — Непальско-германский проект сохранения рукописей); Sarasvatī Bhavan, шифр 29899, Ва̄ра̄н̣асӣ. Ещё «pādau» — так в: Sarasvatī Bhavan, шифр 30109, Ва̄ра̄н̣асӣ (старейшая датированная рукопись издания, 1496 год); Maharaja Man Singh Pustak Prakash (MSPP), рукопись № 2230, форт Мехрангарх, Джодхпур."
+       },
+       {
+        "html": "В издании — «kṣaṇaṃ syāt» (так во всех рукописях, кроме перечисленных ниже). Ещё «kṣīṇaṃ syāt» — так в: Sarasvatī Bhavan, шифр 30069, Ва̄ра̄н̣асӣ. Ещё «lakṣaṇaṃ» — так в: Maharaja Man Singh Pustak Prakash (MSPP), рукопись № 2230, форт Мехрангарх, Джодхпур."
+       },
+       {
+        "html": "В издании — «dine» (так во всех рукописях, кроме перечисленных ниже). Ещё «hani» — так в: Staatsbibliothek zu Berlin, рукопись or. 11056, Берлин."
+       },
+       {
+        "html": "Полустишие c отсутствует в: Sarasvatī Bhavan, шифр 30069, Ва̄ра̄н̣асӣ."
+       },
+       {
+        "html": "В издании — «kṣaṇāc ca» (так в: NGMPP B 62-20, Непал (микрофильм; NGMPP — Непальско-германский проект сохранения рукописей); GOML R17256/SR8080, Ченнаи; Sarasvatī Bhavan, шифр 30051, Ва̄ра̄н̣асӣ; Sarasvatī Bhavan, шифр 30109, Ва̄ра̄н̣асӣ (старейшая датированная рукопись издания, 1496 год); Maharaja Man Singh Pustak Prakash (MSPP), рукопись № 2230, форт Мехрангарх, Джодхпур; Lalchand Research Library, рукопись M-2089, Чандигарх (колледж DAV); Sarasvatī Bhavan, шифр 29899, Ва̄ра̄н̣асӣ; текст Брахма̄нанды (его комментарий «Джйотсна̄»; это не рукопись, а поздняя редакция текста)). Ещё «kṣayāc ca» — так в: Jodhpur 02235, Джодхпур. Ещё «kṣaṇāt tu» — так в: NGMPP G 25-2, Непал (микрофильм; NGMPP — Непальско-германский проект сохранения рукописей); Jodhpur 02241, Джодхпур. Ещё «kṣaṇādyaṃ» — так в: Рабочий код проекта — P11. Ещё «kṣaṇārdha» — так в: NGMPP E-1528-1 / E-1527-7(4), Непал (микрофильм; NGMPP — Непальско-германский проект сохранения рукописей). Ещё «kṣaṇādardhaṃ» — так в: Staatsbibliothek zu Berlin, рукопись or. 11056, Берлин. Нет в: Sarasvatī Bhavan, шифр 30069, Ва̄ра̄н̣асӣ."
+       },
+       {
+        "html": "В издании — «adhikam» (так во всех рукописях, кроме перечисленных ниже). Ещё «apika» — так в: NGMPP G 25-2, Непал (микрофильм; NGMPP — Непальско-германский проект сохранения рукописей). Нет в: Sarasvatī Bhavan, шифр 30069, Ва̄ра̄н̣асӣ."
+       },
+       {
+        "html": "Полустишие d отсутствует в: Sarasvatī Bhavan, шифр 30069, Ва̄ра̄н̣асӣ."
+       },
+       {
+        "html": "В издании — «abhyasec ca» (так во всех рукописях, кроме перечисленных ниже). Ещё «abhyasetva» — так в: Jodhpur 02241, Джодхпур. Ещё «bhyarccayec ca» — так в: NGMPP G 25-2, Непал (микрофильм; NGMPP — Непальско-германский проект сохранения рукописей). Нет в: Sarasvatī Bhavan, шифр 30069, Ва̄ра̄н̣асӣ."
+       }
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "sources",
+      "label": "Источники",
+      "paragraphs": [
+       "Dattātreyayogaśāstra 148c–149b",
+       "adhaḥśirāś ] adhaḥśiraś DYŚ v.l."
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "testimonia",
+      "label": "Свидетели",
+      "paragraphs": [
+       "Haṭharatnāvalī 2.77, Yogacintāmaṇi f. 78r (attrib. Dattātreya)"
+      ]
+     },
+     {
+      "type": "p",
+      "text": "śirāś YCM ] śiraś HRĀ"
+     },
+     {
+      "type": "p",
+      "text": "pādaḥ HRĀ v.l. YCM ] pādau HRĀ"
+     },
+     {
+      "type": "h4",
+      "text": "Стих 3.77"
+     },
+     {
+      "type": "verse_card",
+      "verses": "",
+      "sections": [
+       {
+        "type": "verse",
+        "key": "deva",
+        "label": "Деванагари",
+        "lines": [
+         "वलिश्चपलितं चैव षण्मासोर्ध्वं नदृश्यते ।",
+         "याममात्रं तु यो नित्यमभ्यसेत्स तुकालजित् ॥"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "iast",
+        "label": "IAST",
+        "lines": [
+         "valiś capalitaṃ caiva ṣaṇmāsordhvaṃ nadṛśyate /",
+         "yāmamātraṃ tu yo nityam abhyaset sa tukālajit //"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "cyr",
+        "label": "Кириллическая транслитерация",
+        "lines": [
+         "валиш́ чапалитам̣ чаива шан̣мāсордхвам̣ надр̣ш́йате /",
+         "йāмамāтрам̣ ту йо нитйам абхйасет са тукāладжит //"
+        ]
+       }
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "edition",
+      "label": "Перевод издания (английский)",
+      "paragraphs": [
+       "After six months grey hair and wrinkles disappear. [The yogi] who regularly practises for three hours conquers death."
+      ]
+     },
+     {
+      "type": "list",
+      "ordered": false,
+      "label": "Разночтения по рукописям",
+      "items": [
+       {
+        "html": "В издании — «valiś ca» (так в: NGMPP B 62-20, Непал (микрофильм; NGMPP — Непальско-германский проект сохранения рукописей); GOML R17256/SR8080, Ченнаи; Sarasvatī Bhavan, шифр 30109, Ва̄ра̄н̣асӣ (старейшая датированная рукопись издания, 1496 год); Рабочий код проекта — P11; Lalchand Research Library, рукопись M-2089, Чандигарх (колледж DAV); Sarasvatī Bhavan, шифр 29899, Ва̄ра̄н̣асӣ). Ещё «vali» — так в: Jodhpur 02235, Джодхпур. Ещё «valiṃ ca» — так в: Staatsbibliothek zu Berlin, рукопись or. 11056, Берлин. Ещё «valitaṃ» — так в: NGMPP G 25-2, Непал (микрофильм; NGMPP — Непальско-германский проект сохранения рукописей); Jodhpur 02241, Джодхпур; Sarasvatī Bhavan, шифр 30069, Ва̄ра̄н̣асӣ; NGMPP E-1528-1 / E-1527-7(4), Непал (микрофильм; NGMPP — Непальско-германский проект сохранения рукописей); Sarasvatī Bhavan, шифр 30051, Ва̄ра̄н̣асӣ; Maharaja Man Singh Pustak Prakash (MSPP), рукопись № 2230, форт Мехрангарх, Джодхпур; текст Брахма̄нанды (его комментарий «Джйотсна̄»; это не рукопись, а поздняя редакция текста)."
+       },
+       {
+        "html": "В издании — «palitaṃ» (так во всех рукописях, кроме перечисленных ниже). Ещё «palitaś» — так в: Рабочий код проекта — P11; Lalchand Research Library, рукопись M-2089, Чандигарх (колледж DAV)."
+       },
+       {
+        "html": "В издании — «ṣaṇmāsordhvaṃ na» (так в: текст Брахма̄нанды (его комментарий «Джйотсна̄»; это не рукопись, а поздняя редакция текста)). Ещё «ṣaṇmāsārdhān na» — так в: NGMPP B 62-20, Непал (микрофильм; NGMPP — Непальско-германский проект сохранения рукописей); GOML R17256/SR8080, Ченнаи; Sarasvatī Bhavan, шифр 30051, Ва̄ра̄н̣асӣ; Рабочий код проекта — P11; Lalchand Research Library, рукопись M-2089, Чандигарх (колледж DAV). Ещё «ṣaṇmāsārdhaṃ na» — так в: Sarasvatī Bhavan, шифр 29899, Ва̄ра̄н̣асӣ. Ещё «ṣaṇmāsārdhena» — так в: Jodhpur 02235, Джодхпур; NGMPP G 25-2, Непал (микрофильм; NGMPP — Непальско-германский проект сохранения рукописей); Jodhpur 02241, Джодхпур; Staatsbibliothek zu Berlin, рукопись or. 11056, Берлин. Ещё «ṣaṇmāsārdheṇa» — так в: Sarasvatī Bhavan, шифр 30069, Ва̄ра̄н̣асӣ. Ещё «ṣaṇmāsārdhe ca» — так в: NGMPP E-1528-1 / E-1527-7(4), Непал (микрофильм; NGMPP — Непальско-германский проект сохранения рукописей). Ещё «ṣaṇmāsāt tu na» — так в: Sarasvatī Bhavan, шифр 30109, Ва̄ра̄н̣асӣ (старейшая датированная рукопись издания, 1496 год); Maharaja Man Singh Pustak Prakash (MSPP), рукопись № 2230, форт Мехрангарх, Джодхпур."
+       },
+       {
+        "html": "В издании — «dṛśyate» (так во всех рукописях, кроме перечисленных ниже). Ещё «naśyati» — так в: NGMPP G 25-2, Непал (микрофильм; NGMPP — Непальско-германский проект сохранения рукописей); Jodhpur 02241, Джодхпур; Sarasvatī Bhavan, шифр 30069, Ва̄ра̄н̣асӣ; Staatsbibliothek zu Berlin, рукопись or. 11056, Берлин; NGMPP E-1528-1 / E-1527-7(4), Непал (микрофильм; NGMPP — Непальско-германский проект сохранения рукописей)."
+       },
+       {
+        "html": "В издании — «yāmamātraṃ tu» (так во всех рукописях, кроме перечисленных ниже). Ещё «yāmamātraṃ ca» — так в: Sarasvatī Bhavan, шифр 30051, Ва̄ра̄н̣асӣ. Ещё «māsatrayaṃ tu» — так в: Maharaja Man Singh Pustak Prakash (MSPP), рукопись № 2230, форт Мехрангарх, Джодхпур."
+       },
+       {
+        "html": "В издании — «nityam» (так во всех рукописях, кроме перечисленных ниже). Ещё «gnibhyam» — так в: NGMPP G 25-2, Непал (микрофильм; NGMPP — Непальско-германский проект сохранения рукописей)."
+       },
+       {
+        "html": "В издании — «abhyaset» (так во всех рукописях, кроме перечисленных ниже). Ещё «aset» — так в: Sarasvatī Bhavan, шифр 30069, Ва̄ра̄н̣асӣ."
+       },
+       {
+        "html": "В издании — «tu» (так во всех рукописях, кроме перечисленных ниже). Ещё «su» — так в: Jodhpur 02241, Джодхпур. Ещё «ca» — так в: NGMPP E-1528-1 / E-1527-7(4), Непал (микрофильм; NGMPP — Непальско-германский проект сохранения рукописей)."
+       },
+       {
+        "html": "В издании — «kālajit» (так во всех рукописях, кроме перечисленных ниже). Ещё «kālavit» — так в: NGMPP E-1528-1 / E-1527-7(4), Непал (микрофильм; NGMPP — Непальско-германский проект сохранения рукописей); Maharaja Man Singh Pustak Prakash (MSPP), рукопись № 2230, форт Мехрангарх, Джодхпур."
+       }
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "sources",
+      "label": "Источники",
+      "paragraphs": [
+       "Dattātreyayogaśāstra 149c–150b",
+       "māsordhvaṃ na ] māsāṃ hi na DYŚ v.l., māsāc ca na DYŚ v.l.",
+       "tu ] hi DYŚ",
+       "kālajit ] yogavit DYŚ v.l."
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "testimonia",
+      "label": "Свидетели",
+      "paragraphs": [
+       "Haṭharatnāvalī 2.78, Yogacintāmaṇi f. 78r (attrib. Dattātreya), Yuktabhavadeva 7.238 (attrib. Gorakṣanātha)"
+      ]
+     },
+     {
+      "type": "p",
+      "text": "valiś ca YCM ] valitaṃ HRĀ YBhD"
+     },
+     {
+      "type": "p",
+      "text": "māsordhvaṃ na ] māsān na tu HRĀ, māsārdhe na YCM, māsārdhān na YBhD"
+     }
+    ],
+    "en": [
+     {
+      "type": "p",
+      "text": "The Haṭhapradīpikā describes this position in chapter 3, just before the section on vajrolī. Below are all five verses as printed in the critical edition, with the full apparatus and the manuscripts spelled out."
+     },
+     {
+      "type": "p",
+      "text": "In editions with the older numbering the same verses are printed as 3.79–3.82, which is how the critical edition of the Dattātreyayogaśāstra cites them on this pose’s page. The correspondence: 3.79 = 3.74, 3.80 = 3.75, 3.81 = 3.76, 3.82 = 3.77."
+     },
+     {
+      "type": "h4",
+      "text": "Verse 3.73"
+     },
+     {
+      "type": "verse_card",
+      "verses": "",
+      "sections": [
+       {
+        "type": "verse",
+        "key": "deva",
+        "label": "Devanagari",
+        "lines": [
+         "ऊर्ध्वं नाभिरधस्तालुरूर्ध्वं भानुरधः शशी ।",
+         "करणी विपरीताख्यागुरुवाक्येन लभ्यते ॥"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "iast",
+        "label": "IAST",
+        "lines": [
+         "ūrdhvaṃ nābhir adhas tālur ūrdhvaṃ bhānur adhaḥ śaśī /",
+         "karaṇī viparītākhyāguruvākyena labhyate //"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "cyr",
+        "label": "Cyrillic transliteration",
+        "lines": [
+         "ӯрдхвам̣ нāбхир адхас тāлур ӯрдхвам̣ бхāнур адхах̣ ш́аш́ӣ /",
+         "каран̣ӣ випарӣтāкхйāгурувāкйена лабхйате //"
+        ]
+       }
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "edition",
+      "label": "Edition translation (English)",
+      "paragraphs": [
+       "The navel is up, the palate down; the sun up, the moon down: the bodily position called “inverted” is obtained through the teaching of a guru."
+      ]
+     },
+     {
+      "type": "list",
+      "ordered": false,
+      "label": "Readings in the manuscripts",
+      "items": [
+       {
+        "html": "In the edition — “ūrdhvaṃ nābhir” (so in: NGMPP B 62-20, Непал (микрофильм; NGMPP — Непальско-германский проект сохранения рукописей), Jodhpur 02235, Джодхпур, Jodhpur 02241, Джодхпур, Sarasvatī Bhavan, шифр 30069, Ва̄ра̄н̣асӣ, Staatsbibliothek zu Berlin, рукопись or. 11056, Берлин, NGMPP E-1528-1 / E-1527-7(4), Непал (микрофильм; NGMPP — Непальско-германский проект сохранения рукописей), Sarasvatī Bhavan, шифр 30051, Ва̄ра̄н̣асӣ, Sarasvatī Bhavan, шифр 30109, Ва̄ра̄н̣асӣ (старейшая датированная рукопись издания, 1496 год), Maharaja Man Singh Pustak Prakash (MSPP), рукопись № 2230, форт Мехрангарх, Джодхпур, Sarasvatī Bhavan, шифр 29899, Ва̄ра̄н̣асӣ). Also “ūrdhvanābhir” — so in: GOML R17256/SR8080, Ченнаи, Рабочий код проекта — P11. Also “ūrdhvanābhor” — so in: NGMPP G 25-2, Непал (микрофильм; NGMPP — Непальско-германский проект сохранения рукописей). Also “ūrdhvanābher” — so in: текст Брахма̄нанды (его комментарий «Джйотсна̄»; это не рукопись, а поздняя редакция текста). Also “ūrdhvaṃ nābher” — so in: Lalchand Research Library, рукопись M-2089, Чандигарх (колледж DAV). Also “++ nābher” — so in: GOML 18885, Ченнаи (GOML — Government Oriental Manuscripts Library, Государственная библиотека восточных рукописей)."
+       },
+       {
+        "html": "In the edition — “adhas tālur” (so in: Jodhpur 02235, Джодхпур, GOML 18885, Ченнаи (GOML — Government Oriental Manuscripts Library, Государственная библиотека восточных рукописей), Sarasvatī Bhavan, шифр 30069, Ва̄ра̄н̣асӣ, GOML R17256/SR8080, Ченнаи, NGMPP E-1528-1 / E-1527-7(4), Непал (микрофильм; NGMPP — Непальско-германский проект сохранения рукописей), Sarasvatī Bhavan, шифр 30051, Ва̄ра̄н̣асӣ, Maharaja Man Singh Pustak Prakash (MSPP), рукопись № 2230, форт Мехрангарх, Джодхпур, Рабочий код проекта — P11, Lalchand Research Library, рукопись M-2089, Чандигарх (колледж DAV), Sarasvatī Bhavan, шифр 29899, Ва̄ра̄н̣асӣ). Also “adhas tālu” — so in: NGMPP B 62-20, Непал (микрофильм; NGMPP — Непальско-германский проект сохранения рукописей), Jodhpur 02241, Джодхпур, Sarasvatī Bhavan, шифр 30109, Ва̄ра̄н̣асӣ (старейшая датированная рукопись издания, 1496 год). Also “adhas tāla” — so in: Staatsbibliothek zu Berlin, рукопись or. 11056, Берлин. Also “asāluktar” — so in: NGMPP G 25-2, Непал (микрофильм; NGMPP — Непальско-германский проект сохранения рукописей). Also “adhastālor” — so in: текст Брахма̄нанды (его комментарий «Джйотсна̄»; это не рукопись, а поздняя редакция текста)."
+       },
+       {
+        "html": "In the edition — “ūrdhva” (so in all the manuscripts except those listed here). Also “ūrdhva” — so in: Jodhpur 02235, Джодхпур, NGMPP G 25-2, Непал (микрофильм; NGMPP — Непальско-германский проект сохранения рукописей), Sarasvatī Bhavan, шифр 30069, Ва̄ра̄н̣асӣ. Also “ūrdhvo” — so in: Sarasvatī Bhavan, шифр 30109, Ва̄ра̄н̣асӣ (старейшая датированная рукопись издания, 1496 год)."
+       },
+       {
+        "html": "Quarter c is absent in: Sarasvatī Bhavan, шифр 30069, Ва̄ра̄н̣асӣ, NGMPP E-1528-1 / E-1527-7(4), Непал (микрофильм; NGMPP — Непальско-германский проект сохранения рукописей), Maharaja Man Singh Pustak Prakash (MSPP), рукопись № 2230, форт Мехрангарх, Джодхпур, Рабочий код проекта — P11, Lalchand Research Library, рукопись M-2089, Чандигарх (колледж DAV)."
+       },
+       {
+        "html": "In the edition — “karaṇī viparītākhyā” (so in: NGMPP B 62-20, Непал (микрофильм; NGMPP — Непальско-германский проект сохранения рукописей), NGMPP G 25-2, Непал (микрофильм; NGMPP — Непальско-германский проект сохранения рукописей), Jodhpur 02241, Джодхпур, Staatsbibliothek zu Berlin, рукопись or. 11056, Берлин, GOML R17256/SR8080, Ченнаи, Sarasvatī Bhavan, шифр 30109, Ва̄ра̄н̣асӣ (старейшая датированная рукопись издания, 1496 год), текст Брахма̄нанды (его комментарий «Джйотсна̄»; это не рукопись, а поздняя редакция текста)). Also “karaṇī viparītākṣaṃ” — so in: Jodhpur 02235, Джодхпур. Also “karaṇaṃ viparītākhyaṃ” — so in: GOML 18885, Ченнаи (GOML — Government Oriental Manuscripts Library, Государственная библиотека восточных рукописей), Sarasvatī Bhavan, шифр 30051, Ва̄ра̄н̣асӣ, Sarasvatī Bhavan, шифр 29899, Ва̄ра̄н̣асӣ."
+       },
+       {
+        "html": "Quarter d is absent in: Sarasvatī Bhavan, шифр 30069, Ва̄ра̄н̣асӣ, NGMPP E-1528-1 / E-1527-7(4), Непал (микрофильм; NGMPP — Непальско-германский проект сохранения рукописей), Maharaja Man Singh Pustak Prakash (MSPP), рукопись № 2230, форт Мехрангарх, Джодхпур, Рабочий код проекта — P11, Lalchand Research Library, рукопись M-2089, Чандигарх (колледж DAV)."
+       },
+       {
+        "html": "In the edition — “labhyate” (so in: NGMPP B 62-20, Непал (микрофильм; NGMPP — Непальско-германский проект сохранения рукописей), NGMPP G 25-2, Непал (микрофильм; NGMPP — Непальско-германский проект сохранения рукописей), Sarasvatī Bhavan, шифр 30051, Ва̄ра̄н̣асӣ, Sarasvatī Bhavan, шифр 30109, Ва̄ра̄н̣асӣ (старейшая датированная рукопись издания, 1496 год), Sarasvatī Bhavan, шифр 29899, Ва̄ра̄н̣асӣ, текст Брахма̄нанды (его комментарий «Джйотсна̄»; это не рукопись, а поздняя редакция текста)). Also “lakṣate” — so in: Jodhpur 02235, Джодхпур. Also “lakṣayet” — so in: GOML 18885, Ченнаи (GOML — Government Oriental Manuscripts Library, Государственная библиотека восточных рукописей), GOML R17256/SR8080, Ченнаи. Also “gamyate” — so in: Jodhpur 02241, Джодхпур, Staatsbibliothek zu Berlin, рукопись or. 11056, Берлин."
+       }
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "sources",
+      "label": "Sources",
+      "paragraphs": [
+       "Vivekamārtaṇḍa 115"
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "testimonia",
+      "label": "Testimonia",
+      "paragraphs": [
+       "Haṭharatnāvalī 2.74, Yogacintāmaṇi f. 73r (attrib. HP), Yuktabhavadeva 7.236 (attrib. Gorakṣanātha)"
+      ]
+     },
+     {
+      "type": "p",
+      "text": "ūrdhvaṃ nābhir HRĀ YBhD ] ūrdhvanābhir YCM"
+     },
+     {
+      "type": "p",
+      "text": "ūrdhvaṃ bhānur HRĀ YBhD ] ūrdhvabhānur YCM"
+     },
+     {
+      "type": "p",
+      "text": "guruvākyena labhyate HRĀ ] sarvavyādhivināśinī YCM, guruvaktreṇa gamyate YBhD"
+     },
+     {
+      "type": "h4",
+      "text": "Verse 3.74"
+     },
+     {
+      "type": "verse_card",
+      "verses": "",
+      "sections": [
+       {
+        "type": "verse",
+        "key": "deva",
+        "label": "Devanagari",
+        "lines": [
+         "करणीविपरीताख्यासर्वव्याधिविनाशिनी ।",
+         "नित्यमभ्यासयुक्तस्य जठराग्निविवर्धनी ॥"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "iast",
+        "label": "IAST",
+        "lines": [
+         "karaṇīviparītākhyāsarvavyādhivināśinī /",
+         "nityam abhyāsayuktasya jaṭharāgnivivardhanī //"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "cyr",
+        "label": "Cyrillic transliteration",
+        "lines": [
+         "каран̣ӣвипарӣтāкхйāсарвавйāдхивинāш́инӣ /",
+         "нитйам абхйāсайуктасйа джат̣харāгнививардханӣ //"
+        ]
+       }
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "edition",
+      "label": "Edition translation (English)",
+      "paragraphs": [
+       "The bodily position called “inverted” destroys all diseases. For [the yogi] who regularly engages in [its] practice, it increases the digestive fire."
+      ]
+     },
+     {
+      "type": "list",
+      "ordered": false,
+      "label": "Readings in the manuscripts",
+      "items": [
+       {
+        "html": "Quarter a is absent in: текст Брахма̄нанды (его комментарий «Джйотсна̄»; это не рукопись, а поздняя редакция текста)."
+       },
+       {
+        "html": "In the edition — “karaṇī” (so in all the manuscripts except those listed here). Also “karaṇaṃ” — so in: Рабочий код проекта — P11."
+       },
+       {
+        "html": "In the edition — “viparītākhyā” (so in all the manuscripts except those listed here). Also “viparītākhyaṃ” — so in: Lalchand Research Library, рукопись M-2089, Чандигарх (колледж DAV). Also “viparītākṣaṃ” — so in: Jodhpur 02235, Джодхпур, NGMPP E-1528-1 / E-1527-7(4), Непал (микрофильм; NGMPP — Непальско-германский проект сохранения рукописей)."
+       },
+       {
+        "html": "Quarter b is absent in: текст Брахма̄нанды (его комментарий «Джйотсна̄»; это не рукопись, а поздняя редакция текста)."
+       },
+       {
+        "html": "In the edition — “vināśinī” (so in: NGMPP B 62-20, Непал (микрофильм; NGMPP — Непальско-германский проект сохранения рукописей), NGMPP G 25-2, Непал (микрофильм; NGMPP — Непальско-германский проект сохранения рукописей), Jodhpur 02241, Джодхпур, Sarasvatī Bhavan, шифр 30069, Ва̄ра̄н̣асӣ, Staatsbibliothek zu Berlin, рукопись or. 11056, Берлин, GOML R17256/SR8080, Ченнаи, Sarasvatī Bhavan, шифр 30051, Ва̄ра̄н̣асӣ, Sarasvatī Bhavan, шифр 30109, Ва̄ра̄н̣асӣ (старейшая датированная рукопись издания, 1496 год), Maharaja Man Singh Pustak Prakash (MSPP), рукопись № 2230, форт Мехрангарх, Джодхпур). Also “vināśanī” — so in: NGMPP E-1528-1 / E-1527-7(4), Непал (микрофильм; NGMPP — Непальско-германский проект сохранения рукописей), Рабочий код проекта — P11. Also “vināśanaṃ” — so in: Jodhpur 02235, Джодхпур, Lalchand Research Library, рукопись M-2089, Чандигарх (колледж DAV), Sarasvatī Bhavan, шифр 29899, Ва̄ра̄н̣асӣ."
+       },
+       {
+        "html": "In the edition — “yuktasya” (so in all the manuscripts except those listed here). Also “yogena” — so in: GOML R17256/SR8080, Ченнаи. Also “saktasya” — so in: Рабочий код проекта — P11."
+       },
+       {
+        "html": "In the edition — “vivardhanī” (so in: NGMPP B 62-20, Непал (микрофильм; NGMPP — Непальско-германский проект сохранения рукописей), Jodhpur 02241, Джодхпур, NGMPP E-1528-1 / E-1527-7(4), Непал (микрофильм; NGMPP — Непальско-германский проект сохранения рукописей), Sarasvatī Bhavan, шифр 30051, Ва̄ра̄н̣асӣ, Sarasvatī Bhavan, шифр 30109, Ва̄ра̄н̣асӣ (старейшая датированная рукопись издания, 1496 год)). Also “vivardhinī” — so in: NGMPP G 25-2, Непал (микрофильм; NGMPP — Непальско-германский проект сохранения рукописей), Sarasvatī Bhavan, шифр 30069, Ва̄ра̄н̣асӣ, Staatsbibliothek zu Berlin, рукопись or. 11056, Берлин, GOML R17256/SR8080, Ченнаи, Рабочий код проекта — P11, текст Брахма̄нанды (его комментарий «Джйотсна̄»; это не рукопись, а поздняя редакция текста). Also “vivardhanaṃ” — so in: Jodhpur 02235, Джодхпур, Lalchand Research Library, рукопись M-2089, Чандигарх (колледж DAV), Sarasvatī Bhavan, шифр 29899, Ва̄ра̄н̣асӣ. Also “pravardhinī” — so in: Maharaja Man Singh Pustak Prakash (MSPP), рукопись № 2230, форт Мехрангарх, Джодхпур."
+       }
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "sources",
+      "label": "Sources",
+      "paragraphs": [
+       "Dattātreyayogaśāstra 146",
+       "karaṇī ] karaṇaṃ DYŚ",
+       "vināśinī ] vināśanam DYŚ",
+       "jaṭharāgnivivardhanī ] jaṭharāgnir vivardhate DYŚ"
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "testimonia",
+      "label": "Testimonia",
+      "paragraphs": [
+       "Haṭharatnāvalī 2.75, Yogacintāmaṇi f. 78r (cd only) (attrib. Dattātreya)"
+      ]
+     },
+     {
+      "type": "p",
+      "text": "vivardhanī ] vivardhinī HRĀ, vivardhanam YCM"
+     },
+     {
+      "type": "h4",
+      "text": "Verse 3.75"
+     },
+     {
+      "type": "verse_card",
+      "verses": "",
+      "sections": [
+       {
+        "type": "verse",
+        "key": "deva",
+        "label": "Devanagari",
+        "lines": [
+         "आहारो बहुलस्तस्य संपाद्यः साधकस्य तु ।",
+         "अल्पाहारोयदि भवेदग्निर्देहंदहेत्क्षणात् ॥"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "iast",
+        "label": "IAST",
+        "lines": [
+         "āhāro bahulas tasya saṃpādyaḥ sādhakasya tu /",
+         "alpāhāroyadi bhaved agnir dehaṃdahet kṣaṇāt //"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "cyr",
+        "label": "Cyrillic transliteration",
+        "lines": [
+         "āхāро бахулас тасйа сам̣пāдйах̣ сāдхакасйа ту /",
+         "алпāхāройади бхавед агнир дехам̣дахет кшан̣āт //"
+        ]
+       }
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "edition",
+      "label": "Edition translation (English)",
+      "paragraphs": [
+       "A lot of food should be provided for the practitioner. If the practitioner eats little, fire will quickly consume his body."
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "metre",
+      "label": "Metre",
+      "paragraphs": [
+       "Anuṣṭubh (c: na-vipulā)"
+      ]
+     },
+     {
+      "type": "list",
+      "ordered": false,
+      "label": "Readings in the manuscripts",
+      "items": [
+       {
+        "html": "In the edition — “tu” (so in all the manuscripts except those listed here). Also “ca” — so in: Jodhpur 02235, Джодхпур, NGMPP G 25-2, Непал (микрофильм; NGMPP — Непальско-германский проект сохранения рукописей), текст Брахма̄нанды (его комментарий «Джйотсна̄»; это не рукопись, а поздняя редакция текста)."
+       },
+       {
+        "html": "In the edition — “alpāhāro” (so in: NGMPP B 62-20, Непал (микрофильм; NGMPP — Непальско-германский проект сохранения рукописей), Jodhpur 02235, Джодхпур, GOML 18885, Ченнаи (GOML — Government Oriental Manuscripts Library, Государственная библиотека восточных рукописей), GOML R17256/SR8080, Ченнаи, Sarasvatī Bhavan, шифр 30109, Ва̄ра̄н̣асӣ (старейшая датированная рукопись издания, 1496 год), Maharaja Man Singh Pustak Prakash (MSPP), рукопись № 2230, форт Мехрангарх, Джодхпур, Рабочий код проекта — P11, Lalchand Research Library, рукопись M-2089, Чандигарх (колледж DAV), Sarasvatī Bhavan, шифр 29899, Ва̄ра̄н̣асӣ, текст Брахма̄нанды (его комментарий «Джйотсна̄»; это не рукопись, а поздняя редакция текста)). Also “anāhāro” — so in: NGMPP G 25-2, Непал (микрофильм; NGMPP — Непальско-германский проект сохранения рукописей), Jodhpur 02241, Джодхпур, Sarasvatī Bhavan, шифр 30069, Ва̄ра̄н̣асӣ, Staatsbibliothek zu Berlin, рукопись or. 11056, Берлин, NGMPP E-1528-1 / E-1527-7(4), Непал (микрофильм; NGMPP — Непальско-германский проект сохранения рукописей), Sarasvatī Bhavan, шифр 30051, Ва̄ра̄н̣асӣ."
+       },
+       {
+        "html": "In the edition — “yadi bhaved” (so in all the manuscripts except those listed here). Also “nirāhāraḥ” — so in: Maharaja Man Singh Pustak Prakash (MSPP), рукопись № 2230, форт Мехрангарх, Джодхпур."
+       },
+       {
+        "html": "In the edition — “agnir dehaṃ” (so in: NGMPP B 62-20, Непал (микрофильм; NGMPP — Непальско-германский проект сохранения рукописей), GOML 18885, Ченнаи (GOML — Government Oriental Manuscripts Library, Государственная библиотека восточных рукописей), Sarasvatī Bhavan, шифр 30069, Ва̄ра̄н̣асӣ, Staatsbibliothek zu Berlin, рукопись or. 11056, Берлин, GOML R17256/SR8080, Ченнаи, Sarasvatī Bhavan, шифр 30051, Ва̄ра̄н̣асӣ, Sarasvatī Bhavan, шифр 29899, Ва̄ра̄н̣асӣ). Also “agnidehaṃ” — so in: Jodhpur 02235, Джодхпур, NGMPP G 25-2, Непал (микрофильм; NGMPP — Непальско-германский проект сохранения рукописей), Jodhpur 02241, Джодхпур, NGMPP E-1528-1 / E-1527-7(4), Непал (микрофильм; NGMPP — Непальско-германский проект сохранения рукописей), Рабочий код проекта — P11. Also “deham agnir” — so in: Sarasvatī Bhavan, шифр 30109, Ва̄ра̄н̣асӣ (старейшая датированная рукопись издания, 1496 год). Also “agnidāho” — so in: Lalchand Research Library, рукопись M-2089, Чандигарх (колледж DAV). Also “agnir daha” — so in: текст Брахма̄нанды (его комментарий «Джйотсна̄»; это не рукопись, а поздняя редакция текста). Also “kṣudhālasya” — so in: Maharaja Man Singh Pustak Prakash (MSPP), рукопись № 2230, форт Мехрангарх, Джодхпур."
+       },
+       {
+        "html": "In the edition — “dahet” (so in: NGMPP B 62-20, Непал (микрофильм; NGMPP — Непальско-германский проект сохранения рукописей), Jodhpur 02235, Джодхпур, NGMPP G 25-2, Непал (микрофильм; NGMPP — Непальско-германский проект сохранения рукописей), Jodhpur 02241, Джодхпур, Sarasvatī Bhavan, шифр 30069, Ва̄ра̄н̣асӣ, Staatsbibliothek zu Berlin, рукопись or. 11056, Берлин, GOML R17256/SR8080, Ченнаи, NGMPP E-1528-1 / E-1527-7(4), Непал (микрофильм; NGMPP — Непальско-германский проект сохранения рукописей), Sarasvatī Bhavan, шифр 30109, Ва̄ра̄н̣асӣ (старейшая датированная рукопись издания, 1496 год), Sarasvatī Bhavan, шифр 29899, Ва̄ра̄н̣асӣ). Also “haret” — so in: GOML 18885, Ченнаи (GOML — Government Oriental Manuscripts Library, Государственная библиотека восточных рукописей), Sarasvatī Bhavan, шифр 30051, Ва̄ра̄н̣асӣ, Рабочий код проекта — P11. Also “bhavet” — so in: Lalchand Research Library, рукопись M-2089, Чандигарх (колледж DAV). Also “ti tat” — so in: текст Брахма̄нанды (его комментарий «Джйотсна̄»; это не рукопись, а поздняя редакция текста). Also “vaśe” — so in: Maharaja Man Singh Pustak Prakash (MSPP), рукопись № 2230, форт Мехрангарх, Джодхпур."
+       },
+       {
+        "html": "In the edition — “kṣaṇāt” (so in all the manuscripts, including GOML 18885, Ченнаи (GOML — Government Oriental Manuscripts Library, Государственная библиотека восточных рукописей)). Also “kramāt” — so in: NGMPP B 62-20, Непал (микрофильм; NGMPP — Непальско-германский проект сохранения рукописей). Also “tataḥ” — so in: Jodhpur 02241, Джодхпур. Also “bhavet” — so in: Maharaja Man Singh Pustak Prakash (MSPP), рукопись № 2230, форт Мехрангарх, Джодхпур."
+       }
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "sources",
+      "label": "Sources",
+      "paragraphs": [
+       "Dattātreyayogaśāstra 147",
+       "sādhakasya tu ] sāṃkṛte dhruvam DYŚ"
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "testimonia",
+      "label": "Testimonia",
+      "paragraphs": [
+       "Haṭharatnāvalī 2.76, Yogacintāmaṇi f. 78r (attrib. Dattātreya)"
+      ]
+     },
+     {
+      "type": "p",
+      "text": "sādhakasya tu ] sādhakena vai HRĀ, sāṃkṛte dhruvam YCM"
+     },
+     {
+      "type": "p",
+      "text": "agnir deham ] deham agnir HRĀ, agnir dāhaṃ YCM"
+     },
+     {
+      "type": "p",
+      "text": "dahet kṣaṇāt ] dahet kramāt HRĀ, karoti vai YCM"
+     },
+     {
+      "type": "h4",
+      "text": "Verse 3.76"
+     },
+     {
+      "type": "verse_card",
+      "verses": "",
+      "sections": [
+       {
+        "type": "verse",
+        "key": "deva",
+        "label": "Devanagari",
+        "lines": [
+         "अधःशिरश्चोर्ध्वपादःक्षणं स्यात्प्रथमे दिने ।",
+         "क्षणाच्च किंचिदधिकमभ्यसेच्च दिने दिने ॥"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "iast",
+        "label": "IAST",
+        "lines": [
+         "adhaḥśiraś cordhvapādaḥkṣaṇaṃ syāt prathame dine /",
+         "kṣaṇāc ca kiṃcid adhikam abhyasec ca dine dine //"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "cyr",
+        "label": "Cyrillic transliteration",
+        "lines": [
+         "адхах̣ш́ираш́ чордхвапāдах̣кшан̣ам̣ сйāт пратхаме дине /",
+         "кшан̣āч ча ким̣чид адхикам абхйасеч ча дине дине //"
+        ]
+       }
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "edition",
+      "label": "Edition translation (English)",
+      "paragraphs": [
+       "On the first day [the yogi] should keep his head down and his feet up for a short while, and he should [then] practise for a little longer each day."
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "metre",
+      "label": "Metre",
+      "paragraphs": [
+       "Anuṣṭubh (a: ra-vipulā; c: na-vipulā)"
+      ]
+     },
+     {
+      "type": "list",
+      "ordered": false,
+      "label": "Readings in the manuscripts",
+      "items": [
+       {
+        "html": "In the edition — “śiraś” (so in: NGMPP B 62-20, Непал (микрофильм; NGMPP — Непальско-германский проект сохранения рукописей), GOML 18885, Ченнаи (GOML — Government Oriental Manuscripts Library, Государственная библиотека восточных рукописей), Sarasvatī Bhavan, шифр 30069, Ва̄ра̄н̣асӣ, GOML R17256/SR8080, Ченнаи, NGMPP E-1528-1 / E-1527-7(4), Непал (микрофильм; NGMPP — Непальско-германский проект сохранения рукописей), Sarasvatī Bhavan, шифр 30051, Ва̄ра̄н̣асӣ, Sarasvatī Bhavan, шифр 30109, Ва̄ра̄н̣асӣ (старейшая датированная рукопись издания, 1496 год), Maharaja Man Singh Pustak Prakash (MSPP), рукопись № 2230, форт Мехрангарх, Джодхпур, Рабочий код проекта — P11, Lalchand Research Library, рукопись M-2089, Чандигарх (колледж DAV), Sarasvatī Bhavan, шифр 29899, Ва̄ра̄н̣асӣ). Also “śira” — so in: Jodhpur 02235, Джодхпур, Staatsbibliothek zu Berlin, рукопись or. 11056, Берлин. Also “śirāś” — so in: текст Брахма̄нанды (его комментарий «Джйотсна̄»; это не рукопись, а поздняя редакция текста). Also “śirā” — so in: NGMPP G 25-2, Непал (микрофильм; NGMPP — Непальско-германский проект сохранения рукописей), Jodhpur 02241, Джодхпур."
+       },
+       {
+        "html": "In the edition — “cordhva” (so in all the manuscripts except those listed here). Also “cordhvaṃ” — so in: Sarasvatī Bhavan, шифр 29899, Ва̄ра̄н̣асӣ. Also “ūrdhva” — so in: NGMPP G 25-2, Непал (микрофильм; NGMPP — Непальско-германский проект сохранения рукописей), Jodhpur 02241, Джодхпур, Staatsbibliothek zu Berlin, рукопись or. 11056, Берлин."
+       },
+       {
+        "html": "In the edition — “pādaḥ” (so in: NGMPP B 62-20, Непал (микрофильм; NGMPP — Непальско-германский проект сохранения рукописей), Jodhpur 02235, Джодхпур, GOML 18885, Ченнаи (GOML — Government Oriental Manuscripts Library, Государственная библиотека восточных рукописей), Jodhpur 02241, Джодхпур, Sarasvatī Bhavan, шифр 30069, Ва̄ра̄н̣асӣ, Staatsbibliothek zu Berlin, рукопись or. 11056, Берлин, GOML R17256/SR8080, Ченнаи, Sarasvatī Bhavan, шифр 30051, Ва̄ра̄н̣асӣ, Рабочий код проекта — P11, Lalchand Research Library, рукопись M-2089, Чандигарх (колледж DAV), текст Брахма̄нанды (его комментарий «Джйотсна̄»; это не рукопись, а поздняя редакция текста)). Also “pāda” — so in: NGMPP G 25-2, Непал (микрофильм; NGMPP — Непальско-германский проект сохранения рукописей), NGMPP E-1528-1 / E-1527-7(4), Непал (микрофильм; NGMPP — Непальско-германский проект сохранения рукописей), Sarasvatī Bhavan, шифр 29899, Ва̄ра̄н̣асӣ. Also “pādau” — so in: Sarasvatī Bhavan, шифр 30109, Ва̄ра̄н̣асӣ (старейшая датированная рукопись издания, 1496 год), Maharaja Man Singh Pustak Prakash (MSPP), рукопись № 2230, форт Мехрангарх, Джодхпур."
+       },
+       {
+        "html": "In the edition — “kṣaṇaṃ syāt” (so in all the manuscripts except those listed here). Also “kṣīṇaṃ syāt” — so in: Sarasvatī Bhavan, шифр 30069, Ва̄ра̄н̣асӣ. Also “lakṣaṇaṃ” — so in: Maharaja Man Singh Pustak Prakash (MSPP), рукопись № 2230, форт Мехрангарх, Джодхпур."
+       },
+       {
+        "html": "In the edition — “dine” (so in all the manuscripts except those listed here). Also “hani” — so in: Staatsbibliothek zu Berlin, рукопись or. 11056, Берлин."
+       },
+       {
+        "html": "Quarter c is absent in: Sarasvatī Bhavan, шифр 30069, Ва̄ра̄н̣асӣ."
+       },
+       {
+        "html": "In the edition — “kṣaṇāc ca” (so in: NGMPP B 62-20, Непал (микрофильм; NGMPP — Непальско-германский проект сохранения рукописей), GOML R17256/SR8080, Ченнаи, Sarasvatī Bhavan, шифр 30051, Ва̄ра̄н̣асӣ, Sarasvatī Bhavan, шифр 30109, Ва̄ра̄н̣асӣ (старейшая датированная рукопись издания, 1496 год), Maharaja Man Singh Pustak Prakash (MSPP), рукопись № 2230, форт Мехрангарх, Джодхпур, Lalchand Research Library, рукопись M-2089, Чандигарх (колледж DAV), Sarasvatī Bhavan, шифр 29899, Ва̄ра̄н̣асӣ, текст Брахма̄нанды (его комментарий «Джйотсна̄»; это не рукопись, а поздняя редакция текста)). Also “kṣayāc ca” — so in: Jodhpur 02235, Джодхпур. Also “kṣaṇāt tu” — so in: NGMPP G 25-2, Непал (микрофильм; NGMPP — Непальско-германский проект сохранения рукописей), Jodhpur 02241, Джодхпур. Also “kṣaṇādyaṃ” — so in: Рабочий код проекта — P11. Also “kṣaṇārdha” — so in: NGMPP E-1528-1 / E-1527-7(4), Непал (микрофильм; NGMPP — Непальско-германский проект сохранения рукописей). Also “kṣaṇādardhaṃ” — so in: Staatsbibliothek zu Berlin, рукопись or. 11056, Берлин. Absent in: Sarasvatī Bhavan, шифр 30069, Ва̄ра̄н̣асӣ."
+       },
+       {
+        "html": "In the edition — “adhikam” (so in all the manuscripts except those listed here). Also “apika” — so in: NGMPP G 25-2, Непал (микрофильм; NGMPP — Непальско-германский проект сохранения рукописей). Absent in: Sarasvatī Bhavan, шифр 30069, Ва̄ра̄н̣асӣ."
+       },
+       {
+        "html": "Quarter d is absent in: Sarasvatī Bhavan, шифр 30069, Ва̄ра̄н̣асӣ."
+       },
+       {
+        "html": "In the edition — “abhyasec ca” (so in all the manuscripts except those listed here). Also “abhyasetva” — so in: Jodhpur 02241, Джодхпур. Also “bhyarccayec ca” — so in: NGMPP G 25-2, Непал (микрофильм; NGMPP — Непальско-германский проект сохранения рукописей). Absent in: Sarasvatī Bhavan, шифр 30069, Ва̄ра̄н̣асӣ."
+       }
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "sources",
+      "label": "Sources",
+      "paragraphs": [
+       "Dattātreyayogaśāstra 148c–149b",
+       "adhaḥśirāś ] adhaḥśiraś DYŚ v.l."
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "testimonia",
+      "label": "Testimonia",
+      "paragraphs": [
+       "Haṭharatnāvalī 2.77, Yogacintāmaṇi f. 78r (attrib. Dattātreya)"
+      ]
+     },
+     {
+      "type": "p",
+      "text": "śirāś YCM ] śiraś HRĀ"
+     },
+     {
+      "type": "p",
+      "text": "pādaḥ HRĀ v.l. YCM ] pādau HRĀ"
+     },
+     {
+      "type": "h4",
+      "text": "Verse 3.77"
+     },
+     {
+      "type": "verse_card",
+      "verses": "",
+      "sections": [
+       {
+        "type": "verse",
+        "key": "deva",
+        "label": "Devanagari",
+        "lines": [
+         "वलिश्चपलितं चैव षण्मासोर्ध्वं नदृश्यते ।",
+         "याममात्रं तु यो नित्यमभ्यसेत्स तुकालजित् ॥"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "iast",
+        "label": "IAST",
+        "lines": [
+         "valiś capalitaṃ caiva ṣaṇmāsordhvaṃ nadṛśyate /",
+         "yāmamātraṃ tu yo nityam abhyaset sa tukālajit //"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "cyr",
+        "label": "Cyrillic transliteration",
+        "lines": [
+         "валиш́ чапалитам̣ чаива шан̣мāсордхвам̣ надр̣ш́йате /",
+         "йāмамāтрам̣ ту йо нитйам абхйасет са тукāладжит //"
+        ]
+       }
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "edition",
+      "label": "Edition translation (English)",
+      "paragraphs": [
+       "After six months grey hair and wrinkles disappear. [The yogi] who regularly practises for three hours conquers death."
+      ]
+     },
+     {
+      "type": "list",
+      "ordered": false,
+      "label": "Readings in the manuscripts",
+      "items": [
+       {
+        "html": "In the edition — “valiś ca” (so in: NGMPP B 62-20, Непал (микрофильм; NGMPP — Непальско-германский проект сохранения рукописей), GOML R17256/SR8080, Ченнаи, Sarasvatī Bhavan, шифр 30109, Ва̄ра̄н̣асӣ (старейшая датированная рукопись издания, 1496 год), Рабочий код проекта — P11, Lalchand Research Library, рукопись M-2089, Чандигарх (колледж DAV), Sarasvatī Bhavan, шифр 29899, Ва̄ра̄н̣асӣ). Also “vali” — so in: Jodhpur 02235, Джодхпур. Also “valiṃ ca” — so in: Staatsbibliothek zu Berlin, рукопись or. 11056, Берлин. Also “valitaṃ” — so in: NGMPP G 25-2, Непал (микрофильм; NGMPP — Непальско-германский проект сохранения рукописей), Jodhpur 02241, Джодхпур, Sarasvatī Bhavan, шифр 30069, Ва̄ра̄н̣асӣ, NGMPP E-1528-1 / E-1527-7(4), Непал (микрофильм; NGMPP — Непальско-германский проект сохранения рукописей), Sarasvatī Bhavan, шифр 30051, Ва̄ра̄н̣асӣ, Maharaja Man Singh Pustak Prakash (MSPP), рукопись № 2230, форт Мехрангарх, Джодхпур, текст Брахма̄нанды (его комментарий «Джйотсна̄»; это не рукопись, а поздняя редакция текста)."
+       },
+       {
+        "html": "In the edition — “palitaṃ” (so in all the manuscripts except those listed here). Also “palitaś” — so in: Рабочий код проекта — P11, Lalchand Research Library, рукопись M-2089, Чандигарх (колледж DAV)."
+       },
+       {
+        "html": "In the edition — “ṣaṇmāsordhvaṃ na” (so in: текст Брахма̄нанды (его комментарий «Джйотсна̄»; это не рукопись, а поздняя редакция текста)). Also “ṣaṇmāsārdhān na” — so in: NGMPP B 62-20, Непал (микрофильм; NGMPP — Непальско-германский проект сохранения рукописей), GOML R17256/SR8080, Ченнаи, Sarasvatī Bhavan, шифр 30051, Ва̄ра̄н̣асӣ, Рабочий код проекта — P11, Lalchand Research Library, рукопись M-2089, Чандигарх (колледж DAV). Also “ṣaṇmāsārdhaṃ na” — so in: Sarasvatī Bhavan, шифр 29899, Ва̄ра̄н̣асӣ. Also “ṣaṇmāsārdhena” — so in: Jodhpur 02235, Джодхпур, NGMPP G 25-2, Непал (микрофильм; NGMPP — Непальско-германский проект сохранения рукописей), Jodhpur 02241, Джодхпур, Staatsbibliothek zu Berlin, рукопись or. 11056, Берлин. Also “ṣaṇmāsārdheṇa” — so in: Sarasvatī Bhavan, шифр 30069, Ва̄ра̄н̣асӣ. Also “ṣaṇmāsārdhe ca” — so in: NGMPP E-1528-1 / E-1527-7(4), Непал (микрофильм; NGMPP — Непальско-германский проект сохранения рукописей). Also “ṣaṇmāsāt tu na” — so in: Sarasvatī Bhavan, шифр 30109, Ва̄ра̄н̣асӣ (старейшая датированная рукопись издания, 1496 год), Maharaja Man Singh Pustak Prakash (MSPP), рукопись № 2230, форт Мехрангарх, Джодхпур."
+       },
+       {
+        "html": "In the edition — “dṛśyate” (so in all the manuscripts except those listed here). Also “naśyati” — so in: NGMPP G 25-2, Непал (микрофильм; NGMPP — Непальско-германский проект сохранения рукописей), Jodhpur 02241, Джодхпур, Sarasvatī Bhavan, шифр 30069, Ва̄ра̄н̣асӣ, Staatsbibliothek zu Berlin, рукопись or. 11056, Берлин, NGMPP E-1528-1 / E-1527-7(4), Непал (микрофильм; NGMPP — Непальско-германский проект сохранения рукописей)."
+       },
+       {
+        "html": "In the edition — “yāmamātraṃ tu” (so in all the manuscripts except those listed here). Also “yāmamātraṃ ca” — so in: Sarasvatī Bhavan, шифр 30051, Ва̄ра̄н̣асӣ. Also “māsatrayaṃ tu” — so in: Maharaja Man Singh Pustak Prakash (MSPP), рукопись № 2230, форт Мехрангарх, Джодхпур."
+       },
+       {
+        "html": "In the edition — “nityam” (so in all the manuscripts except those listed here). Also “gnibhyam” — so in: NGMPP G 25-2, Непал (микрофильм; NGMPP — Непальско-германский проект сохранения рукописей)."
+       },
+       {
+        "html": "In the edition — “abhyaset” (so in all the manuscripts except those listed here). Also “aset” — so in: Sarasvatī Bhavan, шифр 30069, Ва̄ра̄н̣асӣ."
+       },
+       {
+        "html": "In the edition — “tu” (so in all the manuscripts except those listed here). Also “su” — so in: Jodhpur 02241, Джодхпур. Also “ca” — so in: NGMPP E-1528-1 / E-1527-7(4), Непал (микрофильм; NGMPP — Непальско-германский проект сохранения рукописей)."
+       },
+       {
+        "html": "In the edition — “kālajit” (so in all the manuscripts except those listed here). Also “kālavit” — so in: NGMPP E-1528-1 / E-1527-7(4), Непал (микрофильм; NGMPP — Непальско-германский проект сохранения рукописей), Maharaja Man Singh Pustak Prakash (MSPP), рукопись № 2230, форт Мехрангарх, Джодхпур."
+       }
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "sources",
+      "label": "Sources",
+      "paragraphs": [
+       "Dattātreyayogaśāstra 149c–150b",
+       "māsordhvaṃ na ] māsāṃ hi na DYŚ v.l., māsāc ca na DYŚ v.l.",
+       "tu ] hi DYŚ",
+       "kālajit ] yogavit DYŚ v.l."
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "testimonia",
+      "label": "Testimonia",
+      "paragraphs": [
+       "Haṭharatnāvalī 2.78, Yogacintāmaṇi f. 78r (attrib. Dattātreya), Yuktabhavadeva 7.238 (attrib. Gorakṣanātha)"
+      ]
+     },
+     {
+      "type": "p",
+      "text": "valiś ca YCM ] valitaṃ HRĀ YBhD"
+     },
+     {
+      "type": "p",
+      "text": "māsordhvaṃ na ] māsān na tu HRĀ, māsārdhe na YCM, māsārdhān na YBhD"
+     }
+    ]
+   }
+  }
+ ]
+}

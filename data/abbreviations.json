@@ -1,0 +1,208 @@
+{
+  "note": {
+    "ru": "Сокращения, которые встречаются в текстах и таблицах источников. Полное название дано здесь же, чтобы за расшифровкой не приходилось идти в другой раздел. В цитатах сокращение остаётся таким, каким его напечатал источник: цитаты не правятся.",
+    "en": "Abbreviations that occur in the sources’ text and tables. The full name is given right here, so that nothing has to be looked up elsewhere. Inside quotations the abbreviation stays as the source printed it: quotations are not edited."
+  },
+  "entries": [
+    {
+      "code": "GOML",
+      "ru": "Government Oriental Manuscripts Library, Государственная библиотека восточных рукописей, Ченнаи",
+      "en": "Government Oriental Manuscripts Library, Chennai"
+    },
+    {
+      "code": "NGMPP",
+      "ru": "Nepalese-German Manuscript Preservation Project, Непальско-германский проект сохранения рукописей (микрофильмы, Непал)",
+      "en": "Nepalese-German Manuscript Preservation Project (microfilms, Nepal)"
+    },
+    {
+      "code": "NGMCP",
+      "ru": "Nepalese-German Manuscript Cataloguing Project, Непальско-германский проект каталогизации рукописей (Гамбург)",
+      "en": "Nepalese-German Manuscript Cataloguing Project, Hamburg"
+    },
+    {
+      "code": "BISM",
+      "ru": "Bhārata Itihāsa Saṃśodhaka Maṇḍala, Пуне",
+      "en": "Bharata Itihasa Samshodhaka Mandala, Pune"
+    },
+    {
+      "code": "MSPP",
+      "ru": "Maharaja Man Singh Pustak Prakash, форт Мехрангарх, Джодхпур",
+      "en": "Maharaja Man Singh Pustak Prakash, Mehrangarh Fort, Jodhpur"
+    },
+    {
+      "code": "MMSPP",
+      "ru": "Maharaja Man Singh Pustak Prakash (Махараджа Ман Сингх Пустак Пракаш), форт Мехрангарх, Джодхпур",
+      "en": "Maharaja Man Singh Pustak Prakash, Mehrangarh Fort, Jodhpur"
+    },
+    {
+      "code": "DAV",
+      "ru": "колледж DAV (DAV College), Чандигарх",
+      "en": "DAV College, Chandigarh"
+    },
+    {
+      "code": "ORI",
+      "ru": "Oriental Research Institute, Восточный научно-исследовательский институт, Майсур",
+      "en": "Oriental Research Institute, Mysore"
+    },
+    {
+      "code": "BHU",
+      "ru": "Banaras Hindu University, Бенаресский индуистский университет, Варанаси",
+      "en": "Banaras Hindu University, Varanasi"
+    },
+    {
+      "code": "TMSSML",
+      "ru": "Thanjavur Maharaja Serfoji’s Sarasvatī Mahal Library, Тханджавур",
+      "en": "Thanjavur Maharaja Serfoji’s Sarasvati Mahal Library, Thanjavur"
+    },
+    {
+      "code": "EFEO",
+      "ru": "École française d’Extrême-Orient, Французская школа Дальнего Востока, Пондичерри",
+      "en": "École française d’Extrême-Orient, Pondicherry"
+    },
+    {
+      "code": "IGNCA",
+      "ru": "Indira Gandhi National Centre for the Arts, Нью-Дели",
+      "en": "Indira Gandhi National Centre for the Arts, New Delhi"
+    },
+    {
+      "code": "BORI",
+      "ru": "Bhandarkar Oriental Research Institute, Пуне",
+      "en": "Bhandarkar Oriental Research Institute, Pune"
+    },
+    {
+      "code": "RAS",
+      "ru": "Royal Asiatic Society, Лондон",
+      "en": "Royal Asiatic Society, London"
+    },
+    {
+      "code": "ZDMG",
+      "ru": "Zeitschrift der Deutschen Morgenländischen Gesellschaft, журнал Немецкого востоковедного общества",
+      "en": "Zeitschrift der Deutschen Morgenländischen Gesellschaft (journal of the German Oriental Society)"
+    },
+    {
+      "code": "OLZ",
+      "ru": "Orientalistische Literaturzeitung",
+      "en": "Orientalistische Literaturzeitung"
+    },
+    {
+      "code": "ABORI",
+      "ru": "Annals of the Bhandarkar Oriental Research Institute",
+      "en": "Annals of the Bhandarkar Oriental Research Institute"
+    },
+    {
+      "code": "WZKS",
+      "ru": "Wiener Zeitschrift für die Kunde Südasiens",
+      "en": "Wiener Zeitschrift für die Kunde Südasiens"
+    },
+    {
+      "code": "VOHD",
+      "ru": "Verzeichnis der orientalischen Handschriften in Deutschland, сводный каталог восточных рукописей в собраниях Германии",
+      "en": "Verzeichnis der orientalischen Handschriften in Deutschland (catalogue of Oriental manuscripts in German collections)"
+    },
+    {
+      "code": "IAST",
+      "ru": "International Alphabet of Sanskrit Transliteration, международный алфавит транслитерации санскрита",
+      "en": "International Alphabet of Sanskrit Transliteration"
+    },
+    {
+      "code": "HP",
+      "ru": "Хат̣хапрадӣпикā (Haṭhapradīpikā)",
+      "en": "Haṭhapradīpikā"
+    },
+    {
+      "code": "ХП",
+      "ru": "Хат̣хапрадӣпикā (Haṭhapradīpikā)",
+      "en": "Haṭhapradīpikā"
+    },
+    {
+      "code": "DYS",
+      "ru": "Даттāтрея-йога-ш́āстра (Dattātreyayogaśāstra)",
+      "en": "Dattātreyayogaśāstra"
+    },
+    {
+      "code": "VS",
+      "ru": "Васишт̣ха-сам̣хитā (Vasiṣṭha Saṃhitā)",
+      "en": "Vasiṣṭha Saṃhitā"
+    },
+    {
+      "code": "ŚS",
+      "ru": "Ш́ива-сам̣хитā (Śivasaṃhitā)",
+      "en": "Śivasaṃhitā"
+    },
+    {
+      "code": "YY",
+      "ru": "Йога-йāджн̃авалкйа (Yogayājñavalkya)",
+      "en": "Yogayājñavalkya"
+    },
+    {
+      "code": "HTK",
+      "ru": "Хат̣хататтвакаумудӣ (Haṭhatattvakaumudī)",
+      "en": "Haṭhatattvakaumudī"
+    },
+    {
+      "code": "ŚP",
+      "ru": "Ш́āрн̇гадхара-паддхати (Śārṅgadharapaddhati)",
+      "en": "Śārṅgadharapaddhati"
+    },
+    {
+      "code": "VM",
+      "ru": "Вивека-мāртан̣д̣а (Vivekamārtaṇḍa)",
+      "en": "Vivekamārtaṇḍa"
+    },
+    {
+      "code": "HRĀ",
+      "ru": "Хат̣харатнāвали (Haṭharatnāvalī)",
+      "en": "Haṭharatnāvalī"
+    },
+    {
+      "code": "YCM",
+      "ru": "Йогачинтāман̣и (Yogacintāmaṇi)",
+      "en": "Yogacintāmaṇi"
+    },
+    {
+      "code": "YBhD",
+      "ru": "Йуктабхавадева (Yuktabhavadeva)",
+      "en": "Yuktabhavadeva"
+    },
+    {
+      "code": "HSC",
+      "ru": "Хат̣хасан̇кетачандрикā (Haṭhasaṅketacandrikā)",
+      "en": "Haṭhasaṅketacandrikā"
+    },
+    {
+      "code": "BCE",
+      "ru": "до н. э. (before the Common Era)",
+      "en": "BCE (before the Common Era)"
+    },
+    {
+      "code": "CE",
+      "ru": "н. э. (Common Era)",
+      "en": "CE (Common Era)"
+    },
+    {
+      "code": "CI",
+      "ru": "критическое издание",
+      "en": "critical edition"
+    },
+    {
+      "code": "MSS",
+      "ru": "рукописи (manuscripts)",
+      "en": "manuscripts"
+    },
+    {
+      "code": "OCR",
+      "ru": "автоматическое распознавание текста (Optical Character Recognition)",
+      "en": "Optical Character Recognition"
+    },
+    {
+      "code": "DOI",
+      "ru": "Digital Object Identifier, постоянный идентификатор публикации",
+      "en": "Digital Object Identifier"
+    },
+    {
+      "code": "ISBN",
+      "ru": "International Standard Book Number, международный номер книги",
+      "en": "International Standard Book Number"
+    }
+  ]
+}

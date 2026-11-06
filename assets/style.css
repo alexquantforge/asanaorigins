@@ -1895,3 +1895,99 @@ html[data-theme="dark"] .treatise-head {
   .about-meta { font-size: .66rem; letter-spacing: .06em; line-height: 1.75; }
   .about-title { font-size: 1.9rem; }
 }
+
+/* --------------------------------------------------------------------------
+   Справка о стихе «Хат̣хапрадӣпики» — встаёт рядом с упоминанием, чтобы
+   читателю не приходилось листать страницу или переключать трактат.
+   -------------------------------------------------------------------------- */
+.hp-refs { margin: 0 0 clamp(20px, 2.6vw, 28px); }
+
+.hp-ref {
+  border-left: 2px solid color-mix(in srgb, var(--accent) 45%, var(--rule));
+  background: color-mix(in srgb, var(--paper-deep) 55%, transparent);
+  padding: 14px 16px 16px;
+}
+.hp-ref + .hp-ref { margin-top: 12px; }
+
+.hp-ref-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 4px 10px;
+  margin: 0 0 6px;
+  font-size: .68rem;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+}
+.hp-ref-name { color: var(--accent); }
+.hp-ref-where { color: var(--muted); letter-spacing: .1em; }
+
+.hp-ref-lead {
+  margin: 0 0 12px;
+  font-size: .82rem;
+  line-height: 1.6;
+  color: var(--ink-2);
+}
+
+.hp-ref-line {
+  margin: 0 0 6px;
+  line-height: 1.85;
+  overflow-wrap: break-word;
+}
+.hp-ref-line > span { display: block; }
+.hp-ref-line.deva { font-size: 1.28rem; line-height: 2; }
+.hp-ref-line.iast { font-style: italic; color: var(--ink-2); }
+.hp-ref-line.cyr { color: var(--ink-2); }
+
+.hp-ref-tr {
+  margin: 12px 0 0;
+  font-size: .9rem;
+  line-height: 1.7;
+}
+.hp-ref-tr-label {
+  display: block;
+  font-size: .62rem;
+  letter-spacing: .16em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 3px;
+}
+
+.hp-ref-app { margin-top: 14px; }
+.hp-ref-app-head {
+  margin: 0 0 6px;
+  font-size: .62rem;
+  letter-spacing: .16em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+.hp-ref-app ul { margin: 0; padding-left: 1.1em; }
+.hp-ref-app li {
+  margin: 0 0 6px;
+  font-size: .84rem;
+  line-height: 1.6;
+  color: var(--ink-2);
+}
+
+/* расшифровка сокращений: стоит в начале раздела, до самих сокращений */
+.abbr-note {
+  margin: 0 0 clamp(18px, 2.2vw, 26px);
+  padding: 12px 14px;
+  border: 1px solid var(--rule-soft);
+  background: color-mix(in srgb, var(--paper-deep) 35%, transparent);
+}
+.abbr-note-head {
+  margin: 0 0 8px;
+  font-size: .62rem;
+  letter-spacing: .16em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+.abbr-list { margin: 0; padding-left: 1.1em; }
+.abbr-list li {
+  margin: 0 0 4px;
+  font-size: .8rem;
+  line-height: 1.5;
+  color: var(--ink-2);
+}
+.abbr-list b { color: var(--accent); font-weight: 600; }

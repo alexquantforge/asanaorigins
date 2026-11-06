@@ -1,0 +1,184 @@
+{
+  "source": {
+    "url": "https://yoga.ames.ox.ac.uk/hp/reader/edition/#hp03_073",
+    "title": {
+      "ru": "Haṭhapradīpikā Online — цифровое критическое издание «Light on Haṭha Yoga» (Оксфорд – Марбург, 2024), глава 3",
+      "en": "Haṭhapradīpikā Online — the digital critical edition of the Light on Haṭha Yoga project (Oxford – Marburg, 2024), chapter 3"
+    },
+    "note": {
+      "ru": "Текст главы 3, стихи 3.73–3.77, списан с цифрового критического издания (yoga.ames.ox.ac.uk/hp/reader/edition/). В собрании сайта «Хат̣хапрадӣпикā» была только по главе 1: эти стихи добавлены, чтобы описание Випарӣта-каран̣ӣ было на месте, а не «где-то в другом издании». Деванагари и IAST напечатаны так, как в издании: часть слов издание набирает слитно, потому что от них идёт ссылка на аппарат.",
+      "en": "Chapter 3, verses 3.73–3.77, copied from the digital critical edition (yoga.ames.ox.ac.uk/hp/reader/edition/). The site’s Haṭhapradīpikā previously covered chapter 1 only: these verses are added so that the description of Viparītakaraṇī stands where it is needed. Devanagari and IAST are printed as in the edition: some words are set without spaces because the edition links them to the apparatus."
+    }
+  },
+  "vulgate": {
+    "note": {
+      "ru": "В изданиях старой нумерации те же стихи напечатаны как 3.79–3.82 — так их и цитирует критическое издание Даттāтрея-йоги на странице этой позы. Соответствие: 3.79 = 3.74, 3.80 = 3.75, 3.81 = 3.76, 3.82 = 3.77.",
+      "en": "In editions with the older numbering the same verses are printed as 3.79–3.82, which is how the critical edition of the Dattātreyayogaśāstra cites them on this pose’s page. The correspondence: 3.79 = 3.74, 3.80 = 3.75, 3.81 = 3.76, 3.82 = 3.77."
+    },
+    "map": { "3.79": "3.74", "3.80": "3.75", "3.81": "3.76", "3.82": "3.77" }
+  },
+  "pose": {
+    "key": "viparitakarani",
+    "name": { "ru": "Випарӣта-каран̣ӣ", "en": "Viparītakaraṇī" },
+    "gloss": { "ru": "«обратное действие», перевёрнутая поза", "en": "the “inverted” position" },
+    "verses": "3.73, 3.74, 3.75, 3.76, 3.77",
+    "intro": {
+      "ru": "«Хат̣хапрадӣпикā» описывает эту позу в главе 3 — перед разделом о ваджролӣ. Ниже — все пять стихов так, как они напечатаны в критическом издании, и весь аппарат с полными названиями рукописей. Русского подстрочника к этим стихам в собрании нет: в электронном издании перевод только английский, и он приведён здесь целиком.",
+      "en": "The Haṭhapradīpikā describes this position in chapter 3, just before the section on vajrolī. Below are all five verses as printed in the critical edition, with the full apparatus and the manuscripts spelled out."
+    }
+  },
+  "verses": [
+    {
+      "number": "3.73",
+      "deva": [
+        "ऊर्ध्वं नाभिरधस्तालुरूर्ध्वं भानुरधः शशी ।",
+        "करणी विपरीताख्यागुरुवाक्येन लभ्यते ॥"
+      ],
+      "iast": [
+        "ūrdhvaṃ nābhir adhas tālur ūrdhvaṃ bhānur adhaḥ śaśī /",
+        "karaṇī viparītākhyāguruvākyena labhyate //"
+      ],
+      "translation": "The navel is up, the palate down; the sun up, the moon down: the bodily position called “inverted” is obtained through the teaching of a guru.",
+      "readings": [
+        "ūrdhvaṃ nābhir|α1α2γ2δ1δ2ζ2ζ3η1η2πω|ūrdhvanābhir ε1π1, ūrdhvanābhor γ1, ūrdhvanābher χ, ūrdhvaṃ nābher π2, ++ nābher α3",
+        "adhas tālur|α2α3δ1ε1ζ2ζ3η2π1π2πω|adhas tālu α1γ2η1, adhas tāla δ2, asāluktar γ1, adhastālor χ",
+        "ūrdhva_cett.||ūrdhva α2γ1δ1, ūrdhvo η1",
+        "pāda c||om. δ1ζ2η2π1π2",
+        "karaṇī viparītākhyā|α1γ1γ2δ2ε1η1χ|karaṇī viparītākṣaṃ α2, karaṇaṃ viparītākhyaṃ α3ζ3πω",
+        "pāda d||om. δ1ζ2η2π1π2",
+        "labhyate|α1γ1ζ3η1πωχ|lakṣate α2, lakṣayet α3ε1, gamyate γ2δ2"
+      ],
+      "sources": "Vivekamārtaṇḍa 115",
+      "testimonia": "Haṭharatnāvalī 2.74, Yogacintāmaṇi f. 73r (attrib. HP), Yuktabhavadeva 7.236 (attrib. Gorakṣanātha)",
+      "testimonia_readings": [
+        "ūrdhvaṃ nābhir HRĀ YBhD ] ūrdhvanābhir YCM",
+        "ūrdhvaṃ bhānur HRĀ YBhD ] ūrdhvabhānur YCM",
+        "guruvākyena labhyate HRĀ ] sarvavyādhivināśinī YCM, guruvaktreṇa gamyate YBhD"
+      ]
+    },
+    {
+      "number": "3.74",
+      "deva": [
+        "करणीविपरीताख्यासर्वव्याधिविनाशिनी ।",
+        "नित्यमभ्यासयुक्तस्य जठराग्निविवर्धनी ॥"
+      ],
+      "iast": [
+        "karaṇīviparītākhyāsarvavyādhivināśinī /",
+        "nityam abhyāsayuktasya jaṭharāgnivivardhanī //"
+      ],
+      "translation": "The bodily position called “inverted” destroys all diseases. For [the yogi] who regularly engages in [its] practice, it increases the digestive fire.",
+      "readings": [
+        "pāda a||om. χ",
+        "karaṇī_cett.||karaṇaṃ π1",
+        "viparītākhyā_cett.||viparītākhyaṃ π2, viparītākṣaṃ α2ζ2",
+        "pāda b||om. χ",
+        "vināśinī|α1γ1γ2δ1δ2ε1ζ3η1η2|vināśanī ζ2π1, vināśanaṃ α2π2πω",
+        "yuktasya_cett.||yogena ε1, saktasya π1",
+        "vivardhanī|α1γ2ζ2ζ3η1|vivardhinī γ1δ1δ2ε1π1χ, vivardhanaṃ α2π2πω, pravardhinī η2"
+      ],
+      "sources": "Dattātreyayogaśāstra 146",
+      "sources_readings": [
+        "karaṇī ] karaṇaṃ DYŚ",
+        "vināśinī ] vināśanam DYŚ",
+        "jaṭharāgnivivardhanī ] jaṭharāgnir vivardhate DYŚ"
+      ],
+      "testimonia": "Haṭharatnāvalī 2.75, Yogacintāmaṇi f. 78r (cd only) (attrib. Dattātreya)",
+      "testimonia_readings": ["vivardhanī ] vivardhinī HRĀ, vivardhanam YCM"]
+    },
+    {
+      "number": "3.75",
+      "deva": [
+        "आहारो बहुलस्तस्य संपाद्यः साधकस्य तु ।",
+        "अल्पाहारोयदि भवेदग्निर्देहंदहेत्क्षणात् ॥"
+      ],
+      "iast": [
+        "āhāro bahulas tasya saṃpādyaḥ sādhakasya tu /",
+        "alpāhāroyadi bhaved agnir dehaṃdahet kṣaṇāt //"
+      ],
+      "translation": "A lot of food should be provided for the practitioner. If the practitioner eats little, fire will quickly consume his body.",
+      "metre": "Anuṣṭubh (c: na-vipulā)",
+      "readings": [
+        "tu_cett.||ca α2γ1χ",
+        "alpāhāro|α1α2α3ε1η1η2π1π2πωχ|anāhāro γ1γ2δ1δ2ζ2ζ3",
+        "yadi bhaved_cett.||nirāhāraḥ η2",
+        "agnir dehaṃ|α1α3δ1δ2ε1ζ3πω|agnidehaṃ α2γ1γ2ζ2π1, deham agnir η1, agnidāho π2, agnir daha χ, kṣudhālasya η2",
+        "dahet|α1α2γ1γ2δ1δ2ε1ζ2η1πω|haret α3ζ3π1, bhavet π2, ti tat χ, vaśe η2",
+        "kṣaṇāt_cett. incl. α3||kramāt α1, tataḥ γ2, bhavet η2"
+      ],
+      "sources": "Dattātreyayogaśāstra 147",
+      "sources_readings": ["sādhakasya tu ] sāṃkṛte dhruvam DYŚ"],
+      "testimonia": "Haṭharatnāvalī 2.76, Yogacintāmaṇi f. 78r (attrib. Dattātreya)",
+      "testimonia_readings": [
+        "sādhakasya tu ] sādhakena vai HRĀ, sāṃkṛte dhruvam YCM",
+        "agnir deham ] deham agnir HRĀ, agnir dāhaṃ YCM",
+        "dahet kṣaṇāt ] dahet kramāt HRĀ, karoti vai YCM"
+      ]
+    },
+    {
+      "number": "3.76",
+      "deva": [
+        "अधःशिरश्चोर्ध्वपादःक्षणं स्यात्प्रथमे दिने ।",
+        "क्षणाच्च किंचिदधिकमभ्यसेच्च दिने दिने ॥"
+      ],
+      "iast": [
+        "adhaḥśiraś cordhvapādaḥkṣaṇaṃ syāt prathame dine /",
+        "kṣaṇāc ca kiṃcid adhikam abhyasec ca dine dine //"
+      ],
+      "translation": "On the first day [the yogi] should keep his head down and his feet up for a short while, and he should [then] practise for a little longer each day.",
+      "metre": "Anuṣṭubh (a: ra-vipulā; c: na-vipulā)",
+      "readings": [
+        "śiraś|α1α3δ1ε1ζ2ζ3η1η2π1π2πω|śira α2δ2, śirāś χ, śirā γ1γ2",
+        "cordhva_cett.||cordhvaṃ πω, ūrdhva γ1γ2δ2",
+        "pādaḥ|α1α2α3γ2δ1δ2ε1ζ3π1π2χ|pāda γ1ζ2πω, pādau η1η2",
+        "kṣaṇaṃ syāt_cett.||kṣīṇaṃ syāt δ1, lakṣaṇaṃ η2",
+        "dine_cett.||hani δ2",
+        "pāda c||om. δ1",
+        "kṣaṇāc ca|α1ε1ζ3η1η2π2πωχ|kṣayāc ca α2, kṣaṇāt tu γ1γ2, kṣaṇādyaṃ π1, kṣaṇārdha ζ2, kṣaṇādardhaṃ δ2, om. δ1",
+        "adhikam_cett.||apika γ1, om. δ1",
+        "pāda d||om. δ1",
+        "abhyasec ca_cett.||abhyasetva γ2, bhyarccayec ca γ1, om. δ1"
+      ],
+      "sources": "Dattātreyayogaśāstra 148c–149b",
+      "sources_readings": ["adhaḥśirāś ] adhaḥśiraś DYŚ v.l."],
+      "testimonia": "Haṭharatnāvalī 2.77, Yogacintāmaṇi f. 78r (attrib. Dattātreya)",
+      "testimonia_readings": [
+        "śirāś YCM ] śiraś HRĀ",
+        "pādaḥ HRĀ v.l. YCM ] pādau HRĀ"
+      ]
+    },
+    {
+      "number": "3.77",
+      "deva": [
+        "वलिश्चपलितं चैव षण्मासोर्ध्वं नदृश्यते ।",
+        "याममात्रं तु यो नित्यमभ्यसेत्स तुकालजित् ॥"
+      ],
+      "iast": [
+        "valiś capalitaṃ caiva ṣaṇmāsordhvaṃ nadṛśyate /",
+        "yāmamātraṃ tu yo nityam abhyaset sa tukālajit //"
+      ],
+      "translation": "After six months grey hair and wrinkles disappear. [The yogi] who regularly practises for three hours conquers death.",
+      "readings": [
+        "valiś ca|α1ε1η1π1π2πω|vali α2, valiṃ ca δ2, valitaṃ γ1γ2δ1ζ2ζ3η2χ",
+        "palitaṃ_cett.||palitaś π1π2",
+        "ṣaṇmāsordhvaṃ na|χ|ṣaṇmāsārdhān na α1ε1ζ3π1π2, ṣaṇmāsārdhaṃ na πω, ṣaṇmāsārdhena α2γ1γ2δ2, ṣaṇmāsārdheṇa δ1, ṣaṇmāsārdhe ca ζ2, ṣaṇmāsāt tu na η1η2",
+        "dṛśyate_cett.||naśyati γ1γ2δ1δ2ζ2",
+        "yāmamātraṃ tu_cett.||yāmamātraṃ ca ζ3, māsatrayaṃ tu η2",
+        "nityam_cett.||gnibhyam γ1",
+        "abhyaset_cett.||aset δ1",
+        "tu_cett.||su γ2, ca ζ2",
+        "kālajit_cett.||kālavit ζ2η2"
+      ],
+      "sources": "Dattātreyayogaśāstra 149c–150b",
+      "sources_readings": [
+        "māsordhvaṃ na ] māsāṃ hi na DYŚ v.l., māsāc ca na DYŚ v.l.",
+        "tu ] hi DYŚ",
+        "kālajit ] yogavit DYŚ v.l."
+      ],
+      "testimonia": "Haṭharatnāvalī 2.78, Yogacintāmaṇi f. 78r (attrib. Dattātreya), Yuktabhavadeva 7.238 (attrib. Gorakṣanātha)",
+      "testimonia_readings": [
+        "valiś ca YCM ] valitaṃ HRĀ YBhD",
+        "māsordhvaṃ na ] māsān na tu HRĀ, māsārdhe na YCM, māsārdhān na YBhD"
+      ]
+    }
+  ]
+}
