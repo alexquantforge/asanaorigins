@@ -126,20 +126,24 @@ VERSE_TAIL = re.compile(r"^[॥|\s0-9०-९abа]+$")
 
 def ends_sentence(line: str) -> bool:
     """Кончилось ли предложение: по нему видно, оборван ли абзац на странице."""
-    tail = line.rstrip(" \t»”’]")
-    # «A. D.» рвётся на странице после «A.» — это не конец предложения, если
-    # следующая страница начинается с «D.”»
-    if re.search(r"(?:^|\s)[A-ZА-Я]\.$", tail):
-        return True
-    # конец стиха — только полная пометка «॥ ३६ ॥» или «|| 36 ||»; одинокое
-    # «||» в конце строки означает, что номер перешёл на следующую строку
+    tail = line.rstrip()
+    # пометка конца стиха «॥ ३ ॥», «|| 36 ||» закрывает стих
     if VERSE_END.search(tail):
         return True
+    # «(?)» — знак неясного чтения, а не конец фразы
+    if tail.endswith(("(?)", "( ? )")):
+        return False
+    # одинокое «||» — номер стиха перешёл на следующую строку
     if re.search(r"[॥|]$", tail):
         return False
-    if tail.endswith(("(?)", "( ? )", "…", ",", ";", ":", "«", "-", "(")):
+    tail = tail.rstrip("»”’)]")
+    # «A. D.» на странице рвётся после «A.»
+    if re.search(r"(?:^|\s)[A-ZА-Я]\.$", tail):
+        return True
+    if tail.endswith(("…", ",", ";", ":", "«", "-", "(")):
         return False
     return bool(re.search(r"[.!?]$", tail))
+
 
 # Короткая сводка датировки. Каждая цитата проверяется на присутствие в томе:
 # если фрагмент не найден дословно, сборка останавливается.
@@ -224,8 +228,6 @@ CLOSING = {
 }
 
 
-# --------------------------------------------------------------- разбор тома
-
 def clean_pages(path: Path) -> list[str]:
     """Строки тома подряд; пустая строка сохранена — она разделяет абзацы."""
     lines: list[str] = []
@@ -295,10 +297,14 @@ def walk(lang: str) -> list[dict]:
             if not ends_sentence(tail):
                 target["lines"].extend(lines)
                 return
-            # на границе страницы абзац может продолжиться со строчной буквы или
-            # цифры — так новый абзац не начинается
+            # «… (introduction, p.» + «9): …» — ссылка разорвана на номер
+            if re.match(r"^\d+\)", lines[0]):
+                target["lines"].extend(lines)
+                return
+            # на границе страницы абзац может продолжиться с цифры — так новый
+            # абзац не начинается
             if new_page and i == len(cur["blocks"]) - 1 \
-                    and re.match(r"^[a-zа-я0-9)]", lines[0]):
+                    and re.match(r"^[)]", lines[0]):
                 target["lines"].extend(lines)
                 return
         cur["blocks"].append({"key": key, "lines": list(lines)})
