@@ -239,6 +239,34 @@
     "ru": "sources/Хат̣хапрадӣпика̄_ все 15 а̄сан — полный разбор по критическому изданию (Оксфорд – Марбург, 2024).pdf",
     "en": "sources/Haṭhapradīpikā_ all 15 āsanas — a full study based on the critical edition (Oxford – Marburg, 2024).pdf"
    }
+  },
+  {
+   "id": "matsyendra-samhita",
+   "file": "data/matsyendra-samhita.json",
+   "title": {
+    "ru": "Матсйендра-сам̣хитā",
+    "en": "Matsyendrasaṃhitā"
+   },
+   "subtitle": {
+    "ru": "третья пат̣ала · пятнадцать āсан · стихи 3–35",
+    "en": "the third paṭala · fifteen āsanas · verses 3–35"
+   },
+   "tradition": {
+    "ru": "тантрическая йога",
+    "en": "Tantric yoga"
+   },
+   "edition": {
+    "ru": "издание Дебабраты Сеншармы · Калькутта: The Asiatic Society, 1994 · Bibliotheca Indica, № 318 · третья глава — с. 21–25 санскритского текста",
+    "en": "edited by Debabrata Sensharma · Calcutta: The Asiatic Society, 1994 · Bibliotheca Indica, no. 318 · chapter 3 on Sanskrit text pages 21–25"
+   },
+   "translator": {
+    "ru": "перевод и пословный разбор: Александр Виджая (t.me/alexvijaya)",
+    "en": "translation and word-by-word analysis: Alexander Vijaya (t.me/alexvijaya)"
+   },
+   "pdf": {
+    "ru": "sources/Матсйендра-сам̣хитā. Третья пат̣ала (RU).pdf",
+    "en": "sources/Matsyendrasaṃhitā. Chapter Three (EN).pdf"
+   }
   }
  ]
 }
