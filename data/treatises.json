@@ -267,6 +267,30 @@
     "ru": "sources/Матсйендра-сам̣хитā. Третья пат̣ала (RU).pdf",
     "en": "sources/Matsyendrasaṃhitā. Chapter Three (EN).pdf"
    }
+  },
+  {
+   "id": "hathayogasamhita",
+   "file": "data/hathayogasamhita.json",
+   "title": {
+    "ru": "Хат̣хайогасам̣хитā",
+    "en": "Haṭhayogasaṃhitā"
+   },
+   "subtitle": {
+    "ru": "глава 2 · Āsana-prakaraṇa · тридцать три āсаны · стихи 2.1–2.52",
+    "en": "chapter 2 · Āsana-prakaraṇa · thirty-three āsanas · verses 2.1–2.52"
+   },
+   "tradition": {
+    "ru": "хат̣ха-йога",
+    "en": "Haṭha yoga"
+   },
+   "edition": {
+    "ru": "издание на хинди: Śrī Bhārata Dharma Mahāmaṇḍala, Vārāṇasī · под редакцией Yogirāja Svāmī Jñānānanda Ji Mahārāja",
+    "en": "the Hindi edition: Śrī Bhārata Dharma Mahāmaṇḍala, Vārāṇasī · edited by Yogirāja Svāmī Jñānānanda Ji Mahārāja"
+   },
+   "pdf": {
+    "ru": "sources/Хат̣хайогасам̣хитā. Глава 2. Āсана-пракаран̣а (RU).pdf",
+    "en": "sources/Haṭhayogasaṃhitā. Chapter 2. The Āsana Section (EN).pdf"
+   }
   }
  ]
 }
