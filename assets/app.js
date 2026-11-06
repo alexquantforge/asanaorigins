@@ -1579,7 +1579,7 @@
 
     // 3.1 эры до общей эры и эра Викрамы — раньше чисел, чтобы «г.» попал в оборот
     out = out.replace(/(?<![\p{L}])V\.\s?S\.\s*(?=\d)/gu, W("эра Викрамы ", "Vikrama era "));
-    const afterSentence = /^(?:\s+[«"(\p{Lu}]|$)/u;
+    const afterSentence = /^\s+[«"(\p{Lu}]/u;
     out = out.replace(/(?<![\p{L}])A\.\s?D\./gu,
       (m, off, str) => W("нашей эры", "of the Common Era") + (afterSentence.test(str.slice(off + m.length)) ? "." : ""));
     out = out.replace(/(?<![\p{L}])B\.\s?C\./gu,
