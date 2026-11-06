@@ -163,10 +163,14 @@ def build(lang: str, raw: dict, table: dict[str, str]) -> list[dict]:
     labels = {
         "ru": {"verse": "Стих", "edition": "Перевод издания (английский)",
                "metre": "Метр", "readings": "Разночтения по рукописям",
+               "own": "По-русски (наш подстрочник)", "words": "Пословный разбор",
+               "literal": "Буквальный перевод", "literary": "Литературный перевод",
                "sources": "Источники", "testimonia": "Свидетели",
                "testimonia_readings": "Разночтения в других текстах"},
         "en": {"verse": "Verse", "edition": "Edition translation (English)",
                "metre": "Metre", "readings": "Readings in the manuscripts",
+               "own": "Our rendering", "words": "Word-by-word analysis",
+               "literal": "Literal translation", "literary": "Literary translation",
                "sources": "Sources", "testimonia": "Testimonia",
                "testimonia_readings": "Readings in other texts"},
     }[lang]
@@ -193,6 +197,9 @@ def build(lang: str, raw: dict, table: dict[str, str]) -> list[dict]:
         })
         blocks.append({"type": "prose", "key": "edition", "label": labels["edition"],
                        "paragraphs": [verse["translation"]]})
+        if verse.get("own"):
+            blocks.append({"type": "prose", "key": "own", "label": labels["own"],
+                           "paragraphs": [verse["own"][lang]]})
         if verse.get("metre"):
             blocks.append({"type": "prose", "key": "metre", "label": labels["metre"],
                            "paragraphs": [verse["metre"]]})
@@ -210,6 +217,23 @@ def build(lang: str, raw: dict, table: dict[str, str]) -> list[dict]:
                            "paragraphs": [verse["testimonia"]]})
             for row in verse.get("testimonia_readings", []):
                 blocks.append({"type": "p", "text": row})
+
+    # пословный разбор, буквальный и литературный переводы — в конце раздела,
+    # как во всех остальных позах: сначала все стихи, потом разбор
+    groups = []
+    titles = []
+    for verse in raw["verses"]:
+        titles.append(f'{labels["verse"]} {verse["number"]}')
+        if lang == "ru":
+            groups.append([[translit(word), gloss] for word, gloss in verse["words"]["ru"]])
+        else:
+            groups.append([[word, gloss] for word, gloss in verse["words"]["en"]])
+    blocks.append({"type": "words", "label": labels["words"], "groups": groups,
+                   "titles": titles})
+    blocks.append({"type": "prose", "key": "literal", "label": labels["literal"],
+                   "paragraphs": [raw["pose"]["literal"][lang]]})
+    blocks.append({"type": "prose", "key": "literary", "label": labels["literary"],
+                   "paragraphs": [raw["pose"]["literary"][lang]]})
     return blocks
 
 
