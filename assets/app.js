@@ -112,7 +112,7 @@
     }
   };
 
-  const BUILD = "2026-11-06.06";
+  const BUILD = "2026-11-06.07";
   const V = "?v=" + BUILD;
 
   const state = {
@@ -1084,7 +1084,9 @@
         '<div class="verse-body" id="' + id + '" role="tabpanel" aria-labelledby="tab-' + id + '"' +
         (selected ? "" : " hidden") + ">" +
         '<p class="verse-lines ' + esc(sec.key) + '" lang="' +
-        (sec.key === "deva" ? "sa" : sec.key === "cyr" ? "ru" : "sa-Latn") + '">' +
+        // гуджарати приходит и в группах («addgu», «effgu», «fgu»)
+        (/gu$/.test(sec.key || "") ? "gu" : sec.key === "deva" ? "sa" :
+          sec.key === "cyr" ? "ru" : "sa-Latn") + '">' +
         sec.lines.map((line) => "<span>" + esc(line) + "</span>").join("") +
         "</p></div>";
     });

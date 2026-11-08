@@ -23,6 +23,7 @@
   --font-display: "Cormorant Garamond", "Iowan Old Style", Georgia, "Times New Roman", serif;
   --font-body: "Spectral", "Iowan Old Style", Georgia, "Times New Roman", serif;
   --font-deva: "Noto Serif Devanagari", "Nirmala UI", "Kohinoor Devanagari", "Mangal", serif;
+  --font-gu: "Noto Serif Gujarati", "Nirmala UI", "Shruti", "Gujarati Sangam MN", serif;
   --ease: cubic-bezier(.22, .61, .36, 1);
 }
 
@@ -609,6 +610,17 @@ h1.pose-title {
 }
 
 .verse-lines.cyr { letter-spacing: .015em; }
+
+/* гуджарати печатного издания: своя гарнитура, иначе знаки подставляются
+   системным шрифтом и строка «плывёт» по высоте */
+.verse-lines.gu,
+.verse-lines.addgu,
+.verse-lines.effgu,
+.verse-lines.fgu {
+  font-family: var(--font-gu);
+  font-size: clamp(1.16rem, 2vw, 1.36rem);
+  line-height: 2.05;
+}
 
 /* sections */
 
@@ -1702,6 +1714,13 @@ html[data-theme="dark"] .treatise-head {
 @font-face {
   font-family: "Noto Serif Devanagari";
   src: url("fonts/deva-400.woff2?v=2026-11-02.16") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Noto Serif Gujarati";
+  src: url("fonts/gu-400.woff2?v=2026-11-02.16") format("woff2");
   font-weight: 400;
   font-style: normal;
   font-display: swap;

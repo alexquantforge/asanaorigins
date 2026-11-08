@@ -15,6 +15,7 @@ Fonts:
 
     npm i @expo-google-fonts/spectral @expo-google-fonts/cormorant-garamond
     npm i @fontsource/noto-serif-devanagari
+    npm i @fontsource/noto-serif-gujarati
 
 Запуск:
 
@@ -37,9 +38,12 @@ LATIN = "U+0000-00FF,U+0100-017F,U+0180-024F,U+1E00-1EFF,U+2000-206F,U+20A0-20BF
 COMBINING = "U+0300-036F,U+02B0-02FF,U+1AB0-1AFF,U+1DC0-1DFF"
 CYRILLIC = "U+0400-045F,U+0460-052F,U+0490-0491,U+04B0-04B1,U+2DE0-2DFF,U+A640-A69F,U+1C80-1C8A"
 DEVANAGARI = "U+0900-097F,U+1CD0-1CFF,U+1CF2-1CF4,U+A830-A839,U+A8E0-A8FF"
+# гуджарати — язык печатного издания «Йога-каустубхи»: свои буквы, свои цифры
+GUJARATI = "U+0A80-0AFF,U+200C-200D"
 
 TEXT_RANGES = ",".join([LATIN, COMBINING, CYRILLIC])
 DEVA_RANGES = ",".join([LATIN, DEVANAGARI])
+GU_RANGES = ",".join([LATIN, GUJARATI])
 
 # (пакет, каталог веса, имя файла TTF, имя файла на сайте, unicode-range)
 FONTS = [
@@ -60,10 +64,15 @@ DEVA_FONTS = [
     ("noto-serif-devanagari/files/noto-serif-devanagari-devanagari-500-normal.woff2", "deva-500.woff2"),
 ]
 
+GU_FONTS = [
+    ("noto-serif-gujarati/files/noto-serif-gujarati-gujarati-400-normal.woff2", "gu-400.woff2"),
+]
+
 LICENSES = [
     ("@expo-google-fonts/spectral/LICENSE_FONT", "OFL-Spectral.txt"),
     ("@expo-google-fonts/cormorant-garamond/LICENSE_FONT", "OFL-CormorantGaramond.txt"),
     ("@fontsource/noto-serif-devanagari/LICENSE", "OFL-NotoSerifDevanagari.txt"),
+    ("@fontsource/noto-serif-gujarati/LICENSE", "OFL-NotoSerifGujarati.txt"),
 ]
 
 
@@ -306,6 +315,13 @@ def main():
         if not os.path.exists(path):
             sys.exit("нет файла: " + path)
         size = subset_font(path, os.path.join(OUT, out), DEVA_RANGES, cyrillic_marks=False)
+        total += size
+        print("%-26s %6.1f KB" % (out, size / 1024))
+    for rel, out in GU_FONTS:
+        path = os.path.join(src, "@fontsource", rel)
+        if not os.path.exists(path):
+            sys.exit("нет файла: " + path)
+        size = subset_font(path, os.path.join(OUT, out), GU_RANGES, cyrillic_marks=False)
         total += size
         print("%-26s %6.1f KB" % (out, size / 1024))
     for rel, out in LICENSES:

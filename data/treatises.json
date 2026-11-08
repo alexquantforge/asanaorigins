@@ -291,6 +291,30 @@
     "ru": "sources/Хат̣хайогасам̣хитā. Глава 2. Āсана-пракаран̣а (RU).pdf",
     "en": "sources/Haṭhayogasaṃhitā. Chapter 2. The Āsana Section (EN).pdf"
    }
+  },
+  {
+   "id": "yoga-kaustubha",
+   "file": "data/yoga-kaustubha.json",
+   "title": {
+    "ru": "Йога-каустубха",
+    "en": "Yoga Kaustubha"
+   },
+   "subtitle": {
+    "ru": "раздел об āсанах · восемьдесят четыре āсаны · печатные стр. 55–73",
+    "en": "the section on āsanas · eighty-four āsanas · printed pages 55–73"
+   },
+   "tradition": {
+    "ru": "хат̣ха-йога · гуджарати",
+    "en": "Haṭha yoga · Gujarati"
+   },
+   "edition": {
+    "ru": "печатное руководство на гуджарати · составители Натхурāма Пӣтāм̣бараджӣ Рāвал̣а и Вайджанāтха Мотӣрāмаджӣ Бхат̣т̣а · титульный лист: ш́ака 1811, сам̣ват 1946",
+    "en": "a printed manual in Gujarati · compiled by Nathurāma Pītāṃbarajī Rāvaḷa and Vaijanātha Motīrāmajī Bhaṭṭa · title page: Śaka 1811, Saṃvat 1946"
+   },
+   "pdf": {
+    "ru": "sources/Йога-каустубха — восемьдесят четыре āсаны (RU).pdf",
+    "en": "sources/Yoga Kaustubha — the Eighty-Four Āsanas (EN).pdf"
+   }
   }
  ]
 }
