@@ -31,6 +31,7 @@ from __future__ import annotations
 import json
 import re
 import sys
+import unicodedata
 from pathlib import Path
 
 import pymupdf
@@ -47,6 +48,17 @@ OUT = ROOT / "data" / "yoga-kaustubha.json"
 LITERAL = ROOT / "tools" / "yk_literal.json"
 
 LIT = json.loads(LITERAL.read_text(encoding="utf-8"))
+
+# Пословный разбор добавочных пассажей, примечаний и эффектов: том даёт разбор
+# только к главному описанию, поэтому этот — наш, и он так подписан. Ключи те
+# же, что у подстрочников: «номер:add», «номер:f», «номер:eff».
+WORDS = ROOT / "tools" / "yk_words.json"
+WORDS_DATA = json.loads(WORDS.read_text(encoding="utf-8"))
+
+WORDS_LABEL = {
+    "ru": "Пословный разбор (наш)",
+    "en": "Word-by-word analysis (ours)",
+}
 
 LITERAL_LABEL = {
     "ru": "Буквальный перевод (наш подстрочник)",
@@ -311,7 +323,8 @@ def page_of(field: dict) -> str:
     return re.sub(r"\s*[–-]\s*", "–", m.group(1))
 
 
-def sections(fields: list[dict], lang: str, lit: dict | None = None) -> list[dict]:
+def sections(fields: list[dict], lang: str, lit: dict | None = None,
+             words: dict | None = None) -> list[dict]:
     """Страница āсаны: поля тома в том же порядке, что и в томе.
 
     Гуджарати, IAST и кириллица идут одной цитатой (вкладки), как в остальных
@@ -346,6 +359,11 @@ def sections(fields: list[dict], lang: str, lit: dict | None = None) -> list[dic
             out.append({"type": "label", "label": GROUP_LABEL[(lang, prefix)]})
             for part in parts:
                 if part["key"] == prefix + "tr":
+                    # сперва разбор по словам, затем подстрочник, затем перевод
+                    if words and words.get(prefix):
+                        out.append({"type": "words", "key": "words",
+                                    "label": WORDS_LABEL[lang],
+                                    "paragraphs": [words[prefix]]})
                     if lit and lit.get(prefix):
                         out.append({"type": "prose", "key": "literal",
                                     "label": LITERAL_LABEL[lang],
@@ -395,6 +413,18 @@ def sections(fields: list[dict], lang: str, lit: dict | None = None) -> list[dic
 
 
 # ------------------------------------------------------------------ сборка
+
+def words_for(num: int, lang: str, fields: list[dict]) -> dict:
+    """Пословный разбор добавочных блоков одной āсаны."""
+    got = {}
+    for prefix in GROUP_KEYS:
+        if any(f["key"] == prefix + "tr" for f in fields):
+            key = f"{num}:{prefix}"
+            if key not in WORDS_DATA:
+                raise SystemExit(f"нет пословного разбора: {key}")
+            got[prefix] = WORDS_DATA[key][lang]
+    return got
+
 
 def lit_for(num: int, lang: str, fields: list[dict]) -> dict:
     """Подстрочники одной āсаны: основной и по добавочным блокам."""
@@ -456,8 +486,10 @@ def build() -> dict:
             "gloss": {"ru": "", "en": ""},
             "verses": {"ru": "стр. " + page_ru, "en": "p. " + page_en},
             "text": {
-                "ru": sections(pr["fields"], "ru", lit_for(pr["num"], "ru", pr["fields"])),
-                "en": sections(pe["fields"], "en", lit_for(pe["num"], "en", pe["fields"])),
+                "ru": sections(pr["fields"], "ru", lit_for(pr["num"], "ru", pr["fields"]),
+                               words_for(pr["num"], "ru", pr["fields"])),
+                "en": sections(pe["fields"], "en", lit_for(pe["num"], "en", pe["fields"]),
+                               words_for(pe["num"], "en", pe["fields"])),
             },
         })
     keys = [p["key"] for p in poses]
@@ -770,6 +802,58 @@ def check_translations(data: dict) -> None:
         raise SystemExit("переводы с рамкой:\n  " + "\n  ".join(problems))
 
 
+def words_tokens(text: str) -> list[str]:
+    """Слова строки без знаков: «ḍābā paganī pānī,» → [ḍābā, paganī, pānī]."""
+    return [w for w in re.split(r"[\s.,;:!?()\[\]«»“”\"'—–-]+", text) if w]
+
+
+def fold(text: str) -> str:
+    """Строка без диакритики и в нижнем регистре — для сверки слов."""
+    text = unicodedata.normalize("NFD", text)
+    return "".join(c for c in text if not unicodedata.combining(c)).lower()
+
+
+def check_words(data: dict) -> None:
+    """У каждого стиха на странице есть пословный разбор, и он покрывает все слова.
+
+    Том даёт разбор только к главному описанию. Разборы добавочных блоков наши,
+    поэтому проверка строгая: каждое слово строки (в записи IAST) обязано
+    встретиться в разборе, и у каждой пары «слово — значение» должно быть тире.
+    """
+    problems = []
+    for pose in data["poses"]:
+        for lang in ("ru", "en"):
+            blocks = pose["text"][lang]
+            for prefix in GROUP_KEYS:
+                verses = [b for b in blocks if b.get("key") == prefix + "iast"]
+                if not verses:
+                    continue
+                line = " ".join(verses[0]["lines"])
+                # разбор ищем внутри группы: он стоит между стихом и подстрочником
+                start = blocks.index(verses[0])
+                found = None
+                for b in blocks[start:]:
+                    if b.get("type") == "label":
+                        break
+                    if b.get("type") == "words":
+                        found = b
+                        break
+                where = f'āсана {pose["number"]} ({lang}, {prefix})'
+                if not found:
+                    problems.append(f"{where}: нет пословного разбора")
+                    continue
+                text = found["paragraphs"][0]
+                if "—" not in text:
+                    problems.append(f"{where}: разбор без пар «слово — значение»")
+                hay = fold(text)
+                missing = [t for t in words_tokens(line) if fold(t) not in hay]
+                if missing:
+                    problems.append(f"{where}: в разборе нет слов "
+                                    f"{', '.join(missing[:4])}")
+    if problems:
+        raise SystemExit("пословный разбор:\n  " + "\n  ".join(problems))
+
+
 def check_literals(data: dict) -> None:
     """Подстрочник — только то, что сказано по-гуджаратски.
 
@@ -863,6 +947,7 @@ def main() -> int:
     data = build()
     check_literals(data)
     check_translations(data)
+    check_words(data)
 
     for lang in ("ru", "en"):
         lost = lost_lines(data, lang)
