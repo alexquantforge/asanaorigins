@@ -123,6 +123,59 @@ PAIRS = [
     ("деванагари", "devanāgarī"),
     ("аāтман", "ātman"), ("аāтмана", "ātmana"),
     ("аāтмане", "ātmane"), ("аāтманом", "ātmanom"),
+    ("яджн̃авалкья", "yājñavalkya"), ("яджн̃авалкье", "yājñavalkye"),
+    ("яджн̃авалкьи", "yājñavalkyi"), ("яджн̃авалкью", "yājñavalkyu"),
+    ("яджн̃авалкьей", "yājñavalkyey"),
+]
+
+# Имена, в которых «ь» и «я» стоят там, где карта даёт «й» (y → й).
+# Форма получается так: translit(IAST-основа) + русское окончание; буквы
+# берутся из карты, от руки набрано только окончание, которое и так русское.
+# У «Йога-Йāджн̃авалкйи» и «Ахирбудхнйа-сам̣хитā» дефис стоит в самой основе:
+# это тот же знак, каким они набраны в остальных томах, а не новый.
+DECL = [
+    ("матсья", "matsya", ""), ("матсьи", "matsya", "и"),
+    ("матсьендра", "matsyendra", ""), ("матсьендры", "matsyendra", "ы"),
+    ("матсьендре", "matsyendra", "е"), ("матсьендру", "matsyendra", "у"),
+    ("матсьендром", "matsyendra", "ом"), ("матсьендрой", "matsyendra", "ой"),
+    ("матсьендрам", "matsyendra", "ам"),
+    ("матсьендрāсана", "matsyendrāsana", ""),
+    ("матсьендрāсаны", "matsyendrāsana", "ы"),
+    ("матсьендрāсане", "matsyendrāsana", "е"),
+    ("матсьендрāсану", "matsyendrāsana", "у"),
+    ("матсьендрāсаной", "matsyendrāsana", "ой"),
+    ("матсьянāтха", "matsyanātha", ""),
+    ("матсьянāтхой", "matsyanātha", "ой"),
+    ("матсьянāтхе", "matsyanātha", "е"),
+    ("матсьянāтхи", "matsyanātha", "и"),
+    ("яджнавалкья", "yājñavalkya", ""), ("яджнавалкье", "yājñavalkye", ""),
+    ("яджнавалкьи", "yājñavalkyi", ""),
+    ("йогайāджн̃авалкья", "yoga-yājñavalkya", "", True),
+    ("йогайāджн̃авалкье", "yoga-yājñavalkye", "", True),
+    ("йогайāджн̃авалкьи", "yoga-yājñavalkyi", "", True),
+    ("йогайāджн̃авалкью", "yoga-yājñavalkyu", "", True),
+    ("ахирбудхньясам̣хитā", "ahirbudhnya-saṃhitā", ""),
+    ("ахирбудхньясам̣хите", "ahirbudhnya-saṃhite", ""),
+    ("кайвальядхāма", "kaivalyadhāma", ""),
+    ("кайвальядхāмы", "kaivalyadhāma", "ы"),
+    ("кайвальядхāме", "kaivalyadhāma", "е"),
+    ("кайвальядхāму", "kaivalyadhāma", "у"),
+    ("кайвальядхāмой", "kaivalyadhāma", "ой"),
+    ("кайвальядхама", "kaivalyadhāma", ""),
+    ("кайвальядхамы", "kaivalyadhāma", "ы"),
+    ("ш́ан̇карачарья", "śaṅkarācārya", ""),
+    ("ш́ан̇карачарьи", "śaṅkarācārya", "и"),
+    ("ш́ан̇карачарье", "śaṅkarācārya", "е"),
+    ("ш́ан̇карачāрьи", "śaṅkarācārya", "и"),
+    ("ш́ан̇карачāрьей", "śaṅkarācārya", "ей"),
+    ("рахасья", "rahasya", ""), ("рахасье", "rahasya", "е"),
+    ("джьештāрама", "jyeṣṭārāma", ""),
+    ("джьештха", "jyeṣṭha", ""),
+    ("махакавья", "mahākāvya", ""), ("махакавье", "mahākāvya", "е"),
+    ("махакавьи", "mahākāvya", "и"), ("махакавьях", "mahākāvy", "ах"),
+    ("махакавьями", "mahākāvy", "ами"),
+    ("āюрведист", "āyurved", "ист"), ("āюрведы", "āyurveda", "ы"),
+    ("вāю", "vāyu", ""),
 ]
 
 # Английская сторона: те же термины в IAST.
@@ -160,10 +213,16 @@ _TOKEN = re.compile(r"[A-Za-zА-Яа-яЁёӢӣӮӯĀāĪīŪūṚṛṜṝḶ�
 
 
 def _cap(source, target):
-    """Сохранить заглавную букву исходного слова."""
+    """Сохранить заглавную букву исходного слова (и частей через дефис)."""
+    joint = target.startswith("\0")
+    if joint:
+        target = target[1:]
     if source.isupper() and len(source) > 1:
         return target.upper()
     if source[0].isupper():
+        if joint:
+            head, sep, tail = target.partition("-")
+            target = head + sep + tail[:1].upper() + tail[1:]
         return target[0].upper() + target[1:]
     return target
 
@@ -185,6 +244,17 @@ def _terms():
             out[plain + end] = stem + end
     for plain, iast in PAIRS:
         out[plain] = translit(iast)
+    for plain, base, ending, *rest in DECL:
+        target = translit(base)
+        if ending:
+            # русское окончание встаёт на место конечной гласной основы
+            if target[-1] in "аиуеоӣӯā":
+                target = target[:-1]
+            target += ending
+        out[plain] = target
+        if rest and rest[0]:
+            # «Йога-Йāджн̃авалкйа»: вторая часть сложного имени — с заглавной
+            out[plain] = ("\0" + out[plain])   # метка для _cap
     return out
 
 
@@ -237,6 +307,29 @@ def _restore(text, saved):
 
 DOUBLE = re.compile(r"(.)\1([\u0300-\u036f])")
 
+# Слова с диакритикой, но с русским окончанием: «ваишн̣авская», «бо́льшая».
+# Их «я» — русское окончание, а не санскритское ya.
+RUSSIAN_TAIL = re.compile(r"(ская|цкая|шая|щая|жая|чая|ая|ее)$")
+DIA = re.compile("[āӣӯĀĪŪ\u0301\u0323\u0307\u0303\u0325]")
+YOD = [
+    ("ья", "йа"), ("ье", "йе"), ("ьи", "йи"), ("ью", "йу"), ("ьё", "йо"),
+]
+
+
+def yod(word):
+    """y → й там, где набрано «ь» или «я»: «Матсьендра» → «Матсйендра».
+
+    Карта не даёт мягкого знака вовсе, а «я» и «ю» после гласной — это тоже
+    «йа» и «йу» («Даттāтрея» → «Даттāтрейа»). Применяется только к словам,
+    в которых уже есть диакритика, то есть к транслитерации: русские слова
+    («статье», «семье», «черепашья») остаются как есть.
+    """
+    for src, dst in YOD:
+        word = word.replace(src, dst)
+    word = re.sub(r"(?<=[аеёиоуыэяюӣӯā])я", "йа", word)
+    word = re.sub(r"(?<=[аеёиоуыэяюӣӯā])ю", "йу", word)
+    return word
+
 
 def fix_text(text, terms, en_terms):
     """Одна строка: сначала знаки, потом слова."""
@@ -249,9 +342,14 @@ def fix_text(text, terms, en_terms):
     text, saved = _protect(text)
 
     def sub(match):
-        word = match.group(0)
+        original = match.group(0)
+        word = original
+        if DIA.search(word) and not RUSSIAN_TAIL.search(word.lower()):
+            word = yod(word)
         table = terms if re.search("[А-Яа-яЁё]", word) else en_terms
-        target = table.get(word.lower())
+        # ключи таблицы записаны так, как слово набрано сейчас, — то есть до
+        # перевода «ь»/«я» в «й», поэтому смотрим оба написания
+        target = table.get(word.lower()) or table.get(original.lower())
         return word if target is None else _cap(word, target)
 
     text = _TOKEN.sub(sub, text)
@@ -308,11 +406,12 @@ def _changed_words(old, terms, en_terms):
     text, _ = _protect(old)
     out = []
     for word in _TOKEN.findall(text):
-        table = terms if re.search("[А-Яа-яЁё]", word) else en_terms
-        target = table.get(word.lower())
-        if target is None:
-            continue
-        fixed = _cap(word, target)
+        base = word
+        if DIA.search(base) and not RUSSIAN_TAIL.search(base.lower()):
+            base = yod(base)
+        table = terms if re.search("[А-Яа-яЁё]", base) else en_terms
+        target = table.get(base.lower()) or table.get(word.lower())
+        fixed = base if target is None else _cap(base, target)
         if fixed != word:
             out.append((word, fixed))
     return out
