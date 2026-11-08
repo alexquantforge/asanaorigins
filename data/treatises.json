@@ -1,18 +1,30 @@
 {
  "site": {
-  "title": { "ru": "Асаны: истоки", "en": "Āsana: Origins" },
-  "tagline": { "ru": "описания асан в первоисточниках", "en": "āsanas as described in the sources" }
+  "title": {
+   "ru": "Āсаны: истоки",
+   "en": "Āsana: Origins"
+  },
+  "tagline": {
+   "ru": "описания āсан в первоисточниках",
+   "en": "āsanas as described in the sources"
+  }
  },
  "treatises": [
   {
    "id": "ahirbudhnya-samhita",
    "file": "data/ahirbudhnya-samhita.json",
-   "title": { "ru": "Ахирбудхнья-самхита", "en": "Ahirbudhnya-saṃhitā" },
-   "subtitle": {
-    "ru": "XXXI глава · одиннадцать главных асан",
-    "en": "Chapter XXXI · eleven principal āsanas"
+   "title": {
+    "ru": "Ахирбудхнйа-сам̣хитā",
+    "en": "Ahirbudhnya-saṃhitā"
    },
-   "tradition": { "ru": "Панчаратра", "en": "Pāñcarātra" },
+   "subtitle": {
+    "ru": "31 глава · одиннадцать главных āсан",
+    "en": "Chapter 31 · eleven principal āsanas"
+   },
+   "tradition": {
+    "ru": "Пāн̃чарāтра",
+    "en": "Pāñcarātra"
+   },
    "edition": {
     "ru": "Adyar Library Series 4 · Adyar, Madras, 1916 · т. II, с. 293–296",
     "en": "Adyar Library Series 4 · Adyar, Madras, 1916 · vol. II, pp. 293–296"
@@ -27,12 +39,15 @@
    },
    "datingSummary": {
     "note": {
-     "ru": "Датировка текста спорна; дата именно асанного раздела не устанавливается.",
+     "ru": "Датировка текста спорна; дата именно āсанного раздела не устанавливается.",
      "en": "The dating of the text is disputed; no date is assigned to the āsana section itself."
     },
     "items": [
      {
-      "who": { "ru": "Ф. Отто Шрадер", "en": "F. Otto Schrader" },
+      "who": {
+       "ru": "Ф. Отто Шрадер",
+       "en": "F. Otto Schrader"
+      },
       "when": {
        "ru": "не позднее VIII в. н. э.",
        "en": "no later than the 8th century CE"
@@ -47,7 +62,10 @@
       }
      },
      {
-      "who": { "ru": "Д. Вьюстик", "en": "D. Wujastyk" },
+      "who": {
+       "ru": "Д. Вьюстик",
+       "en": "D. Wujastyk"
+      },
       "when": {
        "ru": "после 1000 г. н. э.",
        "en": "after 1000 CE"
@@ -62,7 +80,10 @@
       }
      },
      {
-      "who": { "ru": "Марион Растелли", "en": "Marion Rastelli" },
+      "who": {
+       "ru": "Марион Растелли",
+       "en": "Marion Rastelli"
+      },
       "when": {
        "ru": "XII–XIII вв.",
        "en": "12th–13th centuries"
@@ -77,6 +98,222 @@
       }
      }
     ]
+   }
+  },
+  {
+   "id": "vasishtha-samhita",
+   "file": "data/vasishtha-samhita.json",
+   "title": {
+    "ru": "Васишт̣ха-сам̣хитā",
+    "en": "Vasiṣṭha Saṃhitā"
+   },
+   "subtitle": {
+    "ru": "Йога-кāн̣д̣а · глава 1 · стихи 67–82",
+    "en": "Yoga Kāṇḍa · chapter 1 · verses 67–82"
+   },
+   "tradition": {
+    "ru": "санскритский трактат о йоге",
+    "en": "a Sanskrit treatise on yoga"
+   },
+   "edition": {
+    "ru": "Vasistha Samhita (Yoga Kanda). Revised Edition. Editors & Commentators: Philosophico-Literary Research Department, Kaivalyadhama S.M.Y.M. Samiti, Lonavla. First Publication: August 1984; Revised Publication: March 2005. ISBN 81-89485-37-7 · гл. 1, с. 20–24",
+    "en": "Vasistha Samhita (Yoga Kanda). Revised Edition. Editors & Commentators: Philosophico-Literary Research Department, Kaivalyadhama S.M.Y.M. Samiti, Lonavla. First Publication: August 1984; Revised Publication: March 2005. ISBN 81-89485-37-7 · ch. 1, pp. 20–24"
+   },
+   "pdf": {
+    "ru": "sources/Васишт̣ха-сам̣хитā. Āсаны (Йога-кāн̣д̣а, гл. 1, ст. 67–82).pdf",
+    "en": "sources/Vasiṣṭha Saṃhitā. Āsanas (Yoga Kāṇḍa, ch. 1, vv. 67–82).pdf"
+   }
+  },
+  {
+   "id": "manasollasa",
+   "file": "data/manasollasa.json",
+   "title": {
+    "ru": "Ма̄насолла̄са",
+    "en": "Mānasollāsa"
+   },
+   "subtitle": {
+    "ru": "варттика на «Дакшин̣а̄мӯрти-стотру» · улласа 9 · ст. 24–26",
+    "en": "a vārttika on the Dakṣiṇāmūrti-stotra · ullāsa 9 · vv. 24–26"
+   },
+   "tradition": {
+    "ru": "адвайта-веданта",
+    "en": "Advaita Vedānta"
+   },
+   "edition": {
+    "ru": "изд. 1895 г., с. 156–157 · изд. 2008 г., с. 119",
+    "en": "1895 edition, pp. 156–157 · 2008 edition, p. 119"
+   }
+  },
+  {
+   "id": "hathatattvakaumudi",
+   "file": "data/hathatattvakaumudi.json",
+   "title": {
+    "ru": "Хат̣хататтвакаумудӣ",
+    "en": "Haṭhatattvakaumudī"
+   },
+   "subtitle": {
+    "ru": "глава 7 · Athāsanāni · пятнадцать āсан",
+    "en": "chapter 7 · Athāsanāni · fifteen āsanas"
+   },
+   "tradition": {
+    "ru": "хат̣ха-йога",
+    "en": "Haṭha yoga"
+   },
+   "edition": {
+    "ru": "критическое издание · на основе печатного издания М. Л. Гхароте (Лонавла, 2007/2020) · шлоки 1–45",
+    "en": "critical edition · after M. L. Gharote's printed edition (Lonavla, 2007/2020) · verses 1–45"
+   },
+   "pdf": {
+    "ru": "sources/Hathatattvakaumudi_Chapter_7_Critical_Edition_RU.pdf",
+    "en": "sources/Hathatattvakaumudi_Chapter_7_Critical_Edition_EN.pdf"
+   }
+  },
+  {
+   "id": "sharngadharapaddhati",
+   "file": "data/sharngadharapaddhati.json",
+   "title": {
+    "ru": "Ш́āрн̇гадхара-паддхати",
+    "en": "Śārṅgadharapaddhati"
+   },
+   "subtitle": {
+    "ru": "главы 157–158 · раздел хатха-йоги · девять стихов об āсанах",
+    "en": "chapters 157–158 · the haṭha-yoga section · nine verses on āsanas"
+   },
+   "tradition": {
+    "ru": "хат̣ха-йога",
+    "en": "Haṭha yoga"
+   },
+   "edition": {
+    "ru": "санскритская антология 1363 г. · печатное издание: Петерсон, Bombay Sanskrit Series XXXVII (1888) · стихи 4375–4437",
+    "en": "Sanskrit anthology of 1363 · printed edition: Peterson, Bombay Sanskrit Series XXXVII (1888) · verses 4375–4437"
+   },
+   "pdf": {
+    "ru": "sources/Ш́āрн̇гадхара-паддхати (1363 г. н. э.).pdf",
+    "en": "sources/Śārṅgadharapaddhati (1363 CE).pdf"
+   }
+  },
+  {
+   "id": "dattatreyayogasastra",
+   "file": "data/dattatreyayogasastra.json",
+   "title": {
+    "ru": "Даттāтрея-йога-ш́āстра",
+    "en": "Dattātreyayogaśāstra"
+   },
+   "subtitle": {
+    "ru": "ок. 1200–1250 гг. · четыре пути йоги · три āсаны",
+    "en": "c. 1200–1250 CE · four paths of yoga · three āsanas"
+   },
+   "tradition": {
+    "ru": "хат̣ха-йога",
+    "en": "Haṭha yoga"
+   },
+   "edition": {
+    "ru": "критическое издание Дж. Маллинсона · Collection Indologie n° 162 / Haṭha Yoga Series n° 5 · Пондичерри – Оксфорд, 2024",
+    "en": "critical edition by J. Mallinson · Collection Indologie n° 162 / Haṭha Yoga Series n° 5 · Pondicherry – Oxford, 2024"
+   },
+   "pdf": {
+    "ru": "sources/«Даттāтрея-йога-ш́āстра»_ три āсаны (Падмāсана, Ш́авāсана, Випарӣта-каран̣ӣ).pdf",
+    "en": "sources/Dattātreyayogaśāstra_ all 3 āsanas (Padmāsana, Śavāsana, Viparītakaraṇī).pdf"
+   }
+  },
+  {
+   "id": "hathapradipika",
+   "file": "data/hathapradipika.json",
+   "title": {
+    "ru": "Хат̣хапрадӣпика̄",
+    "en": "Haṭhapradīpikā"
+   },
+   "subtitle": {
+    "ru": "глава 1 · пятнадцать āсан · стихи 1.19–1.54",
+    "en": "chapter 1 · fifteen āsanas · verses 1.19–1.54"
+   },
+   "tradition": {
+    "ru": "хат̣ха-йога",
+    "en": "Haṭha yoga"
+   },
+   "edition": {
+    "ru": "критическое электронное издание «Light on Haṭha Yoga» · Оксфорд – Марбург, 2024 · стихи 1.19–1.54 с рамкой 1.17–1.18 и 1.55–1.56",
+    "en": "the electronic critical edition “Light on Haṭha Yoga” · Oxford – Marburg, 2024 · verses 1.19–1.54 with the frame 1.17–1.18 and 1.55–1.56"
+   },
+   "pdf": {
+    "ru": "sources/Хат̣хапрадӣпика̄_ все 15 а̄сан — полный разбор по критическому изданию (Оксфорд – Марбург, 2024).pdf",
+    "en": "sources/Haṭhapradīpikā_ all 15 āsanas — a full study based on the critical edition (Oxford – Marburg, 2024).pdf"
+   }
+  },
+  {
+   "id": "matsyendra-samhita",
+   "file": "data/matsyendra-samhita.json",
+   "title": {
+    "ru": "Матсйендра-сам̣хитā",
+    "en": "Matsyendrasaṃhitā"
+   },
+   "subtitle": {
+    "ru": "третья пат̣ала · пятнадцать āсан · стихи 3–35",
+    "en": "the third paṭala · fifteen āsanas · verses 3–35"
+   },
+   "tradition": {
+    "ru": "тантрическая йога",
+    "en": "Tantric yoga"
+   },
+   "edition": {
+    "ru": "издание Дебабраты Сеншармы · Калькутта: The Asiatic Society, 1994 · Bibliotheca Indica, № 318 · третья глава — с. 21–25 санскритского текста",
+    "en": "edited by Debabrata Sensharma · Calcutta: The Asiatic Society, 1994 · Bibliotheca Indica, no. 318 · chapter 3 on Sanskrit text pages 21–25"
+   },
+   "translator": {
+    "ru": "перевод и пословный разбор: Александр Виджая (t.me/alexvijaya)",
+    "en": "translation and word-by-word analysis: Alexander Vijaya (t.me/alexvijaya)"
+   },
+   "pdf": {
+    "ru": "sources/Матсйендра-сам̣хитā. Третья пат̣ала (RU).pdf",
+    "en": "sources/Matsyendrasaṃhitā. Chapter Three (EN).pdf"
+   }
+  },
+  {
+   "id": "hathayogasamhita",
+   "file": "data/hathayogasamhita.json",
+   "title": {
+    "ru": "Хат̣хайогасам̣хитā",
+    "en": "Haṭhayogasaṃhitā"
+   },
+   "subtitle": {
+    "ru": "глава 2 · Āsana-prakaraṇa · тридцать три āсаны · стихи 2.1–2.52",
+    "en": "chapter 2 · Āsana-prakaraṇa · thirty-three āsanas · verses 2.1–2.52"
+   },
+   "tradition": {
+    "ru": "хат̣ха-йога",
+    "en": "Haṭha yoga"
+   },
+   "edition": {
+    "ru": "издание на хинди: Śrī Bhārata Dharma Mahāmaṇḍala, Vārāṇasī · под редакцией Yogirāja Svāmī Jñānānanda Ji Mahārāja",
+    "en": "the Hindi edition: Śrī Bhārata Dharma Mahāmaṇḍala, Vārāṇasī · edited by Yogirāja Svāmī Jñānānanda Ji Mahārāja"
+   },
+   "pdf": {
+    "ru": "sources/Хат̣хайогасам̣хитā. Глава 2. Āсана-пракаран̣а (RU).pdf",
+    "en": "sources/Haṭhayogasaṃhitā. Chapter 2. The Āsana Section (EN).pdf"
+   }
+  },
+  {
+   "id": "yoga-kaustubha",
+   "file": "data/yoga-kaustubha.json",
+   "title": {
+    "ru": "Йога-каустубха",
+    "en": "Yoga Kaustubha"
+   },
+   "subtitle": {
+    "ru": "раздел об āсанах · восемьдесят четыре āсаны · печатные стр. 55–73",
+    "en": "the section on āsanas · eighty-four āsanas · printed pages 55–73"
+   },
+   "tradition": {
+    "ru": "хат̣ха-йога · гуджарати",
+    "en": "Haṭha yoga · Gujarati"
+   },
+   "edition": {
+    "ru": "печатное руководство на гуджарати · составители Натхурāма Пӣтāм̣бараджӣ Рāвал̣а и Вайджанāтха Мотӣрāмаджӣ Бхат̣т̣а · титульный лист: ш́ака 1811, сам̣ват 1946",
+    "en": "a printed manual in Gujarati · compiled by Nathurāma Pītāṃbarajī Rāvaḷa and Vaijanātha Motīrāmajī Bhaṭṭa · title page: Śaka 1811, Saṃvat 1946"
+   },
+   "pdf": {
+    "ru": "sources/Йога-каустубха — восемьдесят четыре āсаны (RU).pdf",
+    "en": "sources/Yoga Kaustubha — the Eighty-Four Āsanas (EN).pdf"
    }
   }
  ]

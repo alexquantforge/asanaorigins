@@ -1,0 +1,739 @@
+{
+  "source": {
+    "url": "https://yoga.ames.ox.ac.uk/hp/reader/edition/#hp03_073",
+    "title": {
+      "ru": "Haṭhapradīpikā Online — цифровое критическое издание «Light on Haṭha Yoga» (Оксфорд – Марбург, 2024), глава 3",
+      "en": "Haṭhapradīpikā Online — the digital critical edition of the Light on Haṭha Yoga project (Oxford – Marburg, 2024), chapter 3"
+    },
+    "note": {
+      "ru": "Текст главы 3, стихи 3.73–3.77, списан с цифрового критического издания (yoga.ames.ox.ac.uk/hp/reader/edition/). В собрании сайта «Хат̣хапрадӣпикā» была только по главе 1: эти стихи добавлены, чтобы описание Випарӣта-каран̣ӣ было на месте, а не «где-то в другом издании». Деванагари и IAST напечатаны так, как в издании: часть слов издание набирает слитно, потому что от них идёт ссылка на аппарат.",
+      "en": "Chapter 3, verses 3.73–3.77, copied from the digital critical edition (yoga.ames.ox.ac.uk/hp/reader/edition/). The site’s Haṭhapradīpikā previously covered chapter 1 only: these verses are added so that the description of Viparītakaraṇī stands where it is needed. Devanagari and IAST are printed as in the edition: some words are set without spaces because the edition links them to the apparatus."
+    }
+  },
+  "vulgate": {
+    "note": {
+      "ru": "В изданиях старой нумерации те же стихи напечатаны как 3.79–3.82 — так их и цитирует критическое издание Даттāтрея-йоги на странице этой позы. Соответствие: 3.79 = 3.74, 3.80 = 3.75, 3.81 = 3.76, 3.82 = 3.77.",
+      "en": "In editions with the older numbering the same verses are printed as 3.79–3.82, which is how the critical edition of the Dattātreyayogaśāstra cites them on this pose’s page. The correspondence: 3.79 = 3.74, 3.80 = 3.75, 3.81 = 3.76, 3.82 = 3.77."
+    },
+    "map": {
+      "3.79": "3.74",
+      "3.80": "3.75",
+      "3.81": "3.76",
+      "3.82": "3.77"
+    }
+  },
+  "pose": {
+    "key": "viparitakarani",
+    "name": {
+      "ru": "Випарӣта-каран̣ӣ",
+      "en": "Viparītakaraṇī"
+    },
+    "gloss": {
+      "ru": "«обратное действие», перевёрнутая поза",
+      "en": "the “inverted” position"
+    },
+    "verses": "3.73, 3.74, 3.75, 3.76, 3.77",
+    "intro": {
+      "ru": "«Хат̣хапрадӣпикā» описывает эту позу в главе 3 — перед разделом о ваджролӣ. Ниже — все пять стихов так, как они напечатаны в критическом издании, и весь аппарат с полными названиями рукописей, а в конце раздела — пословный разбор, буквальный и литературный переводы. Английский перевод — издания; русский подстрочник, разбор и переводы — наши: в электронном издании русского перевода нет, поэтому всё русское здесь помечено как наше.",
+      "en": "The Haṭhapradīpikā describes this position in chapter 3, just before the section on vajrolī. Below are all five verses as printed in the critical edition, with the full apparatus and the manuscripts spelled out, and at the end of the section the word-by-word analysis, the literal and the literary translation. The English translation is the edition’s; the Russian rendering and the analysis are ours, and they are marked as such."
+    },
+    "literal": {
+      "ru": "Пупок вверх, нёбо вниз, солнце вверху, луна внизу — [это] положение, называемое «обратным», обретается словом учителя. [Это] положение, называемое «обратным», уничтожает все болезни, у постоянно упражняющегося усиливает огонь в животе. Практикующему же следует доставить обильную пищу; если [будет] мало пищи, огонь сожжёт тело в один миг. С головой вниз, с ногами вверх пусть [будет] мгновение в первый день, и пусть упражняется немного больше день за днём. Морщины и седина больше шести месяцев не видны; кто постоянно упражняется [лишь] одну яму [времени], тот победитель времени.",
+      "en": "The navel up, the palate down, the sun above, the moon below — [this] position, called “inverted”, is obtained by the guru’s words. [This] position, called “inverted”, destroys all diseases, in one who practises constantly it increases the fire in the belly. For the practitioner plentiful food is to be provided; if there is little food, the fire will burn the body in an instant. With the head down, with the feet up, let there be a moment on the first day, and let him practise a little more day after day. Wrinkles and grey hair are not seen after six months; he who practises constantly for [just] one yāma, he is a conqueror of time."
+    },
+    "literary": {
+      "ru": "Випарӣта-каран̣ӣ — «обратное действие»: пупок поднят, нёбо опущено, солнце оказывается наверху, а луна внизу; такое положение тела обретают наставлением учителя. Оно прогоняет все болезни и у того, кто упражняется постоянно, разжигает пищеварительный огонь. Практикующему нужна обильная пища: при скудной еде огонь сожжёт тело в один миг. В первый день держатся головой вниз, а ногами вверх лишь мгновение, и с каждым днём прибавляют понемногу. Через полгода не остаётся ни морщин, ни седины, а кто упражняется по три часа ежедневно, тот побеждает смерть.",
+      "en": "Viparītakaraṇī, the “inverted” position: the navel is raised and the palate lowered, the sun comes to be above and the moon below; this bodily position is learned from the teaching of a guru. It drives away all diseases and kindles the digestive fire in one who practises without fail. The practitioner needs plentiful food: on a meagre diet the fire will burn up the body in an instant. On the first day one holds the head down and the feet up for a moment only, adding a little each day. In six months neither wrinkles nor grey hair remain, and whoever practises for three hours every day conquers death."
+    }
+  },
+  "verses": [
+    {
+      "number": "3.73",
+      "deva": [
+        "ऊर्ध्वं नाभिरधस्तालुरूर्ध्वं भानुरधः शशी ।",
+        "करणी विपरीताख्यागुरुवाक्येन लभ्यते ॥"
+      ],
+      "iast": [
+        "ūrdhvaṃ nābhir adhas tālur ūrdhvaṃ bhānur adhaḥ śaśī /",
+        "karaṇī viparītākhyāguruvākyena labhyate //"
+      ],
+      "translation": "The navel is up, the palate down; the sun up, the moon down: the bodily position called “inverted” is obtained through the teaching of a guru.",
+      "readings": [
+        "ūrdhvaṃ nābhir|α1α2γ2δ1δ2ζ2ζ3η1η2πω|ūrdhvanābhir ε1π1, ūrdhvanābhor γ1, ūrdhvanābher χ, ūrdhvaṃ nābher π2, ++ nābher α3",
+        "adhas tālur|α2α3δ1ε1ζ2ζ3η2π1π2πω|adhas tālu α1γ2η1, adhas tāla δ2, asāluktar γ1, adhastālor χ",
+        "ūrdhva_cett.||ūrdhva α2γ1δ1, ūrdhvo η1",
+        "pāda c||om. δ1ζ2η2π1π2",
+        "karaṇī viparītākhyā|α1γ1γ2δ2ε1η1χ|karaṇī viparītākṣaṃ α2, karaṇaṃ viparītākhyaṃ α3ζ3πω",
+        "pāda d||om. δ1ζ2η2π1π2",
+        "labhyate|α1γ1ζ3η1πωχ|lakṣate α2, lakṣayet α3ε1, gamyate γ2δ2"
+      ],
+      "sources": "Vivekamārtaṇḍa 115",
+      "testimonia": "Haṭharatnāvalī 2.74, Yogacintāmaṇi f. 73r (attrib. HP), Yuktabhavadeva 7.236 (attrib. Gorakṣanātha)",
+      "testimonia_readings": [
+        "ūrdhvaṃ nābhir HRĀ YBhD ] ūrdhvanābhir YCM",
+        "ūrdhvaṃ bhānur HRĀ YBhD ] ūrdhvabhānur YCM",
+        "guruvākyena labhyate HRĀ ] sarvavyādhivināśinī YCM, guruvaktreṇa gamyate YBhD"
+      ],
+      "own": {
+        "ru": "Пупок — вверх, нёбо — вниз; солнце — вверху, луна — внизу: [это] положение тела, называемое «обратным», обретается словом учителя.",
+        "en": "Navel up, palate down; sun above, moon below: this bodily position, called “inverted”, is obtained through the guru’s words."
+      },
+      "words": {
+        "ru": [
+          [
+            "ūrdhvam",
+            "вверх"
+          ],
+          [
+            "nābhiḥ",
+            "пупок"
+          ],
+          [
+            "adhas",
+            "вниз"
+          ],
+          [
+            "tāluḥ",
+            "нёбо"
+          ],
+          [
+            "ūrdhvam",
+            "вверх"
+          ],
+          [
+            "bhānur",
+            "солнце"
+          ],
+          [
+            "adhaḥ",
+            "внизу"
+          ],
+          [
+            "śaśī",
+            "луна"
+          ],
+          [
+            "karaṇī",
+            "положение тела, действие"
+          ],
+          [
+            "viparītākhyā",
+            "называемое «обратным»"
+          ],
+          [
+            "guruvākyena",
+            "словом учителя (твор. пад.)"
+          ],
+          [
+            "labhyate",
+            "обретается."
+          ]
+        ],
+        "en": [
+          [
+            "ūrdhvam",
+            "upwards"
+          ],
+          [
+            "nābhiḥ",
+            "the navel"
+          ],
+          [
+            "adhas",
+            "downwards"
+          ],
+          [
+            "tāluḥ",
+            "the palate"
+          ],
+          [
+            "ūrdhvam",
+            "upwards"
+          ],
+          [
+            "bhānur",
+            "the sun"
+          ],
+          [
+            "adhaḥ",
+            "below"
+          ],
+          [
+            "śaśī",
+            "the moon"
+          ],
+          [
+            "karaṇī",
+            "bodily position, action"
+          ],
+          [
+            "viparītākhyā",
+            "called “inverted”"
+          ],
+          [
+            "guruvākyena",
+            "by the guru’s words (instr.)"
+          ],
+          [
+            "labhyate",
+            "is obtained."
+          ]
+        ]
+      }
+    },
+    {
+      "number": "3.74",
+      "deva": [
+        "करणीविपरीताख्यासर्वव्याधिविनाशिनी ।",
+        "नित्यमभ्यासयुक्तस्य जठराग्निविवर्धनी ॥"
+      ],
+      "iast": [
+        "karaṇīviparītākhyāsarvavyādhivināśinī /",
+        "nityam abhyāsayuktasya jaṭharāgnivivardhanī //"
+      ],
+      "translation": "The bodily position called “inverted” destroys all diseases. For [the yogi] who regularly engages in [its] practice, it increases the digestive fire.",
+      "readings": [
+        "pāda a||om. χ",
+        "karaṇī_cett.||karaṇaṃ π1",
+        "viparītākhyā_cett.||viparītākhyaṃ π2, viparītākṣaṃ α2ζ2",
+        "pāda b||om. χ",
+        "vināśinī|α1γ1γ2δ1δ2ε1ζ3η1η2|vināśanī ζ2π1, vināśanaṃ α2π2πω",
+        "yuktasya_cett.||yogena ε1, saktasya π1",
+        "vivardhanī|α1γ2ζ2ζ3η1|vivardhinī γ1δ1δ2ε1π1χ, vivardhanaṃ α2π2πω, pravardhinī η2"
+      ],
+      "sources": "Dattātreyayogaśāstra 146",
+      "sources_readings": [
+        "karaṇī ] karaṇaṃ DYŚ",
+        "vināśinī ] vināśanam DYŚ",
+        "jaṭharāgnivivardhanī ] jaṭharāgnir vivardhate DYŚ"
+      ],
+      "testimonia": "Haṭharatnāvalī 2.75, Yogacintāmaṇi f. 78r (cd only) (attrib. Dattātreya)",
+      "testimonia_readings": [
+        "vivardhanī ] vivardhinī HRĀ, vivardhanam YCM"
+      ],
+      "own": {
+        "ru": "Положение, называемое «обратным», уничтожает все болезни; у того, кто постоянно предан практике, оно усиливает пищеварительный огонь.",
+        "en": "The bodily position called “inverted” destroys all diseases; in one who practises it constantly it increases the digestive fire."
+      },
+      "words": {
+        "ru": [
+          [
+            "karaṇī",
+            "положение тела"
+          ],
+          [
+            "viparītākhyā",
+            "называемое «обратным»"
+          ],
+          [
+            "sarvavyādhivināśinī",
+            "уничтожающая все болезни"
+          ],
+          [
+            "nityam",
+            "постоянно"
+          ],
+          [
+            "abhyāsayuktasya",
+            "у того, кто предан практике (род. пад.)"
+          ],
+          [
+            "jaṭharāgnivivardhanī",
+            "усиливающая огонь в животе."
+          ]
+        ],
+        "en": [
+          [
+            "karaṇī",
+            "bodily position"
+          ],
+          [
+            "viparītākhyā",
+            "called “inverted”"
+          ],
+          [
+            "sarvavyādhivināśinī",
+            "destroying all diseases"
+          ],
+          [
+            "nityam",
+            "constantly"
+          ],
+          [
+            "abhyāsayuktasya",
+            "of one devoted to practice (gen.)"
+          ],
+          [
+            "jaṭharāgnivivardhanī",
+            "increasing the fire in the belly."
+          ]
+        ]
+      }
+    },
+    {
+      "number": "3.75",
+      "deva": [
+        "आहारो बहुलस्तस्य संपाद्यः साधकस्य तु ।",
+        "अल्पाहारोयदि भवेदग्निर्देहंदहेत्क्षणात् ॥"
+      ],
+      "iast": [
+        "āhāro bahulas tasya saṃpādyaḥ sādhakasya tu /",
+        "alpāhāroyadi bhaved agnir dehaṃdahet kṣaṇāt //"
+      ],
+      "translation": "A lot of food should be provided for the practitioner. If the practitioner eats little, fire will quickly consume his body.",
+      "metre": "Anuṣṭubh (c: na-vipulā)",
+      "readings": [
+        "tu_cett.||ca α2γ1χ",
+        "alpāhāro|α1α2α3ε1η1η2π1π2πωχ|anāhāro γ1γ2δ1δ2ζ2ζ3",
+        "yadi bhaved_cett.||nirāhāraḥ η2",
+        "agnir dehaṃ|α1α3δ1δ2ε1ζ3πω|agnidehaṃ α2γ1γ2ζ2π1, deham agnir η1, agnidāho π2, agnir daha χ, kṣudhālasya η2",
+        "dahet|α1α2γ1γ2δ1δ2ε1ζ2η1πω|haret α3ζ3π1, bhavet π2, ti tat χ, vaśe η2",
+        "kṣaṇāt_cett. incl. α3||kramāt α1, tataḥ γ2, bhavet η2"
+      ],
+      "sources": "Dattātreyayogaśāstra 147",
+      "sources_readings": [
+        "sādhakasya tu ] sāṃkṛte dhruvam DYŚ"
+      ],
+      "testimonia": "Haṭharatnāvalī 2.76, Yogacintāmaṇi f. 78r (attrib. Dattātreya)",
+      "testimonia_readings": [
+        "sādhakasya tu ] sādhakena vai HRĀ, sāṃkṛte dhruvam YCM",
+        "agnir deham ] deham agnir HRĀ, agnir dāhaṃ YCM",
+        "dahet kṣaṇāt ] dahet kramāt HRĀ, karoti vai YCM"
+      ],
+      "own": {
+        "ru": "Практикующему следует позаботиться об обильной пище; если же еды [будет] мало, огонь сожжёт тело в один миг.",
+        "en": "The practitioner should provide himself with plentiful food; if he eats little, the fire will burn up his body in an instant."
+      },
+      "words": {
+        "ru": [
+          [
+            "āhāro",
+            "пища"
+          ],
+          [
+            "bahulas",
+            "обильная"
+          ],
+          [
+            "tasya",
+            "его, ему (род. пад.)"
+          ],
+          [
+            "saṃpādyaḥ",
+            "должна быть доставлена"
+          ],
+          [
+            "sādhakasya",
+            "практикующего (род. пад.)"
+          ],
+          [
+            "tu",
+            "же"
+          ],
+          [
+            "alpāhāro",
+            "мало пищи"
+          ],
+          [
+            "yadi",
+            "если"
+          ],
+          [
+            "bhaved",
+            "будет"
+          ],
+          [
+            "agnir",
+            "огонь"
+          ],
+          [
+            "dehaṃ",
+            "тело"
+          ],
+          [
+            "dahet",
+            "сожжёт"
+          ],
+          [
+            "kṣaṇāt",
+            "в один миг."
+          ]
+        ],
+        "en": [
+          [
+            "āhāro",
+            "food"
+          ],
+          [
+            "bahulas",
+            "plentiful"
+          ],
+          [
+            "tasya",
+            "of him, for him (gen.)"
+          ],
+          [
+            "saṃpādyaḥ",
+            "to be provided"
+          ],
+          [
+            "sādhakasya",
+            "of the practitioner (gen.)"
+          ],
+          [
+            "tu",
+            "but, and"
+          ],
+          [
+            "alpāhāro",
+            "little food"
+          ],
+          [
+            "yadi",
+            "if"
+          ],
+          [
+            "bhaved",
+            "there should be"
+          ],
+          [
+            "agnir",
+            "the fire"
+          ],
+          [
+            "dehaṃ",
+            "the body"
+          ],
+          [
+            "dahet",
+            "will burn"
+          ],
+          [
+            "kṣaṇāt",
+            "in an instant."
+          ]
+        ]
+      }
+    },
+    {
+      "number": "3.76",
+      "deva": [
+        "अधःशिरश्चोर्ध्वपादःक्षणं स्यात्प्रथमे दिने ।",
+        "क्षणाच्च किंचिदधिकमभ्यसेच्च दिने दिने ॥"
+      ],
+      "iast": [
+        "adhaḥśiraś cordhvapādaḥkṣaṇaṃ syāt prathame dine /",
+        "kṣaṇāc ca kiṃcid adhikam abhyasec ca dine dine //"
+      ],
+      "translation": "On the first day [the yogi] should keep his head down and his feet up for a short while, and he should [then] practise for a little longer each day.",
+      "metre": "Anuṣṭubh (a: ra-vipulā; c: na-vipulā)",
+      "readings": [
+        "śiraś|α1α3δ1ε1ζ2ζ3η1η2π1π2πω|śira α2δ2, śirāś χ, śirā γ1γ2",
+        "cordhva_cett.||cordhvaṃ πω, ūrdhva γ1γ2δ2",
+        "pādaḥ|α1α2α3γ2δ1δ2ε1ζ3π1π2χ|pāda γ1ζ2πω, pādau η1η2",
+        "kṣaṇaṃ syāt_cett.||kṣīṇaṃ syāt δ1, lakṣaṇaṃ η2",
+        "dine_cett.||hani δ2",
+        "pāda c||om. δ1",
+        "kṣaṇāc ca|α1ε1ζ3η1η2π2πωχ|kṣayāc ca α2, kṣaṇāt tu γ1γ2, kṣaṇādyaṃ π1, kṣaṇārdha ζ2, kṣaṇādardhaṃ δ2, om. δ1",
+        "adhikam_cett.||apika γ1, om. δ1",
+        "pāda d||om. δ1",
+        "abhyasec ca_cett.||abhyasetva γ2, bhyarccayec ca γ1, om. δ1"
+      ],
+      "sources": "Dattātreyayogaśāstra 148c–149b",
+      "sources_readings": [
+        "adhaḥśirāś ] adhaḥśiraś DYŚ v.l."
+      ],
+      "testimonia": "Haṭharatnāvalī 2.77, Yogacintāmaṇi f. 78r (attrib. Dattātreya)",
+      "testimonia_readings": [
+        "śirāś YCM ] śiraś HRĀ",
+        "pādaḥ HRĀ v.l. YCM ] pādau HRĀ"
+      ],
+      "own": {
+        "ru": "С головой вниз и ногами вверх [пусть держится] одно мгновение в первый день; и [затем] пусть упражняется немного дольше — день за днём.",
+        "en": "With the head down and the feet up one should stay for a moment on the first day, and then practise a little longer, day after day."
+      },
+      "words": {
+        "ru": [
+          [
+            "adhaḥśiraś",
+            "с головой вниз"
+          ],
+          [
+            "ca",
+            "и"
+          ],
+          [
+            "ūrdhvapādaḥ",
+            "с ногами вверх"
+          ],
+          [
+            "kṣaṇam",
+            "мгновение"
+          ],
+          [
+            "syāt",
+            "пусть будет"
+          ],
+          [
+            "prathame",
+            "в первом"
+          ],
+          [
+            "dine",
+            "дне"
+          ],
+          [
+            "kṣaṇāt",
+            "чем мгновение"
+          ],
+          [
+            "ca",
+            "и"
+          ],
+          [
+            "kiṃcit",
+            "немного"
+          ],
+          [
+            "adhikam",
+            "больше"
+          ],
+          [
+            "abhyaset",
+            "пусть упражняется"
+          ],
+          [
+            "ca",
+            "и"
+          ],
+          [
+            "dine dine",
+            "день за днём."
+          ]
+        ],
+        "en": [
+          [
+            "adhaḥśiraś",
+            "with the head down"
+          ],
+          [
+            "ca",
+            "and"
+          ],
+          [
+            "ūrdhvapādaḥ",
+            "with the feet up"
+          ],
+          [
+            "kṣaṇam",
+            "a moment"
+          ],
+          [
+            "syāt",
+            "he should be"
+          ],
+          [
+            "prathame",
+            "on the first"
+          ],
+          [
+            "dine",
+            "day"
+          ],
+          [
+            "kṣaṇāt",
+            "than a moment"
+          ],
+          [
+            "ca",
+            "and"
+          ],
+          [
+            "kiṃcit",
+            "a little"
+          ],
+          [
+            "adhikam",
+            "more"
+          ],
+          [
+            "abhyaset",
+            "he should practise"
+          ],
+          [
+            "ca",
+            "and"
+          ],
+          [
+            "dine dine",
+            "day after day."
+          ]
+        ]
+      }
+    },
+    {
+      "number": "3.77",
+      "deva": [
+        "वलिश्चपलितं चैव षण्मासोर्ध्वं नदृश्यते ।",
+        "याममात्रं तु यो नित्यमभ्यसेत्स तुकालजित् ॥"
+      ],
+      "iast": [
+        "valiś capalitaṃ caiva ṣaṇmāsordhvaṃ nadṛśyate /",
+        "yāmamātraṃ tu yo nityam abhyaset sa tukālajit //"
+      ],
+      "translation": "After six months grey hair and wrinkles disappear. [The yogi] who regularly practises for three hours conquers death.",
+      "readings": [
+        "valiś ca|α1ε1η1π1π2πω|vali α2, valiṃ ca δ2, valitaṃ γ1γ2δ1ζ2ζ3η2χ",
+        "palitaṃ_cett.||palitaś π1π2",
+        "ṣaṇmāsordhvaṃ na|χ|ṣaṇmāsārdhān na α1ε1ζ3π1π2, ṣaṇmāsārdhaṃ na πω, ṣaṇmāsārdhena α2γ1γ2δ2, ṣaṇmāsārdheṇa δ1, ṣaṇmāsārdhe ca ζ2, ṣaṇmāsāt tu na η1η2",
+        "dṛśyate_cett.||naśyati γ1γ2δ1δ2ζ2",
+        "yāmamātraṃ tu_cett.||yāmamātraṃ ca ζ3, māsatrayaṃ tu η2",
+        "nityam_cett.||gnibhyam γ1",
+        "abhyaset_cett.||aset δ1",
+        "tu_cett.||su γ2, ca ζ2",
+        "kālajit_cett.||kālavit ζ2η2"
+      ],
+      "sources": "Dattātreyayogaśāstra 149c–150b",
+      "sources_readings": [
+        "māsordhvaṃ na ] māsāṃ hi na DYŚ v.l., māsāc ca na DYŚ v.l.",
+        "tu ] hi DYŚ",
+        "kālajit ] yogavit DYŚ v.l."
+      ],
+      "testimonia": "Haṭharatnāvalī 2.78, Yogacintāmaṇi f. 78r (attrib. Dattātreya), Yuktabhavadeva 7.238 (attrib. Gorakṣanātha)",
+      "testimonia_readings": [
+        "valiś ca YCM ] valitaṃ HRĀ YBhD",
+        "māsordhvaṃ na ] māsān na tu HRĀ, māsārdhe na YCM, māsārdhān na YBhD"
+      ],
+      "own": {
+        "ru": "Морщин и седины больше чем через шесть месяцев не видно; кто же постоянно упражняется [лишь] одну яму [времени], тот победитель смерти.",
+        "en": "After six months wrinkles and grey hair are no longer seen; and he who practises constantly for one yāma conquers death."
+      },
+      "words": {
+        "ru": [
+          [
+            "valiḥ",
+            "морщина"
+          ],
+          [
+            "ca",
+            "и"
+          ],
+          [
+            "palitaṃ",
+            "седина"
+          ],
+          [
+            "ca eva",
+            "а также"
+          ],
+          [
+            "ṣaṇmāsordhvam",
+            "спустя более шести месяцев"
+          ],
+          [
+            "na",
+            "не"
+          ],
+          [
+            "dṛśyate",
+            "видно"
+          ],
+          [
+            "yāmamātram",
+            "только одну яму (около трёх часов)"
+          ],
+          [
+            "tu",
+            "же"
+          ],
+          [
+            "yaḥ",
+            "кто"
+          ],
+          [
+            "nityam",
+            "постоянно"
+          ],
+          [
+            "abhyaset",
+            "упражняется"
+          ],
+          [
+            "saḥ",
+            "тот"
+          ],
+          [
+            "tu",
+            "же"
+          ],
+          [
+            "kālajit",
+            "победитель времени, то есть смерти."
+          ]
+        ],
+        "en": [
+          [
+            "valiḥ",
+            "a wrinkle"
+          ],
+          [
+            "ca",
+            "and"
+          ],
+          [
+            "palitaṃ",
+            "grey hair"
+          ],
+          [
+            "ca eva",
+            "as well as"
+          ],
+          [
+            "ṣaṇmāsordhvam",
+            "after more than six months"
+          ],
+          [
+            "na",
+            "not"
+          ],
+          [
+            "dṛśyate",
+            "is seen"
+          ],
+          [
+            "yāmamātram",
+            "just one yāma (three hours)"
+          ],
+          [
+            "tu",
+            "but"
+          ],
+          [
+            "yaḥ",
+            "whoever"
+          ],
+          [
+            "nityam",
+            "constantly"
+          ],
+          [
+            "abhyaset",
+            "practises"
+          ],
+          [
+            "saḥ",
+            "he"
+          ],
+          [
+            "tu",
+            "indeed"
+          ],
+          [
+            "kālajit",
+            "a conqueror of time, i.e. of death."
+          ]
+        ]
+      }
+    }
+  ]
+}
