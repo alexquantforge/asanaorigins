@@ -27,7 +27,7 @@
       next: "Следующая",
       notFound: "Такой āсаны нет в этом трактате.",
       loading: "Загрузка…",
-      error: "Не удалось загрузить данные. Откройте сайт через локальный сервер.",
+      error: "Не удалось загрузить данные сайта. Обновите страницу.",
       source: "Источник",
       pdf: "PDF источника",
       translation: "Перевод",
@@ -78,7 +78,7 @@
       next: "Next",
       notFound: "This pose is not in this treatise.",
       loading: "Loading…",
-      error: "Could not load the data. Serve the site from a local web server.",
+      error: "Could not load the site’s data. Reload the page.",
       source: "Source",
       pdf: "Source PDF",
       translation: "Translation",
@@ -112,7 +112,7 @@
     }
   };
 
-  const BUILD = "2026-11-06.09";
+  const BUILD = "2026-11-06.10";
   const V = "?v=" + BUILD;
 
   const state = {
@@ -288,40 +288,61 @@
     return href && STATIC && !/^(https?:|data:|\/|#)/.test(href) ? BASE + href : href;
   }
 
+  /* На статической странице текст уже напечатан в самом HTML. Скрипт приходит
+     следом и добавляет переключение языка, темы и вкладки — но стереть
+     напечатанное он не должен: если сеть медленная или один файл данных не
+     отдался, читатель остался бы перед словом «Загрузка…» вместо страницы.
+     Поэтому готовый текст не трогаем, а при сбое оставляем его как есть. */
   async function boot() {
     document.documentElement.setAttribute("data-theme", state.theme);
     applyStaticText();
-    $("#view").innerHTML = '<p class="empty">' + esc(t("loading")) + "</p>";
+    const view = $("#view");
+    const prerendered = STATIC && view.textContent.trim().length > 60;
+    if (!prerendered) {
+      view.innerHTML = '<p class="empty">' + esc(t("loading")) + "</p>";
+    }
 
     let index;
+    let loaded;
     try {
       index = await fetch(asset("data/treatises.json") + V).then((r) => {
         if (!r.ok) throw new Error(r.status);
         return r.json();
       });
     } catch (e) {
-      $("#view").innerHTML = '<p class="empty">' + esc(t("error")) + "</p>";
+      if (!prerendered) {
+        view.innerHTML = '<p class="empty">' + esc(t("error")) + "</p>";
+      }
       return;
     }
 
     site = index.site || null;
-    const loaded = await Promise.all(
-      index.treatises.map(async (meta) => {
-        const data = await fetch(asset(meta.file) + V).then((r) => r.json());
-        // registry metadata (short title, edition, PDF) wins over the document's
-        // own long title; the long title stays available as docTitle
-        return Object.assign({}, data, meta, {
-          chapter: data.chapter || meta.chapter,
-          poses: data.poses || [],
-          about: data.about || { ru: [], en: [] },
-          prologue: data.prologue || { ru: [], en: [] },
-          appendix: data.appendix || { ru: [], en: [] },
-          notes: data.notes || { ru: [], en: [] },
-          asanasTitle: data.asanasTitle || null,
-          docTitle: data.title || null
-        });
-      })
-    );
+    try {
+      loaded = await Promise.all(
+        index.treatises.map(async (meta) => {
+          const data = await fetch(asset(meta.file) + V).then((r) => r.json());
+          // registry metadata (short title, edition, PDF) wins over the document's
+          // own long title; the long title stays available as docTitle
+          return Object.assign({}, data, meta, {
+            chapter: data.chapter || meta.chapter,
+            poses: data.poses || [],
+            about: data.about || { ru: [], en: [] },
+            prologue: data.prologue || { ru: [], en: [] },
+            appendix: data.appendix || { ru: [], en: [] },
+            notes: data.notes || { ru: [], en: [] },
+            asanasTitle: data.asanasTitle || null,
+            docTitle: data.title || null
+          });
+        })
+      );
+    } catch (e) {
+      // один из файлов трактата не отдался: напечатанное на странице остаётся
+      // рабочим, поэтому ничего не стираем и просто не включаем переключение
+      if (!prerendered) {
+        view.innerHTML = '<p class="empty">' + esc(t("error")) + "</p>";
+      }
+      return;
+    }
     treatises = loaded;
 
     // Глава 3 «Хат̣хапрадӣпики» лежит отдельным файлом: в двух PDF её не было,
