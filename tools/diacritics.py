@@ -235,10 +235,15 @@ def _restore(text, saved):
     return re.sub("(\\d+)", lambda m: saved[int(m.group(1))], text)
 
 
+DOUBLE = re.compile(r"(.)\1([\u0300-\u036f])")
+
+
 def fix_text(text, terms, en_terms):
     """Одна строка: сначала знаки, потом слова."""
     for src, dst in MARKS:
         text = text.replace(src, dst)
+    # «шш́лока» — удвоение буквы перед знаком от прежних правок
+    text = DOUBLE.sub(r"\1\2", text)
     if not terms and not en_terms:
         return text
     text, saved = _protect(text)
