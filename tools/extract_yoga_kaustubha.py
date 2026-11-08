@@ -464,6 +464,29 @@ def dating_summary(parsed: dict) -> dict:
                 return text
         raise SystemExit(f"в томе ({lang}) не найден абзац «{start}»")
 
+    def quote(lang: str, start: str, stop: str) -> str:
+        """Абзац тома до конца фразы со словами stop — дословный префикс.
+
+        Абзац о датировке кончается фразой о текстологических примечаниях, и она
+        к дате не относится: под сводкой датировки она читалась бы как ещё одно
+        основание даты. Поэтому цитата обрывается на конце фразы о дате; слов не
+        добавлено и не переставлено — это начало того же абзаца.
+        """
+        text = sentence(lang, start)
+        at = text.find(stop)
+        if at < 0:
+            raise SystemExit(f"в томе ({lang}) нет фразы «{stop}»")
+        end = at + len(stop)
+        tail = text[end:end + 1]
+        if tail == ".":
+            end += 1
+        elif tail and tail not in " ,;":
+            raise SystemExit(f"цитата обрывается посреди слова ({lang}): {text[end-30:end+10]!r}")
+        piece = text[:end]
+        if not text.startswith(piece):
+            raise SystemExit(f"цитата не является началом абзаца ({lang})")
+        return piece
+
     return {
         "label": {"ru": "На чём основана дата (по словам самого тома)",
                   "en": "Basis of the date (in the volume’s own words)"},
@@ -476,8 +499,10 @@ def dating_summary(parsed: dict) -> dict:
                 "whenNote": {"ru": "к григорианскому году не приравниваются",
                              "en": "not equated with a Gregorian year"},
                 "work": {
-                    "ru": sentence("ru", "На титульном листе указаны"),
-                    "en": sentence("en", "The title page gives"),
+                    "ru": quote("ru", "На титульном листе указаны",
+                                "не приравниваются к одному григорианскому году"),
+                    "en": quote("en", "The title page gives",
+                                "not equated here with a single Gregorian year"),
                 },
             },
         ],

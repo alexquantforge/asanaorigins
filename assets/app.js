@@ -112,7 +112,7 @@
     }
   };
 
-  const BUILD = "2026-11-06.08";
+  const BUILD = "2026-11-06.09";
   const V = "?v=" + BUILD;
 
   const state = {
@@ -720,10 +720,15 @@
       html += '<section class="treatise-block">';
       html += '<div class="treatise-head">';
       html += "<h2>" + esc(tx(tr.title)) + "</h2>";
+      // Главы может не быть вовсе: «Йога-каустубха», «Хат̣хайогасам̣хитā»,
+      // «Матсйендра-сам̣хитā» и Даттāтрея-йога-ш́āстра на главы не делятся, и
+      // слово «глава» без номера только делало бы вид, что деление есть.
       const chap = pose.chapter || tr.chapter;
-      html += '<span class="ref">' +
-        esc(tx(tr.chapterWord) || (state.lang === "ru" ? "глава" : "chapter")) +
-        (chap ? " " + esc(chap) : "") + "</span>";
+      if (chap) {
+        html += '<span class="ref">' +
+          esc(tx(tr.chapterWord) || (state.lang === "ru" ? "глава" : "chapter")) +
+          " " + esc(chap) + "</span>";
+      }
       if (multi) {
         html += '<a class="link" href="' + url("about", null, null, tr.id) + '">' +
           esc(t("toAbout")) + "</a>";
