@@ -417,11 +417,46 @@ def about_sections(lang: str, parsed: dict) -> list[dict]:
     return out
 
 
+# Пересчёт эр — не текст тома, а арифметика сайта. Он стоит последней строкой
+# сводки и подписан как наш расчёт: иначе читатель принял бы его за слова
+# издания. Оба года на титульном листе дают один и тот же промежуток, потому что
+# ш́ака и сам̣ват начинают год одновременно (весной): ш́ака + 78, сам̣ват − 57 —
+# 1889 год для месяцев от начала года до декабря; + 79 и − 56 — 1890 для
+# января–февраля, когда эра уже перешла в следующий год, а григорианский ещё нет.
+ERA_ARITHMETIC = {
+    "ru": (
+        "Пересчёт по эрам — это наш расчёт, а не слова тома. "
+        "Ш́ака 1811: 1811 + 78 = 1889 для месяцев от начала года до декабря и "
+        "1811 + 79 = 1890 для января–февраля. "
+        "Сам̣ват 1946: 1946 − 57 = 1889 и 1946 − 56 = 1890 — при том же начале "
+        "года; в Гуджарате обычен викрама-сам̣ват со счётом от чаитры, но том "
+        "этого не уточняет. "
+        "Обе даты дают один и тот же промежуток, март 1889 — март 1890, и "
+        "расходятся ровно на 135 лет, как и сами эры: титульный лист сам себе не "
+        "противоречит. Но ни месяца, ни дня на нём нет, поэтому один год "
+        "назвать нельзя."
+    ),
+    "en": (
+        "The conversion is our arithmetic, not the volume’s words. "
+        "Śaka 1811: 1811 + 78 = 1889 for the months from the start of the year "
+        "to December, and 1811 + 79 = 1890 for January–February. "
+        "Saṃvat 1946: 1946 − 57 = 1889 and 1946 − 56 = 1890, assuming the same "
+        "start of the year; in Gujarat the Vikrama saṃvat counted from Caitra is "
+        "the usual reckoning, but the volume does not say so. "
+        "Both dates give the same span, March 1889 to March 1890, and differ by "
+        "exactly 135 years, as the eras themselves do: the title page does not "
+        "contradict itself. But neither month nor day is printed on it, so no "
+        "single year can be named."
+    ),
+}
+
+
 def dating_summary(parsed: dict) -> dict:
     """Короткая сводка датировки: что стоит на титульном листе.
 
     Том не приравнивает эти годы к григорианскому; сводка говорит то же самое и
-    цитирует том дословно — цитата проверяется при сборке.
+    цитирует том дословно — цитата проверяется при сборке. Пересчёт эр стоит
+    отдельной строкой и подписан как расчёт сайта, а не как слова тома.
     """
     def sentence(lang: str, start: str) -> str:
         for text in parsed[lang]["about"]:
@@ -446,10 +481,33 @@ def dating_summary(parsed: dict) -> dict:
                 },
             },
         ],
+        "note2": ERA_ARITHMETIC,
     }
 
 
 # ------------------------------------------------------------------ проверки
+
+def check_era_arithmetic() -> None:
+    """Каждое «a ± b = c» в примечании должно быть верным, и разница эр — 135.
+
+    Примечание — проза, поэтому числа проверяются разбором самой строки: если
+    кто-нибудь поправит текст и ошибётся в счёте, сборка остановится.
+    """
+    for lang, text in ERA_ARITHMETIC.items():
+        found = re.findall(r"(\d{4}) ([+\u2212-]) (\d{1,2}) = (\d{4})", text)
+        if len(found) < 4:
+            raise SystemExit(f"в примечании о пересчёте эр мало примеров ({lang}): "
+                             f"{len(found)}")
+        for left, sign, right, result in found:
+            value = int(left) + int(right) if sign == "+" else int(left) - int(right)
+            if value != int(result):
+                raise SystemExit(f"пересчёт неверен ({lang}): {left} {sign} {right} "
+                                 f"≠ {result}")
+        # разница эр, о которой говорит примечание
+        gap = 1946 - 1811
+        if gap != 135 or str(gap) not in text:
+            raise SystemExit(f"разница эр не 135 лет ({lang}): {gap}")
+
 
 def json_texts(node, out: list[str]) -> list[str]:
     if isinstance(node, dict):
@@ -486,6 +544,7 @@ def lost_lines(data: dict, lang: str) -> list[str]:
 
 
 def main() -> int:
+    check_era_arithmetic()
     data = build()
 
     for lang in ("ru", "en"):

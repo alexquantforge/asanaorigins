@@ -176,7 +176,11 @@
      "en": "The title page gives Śaka 1811 and Saṃvat 1946. Without further calendar clarification, these dates are not equated here with a single Gregorian year. Textual notes identify uncertain readings and corrections."
     }
    }
-  ]
+  ],
+  "note2": {
+   "ru": "Пересчёт по эрам — это наш расчёт, а не слова тома. Ш́ака 1811: 1811 + 78 = 1889 для месяцев от начала года до декабря и 1811 + 79 = 1890 для января–февраля. Сам̣ват 1946: 1946 − 57 = 1889 и 1946 − 56 = 1890 — при том же начале года; в Гуджарате обычен викрама-сам̣ват со счётом от чаитры, но том этого не уточняет. Обе даты дают один и тот же промежуток, март 1889 — март 1890, и расходятся ровно на 135 лет, как и сами эры: титульный лист сам себе не противоречит. Но ни месяца, ни дня на нём нет, поэтому один год назвать нельзя.",
+   "en": "The conversion is our arithmetic, not the volume’s words. Śaka 1811: 1811 + 78 = 1889 for the months from the start of the year to December, and 1811 + 79 = 1890 for January–February. Saṃvat 1946: 1946 − 57 = 1889 and 1946 − 56 = 1890, assuming the same start of the year; in Gujarat the Vikrama saṃvat counted from Caitra is the usual reckoning, but the volume does not say so. Both dates give the same span, March 1889 to March 1890, and differ by exactly 135 years, as the eras themselves do: the title page does not contradict itself. But neither month nor day is printed on it, so no single year can be named."
+  }
  },
  "poses": [
   {
