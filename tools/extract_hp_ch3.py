@@ -33,6 +33,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "tools"))
 import diacritics  # noqa: E402  (диакритика терминов и названий поз)
+import script_mix  # noqa: E402  (одно слово — один алфавит)
 
 from translit import translit  # noqa: E402
 
@@ -388,6 +389,7 @@ def main() -> None:
     }
 
     # диакритика в терминах и названиях поз — по карте проекта
+    doc = script_mix.fix_value(doc)   # одно слово — один алфавит
     doc = diacritics.fix_document(doc)
 
     if "--check" in sys.argv:
