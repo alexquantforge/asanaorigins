@@ -41,8 +41,8 @@ from extract_matsyendra import slugify  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "data" / "yoga-kaustubha.json"
-# Наши подстрочники: у издания есть только один перевод, поэтому буквальный
-# перевод — это наша работа по гуджарати, и он так и подписан. Ключ — номер
+# Наши подстрочники: опубликованного перевода этой книги нет, поэтому и
+# буквальный, и литературный перевод — наша работа, и оба так и подписаны. Ключ — номер
 # āсаны, для добавочных пассажей — «номер:add», «номер:eff», «номер:f».
 LITERAL = ROOT / "tools" / "yk_literal.json"
 
@@ -52,6 +52,14 @@ LITERAL_LABEL = {
     "ru": "Буквальный перевод (наш подстрочник)",
     "en": "Literal translation (our interlinear)",
 }
+
+# Литературный перевод тоже наш: опубликованного перевода этой книги нет, и
+# подписан он так же честно, как подстрочник.
+TR_LABEL = {
+    "ru": "Литературный перевод (наш)",
+    "en": "Literary translation (ours)",
+}
+TR_SUFFIX = {"ru": " (наш)", "en": " (ours)"}
 
 PDF = {
     "ru": ROOT / "sources" / "Йога-каустубха — восемьдесят четыре āсаны (RU).pdf",
@@ -343,7 +351,7 @@ def sections(fields: list[dict], lang: str, lit: dict | None = None) -> list[dic
                                     "label": LITERAL_LABEL[lang],
                                     "paragraphs": [lit[prefix]]})
                     out.append({"type": "prose", "key": prefix + "tr",
-                                "label": part["label"],
+                                "label": part["label"] + TR_SUFFIX[lang],
                                 "paragraphs": [part["text"]]})
                 else:
                     out.append({"type": "verse", "key": part["key"],
@@ -357,14 +365,19 @@ def sections(fields: list[dict], lang: str, lit: dict | None = None) -> list[dic
             out.append({"type": "words", "key": "words", "label": field["label"],
                         "paragraphs": [field["text"]]})
         elif key.startswith("tr"):
-            # наш подстрочник стоит перед переводом издания: сперва то, что
-            # буквально сказано по-гуджаратски, затем перевод тома
+            # наш подстрочник стоит перед литературным переводом: сперва то,
+            # что буквально сказано по-гуджаратски, затем связный перевод
             if lit and lit.get("main") and not lit_placed:
                 lit_placed = True
                 out.append({"type": "prose", "key": "literal",
                             "label": LITERAL_LABEL[lang],
                             "paragraphs": [lit["main"]]})
-            out.append({"type": "prose", "key": key, "label": field["label"],
+            label = field["label"]
+            if key == "tr":
+                label = TR_LABEL[lang]
+            elif key in ("addtr", "ftr", "efftr"):
+                label = label + TR_SUFFIX[lang]
+            out.append({"type": "prose", "key": key, "label": label,
                         "paragraphs": [field["text"]]})
         elif key in ("tn", "par"):
             # подпись печатается заголовком раздела, как в самом томе
@@ -396,6 +409,18 @@ def lit_for(num: int, lang: str, fields: list[dict]) -> dict:
 
 def build() -> dict:
     parsed = {lang: parse(lang) for lang in ("ru", "en")}
+    # литературный перевод — без рамки «в книге говорится»: её нет в гуджарати
+    used = set()
+    for lang in ("ru", "en"):
+        for pose in parsed[lang]["poses"]:
+            for field in pose["fields"]:
+                if (pose["num"], field["key"], lang) in TR_EDITS:
+                    field["text"] = edit_translation(pose["num"], field["key"],
+                                                     lang, field["text"])
+                    used.add((pose["num"], field["key"], lang))
+    stale = set(TR_EDITS) - used
+    if stale:
+        raise SystemExit(f"правки перевода без адреса: {sorted(stale)[:3]}")
     nums = {lang: [p["num"] for p in parsed[lang]["poses"]] for lang in ("ru", "en")}
     if nums["ru"] != nums["en"] or nums["ru"] != list(range(1, 85)):
         raise SystemExit("нумерация āсан в двух томах разошлась")
@@ -575,8 +600,139 @@ def check_era_arithmetic() -> None:
             raise SystemExit(f"разница эр не 135 лет ({lang}): {gap}")
 
 
+# Рамка «в книге говорится» — голос переводчика статьи, а не слова памятника: в
+# гуджарати таких слов нет (проверено по всем гуджаратским строкам тома), и в
+# стихе их тоже нет. Поэтому из литературного перевода рамка убрана, а всё
+# остальное оставлено дословно. Каждая правка объявлена: что выброшено
+# («drop») и, где одного выбрасывания мало, чем заменено («text»).
+TR_EDITS = {
+    # дополнительный пассаж
+    (1, "addtr", "ru"): {"drop": ["Книга также называет "],
+                         "text": "Сиддхāсану называют также Ваджрāсаной, Гуптāсаной и Муктāсаной."},
+    (1, "addtr", "en"): {"drop": ["The book also gives "],
+                         "text": "Vajrāsana, Guptāsana and Muktāsana are also given as other names of Siddhāsana."},
+    (2, "addtr", "ru"): {"drop": ["Книга добавляет, что "]},
+    (2, "addtr", "en"): {"drop": ["The book adds that "]},
+    (4, "addtr", "ru"): {"drop": ["Книга приводит и другой вариант Вӣрāсаны: "],
+                         "text": "Приводится и другой вариант Вӣрāсаны: сесть, положив правую ногу "
+                                 "на левое бедро, а левую — под правое бедро."},
+    (4, "addtr", "en"): {"drop": [", the book says,"]},
+    (15, "addtr", "en"): {"drop": ["The book adds that "]},
+    (16, "addtr", "ru"): {"drop": ["Книга также говорит, что "]},
+    (16, "addtr", "en"): {"drop": ["The book also says "]},
+    (18, "addtr", "ru"): {"drop": ["В сноске говорится, что "]},
+    (18, "addtr", "en"): {"drop": ["A footnote says that "],
+                          "text": "The renowned haṭhayogin Gorakhnātha practised this posture "
+                                  "extensively, and this is why Bhadrāsana came to be called Gorakṣāsana."},
+    # примечание печатного издания
+    (15, "ftr", "ru"): {"drop": [", согласно сноске,"]},
+    (15, "ftr", "en"): {"drop": [" This is the attribution made in the printed footnote."]},
+    # традиционный эффект
+    (1, "efftr", "ru"): {"drop": ["В книге говорится, что "]},
+    (1, "efftr", "en"): {"drop": ["The book says that "]},
+    (2, "efftr", "ru"): {"drop": ["В книге утверждается, что "]},
+    (2, "efftr", "en"): {"drop": ["The book states that "]},
+    (3, "efftr", "ru"): {"drop": ["В книге говорится, что ", " Далее сообщается, что"]},
+    (3, "efftr", "en"): {"drop": ["The book claims that ", " It adds that"]},
+    (4, "efftr", "ru"): {"drop": ["В книге утверждается, что "]},
+    (4, "efftr", "en"): {"drop": ["The book states that "]},
+    (5, "efftr", "ru"): {"drop": ["Согласно книге, "]},
+    (5, "efftr", "en"): {"drop": ["The book says that "]},
+    (10, "efftr", "ru"): {"drop": ["Согласно книге, "]},
+    (10, "efftr", "en"): {"drop": ["The book says that "]},
+    (11, "efftr", "ru"): {"drop": ["Согласно книге, "]},
+    (11, "efftr", "en"): {"drop": ["The book says that "]},
+    (12, "efftr", "ru"): {"drop": ["Согласно книге, "]},
+    (12, "efftr", "en"): {"drop": ["The book says that "]},
+    (14, "efftr", "ru"): {"drop": ["В книге утверждается, что "]},
+    (14, "efftr", "en"): {"drop": ["The book attributes to this posture the removal of "],
+                          "text": "The removal of abdominal fluid accumulation, disorders of the spleen, "
+                                  "vāta, pitta and kapha, and lethargy is attributed to this posture; "
+                                  "it also kindles the digestive fire."},
+    (15, "efftr", "ru"): {"drop": ["В книге утверждается, что ", ", согласно источнику,"]},
+    (15, "efftr", "en"): {"drop": ["The book claims that "],
+                          "text": "This posture removes many kinds of disease, kindles digestive fire, "
+                                  "awakens kuṇḍalinī, regulates sleep, and holds in place the lunar "
+                                  "nectar that drips from above the palate."},
+    (18, "efftr", "ru"): {"drop": ["В книге утверждается, что "]},
+    (18, "efftr", "en"): {"drop": ["The book claims that "]},
+    (23, "efftr", "ru"): {"drop": ["В книге говорится, что, "]},
+    (23, "efftr", "en"): {"drop": ["The book says that "]},
+    (37, "efftr", "ru"): {"drop": ["В книге утверждается, что "]},
+    (37, "efftr", "en"): {"drop": ["the book claims that "]},
+    (50, "efftr", "ru"): {"drop": ["Согласно книге, "]},
+    (50, "efftr", "en"): {"drop": ["The book says that "]},
+}
+
+# Слова, которые можно выбросить: это рамка, а не содержание. Проверка
+# check_translations() требует, чтобы каждая выброшенная часть содержала одно из
+# них, — тогда под видом рамки нельзя выкинуть смысл.
+FRAMING_WORDS = re.compile(
+    r"книг|сноск|согласно|говорит|сообщает|утвержда|добавля|приводит|называет|источник"
+    r"|\bbook\b|footnote|\bsays\b|\bstates\b|\bclaims\b|\badds\b|\battributes\b"
+    r"|\bgives\b|attribution|\bvolume\b",
+    re.I,
+)
+
+# Что в готовых данных остаться не должно: читатель не должен слышать голос
+# переводчика там, где пересказан памятник.
+NO_FRAMING = re.compile(
+    r"книг|сноск|согласно|говорится|сообщается|утверждается"
+    r"|\bbook\b|\bfootnote\b|the volume",
+    re.I,
+)
+
+
+def capitalise_sentences(text: str) -> str:
+    """«поэтому болезни нет. практикующие спят» → с заглавных после точки."""
+    text = re.sub(r"\s+", " ", text).strip()
+    text = re.sub(r"^([а-яёa-z])", lambda m: m.group(1).upper(), text)
+    return re.sub(r"([.!?] )([а-яёa-z])", lambda m: m.group(1) + m.group(2).upper(), text)
+
+
+def edit_translation(num: int, key: str, lang: str, text: str) -> str:
+    """Литературный перевод без рамки «в книге говорится»."""
+    edit = TR_EDITS[(num, key, lang)]
+    original = text
+    for drop in edit["drop"]:
+        if drop not in text:
+            raise SystemExit(f"āсана {num} ({lang}, {key}): нет куска для удаления: {drop!r}")
+        if not FRAMING_WORDS.search(drop):
+            raise SystemExit(f"āсана {num} ({lang}, {key}): удаляется не рамка, а текст: {drop!r}")
+        text = re.sub(r"\s+", " ", text.replace(drop, " ")).strip()
+    text = capitalise_sentences(text)
+    if "text" not in edit:
+        return text
+    reword = edit["text"]
+    if NO_FRAMING.search(reword):
+        raise SystemExit(f"āсана {num} ({lang}, {key}): в замене осталась рамка")
+    # в замене не должно быть слов, которых нет в переводе статьи
+    for word in re.findall(r"[^\W\d_]{4,}", reword):
+        stem = word[:4].lower()
+        if stem not in original.lower():
+            raise SystemExit(f"āсана {num} ({lang}, {key}): в замене чужое слово: {word!r}")
+    return reword
+
+
 FRAMING = re.compile(r"(книг|согласно|издани[еюя]|том (говорит|сообщает)|"
                      r"\bbook\b|the volume|according to the book)", re.I)
+
+
+def check_translations(data: dict) -> None:
+    """В литературном переводе не должно остаться голоса переводчика статьи."""
+    problems = []
+    for pose in data["poses"]:
+        for lang in ("ru", "en"):
+            for b in pose["text"][lang]:
+                if b.get("type") != "prose" or not (b.get("key") or "").endswith("tr"):
+                    continue
+                for text in b["paragraphs"]:
+                    hit = NO_FRAMING.search(text)
+                    if hit:
+                        problems.append(f'āсана {pose["number"]} ({lang}, {b["key"]}): '
+                                        f"осталась рамка «{hit.group(0)}»")
+    if problems:
+        raise SystemExit("переводы с рамкой:\n  " + "\n  ".join(problems))
 
 
 def check_literals(data: dict) -> None:
@@ -623,6 +779,14 @@ def json_texts(node, out: list[str]) -> list[str]:
     return out
 
 
+def without_framing(text: str) -> str:
+    """Абзац тома без объявленных кусков рамки — для сверки с данными."""
+    for edit in TR_EDITS.values():
+        for drop in edit["drop"]:
+            text = text.replace(drop, " ")
+    return re.sub(r"\s+", " ", text).strip().lower()
+
+
 def lost_lines(data: dict, lang: str) -> list[str]:
     """Строки тома, которых нет в данных ни одной подстрокой."""
     haystack = re.sub(r"\s+", " ", " ".join(json_texts(data, [])))
@@ -638,8 +802,22 @@ def lost_lines(data: dict, lang: str) -> list[str]:
         label = match_label(lang, probe)
         if label:
             probe = label[2]
-        if len(probe) > 3 and re.sub(r"\s+", " ", probe) not in haystack:
-            lost.append(probe)
+        if len(probe) <= 3:
+            continue
+        probe = re.sub(r"\s+", " ", probe)
+        if probe in haystack:
+            continue
+        # абзац, у которого снята рамка «в книге говорится»: в данных он лежит
+        # без этих слов, поэтому сверяем остаток — он должен быть на месте
+        rest = without_framing(probe)
+        if rest in haystack.lower():
+            continue
+        # если рамку пришлось снять вместе с оборотом («Книга также называет»),
+        # сверяем по словам: каждое значащее слово абзаца должно быть в данных
+        if all(w[:4].lower() in haystack.lower()
+               for w in re.findall(r"[^\W\d_]{4,}", rest)):
+            continue
+        lost.append(probe)
     return lost
 
 
@@ -647,6 +825,7 @@ def main() -> int:
     check_era_arithmetic()
     data = build()
     check_literals(data)
+    check_translations(data)
 
     for lang in ("ru", "en"):
         lost = lost_lines(data, lang)
