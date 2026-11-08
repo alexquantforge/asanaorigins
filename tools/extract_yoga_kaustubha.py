@@ -60,6 +60,13 @@ WORDS_LABEL = {
     "en": "Word-by-word analysis (ours)",
 }
 
+# Слова главного описания, которых разбор тома не содержит вовсе: том сокращает
+# их знаком «…» или не толкует. Это наш разбор, он так и подписан.
+WORDS_GAP_LABEL = {
+    "ru": "Пословный разбор (наш) — слово, которого нет в разборе тома",
+    "en": "Word-by-word analysis (ours) — a word the volume does not gloss",
+}
+
 LITERAL_LABEL = {
     "ru": "Буквальный перевод (наш подстрочник)",
     "en": "Literal translation (our interlinear)",
@@ -382,6 +389,12 @@ def sections(fields: list[dict], lang: str, lit: dict | None = None,
         elif key.startswith("wba"):
             out.append({"type": "words", "key": "words", "label": field["label"],
                         "paragraphs": [field["text"]]})
+            # если том не разобрал какое-то слово — оно разбирается следом, нашим
+            gap = (words or {}).get("gap")
+            if gap:
+                out.append({"type": "words", "key": "words",
+                            "label": WORDS_GAP_LABEL[lang],
+                            "paragraphs": [gap]})
         elif key.startswith("tr"):
             # наш подстрочник стоит перед литературным переводом: сперва то,
             # что буквально сказано по-гуджаратски, затем связный перевод
@@ -415,8 +428,11 @@ def sections(fields: list[dict], lang: str, lit: dict | None = None,
 # ------------------------------------------------------------------ сборка
 
 def words_for(num: int, lang: str, fields: list[dict]) -> dict:
-    """Пословный разбор добавочных блоков одной āсаны."""
+    """Пословный разбор добавочных блоков одной āсаны (и недостающих слов)."""
     got = {}
+    gap = f"{num}:main-gap"
+    if gap in WORDS_DATA:
+        got["gap"] = WORDS_DATA[gap][lang]
     for prefix in GROUP_KEYS:
         if any(f["key"] == prefix + "tr" for f in fields):
             key = f"{num}:{prefix}"
@@ -824,6 +840,26 @@ def check_words(data: dict) -> None:
     for pose in data["poses"]:
         for lang in ("ru", "en"):
             blocks = pose["text"][lang]
+            # главное описание: всё, что стоит между его стихом и подстрочником
+            verses = [b for b in blocks if b.get("key") == "iast"]
+            if verses:
+                start = blocks.index(verses[0])
+                end = len(blocks)
+                for i, b in enumerate(blocks[start:], start):
+                    if b.get("key") == "literal":
+                        end = i
+                        break
+                words = [b for b in blocks[start:end] if b.get("type") == "words"]
+                where = f'āсана {pose["number"]} ({lang}, главное описание)'
+                if not words:
+                    problems.append(f"{where}: нет пословного разбора")
+                else:
+                    hay = fold(" ".join(w["paragraphs"][0] for w in words))
+                    missing = [t for t in words_tokens(" ".join(verses[0]["lines"]))
+                               if fold(t) not in hay]
+                    if missing:
+                        problems.append(f"{where}: в разборе нет слов "
+                                        f"{', '.join(missing[:4])}")
             for prefix in GROUP_KEYS:
                 verses = [b for b in blocks if b.get("key") == prefix + "iast"]
                 if not verses:

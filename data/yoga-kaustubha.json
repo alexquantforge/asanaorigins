@@ -1506,6 +1506,14 @@
       ]
      },
      {
+      "type": "words",
+      "key": "words",
+      "label": "Пословный разбор (наш) — слово, которого нет в разборе тома",
+      "paragraphs": [
+       "ḍhagarāne — ягодица (в разборе тома слово сокращено знаком «…», хотя в стихе оно стоит дважды)."
+      ]
+     },
+     {
       "type": "prose",
       "key": "literal",
       "label": "Буквальный перевод (наш подстрочник)",
@@ -1617,6 +1625,14 @@
       "label": "Word-by-word analysis",
       "paragraphs": [
        "ḍābā paganī pānī … aḍāḍīne — press the left heel against the left buttock; jamaṇā paganī pānī … aḍāḍīne — press the right heel against the right buttock; banne ḍhīñcaṇā banne khabhā āgaḷa rākhīne — keeping both knees in front of both shoulders; besī — sitting; jamaṇā hāthathī ḍābā hāthanī koṇī jhālavī — grasp the left elbow with the right hand; ne ḍābā hāthathī jamaṇā hāthanī koṇī jhālavī — and grasp the right elbow with the left hand; banne goṭhaṇa vacce rākhī besavuṁ — sit with [them] between the knees; te pavanamuktāsana kahevāyache — this is called Pavanamuktāsana."
+      ]
+     },
+     {
+      "type": "words",
+      "key": "words",
+      "label": "Word-by-word analysis (ours) — a word the volume does not gloss",
+      "paragraphs": [
+       "ḍhagarāne — buttock (the volume abbreviates this word with an ellipsis, though it stands twice in the verse)."
       ]
      },
      {
@@ -13125,6 +13141,14 @@
       ]
      },
      {
+      "type": "words",
+      "key": "words",
+      "label": "Пословный разбор (наш) — слово, которого нет в разборе тома",
+      "paragraphs": [
+       "eṭale — то есть, стало быть (том этого слова не разбирает)."
+      ]
+     },
+     {
       "type": "prose",
       "key": "literal",
       "label": "Буквальный перевод (наш подстрочник)",
@@ -13184,6 +13208,14 @@
       "label": "Word-by-word analysis",
       "paragraphs": [
        "ḍābī tarapha keḍanā nīcalā bhāgamāṁ — on the left side of the lower waist; jamaṇā paganī eḍī rākhavī — place the right heel; ane jamaṇī tarapha … ḍābā paganī eḍī rākhavī — place the left heel on the right side; gāyanā moḍhānā jevo pagano ākāra karīne besavuṁ — sit with the legs shaped like a cow’s face; te gomukhāsana kahevāya che — this is called Gomukhāsana."
+      ]
+     },
+     {
+      "type": "words",
+      "key": "words",
+      "label": "Word-by-word analysis (ours) — a word the volume does not gloss",
+      "paragraphs": [
+       "eṭale — that is, so (the volume does not gloss this word)."
       ]
      },
      {
