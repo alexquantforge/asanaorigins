@@ -421,6 +421,8 @@ def build() -> dict:
     stale = set(TR_EDITS) - used
     if stale:
         raise SystemExit(f"правки перевода без адреса: {sorted(stale)[:3]}")
+    for lang in ("ru", "en"):
+        parsed[lang]["chapter"] = [edit_prologue(lang, t) for t in parsed[lang]["chapter"]]
     nums = {lang: [p["num"] for p in parsed[lang]["poses"]] for lang in ("ru", "en")}
     if nums["ru"] != nums["en"] or nums["ru"] != list(range(1, 85)):
         raise SystemExit("нумерация āсан в двух томах разошлась")
@@ -674,6 +676,28 @@ FRAMING_WORDS = re.compile(
     re.I,
 )
 
+# Вступление к разделу — тоже абзац статьи, и в нём та же рамка, что в
+# переводах: «В книге говорится, что…». Здесь она выбивается ещё и из самого
+# абзаца, где подлежащее — «источник»: «Источник определяет… приписывает…
+# приводит… В книге говорится, что…». Поэтому подлежащее доводится до конца
+# фразы, а слова абзаца не меняются: снимается только рамка, вместо неё — тот же
+# глагол при том же подлежащем.
+PROLOGUE_EDITS = {
+    "ru": (". В книге говорится, что ", ", а также добавляет, что "),
+    "en": (". It says that ", ", and adds that "),
+}
+
+
+def edit_prologue(lang: str, text: str) -> str:
+    """Абзац вступления без рамки «в книге говорится»."""
+    drop, repl = PROLOGUE_EDITS[lang]
+    if text.count(drop) != 1:
+        raise SystemExit(f"во вступлении ({lang}) нет куска рамки: {drop!r}")
+    if NO_FRAMING.search(repl):
+        raise SystemExit(f"во вступлении ({lang}) в замене осталась рамка")
+    return text.replace(drop, repl)
+
+
 # Что в готовых данных остаться не должно: читатель не должен слышать голос
 # переводчика там, где пересказан памятник.
 NO_FRAMING = re.compile(
@@ -731,6 +755,12 @@ def check_translations(data: dict) -> None:
                     if hit:
                         problems.append(f'āсана {pose["number"]} ({lang}, {b["key"]}): '
                                         f"осталась рамка «{hit.group(0)}»")
+    for lang in ("ru", "en"):
+        for b in data["prologue"][lang]:
+            text = b.get("text") or " ".join(b.get("paragraphs") or [])
+            hit = NO_FRAMING.search(text)
+            if hit:
+                problems.append(f'вступление ({lang}): осталась рамка «{hit.group(0)}»')
     if problems:
         raise SystemExit("переводы с рамкой:\n  " + "\n  ".join(problems))
 
@@ -780,10 +810,12 @@ def json_texts(node, out: list[str]) -> list[str]:
 
 
 def without_framing(text: str) -> str:
-    """Абзац тома без объявленных кусков рамки — для сверки с данными."""
+    """Абзац тома после объявленных правок — для сверки с данными."""
     for edit in TR_EDITS.values():
         for drop in edit["drop"]:
             text = text.replace(drop, " ")
+    for drop, repl in PROLOGUE_EDITS.values():
+        text = text.replace(drop, repl)
     return re.sub(r"\s+", " ", text).strip().lower()
 
 
