@@ -373,8 +373,13 @@ def sections(fields: list[dict], lang: str, lit: dict | None = None) -> list[dic
                             "label": LITERAL_LABEL[lang],
                             "paragraphs": [lit["main"]]})
             label = field["label"]
-            if key == "tr":
-                label = TR_LABEL[lang]
+            if key in ("tr", "trA", "trU"):
+                # «Перевод (Ан̇гушт̣хāсана)» / «Перевод (Уткат̣āсана)» — те же
+                # наши переводы двух чтений одной āсаны: подписываем так же, а
+                # уточнение в скобках оставляем, оно различает два перевода
+                note = re.search(r"\(([^)]*)\)\s*$", label)
+                label = TR_LABEL[lang] + (
+                    " — " + note.group(1) if key != "tr" and note else "")
             elif key in ("addtr", "ftr", "efftr"):
                 label = label + TR_SUFFIX[lang]
             out.append({"type": "prose", "key": key, "label": label,
