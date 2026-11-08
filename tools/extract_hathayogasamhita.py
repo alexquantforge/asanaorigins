@@ -43,6 +43,7 @@ import pymupdf
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from script_mix import scan  # noqa: E402  (проверка «одно слово — один алфавит»)
+import diacritics  # noqa: E402  (диакритика терминов и названий поз)
 from deva import to_iast  # noqa: E402  (деванāгарӣ → IAST, для сверки переносов)
 # та же карта латинских сегментов адреса, что и у восьмого трактата
 from extract_matsyendra import slugify  # noqa: E402
@@ -631,6 +632,8 @@ def main() -> int:
         if text not in haystack[lang] and text not in titles[lang]:
             raise SystemExit(f"цитата сводки не найдена в томе ({lang}): {quote[:60]}")
 
+    # диакритика в терминах и названиях поз — по карте проекта
+    data = diacritics.fix_document(data)
     text = json.dumps(data, ensure_ascii=False, indent=1) + "\n"
     if "--check" in sys.argv:
         have = OUT.read_text(encoding="utf-8") if OUT.exists() else ""

@@ -29,6 +29,8 @@ from pathlib import Path
 
 import pymupdf
 
+import diacritics  # диакритика терминов и названий поз
+
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "data" / "dattatreyayogasastra.json"
 
@@ -1069,6 +1071,7 @@ def check(data: dict) -> None:
 def main() -> None:
     data = payload(build("ru"), build("en"))
     check(data)
+    data = diacritics.fix_document(data)
     OUT.write_text(json.dumps(data, ensure_ascii=False, indent=1) + "\n",
                    encoding="utf-8")
     size = OUT.stat().st_size / 1024

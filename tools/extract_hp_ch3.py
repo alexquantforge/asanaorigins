@@ -32,6 +32,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "tools"))
+import diacritics  # noqa: E402  (диакритика терминов и названий поз)
 
 from translit import translit  # noqa: E402
 
@@ -385,6 +386,9 @@ def main() -> None:
             "text": texts,
         }],
     }
+
+    # диакритика в терминах и названиях поз — по карте проекта
+    doc = diacritics.fix_document(doc)
 
     if "--check" in sys.argv:
         if not OUT.exists():

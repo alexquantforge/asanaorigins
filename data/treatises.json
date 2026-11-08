@@ -128,15 +128,15 @@
    "id": "manasollasa",
    "file": "data/manasollasa.json",
    "title": {
-    "ru": "Ма̄насолла̄са",
+    "ru": "Мāнасоллāса",
     "en": "Mānasollāsa"
    },
    "subtitle": {
-    "ru": "варттика на «Дакшин̣а̄мӯрти-стотру» · улласа 9 · ст. 24–26",
+    "ru": "вāрттика на «Дакшин̣āмӯрти-стотру» · уллāса 9 · ст. 24–26",
     "en": "a vārttika on the Dakṣiṇāmūrti-stotra · ullāsa 9 · vv. 24–26"
    },
    "tradition": {
-    "ru": "адвайта-веданта",
+    "ru": "адваита-ведāнта",
     "en": "Advaita Vedānta"
    },
    "edition": {
@@ -176,7 +176,7 @@
     "en": "Śārṅgadharapaddhati"
    },
    "subtitle": {
-    "ru": "главы 157–158 · раздел хатха-йоги · девять стихов об āсанах",
+    "ru": "главы 157–158 · раздел хат̣ха-йоги · девять стихов об āсанах",
     "en": "chapters 157–158 · the haṭha-yoga section · nine verses on āsanas"
    },
    "tradition": {
@@ -220,7 +220,7 @@
    "id": "hathapradipika",
    "file": "data/hathapradipika.json",
    "title": {
-    "ru": "Хат̣хапрадӣпика̄",
+    "ru": "Хат̣хапрадӣпикā",
     "en": "Haṭhapradīpikā"
    },
    "subtitle": {

@@ -19,6 +19,7 @@ import pymupdf
 
 import authors
 import numeral
+import diacritics  # диакритика терминов и названий поз — после numeral
 import sanskrit
 from common import (Block, assemble_paragraphs, clean, looks_like_list,
                     merge_runs, page_items, para_html, runs_html, split_bullets)
@@ -713,6 +714,7 @@ if __name__ == "__main__":
     data, docs, raw = main()
     # chapter numbers are Arabic all over the site (see tools/numeral.py)
     data = numeral.fix_document(data)
+    data = diacritics.fix_document(data)
     with open(sys.argv[1], "w") as fh:
         json.dump(data, fh, ensure_ascii=False, indent=1)
 
