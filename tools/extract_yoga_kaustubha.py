@@ -41,6 +41,17 @@ from extract_matsyendra import slugify  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "data" / "yoga-kaustubha.json"
+# Наши подстрочники: у издания есть только один перевод, поэтому буквальный
+# перевод — это наша работа по гуджарати, и он так и подписан. Ключ — номер
+# āсаны, для добавочных пассажей — «номер:add», «номер:eff», «номер:f».
+LITERAL = ROOT / "tools" / "yk_literal.json"
+
+LIT = json.loads(LITERAL.read_text(encoding="utf-8"))
+
+LITERAL_LABEL = {
+    "ru": "Буквальный перевод (наш подстрочник)",
+    "en": "Literal translation (our interlinear)",
+}
 
 PDF = {
     "ru": ROOT / "sources" / "Йога-каустубха — восемьдесят четыре āсаны (RU).pdf",
@@ -292,7 +303,7 @@ def page_of(field: dict) -> str:
     return re.sub(r"\s*[–-]\s*", "–", m.group(1))
 
 
-def sections(fields: list[dict], lang: str) -> list[dict]:
+def sections(fields: list[dict], lang: str, lit: dict | None = None) -> list[dict]:
     """Страница āсаны: поля тома в том же порядке, что и в томе.
 
     Гуджарати, IAST и кириллица идут одной цитатой (вкладки), как в остальных
@@ -301,6 +312,7 @@ def sections(fields: list[dict], lang: str) -> list[dict]:
     """
     out: list[dict] = []
     index = 0
+    lit_placed = False   # подстрочник основного описания ставится один раз
     while index < len(fields):
         field = fields[index]
         key = field["key"]
@@ -326,6 +338,10 @@ def sections(fields: list[dict], lang: str) -> list[dict]:
             out.append({"type": "label", "label": GROUP_LABEL[(lang, prefix)]})
             for part in parts:
                 if part["key"] == prefix + "tr":
+                    if lit and lit.get(prefix):
+                        out.append({"type": "prose", "key": "literal",
+                                    "label": LITERAL_LABEL[lang],
+                                    "paragraphs": [lit[prefix]]})
                     out.append({"type": "prose", "key": prefix + "tr",
                                 "label": part["label"],
                                 "paragraphs": [part["text"]]})
@@ -341,6 +357,13 @@ def sections(fields: list[dict], lang: str) -> list[dict]:
             out.append({"type": "words", "key": "words", "label": field["label"],
                         "paragraphs": [field["text"]]})
         elif key.startswith("tr"):
+            # наш подстрочник стоит перед переводом издания: сперва то, что
+            # буквально сказано по-гуджаратски, затем перевод тома
+            if lit and lit.get("main") and not lit_placed:
+                lit_placed = True
+                out.append({"type": "prose", "key": "literal",
+                            "label": LITERAL_LABEL[lang],
+                            "paragraphs": [lit["main"]]})
             out.append({"type": "prose", "key": key, "label": field["label"],
                         "paragraphs": [field["text"]]})
         elif key in ("tn", "par"):
@@ -354,6 +377,22 @@ def sections(fields: list[dict], lang: str) -> list[dict]:
 
 
 # ------------------------------------------------------------------ сборка
+
+def lit_for(num: int, lang: str, fields: list[dict]) -> dict:
+    """Подстрочники одной āсаны: основной и по добавочным блокам."""
+    got = {}
+    for prefix in GROUP_KEYS:
+        if any(f["key"] == prefix + "tr" for f in fields):
+            key = f"{num}:{prefix}"
+            if key not in LIT:
+                raise SystemExit(f"нет подстрочника: {key}")
+            got[prefix] = LIT[key][lang]
+    key = str(num)
+    if key not in LIT:
+        raise SystemExit(f"нет подстрочника: āсана {num}")
+    got["main"] = LIT[key][lang]
+    return got
+
 
 def build() -> dict:
     parsed = {lang: parse(lang) for lang in ("ru", "en")}
@@ -384,8 +423,10 @@ def build() -> dict:
             "name": {"ru": pr["title"], "en": en_title},
             "gloss": {"ru": "", "en": ""},
             "verses": {"ru": "стр. " + page_ru, "en": "p. " + page_en},
-            "text": {"ru": sections(pr["fields"], "ru"),
-                     "en": sections(pe["fields"], "en")},
+            "text": {
+                "ru": sections(pr["fields"], "ru", lit_for(pr["num"], "ru", pr["fields"])),
+                "en": sections(pe["fields"], "en", lit_for(pe["num"], "en", pe["fields"])),
+            },
         })
     keys = [p["key"] for p in poses]
     if len(set(keys)) != len(keys):
@@ -534,6 +575,40 @@ def check_era_arithmetic() -> None:
             raise SystemExit(f"разница эр не 135 лет ({lang}): {gap}")
 
 
+FRAMING = re.compile(r"(книг|согласно|издани[еюя]|том (говорит|сообщает)|"
+                     r"\bbook\b|the volume|according to the book)", re.I)
+
+
+def check_literals(data: dict) -> None:
+    """Подстрочник — только то, что сказано по-гуджаратски.
+
+    Поэтому в нём не должно быть ни «в книге говорится», ни отсылок к тому: это
+    голос переводчика издания, а не текст памятника. Проверяется и то, что
+    подстрочник вообще есть у каждой āсаны и у каждого добавочного блока.
+    """
+    problems = []
+    for pose in data["poses"]:
+        for lang in ("ru", "en"):
+            blocks = pose["text"][lang]
+            literals = [b for b in blocks if b.get("key") == "literal"]
+            groups = [b for b in blocks if b.get("type") == "label"]
+            # один подстрочник на основное описание плюс по одному на каждый
+            # добавочный блок
+            if len(literals) != len(groups) + 1:
+                problems.append(f'āсана {pose["number"]} ({lang}): подстрочников '
+                                f"{len(literals)}, а нужно {len(groups) + 1}")
+            for b in literals:
+                text = " ".join(b["paragraphs"])
+                if not text.strip():
+                    problems.append(f'āсана {pose["number"]} ({lang}): пустой подстрочник')
+                hit = FRAMING.search(text)
+                if hit:
+                    problems.append(f'āсана {pose["number"]} ({lang}): '
+                                    f"в подстрочнике чужая рамка «{hit.group(0)}»")
+    if problems:
+        raise SystemExit("подстрочники:\n  " + "\n  ".join(problems))
+
+
 def json_texts(node, out: list[str]) -> list[str]:
     if isinstance(node, dict):
         for key, value in node.items():
@@ -571,6 +646,7 @@ def lost_lines(data: dict, lang: str) -> list[str]:
 def main() -> int:
     check_era_arithmetic()
     data = build()
+    check_literals(data)
 
     for lang in ("ru", "en"):
         lost = lost_lines(data, lang)
