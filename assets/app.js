@@ -112,7 +112,7 @@
     }
   };
 
-  const BUILD = "2026-11-06.10";
+  const BUILD = "2026-11-06.11";
   const V = "?v=" + BUILD;
 
   const state = {
@@ -525,23 +525,77 @@
         name: tx(pose.name),
         gloss: tx(pose.gloss),
         iast: pose.iast,
+        /* для поиска — имена на обоих языках, у всех трактатов: на русской
+           странице должно находиться и латиницей, и наоборот */
+        search: [].concat(
+          group.map((g) => [g.pose.name && g.pose.name.ru,
+                            g.pose.name && g.pose.name.en,
+                            g.pose.iast,
+                            g.pose.gloss && g.pose.gloss.ru,
+                            g.pose.gloss && g.pose.gloss.en]),
+          [[String(pose.number)]]
+        ),
         inTreatise: group.some((g) => g.treatise === activeTreatise)
       };
     });
   }
 
+  /* ------------------------------------------------------------ поиск имён
+
+     Имена āсан набраны с диакритикой: «Вӣрāсана», «Vīrāsana», «Ан̇гушт̣хāсана».
+     Человек ищет обычными буквами — «вирасана», «virasana», а то и «вирасану»,
+     и всё это должно находить одну и ту же позу.
+
+     Поэтому обе стороны сравнения приводятся к одному виду: знаки над буквами
+     снимаются (NFD распадает «ӣ» на «и» и макрон, а «ā» — на «a» и макрон),
+     регистр не важен. Отдельная забота — буквы латиницы внутри кириллического
+     слова: по правилу сайта долгое «ā» пишется латиницей, поэтому после
+     снятия макрона в слове остаётся латинская «a» посреди кириллицы. В слове,
+     где есть кириллица, такие двойники заменяются кириллицей.
+
+     Сравнение идёт по обоим языкам сразу и без учёта пробелов и дефисов, а
+     последние буквы запроса можно не дописывать как в имени: «вирасану»,
+     «вирасаны», «вирасаной» находят «Вӣрāсана». */
+
+  const HOMOGLYPH = {
+    a: "а", b: "в", c: "с", e: "е", h: "н", k: "к",
+    m: "м", o: "о", p: "р", t: "т", x: "х", y: "у"
+  };
+  const CYRILLIC = /[\u0400-\u04ff]/;
+
+  function plain(text) {
+    return String(text == null ? "" : text)
+      .normalize("NFD")
+      .replace(/[\u0300-\u036f\u1ab0-\u1aff\u1dc0-\u1dff]/g, "")
+      .replace(/[\u200c\u200d]/g, "")
+      .toLowerCase()
+      .split(/(\s+)/)
+      .map((word) => CYRILLIC.test(word)
+        ? word.replace(/[a-z]/g, (ch) => HOMOGLYPH[ch] || ch)
+        : word)
+      .join("");
+  }
+
+  // «Уттāна кӯрмāсана» и «уттанакурмасана» — одно и то же
+  const tight = (text) => plain(text).replace(/[\s\-–—.,'’]/g, "");
+
+  function searchMatch(query, targets) {
+    const q = plain(query).trim();
+    if (!q) return true;
+    const forms = [tight(q)];
+    // падежные окончания: «вирасану», «вирасаны», «вирасаной» — ищутся по основе
+    if (q.length >= 6) forms.push(tight(q.slice(0, -1)));
+    if (q.length >= 7) forms.push(tight(q.slice(0, -2)));
+    const hay = targets.filter(Boolean).map(tight).join("\u0000");
+    return forms.some((f) => f.length >= 2 && hay.includes(f));
+  }
+
   function buildPoseList() {
     const list = $("#pose-list");
     const data = poseListData();
-    const q = state.filter.trim().toLowerCase();
+    const q = state.filter.trim();
     const shown = q
-      ? data.filter(
-          (p) =>
-            p.name.toLowerCase().includes(q) ||
-            (p.gloss || "").toLowerCase().includes(q) ||
-            (p.iast || "").toLowerCase().includes(q) ||
-            String(p.number) === q
-        )
+      ? data.filter((p) => searchMatch(q, [].concat(p.search, [p.name, p.gloss, p.iast])))
       : data;
 
     list.innerHTML = applyMarks(shown.length

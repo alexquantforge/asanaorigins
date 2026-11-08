@@ -73,7 +73,7 @@ process.on("unhandledRejection", (e) => {
   rejections.push((e && e.message) || String(e));
 });
 
-async function open(route, port, breakData) {
+async function open(route, port, breakData, keep) {
   const file = route.endsWith("/") ? route + "index.html" : route;
   // Отметку «эта страница уже отрисована» снимаем: иначе готовый текст сойдёт
   // за доказательство работы скрипта, хотя скрипт мог и не загрузиться.
@@ -123,6 +123,8 @@ async function open(route, port, breakData) {
     console.log("   DEBUG", route, "| сбой:", breakData, "| rendered:",
       result0(dom), "| текст:", text.slice(0, 40), "| ошибки:", errors.slice(0, 2));
   }
+  if (keep) return { route, dom, text, errors };
+
   const result = {
     route,
     rendered: doc.documentElement.dataset.rendered || "",
@@ -133,6 +135,39 @@ async function open(route, port, breakData) {
   };
   dom.window.close();
   return result;
+}
+
+/* ------------------------------------------------------------ поиск āсан
+
+   Имена набраны с диакритикой («Вӣрāсана», «Vīrāsana»), а человек ищет
+   обычными буквами — и по-русски, и по-английски, а то и в другом падеже.
+   Таблица говорит, какой запрос какую позу обязан найти. */
+const SEARCH_CASES = [
+  ["/", "вирасана", "virasana"],
+  ["/", "вирасану", "virasana"],
+  ["/", "Вӣрāсана", "virasana"],
+  ["/", "virasana", "virasana"],
+  ["/", "Vīrāsana", "virasana"],
+  ["/en/", "вирасану", "virasana"],
+  ["/en/", "вирасана", "virasana"],
+  ["/en/", "virasana", "virasana"],
+  ["/en/", "уттана курмасана", "uttanakurmaka"],
+  ["/en/", "uttanakurmaka", "uttanakurmaka"],
+  ["/", "падмасана", "padmasana"],
+  ["/en/", "padmāsana", "padmasana"]
+];
+
+async function searchOn(route, port) {
+  const { dom } = await open(route, port, false, true);
+  const doc = dom.window.document;
+  const input = doc.querySelector("#filter");
+  const found = (query) => {
+    input.value = query;
+    input.dispatchEvent(new dom.window.Event("input", { bubbles: true }));
+    return [...doc.querySelectorAll("#pose-list li a")]
+      .map((a) => a.getAttribute("href") || "");
+  };
+  return { found, close: () => dom.window.close() };
 }
 
 function result0(dom) {
@@ -201,6 +236,20 @@ async function main() {
     }
   }
 
+  // Третье положение: поиск по именам с диакритикой и без.
+  for (const route of ["/", "/en/"]) {
+    const page = await searchOn(route, port);
+    for (const [where, query, key] of SEARCH_CASES) {
+      if (where !== route) continue;
+      const hits = page.found(query);
+      if (!hits.some((href) => href.includes("/" + key + "/"))) {
+        problems.push(`${route}: запрос «${query}» не нашёл ${key} ` +
+          `(нашлось ${hits.length})`);
+      }
+    }
+    page.close();
+  }
+
   server.close();
 
   if (problems.length) {
@@ -208,7 +257,8 @@ async function main() {
     process.exit(1);
   }
   console.log(`страниц проверено: ${ROUTES.length} · ` +
-    "обычное открытие и сбой данных — обе страницы читаются");
+    `запросов поиска: ${SEARCH_CASES.length} · ` +
+    "обычное открытие, сбой данных и поиск без диакритики — всё сходится");
 }
 
 main();
