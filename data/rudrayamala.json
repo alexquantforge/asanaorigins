@@ -2701,6 +2701,12 @@
     "html": "состав перечня, датировка и сверка перевода с изданием Судхāкара Мāлавӣйи"
    },
    {
+    "type": "note",
+    "paragraphs": [
+     "Раздел пересказывает статью своими словами: это не её текст целиком. Всё, что взято дословно, стоит в кавычках и сверено с томом при сборке — восемьдесят одна цитата; если фрагмент не найден, сборка останавливается. Стихи и пословный разбор сюда не входят: их в статье нет."
+    ]
+   },
+   {
     "type": "h2",
     "html": "Что это за текст"
    },
@@ -2898,6 +2904,12 @@
    {
     "type": "byline",
     "html": "register, dating, and a collation of the translation with the edition of Sudhākara Mālavīya"
+   },
+   {
+    "type": "note",
+    "paragraphs": [
+     "This section retells the article in our own words; it is not the article’s full text. Everything quoted verbatim stands in quotation marks and is checked against the volume at build time (eighty-one quotations); if a fragment is not found, the build stops. The verses and the word-by-word analysis are not here: the article has neither."
+    ]
    },
    {
     "type": "h2",

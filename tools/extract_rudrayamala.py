@@ -769,10 +769,29 @@ def dating_summary(lang):
 # ---------------------------------------------------------------------- текст
 
 
+# Первый блок раздела — рамка честности: раздел пересказывает статью, а каждое
+# дословное место в нём — в кавычках и проверено сличением с томом.
+ABOUT_NOTE = {
+    "ru": {"type": "note", "paragraphs": [
+        "Раздел пересказывает статью своими словами: это не её текст целиком. "
+        "Всё, что взято дословно, стоит в кавычках и сверено с томом при сборке "
+        "— восемьдесят одна цитата; если фрагмент не найден, сборка "
+        "останавливается. Стихи и пословный разбор сюда не входят: их в статье "
+        "нет.",
+    ]},
+    "en": {"type": "note", "paragraphs": [
+        "This section retells the article in our own words; it is not the "
+        "article’s full text. Everything quoted verbatim stands in quotation "
+        "marks and is checked against the volume at build time (eighty-one "
+        "quotations); if a fragment is not found, the build stops. The verses "
+        "and the word-by-word analysis are not here: the article has neither.",
+    ]},
+}
+
+
 def about_blocks(lang):
-    if lang == "en":
-        return EN_ABOUT
-    return RU_ABOUT
+    blocks = EN_ABOUT if lang == "en" else RU_ABOUT
+    return blocks[:2] + [ABOUT_NOTE[lang]] + blocks[2:]
 
 
 def dating_blocks(lang):
