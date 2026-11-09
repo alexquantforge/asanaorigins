@@ -647,7 +647,7 @@ def dating_summary(lang):
                                                "not a quotation: none of the authors "
                                                "cited names such a century"},
                             "work": {"ru": "развитая система чакр; зависимость от "
-                                           "«Кулāрн̣аваы»; слово вāйавӣ для кун̣д̣алинӣ; "
+                                           "«Кулāрн̣авы»; слово вāйавӣ для кун̣д̣алинӣ; "
                                            "перечень видов хат̣хайоги; слой поз, "
                                            "названных по сословиям",
                                      "en": "the developed system of cakras; dependence "
@@ -752,7 +752,7 @@ def dating_summary(lang):
                                        "Kulārṇava; the term vāyavī for the kuṇḍalinī; the "
                                        "enumeration of types of haṭhayoga; the layer of "
                                        "postures named after the social classes",
-                                 "ru": "развитая система чакр; зависимость от «Кулāрн̣аваы»; "
+                                 "ru": "развитая система чакр; зависимость от «Кулāрн̣авы»; "
                                        "слово вāйавӣ для кун̣д̣алинӣ; перечень видов "
                                        "хат̣хайоги; слой поз, названных по сословиям"},
                     },
@@ -1030,8 +1030,8 @@ RU_ABOUT = [
         "большинстве случаев испорчено, и Мāлавӣйа даёт связный текст; именно его "
         "чтения приняты в переводе.",
         "Датировка: точная дата не установлена. Жанр йāмал сложился до 900 года, но "
-        "«Уттаратантра» — «безусловно, много позднее» (Goudriaan &amp; Gupta 1981: 40, "
-        "47); по совокупности признаков — не ранее XI–XII в. (оценка).",
+        "«Уттаратантра» — «безусловно, много позднее» (Goudriaan & Gupta 1981: 40, "
+        "47); по совокупности признаков — не ранее XI–XII века (оценка).",
         "Āсаны в этом памятнике — не гимнастика, а ступень прāн̣āйāмы: поза служит "
         "опорой дыханию, дыхание — прободению узлов и движению кун̣д̣алинӣ, а "
         "результат описывается в терминах сиддхи и освобождения.",
@@ -1039,7 +1039,7 @@ RU_ABOUT = [
 
     {"type": "h2", "html": "Литература"},
     {"type": "list", "items": [
-        "Goudriaan, Teun &amp; Sanjukta Gupta. 1981. Hindu Tantric and Śākta "
+        "Goudriaan, Teun & Sanjukta Gupta. 1981. Hindu Tantric and Śākta "
         "Literature (A History of Indian Literature, ed. J. Gonda, vol. II, fasc. 2). "
         "Wiesbaden: Otto Harrassowitz. — С. 40 (прим. 39), 47 (прим. 62, 63).",
         "Birch, Jason. 2011. “The Meaning of haṭha in Early Haṭhayoga”. Journal of the "
@@ -1055,7 +1055,7 @@ RU_ABOUT = [
         "Miśra, Rāmāśaṅkara. 2015. Rudrayāmala Uttaratantra (Dharma aur Darśana). "
         "Delhi: Parimal Publications.",
         "Bagchi, P. C. — Cultural Heritage of India, vol. IV, p. 216–217. Цит. по "
-        "Goudriaan &amp; Gupta 1981.",
+        "Goudriaan & Gupta 1981.",
         "Gonda, J. 1977. Medieval Religious Literature in Sanskrit. Wiesbaden. — P. 208.",
         "Pandey, K. C. 1963. Abhinavagupta: A Study in Indian Culture. Varanasi. — "
         "P. 554.",
@@ -1247,7 +1247,7 @@ EN_ABOUT = [
         "University is corrupt, and Mālavīya offers coherent text; it is his readings "
         "that have been adopted.",
         "Dating: no precise date is established. The yāmala genre took shape before "
-        "900 CE, but the Uttaratantra is “certainly much later” (Goudriaan &amp; Gupta "
+        "900 CE, but the Uttaratantra is “certainly much later” (Goudriaan & Gupta "
         "1981: 40, 47); on the cumulative evidence, not earlier than the 11th–12th "
         "century (an assessment).",
         "In this work āsana is not gymnastics but a stage of prāṇāyāma: the posture "
@@ -1258,11 +1258,11 @@ EN_ABOUT = [
     {"type": "h2", "html": "References"},
     {"type": "list", "items": [
         "Bagchi, P. C. “Tantras.” In: The Cultural Heritage of India, vol. IV, "
-        "pp. 216–217. Cited via Goudriaan &amp; Gupta 1981.",
+        "pp. 216–217. Cited via Goudriaan & Gupta 1981.",
         "Birch, Jason. 2011. “The Meaning of haṭha in Early Haṭhayoga.” Journal of the "
         "American Oriental Society 131.4: 527–554.",
         "Gonda, J. 1977. Medieval Religious Literature in Sanskrit. Wiesbaden, p. 208.",
-        "Goudriaan, Teun &amp; Sanjukta Gupta. 1981. Hindu Tantric and Śākta Literature "
+        "Goudriaan, Teun & Sanjukta Gupta. 1981. Hindu Tantric and Śākta Literature "
         "(A History of Indian Literature, ed. J. Gonda, vol. II, fasc. 2). Wiesbaden: "
         "Otto Harrassowitz, pp. 40 (n. 39), 47 (nn. 62–63).",
         "Mālavīya, Sudhākara, издание и комментарий. 1999. Rudrayāmalam (Uttaratantram), prathamo "
@@ -1300,7 +1300,7 @@ RU_DATING = [
     ]},
     {"type": "p", "html": "Аргументы поздности, перечисленные там же (с. 47), частью "
                           "приложимы прямо к нашему разделу: развитая система чакр; "
-                          "зависимость от «Кулāрн̣аваы»; употребление слова вāйавӣ для "
+                          "зависимость от «Кулāрн̣авы»; употребление слова вāйавӣ для "
                           "кун̣д̣алинӣ (в нашем тексте — вāйавӣ калā в стихе 25 и "
                           "вāйавӣ-прийах̣ в Мāлāсане); перечень видов хат̣хайоги. Там же "
                           "указано, что Пандей, Багчи и Гонда также считают "
@@ -1308,10 +1308,17 @@ RU_DATING = [
                           "Гудрияну)."},
     {"type": "p", "html": "Наконец, Дж. Берч отмечает единственное в ш́айва-тантрах "
                           "употребление термина хат̣хайога — в 55-й главе "
-                          "«Рудрайāмалоттаратантраы», оговаривая сомнительность этого "
+                          "«Рудрайāмалоттаратантры», оговаривая сомнительность этого "
                           "места (Birch 2011, примечание 90). Для датировки довод "
                           "сохраняется: техническое употребление термина фиксируется не "
                           "ранее XI века."},
+    {"type": "note", "paragraphs": [
+        "В русском томе родительный падеж напечатан с лишней гласной: "
+        "«Кулāрн̣аваы» и «Рудрайāмалоттаратантраы». На сайте стоят формы "
+        "«Кулāрн̣авы» и «Рудрайāмалоттаратантры»: окончание -ы присоединено "
+        "к именительному падежу, а не заменяет конечное -а. Английский том "
+        "пишет Kulārṇava и Rudrayāmalottaratantra.",
+    ]},
     {"type": "p", "html": "<strong>Итог.</strong> Точная дата не установлена, "
                           "общепринятого века у «Уттаратантра» нет. Жанр йāмал сложился "
                           "до 900 года, но наш текст — «безусловно, много позднее». Оценка "

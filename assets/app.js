@@ -112,7 +112,7 @@
     }
   };
 
-  const BUILD = "2026-11-06.15";
+  const BUILD = "2026-11-06.16";
   const V = "?v=" + BUILD;
 
   const state = {
@@ -1726,6 +1726,9 @@
         ["д-ра", "доктора"], ["д-р", "доктор"], ["т.", "том"], ["род.", "родился"],
       ]);
       out = out.replace(/(?<![\p{L}\p{N}])ст\.\s*(?=[«"])/gu, "статья ");
+      // «ст. 67–82» — стихи, не статья: статья стоит только перед кавычками
+      out = out.replace(/(?<![\p{L}\p{N}])ст\.\s*(\d+)\s*([–—-])\s*(\d+)/gu, "стихи $1$2$3");
+      out = out.replace(/(?<![\p{L}\p{N}])ст\.\s*(\d)/gu, "стих $1");
       out = out.replace(/(?<![\p{L}\p{N}])п\.\s*(?=\d)/gu, "пункт ");
       out = out.replace(/(?<![\p{L}\p{N}])л\.\s*(?=\d)/gu, "лист ");
       out = out.replace(/(?<![\p{L}\p{N}])ч\.\s*(?=[IVXLC\d])/gu, "часть ");
@@ -1774,6 +1777,13 @@
     out = out.replace(/(?<![\p{L}\p{N}])col\.\s*/gu, W("столбец ", "column "));
     out = out.replace(/(?<![\p{L}\p{N}])pp\.\s*/gu, W("страницы ", "pages "));
     out = out.replace(/(?<![\p{L}\p{N}])Pp\.\s*/gu, W("Страницы ", "Pages "));
+    // «стр. 55–56», «p. 55–56», «P. 208»: диапазон — во множественном числе.
+    // «P. Peterson» не трогаем: за сокращением страницы стоит цифра, не имя.
+    out = out.replace(/(?<![\p{L}\p{N}])стр\.\s*(\d+)\s*([–—-])\s*(\d+)/gu, "страницы $1$2$3");
+    out = out.replace(/(?<![\p{L}\p{N}])стр\.\s*(\d)/gu, "страница $1");
+    out = out.replace(/(?<![\p{L}\p{N}])[Pp]\.\s*(\d+)\s*([–—-])\s*(\d+)/gu,
+      (m, a, d, b) => W("страницы ", "pages ") + a + d + b);
+    out = out.replace(/(?<![\p{L}\p{N}])P\.\s*(?=\d)/gu, W("страница ", "page "));
     out = out.replace(/(?<![\p{L}\p{N}])p\.\s*(?=\d|[ivxlc]+\b)/gu, W("страница ", "page "));
     out = out.replace(/(?<![\p{L}\p{N}])vv\.\s*/gu, W("стихи ", "verses "));
     out = out.replace(/(?<![\p{L}\p{N}])v\.\s*(?=\d)/gu, W("стих ", "verse "));
@@ -1785,7 +1795,17 @@
         "folio " + n + (side === "r" ? ", recto" : ", verso")));
     out = out.replace(/(?<![\p{L}\p{N}])(?:f|fol)\.\s*(\d+)(?![\p{L}\d])/gu,
       (m, n) => W("лист " + n, "folio " + n));
-    out = out.replace(/(?<![\p{L}\p{N}])(?:[Ee]d|EDS|Eds)\.\s*/gu, W("издание ", "edited by "));
+    // «(ed.)» — редактор в скобках, а не пустое «издание ».
+    // «2nd ed.» — издание, не «edited by». «ed. 1987» — тоже издание.
+    // «ed. J. Gonda» — под редакцией.
+    out = out.replace(/\(ed\.\)/gi, W("(редактор)", "(editor)"));
+    out = out.replace(/(?<![\p{L}])((?:\d+(?:st|nd|rd|th)|new|revised)\s+)ed\./giu,
+      (m, pre) => pre + W("издание", "edition"));
+    out = out.replace(/(?<![\p{L}\p{N}])[Ee]d\.\s*/gu, (m, off, str) => {
+      const next = str.slice(off + m.length);
+      const word = /^\d/.test(next) ? W("издание", "edition") : W("под редакцией", "edited by");
+      return /^(?:[,.;:)]|$)/.test(next) ? word : word + " ";
+    });
     out = out.replace(/(?<![\p{L}\p{N}])fl\.\s*(?=\d)/gu, W("годы деятельности — ", "flourished "));
 
     // 3.34 «ca.», «n°», «CE»/«BCE»
@@ -1801,6 +1821,7 @@
     out = out.replace(/(?<![\p{L}])DAV(?!\p{L})/gu,
       W("Англо-ведический колледж имени Даянанды", "Dayanand Anglo-Vedic College"));
     out = out.replace(/(?<![\p{L}])GOS(?!\p{L})/gu, "Gaekwad’s Oriental Series");
+    out = out.replace(/(?<![\p{L}])fasc\./giu, W("выпуск", "fascicle"));
 
     // 3.4 годы и века
     if (ru) {
@@ -1808,15 +1829,20 @@
         (m, p, r) => p + r + " " + ruYearsForm(p));
       out = out.replace(new RegExp("(?<![\\p{L}])((?:" + ruPrep + ")\\s+)(\\d{3,4})\\s*г\\.(?!\\p{L})", "giu"),
         (m, p, y) => p + y + " " + ruYearForm(p));
+      const ruCenturyForm = (p) => {
+        const k = ruPrepKey(p);
+        return { "в": "веке", "во": "веке", "к": "веку", "ко": "веку", "до": "века",
+          "с": "века", "со": "века", "конца": "века", "начала": "века", "середины": "века",
+          "на": "век", "о": "веке", "об": "веке", "при": "веке",
+          "от": "века", "после": "века", "около": "века" }[k] || "века";
+      };
+      // «не ранее XI–XII в.»: без диапазона правило съедало только «XII в.»
+      // и оставляло «XI–XII век».
+      out = out.replace(new RegExp("(?<![\\p{L}])((?:" + ruPrep + ")\\s+)([IVXLC]+[–—-][IVXLC]+)\\s*в\\.(?![\\p{L}])", "gu"),
+        (m, p, c) => p + c + " " + ruCenturyForm(p));
       out = out.replace(new RegExp("(?<![\\p{L}])((?:" + ruPrep + ")\\s+)([IVXLC]+)\\s*в\\.(?![\\p{L}])", "gu"),
-        (m, p, c) => {
-          const k = ruPrepKey(p);
-          const form = { "в": "веке", "во": "веке", "к": "веку", "ко": "веку", "до": "века",
-            "с": "века", "со": "века", "конца": "века", "начала": "века", "середины": "века",
-            "на": "век", "о": "веке", "об": "веке", "при": "веке",
-            "от": "века", "после": "века", "около": "века" }[k] || "века";
-          return p + c + " " + form;
-        });
+        (m, p, c) => p + c + " " + ruCenturyForm(p));
+      out = out.replace(/(?<![\p{L}])([IVXLC]+[–—-][IVXLC]+)\s*в\.(?![\p{L}])/gu, "$1 века");
       out = out.replace(/(?<![\p{L}])([IVXLC]+(?:[–—-][IVXLC]+)?)\s*вв\.(?![\p{L}])/gu, "$1 века");
       out = out.replace(/(?<![\p{L}])([IVXLC]+)\s*в\.(?![\p{L}])/gu, "$1 век");
       out = out.replace(/(?<![\p{L}])(\d{3,4}[–—-]\d{3,4})\s*гг\.(?![\p{L}])/gu, "$1 годы");
@@ -1887,6 +1913,12 @@
       out = out.replace(/(?<![\p{L}\p{N}])nn\.\s*(?=\d)/gu, "примечания ");
       out = out.replace(/(?<![\p{L}\p{N}])Dr\.\s*(?=\p{Lu})/gu, "доктор ");
       out = out.replace(/(?<![\p{L}\p{N}])Prof\.\s*(?=\p{Lu})/gu, "профессор ");
+      // «по» — кириллица, и \b её границей не считает
+      out = out.replace(/(?<![\p{L}])([Цц])ит\.\s*(?=по(?![\p{L}]))/gu,
+        (m, c) => (c === "Ц" ? "Цитируется " : "цитируется "));
+      out = out.replace(/(?<=на\s+)рис\.\s*(?=\d)/gu, "рисунке ");
+      out = out.replace(/(?<![\p{L}\p{N}])рис\.\s*(?=\d)/gu, "рисунок ");
+      out = out.replace(/(?<![\p{L}])v\.\s?l\./giu, "вариант чтения");
     }
     if (!ru) {
       out = out.replace(/(?<![\p{L}\p{N}])(?:sg|pl)\.(?![\p{L}])/gu, (m) => (m[0] === "s" ? "singular" : "plural"));
