@@ -112,7 +112,7 @@
     }
   };
 
-  const BUILD = "2026-11-06.16";
+  const BUILD = "2026-11-06.17";
   const V = "?v=" + BUILD;
 
   const state = {
@@ -1672,6 +1672,8 @@
 
     // 3.1 эры до общей эры и эра Викрамы — раньше чисел, чтобы «г.» попал в оборот
     out = out.replace(/(?<![\p{L}])V\.\s?S\.\s*(?=\d)/gu, W("эра Викрамы ", "Vikrama era "));
+    // «NS 156» — непальская эра в колофонах, то же сокращение эры, что «V. S.».
+    out = out.replace(/(?<![\p{L}])NS\s+(?=\d)/gu, W("непальская эра ", "Nepal era "));
     const afterSentence = /^\s+[«"(\p{Lu}]/u;
     // «A. D. 900» — сокращение стоит перед годом, и развернуть его на месте
     // нельзя: получилось бы «нашей эры 900». В цитате из английского оригинала
@@ -1750,6 +1752,10 @@
         ["lit.", "literally"], ["ind.", "indeclinable"],
         ["imperf.", "imperfect"], ["imperat.", "imperative"], ["pres.", "present"],
         ["opt.", "optative"],
+        ["Jan.", "January"], ["Feb.", "February"], ["Mar.", "March"],
+        ["Apr.", "April"], ["Jun.", "June"], ["Jul.", "July"],
+        ["Aug.", "August"], ["Sept.", "September"], ["Sep.", "September"],
+        ["Oct.", "October"], ["Nov.", "November"], ["Dec.", "December"],
       ]);
     }
 
@@ -1766,6 +1772,8 @@
         : W("Orientalia ", "Orientalia ")));
     out = out.replace(/(?<![\p{L}\p{N}])MSS\.?\s+(?=[\dA-Z])/gu, W("рукописи ", "manuscripts "));
     out = out.replace(/(?<![\p{L}\p{N}])MS\.\s*(?=[\dA-Z])/gu, W("рукопись ", "manuscript "));
+    // «MS Add. 1645», «corpus MS» — то же слово, но без точки.
+    out = out.replace(/(?<![\p{L}\p{N}])MS(?![\p{L}.])\s+/gu, W("рукопись ", "manuscript "));
     out = out.replace(/(?<![\p{L}\p{N}])mss\.\s*/gu, W("рукописи ", "manuscripts "));
     out = out.replace(/(?<![\p{L}\p{N}])ms\.\s*/gu, W("рукопись ", "manuscript "));
     out = out.replace(/(?<![\p{L}\p{N}])Nos\.\s*/gu, W("номера ", "numbers "));
@@ -1825,7 +1833,7 @@
 
     // 3.4 годы и века
     if (ru) {
-      out = out.replace(new RegExp("(?<![\\p{L}])((?:" + ruPrep + ")\\s+)(\\d{3,4}[–—-]\\d{3,4})\\s*гг\\.(?!\\p{L})", "giu"),
+      out = out.replace(new RegExp("(?<![\\p{L}])((?:" + ruPrep + ")\\s+)(\\d{3,4}[–—-]\\d{2,4})\\s*гг\\.(?!\\p{L})", "giu"),
         (m, p, r) => p + r + " " + ruYearsForm(p));
       out = out.replace(new RegExp("(?<![\\p{L}])((?:" + ruPrep + ")\\s+)(\\d{3,4})\\s*г\\.(?!\\p{L})", "giu"),
         (m, p, y) => p + y + " " + ruYearForm(p));
@@ -1845,7 +1853,7 @@
       out = out.replace(/(?<![\p{L}])([IVXLC]+[–—-][IVXLC]+)\s*в\.(?![\p{L}])/gu, "$1 века");
       out = out.replace(/(?<![\p{L}])([IVXLC]+(?:[–—-][IVXLC]+)?)\s*вв\.(?![\p{L}])/gu, "$1 века");
       out = out.replace(/(?<![\p{L}])([IVXLC]+)\s*в\.(?![\p{L}])/gu, "$1 век");
-      out = out.replace(/(?<![\p{L}])(\d{3,4}[–—-]\d{3,4})\s*гг\.(?![\p{L}])/gu, "$1 годы");
+      out = out.replace(/(?<![\p{L}])(\d{3,4}[–—-]\d{2,4})\s*гг\.(?![\p{L}])/gu, "$1 годы");
       out = out.replace(/(?<![\p{L}])(\d{3,4})\s*гг\.(?![\p{L}])/gu, "$1 годы");
       out = out.replace(/(издани\p{L}*\s+)(\d{3,4})\s*г\./gu, "$1$2 года");
       out = out.replace(/(?<![\p{L}])(\d{3,4})\s*г\.(?![\p{L}])/gu, "$1 год");
@@ -1869,7 +1877,7 @@
       out = out.replace(/(?<![\p{L}])(\d{1,2}(?:[–—-]\d{1,2})?)\s*вв\.(?![\p{L}])/gu, "$1 века");
       out = out.replace(/(?<![\p{L}])(\d{1,2})\s*в\.(?![\p{L}])/gu, "$1 век");
     } else {
-      out = out.replace(/(?<![\p{L}])(\d{3,4}[–—-]\d{3,4})\s*гг\.(?!\p{L})/gu, "$1 years");
+      out = out.replace(/(?<![\p{L}])(\d{3,4}[–—-]\d{2,4})\s*гг\.(?!\p{L})/gu, "$1 years");
       out = out.replace(/(?<![\p{L}])(\d{3,4})\s*г\.(?!\p{L})/gu, "$1 year");
       out = out.replace(/(?<![\p{L}])([IVXLC]+|\d{1,2})\s*вв\.(?!\p{L})/gu, "$1 centuries");
       out = out.replace(/(?<![\p{L}])([IVXLC]+|\d{1,2})\s*в\.(?!\p{L})/gu, "$1 century");

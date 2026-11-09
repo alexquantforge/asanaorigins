@@ -339,6 +339,30 @@
     "ru": "sources/Рудрайāмалоттаратантра. Āсаны (пат̣алы 23–24).pdf",
     "en": "sources/Rudrayāmalottaratantra. Āsanas (paṭalas 23–24).pdf"
    }
+  },
+  {
+   "id": "dharmaputrika",
+   "file": "data/dharmaputrika.json",
+   "title": {
+    "ru": "Дхармапутрикā",
+    "en": "Dharmaputrikā"
+   },
+   "subtitle": {
+    "ru": "глава 2 · Āсанапракаран̣ам · восемь поз",
+    "en": "chapter 2 · Āsanaprakaraṇam · eight postures"
+   },
+   "tradition": {
+    "ru": "корпус Ш́ивадхармы",
+    "en": "the Śivadharma corpus"
+   },
+   "edition": {
+    "ru": "Кристель Баруа, «Eight Yoga Postures in the Dharmaputrikā», блог AyurYog, Венский университет, 19 января 2017 года · стихи 1–17",
+    "en": "Christèle Barois, “Eight Yoga Postures in the Dharmaputrikā”, AyurYog blog, University of Vienna, 19 January 2017 · verses 1–17"
+   },
+   "pdf": {
+    "ru": "sources/Дхармапутрикā. Глава 2. Āсанапракаран̣ам.pdf",
+    "en": "sources/Dharmaputrikā. Chapter 2. Āsanaprakaraṇam.pdf"
+   }
   }
  ]
 }

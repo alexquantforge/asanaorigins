@@ -1,0 +1,4958 @@
+{
+ "id": "dharmaputrika",
+ "chapter": "2",
+ "title": {
+  "ru": "Дхармапутрикā. Глава 2. Āсанапракаран̣ам",
+  "en": "Dharmaputrikā. Chapter 2. Āsanaprakaraṇam"
+ },
+ "asanasTitle": {
+  "ru": "Вступительное наставление и перечень восьми поз (стихи 1–4)",
+  "en": "Opening Instruction and the List of the Eight Postures (verses 1–4)"
+ },
+ "notesTitle": {
+  "ru": "Примечания",
+  "en": "Notes"
+ },
+ "about": {
+  "ru": [
+   {
+    "type": "title",
+    "text": "Дхармапутрикā"
+   },
+   {
+    "type": "byline",
+    "text": "Глава 2 — Āсанапракаран̣ам («Раздел о позах»)"
+   },
+   {
+    "type": "p",
+    "text": "Полный перевод на русский язык с санскритским текстом, пословным разбором и примечаниями"
+   },
+   {
+    "type": "p",
+    "text": "Источник: Eight Yoga Postures in the Dharmaputrikā, перевод Кристель Баруа (Christèle Barois), проект AyurYog, Венский университет, публикация в блоге от 19 января 2017 г."
+   },
+   {
+    "type": "p",
+    "text": "О формате. Исходная публикация содержит санскритские стихи и английский перевод, но не содержит комментария на хинди. Поэтому разделы образца «Комментарий на хинди» и «Примечания к комментарию на хинди» заменены здесь разделом Примечания (филологические и технические замечания). Текст деванāгарӣ восстановлен по транслитерации источника; транслитерация в этом документе дана кириллицей по заданной карте (см. раздел «Карта транслитерации» в конце), а чтения следуют печатному изданию. Буквальный перевод — близкий к оригиналу, с сохранением порядка слов; литературный перевод — перевод на русский язык опубликованного английского перевода Кристель Баруа."
+   },
+   {
+    "type": "p",
+    "text": "О языке документа. Русская версия — перевод английской версии того же документа. Санскритский текст (деванāгарӣ) полностью идентичен английской версии; транслитерация и пословные термины переданы кириллицей по той же карте, что и остальные санскритские слова. Все цитаты исследователей даны в русском переводе, а для проверяемости — с дословным английским оригиналом. Перевод цитат на русский язык выполнен для этого документа; авторство самих утверждений принадлежит указанным исследователям."
+   },
+   {
+    "type": "h2",
+    "text": "Введение (по публикации в блоге AyurYog; перевод с английского)"
+   },
+   {
+    "type": "p",
+    "text": "Сейчас увлекательное время для академического изучения йоги: новаторские исследовательские проекты, такие как проект «Хат̣ха-йога» или Yoga in Theory and Practice Американской академии религии, и множество отдельных проектов продвигают вперёд наше понимание истории йоги. Исследования йоги в проекте AyurYog сосредоточены на связях между йогой и индийской медицинской и алхимической традициями, и наши результаты включают более широкий контекст изучаемых нами текстов. В своих исследованиях литературы о йоге сотрудница проекта AyurYog Кристель Баруа обнаружила малоизвестный текст, который является ключом к пониманию связей между практикой йоги и медициной, а также даёт новые представления о развитии йогической практики поз: Дхармапутрикā."
+   },
+   {
+    "type": "p",
+    "text": "«Дхармапутрикā», принадлежащая к так называемому корпусу Ш́ивадхарма, — это систематическое учение о йоге, направленной на освобождение (мокша), обретение сверхъестественных сил (гун̣аиш́варйа) и способность менять тело (парапуран̃джайа). Она включает около 350 шлок (ш́лока) и была составлена не позднее X века (в Калькутте хранится рукопись XI века). [S1] У текста есть ряд особенностей, делающих его важным для истории йоги, — например, подробные объяснения внутренних дыхательных процессов и, в частности, уникальное изложение включения медицинских практик в ход йогического процесса."
+   },
+   {
+    "type": "p",
+    "text": "Вторая глава «Дхармапутрикā», озаглавленная Āсанапракаран̣ам, описывает восемь поз йоги (āсана): позу лотоса (падмāсанам), позу свастики (свастикāсанам), позу трона (пӣт̣хāсанам), позу холма (стхалāсанам), позу сложенных рук (ан̃джаликāсанам), позу полумесяца (ардхачандрāсанам), позу посоха (дан̣д̣āсанам) и всеблагую позу (сарватобхадрāсанам). Эта глава — древнее и не имеющее аналогов свидетельство систематического и подробного описания замкнутой группы йогических поз, предшествующее по меньшей мере на два века описанию поз в «Йогаш́āстра» Хемачандры (XII век). [S1] Ниже приводится первый перевод этой главы, выполненный Кристель Баруа."
+   },
+   {
+    "type": "p",
+    "text": "Объём настоящего документа: выше воспроизведено введение из блога; далее даны все семнадцать стихов главы вместе с колофоном в запрошенном аналитическом формате. «Литературный перевод» в каждом разделе принадлежит Баруа (здесь — в переводе с английского); «буквальный перевод», пословные глоссы, деванāгарӣ и примечания добавлены для этого документа."
+   },
+   {
+    "type": "p",
+    "text": "Датировка и её источники: хронологические утверждения выше документированы дословными цитатами и ссылками в разделе Датировка текста: источники, доказательства и цитаты непосредственно ниже."
+   },
+   {
+    "type": "h2",
+    "text": "Датировка текста: источники, доказательства и цитаты"
+   },
+   {
+    "type": "p",
+    "text": "Методологическое замечание. Приведённые ниже цитаты даны в русском переводе, а под каждой — дословный английский оригинал, взятый из указанных публикаций. Номера страниц относятся к печатной пагинации этих публикаций (а не к номерам страниц PDF). Надстрочные номера сносок в оригиналах при цитировании опущены, многоточия обозначают пропущенные слова. Каждое утверждение приписано тому источнику, который его делает; гипотеза самого источника обозначена как гипотеза. Там, где привлечённые источники не решают вопрос, это сказано прямо, а не восполнено догадкой. Никаких суждений о точности исходной публикации здесь не выносится."
+   },
+   {
+    "type": "h3",
+    "text": "1. Что именно говорит исходная публикация (загруженный PDF)"
+   },
+   {
+    "type": "p",
+    "text": "Датировка, воспроизведённая во введении выше, взята из публикации Кристель Баруа в блоге AyurYog (19 января 2017 г.). Соответствующая фраза дословно:"
+   },
+   {
+    "type": "quote",
+    "paragraphs": [
+     "«Она включает около 350 шлок (ш́лока) и была составлена не позднее X века (в Калькутте хранится рукопись XI века)»."
+    ]
+   },
+   {
+    "type": "p",
+    "text": "— Christèle Barois, «Eight Yoga Postures in the Dharmaputrikā», блог AyurYog, 19 января 2017 г. [S1]"
+   },
+   {
+    "type": "prose",
+    "key": "orig",
+    "label": "Оригинал (EN)",
+    "paragraphs": [
+     "\"It comprises about 350 ślokas and was composed in the 10th century at the latest (an 11th century manuscript is preserved in Calcutta).\""
+    ]
+   },
+   {
+    "type": "p",
+    "text": "Та же публикация добавляет о древности главы о позах по сравнению с Хемачандрой:"
+   },
+   {
+    "type": "quote",
+    "paragraphs": [
+     "«Эта глава — древнее и не имеющее аналогов свидетельство систематического и подробного описания замкнутой группы йогических поз, предшествующее по меньшей мере на два века описанию поз в „Йогаш́āстра“ Хемачандры (XII век)»."
+    ]
+   },
+   {
+    "type": "p",
+    "text": "— Barois 2017 [S1]"
+   },
+   {
+    "type": "prose",
+    "key": "orig",
+    "label": "Оригинал (EN)",
+    "paragraphs": [
+     "\"This chapter is an ancient and unparalleled testimony of a systematic and detailed description of a closed group of yogic postures, preceding by at least two centuries the description of postures in the Yogaśāstra by Hemacandra (12th century).\""
+    ]
+   },
+   {
+    "type": "p",
+    "text": "Ссылки для [S1]: исходный адрес, напечатанный в PDF, — `https://ayuryog.org/blog/eight-yoga-postures-dharmaputrikā`. На момент проверки этот адрес возвращает ошибку 404; текст сохранён в Internet Archive: <https://web.archive.org/web/20221207075113/http://ayuryog.org/blog/eight-yoga-postures-dharmaputrik%C4%81> (снимок от 7 декабря 2022 г.), который слово в слово совпадает с загруженным PDF."
+   },
+   {
+    "type": "p",
+    "text": "2. Рукописные свидетельства ранней передачи корпуса В публикации блога не названы рукописи, на которых основана её датировка. Опубликованные кодикологические свидетельства ранней рукописной передачи корпуса Ш́ивадхарма изложены Флориндой Де Симини (De Simini, 2016):"
+   },
+   {
+    "type": "p",
+    "text": "(а) Самая ранняя из выявленных на сегодня датированных рукописей корпуса — которая НЕ содержит «Дхармапутрикā». Рукопись G 4077 Азиатского общества Калькутты датирована своим колофоном NS 156 = 1035–36 гг. н. э. (дата уточнена как 6 июля 1036 г. у Petech, о чём сообщает Де Симини). Де Симини пишет: «Самая ранняя из выявленных на сегодня датированных рукописей корпуса Ш́ивадхарма — ASC G 4077» (с. 243, прим. 28; оригинал EN: \"The earliest dated manuscript of the Śivadharma corpus identified so far is ASC G 4077\"). Она же отмечает, что в этой рукописи «Дхармапутрикā» отсутствует:"
+   },
+   {
+    "type": "p",
+    "text": "Основной текст (рус.): «Заключительный колофон датирует её NS 156 (1035–36 гг. н. э.)» (с. 251)."
+   },
+   {
+    "type": "p",
+    "text": "Сноска 44 (рус.): «эта рукопись обладает и уникальной особенностью: в ней отсутствует „Дхармапутрикā“, заменённая более обширным произведением под названием „Лалитавистара“» (с. 251, прим. 44)."
+   },
+   {
+    "type": "p",
+    "text": "— De Simini 2016 [S2]; дата уточнена как 6 июля 1036 г. у Petech 1984, 36, по ссылке Де Симини."
+   },
+   {
+    "type": "p",
+    "text": "Оригинал (EN), основной текст: \"The final colophon dates it to NS 156 (1035–36 CE)\""
+   },
+   {
+    "type": "p",
+    "text": "Оригинал (EN), сноска 44: \"this manuscript also exhibits the unique feature of missing the Dharmaputrikā, which is replaced by a longer work titled Lalitavistara\""
+   },
+   {
+    "type": "p",
+    "text": "(б) Ранняя датированная рукопись, которая СОДЕРЖИТ «Дхармапутрикā» (1069 г. н. э.). Это Катманду, Национальный архив, NAK 3–393 (NGMPP A 1082/3), колофон которой помещён сразу после заключительного заголовка «Дхармапутрикā» и датирован NS 189 = 24 мая 1069 г. н. э.:"
+   },
+   {
+    "type": "quote",
+    "paragraphs": [
+     "«Этот колофон помещён непосредственно после заключительного заголовка „Дхармапутрикā“ … и датирует завершение рукописи … NS 189 (24 мая 1069 г. н. э.)»."
+    ]
+   },
+   {
+    "type": "p",
+    "text": "— De Simini 2016, с. 252 и прим. 49 [S2]"
+   },
+   {
+    "type": "prose",
+    "key": "orig",
+    "label": "Оригинал (EN)",
+    "paragraphs": [
+     "\"This colophon is placed immediately after the final heading of the Dharmaputrikā … and dates the completion of the manuscript to … NS 189 (May 24, 1069 CE).\""
+    ]
+   },
+   {
+    "type": "p",
+    "text": "(в) Ещё один ранний датированный свидетель. Кембридж, Библиотека университета, MS Add. 1645, датирована NS 259 = 1139–40 гг. н. э.:"
+   },
+   {
+    "type": "quote",
+    "paragraphs": [
+     "«Это пальмовая рукопись, состоящая из 247 листов и датированная в заключительном колофоне NS 259 (1139–40 гг. н. э.), что делает её одной из самых ранних датированных рукописей собрания Ш́ивадхарма»."
+    ]
+   },
+   {
+    "type": "p",
+    "text": "— De Simini 2016, с. 243 [S2]"
+   },
+   {
+    "type": "prose",
+    "key": "orig",
+    "label": "Оригинал (EN)",
+    "paragraphs": [
+     "\"This is a palm leaf manuscript consisting of 247 folios and dated in the final colophon to NS 259 (1139–40 CE), a circumstance that makes it one of the earliest dated manuscripts of the Śivadharma collection.\""
+    ]
+   },
+   {
+    "type": "p",
+    "text": "(Та же исследовательница в сводке на с. 270 указывает дату этой рукописи как 1138–39 гг. н. э.; обе цифры принадлежат ей.)"
+   },
+   {
+    "type": "p",
+    "text": "Что эти свидетельства устанавливают. NAK 3–393 содержит «Дхармапутрикā» и датирована 24 мая 1069 г. н. э. Следовательно, к этой дате текст уже существовал, что даёт terminus ante quem (наиболее позднюю возможную дату составления) по приведённым выше рукописным свидетельствам."
+   },
+   {
+    "type": "p",
+    "text": "Чего они не устанавливают. Вставная фраза блога «(в Калькутте хранится рукопись XI века)» [S1] воспроизведена здесь как собственная формулировка исходной публикации. Блог не указывает, какую именно калькуттскую рукопись он имеет в виду, и привлечённые для этого документа источники этот вопрос не решают: Приложение I у Де Симини прямо не описывает рукописи Азиатского общества Калькутты и вместо этого отсылает читателя к каталогам — «Что до других рукописей, не входящих в эту категорию, — например тех, что находятся в Азиатском обществе Калькутты, — читатель отсылается к соответствующим каталогам» (De Simini 2016, с. 273 [S2]; оригинал EN: \"For other manuscripts not falling into this category — like those at the Asiatic Society of Calcutta — the reader is referred to the pertinent catalogues\"). Соответственно, никакого вывода об этой вставной фразе здесь не делается. Единственный относящийся к делу факт, сообщаемый источниками, — тот, что приведён в §2а: G 4077 (1036 г. н. э.) не содержит «Дхармапутрикā»."
+   },
+   {
+    "type": "h3",
+    "text": "3. Более поздняя научная статья К. Баруа (2020)"
+   },
+   {
+    "type": "p",
+    "text": "В своей научной статье 2020 года Баруа приводит датировку по рукописям, а затем обосновывает существенно более раннюю дату составления на основании текстовых параллелей:"
+   },
+   {
+    "type": "quote",
+    "paragraphs": [
+     "«„Дхармапутрикā“ — раннее произведение о йоге, дошедшее до нас в составе „корпуса Ш́ивадхарма“, собрания из восьми текстов, сохранившихся в нескольких непальских пальмовых рукописях XI–XII веков»."
+    ]
+   },
+   {
+    "type": "p",
+    "text": "— Barois 2020, с. 6 [S3]"
+   },
+   {
+    "type": "prose",
+    "key": "orig",
+    "label": "Оригинал (EN)",
+    "paragraphs": [
+     "\"The Dharmaputrikā is an early work on yoga that has been transmitted to us as part of the 'Śivadharma corpus,' a collection of eight texts preserved in several eleventh- and twelfth-century Nepalese palm-leaf manuscripts.\""
+    ]
+   },
+   {
+    "type": "p",
+    "text": "Она рассматривает дату «1069 г. н. э.», предложенную в New Catalogus Catalogorum, и указывает, что это дата копии, а не составления:"
+   },
+   {
+    "type": "quote",
+    "paragraphs": [
+     "«New Catalogus Catalogorum (NCC), том IX (1977), также высказывался в пользу поздней даты: „Дхармапутрикā — о йоге в 16 главах философского и тантрического характера; предположительно составлена в 1069 г. н. э. в правление Ш́ан̇кара Дева. Nepal I. с. 92, предисл. с. xlviii. Rep. Hpr.1895–1900, с. 6“. Это дата копии рукописи (что до санскритского текста колофона, где упоминается Ш́ан̇карадева, см. Petech, 1984: 46)»."
+    ]
+   },
+   {
+    "type": "p",
+    "text": "— Barois 2020, с. 16, прим. 28 [S3]"
+   },
+   {
+    "type": "prose",
+    "key": "orig",
+    "label": "Оригинал (EN)",
+    "paragraphs": [
+     "\"The New Catalogus Catalogorum (NCC) vol. IX (1977) also argued in favour of a late date: 'Dharmaputrikā - On yoga in 16 chs. of philosophical and tāntric nature; prob. composed in 1069 A.D. in the reign of Śaṅkara Deva. Nepal I. p. 92. pref. p. xlviii. Rep. Hpr.1895–1900, p. 6.' It is the date of the copy of the manuscript (as for the Sanskrit text of the colophon which quotes Śaṅkaradeva, see Petech, 1984: 46).\""
+    ]
+   },
+   {
+    "type": "p",
+    "text": "В той же статье она отмечает и единственную рукопись XI века, в которой «Дхармапутрикā» отсутствует:"
+   },
+   {
+    "type": "quote",
+    "paragraphs": [
+     "«„Дхармапутрикā“ заменена текстом под названием „Лалитавистара“ в единственной многотекстовой рукописи, датированной XI веком (о „Лалитавистаре“ см. De Simini and Mirnig, 2017)»."
+    ]
+   },
+   {
+    "type": "p",
+    "text": "— Barois 2020, с. 6, прим. 4 [S3]"
+   },
+   {
+    "type": "prose",
+    "key": "orig",
+    "label": "Оригинал (EN)",
+    "paragraphs": [
+     "\"The Dharmaputrikā is replaced by a text called Lalitavistara in a single, multiple-text manuscript dated from the eleventh century (on the Lalitavistara, see De Simini and Mirnig, 2017).\""
+    ]
+   },
+   {
+    "type": "p",
+    "text": "И она предлагает существенно более ранний terminus ad quem на основании параллелей с «Ш́ивадхармоттара»:"
+   },
+   {
+    "type": "quote",
+    "paragraphs": [
+     "«Учитывая отсутствие контекста у приведённых выше параллельных мест в „Ш́ивадхармоттара“, я предполагаю, что источником является „Дхармапутрикā“, а это означает, что её terminus ad quem — VII век, каковой считается предполагаемой датой составления „Ш́ивадхармоттара“. … Это делало бы „Дхармапутрикā“ древнейшим сохранившимся практическим руководством по йоге»."
+    ]
+   },
+   {
+    "type": "p",
+    "text": "— Barois 2020, с. 20–21 [S3]"
+   },
+   {
+    "type": "prose",
+    "key": "orig",
+    "label": "Оригинал (EN)",
+    "paragraphs": [
+     "\"Given the lack of context of the above parallel passages in the Śivadharmottara, I suggest that the Dharmaputrikā is the source, implying its terminus ad quem is the seventh century, which is the estimated date of composition of the Śivadharmottara. … This would make the Dharmaputrikā the earliest surviving practical manual on yoga.\""
+    ]
+   },
+   {
+    "type": "p",
+    "text": "Важно: дата «VII век» — это гипотеза Баруа, основанная на текстовых параллелях, а не дата рукописи. Ссылаться на неё следует как на её предположение, а не как на установленный факт."
+   },
+   {
+    "type": "h3",
+    "text": "4. Вторичный источник, повторяющий датировку «ок. X века»"
+   },
+   {
+    "type": "quote",
+    "paragraphs": [
+     "«… десятая глава о йогическом лечении (чикитсā) „Дхармапутрикā“ (ок. X века), текста корпуса Ш́ивадхарма (Barois, в печати)»."
+    ]
+   },
+   {
+    "type": "p",
+    "text": "— Powell 2018, с. 60 [S4]"
+   },
+   {
+    "type": "prose",
+    "key": "orig",
+    "label": "Оригинал (EN)",
+    "paragraphs": [
+     "\"… the tenth chapter on yogic medical treatment (cikitsā) of the Dharmaputrikā (c. 10th century), a text of the Śivadharma corpus (Barois forthcoming).\""
+    ]
+   },
+   {
+    "type": "p",
+    "text": "Пауэлл прямо относит датировку к Баруа («Barois forthcoming»), так что это вторичная ссылка, а не независимое рукописное свидетельство."
+   },
+   {
+    "type": "table",
+    "label": "5. Сводка по датировке (что можно и чего нельзя утверждать)",
+    "rows": [
+     [
+      "Утверждение",
+      "Статус",
+      "Источник"
+     ],
+     [
+      "Текст существовал к 24 мая 1069 г. н. э. (NAK 3–393 содержит его и датирована этим днём)",
+      "Документированный факт",
+      "De Simini 2016, с. 252 и прим. 49 [S2]"
+     ],
+     [
+      "«Составлена не позднее X века»",
+      "Утверждение исходной публикации, приведено как таковое",
+      "Barois 2017 [S1]"
+     ],
+     [
+      "«В Калькутте хранится рукопись XI века»",
+      "Утверждение исходной публикации; рукопись там не идентифицирована, и здесь она тоже не идентифицируется",
+      "Barois 2017 [S1]"
+     ],
+     [
+      "G 4077 (Калькутта, 1036 г. н. э.), самая ранняя из выявленных датированных рукописей корпуса, не содержит «Дхармапутрикā»",
+      "Документированный факт",
+      "De Simini 2016, с. 243 прим. 28; с. 251 прим. 44 [S2]"
+     ],
+     [
+      "Составление уже в VII веке",
+      "Гипотеза (текстовые параллели)",
+      "Barois 2020, с. 20–21 [S3]"
+     ],
+     [
+      "Глава о позах предшествует «Йогаш́āстра» Хемачандры (XII в.) не менее чем на два века",
+      "Утверждение исходной публикации",
+      "Barois 2017 [S1]"
+     ]
+    ]
+   }
+  ],
+  "en": [
+   {
+    "type": "title",
+    "text": "The Dharmaputrikā"
+   },
+   {
+    "type": "byline",
+    "text": "Chapter 2 — Āsanaprakaraṇam (“The Section on the Postures”)"
+   },
+   {
+    "type": "p",
+    "text": "Complete English Translation, with Sanskrit Text, Word-for-Word Analysis, and Notes"
+   },
+   {
+    "type": "p",
+    "text": "Source: Eight Yoga Postures in the Dharmaputrikā, translated by Christèle Barois (AyurYog project, University of Vienna, blog post of 19 January 2017)."
+   },
+   {
+    "type": "p",
+    "text": "A note on the format. The source publication contains the Sanskrit verses together with an English translation, but no Hindi commentary. Accordingly, the \"Hindi Commentary\" and \"Notes on Hindi Commentary\" sections of the model format are here replaced by Notes (philological and technical remarks). The Devanāgarī text has been reconstructed from the IAST transliteration; the IAST follows the printed edition. The Literal Translation is a close, word-order-faithful rendering; the Literary Translation follows the published translation of Christèle Barois."
+   },
+   {
+    "type": "h2",
+    "text": "Introduction (from the AyurYog blog post)"
+   },
+   {
+    "type": "p",
+    "text": "It is an exciting time for academic research on yoga, with pioneering research projects like the Haṭha Yoga Project, or the American Academy of Religion's Yoga in Theory and Practice, and many individual projects driving our understanding of the history of yoga forward. The AyurYog project's research on yoga is focussed on the connections between yoga and the Indian medical and alchemical traditions, and our findings include the wider contexts of the textual materials we examine. In her research on yoga literature, AyurYog researcher Christèle Barois has discovered a little-known text that is key to understanding connections between yoga practice and medicine, but also gives new insights into the development of yogic postural practice: the Dharmaputrikā."
+   },
+   {
+    "type": "p",
+    "text": "The Dharmaputrikā, which belongs to the so-called Śivadharma corpus, is a systematic teaching on a yoga aiming at liberation (mokṣa), the acquisition of supernatural powers (guṇaiśvarya), and the ability to change the body (parapurañjaya). It comprises about 350 ślokas and was composed in the 10th century at the latest (an 11th-century manuscript is preserved in Calcutta). [S1] The text has a number of special features that make it important for the history of yoga, such as its detailed explanations of internal breathing processes, and, in particular, its unique exposition on the integration of medical practices into the course of a yogic process."
+   },
+   {
+    "type": "p",
+    "text": "The second chapter of the Dharmaputrikā, entitled Āsanaprakaraṇam, describes eight yoga postures (āsana): the lotus-posture (padmāsanam), the svastika-posture (svastikāsanam), the throne-posture (pīṭhāsanam), the mound-posture (sthalāsanam), the joined-hands-posture (añjalikāsanam), the half-moon-posture (ardhacandrāsanam), the staff-posture (daṇḍāsanam), and the all-auspicious-posture (sarvatobhadrāsanam). This chapter is an ancient and unparalleled testimony of a systematic and detailed description of a closed group of yogic postures, preceding by at least two centuries the description of postures in the Yogaśāstra by Hemacandra (12th century). [S1] Below is a first translation of this chapter by Christèle Barois."
+   },
+   {
+    "type": "p",
+    "text": "Scope of the present document: the blog's introduction is reproduced above; what follows presents all seventeen verses of the chapter together with the colophon, in the requested analytical format. The \"Literary translation\" in each section is Barois's; the \"Literal translation\", the word-for-word glosses, the Devanāgarī and the Notes are additions made for this document."
+   },
+   {
+    "type": "p",
+    "text": "Dating and its sources: the chronological claims above are documented, with verbatim quotations and links, in the section Dating of the Text: Sources, Evidence, and Citations immediately below."
+   },
+   {
+    "type": "h2",
+    "text": "Dating of the Text: Sources, Evidence, and Citations"
+   },
+   {
+    "type": "p",
+    "text": "Methodological note. The passages in quotation marks below are verbatim from the publications named, and the page numbers refer to the printed pagination of those publications (not to PDF page numbers). Superscript footnote numbers in the originals are omitted from the quotations, and ellipses mark any omitted words. Each statement is attributed to the source that makes it; a source's own hypothesis is labelled as a hypothesis. Where the sources consulted here do not settle a question, that is stated openly instead of being resolved by conjecture. No judgement is passed on the accuracy of the source publication."
+   },
+   {
+    "type": "p",
+    "text": "1. What the source publication (the uploaded PDF) actually says The dating reproduced in the introduction above comes from the AyurYog blog post by Christèle Barois (19 January 2017). The relevant sentence reads, verbatim:"
+   },
+   {
+    "type": "quote",
+    "paragraphs": [
+     "\"It comprises about 350 ślokas and was composed in the 10th century at the latest (an 11th century manuscript is preserved in Calcutta).\""
+    ]
+   },
+   {
+    "type": "p",
+    "text": "— Christèle Barois, \"Eight Yoga Postures in the Dharmaputrikā,\" AyurYog blog, 19 Jan. 2017 [S1]"
+   },
+   {
+    "type": "p",
+    "text": "The same post adds, on the antiquity of the posture chapter relative to Hemacandra:"
+   },
+   {
+    "type": "quote",
+    "paragraphs": [
+     "\"This chapter is an ancient and unparalleled testimony of a systematic and detailed description of a closed group of yogic postures, preceding by at least two centuries the description of postures in the Yogaśāstra by Hemacandra (12th century).\""
+    ]
+   },
+   {
+    "type": "p",
+    "text": "— Barois 2017 [S1]"
+   },
+   {
+    "type": "p",
+    "text": "Links for [S1]: the original URL printed in the PDF is `https://ayuryog.org/blog/eight-yoga-postures-dharmaputrikā`. As of the date of checking, that address returns a 404 error; the text is preserved in the Internet Archive at <https://web.archive.org/web/20221207075113/http://ayuryog.org/blog/eight-yoga-postures-dharmaputrik%C4%81> (capture of 7 December 2022), which matches the uploaded PDF word for word."
+   },
+   {
+    "type": "p",
+    "text": "2. The manuscript evidence for the early transmission of the corpus The blog post does not name the manuscripts on which its dating rests. The published codicological evidence for the early manuscript transmission of the Śivadharma corpus is set out by Florinda De Simini (2016):"
+   },
+   {
+    "type": "p",
+    "text": "(a) The earliest dated manuscript of the corpus identified so far — which does NOT contain the Dharmaputrikā. The Asiatic Society of Calcutta manuscript G 4077 is dated by its colophon to NS 156 = 1035–36 CE (verified as 6 July 1036 CE by Petech, as reported by De Simini). De Simini writes: \"The earliest dated manuscript of the Śivadharma corpus identified so far is ASC G 4077\" (p. 243 n. 28). She also notes that this manuscript lacks the Dharmaputrikā:"
+   },
+   {
+    "type": "p",
+    "text": "Main text: \"The final colophon dates it to NS 156 (1035–36 CE)\" (p. 251)."
+   },
+   {
+    "type": "p",
+    "text": "Footnote 44: \"this manuscript also exhibits the unique feature of missing the Dharmaputrikā, which is replaced by a longer work titled Lalitavistara\" (p. 251 n. 44)."
+   },
+   {
+    "type": "p",
+    "text": "— De Simini 2016 [S2]; the date is verified as 6 July 1036 CE by Petech 1984, 36, as cited by De Simini."
+   },
+   {
+    "type": "p",
+    "text": "(b) An early dated manuscript that DOES contain the Dharmaputrikā (1069 CE). This is Kathmandu, National Archives, NAK 3–393 (NGMPP A 1082/3), whose colophon is placed immediately after the final heading of the Dharmaputrikā and is dated NS 189 = 24 May 1069 CE:"
+   },
+   {
+    "type": "quote",
+    "paragraphs": [
+     "\"This colophon is placed immediately after the final heading of the Dharmaputrikā … and dates the completion of the manuscript to … NS 189 (May 24, 1069 CE).\""
+    ]
+   },
+   {
+    "type": "p",
+    "text": "— De Simini 2016, p. 252 and n. 49 [S2]"
+   },
+   {
+    "type": "p",
+    "text": "(c) A further early dated witness. Cambridge, University Library, MS Add. 1645, dated NS 259 = 1139–40 CE:"
+   },
+   {
+    "type": "quote",
+    "paragraphs": [
+     "\"This is a palm leaf manuscript consisting of 247 folios and dated in the final colophon to NS 259 (1139–40 CE), a circumstance that makes it one of the earliest dated manuscripts of the Śivadharma collection.\""
+    ]
+   },
+   {
+    "type": "p",
+    "text": "— De Simini 2016, p. 243 [S2]"
+   },
+   {
+    "type": "p",
+    "text": "(The same author gives this manuscript's date as 1138–39 CE in the summary on p. 270; both figures are hers.)"
+   },
+   {
+    "type": "p",
+    "text": "What this evidence establishes. NAK 3–393 contains the Dharmaputrikā and is dated 24 May 1069 CE. The text therefore existed by that date, which is a terminus ante quem (the latest possible date of composition) on the manuscript evidence quoted above."
+   },
+   {
+    "type": "p",
+    "text": "What it does not establish. The blog's parenthetical \"(an 11th century manuscript is preserved in Calcutta)\" [S1] is reproduced here as the source publication's own wording. The blog does not identify which Calcutta manuscript it means, and the sources consulted for this document do not settle that question: De Simini's Appendix I expressly does not describe the Asiatic Society of Calcutta manuscripts and refers the reader to the catalogues instead — \"For other manuscripts not falling into this category — like those at the Asiatic Society of Calcutta — the reader is referred to the pertinent catalogues\" (De Simini 2016, p. 273 [S2]). Accordingly, no conclusion is drawn here about that parenthetical statement. The only related fact reported by the sources is the one quoted in §2a: G 4077 (1036 CE) does not contain the Dharmaputrikā."
+   },
+   {
+    "type": "h3",
+    "text": "3. The author's own later academic article (2020)"
+   },
+   {
+    "type": "p",
+    "text": "In her 2020 academic article, Barois gives the manuscript-based dating and then argues for a considerably earlier composition date on the basis of textual parallels:"
+   },
+   {
+    "type": "quote",
+    "paragraphs": [
+     "\"The Dharmaputrikā is an early work on yoga that has been transmitted to us as part of the 'Śivadharma corpus,' a collection of eight texts preserved in several eleventh- and twelfth-century Nepalese palm-leaf manuscripts.\""
+    ]
+   },
+   {
+    "type": "p",
+    "text": "— Barois 2020, p. 6 [S3]"
+   },
+   {
+    "type": "p",
+    "text": "She addresses the \"1069 A.D.\" date proposed in the New Catalogus Catalogorum, stating that it is the date of the copy, not of composition:"
+   },
+   {
+    "type": "quote",
+    "paragraphs": [
+     "\"The New Catalogus Catalogorum (NCC) vol. IX (1977) also argued in favour of a late date: 'Dharmaputrikā - On yoga in 16 chs. of philosophical and tāntric nature; prob. composed in 1069 A.D. in the reign of Śaṅkara Deva. Nepal I. p. 92. pref. p. xlviii. Rep. Hpr.1895–1900, p. 6.' It is the date of the copy of the manuscript (as for the Sanskrit text of the colophon which quotes Śaṅkaradeva, see Petech, 1984: 46).\""
+    ]
+   },
+   {
+    "type": "p",
+    "text": "— Barois 2020, p. 16, n. 28 [S3]"
+   },
+   {
+    "type": "p",
+    "text": "In the same article she also records the one eleventh-century manuscript in which the Dharmaputrikā is absent:"
+   },
+   {
+    "type": "quote",
+    "paragraphs": [
+     "\"The Dharmaputrikā is replaced by a text called Lalitavistara in a single, multiple-text manuscript dated from the eleventh century (on the Lalitavistara, see De Simini and Mirnig, 2017).\""
+    ]
+   },
+   {
+    "type": "p",
+    "text": "— Barois 2020, p. 6, n. 4 [S3]"
+   },
+   {
+    "type": "p",
+    "text": "And she proposes a much earlier terminus ad quem on the basis of parallels with the Śivadharmottara:"
+   },
+   {
+    "type": "quote",
+    "paragraphs": [
+     "\"Given the lack of context of the above parallel passages in the Śivadharmottara, I suggest that the Dharmaputrikā is the source, implying its terminus ad quem is the seventh century, which is the estimated date of composition of the Śivadharmottara. … This would make the Dharmaputrikā the earliest surviving practical manual on yoga.\""
+    ]
+   },
+   {
+    "type": "p",
+    "text": "— Barois 2020, pp. 20–21 [S3]"
+   },
+   {
+    "type": "p",
+    "text": "Important: the \"seventh century\" date is Barois's hypothesis based on textual parallels, not a manuscript date. It should be cited as her suggestion, not as an established fact."
+   },
+   {
+    "type": "p",
+    "text": "4. A secondary source repeating the \"c. 10th century\" dating \"… the tenth chapter on yogic medical treatment (cikitsā) of the Dharmaputrikā (c. 10th century), a text of the Śivadharma corpus (Barois forthcoming).\""
+   },
+   {
+    "type": "p",
+    "text": "— Powell 2018, p. 60 [S4]"
+   },
+   {
+    "type": "p",
+    "text": "Powell expressly refers the dating to Barois (\"Barois forthcoming\"), so this is a secondary citation rather than independent manuscript evidence."
+   },
+   {
+    "type": "table",
+    "label": "5. Summary of the dating (what can and cannot be asserted)",
+    "rows": [
+     [
+      "Claim",
+      "Status",
+      "Source"
+     ],
+     [
+      "Text existed by 24 May 1069 CE (NAK 3–393 contains it and is dated to that day)",
+      "Documented fact",
+      "De Simini 2016, p. 252 and n. 49 [S2]"
+     ],
+     [
+      "\"Composed in the 10th century at the latest\"",
+      "Statement of the source publication, quoted as such",
+      "Barois 2017 [S1]"
+     ],
+     [
+      "\"An 11th century manuscript is preserved in Calcutta\"",
+      "Statement of the source publication; the manuscript is not identified there, and is not identified here either",
+      "Barois 2017 [S1]"
+     ],
+     [
+      "G 4077 (Calcutta, 1036 CE), the earliest dated corpus MS identified so far, lacks the Dharmaputrikā",
+      "Documented fact",
+      "De Simini 2016, p. 243 n. 28; p. 251 n. 44 [S2]"
+     ],
+     [
+      "Composition as early as the 7th century",
+      "Hypothesis (textual parallels)",
+      "Barois 2020, pp. 20–21 [S3]"
+     ],
+     [
+      "Posture chapter precedes Hemacandra's Yogaśāstra (12th c.) by ≥2 centuries",
+      "Statement of the source publication",
+      "Barois 2017 [S1]"
+     ]
+    ]
+   }
+  ]
+ },
+ "dating": {
+  "ru": {
+   "title": "Датировка текста: источники, доказательства и цитаты",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Методологическое замечание. Приведённые ниже цитаты даны в русском переводе, а под каждой — дословный английский оригинал, взятый из указанных публикаций. Номера страниц относятся к печатной пагинации этих публикаций (а не к номерам страниц PDF). Надстрочные номера сносок в оригиналах при цитировании опущены, многоточия обозначают пропущенные слова. Каждое утверждение приписано тому источнику, который его делает; гипотеза самого источника обозначена как гипотеза. Там, где привлечённые источники не решают вопрос, это сказано прямо, а не восполнено догадкой. Никаких суждений о точности исходной публикации здесь не выносится."
+    },
+    {
+     "type": "h3",
+     "text": "1. Что именно говорит исходная публикация (загруженный PDF)"
+    },
+    {
+     "type": "p",
+     "text": "Датировка, воспроизведённая во введении выше, взята из публикации Кристель Баруа в блоге AyurYog (19 января 2017 г.). Соответствующая фраза дословно:"
+    },
+    {
+     "type": "quote",
+     "paragraphs": [
+      "«Она включает около 350 шлок (ш́лока) и была составлена не позднее X века (в Калькутте хранится рукопись XI века)»."
+     ]
+    },
+    {
+     "type": "p",
+     "text": "— Christèle Barois, «Eight Yoga Postures in the Dharmaputrikā», блог AyurYog, 19 января 2017 г. [S1]"
+    },
+    {
+     "type": "prose",
+     "key": "orig",
+     "label": "Оригинал (EN)",
+     "paragraphs": [
+      "\"It comprises about 350 ślokas and was composed in the 10th century at the latest (an 11th century manuscript is preserved in Calcutta).\""
+     ]
+    },
+    {
+     "type": "p",
+     "text": "Та же публикация добавляет о древности главы о позах по сравнению с Хемачандрой:"
+    },
+    {
+     "type": "quote",
+     "paragraphs": [
+      "«Эта глава — древнее и не имеющее аналогов свидетельство систематического и подробного описания замкнутой группы йогических поз, предшествующее по меньшей мере на два века описанию поз в „Йогаш́āстра“ Хемачандры (XII век)»."
+     ]
+    },
+    {
+     "type": "p",
+     "text": "— Barois 2017 [S1]"
+    },
+    {
+     "type": "prose",
+     "key": "orig",
+     "label": "Оригинал (EN)",
+     "paragraphs": [
+      "\"This chapter is an ancient and unparalleled testimony of a systematic and detailed description of a closed group of yogic postures, preceding by at least two centuries the description of postures in the Yogaśāstra by Hemacandra (12th century).\""
+     ]
+    },
+    {
+     "type": "p",
+     "text": "Ссылки для [S1]: исходный адрес, напечатанный в PDF, — `https://ayuryog.org/blog/eight-yoga-postures-dharmaputrikā`. На момент проверки этот адрес возвращает ошибку 404; текст сохранён в Internet Archive: <https://web.archive.org/web/20221207075113/http://ayuryog.org/blog/eight-yoga-postures-dharmaputrik%C4%81> (снимок от 7 декабря 2022 г.), который слово в слово совпадает с загруженным PDF."
+    },
+    {
+     "type": "p",
+     "text": "2. Рукописные свидетельства ранней передачи корпуса В публикации блога не названы рукописи, на которых основана её датировка. Опубликованные кодикологические свидетельства ранней рукописной передачи корпуса Ш́ивадхарма изложены Флориндой Де Симини (De Simini, 2016):"
+    },
+    {
+     "type": "p",
+     "text": "(а) Самая ранняя из выявленных на сегодня датированных рукописей корпуса — которая НЕ содержит «Дхармапутрикā». Рукопись G 4077 Азиатского общества Калькутты датирована своим колофоном NS 156 = 1035–36 гг. н. э. (дата уточнена как 6 июля 1036 г. у Petech, о чём сообщает Де Симини). Де Симини пишет: «Самая ранняя из выявленных на сегодня датированных рукописей корпуса Ш́ивадхарма — ASC G 4077» (с. 243, прим. 28; оригинал EN: \"The earliest dated manuscript of the Śivadharma corpus identified so far is ASC G 4077\"). Она же отмечает, что в этой рукописи «Дхармапутрикā» отсутствует:"
+    },
+    {
+     "type": "p",
+     "text": "Основной текст (рус.): «Заключительный колофон датирует её NS 156 (1035–36 гг. н. э.)» (с. 251)."
+    },
+    {
+     "type": "p",
+     "text": "Сноска 44 (рус.): «эта рукопись обладает и уникальной особенностью: в ней отсутствует „Дхармапутрикā“, заменённая более обширным произведением под названием „Лалитавистара“» (с. 251, прим. 44)."
+    },
+    {
+     "type": "p",
+     "text": "— De Simini 2016 [S2]; дата уточнена как 6 июля 1036 г. у Petech 1984, 36, по ссылке Де Симини."
+    },
+    {
+     "type": "p",
+     "text": "Оригинал (EN), основной текст: \"The final colophon dates it to NS 156 (1035–36 CE)\""
+    },
+    {
+     "type": "p",
+     "text": "Оригинал (EN), сноска 44: \"this manuscript also exhibits the unique feature of missing the Dharmaputrikā, which is replaced by a longer work titled Lalitavistara\""
+    },
+    {
+     "type": "p",
+     "text": "(б) Ранняя датированная рукопись, которая СОДЕРЖИТ «Дхармапутрикā» (1069 г. н. э.). Это Катманду, Национальный архив, NAK 3–393 (NGMPP A 1082/3), колофон которой помещён сразу после заключительного заголовка «Дхармапутрикā» и датирован NS 189 = 24 мая 1069 г. н. э.:"
+    },
+    {
+     "type": "quote",
+     "paragraphs": [
+      "«Этот колофон помещён непосредственно после заключительного заголовка „Дхармапутрикā“ … и датирует завершение рукописи … NS 189 (24 мая 1069 г. н. э.)»."
+     ]
+    },
+    {
+     "type": "p",
+     "text": "— De Simini 2016, с. 252 и прим. 49 [S2]"
+    },
+    {
+     "type": "prose",
+     "key": "orig",
+     "label": "Оригинал (EN)",
+     "paragraphs": [
+      "\"This colophon is placed immediately after the final heading of the Dharmaputrikā … and dates the completion of the manuscript to … NS 189 (May 24, 1069 CE).\""
+     ]
+    },
+    {
+     "type": "p",
+     "text": "(в) Ещё один ранний датированный свидетель. Кембридж, Библиотека университета, MS Add. 1645, датирована NS 259 = 1139–40 гг. н. э.:"
+    },
+    {
+     "type": "quote",
+     "paragraphs": [
+      "«Это пальмовая рукопись, состоящая из 247 листов и датированная в заключительном колофоне NS 259 (1139–40 гг. н. э.), что делает её одной из самых ранних датированных рукописей собрания Ш́ивадхарма»."
+     ]
+    },
+    {
+     "type": "p",
+     "text": "— De Simini 2016, с. 243 [S2]"
+    },
+    {
+     "type": "prose",
+     "key": "orig",
+     "label": "Оригинал (EN)",
+     "paragraphs": [
+      "\"This is a palm leaf manuscript consisting of 247 folios and dated in the final colophon to NS 259 (1139–40 CE), a circumstance that makes it one of the earliest dated manuscripts of the Śivadharma collection.\""
+     ]
+    },
+    {
+     "type": "p",
+     "text": "(Та же исследовательница в сводке на с. 270 указывает дату этой рукописи как 1138–39 гг. н. э.; обе цифры принадлежат ей.)"
+    },
+    {
+     "type": "p",
+     "text": "Что эти свидетельства устанавливают. NAK 3–393 содержит «Дхармапутрикā» и датирована 24 мая 1069 г. н. э. Следовательно, к этой дате текст уже существовал, что даёт terminus ante quem (наиболее позднюю возможную дату составления) по приведённым выше рукописным свидетельствам."
+    },
+    {
+     "type": "p",
+     "text": "Чего они не устанавливают. Вставная фраза блога «(в Калькутте хранится рукопись XI века)» [S1] воспроизведена здесь как собственная формулировка исходной публикации. Блог не указывает, какую именно калькуттскую рукопись он имеет в виду, и привлечённые для этого документа источники этот вопрос не решают: Приложение I у Де Симини прямо не описывает рукописи Азиатского общества Калькутты и вместо этого отсылает читателя к каталогам — «Что до других рукописей, не входящих в эту категорию, — например тех, что находятся в Азиатском обществе Калькутты, — читатель отсылается к соответствующим каталогам» (De Simini 2016, с. 273 [S2]; оригинал EN: \"For other manuscripts not falling into this category — like those at the Asiatic Society of Calcutta — the reader is referred to the pertinent catalogues\"). Соответственно, никакого вывода об этой вставной фразе здесь не делается. Единственный относящийся к делу факт, сообщаемый источниками, — тот, что приведён в §2а: G 4077 (1036 г. н. э.) не содержит «Дхармапутрикā»."
+    },
+    {
+     "type": "h3",
+     "text": "3. Более поздняя научная статья К. Баруа (2020)"
+    },
+    {
+     "type": "p",
+     "text": "В своей научной статье 2020 года Баруа приводит датировку по рукописям, а затем обосновывает существенно более раннюю дату составления на основании текстовых параллелей:"
+    },
+    {
+     "type": "quote",
+     "paragraphs": [
+      "«„Дхармапутрикā“ — раннее произведение о йоге, дошедшее до нас в составе „корпуса Ш́ивадхарма“, собрания из восьми текстов, сохранившихся в нескольких непальских пальмовых рукописях XI–XII веков»."
+     ]
+    },
+    {
+     "type": "p",
+     "text": "— Barois 2020, с. 6 [S3]"
+    },
+    {
+     "type": "prose",
+     "key": "orig",
+     "label": "Оригинал (EN)",
+     "paragraphs": [
+      "\"The Dharmaputrikā is an early work on yoga that has been transmitted to us as part of the 'Śivadharma corpus,' a collection of eight texts preserved in several eleventh- and twelfth-century Nepalese palm-leaf manuscripts.\""
+     ]
+    },
+    {
+     "type": "p",
+     "text": "Она рассматривает дату «1069 г. н. э.», предложенную в New Catalogus Catalogorum, и указывает, что это дата копии, а не составления:"
+    },
+    {
+     "type": "quote",
+     "paragraphs": [
+      "«New Catalogus Catalogorum (NCC), том IX (1977), также высказывался в пользу поздней даты: „Дхармапутрикā — о йоге в 16 главах философского и тантрического характера; предположительно составлена в 1069 г. н. э. в правление Ш́ан̇кара Дева. Nepal I. с. 92, предисл. с. xlviii. Rep. Hpr.1895–1900, с. 6“. Это дата копии рукописи (что до санскритского текста колофона, где упоминается Ш́ан̇карадева, см. Petech, 1984: 46)»."
+     ]
+    },
+    {
+     "type": "p",
+     "text": "— Barois 2020, с. 16, прим. 28 [S3]"
+    },
+    {
+     "type": "prose",
+     "key": "orig",
+     "label": "Оригинал (EN)",
+     "paragraphs": [
+      "\"The New Catalogus Catalogorum (NCC) vol. IX (1977) also argued in favour of a late date: 'Dharmaputrikā - On yoga in 16 chs. of philosophical and tāntric nature; prob. composed in 1069 A.D. in the reign of Śaṅkara Deva. Nepal I. p. 92. pref. p. xlviii. Rep. Hpr.1895–1900, p. 6.' It is the date of the copy of the manuscript (as for the Sanskrit text of the colophon which quotes Śaṅkaradeva, see Petech, 1984: 46).\""
+     ]
+    },
+    {
+     "type": "p",
+     "text": "В той же статье она отмечает и единственную рукопись XI века, в которой «Дхармапутрикā» отсутствует:"
+    },
+    {
+     "type": "quote",
+     "paragraphs": [
+      "«„Дхармапутрикā“ заменена текстом под названием „Лалитавистара“ в единственной многотекстовой рукописи, датированной XI веком (о „Лалитавистаре“ см. De Simini and Mirnig, 2017)»."
+     ]
+    },
+    {
+     "type": "p",
+     "text": "— Barois 2020, с. 6, прим. 4 [S3]"
+    },
+    {
+     "type": "prose",
+     "key": "orig",
+     "label": "Оригинал (EN)",
+     "paragraphs": [
+      "\"The Dharmaputrikā is replaced by a text called Lalitavistara in a single, multiple-text manuscript dated from the eleventh century (on the Lalitavistara, see De Simini and Mirnig, 2017).\""
+     ]
+    },
+    {
+     "type": "p",
+     "text": "И она предлагает существенно более ранний terminus ad quem на основании параллелей с «Ш́ивадхармоттара»:"
+    },
+    {
+     "type": "quote",
+     "paragraphs": [
+      "«Учитывая отсутствие контекста у приведённых выше параллельных мест в „Ш́ивадхармоттара“, я предполагаю, что источником является „Дхармапутрикā“, а это означает, что её terminus ad quem — VII век, каковой считается предполагаемой датой составления „Ш́ивадхармоттара“. … Это делало бы „Дхармапутрикā“ древнейшим сохранившимся практическим руководством по йоге»."
+     ]
+    },
+    {
+     "type": "p",
+     "text": "— Barois 2020, с. 20–21 [S3]"
+    },
+    {
+     "type": "prose",
+     "key": "orig",
+     "label": "Оригинал (EN)",
+     "paragraphs": [
+      "\"Given the lack of context of the above parallel passages in the Śivadharmottara, I suggest that the Dharmaputrikā is the source, implying its terminus ad quem is the seventh century, which is the estimated date of composition of the Śivadharmottara. … This would make the Dharmaputrikā the earliest surviving practical manual on yoga.\""
+     ]
+    },
+    {
+     "type": "p",
+     "text": "Важно: дата «VII век» — это гипотеза Баруа, основанная на текстовых параллелях, а не дата рукописи. Ссылаться на неё следует как на её предположение, а не как на установленный факт."
+    },
+    {
+     "type": "h3",
+     "text": "4. Вторичный источник, повторяющий датировку «ок. X века»"
+    },
+    {
+     "type": "quote",
+     "paragraphs": [
+      "«… десятая глава о йогическом лечении (чикитсā) „Дхармапутрикā“ (ок. X века), текста корпуса Ш́ивадхарма (Barois, в печати)»."
+     ]
+    },
+    {
+     "type": "p",
+     "text": "— Powell 2018, с. 60 [S4]"
+    },
+    {
+     "type": "prose",
+     "key": "orig",
+     "label": "Оригинал (EN)",
+     "paragraphs": [
+      "\"… the tenth chapter on yogic medical treatment (cikitsā) of the Dharmaputrikā (c. 10th century), a text of the Śivadharma corpus (Barois forthcoming).\""
+     ]
+    },
+    {
+     "type": "p",
+     "text": "Пауэлл прямо относит датировку к Баруа («Barois forthcoming»), так что это вторичная ссылка, а не независимое рукописное свидетельство."
+    },
+    {
+     "type": "table",
+     "label": "5. Сводка по датировке (что можно и чего нельзя утверждать)",
+     "rows": [
+      [
+       "Утверждение",
+       "Статус",
+       "Источник"
+      ],
+      [
+       "Текст существовал к 24 мая 1069 г. н. э. (NAK 3–393 содержит его и датирована этим днём)",
+       "Документированный факт",
+       "De Simini 2016, с. 252 и прим. 49 [S2]"
+      ],
+      [
+       "«Составлена не позднее X века»",
+       "Утверждение исходной публикации, приведено как таковое",
+       "Barois 2017 [S1]"
+      ],
+      [
+       "«В Калькутте хранится рукопись XI века»",
+       "Утверждение исходной публикации; рукопись там не идентифицирована, и здесь она тоже не идентифицируется",
+       "Barois 2017 [S1]"
+      ],
+      [
+       "G 4077 (Калькутта, 1036 г. н. э.), самая ранняя из выявленных датированных рукописей корпуса, не содержит «Дхармапутрикā»",
+       "Документированный факт",
+       "De Simini 2016, с. 243 прим. 28; с. 251 прим. 44 [S2]"
+      ],
+      [
+       "Составление уже в VII веке",
+       "Гипотеза (текстовые параллели)",
+       "Barois 2020, с. 20–21 [S3]"
+      ],
+      [
+       "Глава о позах предшествует «Йогаш́āстра» Хемачандры (XII в.) не менее чем на два века",
+       "Утверждение исходной публикации",
+       "Barois 2017 [S1]"
+      ]
+     ]
+    }
+   ]
+  },
+  "en": {
+   "title": "Dating of the Text: Sources, Evidence, and Citations",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Methodological note. The passages in quotation marks below are verbatim from the publications named, and the page numbers refer to the printed pagination of those publications (not to PDF page numbers). Superscript footnote numbers in the originals are omitted from the quotations, and ellipses mark any omitted words. Each statement is attributed to the source that makes it; a source's own hypothesis is labelled as a hypothesis. Where the sources consulted here do not settle a question, that is stated openly instead of being resolved by conjecture. No judgement is passed on the accuracy of the source publication."
+    },
+    {
+     "type": "p",
+     "text": "1. What the source publication (the uploaded PDF) actually says The dating reproduced in the introduction above comes from the AyurYog blog post by Christèle Barois (19 January 2017). The relevant sentence reads, verbatim:"
+    },
+    {
+     "type": "quote",
+     "paragraphs": [
+      "\"It comprises about 350 ślokas and was composed in the 10th century at the latest (an 11th century manuscript is preserved in Calcutta).\""
+     ]
+    },
+    {
+     "type": "p",
+     "text": "— Christèle Barois, \"Eight Yoga Postures in the Dharmaputrikā,\" AyurYog blog, 19 Jan. 2017 [S1]"
+    },
+    {
+     "type": "p",
+     "text": "The same post adds, on the antiquity of the posture chapter relative to Hemacandra:"
+    },
+    {
+     "type": "quote",
+     "paragraphs": [
+      "\"This chapter is an ancient and unparalleled testimony of a systematic and detailed description of a closed group of yogic postures, preceding by at least two centuries the description of postures in the Yogaśāstra by Hemacandra (12th century).\""
+     ]
+    },
+    {
+     "type": "p",
+     "text": "— Barois 2017 [S1]"
+    },
+    {
+     "type": "p",
+     "text": "Links for [S1]: the original URL printed in the PDF is `https://ayuryog.org/blog/eight-yoga-postures-dharmaputrikā`. As of the date of checking, that address returns a 404 error; the text is preserved in the Internet Archive at <https://web.archive.org/web/20221207075113/http://ayuryog.org/blog/eight-yoga-postures-dharmaputrik%C4%81> (capture of 7 December 2022), which matches the uploaded PDF word for word."
+    },
+    {
+     "type": "p",
+     "text": "2. The manuscript evidence for the early transmission of the corpus The blog post does not name the manuscripts on which its dating rests. The published codicological evidence for the early manuscript transmission of the Śivadharma corpus is set out by Florinda De Simini (2016):"
+    },
+    {
+     "type": "p",
+     "text": "(a) The earliest dated manuscript of the corpus identified so far — which does NOT contain the Dharmaputrikā. The Asiatic Society of Calcutta manuscript G 4077 is dated by its colophon to NS 156 = 1035–36 CE (verified as 6 July 1036 CE by Petech, as reported by De Simini). De Simini writes: \"The earliest dated manuscript of the Śivadharma corpus identified so far is ASC G 4077\" (p. 243 n. 28). She also notes that this manuscript lacks the Dharmaputrikā:"
+    },
+    {
+     "type": "p",
+     "text": "Main text: \"The final colophon dates it to NS 156 (1035–36 CE)\" (p. 251)."
+    },
+    {
+     "type": "p",
+     "text": "Footnote 44: \"this manuscript also exhibits the unique feature of missing the Dharmaputrikā, which is replaced by a longer work titled Lalitavistara\" (p. 251 n. 44)."
+    },
+    {
+     "type": "p",
+     "text": "— De Simini 2016 [S2]; the date is verified as 6 July 1036 CE by Petech 1984, 36, as cited by De Simini."
+    },
+    {
+     "type": "p",
+     "text": "(b) An early dated manuscript that DOES contain the Dharmaputrikā (1069 CE). This is Kathmandu, National Archives, NAK 3–393 (NGMPP A 1082/3), whose colophon is placed immediately after the final heading of the Dharmaputrikā and is dated NS 189 = 24 May 1069 CE:"
+    },
+    {
+     "type": "quote",
+     "paragraphs": [
+      "\"This colophon is placed immediately after the final heading of the Dharmaputrikā … and dates the completion of the manuscript to … NS 189 (May 24, 1069 CE).\""
+     ]
+    },
+    {
+     "type": "p",
+     "text": "— De Simini 2016, p. 252 and n. 49 [S2]"
+    },
+    {
+     "type": "p",
+     "text": "(c) A further early dated witness. Cambridge, University Library, MS Add. 1645, dated NS 259 = 1139–40 CE:"
+    },
+    {
+     "type": "quote",
+     "paragraphs": [
+      "\"This is a palm leaf manuscript consisting of 247 folios and dated in the final colophon to NS 259 (1139–40 CE), a circumstance that makes it one of the earliest dated manuscripts of the Śivadharma collection.\""
+     ]
+    },
+    {
+     "type": "p",
+     "text": "— De Simini 2016, p. 243 [S2]"
+    },
+    {
+     "type": "p",
+     "text": "(The same author gives this manuscript's date as 1138–39 CE in the summary on p. 270; both figures are hers.)"
+    },
+    {
+     "type": "p",
+     "text": "What this evidence establishes. NAK 3–393 contains the Dharmaputrikā and is dated 24 May 1069 CE. The text therefore existed by that date, which is a terminus ante quem (the latest possible date of composition) on the manuscript evidence quoted above."
+    },
+    {
+     "type": "p",
+     "text": "What it does not establish. The blog's parenthetical \"(an 11th century manuscript is preserved in Calcutta)\" [S1] is reproduced here as the source publication's own wording. The blog does not identify which Calcutta manuscript it means, and the sources consulted for this document do not settle that question: De Simini's Appendix I expressly does not describe the Asiatic Society of Calcutta manuscripts and refers the reader to the catalogues instead — \"For other manuscripts not falling into this category — like those at the Asiatic Society of Calcutta — the reader is referred to the pertinent catalogues\" (De Simini 2016, p. 273 [S2]). Accordingly, no conclusion is drawn here about that parenthetical statement. The only related fact reported by the sources is the one quoted in §2a: G 4077 (1036 CE) does not contain the Dharmaputrikā."
+    },
+    {
+     "type": "h3",
+     "text": "3. The author's own later academic article (2020)"
+    },
+    {
+     "type": "p",
+     "text": "In her 2020 academic article, Barois gives the manuscript-based dating and then argues for a considerably earlier composition date on the basis of textual parallels:"
+    },
+    {
+     "type": "quote",
+     "paragraphs": [
+      "\"The Dharmaputrikā is an early work on yoga that has been transmitted to us as part of the 'Śivadharma corpus,' a collection of eight texts preserved in several eleventh- and twelfth-century Nepalese palm-leaf manuscripts.\""
+     ]
+    },
+    {
+     "type": "p",
+     "text": "— Barois 2020, p. 6 [S3]"
+    },
+    {
+     "type": "p",
+     "text": "She addresses the \"1069 A.D.\" date proposed in the New Catalogus Catalogorum, stating that it is the date of the copy, not of composition:"
+    },
+    {
+     "type": "quote",
+     "paragraphs": [
+      "\"The New Catalogus Catalogorum (NCC) vol. IX (1977) also argued in favour of a late date: 'Dharmaputrikā - On yoga in 16 chs. of philosophical and tāntric nature; prob. composed in 1069 A.D. in the reign of Śaṅkara Deva. Nepal I. p. 92. pref. p. xlviii. Rep. Hpr.1895–1900, p. 6.' It is the date of the copy of the manuscript (as for the Sanskrit text of the colophon which quotes Śaṅkaradeva, see Petech, 1984: 46).\""
+     ]
+    },
+    {
+     "type": "p",
+     "text": "— Barois 2020, p. 16, n. 28 [S3]"
+    },
+    {
+     "type": "p",
+     "text": "In the same article she also records the one eleventh-century manuscript in which the Dharmaputrikā is absent:"
+    },
+    {
+     "type": "quote",
+     "paragraphs": [
+      "\"The Dharmaputrikā is replaced by a text called Lalitavistara in a single, multiple-text manuscript dated from the eleventh century (on the Lalitavistara, see De Simini and Mirnig, 2017).\""
+     ]
+    },
+    {
+     "type": "p",
+     "text": "— Barois 2020, p. 6, n. 4 [S3]"
+    },
+    {
+     "type": "p",
+     "text": "And she proposes a much earlier terminus ad quem on the basis of parallels with the Śivadharmottara:"
+    },
+    {
+     "type": "quote",
+     "paragraphs": [
+      "\"Given the lack of context of the above parallel passages in the Śivadharmottara, I suggest that the Dharmaputrikā is the source, implying its terminus ad quem is the seventh century, which is the estimated date of composition of the Śivadharmottara. … This would make the Dharmaputrikā the earliest surviving practical manual on yoga.\""
+     ]
+    },
+    {
+     "type": "p",
+     "text": "— Barois 2020, pp. 20–21 [S3]"
+    },
+    {
+     "type": "p",
+     "text": "Important: the \"seventh century\" date is Barois's hypothesis based on textual parallels, not a manuscript date. It should be cited as her suggestion, not as an established fact."
+    },
+    {
+     "type": "p",
+     "text": "4. A secondary source repeating the \"c. 10th century\" dating \"… the tenth chapter on yogic medical treatment (cikitsā) of the Dharmaputrikā (c. 10th century), a text of the Śivadharma corpus (Barois forthcoming).\""
+    },
+    {
+     "type": "p",
+     "text": "— Powell 2018, p. 60 [S4]"
+    },
+    {
+     "type": "p",
+     "text": "Powell expressly refers the dating to Barois (\"Barois forthcoming\"), so this is a secondary citation rather than independent manuscript evidence."
+    },
+    {
+     "type": "table",
+     "label": "5. Summary of the dating (what can and cannot be asserted)",
+     "rows": [
+      [
+       "Claim",
+       "Status",
+       "Source"
+      ],
+      [
+       "Text existed by 24 May 1069 CE (NAK 3–393 contains it and is dated to that day)",
+       "Documented fact",
+       "De Simini 2016, p. 252 and n. 49 [S2]"
+      ],
+      [
+       "\"Composed in the 10th century at the latest\"",
+       "Statement of the source publication, quoted as such",
+       "Barois 2017 [S1]"
+      ],
+      [
+       "\"An 11th century manuscript is preserved in Calcutta\"",
+       "Statement of the source publication; the manuscript is not identified there, and is not identified here either",
+       "Barois 2017 [S1]"
+      ],
+      [
+       "G 4077 (Calcutta, 1036 CE), the earliest dated corpus MS identified so far, lacks the Dharmaputrikā",
+       "Documented fact",
+       "De Simini 2016, p. 243 n. 28; p. 251 n. 44 [S2]"
+      ],
+      [
+       "Composition as early as the 7th century",
+       "Hypothesis (textual parallels)",
+       "Barois 2020, pp. 20–21 [S3]"
+      ],
+      [
+       "Posture chapter precedes Hemacandra's Yogaśāstra (12th c.) by ≥2 centuries",
+       "Statement of the source publication",
+       "Barois 2017 [S1]"
+      ]
+     ]
+    }
+   ]
+  }
+ },
+ "datingSummary": {
+  "note": {
+   "ru": "Никаких суждений о точности исходной публикации здесь не выносится.",
+   "en": "No judgement is passed on the accuracy of the source publication."
+  },
+  "note2": {
+   "ru": "Важно: дата «VII век» — это гипотеза Баруа, основанная на текстовых параллелях, а не дата рукописи. Ссылаться на неё следует как на её предположение, а не как на установленный факт.",
+   "en": "Important: the \"seventh century\" date is Barois's hypothesis based on textual parallels, not a manuscript date. It should be cited as her suggestion, not as an established fact."
+  },
+  "groups": [
+   {
+    "title": {
+     "ru": "Документированный факт",
+     "en": "Documented fact"
+    },
+    "label": {
+     "ru": "Источник",
+     "en": "Source"
+    },
+    "items": [
+     {
+      "who": {
+       "ru": "Текст существовал к 24 мая 1069 г. н. э. (NAK 3–393 содержит его и датирована этим днём)",
+       "en": "Text existed by 24 May 1069 CE (NAK 3–393 contains it and is dated to that day)"
+      },
+      "when": {
+       "ru": "Документированный факт",
+       "en": "Documented fact"
+      },
+      "work": {
+       "ru": "De Simini 2016, с. 252 и прим. 49 [S2]",
+       "en": "De Simini 2016, p. 252 and n. 49 [S2]"
+      }
+     },
+     {
+      "who": {
+       "ru": "G 4077 (Калькутта, 1036 г. н. э.), самая ранняя из выявленных датированных рукописей корпуса, не содержит «Дхармапутрикā»",
+       "en": "G 4077 (Calcutta, 1036 CE), the earliest dated corpus MS identified so far, lacks the Dharmaputrikā"
+      },
+      "when": {
+       "ru": "Документированный факт",
+       "en": "Documented fact"
+      },
+      "work": {
+       "ru": "De Simini 2016, с. 243 прим. 28; с. 251 прим. 44 [S2]",
+       "en": "De Simini 2016, p. 243 n. 28; p. 251 n. 44 [S2]"
+      }
+     }
+    ]
+   },
+   {
+    "title": {
+     "ru": "Утверждение исходной публикации",
+     "en": "Statement of the source publication"
+    },
+    "label": {
+     "ru": "Источник",
+     "en": "Source"
+    },
+    "items": [
+     {
+      "who": {
+       "ru": "«Составлена не позднее X века»",
+       "en": "\"Composed in the 10th century at the latest\""
+      },
+      "when": {
+       "ru": "Утверждение исходной публикации, приведено как таковое",
+       "en": "Statement of the source publication, quoted as such"
+      },
+      "work": {
+       "ru": "Barois 2017 [S1]",
+       "en": "Barois 2017 [S1]"
+      }
+     },
+     {
+      "who": {
+       "ru": "«В Калькутте хранится рукопись XI века»",
+       "en": "\"An 11th century manuscript is preserved in Calcutta\""
+      },
+      "when": {
+       "ru": "Утверждение исходной публикации; рукопись там не идентифицирована, и здесь она тоже не идентифицируется",
+       "en": "Statement of the source publication; the manuscript is not identified there, and is not identified here either"
+      },
+      "work": {
+       "ru": "Barois 2017 [S1]",
+       "en": "Barois 2017 [S1]"
+      }
+     },
+     {
+      "who": {
+       "ru": "Глава о позах предшествует «Йогаш́āстра» Хемачандры (XII в.) не менее чем на два века",
+       "en": "Posture chapter precedes Hemacandra's Yogaśāstra (12th c.) by ≥2 centuries"
+      },
+      "when": {
+       "ru": "Утверждение исходной публикации",
+       "en": "Statement of the source publication"
+      },
+      "work": {
+       "ru": "Barois 2017 [S1]",
+       "en": "Barois 2017 [S1]"
+      }
+     }
+    ]
+   },
+   {
+    "title": {
+     "ru": "Гипотеза (текстовые параллели)",
+     "en": "Hypothesis (textual parallels)"
+    },
+    "label": {
+     "ru": "Источник",
+     "en": "Source"
+    },
+    "items": [
+     {
+      "who": {
+       "ru": "Составление уже в VII веке",
+       "en": "Composition as early as the 7th century"
+      },
+      "when": {
+       "ru": "Гипотеза (текстовые параллели)",
+       "en": "Hypothesis (textual parallels)"
+      },
+      "work": {
+       "ru": "Barois 2020, с. 20–21 [S3]",
+       "en": "Barois 2020, pp. 20–21 [S3]"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "prologue": {
+  "ru": [
+   {
+    "type": "subhead",
+    "label": "Вступительное наставление и перечень восьми поз (стихи 1–4)"
+   },
+   {
+    "type": "verse_card",
+    "verses": "1",
+    "sections": [
+     {
+      "type": "verse",
+      "key": "deva",
+      "label": "Деванāгарӣ",
+      "lines": [
+       "अष्टभिः साधनैरेभिश्चित्तं कायं च यत्नतः ।",
+       "शोधयित्वा ततो योगी योगाभ्यासं समाचरेत्॥१॥"
+      ]
+     },
+     {
+      "type": "verse",
+      "key": "iast",
+      "label": "IAST",
+      "lines": [
+       "aṣṭabhiḥ sādhanair ebhiś cittaṃ kāyaṃ ca yatnataḥ |",
+       "śodhayitvā tato yogī yogābhyāsaṃ samācaret ||1||"
+      ]
+     },
+     {
+      "type": "verse",
+      "key": "cyr",
+      "label": "Кириллическая транслитерация",
+      "lines": [
+       "ашт̣абхих̣ сāдханаир ебхиш́ читтам̣ кāйам̣ ча йатнатах̣ |",
+       "ш́одхайитвā тато йогӣ йогāбхйāсам̣ самāчарет ||1||"
+      ]
+     }
+    ]
+   },
+   {
+    "type": "verse_card",
+    "verses": "2",
+    "sections": [
+     {
+      "type": "verse",
+      "key": "deva",
+      "label": "Деванāгарӣ",
+      "lines": [
+       "इष्टदेवं नमस्कृत्योपाध्यायं चैव यत्नतः ।",
+       "आतिष्ठेत्प्राङ्मुखो भूत्वा शुचिर्योगी विशेषतः ॥२॥"
+      ]
+     },
+     {
+      "type": "verse",
+      "key": "iast",
+      "label": "IAST",
+      "lines": [
+       "iṣṭadevaṃ namaskṛtyopādhyāyaṃ caiva yatnataḥ |",
+       "ātiṣṭhet prāṅmukho bhūtvā śucir yogī viśeṣataḥ ||2||"
+      ]
+     },
+     {
+      "type": "verse",
+      "key": "cyr",
+      "label": "Кириллическая транслитерация",
+      "lines": [
+       "ишт̣адевам̣ намаскр̣тйопāдхйāйам̣ чаива йатнатах̣ |",
+       "āтишт̣хет прāн̇мукхо бхӯтвā ш́учир йогӣ виш́ешатах̣ ||2||"
+      ]
+     }
+    ]
+   },
+   {
+    "type": "verse_card",
+    "verses": "3",
+    "sections": [
+     {
+      "type": "verse",
+      "key": "deva",
+      "label": "Деванāгарӣ",
+      "lines": [
+       "पद्मस्वस्तिकपीठानि स्थलमञ्जलिकासनं।",
+       "अर्धचन्द्रञ्च दण्डञ्च सर्वतोभद्रमेव च ॥३॥"
+      ]
+     },
+     {
+      "type": "verse",
+      "key": "iast",
+      "label": "IAST",
+      "lines": [
+       "padmasvastikapīṭhāni sthalam añjalikāsanam |",
+       "ardhacandrañ ca daṇḍañ ca sarvatobhadram eva ca ||3||"
+      ]
+     },
+     {
+      "type": "verse",
+      "key": "cyr",
+      "label": "Кириллическая транслитерация",
+      "lines": [
+       "падмасвастикапӣт̣хāни стхалам ан̃джаликāсанам |",
+       "ардхачандран̃ ча дан̣д̣ан̃ ча сарватобхадрам ева ча ||3||"
+      ]
+     }
+    ]
+   },
+   {
+    "type": "verse_card",
+    "verses": "4",
+    "sections": [
+     {
+      "type": "verse",
+      "key": "deva",
+      "label": "Деванāгарӣ",
+      "lines": [
+       "एवं नामभिरष्टाभिरासनप्रकरणं स्मृतं।",
+       "तेषां संस्थानभेदन्तु प्रवक्ष्यामि यथाक्रमं॥४॥"
+      ]
+     },
+     {
+      "type": "verse",
+      "key": "iast",
+      "label": "IAST",
+      "lines": [
+       "evaṃ nāmabhir aṣṭābhir āsanaprakaraṇaṃ smṛtam |",
+       "teṣāṃ saṃsthānabhedan tu pravakṣyāmi yathākramam ||4||"
+      ]
+     },
+     {
+      "type": "verse",
+      "key": "cyr",
+      "label": "Кириллическая транслитерация",
+      "lines": [
+       "евам̣ нāмабхир ашт̣āбхир āсанапракаран̣ам̣ смр̣там |",
+       "тешāм̣ сам̣стхāнабхедан ту правакшйāми йатхāкрамам ||4||"
+      ]
+     }
+    ]
+   },
+   {
+    "type": "words",
+    "label": "Пословный разбор",
+    "titles": [
+     "Стих 1",
+     "Стих 2",
+     "Стих 3",
+     "Стих 4"
+    ],
+    "groups": [
+     [
+      [
+       "ашт̣абхих̣",
+       "восемью (творительный падеж множественного числа)"
+      ],
+      [
+       "сāдханаих̣",
+       "средствами / практиками"
+      ],
+      [
+       "ебхих̣",
+       "этими"
+      ],
+      [
+       "читтам",
+       "ум"
+      ],
+      [
+       "кāйам",
+       "тело"
+      ],
+      [
+       "ча",
+       "и"
+      ],
+      [
+       "йатнатах̣",
+       "усердно, с усилием"
+      ],
+      [
+       "ш́одхайитвā",
+       "очистив"
+      ],
+      [
+       "татах̣",
+       "затем"
+      ],
+      [
+       "йогӣ",
+       "йогин"
+      ],
+      [
+       "йога-абхйāсам",
+       "повторяющуюся практику йоги"
+      ],
+      [
+       "самāчарет",
+       "должен предпринять / совершать"
+      ]
+     ],
+     [
+      [
+       "ишт̣а-девам",
+       "избранному божеству"
+      ],
+      [
+       "намаскр̣тйа",
+       "поклонившись"
+      ],
+      [
+       "упāдхйāйам",
+       "наставнику / учителю"
+      ],
+      [
+       "ча ева",
+       "а также"
+      ],
+      [
+       "йатнатах̣",
+       "тщательно"
+      ],
+      [
+       "āтишт̣хет",
+       "должен принять / встать в [позы] (оптатив от ā + стхā)"
+      ],
+      [
+       "прāн̇-мукхах̣",
+       "обращённый лицом на восток"
+      ],
+      [
+       "бхӯтвā",
+       "став"
+      ],
+      [
+       "ш́учих̣",
+       "чистый"
+      ],
+      [
+       "йогӣ",
+       "йогин"
+      ],
+      [
+       "виш́ешатах̣",
+       "в особенности"
+      ]
+     ],
+     [
+      [
+       "падма",
+       "лотос"
+      ],
+      [
+       "свастика",
+       "свастика"
+      ],
+      [
+       "пӣт̣хāни",
+       "троны (множественное число, объединяет первые три названия)"
+      ],
+      [
+       "стхалам",
+       "холм"
+      ],
+      [
+       "ан̃джаликā-āсанам",
+       "поза сложенных рук"
+      ],
+      [
+       "ардха-чандрам",
+       "полумесяц"
+      ],
+      [
+       "ча",
+       "и"
+      ],
+      [
+       "дан̣д̣ам",
+       "посох"
+      ],
+      [
+       "сарвато-бхадрам",
+       "всеблагой"
+      ],
+      [
+       "ева ча",
+       "а также"
+      ]
+     ],
+     [
+      [
+       "евам",
+       "так"
+      ],
+      [
+       "нāмабхих̣",
+       "именами"
+      ],
+      [
+       "ашт̣āбхих̣",
+       "восемью"
+      ],
+      [
+       "āсана-пракаран̣ам",
+       "раздел / тема о позах"
+      ],
+      [
+       "смр̣там",
+       "преподаётся / передаётся (буквально «вспоминается»)"
+      ],
+      [
+       "тешāм",
+       "их"
+      ],
+      [
+       "сам̣стхāна-бхедам",
+       "различия форм / конфигураций"
+      ],
+      [
+       "ту",
+       "и / же"
+      ],
+      [
+       "правакшйāми",
+       "я изложу"
+      ],
+      [
+       "йатхā-крамам",
+       "в должной последовательности"
+      ]
+     ]
+    ]
+   },
+   {
+    "type": "prose",
+    "key": "literal",
+    "label": "Буквальный перевод",
+    "paragraphs": [
+     "Усердно очистив ум и тело этими восемью средствами, йогин должен затем предпринять практику йоги. Тщательно поклонившись избранному божеству и наставнику, йогин, став чистым и обратившись лицом на восток, должен в особенности принять [позы]. Лотос, свастика, троны, холм, поза сложенных рук, полумесяц, посох и всеблагой: так раздел о позах передаётся посредством восьми имён; я изложу различия их форм в должной последовательности."
+    ]
+   },
+   {
+    "type": "prose",
+    "key": "literary",
+    "label": "Литературный перевод (К. Баруа; перевод с английского)",
+    "paragraphs": [
+     "Очистив ум и тело усердно восемью средствами [которые только что были упомянуты], йогин затем предпринимает повторяющуюся практику, направленную на йогу. (1) Поклонившись [своему] избранному божеству и [своему] наставнику тщательно, обратившись лицом на восток, йогин, после того как он стал чистым, должен принять в особенности [следующие позы]: (2) лотос, свастику, трон, холм, позу сложенных рук и полумесяц, посох и всеблагой. (3) Так предмет, относящийся к позам, преподаётся посредством [этих] восьми имён; я изложу различия их форм в должной последовательности. (4)"
+    ]
+   },
+   {
+    "type": "note",
+    "paragraphs": [
+     "«Восемь средств» (ашт̣ау сāдханāни) — это восемь вспомогательных практик, описанных в предшествующей главе «Дхармапутрикā»; это предварительное очищение, требуемое перед практикой поз.",
+     "Обращённость лицом на восток (прāн̇мукха) и ритуальная чистота (ш́учи) — стандартные предварительные условия йогической и ритуальной практики.",
+     "В стихе 3 первые три позы объединены в сложное слово среднего рода во множественном числе (падма-свастика-пӣт̣хāни), после чего остальные пять названы по отдельности.",
+     "В стихе 4 издание читает сам̣стхāнабхедан ту (с конечным -n); это редакторская передача анусвары перед t- вместо сам̣стхāнабхедам̣ ту («различия форм»)."
+    ]
+   }
+  ],
+  "en": [
+   {
+    "type": "subhead",
+    "label": "Opening Instruction and the List of the Eight Postures (verses 1–4)"
+   },
+   {
+    "type": "verse_card",
+    "verses": "1",
+    "sections": [
+     {
+      "type": "verse",
+      "key": "deva",
+      "label": "Devanāgarī",
+      "lines": [
+       "अष्टभिः साधनैरेभिश्चित्तं कायं च यत्नतः ।",
+       "शोधयित्वा ततो योगी योगाभ्यासं समाचरेत्॥१॥"
+      ]
+     },
+     {
+      "type": "verse",
+      "key": "iast",
+      "label": "IAST",
+      "lines": [
+       "aṣṭabhiḥ sādhanair ebhiś cittaṃ kāyaṃ ca yatnataḥ |",
+       "śodhayitvā tato yogī yogābhyāsaṃ samācaret ||1||"
+      ]
+     },
+     {
+      "type": "verse",
+      "key": "cyr",
+      "label": "Cyrillic transliteration",
+      "lines": [
+       "ашт̣абхих̣ сāдханаир ебхиш́ читтам̣ кāйам̣ ча йатнатах̣ |",
+       "ш́одхайитвā тато йогӣ йогāбхйāсам̣ самāчарет ||1||"
+      ]
+     }
+    ]
+   },
+   {
+    "type": "verse_card",
+    "verses": "2",
+    "sections": [
+     {
+      "type": "verse",
+      "key": "deva",
+      "label": "Devanāgarī",
+      "lines": [
+       "इष्टदेवं नमस्कृत्योपाध्यायं चैव यत्नतः ।",
+       "आतिष्ठेत्प्राङ्मुखो भूत्वा शुचिर्योगी विशेषतः ॥२॥"
+      ]
+     },
+     {
+      "type": "verse",
+      "key": "iast",
+      "label": "IAST",
+      "lines": [
+       "iṣṭadevaṃ namaskṛtyopādhyāyaṃ caiva yatnataḥ |",
+       "ātiṣṭhet prāṅmukho bhūtvā śucir yogī viśeṣataḥ ||2||"
+      ]
+     },
+     {
+      "type": "verse",
+      "key": "cyr",
+      "label": "Cyrillic transliteration",
+      "lines": [
+       "ишт̣адевам̣ намаскр̣тйопāдхйāйам̣ чаива йатнатах̣ |",
+       "āтишт̣хет прāн̇мукхо бхӯтвā ш́учир йогӣ виш́ешатах̣ ||2||"
+      ]
+     }
+    ]
+   },
+   {
+    "type": "verse_card",
+    "verses": "3",
+    "sections": [
+     {
+      "type": "verse",
+      "key": "deva",
+      "label": "Devanāgarī",
+      "lines": [
+       "पद्मस्वस्तिकपीठानि स्थलमञ्जलिकासनं।",
+       "अर्धचन्द्रञ्च दण्डञ्च सर्वतोभद्रमेव च ॥३॥"
+      ]
+     },
+     {
+      "type": "verse",
+      "key": "iast",
+      "label": "IAST",
+      "lines": [
+       "padmasvastikapīṭhāni sthalam añjalikāsanam |",
+       "ardhacandrañ ca daṇḍañ ca sarvatobhadram eva ca ||3||"
+      ]
+     },
+     {
+      "type": "verse",
+      "key": "cyr",
+      "label": "Cyrillic transliteration",
+      "lines": [
+       "падмасвастикапӣт̣хāни стхалам ан̃джаликāсанам |",
+       "ардхачандран̃ ча дан̣д̣ан̃ ча сарватобхадрам ева ча ||3||"
+      ]
+     }
+    ]
+   },
+   {
+    "type": "verse_card",
+    "verses": "4",
+    "sections": [
+     {
+      "type": "verse",
+      "key": "deva",
+      "label": "Devanāgarī",
+      "lines": [
+       "एवं नामभिरष्टाभिरासनप्रकरणं स्मृतं।",
+       "तेषां संस्थानभेदन्तु प्रवक्ष्यामि यथाक्रमं॥४॥"
+      ]
+     },
+     {
+      "type": "verse",
+      "key": "iast",
+      "label": "IAST",
+      "lines": [
+       "evaṃ nāmabhir aṣṭābhir āsanaprakaraṇaṃ smṛtam |",
+       "teṣāṃ saṃsthānabhedan tu pravakṣyāmi yathākramam ||4||"
+      ]
+     },
+     {
+      "type": "verse",
+      "key": "cyr",
+      "label": "Cyrillic transliteration",
+      "lines": [
+       "евам̣ нāмабхир ашт̣āбхир āсанапракаран̣ам̣ смр̣там |",
+       "тешāм̣ сам̣стхāнабхедан ту правакшйāми йатхāкрамам ||4||"
+      ]
+     }
+    ]
+   },
+   {
+    "type": "words",
+    "label": "Word-for-word Analysis",
+    "titles": [
+     "Verse 1",
+     "Verse 2",
+     "Verse 3",
+     "Verse 4"
+    ],
+    "groups": [
+     [
+      [
+       "aṣṭabhiḥ",
+       "by the eight (instrumental plural)"
+      ],
+      [
+       "sādhanaiḥ",
+       "means / practices"
+      ],
+      [
+       "ebhiḥ",
+       "these"
+      ],
+      [
+       "cittam",
+       "the mind"
+      ],
+      [
+       "kāyam",
+       "the body"
+      ],
+      [
+       "ca",
+       "and"
+      ],
+      [
+       "yatnataḥ",
+       "diligently, with effort"
+      ],
+      [
+       "śodhayitvā",
+       "having purified"
+      ],
+      [
+       "tataḥ",
+       "then"
+      ],
+      [
+       "yogī",
+       "the yogin"
+      ],
+      [
+       "yoga-abhyāsam",
+       "the repeated practice of yoga"
+      ],
+      [
+       "samācaret",
+       "should undertake / perform"
+      ]
+     ],
+     [
+      [
+       "iṣṭa-devam",
+       "[one's] chosen deity"
+      ],
+      [
+       "namaskṛtya",
+       "having paid homage"
+      ],
+      [
+       "upādhyāyam",
+       "to the preceptor / teacher"
+      ],
+      [
+       "ca eva",
+       "and also"
+      ],
+      [
+       "yatnataḥ",
+       "carefully"
+      ],
+      [
+       "ātiṣṭhet",
+       "should assume / stand in [the postures] (optative of ā + sthā)"
+      ],
+      [
+       "prāṅ-mukhaḥ",
+       "facing east"
+      ],
+      [
+       "bhūtvā",
+       "having become"
+      ],
+      [
+       "śuciḥ",
+       "pure"
+      ],
+      [
+       "yogī",
+       "the yogin"
+      ],
+      [
+       "viśeṣataḥ",
+       "in particular"
+      ]
+     ],
+     [
+      [
+       "padma",
+       "the lotus"
+      ],
+      [
+       "svastika",
+       "the svastika"
+      ],
+      [
+       "pīṭhāni",
+       "the thrones (plural, grouping the first three names)"
+      ],
+      [
+       "sthalam",
+       "the mound"
+      ],
+      [
+       "añjalikā-āsanam",
+       "the joined-hands posture"
+      ],
+      [
+       "ardha-candram",
+       "the half-moon"
+      ],
+      [
+       "ca",
+       "and"
+      ],
+      [
+       "daṇḍam",
+       "the staff"
+      ],
+      [
+       "sarvato-bhadram",
+       "the all-auspicious"
+      ],
+      [
+       "eva ca",
+       "and also"
+      ]
+     ],
+     [
+      [
+       "evam",
+       "thus"
+      ],
+      [
+       "nāmabhiḥ",
+       "by the names"
+      ],
+      [
+       "aṣṭābhiḥ",
+       "eight"
+      ],
+      [
+       "āsana-prakaraṇam",
+       "the section / topic on the postures"
+      ],
+      [
+       "smṛtam",
+       "is taught / handed down (literally 'remembered')"
+      ],
+      [
+       "teṣām",
+       "of them"
+      ],
+      [
+       "saṃsthāna-bhedam",
+       "the different forms / configurations"
+      ],
+      [
+       "tu",
+       "and / now"
+      ],
+      [
+       "pravakṣyāmi",
+       "I will explain"
+      ],
+      [
+       "yathā-kramam",
+       "in due succession"
+      ]
+     ]
+    ]
+   },
+   {
+    "type": "prose",
+    "key": "literal",
+    "label": "Literal Translation",
+    "paragraphs": [
+     "Having diligently purified the mind and the body by these eight means, the yogin should then undertake the practice of yoga. Having carefully paid homage to the chosen deity and to the preceptor, the yogin, having become pure and facing east, should in particular assume [the postures]. The lotus, the svastika, the thrones, the mound, the joined-hands posture, the half-moon, the staff, and the all-auspicious: thus the section on the postures is handed down through eight names; I will explain their different forms in due succession."
+    ]
+   },
+   {
+    "type": "prose",
+    "key": "literary",
+    "label": "Literary Translation",
+    "paragraphs": [
+     "After purifying the mind and the body diligently by the eight means [that have just been mentioned], the yogin then undertakes the repeated practice which aims at yoga. (1) Having paid homage to [his] chosen deity and to [his] preceptor carefully, facing East, the yogin, after he has become pure, should assume [the following postures] in particular: (2) the lotus, the svastika, the throne, the mound, the joined-hands-posture, and the half-moon, the staff and the all-auspicious. (3) Thus, the subject relating to the postures is taught through [these] eight names; I will explain their different forms, in due succession. (4)"
+    ]
+   },
+   {
+    "type": "note",
+    "paragraphs": [
+     "The \"eight means\" (aṣṭau sādhanāni) refer to the eight auxiliary practices described in the preceding chapter of the Dharmaputrikā; they are the preliminary purification required before postural practice.",
+     "Facing east (prāṅmukha) and ritual purity (śuci) are standard preliminary conditions for yogic and ritual practice.",
+     "In verse 3 the first three postures are grouped in a neuter plural compound (padma-svastika-pīṭhāni), after which the remaining five are named individually.",
+     "In verse 4 the edition reads saṃsthānabhedan tu (with a final -n); this is an editorial realization of the anusvāra before t-, for saṃsthānabhedaṃ tu (\"the different forms\")."
+    ]
+   }
+  ]
+ },
+ "appendix": {
+  "ru": [
+   {
+    "type": "subhead",
+    "label": "Библиография (источники датировки)"
+   },
+   {
+    "type": "p",
+    "text": "[S1] Barois, Christèle. 2017. «Eight Yoga Postures in the Dharmaputrikā». AyurYog (блог проекта, Венский университет), 19 января 2017 г. Исходный адрес (как напечатано в загруженном PDF): `https://ayuryog.org/blog/eight-yoga-postures-dharmaputrikā` — в настоящее время возвращает ошибку 404. Архивная версия (проверена, совпадает с загруженным PDF): <https://web.archive.org/web/20221207075113/http://ayuryog.org/blog/eight-yoga-postures-dharmaputrik%C4%81> (снимок Internet Archive, 7 декабря 2022 г.)."
+   },
+   {
+    "type": "p",
+    "text": "[S2] De Simini, Florinda. 2016. «Śivadharma Manuscripts from Nepal and the Making of a Śaiva Corpus». В кн.: One-Volume Libraries: Composite and Multiple-Text Manuscripts, под ред. Michael Friedrich и Cosima Schwarke, с. 233–286. Berlin / Boston: De Gruyter. DOI: <https://doi.org/10.1515/9783110496956-009>. Открытый доступ (авторская версия):"
+   },
+   {
+    "type": "p",
+    "text": "<https://unora.unior.it/retrieve/dfd1bedc-f5d9-d55a-e053-3705fe0af723/De%20Simini%202016a%20S%CC%81ivadharma%20mss%20final.pdf>. Цитируемые места: с. 243 и прим. 28 (ULC Add. 1645, 1139–40 гг. н. э.; ASC G 4077 названа самой ранней из выявленных датированных рукописей корпуса); с. 251 и прим. 44, 47 (ASC G 4077, 1035–36 гг. н. э. / 6 июля 1036 г., не содержит «Дхармапутрикā»); с. 252 и прим. 49 (NAK 3–393, 24 мая 1069 г. н. э., содержит «Дхармапутрикā»); с. 270 (сводка датированных рукописей, где Add. 1645 указана как 1138–39 гг. н. э.); с. 273 (Приложение I: рукописи Азиатского общества Калькутты там не описаны, читатель отсылается к каталогам)."
+   },
+   {
+    "type": "p",
+    "text": "[S3] Barois, Christèle. 2020. «The Dharmaputrikā Saṃhitā: Preliminary Notes on an Early Text on Yoga». Journal of Yoga Studies 3: 5–76. DOI: <https://doi.org/10.34000/JoYS.2020.V3.002>. Открытый доступ: <https://journalofyogastudies.org/index.php/JoYS/article/download/2020.V3.BAROIS.DhPS/2020.V3.BAROIS.DhPS/117>. Цитируемые места: с. 6 (рукописи XI–XII вв.; около 350 шлок в шестнадцати главах); с. 6, прим. 4 (единственная рукопись XI в., где «Лалитавистара» заменяет «Дхармапутрикā»); с. 6, прим. 5 (соредакторы критического издания); с. 16, прим. 28 (дата «1069 г. н. э.» определена как дата копии рукописи); с. 20–21 (гипотеза о terminus ad quem VII века)."
+   },
+   {
+    "type": "p",
+    "text": "[S4] Powell, Seth. 2018. «Etched in Stone: Sixteenth-century Visual and Material Evidence of Śaiva Ascetics and Yogis in Complex Non-seated Āsanas at Vijayanagara». Journal of Yoga Studies 1: 45–106. DOI: <https://doi.org/10.34000/JoYS.2018.V1.003>. Открытый доступ: <https://journalofyogastudies.org/index.php/JoYS/article/download/2018.v1.Powell.EtchedinStone/3/>. Цитируемое место: с. 60 (повторяет датировку «ок. X века», ссылаясь на Баруа)."
+   },
+   {
+    "type": "p",
+    "text": "Конец главы 2 «Дхармапутрикā»."
+   }
+  ],
+  "en": [
+   {
+    "type": "subhead",
+    "label": "References (Sources for the Dating)"
+   },
+   {
+    "type": "p",
+    "text": "[S1] Barois, Christèle. 2017. \"Eight Yoga Postures in the Dharmaputrikā.\" AyurYog (project blog, University of Vienna), 19 January 2017. Original URL (as printed in the uploaded PDF): `https://ayuryog.org/blog/eight-yoga-postures-dharmaputrikā` — currently returns a 404 error. Archived version (verified, matches the uploaded PDF): <https://web.archive.org/web/20221207075113/http://ayuryog.org/blog/eight-yoga-postures-dharmaputrik%C4%81> (Internet Archive capture, 7 December 2022)."
+   },
+   {
+    "type": "p",
+    "text": "[S2] De Simini, Florinda. 2016. \"Śivadharma Manuscripts from Nepal and the Making of a Śaiva Corpus.\" In One-Volume Libraries: Composite and Multiple-Text Manuscripts, edited by Michael Friedrich and Cosima Schwarke, 233–286. Berlin / Boston: De Gruyter. DOI: <https://doi.org/10.1515/9783110496956-009>. Open-access author version: <https://unora.unior.it/retrieve/dfd1bedc-f5d9-d55a-e053-3705fe0af723/De%20Simini%202016a%20S%CC%81ivadharma%20mss%20final.pdf>. Cited passages: p. 243 and n. 28 (ULC Add. 1645, 1139–40 CE; ASC G 4077 named as the earliest dated corpus manuscript identified so far); p. 251 and n. 44, n. 47 (ASC G 4077, 1035–36 CE / 6 July 1036 CE, lacks the Dharmaputrikā); p. 252 and n. 49 (NAK 3–393, 24 May 1069 CE, contains the Dharmaputrikā); p. 270 (summary of the dated manuscripts, where Add. 1645 is given as 1138–39 CE); p. 273 (Appendix I: the Asiatic Society of Calcutta manuscripts are not described there, and the reader is referred to the catalogues)."
+   },
+   {
+    "type": "p",
+    "text": "[S3] Barois, Christèle. 2020. \"The Dharmaputrikā Saṃhitā: Preliminary Notes on an Early Text on Yoga.\" Journal of Yoga Studies 3: 5–76. DOI: <https://doi.org/10.34000/JoYS.2020.V3.002>. Open access: <https://journalofyogastudies.org/index.php/JoYS/article/download/2020.V3.BAROIS.DhPS/2020.V3.BAROIS.DhPS/117>. Cited passages: p. 6 (11th–12th-century manuscripts; about 350 ślokas in sixteen chapters); p. 6 n. 4 (the single eleventh-century manuscript in which the Lalitavistara replaces the Dharmaputrikā); p. 6 n. 5 (collaborators on the critical edition); p. 16 n. 28 (the \"1069 A.D.\" date identified as the date of the copy of the manuscript); pp. 20–21 (hypothesis of a 7th-century terminus ad quem)."
+   },
+   {
+    "type": "p",
+    "text": "[S4] Powell, Seth. 2018. \"Etched in Stone: Sixteenth-century Visual and Material Evidence of Śaiva Ascetics and Yogis in Complex Non-seated Āsanas at Vijayanagara.\" Journal of Yoga Studies 1: 45–106. DOI: <https://doi.org/10.34000/JoYS.2018.V1.003>. Open access: <https://journalofyogastudies.org/index.php/JoYS/article/download/2018.v1.Powell.EtchedinStone/3/>. Cited passage: p. 60 (repeats the \"c. 10th century\" dating, citing Barois)."
+   },
+   {
+    "type": "p",
+    "text": "End of Chapter 2 of the Dharmaputrikā."
+   }
+  ]
+ },
+ "notes": {
+  "ru": [
+   {
+    "type": "subhead",
+    "label": "Колофон"
+   },
+   {
+    "type": "verse_card",
+    "verses": "",
+    "sections": [
+     {
+      "type": "verse",
+      "key": "deva",
+      "label": "Деванāгарӣ",
+      "lines": [
+       "इति धर्मपुत्रिकायां संहितायामासनप्रकरणं नाम द्वितीयः पटलः ॥"
+      ]
+     },
+     {
+      "type": "verse",
+      "key": "iast",
+      "label": "IAST",
+      "lines": [
+       "iti dharmaputrikāyāṃ saṃhitāyāṃ āsanaprakaraṇaṃ nāma dvitīyaḥ paṭalaḥ ||"
+      ]
+     },
+     {
+      "type": "verse",
+      "key": "cyr",
+      "label": "Кириллическая транслитерация",
+      "lines": [
+       "ити дхармапутрикāйāм̣ сам̣хитāйāм̣ āсанапракаран̣ам̣ нāма двитӣйах̣ пат̣алах̣ ||"
+      ]
+     }
+    ]
+   },
+   {
+    "type": "words",
+    "label": "Пословный разбор",
+    "titles": [
+     "Колофон"
+    ],
+    "groups": [
+     [
+      [
+       "ити",
+       "так [заканчивается]"
+      ],
+      [
+       "дхармапутрикāйāм",
+       "в «Дхармапутрикā»"
+      ],
+      [
+       "сам̣хитāйāм",
+       "в собрании / своде"
+      ],
+      [
+       "āсана-пракаран̣ам нāма",
+       "по названию «Раздел о позах»"
+      ],
+      [
+       "двитӣйах̣",
+       "второй"
+      ],
+      [
+       "пат̣алах̣",
+       "глава"
+      ]
+     ]
+    ]
+   },
+   {
+    "type": "prose",
+    "key": "translation",
+    "label": "Перевод",
+    "paragraphs": [
+     "Так [заканчивается] вторая глава, именуемая «Раздел о позах» (Āсанапракаран̣ам), в «Дхармапутрикā Сам̣хитā»."
+    ]
+   },
+   {
+    "type": "subhead",
+    "label": "Примечание переводчицы (из источника; перевод с английского)"
+   },
+   {
+    "type": "p",
+    "text": "Перевод Кристель Баруа. Санскритский текст, приведённый здесь, основан на апографе из Библиотеки Веллкама (Wellcome Library), снятом с непальской рукописи XII века, а также на издании текста, выпущенном в Катманду в 1998 году. Был также учтён черновой вариант критического издания «Дхармапутрикā», подготовленного Ниранджаном Кафле (Nirajan Kafle) и Анилом Кумаром Ачарьей (Anil Kumar Acharya). Совместное чтение с исследователями проекта «Хат̣ха-йога» Джейсоном Бёрчем, Джеймсом Маллинсоном и Марком Синглтоном, а также с Ниранджаном Кафле значительно способствовало прояснению некоторых мест. Текст выиграл от окончательного чтения с Т. Ганешаном (T. Ganesan), заведующим отделом индологии Французского института Пондичерри. Я также выражаю сердечную благодарность Дагмар Вуйастык (Dagmar Wujastyk) за её многочисленные ценные предложения. Статья, которая даст критический аппарат санскритского текста, готовится к публикации."
+   },
+   {
+    "type": "p",
+    "text": "О названных выше соредакторах. Имена воспроизведены точно так, как их приводит публикация в блоге (2017). Более поздняя статья Баруа называет иной состав сотрудничества для того же критического издания: «Критическое издание „Дхармапутрикā“ в настоящее время осуществляется в сотрудничестве с Филиппом А. Маасом (Philipp A. Maas) и Анилом Кумаром Ачарьей (готовится к публикации в 2022 г.)» (Barois 2020, с. 6, прим. 5 [S3]). Оба утверждения приведены как есть; настоящий документ не выносит решения между ними."
+   },
+   {
+    "type": "prose",
+    "key": "orig",
+    "label": "Оригинал (EN)",
+    "paragraphs": [
+     "\"The critical edition of the Dharmaputrikā is currently being carried out in collaboration with Philipp A. Maas and Anil Kumar Acharya (forthcoming 2022)\""
+    ]
+   },
+   {
+    "type": "subhead",
+    "label": "Общие замечания о тексте и его терминологии"
+   },
+   {
+    "type": "p",
+    "text": "1. Восемь поз в порядке следования: падмāсана (лотос), свастикāсана (свастика), пӣт̣хāсана (трон), стхалāсана (холм), ан̃джаликāсана (сложенные руки), ардхачандрāсана (полумесяц), дан̣д̣āсана (посох), сарватобхадрāсана (всеблагая). 2. Историческое значение (по формулировке исходной публикации): блог описывает эту главу как «древнее и не имеющее аналогов свидетельство систематического и подробного описания замкнутой группы йогических поз, предшествующее по меньшей мере на два века описанию поз в „Йогаш́āстра“ Хемачандры (XII век)» [S1]. Это сравнительное утверждение принадлежит источнику и воспроизводится здесь без независимой проверки. Что показывают сами стихи, так это то, что не все восемь поз являются сидячими: стхалāсана выполняется стоя (стих 13, āсанāбхāве), а ан̃джаликāсана предполагает стояние на коленях (стих 14) — см. примечания к этим стихам. 3. Нестандартный санскрит: текст сохраняет несколько нерегулярных или эпических форм (например, абсолютив āстхитйа в стихе 5 и редакторские носовые написания вроде бхедан ту и вāмапāдан ту). Они отмечены в соответствующих разделах и нормализованы в пословном разборе. 4. Восстановленный деванāгарӣ и кириллическая транслитерация: источник даёт санскрит только в римской транслитерации; деванāгарӣ выше был порождён из неё и сохраняет чтения издания. Кириллическая транслитерация выполнена построчно из того же текста по карте, приведённой в конце документа."
+   },
+   {
+    "type": "subhead",
+    "label": "Карта транслитерации"
+   },
+   {
+    "type": "p",
+    "text": "Кириллическая передача санскрита в этом документе выполнена по заданной карте."
+   },
+   {
+    "type": "h3",
+    "text": "Три места, где латиница сохранена намеренно"
+   },
+   {
+    "type": "p",
+    "text": "5. Дословные английские цитаты с пометкой Оригинал (EN) — они служат доказательной базой раздела о датировке; изменение хотя бы одного знака лишило бы их проверяемости. 6. Названия публикаций и адреса в библиографии — они приведены так, как опубликованы, иначе источник нельзя найти. 7. Сама таблица соответствий выше — это ключ к чтению документа, а не санскритский текст."
+   },
+   {
+    "type": "p",
+    "text": "Всё остальное — заголовки, введение, пословный разбор, переводы, примечания и транслитерация стихов — дано кириллицей."
+   },
+   {
+    "type": "note",
+    "paragraphs": [
+     "Том печатает долгую гласную карты — латинскую «ā» внутри кириллического слова — как кириллическую «а» с комбинируемым макроном. Том сам называет это единственным отступлением от карты проекта. На сайте стоит форма карты, та же, что в остальных трактатах."
+    ]
+   }
+  ],
+  "en": [
+   {
+    "type": "subhead",
+    "label": "Colophon"
+   },
+   {
+    "type": "verse_card",
+    "verses": "",
+    "sections": [
+     {
+      "type": "verse",
+      "key": "deva",
+      "label": "Devanāgarī",
+      "lines": [
+       "इति धर्मपुत्रिकायां संहितायामासनप्रकरणं नाम द्वितीयः पटलः ॥"
+      ]
+     },
+     {
+      "type": "verse",
+      "key": "iast",
+      "label": "IAST",
+      "lines": [
+       "iti dharmaputrikāyāṃ saṃhitāyāṃ āsanaprakaraṇaṃ nāma dvitīyaḥ paṭalaḥ ||"
+      ]
+     },
+     {
+      "type": "verse",
+      "key": "cyr",
+      "label": "Cyrillic transliteration",
+      "lines": [
+       "ити дхармапутрикāйāм̣ сам̣хитāйāм̣ āсанапракаран̣ам̣ нāма двитӣйах̣ пат̣алах̣ ||"
+      ]
+     }
+    ]
+   },
+   {
+    "type": "words",
+    "label": "Word-for-word Analysis",
+    "titles": [
+     "Colophon"
+    ],
+    "groups": [
+     [
+      [
+       "iti",
+       "thus [ends]"
+      ],
+      [
+       "dharmaputrikāyām",
+       "in the Dharmaputrikā"
+      ],
+      [
+       "saṃhitāyām",
+       "the collection / compendium"
+      ],
+      [
+       "āsana-prakaraṇam nāma",
+       "named 'The Section on the Postures'"
+      ],
+      [
+       "dvitīyaḥ",
+       "the second"
+      ],
+      [
+       "paṭalaḥ",
+       "chapter"
+      ]
+     ]
+    ]
+   },
+   {
+    "type": "prose",
+    "key": "translation",
+    "label": "Translation",
+    "paragraphs": [
+     "Thus [ends] the second chapter, named \"The Section on the Postures\" (Āsanaprakaraṇam), in the Dharmaputrikā Saṃhitā."
+    ]
+   },
+   {
+    "type": "subhead",
+    "label": "Translator's Note (from the source)"
+   },
+   {
+    "type": "p",
+    "text": "Translation by Christèle Barois. The Sanskrit text given here is based on the Wellcome Library's apograph of a Nepalese manuscript of the 12th century, and on the edition of the text published in Kathmandu in 1998. The draft of the critical edition of the Dharmaputrikā, by Nirajan Kafle and Anil Kumar Acharya, has also been consulted. A collective reading with the Haṭha Yoga Project's researchers Jason Birch, James Mallinson, and Mark Singleton, and with Nirajan Kafle, has greatly contributed to clarifying some passages. This text has benefited from a final reading with T. Ganesan, Director of the Department of Indology at the French Institute of Pondicherry. I also address my heartfelt thanks to Dagmar Wujastyk for her several valuable suggestions. An article that will give the critical apparatus of the Sanskrit text is forthcoming."
+   },
+   {
+    "type": "p",
+    "text": "Note on the collaborators named above. The names are reproduced exactly as the blog post gives them (2017). Barois's later article names a different collaboration for the same critical edition: \"The critical edition of the Dharmaputrikā is currently being carried out in collaboration with Philipp A. Maas and Anil Kumar Acharya (forthcoming 2022)\" (Barois 2020, p. 6, n. 5 [S3]). Both statements are quoted as they stand; this document does not adjudicate between them."
+   },
+   {
+    "type": "subhead",
+    "label": "General Notes on the Text and Its Terminology"
+   },
+   {
+    "type": "p",
+    "text": "1. The eight postures in order: padmāsana (lotus), svastikāsana (svastika), pīṭhāsana (throne), sthalāsana (mound), añjalikāsana (joined hands), ardhacandrāsana (half-moon), daṇḍāsana (staff), sarvatobhadrāsana (all-auspicious). 2. Historical significance (as stated by the source publication): the blog describes this chapter as \"an ancient and unparalleled testimony of a systematic and detailed description of a closed group of yogic postures, preceding by at least two centuries the description of postures in the Yogaśāstra by Hemacandra (12th century)\" [S1]. That comparative claim is the source's, and is reproduced here without independent verification. What the verses themselves show is that not all eight postures are seated: sthalāsana is performed standing (v. 13, āsanābhāve), and añjalikāsana involves kneeling (v. 14) — see the notes to those verses. 3. Non-standard Sanskrit: The text preserves several irregular or epic-style forms (e.g. the absolutive āsthitya in v. 5, and editorial nasal spellings such as bhedan tu and vāmapādan tu). These are noted in the relevant sections and normalized in the word-for-word analysis. 4. Reconstructed Devanāgarī: The source gives the Sanskrit only in roman transliteration; the Devanāgarī above has been generated from that transliteration and preserves the edition's readings."
+   },
+   {
+    "type": "note",
+    "paragraphs": [
+     "The Russian volume prints the long vowel of the project map — Latin “ā” inside a Cyrillic word — as Cyrillic “а” with a combining macron. The volume itself calls this its only departure from the project map. The site uses the map’s form, the same one as in the other treatises."
+    ]
+   }
+  ]
+ },
+ "poses": [
+  {
+   "key": "padmasana",
+   "iast": "Padmāsana",
+   "number": 1,
+   "name": {
+    "ru": "Падмāсана",
+    "en": "Padmāsana"
+   },
+   "gloss": {
+    "ru": "поза лотоса",
+    "en": "The Lotus Posture"
+   },
+   "verses": {
+    "ru": "5–9",
+    "en": "5–9"
+   },
+   "text": {
+    "ru": [
+     {
+      "type": "verse_card",
+      "verses": "5",
+      "sections": [
+       {
+        "type": "verse",
+        "key": "deva",
+        "label": "Деванāгарӣ",
+        "lines": [
+         "आस्थित्योत्तानपादाग्रौ ग्रन्थिवच्चेतरेतरौ ।",
+         "ऊर्वोरुपरि विन्यस्य श्लिष्टपार्ष्णी सुसंस्थितौ ॥५॥"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "iast",
+        "label": "IAST",
+        "lines": [
+         "āsthityottānapādāgrau granthivac cetaretarau |",
+         "ūrvor upari vinyasya śliṣṭapārṣṇī susaṃsthitau ||5||"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "cyr",
+        "label": "Кириллическая транслитерация",
+        "lines": [
+         "āстхитйоттāнапāдāграу грантхивач четаретарау |",
+         "ӯрвор упари винйасйа ш́лишт̣апāршн̣ӣ сусам̣стхитау ||5||"
+        ]
+       }
+      ]
+     },
+     {
+      "type": "verse_card",
+      "verses": "6",
+      "sections": [
+       {
+        "type": "verse",
+        "key": "deva",
+        "label": "Деванāгарӣ",
+        "lines": [
+         "उत्तानं वामहस्ताग्रं पार्ष्ण्योरुपरि विन्यसेत्।",
+         "तस्योपरि पुनस्तद्वत्स्थाप्य दक्षिणपल्लवं॥६॥"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "iast",
+        "label": "IAST",
+        "lines": [
+         "uttānaṃ vāmahastāgraṃ pārṣṇyor upari vinyaset |",
+         "tasyopari punas tadvat sthāpya dakṣiṇapallavam ||6||"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "cyr",
+        "label": "Кириллическая транслитерация",
+        "lines": [
+         "уттāнам̣ вāмахастāграм̣ пāршн̣йор упари винйасет |",
+         "тасйопари пунас тадват стхāпйа дакшин̣апаллавам ||6||"
+        ]
+       }
+      ]
+     },
+     {
+      "type": "verse_card",
+      "verses": "7",
+      "sections": [
+       {
+        "type": "verse",
+        "key": "deva",
+        "label": "Деванāгарӣ",
+        "lines": [
+         "अवक्रस्तब्धनिस्यन्दं गात्रशैलावलम्बितं।",
+         "बाहुयुग्मं तथा कार्यं यथा मृदुलताद्वयं॥७॥"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "iast",
+        "label": "IAST",
+        "lines": [
+         "avakrastabdhanisyandaṃ gātraśailāvalambitam |",
+         "bāhuyugmaṃ tathā kāryaṃ yathā mṛdulatādvayam ||7||"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "cyr",
+        "label": "Кириллическая транслитерация",
+        "lines": [
+         "авакрастабдханисйандам̣ гāтраш́аилāваламбитам |",
+         "бāхуйугмам̣ татхā кāрйам̣ йатхā мр̣дулатāдвайам ||7||"
+        ]
+       }
+      ]
+     },
+     {
+      "type": "verse_card",
+      "verses": "8",
+      "sections": [
+       {
+        "type": "verse",
+        "key": "deva",
+        "label": "Деванāгарӣ",
+        "lines": [
+         "समुद्भवदथोष्ठाभ्यामगाढपिहितं मुखं।",
+         "दन्ताग्रे न्यस्य जिह्वाग्रं स्थिरं ग्रीवा च मस्तकं॥८॥"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "iast",
+        "label": "IAST",
+        "lines": [
+         "samudbhavad athoṣṭhābhyām agāḍhapihitaṃ mukham |",
+         "dantāgre nyasya jihvāgraṃ sthiraṃ grīvā ca mastakam ||8||"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "cyr",
+        "label": "Кириллическая транслитерация",
+        "lines": [
+         "самудбхавад атхошт̣хāбхйāм агāд̣хапихитам̣ мукхам |",
+         "дантāгре нйасйа джихвāграм̣ стхирам̣ грӣвā ча мастакам ||8||"
+        ]
+       }
+      ]
+     },
+     {
+      "type": "verse_card",
+      "verses": "9",
+      "sections": [
+       {
+        "type": "verse",
+        "key": "deva",
+        "label": "Деванāгарӣ",
+        "lines": [
+         "नासाग्रमात्रदृष्ट्यर्धनिमीलल्लोचनद्वयं।",
+         "पद्मासनमिति ज्ञेयं प्रशस्तं सर्वयोगिभिः ॥९॥"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "iast",
+        "label": "IAST",
+        "lines": [
+         "nāsāgramātradṛṣṭyardhanimīlallocanadvayam |",
+         "padmāsanam iti jñeyaṃ praśastaṃ sarvayogibhiḥ ||9||"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "cyr",
+        "label": "Кириллическая транслитерация",
+        "lines": [
+         "нāсāграмāтрадр̣шт̣йардханимӣлаллочанадвайам |",
+         "падмāсанам ити джн̃ейам̣ праш́астам̣ сарвайогибхих̣ ||9||"
+        ]
+       }
+      ]
+     },
+     {
+      "type": "words",
+      "label": "Пословный разбор",
+      "titles": [
+       "Стих 5",
+       "Стих 6",
+       "Стих 7",
+       "Стих 8",
+       "Стих 9"
+      ],
+      "groups": [
+       [
+        [
+         "āстхитйа",
+         "поместив / удерживая (неправильный абсолютив, вероятно вместо āстхāпйа)"
+        ],
+        [
+         "уттāна-пāдāграу",
+         "два конца обращённых вверх стоп (двойственное число)"
+        ],
+        [
+         "грантхи-ват",
+         "как узел"
+        ],
+        [
+         "ча",
+         "и"
+        ],
+        [
+         "итаретарау",
+         "один поверх другого, взаимно (двойственное число)"
+        ],
+        [
+         "ӯрвох̣",
+         "двух бёдер"
+        ],
+        [
+         "упари",
+         "над, на"
+        ],
+        [
+         "винйасйа",
+         "поместив"
+        ],
+        [
+         "ш́лишт̣а-пāршн̣ӣ",
+         "с сомкнутыми пятками (двойственное число)"
+        ],
+        [
+         "сусам̣стхитау",
+         "хорошо расположенные / прочно закреплённые (двойственное число)"
+        ]
+       ],
+       [
+        [
+         "уттāнам",
+         "обращённый вверх"
+        ],
+        [
+         "вāма-хастāграм",
+         "кончик / пальцы левой руки"
+        ],
+        [
+         "пāршн̣йох̣",
+         "на двух пятках"
+        ],
+        [
+         "упари",
+         "над"
+        ],
+        [
+         "винйасет",
+         "должен поместить"
+        ],
+        [
+         "тасйа",
+         "того"
+        ],
+        [
+         "упари",
+         "над"
+        ],
+        [
+         "пунах̣",
+         "снова"
+        ],
+        [
+         "тадват",
+         "таким же образом"
+        ],
+        [
+         "стхāпйа",
+         "поместив"
+        ],
+        [
+         "дакшин̣а-паллавам",
+         "правый «побег» (то есть пальцы правой руки)"
+        ]
+       ],
+       [
+        [
+         "авакра",
+         "не кривой, прямой"
+        ],
+        [
+         "стабдха",
+         "неподвижный, закреплённый"
+        ],
+        [
+         "нишйандам",
+         "стекающий / свисающий"
+        ],
+        [
+         "гāтра-ш́аила",
+         "гора тела"
+        ],
+        [
+         "аваламбитам",
+         "свисающий с"
+        ],
+        [
+         "бāху-йугмам",
+         "пара рук"
+        ],
+        [
+         "татхā",
+         "так"
+        ],
+        [
+         "кāрйам",
+         "следует сделать"
+        ],
+        [
+         "йатхā",
+         "как, подобно"
+        ],
+        [
+         "мр̣ду-латā-двайам",
+         "две нежные лианы"
+        ]
+       ],
+       [
+        [
+         "самудбхават",
+         "выступающий, выдающийся"
+        ],
+        [
+         "атха",
+         "затем"
+        ],
+        [
+         "ошт̣хāбхйāм",
+         "двумя губами"
+        ],
+        [
+         "агāд̣ха-пихитам",
+         "не плотно закрытый"
+        ],
+        [
+         "мукхам",
+         "рот"
+        ],
+        [
+         "данта-агре",
+         "на кончике / передней части зубов"
+        ],
+        [
+         "нйасйа",
+         "поместив"
+        ],
+        [
+         "джихвā-аграм",
+         "кончик языка"
+        ],
+        [
+         "стхирам",
+         "устойчивый"
+        ],
+        [
+         "грӣвā",
+         "шея"
+        ],
+        [
+         "ча",
+         "и"
+        ],
+        [
+         "мастакам",
+         "голова"
+        ]
+       ],
+       [
+        [
+         "нāсā-агра",
+         "кончик носа"
+        ],
+        [
+         "мāтра",
+         "лишь"
+        ],
+        [
+         "др̣шт̣и",
+         "взгляд"
+        ],
+        [
+         "ардха-нимӣла",
+         "полуприкрытый"
+        ],
+        [
+         "лочана-двайам",
+         "два глаза"
+        ],
+        [
+         "падма-āсанам",
+         "поза лотоса"
+        ],
+        [
+         "ити",
+         "так"
+        ],
+        [
+         "джн̃ейам",
+         "следует знать"
+        ],
+        [
+         "праш́астам",
+         "восхваляемая, рекомендуемая"
+        ],
+        [
+         "сарва-йогибхих̣",
+         "всеми йогинами"
+        ]
+       ]
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "literal",
+      "label": "Буквальный перевод",
+      "paragraphs": [
+       "Поместив два конца обращённых вверх стоп один поверх другого, как узел, поместив [их] на два бедра с сомкнутыми и прочно закреплёнными пятками, (5) следует поместить обращённые вверх пальцы левой руки на две пятки, и, снова поместив правый «побег» [пальцы правой руки] поверх них таким же образом, (6) пару рук следует сделать подобными двум нежным лианам, свисающим с горы тела, стекающим прямо и неподвижно; (7) затем, при рте, выступающем из-за двух губ и не плотно закрытом, поместив кончик языка на кончик зубов, при устойчивых шее и голове, (8) со взглядом лишь на кончике носа и двумя полуприкрытыми глазами — это следует знать как позу лотоса, восхваляемую всеми йогинами. (9)"
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "literary",
+      "label": "Литературный перевод (К. Баруа; перевод с английского)",
+      "paragraphs": [
+       "Удерживая две точки обращённых вверх стоп одну поверх другой, как узел, поместив обе пятки, плотно сомкнутые вместе, на два бедра, (5) [йогин] должен поместить обращённые вверх пальцы левой руки на две пятки [и], поместив снова пальцы правой [руки] на [пальцы левой руки] таким же образом, (6) обе руки должны быть оформлены подобно двум нежным лианам, свисающим с камнеподобного тела, стекающим прямо и неподвижно, (7) затем, при слегка закрытом рте, выступающем из-за двух губ, поместив кончик языка на кончик зубов, при устойчивых шее и голове, (8) с двумя полуприкрытыми глазами, со взглядом, [устремлённым] лишь на кончик носа, [это] известно как поза [по имени] падма, восхваляемая всеми йогинами. (9)"
+      ]
+     },
+     {
+      "type": "note",
+      "paragraphs": [
+       "Это раннее описание классической позы лотоса с полной надстройкой указаний относительно рук, кистей, рта, языка и взгляда. Кисти лежат ладонями вверх на пятках, правая поверх левой; руки свободно свисают, «как две нежные лианы».",
+       "Кончик языка, помещённый у передних зубов, и полуприкрытый взгляд, устремлённый на кончик носа, — стандартные ранние йогические приёмы фиксации ума (дхāран̣ā).",
+       "Филологическое: абсолютив āстхитйа (стих 5) нестандартен, вероятнее всего вместо āстхāпйа («поместив»); переводчица передаёт его как «удерживая». В стихе 9 сложное слово ардха-нимӣла-лочана означает «имеющий полуприкрытые глаза»."
+      ]
+     }
+    ],
+    "en": [
+     {
+      "type": "verse_card",
+      "verses": "5",
+      "sections": [
+       {
+        "type": "verse",
+        "key": "deva",
+        "label": "Devanāgarī",
+        "lines": [
+         "आस्थित्योत्तानपादाग्रौ ग्रन्थिवच्चेतरेतरौ ।",
+         "ऊर्वोरुपरि विन्यस्य श्लिष्टपार्ष्णी सुसंस्थितौ ॥५॥"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "iast",
+        "label": "IAST",
+        "lines": [
+         "āsthityottānapādāgrau granthivac cetaretarau |",
+         "ūrvor upari vinyasya śliṣṭapārṣṇī susaṃsthitau ||5||"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "cyr",
+        "label": "Cyrillic transliteration",
+        "lines": [
+         "āстхитйоттāнапāдāграу грантхивач четаретарау |",
+         "ӯрвор упари винйасйа ш́лишт̣апāршн̣ӣ сусам̣стхитау ||5||"
+        ]
+       }
+      ]
+     },
+     {
+      "type": "verse_card",
+      "verses": "6",
+      "sections": [
+       {
+        "type": "verse",
+        "key": "deva",
+        "label": "Devanāgarī",
+        "lines": [
+         "उत्तानं वामहस्ताग्रं पार्ष्ण्योरुपरि विन्यसेत्।",
+         "तस्योपरि पुनस्तद्वत्स्थाप्य दक्षिणपल्लवं॥६॥"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "iast",
+        "label": "IAST",
+        "lines": [
+         "uttānaṃ vāmahastāgraṃ pārṣṇyor upari vinyaset |",
+         "tasyopari punas tadvat sthāpya dakṣiṇapallavam ||6||"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "cyr",
+        "label": "Cyrillic transliteration",
+        "lines": [
+         "уттāнам̣ вāмахастāграм̣ пāршн̣йор упари винйасет |",
+         "тасйопари пунас тадват стхāпйа дакшин̣апаллавам ||6||"
+        ]
+       }
+      ]
+     },
+     {
+      "type": "verse_card",
+      "verses": "7",
+      "sections": [
+       {
+        "type": "verse",
+        "key": "deva",
+        "label": "Devanāgarī",
+        "lines": [
+         "अवक्रस्तब्धनिस्यन्दं गात्रशैलावलम्बितं।",
+         "बाहुयुग्मं तथा कार्यं यथा मृदुलताद्वयं॥७॥"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "iast",
+        "label": "IAST",
+        "lines": [
+         "avakrastabdhanisyandaṃ gātraśailāvalambitam |",
+         "bāhuyugmaṃ tathā kāryaṃ yathā mṛdulatādvayam ||7||"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "cyr",
+        "label": "Cyrillic transliteration",
+        "lines": [
+         "авакрастабдханисйандам̣ гāтраш́аилāваламбитам |",
+         "бāхуйугмам̣ татхā кāрйам̣ йатхā мр̣дулатāдвайам ||7||"
+        ]
+       }
+      ]
+     },
+     {
+      "type": "verse_card",
+      "verses": "8",
+      "sections": [
+       {
+        "type": "verse",
+        "key": "deva",
+        "label": "Devanāgarī",
+        "lines": [
+         "समुद्भवदथोष्ठाभ्यामगाढपिहितं मुखं।",
+         "दन्ताग्रे न्यस्य जिह्वाग्रं स्थिरं ग्रीवा च मस्तकं॥८॥"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "iast",
+        "label": "IAST",
+        "lines": [
+         "samudbhavad athoṣṭhābhyām agāḍhapihitaṃ mukham |",
+         "dantāgre nyasya jihvāgraṃ sthiraṃ grīvā ca mastakam ||8||"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "cyr",
+        "label": "Cyrillic transliteration",
+        "lines": [
+         "самудбхавад атхошт̣хāбхйāм агāд̣хапихитам̣ мукхам |",
+         "дантāгре нйасйа джихвāграм̣ стхирам̣ грӣвā ча мастакам ||8||"
+        ]
+       }
+      ]
+     },
+     {
+      "type": "verse_card",
+      "verses": "9",
+      "sections": [
+       {
+        "type": "verse",
+        "key": "deva",
+        "label": "Devanāgarī",
+        "lines": [
+         "नासाग्रमात्रदृष्ट्यर्धनिमीलल्लोचनद्वयं।",
+         "पद्मासनमिति ज्ञेयं प्रशस्तं सर्वयोगिभिः ॥९॥"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "iast",
+        "label": "IAST",
+        "lines": [
+         "nāsāgramātradṛṣṭyardhanimīlallocanadvayam |",
+         "padmāsanam iti jñeyaṃ praśastaṃ sarvayogibhiḥ ||9||"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "cyr",
+        "label": "Cyrillic transliteration",
+        "lines": [
+         "нāсāграмāтрадр̣шт̣йардханимӣлаллочанадвайам |",
+         "падмāсанам ити джн̃ейам̣ праш́астам̣ сарвайогибхих̣ ||9||"
+        ]
+       }
+      ]
+     },
+     {
+      "type": "words",
+      "label": "Word-for-word Analysis",
+      "titles": [
+       "Verse 5",
+       "Verse 6",
+       "Verse 7",
+       "Verse 8",
+       "Verse 9"
+      ],
+      "groups": [
+       [
+        [
+         "āsthitya",
+         "having placed / maintained (an irregular absolutive, probably for āsthāpya)"
+        ],
+        [
+         "uttāna-pādāgrau",
+         "the two tips of the upturned feet (dual)"
+        ],
+        [
+         "granthi-vat",
+         "like a knot"
+        ],
+        [
+         "ca",
+         "and"
+        ],
+        [
+         "itaretarau",
+         "one over the other, mutually (dual)"
+        ],
+        [
+         "ūrvoḥ",
+         "of the two thighs"
+        ],
+        [
+         "upari",
+         "above, upon"
+        ],
+        [
+         "vinyasya",
+         "having placed"
+        ],
+        [
+         "śliṣṭa-pārṣṇī",
+         "with the heels joined together (dual)"
+        ],
+        [
+         "susaṃsthitau",
+         "well placed / firmly fixed (dual)"
+        ]
+       ],
+       [
+        [
+         "uttānam",
+         "upturned"
+        ],
+        [
+         "vāma-hastāgram",
+         "the tip / fingers of the left hand"
+        ],
+        [
+         "pārṣṇyoḥ",
+         "on the two heels"
+        ],
+        [
+         "upari",
+         "above"
+        ],
+        [
+         "vinyaset",
+         "should place"
+        ],
+        [
+         "tasya",
+         "of that"
+        ],
+        [
+         "upari",
+         "above"
+        ],
+        [
+         "punaḥ",
+         "again"
+        ],
+        [
+         "tadvat",
+         "in the same way"
+        ],
+        [
+         "sthāpya",
+         "having placed"
+        ],
+        [
+         "dakṣiṇa-pallavam",
+         "the right 'sprout' (i.e. the fingers of the right hand)"
+        ]
+       ],
+       [
+        [
+         "avakra",
+         "not crooked, straight"
+        ],
+        [
+         "stabdha",
+         "fixed, immovable"
+        ],
+        [
+         "niṣyandam",
+         "flowing / hanging down"
+        ],
+        [
+         "gātra-śaila",
+         "the mountain of the body"
+        ],
+        [
+         "avalambitam",
+         "hanging from"
+        ],
+        [
+         "bāhu-yugmam",
+         "the pair of arms"
+        ],
+        [
+         "tathā",
+         "thus"
+        ],
+        [
+         "kāryam",
+         "should be made"
+        ],
+        [
+         "yathā",
+         "like, as"
+        ],
+        [
+         "mṛdu-latā-dvayam",
+         "two delicate creepers"
+        ]
+       ],
+       [
+        [
+         "samudbhavat",
+         "standing out, protruding"
+        ],
+        [
+         "atha",
+         "then"
+        ],
+        [
+         "oṣṭhābhyām",
+         "by the two lips"
+        ],
+        [
+         "agāḍha-pihitam",
+         "not tightly closed"
+        ],
+        [
+         "mukham",
+         "the mouth"
+        ],
+        [
+         "danta-agre",
+         "on the tip / front of the teeth"
+        ],
+        [
+         "nyasya",
+         "having placed"
+        ],
+        [
+         "jihvā-agram",
+         "the tip of the tongue"
+        ],
+        [
+         "sthiram",
+         "firm"
+        ],
+        [
+         "grīvā",
+         "the neck"
+        ],
+        [
+         "ca",
+         "and"
+        ],
+        [
+         "mastakam",
+         "the head"
+        ]
+       ],
+       [
+        [
+         "nāsā-agra",
+         "the tip of the nose"
+        ],
+        [
+         "mātra",
+         "only"
+        ],
+        [
+         "dṛṣṭi",
+         "the gaze"
+        ],
+        [
+         "ardha-nimīla",
+         "half-closed"
+        ],
+        [
+         "locana-dvayam",
+         "the two eyes"
+        ],
+        [
+         "padma-āsanam",
+         "the lotus posture"
+        ],
+        [
+         "iti",
+         "thus"
+        ],
+        [
+         "jñeyam",
+         "is to be known"
+        ],
+        [
+         "praśastam",
+         "praised, commended"
+        ],
+        [
+         "sarva-yogibhiḥ",
+         "by all yogins"
+        ]
+       ]
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "literal",
+      "label": "Literal Translation",
+      "paragraphs": [
+       "Having placed the two tips of the upturned feet one over the other like a knot, having placed [them] upon the two thighs with the heels joined and firmly fixed, (5) one should place the upturned fingers of the left hand upon the two heels, and having again placed the right \"sprout\" [the fingers of the right hand] on top of them in the same way, (6) the pair of arms should be made like two delicate creepers hanging from the mountain of the body, flowing straight and immovable; (7) then, the mouth standing out by reason of the two lips and not tightly closed, having placed the tip of the tongue on the tip of the teeth, the neck and head being firm, (8) with the gaze only on the tip of the nose and the two eyes half-closed — this is to be known as the lotus posture, praised by all yogins. (9)"
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "literary",
+      "label": "Literary Translation",
+      "paragraphs": [
+       "Having maintained the two points of the upturned feet one over the other like a knot, having placed both heels tightly joined together on the two thighs, (5) [the yogin] must place the upturned fingers of the left hand on the two heels, [and] having placed again the fingers of the right [hand] on the [fingers of the left hand] in the same way, (6) the two arms should be shaped like two delicate creepers hanging from the stone-like body, flowing straight and immovable, (7) then, the mouth slightly closed, standing out due to the two lips, having placed the tip of the tongue on the tip of the teeth, neck and head being firm, (8) with the two eyes half-closed, the gaze [fixed] only on the tip of the nose, [this is] known as the posture [named] padma, praised by all yogins. (9)"
+      ]
+     },
+     {
+      "type": "note",
+      "paragraphs": [
+       "This is an early description of the classic lotus posture with a full superstructure of hand, arm, mouth, tongue, and gaze instructions. The hands rest palm-up on the heels, right upon left; the arms hang relaxed \"like two delicate creepers.\"",
+       "The tongue-tip placed at the front teeth and the half-closed gaze fixed on the nose-tip are standard early yogic techniques for fixing the mind (dhāraṇā).",
+       "Philological: the absolutive āsthitya (v. 5) is non-standard, most likely for āsthāpya (\"having placed\"); the translator renders it \"having maintained.\" In v. 9 the compound ardha-nimīla-locana means \"having the eyes half-closed.\""
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "key": "svastikasana",
+   "iast": "Svastikāsana",
+   "number": 2,
+   "name": {
+    "ru": "Свастикāсана",
+    "en": "Svastikāsana"
+   },
+   "gloss": {
+    "ru": "поза свастики",
+    "en": "The Svastika Posture"
+   },
+   "verses": {
+    "ru": "10–11",
+    "en": "10–11"
+   },
+   "text": {
+    "ru": [
+     {
+      "type": "verse_card",
+      "verses": "10",
+      "sections": [
+       {
+        "type": "verse",
+        "key": "deva",
+        "label": "Деванāгарӣ",
+        "lines": [
+         "स्थातव्यौ भूतले पादावासनस्थेन योगिना ।",
+         "दक्षिणं वामभागे तु वामपादन्तु दक्षिणे ॥१०॥"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "iast",
+        "label": "IAST",
+        "lines": [
+         "sthātavyau bhūtale pādāv āsanasthena yoginā |",
+         "dakṣiṇaṃ vāmabhāge tu vāmapādan tu dakṣiṇe ||10||"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "cyr",
+        "label": "Кириллическая транслитерация",
+        "lines": [
+         "стхāтавйау бхӯтале пāдāв āсанастхена йогинā |",
+         "дакшин̣ам̣ вāмабхāге ту вāмапāдан ту дакшин̣е ||10||"
+        ]
+       }
+      ]
+     },
+     {
+      "type": "verse_card",
+      "verses": "11",
+      "sections": [
+       {
+        "type": "verse",
+        "key": "deva",
+        "label": "Деванāгарӣ",
+        "lines": [
+         "अन्योन्याभिमुखं कृत्वा मृगशीर्षकरद्वयं।",
+         "पूर्वोक्तेनैव गात्रेण स्वस्तिकासनसंज्ञितं॥११॥"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "iast",
+        "label": "IAST",
+        "lines": [
+         "anyonyābhimukhaṃ kṛtvā mṛgaśīrṣakaradvayam |",
+         "pūrvoktenaiva gātreṇa svastikāsanasaṃjñitam ||11||"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "cyr",
+        "label": "Кириллическая транслитерация",
+        "lines": [
+         "анйонйāбхимукхам̣ кр̣твā мр̣гаш́ӣршакарадвайам |",
+         "пӯрвоктенаива гāтрен̣а свастикāсанасам̣джн̃итам ||11||"
+        ]
+       }
+      ]
+     },
+     {
+      "type": "words",
+      "label": "Пословный разбор",
+      "titles": [
+       "Стих 10",
+       "Стих 11"
+      ],
+      "groups": [
+       [
+        [
+         "стхāтавйау",
+         "следует поместить (герундив двойственного числа)"
+        ],
+        [
+         "бхӯтале",
+         "на земле"
+        ],
+        [
+         "пāдау",
+         "две стопы (двойственное число)"
+        ],
+        [
+         "āсана-стхена",
+         "сидящим в позе"
+        ],
+        [
+         "йогинā",
+         "йогином"
+        ],
+        [
+         "дакшин̣ам",
+         "правую [стопу]"
+        ],
+        [
+         "вāма-бхāге",
+         "с левой стороны"
+        ],
+        [
+         "ту",
+         "и"
+        ],
+        [
+         "вāма-пāдам",
+         "левую стопу"
+        ],
+        [
+         "дакшин̣е",
+         "с правой [стороны]"
+        ]
+       ],
+       [
+        [
+         "анйонйа-абхимукхам",
+         "обращёнными друг к другу"
+        ],
+        [
+         "кр̣твā",
+         "сделав"
+        ],
+        [
+         "мр̣га-ш́ӣрша",
+         "«голова оленя» (жест рук / мудра)"
+        ],
+        [
+         "кара-двайам",
+         "две руки"
+        ],
+        [
+         "пӯрва-уктена",
+         "как сказано ранее"
+        ],
+        [
+         "ева",
+         "именно"
+        ],
+        [
+         "гāтрен̣а",
+         "[верхней] частью тела"
+        ],
+        [
+         "свастикā-āсана-сам̣джн̃итам",
+         "именуемая позой свастики"
+        ]
+       ]
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "literal",
+      "label": "Буквальный перевод",
+      "paragraphs": [
+       "Йогином, сидящим в позе, две стопы следует поместить на земле, правую [стопу] — с левой стороны, а левую стопу — с правой [стороны]; (10) сделав две руки обращёнными друг к другу в жесте «головы оленя», при [верхней] части тела, расположенной именно так, как сказано ранее, [это] называется позой свастики. (11)"
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "literary",
+      "label": "Литературный перевод (К. Баруа; перевод с английского)",
+      "paragraphs": [
+       "Когда йогин сидит, обе стопы следует поместить на земле, причём правая стопа находится с левой стороны, а левая стопа — с правой [стороны], (10) поместив обе руки, одну напротив другой, в положение мр̣гаш́ӣрша, при [верхней] части тела, [расположенной] так, как было упомянуто ранее, [это] поза, называемая свастика. (11)"
+      ]
+     },
+     {
+      "type": "note",
+      "paragraphs": [
+       "Ноги скрещены так, что каждая стопа лежит на противоположной стороне — знакомое сидение со скрещёнными ногами, «свастика».",
+       "Мр̣гаш́ӣрша («голова оленя») — именованный жест рук; здесь две руки держатся обращёнными друг к другу. Верхняя часть тела, язык и взгляд следуют указаниям, уже данным для позы падмāсана («как сказано ранее»).",
+       "Филологическое: издание читает вāмапāдан ту (стих 10) — редакторское -n вместо вāмапāдам̣ ту («а левую стопу»)."
+      ]
+     }
+    ],
+    "en": [
+     {
+      "type": "verse_card",
+      "verses": "10",
+      "sections": [
+       {
+        "type": "verse",
+        "key": "deva",
+        "label": "Devanāgarī",
+        "lines": [
+         "स्थातव्यौ भूतले पादावासनस्थेन योगिना ।",
+         "दक्षिणं वामभागे तु वामपादन्तु दक्षिणे ॥१०॥"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "iast",
+        "label": "IAST",
+        "lines": [
+         "sthātavyau bhūtale pādāv āsanasthena yoginā |",
+         "dakṣiṇaṃ vāmabhāge tu vāmapādan tu dakṣiṇe ||10||"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "cyr",
+        "label": "Cyrillic transliteration",
+        "lines": [
+         "стхāтавйау бхӯтале пāдāв āсанастхена йогинā |",
+         "дакшин̣ам̣ вāмабхāге ту вāмапāдан ту дакшин̣е ||10||"
+        ]
+       }
+      ]
+     },
+     {
+      "type": "verse_card",
+      "verses": "11",
+      "sections": [
+       {
+        "type": "verse",
+        "key": "deva",
+        "label": "Devanāgarī",
+        "lines": [
+         "अन्योन्याभिमुखं कृत्वा मृगशीर्षकरद्वयं।",
+         "पूर्वोक्तेनैव गात्रेण स्वस्तिकासनसंज्ञितं॥११॥"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "iast",
+        "label": "IAST",
+        "lines": [
+         "anyonyābhimukhaṃ kṛtvā mṛgaśīrṣakaradvayam |",
+         "pūrvoktenaiva gātreṇa svastikāsanasaṃjñitam ||11||"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "cyr",
+        "label": "Cyrillic transliteration",
+        "lines": [
+         "анйонйāбхимукхам̣ кр̣твā мр̣гаш́ӣршакарадвайам |",
+         "пӯрвоктенаива гāтрен̣а свастикāсанасам̣джн̃итам ||11||"
+        ]
+       }
+      ]
+     },
+     {
+      "type": "words",
+      "label": "Word-for-word Analysis",
+      "titles": [
+       "Verse 10",
+       "Verse 11"
+      ],
+      "groups": [
+       [
+        [
+         "sthātavyau",
+         "should be placed (dual gerundive)"
+        ],
+        [
+         "bhūtale",
+         "on the ground"
+        ],
+        [
+         "pādau",
+         "the two feet (dual)"
+        ],
+        [
+         "āsana-sthena",
+         "seated in the posture"
+        ],
+        [
+         "yoginā",
+         "by the yogin"
+        ],
+        [
+         "dakṣiṇam",
+         "the right [foot]"
+        ],
+        [
+         "vāma-bhāge",
+         "on the left side"
+        ],
+        [
+         "tu",
+         "and"
+        ],
+        [
+         "vāma-pādam",
+         "the left foot"
+        ],
+        [
+         "dakṣiṇe",
+         "on the right [side]"
+        ]
+       ],
+       [
+        [
+         "anyonya-abhimukham",
+         "facing one another"
+        ],
+        [
+         "kṛtvā",
+         "having made"
+        ],
+        [
+         "mṛga-śīrṣa",
+         "the 'deer's head' (a hand gesture / mudrā)"
+        ],
+        [
+         "kara-dvayam",
+         "the two hands"
+        ],
+        [
+         "pūrva-uktena",
+         "as said before"
+        ],
+        [
+         "eva",
+         "just"
+        ],
+        [
+         "gātreṇa",
+         "with the [upper] body"
+        ],
+        [
+         "svastikā-āsana-saṃjñitam",
+         "called the svastika posture"
+        ]
+       ]
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "literal",
+      "label": "Literal Translation",
+      "paragraphs": [
+       "By the yogin seated in the posture, the two feet should be placed on the ground, the right [foot] on the left side and the left foot on the right [side]; (10) having made the two hands face one another in the deer's-head gesture, with the [upper] body positioned just as said before, [this is] called the svastika posture. (11)"
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "literary",
+      "label": "Literary Translation",
+      "paragraphs": [
+       "The yogin being seated, both feet should be placed on the ground, the right foot being on the left side, the left foot on the right [side], (10) having put both hands, one facing the other, in the mṛgaśīrṣa position, the [upper] body [positioned] as has been mentioned before, [this is] the posture called svastika. (11)"
+      ]
+     },
+     {
+      "type": "note",
+      "paragraphs": [
+       "The legs are crossed so that each foot lies on the opposite side — the familiar cross-legged \"svastika\" seat.",
+       "The mṛgaśīrṣa (\"deer's head\") is a named hand gesture; here the two hands are held facing one another. The upper body, tongue, and gaze follow the instructions already given for Padmāsana (\"as said before\").",
+       "Philological: the edition reads vāmapādan tu (v. 10), an editorial -n for vāmapādaṃ tu (\"and the left foot\")."
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "key": "pithasana",
+   "iast": "Pīṭhāsana",
+   "number": 3,
+   "name": {
+    "ru": "Пӣт̣хāсана",
+    "en": "Pīṭhāsana"
+   },
+   "gloss": {
+    "ru": "поза трона",
+    "en": "The Throne Posture"
+   },
+   "verses": {
+    "ru": "12",
+    "en": "12"
+   },
+   "text": {
+    "ru": [
+     {
+      "type": "verse_card",
+      "verses": "12",
+      "sections": [
+       {
+        "type": "verse",
+        "key": "deva",
+        "label": "Деванāгарӣ",
+        "lines": [
+         "आसनस्थेन पादौ द्वौ न्यस्येतां भूतले समं।",
+         "जानुद्वये हस्ततलं स्थाप्य पीठासनं भवेत्॥१२॥"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "iast",
+        "label": "IAST",
+        "lines": [
+         "āsanasthena pādau dvau nyasyetāṃ bhūtale samam |",
+         "jānudvaye hastatalaṃ sthāpya pīṭhāsanaṃ bhavet ||12||"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "cyr",
+        "label": "Кириллическая транслитерация",
+        "lines": [
+         "āсанастхена пāдау двау нйасйетāм̣ бхӯтале самам |",
+         "джāнудвайе хастаталам̣ стхāпйа пӣт̣хāсанам̣ бхавет ||12||"
+        ]
+       }
+      ]
+     },
+     {
+      "type": "words",
+      "label": "Пословный разбор",
+      "titles": [
+       "Стих 12"
+      ],
+      "groups": [
+       [
+        [
+         "āсана-стхена",
+         "[йогином], сидящим в позе"
+        ],
+        [
+         "пāдау двау",
+         "две стопы"
+        ],
+        [
+         "нйасйетāм",
+         "следует поместить (оптатив двойственного числа)"
+        ],
+        [
+         "бхӯтале",
+         "на земле"
+        ],
+        [
+         "самам",
+         "ровно, параллельно"
+        ],
+        [
+         "джāну-двайе",
+         "на двух коленях"
+        ],
+        [
+         "хаста-талам",
+         "ладони рук"
+        ],
+        [
+         "стхāпйа",
+         "поместив"
+        ],
+        [
+         "пӣт̣ха-āсанам",
+         "поза трона"
+        ],
+        [
+         "бхавет",
+         "есть / становится"
+        ]
+       ]
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "literal",
+      "label": "Буквальный перевод",
+      "paragraphs": [
+       "[Йогином], сидящим в позе, две стопы следует поместить ровно на земле; поместив ладони рук на два колена, [это] становится позой трона."
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "literary",
+      "label": "Литературный перевод (К. Баруа; перевод с английского)",
+      "paragraphs": [
+       "Когда [йогин] сидит, обе стопы следует поместить параллельно на земле; после того как он поместил ладони рук на оба колена, [это] поза [по имени] пӣт̣ха. (12)"
+      ]
+     },
+     {
+      "type": "note",
+      "paragraphs": [
+       "Простое прямое сидение: стопы плоско и параллельно стоят на полу, ладони лежат на коленях — поза сидения на «троне» (пӣт̣ха)."
+      ]
+     }
+    ],
+    "en": [
+     {
+      "type": "verse_card",
+      "verses": "12",
+      "sections": [
+       {
+        "type": "verse",
+        "key": "deva",
+        "label": "Devanāgarī",
+        "lines": [
+         "आसनस्थेन पादौ द्वौ न्यस्येतां भूतले समं।",
+         "जानुद्वये हस्ततलं स्थाप्य पीठासनं भवेत्॥१२॥"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "iast",
+        "label": "IAST",
+        "lines": [
+         "āsanasthena pādau dvau nyasyetāṃ bhūtale samam |",
+         "jānudvaye hastatalaṃ sthāpya pīṭhāsanaṃ bhavet ||12||"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "cyr",
+        "label": "Cyrillic transliteration",
+        "lines": [
+         "āсанастхена пāдау двау нйасйетāм̣ бхӯтале самам |",
+         "джāнудвайе хастаталам̣ стхāпйа пӣт̣хāсанам̣ бхавет ||12||"
+        ]
+       }
+      ]
+     },
+     {
+      "type": "words",
+      "label": "Word-for-word Analysis",
+      "titles": [
+       "Verse 12"
+      ],
+      "groups": [
+       [
+        [
+         "āsana-sthena",
+         "by [the yogin] seated in the posture"
+        ],
+        [
+         "pādau dvau",
+         "the two feet"
+        ],
+        [
+         "nyasyetām",
+         "should be placed (dual optative)"
+        ],
+        [
+         "bhūtale",
+         "on the ground"
+        ],
+        [
+         "samam",
+         "evenly, parallel"
+        ],
+        [
+         "jānu-dvaye",
+         "on the two knees"
+        ],
+        [
+         "hasta-talam",
+         "the palm of the hands"
+        ],
+        [
+         "sthāpya",
+         "having placed"
+        ],
+        [
+         "pīṭha-āsanam",
+         "the throne posture"
+        ],
+        [
+         "bhavet",
+         "is / becomes"
+        ]
+       ]
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "literal",
+      "label": "Literal Translation",
+      "paragraphs": [
+       "By [the yogin] seated in the posture, the two feet should be placed evenly on the ground; having placed the palms of the hands on the two knees, [this] becomes the throne posture."
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "literary",
+      "label": "Literary Translation",
+      "paragraphs": [
+       "[The yogin] being seated, both feet should be placed parallel on the ground; after he has placed the palm of the hands on both knees, [this is] the posture [named] pīṭha. (12)"
+      ]
+     },
+     {
+      "type": "note",
+      "paragraphs": [
+       "A simple upright seat: feet flat and parallel on the floor, palms resting on the knees — the posture of sitting on a \"throne\" (pīṭha)."
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "key": "sthalasana",
+   "iast": "Sthalāsana",
+   "number": 4,
+   "name": {
+    "ru": "Стхалāсана",
+    "en": "Sthalāsana"
+   },
+   "gloss": {
+    "ru": "поза холма",
+    "en": "The Mound Posture"
+   },
+   "verses": {
+    "ru": "13",
+    "en": "13"
+   },
+   "text": {
+    "ru": [
+     {
+      "type": "verse_card",
+      "verses": "13",
+      "sections": [
+       {
+        "type": "verse",
+        "key": "deva",
+        "label": "Деванāгарӣ",
+        "lines": [
+         "एवमेवासनाभावे भुवि स्थित्वा प्रयत्नतः ।",
+         "बाहूरुजङ्घासुश्लिष्टं स्थलासनमुदीरितं॥१३॥"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "iast",
+        "label": "IAST",
+        "lines": [
+         "evam evāsanābhāve bhuvi sthitvā prayatnataḥ |",
+         "bāhūrujaṅghāsuśliṣṭaṃ sthalāsanam udīritam ||13||"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "cyr",
+        "label": "Кириллическая транслитерация",
+        "lines": [
+         "евам евāсанāбхāве бхуви стхитвā прайатнатах̣ |",
+         "бāхӯруджан̇гхāсуш́лишт̣ам̣ стхалāсанам удӣритам ||13||"
+        ]
+       }
+      ]
+     },
+     {
+      "type": "words",
+      "label": "Пословный разбор",
+      "titles": [
+       "Стих 13"
+      ],
+      "groups": [
+       [
+        [
+         "евам ева",
+         "точно так же, подобным образом"
+        ],
+        [
+         "āсана-абхāве",
+         "при отсутствии сидения / не сидя"
+        ],
+        [
+         "бхуви",
+         "на земле"
+        ],
+        [
+         "стхитвā",
+         "встав"
+        ],
+        [
+         "прайатнатах̣",
+         "с усилием, старательно"
+        ],
+        [
+         "бāху-ӯру-джан̇гхāсу",
+         "в руках, бёдрах и голенях"
+        ],
+        [
+         "су-ш́лишт̣ам",
+         "плотно сомкнутое, крепко напряжённое"
+        ],
+        [
+         "стхала-āсанам",
+         "поза холма"
+        ],
+        [
+         "удӣритам",
+         "объявляется / называется"
+        ]
+       ]
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "literal",
+      "label": "Буквальный перевод",
+      "paragraphs": [
+       "Точно так же, не сидя, встав на земле с усилием, при крепко напряжённых руках, бёдрах и голенях, [это] объявляется позой холма."
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "literary",
+      "label": "Литературный перевод (К. Баруа; перевод с английского)",
+      "paragraphs": [
+       "Не сидя, стоя подобным же образом на земле с особым усилием, при крепко напряжённых руках, бёдрах [и] голенях, [это] поза, называемая стхала. (13)"
+      ]
+     },
+     {
+      "type": "note",
+      "paragraphs": [
+       "Это поза стоя (āсана здесь употреблено в смысле «стояние»), тело держится жёстко и компактно, подобно «холму» (стхала). Выражение āсанāбхāве («при отсутствии сидения») прямо указывает, что практикующий стоит прямо, а не сидит."
+      ]
+     }
+    ],
+    "en": [
+     {
+      "type": "verse_card",
+      "verses": "13",
+      "sections": [
+       {
+        "type": "verse",
+        "key": "deva",
+        "label": "Devanāgarī",
+        "lines": [
+         "एवमेवासनाभावे भुवि स्थित्वा प्रयत्नतः ।",
+         "बाहूरुजङ्घासुश्लिष्टं स्थलासनमुदीरितं॥१३॥"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "iast",
+        "label": "IAST",
+        "lines": [
+         "evam evāsanābhāve bhuvi sthitvā prayatnataḥ |",
+         "bāhūrujaṅghāsuśliṣṭaṃ sthalāsanam udīritam ||13||"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "cyr",
+        "label": "Cyrillic transliteration",
+        "lines": [
+         "евам евāсанāбхāве бхуви стхитвā прайатнатах̣ |",
+         "бāхӯруджан̇гхāсуш́лишт̣ам̣ стхалāсанам удӣритам ||13||"
+        ]
+       }
+      ]
+     },
+     {
+      "type": "words",
+      "label": "Word-for-word Analysis",
+      "titles": [
+       "Verse 13"
+      ],
+      "groups": [
+       [
+        [
+         "evam eva",
+         "just so, similarly"
+        ],
+        [
+         "āsana-abhāve",
+         "in the absence of a seat / without being seated"
+        ],
+        [
+         "bhuvi",
+         "on the ground"
+        ],
+        [
+         "sthitvā",
+         "having stood"
+        ],
+        [
+         "prayatnataḥ",
+         "with effort, carefully"
+        ],
+        [
+         "bāhu-ūru-jaṅghāsu",
+         "in the arms, thighs, and shanks"
+        ],
+        [
+         "su-śliṣṭam",
+         "well joined, firmly tightened"
+        ],
+        [
+         "sthala-āsanam",
+         "the mound posture"
+        ],
+        [
+         "udīritam",
+         "is declared / called"
+        ]
+       ]
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "literal",
+      "label": "Literal Translation",
+      "paragraphs": [
+       "Just so, without being seated, having stood on the ground with effort, with the arms, thighs, and shanks firmly tightened, [this] is declared the mound posture."
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "literary",
+      "label": "Literary Translation",
+      "paragraphs": [
+       "Without being seated, standing similarly on the ground with special effort, arms, thighs, [and] shanks firmly tightened, [this is] the posture called sthala. (13)"
+      ]
+     },
+     {
+      "type": "note",
+      "paragraphs": [
+       "This is a standing posture (āsana here used in the sense of \"standing\"), the body held rigid and compact like a \"mound\" (sthala). The phrase āsanābhāve (\"in the absence of sitting\") makes explicit that the practitioner is upright rather than seated."
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "key": "anjalikasana",
+   "iast": "Añjalikāsana",
+   "number": 5,
+   "name": {
+    "ru": "Ан̃джаликāсана",
+    "en": "Añjalikāsana"
+   },
+   "gloss": {
+    "ru": "поза сложенных рук",
+    "en": "The Joined-Hands Posture"
+   },
+   "verses": {
+    "ru": "14",
+    "en": "14"
+   },
+   "text": {
+    "ru": [
+     {
+      "type": "verse_card",
+      "verses": "14",
+      "sections": [
+       {
+        "type": "verse",
+        "key": "deva",
+        "label": "Деванāгарӣ",
+        "lines": [
+         "भुवि स्थित्वा तु जानुभ्यां स्तब्धगात्रेण योगिना ।",
+         "हृदि हस्तपुटं कार्यं ज्ञेयमञ्जलिकासनं॥१४॥"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "iast",
+        "label": "IAST",
+        "lines": [
+         "bhuvi sthitvā tu jānubhyāṃ stabdhagātreṇa yoginā |",
+         "hṛdi hastapuṭaṃ kāryaṃ jñeyam añjalikāsanam ||14||"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "cyr",
+        "label": "Кириллическая транслитерация",
+        "lines": [
+         "бхуви стхитвā ту джāнубхйāм̣ стабдхагāтрен̣а йогинā |",
+         "хр̣ди хастапут̣ам̣ кāрйам̣ джн̃ейам ан̃джаликāсанам ||14||"
+        ]
+       }
+      ]
+     },
+     {
+      "type": "words",
+      "label": "Пословный разбор",
+      "titles": [
+       "Стих 14"
+      ],
+      "groups": [
+       [
+        [
+         "бхуви",
+         "на земле"
+        ],
+        [
+         "стхитвā",
+         "встав / опираясь"
+        ],
+        [
+         "ту",
+         "и"
+        ],
+        [
+         "джāнубхйāм",
+         "на двух коленях"
+        ],
+        [
+         "стабдха-гāтрен̣а",
+         "с неподвижным телом"
+        ],
+        [
+         "йогинā",
+         "йогином"
+        ],
+        [
+         "хр̣ди",
+         "у сердца"
+        ],
+        [
+         "хаста-пут̣ам",
+         "полость сложенных рук (анджали, сомкнутые лодочкой руки)"
+        ],
+        [
+         "кāрйам",
+         "следует сделать"
+        ],
+        [
+         "джн̃ейам",
+         "следует знать"
+        ],
+        [
+         "ан̃джаликā-āсанам",
+         "поза сложенных рук"
+        ]
+       ]
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "literal",
+      "label": "Буквальный перевод",
+      "paragraphs": [
+       "Опираясь на земле на два колена, йогином, чьё тело неподвижно, у сердца следует сделать полость сложенных рук; [это] следует знать как позу сложенных рук."
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "literary",
+      "label": "Литературный перевод (К. Баруа; перевод с английского)",
+      "paragraphs": [
+       "Стоя на коленях, опирающихся на землю, йогин, чьё тело неподвижно, должен образовать у сердца полость руками; [эта] поза известна как ан̃джаликā. (14)"
+      ]
+     },
+     {
+      "type": "note",
+      "paragraphs": [
+       "Поза на коленях: практикующий стоит на коленях с неподвижным телом и образует ан̃джали (сомкнутые лодочкой руки) у сердца — жест почтения. Хаста-пут̣а буквально означает «полость / чаша рук»."
+      ]
+     }
+    ],
+    "en": [
+     {
+      "type": "verse_card",
+      "verses": "14",
+      "sections": [
+       {
+        "type": "verse",
+        "key": "deva",
+        "label": "Devanāgarī",
+        "lines": [
+         "भुवि स्थित्वा तु जानुभ्यां स्तब्धगात्रेण योगिना ।",
+         "हृदि हस्तपुटं कार्यं ज्ञेयमञ्जलिकासनं॥१४॥"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "iast",
+        "label": "IAST",
+        "lines": [
+         "bhuvi sthitvā tu jānubhyāṃ stabdhagātreṇa yoginā |",
+         "hṛdi hastapuṭaṃ kāryaṃ jñeyam añjalikāsanam ||14||"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "cyr",
+        "label": "Cyrillic transliteration",
+        "lines": [
+         "бхуви стхитвā ту джāнубхйāм̣ стабдхагāтрен̣а йогинā |",
+         "хр̣ди хастапут̣ам̣ кāрйам̣ джн̃ейам ан̃джаликāсанам ||14||"
+        ]
+       }
+      ]
+     },
+     {
+      "type": "words",
+      "label": "Word-for-word Analysis",
+      "titles": [
+       "Verse 14"
+      ],
+      "groups": [
+       [
+        [
+         "bhuvi",
+         "on the ground"
+        ],
+        [
+         "sthitvā",
+         "having stood / rested"
+        ],
+        [
+         "tu",
+         "and"
+        ],
+        [
+         "jānubhyām",
+         "on the two knees"
+        ],
+        [
+         "stabdha-gātreṇa",
+         "with the body immovable"
+        ],
+        [
+         "yoginā",
+         "by the yogin"
+        ],
+        [
+         "hṛdi",
+         "at the heart"
+        ],
+        [
+         "hasta-puṭam",
+         "the hollow of the hands (the añjali, cupped / joined hands)"
+        ],
+        [
+         "kāryam",
+         "should be made"
+        ],
+        [
+         "jñeyam",
+         "is to be known"
+        ],
+        [
+         "añjalikā-āsanam",
+         "the joined-hands posture"
+        ]
+       ]
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "literal",
+      "label": "Literal Translation",
+      "paragraphs": [
+       "Having rested on the ground on the two knees, by the yogin whose body is immovable a hollow of the hands should be made at the heart; [this] is to be known as the joined-hands posture."
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "literary",
+      "label": "Literary Translation",
+      "paragraphs": [
+       "Standing on the knees resting on the ground, the yogin whose body is immovable must form on the heart a hollow with the hands; [this] posture is known as añjalika. (14)"
+      ]
+     },
+     {
+      "type": "note",
+      "paragraphs": [
+       "A kneeling posture: the practitioner kneels with the body still and forms the añjali (cupped, joined hands) at the heart — a gesture of reverence. hasta-puṭa literally means the \"hollow / cup of the hands.\""
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "key": "ardhacandrasana",
+   "iast": "Ardhacandrāsana",
+   "number": 6,
+   "name": {
+    "ru": "Ардхачандрāсана",
+    "en": "Ardhacandrāsana"
+   },
+   "gloss": {
+    "ru": "поза полумесяца",
+    "en": "The Half-Moon Posture"
+   },
+   "verses": {
+    "ru": "15",
+    "en": "15"
+   },
+   "text": {
+    "ru": [
+     {
+      "type": "verse_card",
+      "verses": "15",
+      "sections": [
+       {
+        "type": "verse",
+        "key": "deva",
+        "label": "Деванāгарӣ",
+        "lines": [
+         "तलपादेन वामेन जानुना दक्षिणेन च ।",
+         "स्थित्वा हस्तपुटं कार्यमर्धचन्द्रासनं विदुः ॥१५॥"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "iast",
+        "label": "IAST",
+        "lines": [
+         "talapādena vāmena jānunā dakṣiṇena ca |",
+         "sthitvā hastapuṭaṃ kāryam ardhacandrāsanaṃ viduḥ ||15||"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "cyr",
+        "label": "Кириллическая транслитерация",
+        "lines": [
+         "талапāдена вāмена джāнунā дакшин̣ена ча |",
+         "стхитвā хастапут̣ам̣ кāрйам ардхачандрāсанам̣ видух̣ ||15||"
+        ]
+       }
+      ]
+     },
+     {
+      "type": "words",
+      "label": "Пословный разбор",
+      "titles": [
+       "Стих 15"
+      ],
+      "groups": [
+       [
+        [
+         "тала-пāдена",
+         "подошвой стопы"
+        ],
+        [
+         "вāмена",
+         "левой"
+        ],
+        [
+         "джāнунā",
+         "коленом"
+        ],
+        [
+         "дакшин̣ена",
+         "правым"
+        ],
+        [
+         "ча",
+         "и"
+        ],
+        [
+         "стхитвā",
+         "встав"
+        ],
+        [
+         "хаста-пут̣ам",
+         "полость сложенных рук"
+        ],
+        [
+         "кāрйам",
+         "следует сделать"
+        ],
+        [
+         "ардха-чандра-āсанам",
+         "поза полумесяца"
+        ],
+        [
+         "видух̣",
+         "знают [мудрые]"
+        ]
+       ]
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "literal",
+      "label": "Буквальный перевод",
+      "paragraphs": [
+       "Встав на подошву левой стопы и на правое колено, [йогин] должен сделать полость сложенных рук [у сердца]; они знают [это] как позу полумесяца."
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "literary",
+      "label": "Литературный перевод (К. Баруа; перевод с английского)",
+      "paragraphs": [
+       "Стоя на левой стопе и на правом колене, [йогин] должен образовать [у сердца] полость руками; они знают [эту] позу как ардхачандра. (15)"
+      ]
+     },
+     {
+      "type": "note",
+      "paragraphs": [
+       "Асимметричная поза на колене: левая стопа поставлена на подошву, тогда как правое колено покоится на земле, а руки снова образуют ан̃джали у сердца (это добавлено из предыдущего стиха). Согнутая, смещённая форма тела даёт «полумесяцу» (ардхачандра) его название."
+      ]
+     }
+    ],
+    "en": [
+     {
+      "type": "verse_card",
+      "verses": "15",
+      "sections": [
+       {
+        "type": "verse",
+        "key": "deva",
+        "label": "Devanāgarī",
+        "lines": [
+         "तलपादेन वामेन जानुना दक्षिणेन च ।",
+         "स्थित्वा हस्तपुटं कार्यमर्धचन्द्रासनं विदुः ॥१५॥"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "iast",
+        "label": "IAST",
+        "lines": [
+         "talapādena vāmena jānunā dakṣiṇena ca |",
+         "sthitvā hastapuṭaṃ kāryam ardhacandrāsanaṃ viduḥ ||15||"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "cyr",
+        "label": "Cyrillic transliteration",
+        "lines": [
+         "талапāдена вāмена джāнунā дакшин̣ена ча |",
+         "стхитвā хастапут̣ам̣ кāрйам ардхачандрāсанам̣ видух̣ ||15||"
+        ]
+       }
+      ]
+     },
+     {
+      "type": "words",
+      "label": "Word-for-word Analysis",
+      "titles": [
+       "Verse 15"
+      ],
+      "groups": [
+       [
+        [
+         "tala-pādena",
+         "with the sole of the foot"
+        ],
+        [
+         "vāmena",
+         "the left"
+        ],
+        [
+         "jānunā",
+         "with the knee"
+        ],
+        [
+         "dakṣiṇena",
+         "the right"
+        ],
+        [
+         "ca",
+         "and"
+        ],
+        [
+         "sthitvā",
+         "having stood"
+        ],
+        [
+         "hasta-puṭam",
+         "the hollow of the hands"
+        ],
+        [
+         "kāryam",
+         "should be made"
+        ],
+        [
+         "ardha-candra-āsanam",
+         "the half-moon posture"
+        ],
+        [
+         "viduḥ",
+         "they [the wise] know"
+        ]
+       ]
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "literal",
+      "label": "Literal Translation",
+      "paragraphs": [
+       "Having stood with the sole of the left foot and with the right knee, [the yogin] should make the hollow of the hands [at the heart]; they know [this] as the half-moon posture."
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "literary",
+      "label": "Literary Translation",
+      "paragraphs": [
+       "Standing on the left foot and on the right knee, [the yogin] must form [on the heart] a hollow with the hands; they know [this] posture as ardhacandra. (15)"
+      ]
+     },
+     {
+      "type": "note",
+      "paragraphs": [
+       "An asymmetrical kneeling posture: the left foot is planted on its sole while the right knee rests on the ground, the hands again forming the añjali at the heart (supplied from the previous verse). The bent, offset shape of the body gives the \"half-moon\" (ardhacandra) its name."
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "key": "dandasana",
+   "iast": "Daṇḍāsana",
+   "number": 7,
+   "name": {
+    "ru": "Дан̣д̣āсана",
+    "en": "Daṇḍāsana"
+   },
+   "gloss": {
+    "ru": "поза посоха",
+    "en": "The Staff Posture"
+   },
+   "verses": {
+    "ru": "16",
+    "en": "16"
+   },
+   "text": {
+    "ru": [
+     {
+      "type": "verse_card",
+      "verses": "16",
+      "sections": [
+       {
+        "type": "verse",
+        "key": "deva",
+        "label": "Деванāгарӣ",
+        "lines": [
+         "अग्रे प्रसारितौ पादौ सुश्लिष्टौ भूमिसंस्थितौ ।",
+         "उपवेश्यार्धकायं तु दण्डासनमिति स्मृतं॥१६॥"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "iast",
+        "label": "IAST",
+        "lines": [
+         "agre prasāritau pādau suśliṣṭau bhūmisaṃsthitau |",
+         "upaveśyārdhakāyaṃ tu daṇḍāsanam iti smṛtam ||16||"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "cyr",
+        "label": "Кириллическая транслитерация",
+        "lines": [
+         "агре прасāритау пāдау суш́лишт̣ау бхӯмисам̣стхитау |",
+         "упавеш́йāрдхакāйам̣ ту дан̣д̣āсанам ити смр̣там ||16||"
+        ]
+       }
+      ]
+     },
+     {
+      "type": "words",
+      "label": "Пословный разбор",
+      "titles": [
+       "Стих 16"
+      ],
+      "groups": [
+       [
+        [
+         "агре",
+         "впереди"
+        ],
+        [
+         "прасāритау",
+         "вытянутые (двойственное число)"
+        ],
+        [
+         "пāдау",
+         "две стопы / ноги"
+        ],
+        [
+         "су-слишт̣ау",
+         "плотно сомкнутые (двойственное число)"
+        ],
+        [
+         "бхӯми-сам̣стхитау",
+         "покоящиеся на земле (двойственное число)"
+        ],
+        [
+         "упавеш́йа",
+         "усадив"
+        ],
+        [
+         "ардха-кāйам",
+         "половину тела (нижнюю половину)"
+        ],
+        [
+         "ту",
+         "и"
+        ],
+        [
+         "дан̣д̣а-āсанам",
+         "поза посоха"
+        ],
+        [
+         "ити",
+         "так"
+        ],
+        [
+         "смр̣там",
+         "называется / «вспоминается»"
+        ]
+       ]
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "literal",
+      "label": "Буквальный перевод",
+      "paragraphs": [
+       "Две стопы, вытянутые вперёд, плотно сомкнутые, покоящиеся на земле, усадив [нижнюю] половину тела — это называется позой посоха."
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "literary",
+      "label": "Литературный перевод (К. Баруа; перевод с английского)",
+      "paragraphs": [
+       "Обе стопы вытянуты вперёд, плотно сомкнуты, помещены на земле; после того как [йогин] усадил [нижнюю] половину тела, это поза, называемая дан̣д̣а. (16)"
+      ]
+     },
+     {
+      "type": "note",
+      "paragraphs": [
+       "Сидячая поза «посоха»: ноги вытянуты прямо вперёд и сомкнуты, тело прямое, как посох (дан̣д̣а). Это соответствует современной позе дан̣д̣āсана."
+      ]
+     }
+    ],
+    "en": [
+     {
+      "type": "verse_card",
+      "verses": "16",
+      "sections": [
+       {
+        "type": "verse",
+        "key": "deva",
+        "label": "Devanāgarī",
+        "lines": [
+         "अग्रे प्रसारितौ पादौ सुश्लिष्टौ भूमिसंस्थितौ ।",
+         "उपवेश्यार्धकायं तु दण्डासनमिति स्मृतं॥१६॥"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "iast",
+        "label": "IAST",
+        "lines": [
+         "agre prasāritau pādau suśliṣṭau bhūmisaṃsthitau |",
+         "upaveśyārdhakāyaṃ tu daṇḍāsanam iti smṛtam ||16||"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "cyr",
+        "label": "Cyrillic transliteration",
+        "lines": [
+         "агре прасāритау пāдау суш́лишт̣ау бхӯмисам̣стхитау |",
+         "упавеш́йāрдхакāйам̣ ту дан̣д̣āсанам ити смр̣там ||16||"
+        ]
+       }
+      ]
+     },
+     {
+      "type": "words",
+      "label": "Word-for-word Analysis",
+      "titles": [
+       "Verse 16"
+      ],
+      "groups": [
+       [
+        [
+         "agre",
+         "in front, ahead"
+        ],
+        [
+         "prasāritau",
+         "stretched out (dual)"
+        ],
+        [
+         "pādau",
+         "the two feet / legs"
+        ],
+        [
+         "su-sliṣṭau",
+         "firmly joined (dual)"
+        ],
+        [
+         "bhūmi-saṃsthitau",
+         "resting on the ground (dual)"
+        ],
+        [
+         "upaveśya",
+         "having seated"
+        ],
+        [
+         "ardha-kāyam",
+         "half of the body (the lower half)"
+        ],
+        [
+         "tu",
+         "and"
+        ],
+        [
+         "daṇḍa-āsanam",
+         "the staff posture"
+        ],
+        [
+         "iti",
+         "thus"
+        ],
+        [
+         "smṛtam",
+         "is called / remembered"
+        ]
+       ]
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "literal",
+      "label": "Literal Translation",
+      "paragraphs": [
+       "The two feet stretched out ahead, firmly joined, resting on the ground, having seated the [lower] half of the body — this is called the staff posture."
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "literary",
+      "label": "Literary Translation",
+      "paragraphs": [
+       "Both feet stretched ahead, firmly joined, placed on the ground, after having sat the [lower] half of the body, this is the posture called daṇḍa. (16)"
+      ]
+     },
+     {
+      "type": "note",
+      "paragraphs": [
+       "The seated \"staff\" posture: legs extended straight forward and pressed together, the body upright like a staff (daṇḍa). This corresponds to the modern daṇḍāsana."
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "key": "sarvatobhadrasana",
+   "iast": "Sarvatobhadrāsana",
+   "number": 8,
+   "name": {
+    "ru": "Сарватобхадрāсана",
+    "en": "Sarvatobhadrāsana"
+   },
+   "gloss": {
+    "ru": "всеблагая поза",
+    "en": "The All-Auspicious Posture"
+   },
+   "verses": {
+    "ru": "17",
+    "en": "17"
+   },
+   "text": {
+    "ru": [
+     {
+      "type": "verse_card",
+      "verses": "17",
+      "sections": [
+       {
+        "type": "verse",
+        "key": "deva",
+        "label": "Деванāгарӣ",
+        "lines": [
+         "समपादलब्धभूमिरधिजानुकरान्वितं।",
+         "सम्बद्धमसम्बद्धं वा सर्वतोभद्रमासनं ॥१७॥"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "iast",
+        "label": "IAST",
+        "lines": [
+         "samapādalabdhabhūmir adhijānukarānvitam |",
+         "sambaddham asambaddhaṃ vā sarvatobhadram āsanaṃ ||17||"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "cyr",
+        "label": "Кириллическая транслитерация",
+        "lines": [
+         "самапāдалабдхабхӯмир адхиджāнукарāнвитам |",
+         "самбаддхам асамбаддхам̣ вā сарватобхадрам āсанам̣ ||17||"
+        ]
+       }
+      ]
+     },
+     {
+      "type": "words",
+      "label": "Пословный разбор",
+      "titles": [
+       "Стих 17"
+      ],
+      "groups": [
+       [
+        [
+         "сама-пāда-лабдха-бхӯмих̣",
+         "[руки], достигающие земли на том же уровне, что и стопы"
+        ],
+        [
+         "адхи-джāну",
+         "между / над коленями"
+        ],
+        [
+         "кара-анвитам",
+         "снабжённое руками, то есть с помещёнными руками"
+        ],
+        [
+         "самбаддхам",
+         "связанное, сомкнутое, замкнутое"
+        ],
+        [
+         "асамбаддхам",
+         "несвязанное, разомкнутое, открытое"
+        ],
+        [
+         "вā",
+         "или"
+        ],
+        [
+         "сарвато-бхадрам",
+         "всеблагой"
+        ],
+        [
+         "āсанам",
+         "поза"
+        ]
+       ]
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "literal",
+      "label": "Буквальный перевод",
+      "paragraphs": [
+       "[Руки], достигающие земли на том же уровне, что и стопы, помещённые между коленями, при [положении] связанном или несвязанном — [это] всеблагая поза."
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "literary",
+      "label": "Литературный перевод (К. Баруа; перевод с английского)",
+      "paragraphs": [
+       "Руки, [помещённые] между коленями [так, что] они достигают земли на том же уровне, что и стопы, при [положении] связанном или несвязанном, — это поза сарватобхадра. (17)"
+      ]
+     },
+     {
+      "type": "note",
+      "paragraphs": [
+       "Заключительная поза серии: руки помещены между коленями так, что они касаются земли на уровне стоп. Альтернатива «связанное или несвязанное» (самбаддхам асамбаддхам̣ вā), вероятно, относится к тому, сомкнуты / сцеплены ли конечности или оставлены свободными. Название сарвато-бхадра («благой со всех сторон») отмечает её как полное, всесторонне благое сидение."
+      ]
+     }
+    ],
+    "en": [
+     {
+      "type": "verse_card",
+      "verses": "17",
+      "sections": [
+       {
+        "type": "verse",
+        "key": "deva",
+        "label": "Devanāgarī",
+        "lines": [
+         "समपादलब्धभूमिरधिजानुकरान्वितं।",
+         "सम्बद्धमसम्बद्धं वा सर्वतोभद्रमासनं ॥१७॥"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "iast",
+        "label": "IAST",
+        "lines": [
+         "samapādalabdhabhūmir adhijānukarānvitam |",
+         "sambaddham asambaddhaṃ vā sarvatobhadram āsanaṃ ||17||"
+        ]
+       },
+       {
+        "type": "verse",
+        "key": "cyr",
+        "label": "Cyrillic transliteration",
+        "lines": [
+         "самапāдалабдхабхӯмир адхиджāнукарāнвитам |",
+         "самбаддхам асамбаддхам̣ вā сарватобхадрам āсанам̣ ||17||"
+        ]
+       }
+      ]
+     },
+     {
+      "type": "words",
+      "label": "Word-for-word Analysis",
+      "titles": [
+       "Verse 17"
+      ],
+      "groups": [
+       [
+        [
+         "sama-pāda-labdha-bhūmiḥ",
+         "[the hands] reaching the ground at the same level as the feet"
+        ],
+        [
+         "adhi-jānu",
+         "between / over the knees"
+        ],
+        [
+         "kara-anvitam",
+         "furnished with the hands, i.e. with the hands placed"
+        ],
+        [
+         "sambaddham",
+         "bound, tied, closed"
+        ],
+        [
+         "asambaddham",
+         "unbound, untied, open"
+        ],
+        [
+         "vā",
+         "or"
+        ],
+        [
+         "sarvato-bhadram",
+         "the all-auspicious"
+        ],
+        [
+         "āsanam",
+         "posture"
+        ]
+       ]
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "literal",
+      "label": "Literal Translation",
+      "paragraphs": [
+       "[The hands] reaching the ground at the same level as the feet, placed between the knees, [the position] being bound or unbound — [this is] the all-auspicious posture."
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "literary",
+      "label": "Literary Translation",
+      "paragraphs": [
+       "The hands [placed] between the knees [in such a way that] they reach the ground at the same level as the feet, [the position] being tied or untied, is the sarvatobhadra posture. (17)"
+      ]
+     },
+     {
+      "type": "note",
+      "paragraphs": [
+       "The final posture of the series: the hands are placed between the knees so that they touch the ground level with the feet. The alternative \"bound or unbound\" (sambaddham asambaddhaṃ vā) likely refers to whether the limbs are locked / interlocked or left loose. The name sarvato-bhadra (\"auspicious on every side\") marks it as a complete, all-round auspicious seat."
+      ]
+     }
+    ]
+   }
+  }
+ ]
+}
