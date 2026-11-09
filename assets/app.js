@@ -112,7 +112,7 @@
     }
   };
 
-  const BUILD = "2026-11-06.14";
+  const BUILD = "2026-11-06.15";
   const V = "?v=" + BUILD;
 
   const state = {
@@ -190,6 +190,17 @@
   // Маршрут словами — тот же, что лежит в data-route статической страницы.
   // Сборщик страниц ждёт, пока он появится: так видно, что отрисована именно
   // эта страница, а не та, что осталась в шаблоне от прошлой сборки.
+  /* Ссылка из данных: данные не знают, на какой глубине стоит страница,
+     поэтому адрес пишется словами — «pose:padmasana», «about:rudrayamala», —
+     а настоящий путь подставляет эта функция тем же url(), что и везде.
+     Так ссылка работает и на статической странице, и в обоих языках. */
+  function resolveLinks(html) {
+    return String(html).replace(/href="(pose|about|treatise):([^"]+)"/g,
+      (whole, kind, id) => 'href="' + (kind === "pose" ? url("pose", id)
+        : kind === "about" ? url("about", null, null, id)
+          : url("treatise", null, null, id)) + '"');
+  }
+
   function routeString(route) {
     if (route.view === "home") return "home";
     if (route.view === "pose") return "pose/" + route.key;
@@ -682,7 +693,7 @@
     else if (route.view === "notes") html = renderNotes();
     else if (route.view === "about") html = renderAbout();
 
-    view.innerHTML = applyMarks(html);
+    view.innerHTML = applyMarks(resolveLinks(html));
     view.style.animation = "none";
     void view.offsetWidth;
     view.style.animation = "";
@@ -1662,10 +1673,18 @@
     // 3.1 эры до общей эры и эра Викрамы — раньше чисел, чтобы «г.» попал в оборот
     out = out.replace(/(?<![\p{L}])V\.\s?S\.\s*(?=\d)/gu, W("эра Викрамы ", "Vikrama era "));
     const afterSentence = /^\s+[«"(\p{Lu}]/u;
+    // «A. D. 900» — сокращение стоит перед годом, и развернуть его на месте
+    // нельзя: получилось бы «нашей эры 900». В цитате из английского оригинала
+    // оно остаётся как напечатано, а в обычной фразе разворачивается только
+    // тогда, когда за ним нет числа.
     out = out.replace(/(?<![\p{L}])A\.\s?D\./gu,
-      (m, off, str) => W("нашей эры", "of the Common Era") + (afterSentence.test(str.slice(off + m.length)) ? "." : ""));
+      (m, off, str) => (/^\s*\d/.test(str.slice(off + m.length)) ? m
+        : W("нашей эры", "of the Common Era") +
+          (afterSentence.test(str.slice(off + m.length)) ? "." : "")));
     out = out.replace(/(?<![\p{L}])B\.\s?C\./gu,
-      (m, off, str) => W("до нашей эры", "before the Common Era") + (afterSentence.test(str.slice(off + m.length)) ? "." : ""));
+      (m, off, str) => (/^\s*\d/.test(str.slice(off + m.length)) ? m
+        : W("до нашей эры", "before the Common Era") +
+          (afterSentence.test(str.slice(off + m.length)) ? "." : "")));
     out = out.replace(/(?<![\p{L}])до\s+н\.\s*э\./giu, "до нашей эры");
     out = out.replace(/(?<![\p{L}])н\.\s*э\./giu,
       (m, off, str) => "нашей эры" + (afterSentence.test(str.slice(off + m.length)) ? "." : ""));

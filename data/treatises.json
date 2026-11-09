@@ -315,6 +315,30 @@
     "ru": "sources/Йога-каустубха — восемьдесят четыре āсаны (RU).pdf",
     "en": "sources/Yoga Kaustubha — the Eighty-Four Āsanas (EN).pdf"
    }
+  },
+  {
+   "id": "rudrayamala",
+   "file": "data/rudrayamala.json",
+   "title": {
+    "ru": "Рудрайāмалоттаратантра",
+    "en": "Rudrayāmalottaratantra"
+   },
+   "subtitle": {
+    "ru": "пат̣алы 23–24 · реестр из пятидесяти семи описаний",
+    "en": "paṭalas 23–24 · a register of fifty-seven descriptions"
+   },
+   "tradition": {
+    "ru": "Ш́айва-тантра",
+    "en": "Śaiva tantra"
+   },
+   "edition": {
+    "ru": "издание Судхāкара Мāлавӣйи · Chaukhamba Sanskrit Pratishthan, Delhi 1999 · страницы 333–351",
+    "en": "edited by Sudhākara Mālavīya · Chaukhamba Sanskrit Pratishthan, Delhi 1999 · pages 333–351"
+   },
+   "pdf": {
+    "ru": "sources/Рудрайāмалоттаратантра. Āсаны (пат̣алы 23–24).pdf",
+    "en": "sources/Rudrayāmalottaratantra. Āsanas (paṭalas 23–24).pdf"
+   }
   }
  ]
 }
