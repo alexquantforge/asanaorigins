@@ -372,6 +372,55 @@ def build_poses(register_ru, register_en):
 # ------------------------------------------------------------------ приложение
 
 
+
+# ------------------------------------------------------- десять ключевых чтений
+# Таблица из раздела «Издания и результаты сверки». Собрана по тому дословно:
+# каждая ячейка ниже обязана найтись в тексте своего тома, иначе сборка встанет.
+READINGS = [
+    ("23.34–35",
+     "dvātriṃśad indum edāya…\nvāyu-siddhaye",
+     "dvātriṃśad bindu-bhedāya…\nvāyu-vṛddhaye"),
+    ("23.48", "kṣemavāyuṃ vikumbhayet", "sūkṣmavāyuṃ vikumbhayet"),
+    ("23.49", "humbhakaṃ… dvandva-vāyu-layaṃ", "kumbhakam… sūkṣma-vāyu-layaṃ"),
+    ("23.50",
+     "sumbhāsanaṃ… dvicīrandhre\nyathāhutraṃ",
+     "śubhāsanaṃ… sūcīrandhre\nyathāsūtraṃ"),
+    ("23.58", "mūlam ākucya", "mūlam ākuñcya"),
+    ("23.62", "kuryād dattvā nirāśrayaḥ", "kuryād dattvā nirāvile"),
+    ("23.73",
+     "bhrāmayen… ātmendvāmṛtaiḥ siktāṃ",
+     "bhrāvayen… ātmacandrāmṛta-rasair\nāplutāṃ"),
+    ("23.82", "khecarādi-phalapradam", "khecarādi-pradarśanam"),
+    ("23.110–111",
+     "maṇḍale… baddhe… bhayāt tvaktvā",
+     "maṇḍule… baddhye… bhayān tyaktvā"),
+    ("23.112ab",
+     "sarvān vighnān vinirjitya nidrādoṣān",
+     "sarvān vighnān vaśīkṛtya nidrādīn"),
+]
+
+
+def readings_table(lang):
+    header = (["Стихи", "Критическое издание", "Мāлавӣйа (принято в переводе)"]
+              if lang == "ru" else
+              ["Verses", "Critical edition", "Mālavīya (adopted)"])
+    rows = [header]
+    for verse, critical, malaviya in READINGS:
+        rows.append([verse, critical.replace("\n", " "), malaviya.replace("\n", " ")])
+    return rows
+
+
+def verify_readings(texts):
+    """Каждая ячейка таблицы чтений — из своего тома, дословно."""
+    for lang, text in texts.items():
+        flat = normalize(text)
+        for verse, critical, malaviya in READINGS:
+            for cell in (critical, malaviya):
+                if normalize(cell) not in flat:
+                    raise SystemExit(f"[{lang}] чтение не найдено в томе: "
+                                     f"{cell[:60]} ({verse})")
+    return len(READINGS) * 2
+
 def register_table(register_ru, register_en):
     header_ru = ["№", "Название (IAST)", "Кириллица по карте",
                  "Русское название", "Пат̣ала"]
@@ -730,7 +779,7 @@ def dating_blocks(lang):
     return EN_DATING if lang == "en" else RU_DATING
 
 
-def notes_blocks(lang, tables):
+def notes_blocks(lang):
     if lang == "ru":
         return [
             {"type": "subhead", "label": "Ключевые чтения: критическое издание и Мāлавӣйа"},
@@ -739,7 +788,7 @@ def notes_blocks(lang, tables):
                                   "иначе, чем издание Мāлавӣйи. Приняты чтения "
                                   "Мāлавӣйи: документ-источник воспроизводит его "
                                   "дословно."},
-            {"type": "table", "rows": tables["ru"]},
+            {"type": "table", "rows": readings_table("ru")},
             {"type": "p", "html": "Благодаря чтению Мāлавӣйи прояснились места, "
                                   "нечитаемые в критическом издании: «хумбхака» и "
                                   "«сумбхāсана» оказались кумбхака и «ш́убхāсана», "
@@ -763,7 +812,7 @@ def notes_blocks(lang, tables):
                               "differently from the edition of Mālavīya. The readings "
                               "of Mālavīya have been adopted: the source document "
                               "reproduces him verbatim."},
-        {"type": "table", "rows": tables["en"]},
+        {"type": "table", "rows": readings_table("en")},
         {"type": "p", "html": "Thanks to Mālavīya’s text, passages unreadable in the "
                               "critical edition become clear: “humbhaka” and "
                               "“sumbhāsana” turn out to be kumbhaka and śubhāsana, "
@@ -1421,6 +1470,7 @@ def build():
     }
     quotes = {lang: verify(lang, texts[lang], "цитаты статьи") for lang in PDF}
     prose = verify_prose(None, texts)
+    read_cells = verify_readings(texts)
     for lang in PDF:
         if lang == "ru" and normalize(COLOPHON["deva"]) not in normalize(texts["ru"]):
             raise SystemExit("колофон в деванагарӣ не найден в русском томе")
@@ -1484,7 +1534,7 @@ def build():
                 ]},
             ],
         },
-        "notes": {"ru": notes_blocks("ru", tables), "en": notes_blocks("en", tables)},
+        "notes": {"ru": notes_blocks("ru"), "en": notes_blocks("en")},
         "datingSummary": dating_summary("ru"),
         "dating": {
             "ru": {"title": "Датировка «Рудрайāмалоттаратантры»", "blocks": RU_DATING},
@@ -1501,6 +1551,7 @@ def build():
         "новых ключей": sum(1 for p in poses if p["key"] not in KNOWN_KEYS),
         "цитат сверено": sum(quotes.values()) + prose,
         "строк по карте сверено": checked,
+        "чтений сверено": read_cells,
     }
     return data, report
 

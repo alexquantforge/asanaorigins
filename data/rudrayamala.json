@@ -4132,524 +4132,59 @@
     "type": "table",
     "rows": [
      [
-      "№",
-      "Название (IAST)",
-      "Кириллица по карте",
-      "Русское название",
-      "Пат̣ала"
+      "Стихи",
+      "Критическое издание",
+      "Мāлавӣйа (принято в переводе)"
      ],
      [
-      "1",
-      {
-       "html": "<a href=\"pose:adhomundasana\">Adhomuṇḍāsana</a>"
-      },
-      "Адхомун̣д̣āсана",
-      "поза головою вниз",
-      "23"
+      "23.34–35",
+      "dvātriṃśad indum edāya… vāyu-siddhaye",
+      "dvātriṃśad bindu-bhedāya… vāyu-vṛddhaye"
      ],
      [
-      "2",
-      {
-       "html": "<a href=\"pose:padmasana\">Padmāsana</a>"
-      },
-      "Падмāсана",
-      "поза лотоса",
-      "23"
+      "23.48",
+      "kṣemavāyuṃ vikumbhayet",
+      "sūkṣmavāyuṃ vikumbhayet"
      ],
      [
-      "3",
-      {
-       "html": "<a href=\"pose:baddhapadmasana\">Baddhapadmāsana</a>"
-      },
-      "Баддхападмāсана",
-      "связанная поза лотоса",
-      "23"
+      "23.49",
+      "humbhakaṃ… dvandva-vāyu-layaṃ",
+      "kumbhakam… sūkṣma-vāyu-layaṃ"
      ],
      [
-      "4",
-      {
-       "html": "<a href=\"pose:svastikasana\">Svastikāsana</a>"
-      },
-      "Свастикāсана",
-      "поза свастики",
-      "23"
+      "23.50",
+      "sumbhāsanaṃ… dvicīrandhre yathāhutraṃ",
+      "śubhāsanaṃ… sūcīrandhre yathāsūtraṃ"
      ],
      [
-      "5",
-      {
-       "html": "<a href=\"pose:karmukasana\">Kārmukāsana (I)</a>"
-      },
-      "Кāрмукāсана",
-      "поза лука",
-      "23"
+      "23.58",
+      "mūlam ākucya",
+      "mūlam ākuñcya"
      ],
      [
-      "6",
-      {
-       "html": "<a href=\"pose:kukkutasana\">Kukkuṭāsana</a>"
-      },
-      "Куккут̣āсана",
-      "поза петуха",
-      "23"
+      "23.62",
+      "kuryād dattvā nirāśrayaḥ",
+      "kuryād dattvā nirāvile"
      ],
      [
-      "7",
-      {
-       "html": "<a href=\"pose:khagasana\">Khagāsana</a>"
-      },
-      "Кхагāсана",
-      "поза птицы",
-      "23"
+      "23.73",
+      "bhrāmayen… ātmendvāmṛtaiḥ siktāṃ",
+      "bhrāvayen… ātmacandrāmṛta-rasair āplutāṃ"
      ],
      [
-      "8",
-      {
-       "html": "<a href=\"pose:lolasana\">Lolāsana</a>"
-      },
-      "Лолāсана",
-      "поза качания",
-      "23"
+      "23.82",
+      "khecarādi-phalapradam",
+      "khecarādi-pradarśanam"
      ],
      [
-      "9",
-      {
-       "html": "<a href=\"pose:kukkutakriti\">Kukkuṭākṛti</a>"
-      },
-      "Куккут̣āкр̣ти",
-      "вид петуха",
-      "23"
+      "23.110–111",
+      "maṇḍale… baddhe… bhayāt tvaktvā",
+      "maṇḍule… baddhye… bhayān tyaktvā"
      ],
      [
-      "10",
-      {
-       "html": "<a href=\"pose:uttamangasana\">Uttamāṅgāsana</a>"
-      },
-      "Уттамāн̇гāсана",
-      "поза высшего члена",
-      "23"
-     ],
-     [
-      "11",
-      {
-       "html": "<a href=\"pose:parvatasana\">Parvatāsana</a>"
-      },
-      "Парватāсана",
-      "поза горы",
-      "23"
-     ],
-     [
-      "12",
-      {
-       "html": "<a href=\"pose:yonyasana\">Yonyāsana</a>"
-      },
-      "Йонйāсана",
-      "поза лона",
-      "23"
-     ],
-     [
-      "13",
-      {
-       "html": "<a href=\"pose:baddhayonyasana\">Baddhayonyāsana</a>"
-      },
-      "Баддхайонйāсана",
-      "связанная поза лона",
-      "23"
-     ],
-     [
-      "14",
-      {
-       "html": "<a href=\"pose:bhekasana\">Bhekāsana / Khecarāsana / Mahābhekāsana</a>"
-      },
-      "Бхекāсана / Кхечарāсана / Махāбхекāсана",
-      "поза лягушки / хечары / великой лягушки",
-      "23"
-     ],
-     [
-      "15",
-      {
-       "html": "<a href=\"pose:pranasana\">Prāṇāsana</a>"
-      },
-      "Прāн̣āсана",
-      "поза прāны",
-      "23"
-     ],
-     [
-      "16",
-      {
-       "html": "<a href=\"pose:apanasana\">Apānāsana</a>"
-      },
-      "Апāнāсана",
-      "поза апāны",
-      "23"
-     ],
-     [
-      "17",
-      {
-       "html": "<a href=\"pose:virasana\">Samānāsana / Vīrāsana</a>"
-      },
-      "Самāнāсана / Вӣрāсана",
-      "поза самāны / героя",
-      "23"
-     ],
-     [
-      "18",
-      {
-       "html": "<a href=\"pose:granthibhedasana\">Granthibhedāsana</a>"
-      },
-      "Грантхибхедāсана",
-      "поза прободения узлов",
-      "23"
-     ],
-     [
-      "19",
-      {
-       "html": "<a href=\"pose:karmukasana\">Kārmukāsana (II)</a>"
-      },
-      "Кāрмукāсана",
-      "поза лука, второе описание",
-      "23"
-     ],
-     [
-      "20",
-      {
-       "html": "<a href=\"pose:sarvangasana\">Sarvāṅgāsana</a>"
-      },
-      "Сарвāн̇гāсана",
-      "поза всех членов",
-      "23"
-     ],
-     [
-      "21",
-      {
-       "html": "<a href=\"pose:mayurasana\">Mayūrāsana</a>"
-      },
-      "Майӯрāсана",
-      "поза павлина",
-      "23"
-     ],
-     [
-      "22",
-      {
-       "html": "<a href=\"pose:jnanasana\">Jñānāsana</a>"
-      },
-      "Джн̃āнāсана",
-      "поза знания",
-      "23"
-     ],
-     [
-      "23",
-      {
-       "html": "<a href=\"pose:garudasana\">Garuḍāsana</a>"
-      },
-      "Гаруд̣āсана",
-      "поза Гаруд̣ы",
-      "23"
-     ],
-     [
-      "24",
-      {
-       "html": "<a href=\"pose:kokilasana\">Kokilāsana</a>"
-      },
-      "Кокилāсана",
-      "поза кокилы",
-      "23"
-     ],
-     [
-      "25",
-      {
-       "html": "<a href=\"pose:anandamandirasana\">Ānandamandirāsana</a>"
-      },
-      "Āнандамандирāсана",
-      "поза храма блаженства",
-      "23"
-     ],
-     [
-      "26",
-      {
-       "html": "<a href=\"pose:khanjanasana\">Khañjanāsana</a>"
-      },
-      "Кхан̃джанāсана",
-      "поза трясогузки",
-      "23"
-     ],
-     [
-      "27",
-      {
-       "html": "<a href=\"pose:pavanasana\">Pavanāsana</a>"
-      },
-      "Паванāсана",
-      "поза ветра",
-      "23"
-     ],
-     [
-      "28",
-      {
-       "html": "<a href=\"pose:sarpasana\">Sarpāsana</a>"
-      },
-      "Сарпāсана",
-      "поза змеи",
-      "23"
-     ],
-     [
-      "29",
-      {
-       "html": "<a href=\"pose:kakaskandhasana\">Kāka-skandhāsana</a>"
-      },
-      "Кāка-скандхāсана",
-      "поза ворона на плечах",
-      "23"
-     ],
-     [
-      "30",
-      {
-       "html": "<a href=\"pose:kurmasana\">Kūrmāsana</a>"
-      },
-      "Кӯрмāсана",
-      "поза черепахи",
-      "24"
-     ],
-     [
-      "31",
-      {
-       "html": "<a href=\"pose:virasana\">Samānāsana (II)</a>"
-      },
-      "Самāнāсана",
-      "поза самāны, второе описание",
-      "24"
-     ],
-     [
-      "32",
-      {
-       "html": "<a href=\"pose:kumbhirasana\">Kumbhīrāsana</a>"
-      },
-      "Кумбхӣрāсана",
-      "поза крокодила",
-      "24"
-     ],
-     [
-      "33",
-      {
-       "html": "<a href=\"pose:matsyasana\">Matsyāsana</a>"
-      },
-      "Матсйāсана",
-      "поза рыбы",
-      "24"
-     ],
-     [
-      "34",
-      {
-       "html": "<a href=\"pose:makarasana\">Makarāsana</a>"
-      },
-      "Макарāсана",
-      "поза макары",
-      "24"
-     ],
-     [
-      "35",
-      {
-       "html": "<a href=\"pose:simhasana\">Siṃhāsana</a>"
-      },
-      "Сим̣хāсана",
-      "поза льва",
-      "24"
-     ],
-     [
-      "36",
-      {
-       "html": "<a href=\"pose:kunjarasana\">Kuñjarāsana</a>"
-      },
-      "Кун̃джарāсана",
-      "поза слона",
-      "24"
-     ],
-     [
-      "37",
-      {
-       "html": "<a href=\"pose:vyaghrasana\">Vyāghrāsana</a>"
-      },
-      "Вйāгхрāсана",
-      "поза тигра",
-      "24"
-     ],
-     [
-      "38",
-      {
-       "html": "<a href=\"pose:bhallukasana\">Bhallūkāsana</a>"
-      },
-      "Бхаллӯкāсана",
-      "поза медведя",
-      "24"
-     ],
-     [
-      "39",
-      {
-       "html": "<a href=\"pose:kamasana\">Kāmāsana</a>"
-      },
-      "Кāмāсана",
-      "поза желания",
-      "24"
-     ],
-     [
-      "40",
-      {
-       "html": "<a href=\"pose:vartulasana\">Vartulāsana</a>"
-      },
-      "Вартулāсана",
-      "круглая поза",
-      "24"
-     ],
-     [
-      "41",
-      {
-       "html": "<a href=\"pose:mokshasana\">Mokṣāsana</a>"
-      },
-      "Мокшāсана",
-      "поза освобождения",
-      "24"
-     ],
-     [
-      "42",
-      {
-       "html": "<a href=\"pose:malasana\">Mālāsana</a>"
-      },
-      "Мāлāсана",
-      "поза гирлянды",
-      "24"
-     ],
-     [
-      "43",
-      {
-       "html": "<a href=\"pose:divyasana\">Divyāsana</a>"
-      },
-      "Дивйāсана",
-      "божественная поза",
-      "24"
-     ],
-     [
-      "44",
-      {
-       "html": "<a href=\"pose:ardhodayasana\">Ardhodayāsana</a>"
-      },
-      "Ардходайāсана",
-      "поза половинного восхода",
-      "24"
-     ],
-     [
-      "45",
-      {
-       "html": "<a href=\"pose:chandrasana\">Candrāsana</a>"
-      },
-      "Чандрāсана",
-      "поза луны",
-      "24"
-     ],
-     [
-      "46",
-      {
-       "html": "<a href=\"pose:hamsasana\">Haṃsāsana</a>"
-      },
-      "Хам̣сāсана",
-      "поза лебедя",
-      "24"
-     ],
-     [
-      "47",
-      {
-       "html": "<a href=\"pose:suryasana\">Sūryāsana</a>"
-      },
-      "Сӯрйāсана",
-      "поза солнца",
-      "24"
-     ],
-     [
-      "48",
-      {
-       "html": "<a href=\"pose:yogasana\">Yogāsana</a>"
-      },
-      "Йогāсана",
-      "поза йоги",
-      "24"
-     ],
-     [
-      "49",
-      {
-       "html": "<a href=\"pose:gadasana\">Gadāsana</a>"
-      },
-      "Гадāсана",
-      "поза палицы",
-      "24"
-     ],
-     [
-      "50",
-      {
-       "html": "<a href=\"pose:lakshmyasana\">Lakṣmyāsana</a>"
-      },
-      "Лакшмйāсана",
-      "поза Лакшми",
-      "24"
-     ],
-     [
-      "51",
-      {
-       "html": "<a href=\"pose:kulyasana\">Kulyāsana</a>"
-      },
-      "Кулйāсана",
-      "поза канала",
-      "24"
-     ],
-     [
-      "52",
-      {
-       "html": "<a href=\"pose:brahmanasana\">Brāhmaṇāsana</a>"
-      },
-      "Брāхман̣āсана",
-      "поза брахмана",
-      "24"
-     ],
-     [
-      "53",
-      {
-       "html": "<a href=\"pose:kshatriyasana\">Kṣatriyāsana</a>"
-      },
-      "Кшатрийāсана",
-      "поза кшатрия",
-      "24"
-     ],
-     [
-      "54",
-      {
-       "html": "<a href=\"pose:vaishyasana\">Vaiśyāsana</a>"
-      },
-      "Ваиш́йāсана",
-      "поза вайшьи",
-      "24"
-     ],
-     [
-      "55",
-      {
-       "html": "<a href=\"pose:shudrasana\">Śūdrāsana</a>"
-      },
-      "Ш́ӯдрāсана",
-      "поза шудры",
-      "24"
-     ],
-     [
-      "56",
-      {
-       "html": "<a href=\"pose:jatyasana\">Jātyāsana</a>"
-      },
-      "Джāтйāсана",
-      "поза рода",
-      "24"
-     ],
-     [
-      "57",
-      {
-       "html": "<a href=\"pose:pashavasana\">Pāśavāsana</a>"
-      },
-      "Пāш́авāсана",
-      "поза животного",
-      "24"
+      "23.112ab",
+      "sarvān vighnān vinirjitya nidrādoṣān",
+      "sarvān vighnān vaśīkṛtya nidrādīn"
      ]
     ]
    },
@@ -4678,466 +4213,59 @@
     "type": "table",
     "rows": [
      [
-      "No.",
-      "Name (IAST)",
-      "English rendering",
-      "Paṭala"
+      "Verses",
+      "Critical edition",
+      "Mālavīya (adopted)"
      ],
      [
-      "1",
-      {
-       "html": "<a href=\"pose:adhomundasana\">Adhomuṇḍāsana</a>"
-      },
-      "head-down pose",
-      "23"
+      "23.34–35",
+      "dvātriṃśad indum edāya… vāyu-siddhaye",
+      "dvātriṃśad bindu-bhedāya… vāyu-vṛddhaye"
      ],
      [
-      "2",
-      {
-       "html": "<a href=\"pose:padmasana\">Padmāsana</a>"
-      },
-      "lotus pose",
-      "23"
+      "23.48",
+      "kṣemavāyuṃ vikumbhayet",
+      "sūkṣmavāyuṃ vikumbhayet"
      ],
      [
-      "3",
-      {
-       "html": "<a href=\"pose:baddhapadmasana\">Baddhapadmāsana</a>"
-      },
-      "bound lotus pose",
-      "23"
+      "23.49",
+      "humbhakaṃ… dvandva-vāyu-layaṃ",
+      "kumbhakam… sūkṣma-vāyu-layaṃ"
      ],
      [
-      "4",
-      {
-       "html": "<a href=\"pose:svastikasana\">Svastikāsana</a>"
-      },
-      "svastika pose",
-      "23"
+      "23.50",
+      "sumbhāsanaṃ… dvicīrandhre yathāhutraṃ",
+      "śubhāsanaṃ… sūcīrandhre yathāsūtraṃ"
      ],
      [
-      "5",
-      {
-       "html": "<a href=\"pose:karmukasana\">Kārmukāsana (I)</a>"
-      },
-      "bow pose",
-      "23"
+      "23.58",
+      "mūlam ākucya",
+      "mūlam ākuñcya"
      ],
      [
-      "6",
-      {
-       "html": "<a href=\"pose:kukkutasana\">Kukkuṭāsana</a>"
-      },
-      "cock pose",
-      "23"
+      "23.62",
+      "kuryād dattvā nirāśrayaḥ",
+      "kuryād dattvā nirāvile"
      ],
      [
-      "7",
-      {
-       "html": "<a href=\"pose:khagasana\">Khagāsana</a>"
-      },
-      "bird pose",
-      "23"
+      "23.73",
+      "bhrāmayen… ātmendvāmṛtaiḥ siktāṃ",
+      "bhrāvayen… ātmacandrāmṛta-rasair āplutāṃ"
      ],
      [
-      "8",
-      {
-       "html": "<a href=\"pose:lolasana\">Lolāsana</a>"
-      },
-      "swinging pose",
-      "23"
+      "23.82",
+      "khecarādi-phalapradam",
+      "khecarādi-pradarśanam"
      ],
      [
-      "9",
-      {
-       "html": "<a href=\"pose:kukkutakriti\">Kukkuṭākṛti</a>"
-      },
-      "cock-like pose",
-      "23"
+      "23.110–111",
+      "maṇḍale… baddhe… bhayāt tvaktvā",
+      "maṇḍule… baddhye… bhayān tyaktvā"
      ],
      [
-      "10",
-      {
-       "html": "<a href=\"pose:uttamangasana\">Uttamāṅgāsana</a>"
-      },
-      "pose of the chief limb",
-      "23"
-     ],
-     [
-      "11",
-      {
-       "html": "<a href=\"pose:parvatasana\">Parvatāsana</a>"
-      },
-      "mountain pose",
-      "23"
-     ],
-     [
-      "12",
-      {
-       "html": "<a href=\"pose:yonyasana\">Yonyāsana</a>"
-      },
-      "womb pose",
-      "23"
-     ],
-     [
-      "13",
-      {
-       "html": "<a href=\"pose:baddhayonyasana\">Baddhayonyāsana</a>"
-      },
-      "bound womb pose",
-      "23"
-     ],
-     [
-      "14",
-      {
-       "html": "<a href=\"pose:bhekasana\">Bhekāsana / Khecarāsana / Mahābhekāsana</a>"
-      },
-      "frog / sky-goer / great frog pose",
-      "23"
-     ],
-     [
-      "15",
-      {
-       "html": "<a href=\"pose:pranasana\">Prāṇāsana</a>"
-      },
-      "prāṇa pose",
-      "23"
-     ],
-     [
-      "16",
-      {
-       "html": "<a href=\"pose:apanasana\">Apānāsana</a>"
-      },
-      "apāna pose",
-      "23"
-     ],
-     [
-      "17",
-      {
-       "html": "<a href=\"pose:virasana\">Samānāsana / Vīrāsana</a>"
-      },
-      "samāna / hero pose",
-      "23"
-     ],
-     [
-      "18",
-      {
-       "html": "<a href=\"pose:granthibhedasana\">Granthibhedāsana</a>"
-      },
-      "knot-piercing pose",
-      "23"
-     ],
-     [
-      "19",
-      {
-       "html": "<a href=\"pose:karmukasana\">Kārmukāsana (II)</a>"
-      },
-      "bow pose, second account",
-      "23"
-     ],
-     [
-      "20",
-      {
-       "html": "<a href=\"pose:sarvangasana\">Sarvāṅgāsana</a>"
-      },
-      "all-limbs pose",
-      "23"
-     ],
-     [
-      "21",
-      {
-       "html": "<a href=\"pose:mayurasana\">Mayūrāsana</a>"
-      },
-      "peacock pose",
-      "23"
-     ],
-     [
-      "22",
-      {
-       "html": "<a href=\"pose:jnanasana\">Jñānāsana</a>"
-      },
-      "pose of knowledge",
-      "23"
-     ],
-     [
-      "23",
-      {
-       "html": "<a href=\"pose:garudasana\">Garuḍāsana</a>"
-      },
-      "Garuḍa pose",
-      "23"
-     ],
-     [
-      "24",
-      {
-       "html": "<a href=\"pose:kokilasana\">Kokilāsana</a>"
-      },
-      "cuckoo pose",
-      "23"
-     ],
-     [
-      "25",
-      {
-       "html": "<a href=\"pose:anandamandirasana\">Ānandamandirāsana</a>"
-      },
-      "temple-of-bliss pose",
-      "23"
-     ],
-     [
-      "26",
-      {
-       "html": "<a href=\"pose:khanjanasana\">Khañjanāsana</a>"
-      },
-      "wagtail pose",
-      "23"
-     ],
-     [
-      "27",
-      {
-       "html": "<a href=\"pose:pavanasana\">Pavanāsana</a>"
-      },
-      "wind pose",
-      "23"
-     ],
-     [
-      "28",
-      {
-       "html": "<a href=\"pose:sarpasana\">Sarpāsana</a>"
-      },
-      "serpent pose",
-      "23"
-     ],
-     [
-      "29",
-      {
-       "html": "<a href=\"pose:kakaskandhasana\">Kāka-skandhāsana</a>"
-      },
-      "crow-on-the-shoulder pose",
-      "23"
-     ],
-     [
-      "30",
-      {
-       "html": "<a href=\"pose:kurmasana\">Kūrmāsana</a>"
-      },
-      "tortoise pose",
-      "24"
-     ],
-     [
-      "31",
-      {
-       "html": "<a href=\"pose:virasana\">Samānāsana (II)</a>"
-      },
-      "samāna pose, second account",
-      "24"
-     ],
-     [
-      "32",
-      {
-       "html": "<a href=\"pose:kumbhirasana\">Kumbhīrāsana</a>"
-      },
-      "crocodile pose",
-      "24"
-     ],
-     [
-      "33",
-      {
-       "html": "<a href=\"pose:matsyasana\">Matsyāsana</a>"
-      },
-      "fish pose",
-      "24"
-     ],
-     [
-      "34",
-      {
-       "html": "<a href=\"pose:makarasana\">Makarāsana</a>"
-      },
-      "makara pose",
-      "24"
-     ],
-     [
-      "35",
-      {
-       "html": "<a href=\"pose:simhasana\">Siṃhāsana</a>"
-      },
-      "lion pose",
-      "24"
-     ],
-     [
-      "36",
-      {
-       "html": "<a href=\"pose:kunjarasana\">Kuñjarāsana</a>"
-      },
-      "elephant pose",
-      "24"
-     ],
-     [
-      "37",
-      {
-       "html": "<a href=\"pose:vyaghrasana\">Vyāghrāsana</a>"
-      },
-      "tiger pose",
-      "24"
-     ],
-     [
-      "38",
-      {
-       "html": "<a href=\"pose:bhallukasana\">Bhallūkāsana</a>"
-      },
-      "bear pose",
-      "24"
-     ],
-     [
-      "39",
-      {
-       "html": "<a href=\"pose:kamasana\">Kāmāsana</a>"
-      },
-      "pose of desire",
-      "24"
-     ],
-     [
-      "40",
-      {
-       "html": "<a href=\"pose:vartulasana\">Vartulāsana</a>"
-      },
-      "circular pose",
-      "24"
-     ],
-     [
-      "41",
-      {
-       "html": "<a href=\"pose:mokshasana\">Mokṣāsana</a>"
-      },
-      "pose of liberation",
-      "24"
-     ],
-     [
-      "42",
-      {
-       "html": "<a href=\"pose:malasana\">Mālāsana</a>"
-      },
-      "garland pose",
-      "24"
-     ],
-     [
-      "43",
-      {
-       "html": "<a href=\"pose:divyasana\">Divyāsana</a>"
-      },
-      "divine pose",
-      "24"
-     ],
-     [
-      "44",
-      {
-       "html": "<a href=\"pose:ardhodayasana\">Ardhodayāsana</a>"
-      },
-      "half-rising pose",
-      "24"
-     ],
-     [
-      "45",
-      {
-       "html": "<a href=\"pose:chandrasana\">Candrāsana</a>"
-      },
-      "moon pose",
-      "24"
-     ],
-     [
-      "46",
-      {
-       "html": "<a href=\"pose:hamsasana\">Haṃsāsana</a>"
-      },
-      "swan pose",
-      "24"
-     ],
-     [
-      "47",
-      {
-       "html": "<a href=\"pose:suryasana\">Sūryāsana</a>"
-      },
-      "sun pose",
-      "24"
-     ],
-     [
-      "48",
-      {
-       "html": "<a href=\"pose:yogasana\">Yogāsana</a>"
-      },
-      "yoga pose",
-      "24"
-     ],
-     [
-      "49",
-      {
-       "html": "<a href=\"pose:gadasana\">Gadāsana</a>"
-      },
-      "mace pose",
-      "24"
-     ],
-     [
-      "50",
-      {
-       "html": "<a href=\"pose:lakshmyasana\">Lakṣmyāsana</a>"
-      },
-      "Lakṣmī pose",
-      "24"
-     ],
-     [
-      "51",
-      {
-       "html": "<a href=\"pose:kulyasana\">Kulyāsana</a>"
-      },
-      "channel pose",
-      "24"
-     ],
-     [
-      "52",
-      {
-       "html": "<a href=\"pose:brahmanasana\">Brāhmaṇāsana</a>"
-      },
-      "brahmin pose",
-      "24"
-     ],
-     [
-      "53",
-      {
-       "html": "<a href=\"pose:kshatriyasana\">Kṣatriyāsana</a>"
-      },
-      "warrior-class pose",
-      "24"
-     ],
-     [
-      "54",
-      {
-       "html": "<a href=\"pose:vaishyasana\">Vaiśyāsana</a>"
-      },
-      "merchant-class pose",
-      "24"
-     ],
-     [
-      "55",
-      {
-       "html": "<a href=\"pose:shudrasana\">Śūdrāsana</a>"
-      },
-      "servant-class pose",
-      "24"
-     ],
-     [
-      "56",
-      {
-       "html": "<a href=\"pose:jatyasana\">Jātyāsana</a>"
-      },
-      "birth-remembering pose",
-      "24"
-     ],
-     [
-      "57",
-      {
-       "html": "<a href=\"pose:pashavasana\">Pāśavāsana</a>"
-      },
-      "animal pose",
-      "24"
+      "23.112ab",
+      "sarvān vighnān vinirjitya nidrādoṣān",
+      "sarvān vighnān vaśīkṛtya nidrādīn"
      ]
     ]
    },
