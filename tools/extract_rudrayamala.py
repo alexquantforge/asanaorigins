@@ -523,7 +523,7 @@ def dating_summary(lang):
                                           "с. 40",
                                     "en": "T. Goudriaan and S. Gupta on the yāmalas "
                                           "as a genre, p. 40"},
-                            "when": {"ru": "период формирования жанра — до 900 г. н. э.",
+                            "when": {"ru": "период формирования жанра — до 900 года нашей эры",
                                      "en": "the formative period of the genre — "
                                            "before 900 CE"},
                             "work": {"ru": "“The time of their origin is difficult to "
@@ -556,7 +556,7 @@ def dating_summary(lang):
                         {
                             "who": {"ru": "Дж. Берч, примечание 90",
                                     "en": "J. Birch, note 90"},
-                            "when": {"ru": "не ранее XI в.",
+                            "when": {"ru": "не ранее XI века",
                                      "en": "not before the 11th century"},
                             "whenNote": {"ru": "единственное в ш́айва-тантрах "
                                                "употребление термина хат̣хайога — в 55-й "
@@ -564,7 +564,7 @@ def dating_summary(lang):
                                                "может быть вставкой, но для датировки "
                                                "довод сохраняется: техническое "
                                                "употребление термина фиксируется не "
-                                               "ранее XI в.",
+                                               "ранее XI века",
                                          "en": "the only occurrence of the term "
                                                "haṭhayoga in Śaiva tantras, in chapter "
                                                "55; Birch concedes that the passage may "
@@ -589,7 +589,7 @@ def dating_summary(lang):
                         {
                             "who": {"ru": "Автор статьи",
                                     "en": "The author of the article"},
-                            "when": {"ru": "не ранее XI–XII в.",
+                            "when": {"ru": "не ранее XI–XII века",
                                      "en": "not earlier than the 11th–12th century"},
                             "whenNote": {"ru": "это вывод из совокупности признаков, а не "
                                                "цитата: ни один из процитированных "
@@ -632,7 +632,7 @@ def dating_summary(lang):
                                 "ru": "Т. Гудриян и С. Гупта, о йāмалах как жанре, с. 40"},
                         "when": {"en": "the formative period of the genre — before "
                                        "900 CE",
-                                 "ru": "период формирования жанра — до 900 г. н. э."},
+                                 "ru": "период формирования жанра — до 900 года нашей эры"},
                         "work": {"en": "“The time of their origin is difficult to assess. "
                                        "Their formative period in any case lies before "
                                        "A. D. 900.”",
@@ -661,7 +661,7 @@ def dating_summary(lang):
                     {
                         "who": {"en": "J. Birch, note 90", "ru": "Дж. Берч, примечание 90"},
                         "when": {"en": "not before the 11th century",
-                                 "ru": "не ранее XI в."},
+                                 "ru": "не ранее XI века"},
                         "whenNote": {"en": "the only occurrence of the term haṭhayoga in "
                                            "Śaiva tantras, in chapter 55; Birch concedes "
                                            "that the passage may be an interpolation, yet "
@@ -673,7 +673,7 @@ def dating_summary(lang):
                                            "оговаривает, что место может быть вставкой, "
                                            "но для датировки довод сохраняется: "
                                            "техническое употребление термина "
-                                           "фиксируется не ранее XI в."},
+                                           "фиксируется не ранее XI века."},
                         "work": {"en": "Birch, Jason. 2011. “The Meaning of haṭha in Early "
                                        "Haṭhayoga”. Journal of the American Oriental "
                                        "Society 131.4: 527–554.",
@@ -692,7 +692,7 @@ def dating_summary(lang):
                         "who": {"en": "The author of the article",
                                 "ru": "Автор статьи"},
                         "when": {"en": "not earlier than the 11th–12th century",
-                                 "ru": "не ранее XI–XII в."},
+                                 "ru": "не ранее XI–XII века"},
                         "whenNote": {"en": "an inference from the features listed, not a "
                                            "quotation: none of the authors cited names "
                                            "such a century",
@@ -961,7 +961,7 @@ RU_ABOUT = [
         "В рассмотренных чтениях критическое издание Университета Сам̣пӯрн̣āнанды в "
         "большинстве случаев испорчено, и Мāлавӣйа даёт связный текст; именно его "
         "чтения приняты в переводе.",
-        "Датировка: точная дата не установлена. Жанр йāмал сложился до 900 г., но "
+        "Датировка: точная дата не установлена. Жанр йāмал сложился до 900 года, но "
         "«Уттаратантра» — «безусловно, много позднее» (Goudriaan &amp; Gupta 1981: 40, "
         "47); по совокупности признаков — не ранее XI–XII в. (оценка).",
         "Āсаны в этом памятнике — не гимнастика, а ступень прāн̣āйāмы: поза служит "
@@ -1219,7 +1219,7 @@ RU_DATING = [
         "“The time of their origin is difficult to assess. Their formative period in "
         "any case lies before A. D. 900.”",
         "«Время их возникновения оценить трудно. Во всяком случае, период их "
-        "формирования лежит до 900 г. н. э.»",
+        "формирования лежит до 900 года нашей эры»",
     ]},
     {"type": "h3", "html": "О нашей тантре (Goudriaan &amp; Gupta 1981: 47)"},
     {"type": "quote", "paragraphs": [
@@ -1243,11 +1243,11 @@ RU_DATING = [
                           "«Рудрайāмалоттаратантраы», оговаривая сомнительность этого "
                           "места (Birch 2011, примечание 90). Для датировки довод "
                           "сохраняется: техническое употребление термина фиксируется не "
-                          "ранее XI в."},
+                          "ранее XI века."},
     {"type": "p", "html": "<strong>Итог.</strong> Точная дата не установлена, "
                           "общепринятого века у «Уттаратантра» нет. Жанр йāмал сложился "
-                          "до 900 г., но наш текст — «безусловно, много позднее». Оценка "
-                          "«не ранее XI–XII в.», которой держится статья, — вывод из "
+                          "до 900 года, но наш текст — «безусловно, много позднее». Оценка "
+                          "«не ранее XI–XII века», которой держится статья, — вывод из "
                           "совокупности перечисленных признаков, а не цитата: ни один из "
                           "процитированных авторов такого века не называет."},
     {"type": "note", "paragraphs": [
