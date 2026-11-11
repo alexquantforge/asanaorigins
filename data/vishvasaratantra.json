@@ -1,0 +1,63 @@
+{
+  "id": "vishvasaratantra",
+  "about": {
+    "ru": [
+      {
+        "type": "title",
+        "text": "Виш́васāратантра"
+      },
+      {
+        "type": "p",
+        "text": "Материал о позах находится в безымянной главе 2 электронного текста Muktabodha M00101 (строки файла 1561–1580). Каталог связывает блок из пяти поз с Ш́āрадāтилака 25, гл. 2, и отдельно указывает свастику (M00101, строка 1664; часть IV, § 3.3)."
+      }
+    ],
+    "en": [
+      {
+        "type": "title",
+        "text": "Viśvasāratantra"
+      },
+      {
+        "type": "p",
+        "text": "The posture material is in untitled chapter 2 of the Muktabodha e-text M00101 (file lines 1561–1580). The catalogue links its block of five postures to Śāradātilaka 25, chapter 2, and separately notes svastika (M00101, file line 1664; Part IV, section 3.3)."
+      }
+    ]
+  },
+  "dating": {
+    "ru": {
+      "title": "Датировка текста",
+      "blocks": [
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Датировка (кто)",
+              "Старейшая датированная рукопись (по источникам выше)"
+            ],
+            [
+              "Таблица датировок объединяет Виш́васāра и Сарволлāса: XVI в. (Goudriaan) и рождение автора около начала XV в. (Sanderson) не распределены между двумя текстами.",
+              "нет: ИИ не искал за пределами своих источников"
+            ]
+          ]
+        }
+      ]
+    },
+    "en": {
+      "title": "Dating of the text",
+      "blocks": [
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Dating (by whom)",
+              "Oldest dated manuscript (by the sources above)"
+            ],
+            [
+              "The dating table groups Viśvasāra and Sarvollāsa: 16th c. (Goudriaan) and the author’s birth around the beginning of the 15th c. (Sanderson) are not assigned between the two texts.",
+              "none: the AI did not search beyond its sources"
+            ]
+          ]
+        }
+      ]
+    }
+  }
+}

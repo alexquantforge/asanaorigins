@@ -1,0 +1,63 @@
+{
+ "id": "mundamalatantra-ii",
+ "about": {
+  "ru": [
+   {
+    "type": "title",
+    "text": "Мун̣д̣амāлāтантра (II)"
+   },
+   {
+    "type": "p",
+    "text": "Строфы о бхадрāсане, каурме, падмāсане и вӣрāсане (Muktabodha M00538, строки 479–487) почти дословно совпадают со строфами Хāхāрāватантры M00283 (строки 11164–11171). Это общий блок, а не независимое описание каждой позы. См. часть IV, § 3.6."
+   }
+  ],
+  "en": [
+   {
+    "type": "title",
+    "text": "Muṇḍamālātantra (II)"
+   },
+   {
+    "type": "p",
+    "text": "The stanzas on bhadrāsana, kaurma, padmāsana and vīrāsana (Muktabodha M00538, file lines 479–487) coincide almost verbatim with Hāhārāvatantra M00283 (lines 11164–11171). This is a shared block, not an independent description of each posture. See Part IV, section 3.6."
+   }
+  ]
+ },
+ "dating": {
+  "ru": {
+   "title": "Датировка текста",
+   "blocks": [
+    {
+     "type": "table",
+     "rows": [
+      [
+       "Датировка (кто)",
+       "Старейшая датированная рукопись (по источникам выше)"
+      ],
+      [
+       "Каталог отличает Мун̣д̣амāлу II от Мун̣д̣амāлы I, но говорит, что они совпадают по периоду. Таблица датировок не выделяет Мун̣д̣амāлу II отдельной строкой: строка 48 объединяет Мун̣д̣амāлу и Хāхāрāву; NGMCP 5-4798 относится к Хāхāрāве и не датирована.",
+       "Таблица указывает для Хāхāрāвы NGMCP 5-4798 (без даты); это не рукопись Мун̣д̣амāлы II."
+      ]
+     ]
+    }
+   ]
+  },
+  "en": {
+   "title": "Dating of the text",
+   "blocks": [
+    {
+     "type": "table",
+     "rows": [
+      [
+       "Dating (by whom)",
+       "Oldest dated manuscript (by the sources above)"
+      ],
+      [
+       "The catalogue distinguishes Muṇḍamālā II from Muṇḍamālā I but says they belong to the same period. The dating table does not list Muṇḍamālā II separately: row 48 groups Muṇḍamālā with Hāhārāva; NGMCP 5-4798 belongs to Hāhārāva and is undated.",
+       "The table gives NGMCP 5-4798 (undated) for Hāhārāva; this is not a manuscript of Muṇḍamālā II."
+      ]
+     ]
+    }
+   ]
+  }
+ }
+}

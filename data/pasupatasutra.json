@@ -1,0 +1,63 @@
+{
+  "id": "pasupatasutra",
+  "about": {
+    "ru": [
+      {
+        "type": "title",
+        "text": "Пāш́упатасӯтра с «Пан̃чāртхабхāшйей» Каун̣д̣инйи"
+      },
+      {
+        "type": "p",
+        "text": "К комментариям к Пāш́упатасӯтра 1.16/17 Каун̣д̣инйа приводит семь поз: падмака, свастика, упастхāн̃джалика, ардхачандра, пӣт̣хака, дан̣д̣āйата, сарватобхадра (psbh_1.16:10). У Кафле их восемь, у Маллинсона и Синглтона — семь. Это параллель вне рамок тантр и агам. См. часть IV, §§ 7, 11 и 14."
+      }
+    ],
+    "en": [
+      {
+        "type": "title",
+        "text": "Pāśupatasūtra with Kauṇḍinya’s Pañcārthabhāṣya"
+      },
+      {
+        "type": "p",
+        "text": "For Pāśupatasūtra 1.16/17, Kauṇḍinya gives seven postures: padmaka, svastika, upasthāñjalika, ardhacandra, pīṭhaka, daṇḍāyata and sarvatobhadra (psbh_1.16:10). Kafle counts eight; Mallinson and Singleton count seven. This is a parallel outside the scope of tantras and āgamas. See Part IV, sections 7, 11 and 14."
+      }
+    ]
+  },
+  "dating": {
+    "ru": {
+      "title": "Датировка текста",
+      "blocks": [
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Датировка (кто)",
+              "Старейшая датированная рукопись (по источникам выше)"
+            ],
+            [
+              "Сӯтры — II в.; комментарий — IV в. (Mallinson & Singleton 2017). Дата Каун̣д̣инйи в IV в. у Törzsök названа гипотетической и не установленной с уверенностью.",
+              "нет: ИИ не искал за пределами своих источников"
+            ]
+          ]
+        }
+      ]
+    },
+    "en": {
+      "title": "Dating of the text",
+      "blocks": [
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Dating (by whom)",
+              "Oldest dated manuscript (by the sources above)"
+            ],
+            [
+              "The sūtras — 2nd c.; the commentary — 4th c. (Mallinson & Singleton 2017). Törzsök calls a 4th-c. date for Kauṇḍinya hypothetical and not established with certainty.",
+              "none: the AI did not search beyond its sources"
+            ]
+          ]
+        }
+      ]
+    }
+  }
+}

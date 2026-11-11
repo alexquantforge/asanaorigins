@@ -1,0 +1,71 @@
+{
+  "id": "kriyoddishamahatantraraja",
+  "about": {
+    "ru": [
+      {
+        "type": "title",
+        "text": "Крийод̣д̣ӣш́амахāтантрарāджа"
+      },
+      {
+        "type": "p",
+        "text": "9.1 называет сиддхāсану и камалāсану (Muktabodha M00512, строки файла 391–392); следующее место говорит о материале сиденья, а не о дополнительной позе. В записи 50 каталога 9.1 также связано с Парамеш́варӣматой, но ссылка ведёт к этому же тексту Крийод̣д̣ӣш́амахāтантрарāджа; самостоятельное чтение в Парамеш́варӣмате не подтверждено. См. часть IV, § 3.6."
+      },
+      {
+        "type": "p",
+        "text": "Есть расхождение атрибуции: запись 50 помещает 9.1 под Парамеш́варӣматой, но указывает электронный текст Крийод̣д̣ӣш́амахāтантрарāджа M00512, строки 391–392; указатель также относит сиддхāсану 9.1 к Крийод̣д̣ӣше. Следующее описание относится к материалу сиденья. Отдельная строка 3768, приведённая рядом с блоком, в самом каталоге атрибутирована Хāхāрāватантре M00283."
+      }
+    ],
+    "en": [
+      {
+        "type": "title",
+        "text": "Kriyoḍḍīśamahātantrarāja"
+      },
+      {
+        "type": "p",
+        "text": "Passage 9.1 names siddhāsana and kamalāsana (Muktabodha M00512, file lines 391–392); the following passage concerns seat material, not another posture. Catalogue entry 50 also places 9.1 under Parameśvarīmata but cites this same Kriyoḍḍīśamahātantrarāja e-text; an independent Parameśvarīmata reading is not confirmed. See Part IV, section 3.6."
+      },
+      {
+        "type": "p",
+        "text": "There is an attribution discrepancy: entry 50 places 9.1 under Parameśvarīmata but cites the Kriyoḍḍīśamahātantrarāja e-text M00512, lines 391–392; the index also assigns siddhāsana 9.1 to Kriyoḍḍīśa. The following description concerns seat material. A separate line 3768 cited beside the block is explicitly attributed by the catalogue to Hāhārāva M00283."
+      }
+    ]
+  },
+  "dating": {
+    "ru": {
+      "title": "Датировка текста",
+      "blocks": [
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Датировка (кто)",
+              "Старейшая датированная рукопись (по источникам выше)"
+            ],
+            [
+              "Нет: исследователи упоминают текст, но нужных сведений не дают; в таблице приведены издания 1924 и 1967 гг.",
+              "нет: ИИ не искал за пределами своих источников"
+            ]
+          ]
+        }
+      ]
+    },
+    "en": {
+      "title": "Dating of the text",
+      "blocks": [
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Dating (by whom)",
+              "Oldest dated manuscript (by the sources above)"
+            ],
+            [
+              "None: researchers mention the text but provide no needed dating information; the table lists editions of 1924 and 1967.",
+              "none: the AI did not search beyond its sources"
+            ]
+          ]
+        }
+      ]
+    }
+  }
+}

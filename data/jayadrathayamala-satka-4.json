@@ -1,0 +1,63 @@
+{
+  "id": "jayadrathayamala-satka-4",
+  "about": {
+    "ru": [
+      {
+        "type": "title",
+        "text": "Джайадратхайāмала, шат̣ка 4"
+      },
+      {
+        "type": "p",
+        "text": "Позы: пхеткāрӣмудрā (4.2.612–622): сесть, левую стопу поместить у ануса, правую ногу вытянуть, слегка согнув. Это место есть у меня только в переводе Маллинсона и Синглтона, санскрита нет (RootsofYoga 6.1.2; часть IV, раздел 10)."
+      }
+    ],
+    "en": [
+      {
+        "type": "title",
+        "text": "Jayadrathayāmala, ṣaṭka 4"
+      },
+      {
+        "type": "p",
+        "text": "Postures: phetkārīmudrā (4.2.612–622): sit down, place the left foot at the anus, stretch out the right leg, slightly bent. This passage exists for me only in Mallinson and Singleton’s translation; the Sanskrit I do not have (RootsofYoga 6.1.2; Part IV, section 10)."
+      }
+    ]
+  },
+  "dating": {
+    "ru": {
+      "title": "Датировка текста",
+      "blocks": [
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Датировка (кто)",
+              "Старейшая датированная рукопись (по источникам выше)"
+            ],
+            [
+              "после Кубджикāмататантры и первой шестерицы (Sanderson); абсолютной даты нет: нужная работа ИИ недоступна",
+              "Национальный архив Непала, Катманду, рукопись 1-1468, 1626/7 (Sanderson); «конец XII — начало XIII в.» (Goudriaan)"
+            ]
+          ]
+        }
+      ]
+    },
+    "en": {
+      "title": "Dating of the text",
+      "blocks": [
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Dating (by whom)",
+              "Oldest dated manuscript (by the sources above)"
+            ],
+            [
+              "after the Kubjikāmatatantra and the 1st hexad (Sanderson); no absolute date: the needed work is not accessible to the AI",
+              "National Archives of Nepal, Kathmandu, manuscript 1-1468, 1626/7 (Sanderson); “end of the 12th — beginning of the 13th c.” (Goudriaan)"
+            ]
+          ]
+        }
+      ]
+    }
+  }
+}

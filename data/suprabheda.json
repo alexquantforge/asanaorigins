@@ -1,0 +1,63 @@
+{
+  "id": "suprabheda",
+  "about": {
+    "ru": [
+      {
+        "type": "title",
+        "text": "Супрабхеда(āgama)"
+      },
+      {
+        "type": "p",
+        "text": "Позы: Йогапāда 3.57–63 — шесть поз с описаниями; Чарйāпāда 6.39 — вӣрāсана как подвиг. Смотрите часть IV, раздел 2.3."
+      }
+    ],
+    "en": [
+      {
+        "type": "title",
+        "text": "Suprabheda(āgama)"
+      },
+      {
+        "type": "p",
+        "text": "Postures: Yogapāda 3.57–63 — six postures with descriptions; Caryāpāda 6.39 — vīrāsana as a feat. See Part IV, section 2.3."
+      }
+    ]
+  },
+  "dating": {
+    "ru": {
+      "title": "Датировка текста",
+      "blocks": [
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Датировка (кто)",
+              "Старейшая датированная рукопись (по источникам выше)"
+            ],
+            [
+              "цитируется в XIII в. (Sanderson); [добавлено позже] строки с пометкой «Супрабхедāгама» в Джн̃āнаратнāвалӣ (Kafle 2015; XII в. — мой вывод)",
+              "нет: ИИ не искал за пределами своих источников"
+            ]
+          ]
+        }
+      ]
+    },
+    "en": {
+      "title": "Dating of the text",
+      "blocks": [
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Dating (by whom)",
+              "Oldest dated manuscript (by the sources above)"
+            ],
+            [
+              "quoted in the 13th c. (Sanderson); [added later] lines marked “Suprabhedāgama” in the Jñānaratnāvalī (Kafle 2015; 12th c. — my conclusion)",
+              "none: the AI did not search beyond its sources"
+            ]
+          ]
+        }
+      ]
+    }
+  }
+}

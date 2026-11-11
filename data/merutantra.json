@@ -1,0 +1,63 @@
+{
+  "id": "merutantra",
+  "about": {
+    "ru": [
+      {
+        "type": "title",
+        "text": "Мерутантра"
+      },
+      {
+        "type": "p",
+        "text": "Позы для шести действий снабжены определениями в скобках, взятыми из Ш́āрадāтилаки (Muktabodha M00195, строки файла 9207–9327; часть IV, § 3.4). Указатель также отмечает у Меру сиддхāсану в цитате из Ш́ивасам̣хиты; это цитата, а не самостоятельное описание Меру."
+      }
+    ],
+    "en": [
+      {
+        "type": "title",
+        "text": "Merutantra"
+      },
+      {
+        "type": "p",
+        "text": "The postures for the six acts have bracketed definitions taken from Śāradātilaka (Muktabodha M00195, file lines 9207–9327; Part IV, section 3.4). The index also lists Meru under siddhāsana through a quotation from the Śivasaṃhitā; this is a quotation, not an independent Meru description."
+      }
+    ]
+  },
+  "dating": {
+    "ru": {
+      "title": "Датировка текста",
+      "blocks": [
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Датировка (кто)",
+              "Старейшая датированная рукопись (по источникам выше)"
+            ],
+            [
+              "Таблица датировок объединяет позиции 45a–c. Позднее добавленное общее указание: после Шаш́ватавāджры (конец X — начало XI в.); упоминание у Сарвāнанданāтхи (XV в.); предположительно до ок. 1200 (Sanderson); ядро, возможно, старше (Goudriaan). Это указание не распределено между Пхеткāрин̣ӣ, Бр̣ханнӣлой и Меру.",
+              "нет: ИИ не искал за пределами своих источников"
+            ]
+          ]
+        }
+      ]
+    },
+    "en": {
+      "title": "Dating of the text",
+      "blocks": [
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Dating (by whom)",
+              "Oldest dated manuscript (by the sources above)"
+            ],
+            [
+              "The dating table groups nos. 45a–c. Its later-added shared note places the group after Śāśvatavajra (late 10th–early 11th c.), notes mention by Sarvānandanātha (15th c.), gives a tentative “before c. 1200” (Sanderson), and says the core may be older (Goudriaan). The note is not assigned among Phetkāriṇī, Bṛhannīla and Meru.",
+              "none: the AI did not search beyond its sources"
+            ]
+          ]
+        }
+      ]
+    }
+  }
+}

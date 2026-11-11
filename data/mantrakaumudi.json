@@ -1,0 +1,63 @@
+{
+  "id": "mantrakaumudi",
+  "about": {
+    "ru": [
+      {
+        "type": "title",
+        "text": "Мантракаумудӣ"
+      },
+      {
+        "type": "p",
+        "text": "Для джапы перечислены свастика,падмака,вӣра,ваджра с определениями, в том числе из Нāрадӣйи; отдельно названы куккут̣āсана и бхадрāсана, а уткат̣āсана запрещена при джапе. См. часть IV, § 3.6."
+      }
+    ],
+    "en": [
+      {
+        "type": "title",
+        "text": "Mantrakaumudī"
+      },
+      {
+        "type": "p",
+        "text": "For japa the catalogue lists svastika,padmaka,vīra,vajra with definitions, including material from the Nāradīya; it separately names kukkuṭāsana and bhadrāsana and records a prohibition of utkaṭāsana during japa. See Part IV, section 3.6."
+      }
+    ]
+  },
+  "dating": {
+    "ru": {
+      "title": "Датировка текста",
+      "blocks": [
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Датировка (кто)",
+              "Старейшая датированная рукопись (по источникам выше)"
+            ],
+            [
+              "1564 (Muktabodha)",
+              "нет: ИИ не искал за пределами своих источников"
+            ]
+          ]
+        }
+      ]
+    },
+    "en": {
+      "title": "Dating of the text",
+      "blocks": [
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Dating (by whom)",
+              "Oldest dated manuscript (by the sources above)"
+            ],
+            [
+              "1564 (Muktabodha)",
+              "none: the AI did not search beyond its sources"
+            ]
+          ]
+        }
+      ]
+    }
+  }
+}

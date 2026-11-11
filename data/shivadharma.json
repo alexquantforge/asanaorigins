@@ -1,0 +1,25 @@
+{
+  "id": "shivadharma",
+  "about": {
+    "ru": [
+      {
+        "type": "title",
+        "text": "Ш́ивадхарма (южноиндийская версия; M00209)"
+      },
+      {
+        "type": "p",
+        "text": "Позы: нет. Есть только йогапат̣т̣а как дар йогину-шиваиту (Muktabodha M00209, строка файла 4359), смотрите часть IV, раздел 2.6."
+      }
+    ],
+    "en": [
+      {
+        "type": "title",
+        "text": "Śivadharma (the South Indian version; M00209)"
+      },
+      {
+        "type": "p",
+        "text": "Postures: none. There is only the yogapaṭṭa as a gift to a Śaiva yogin (Muktabodha M00209, file line 4359), see Part IV, section 2.6."
+      }
+    ]
+  }
+}

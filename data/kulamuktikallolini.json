@@ -1,0 +1,63 @@
+{
+  "id": "kulamuktikallolini",
+  "about": {
+    "ru": [
+      {
+        "type": "title",
+        "text": "Куламуктикаллолинӣ"
+      },
+      {
+        "type": "p",
+        "text": "В M00318 (строки файла 11025–11036) приведена вӣрāсана с цитатой из «Горакшасам̣хиты»; строки 30761–30789 перечисляют ритуальные позы шат̣карман: падма, свастика, викат̣а, куккут̣а, ваджра, бхадра. См. часть IV, § 3.6."
+      }
+    ],
+    "en": [
+      {
+        "type": "title",
+        "text": "Kulamuktikallolinī"
+      },
+      {
+        "type": "p",
+        "text": "M00318 file lines 11025–11036 give vīrāsana with a quotation from the “Gorakṣasaṃhitā”; lines 30761–30789 list the ritual ṣaṭkarman postures: padma, svastika, vikaṭa, kukkuṭa, vajra and bhadra. See Part IV, section 3.6."
+      }
+    ]
+  },
+  "dating": {
+    "ru": {
+      "title": "Датировка текста",
+      "blocks": [
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Датировка (кто)",
+              "Старейшая датированная рукопись (по источникам выше)"
+            ],
+            [
+              "Muktabodha связывает автора Навамӣсим̣ху с должностью министра непальского царя Бхӯпāлендры; Dyczkowski считает, что это, вероятно, Махӣндра Малла или Бхӯпāландра Малла, правившие около пяти лет в 1689–1694 гг. Это не прямая дата составления текста.",
+              "NGMCP 1-1675, без даты."
+            ]
+          ]
+        }
+      ]
+    },
+    "en": {
+      "title": "Dating of the text",
+      "blocks": [
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Dating (by whom)",
+              "Oldest dated manuscript (by the sources above)"
+            ],
+            [
+              "Muktabodha identifies Navamīsiṃha as minister of the Nepalese king Bhūpālendra; Dyczkowski considers this probably Mahīndra Malla or Bhūpālandra Malla, who ruled for about five years in 1689–1694. This is not a direct composition date.",
+              "Nepal-German Manuscript Cataloguing Project 1-1675, undated."
+            ]
+          ]
+        }
+      ]
+    }
+  }
+}

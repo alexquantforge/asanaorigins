@@ -363,6 +363,1918 @@
     "ru": "sources/Дхармапутрикā. Глава 2. Āсанапракаран̣ам.pdf",
     "en": "sources/Dharmaputrikā. Chapter 2. Āsanaprakaraṇam.pdf"
    }
+  },
+  {
+   "id": "kirana",
+   "file": "data/kirana.json",
+   "title": {
+    "ru": "Киран̣а-тантра",
+    "en": "Kiraṇa-tantra"
+   },
+   "subtitle": {
+    "ru": "глава 58 (первая глава Йогапāда)",
+    "en": "chapter 58 (the first chapter of the Yogapāda)"
+   },
+   "pdf": {
+    "ru": "sources/Позы (āсана) в шиваитских и шактийских тантрах и агамах.pdf",
+    "en": "sources/Postures (āsana) in Śaiva and Śākta tantras and āgamas.pdf"
+   },
+   "datingSummary": {
+    "groups": [
+     {
+      "title": {
+       "ru": "Датировка (кто)",
+       "en": "Dating (by whom)"
+      },
+      "items": [
+       {
+        "who": {
+         "ru": "Sanderson; Goodall",
+         "en": "Sanderson; Goodall"
+        },
+        "when": {
+         "ru": "ранняя; позже Ниш́вāса",
+         "en": "early; after the Niśvāsa"
+        }
+       }
+      ]
+     },
+     {
+      "title": {
+       "ru": "Старейшая датированная рукопись (по источникам выше)",
+       "en": "Oldest dated manuscript (by the sources above)"
+      },
+      "items": [
+       {
+        "who": {
+         "ru": "Национальный архив Непала, Катманду, рукопись 5-893",
+         "en": "National Archives of Nepal, Kathmandu, manuscript 5-893"
+        },
+        "when": {
+         "ru": "924",
+         "en": "924"
+        }
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "matangaparamesvara",
+   "file": "data/matangaparamesvara.json",
+   "title": {
+    "ru": "Матан̇гапāрамеш́вара(āгама), Йогапāда",
+    "en": "Mataṅgapārameśvara(āgama), Yogapāda"
+   },
+   "subtitle": {
+    "ru": "Йогапāда 2.10–29 · четыре позы",
+    "en": "Yogapāda 2.10–29 · four postures"
+   },
+   "tradition": {
+    "ru": "Шайва-сиддхāнта · упāгама",
+    "en": "Śaiva Siddhānta · upāgama"
+   },
+   "pdf": {
+    "ru": "sources/Позы (āсана) в шиваитских и шактийских тантрах и агамах.pdf",
+    "en": "sources/Postures (āsana) in Śaiva and Śākta tantras and āgamas.pdf"
+   },
+   "datingSummary": {
+    "groups": [
+     {
+      "title": {
+       "ru": "Датировка (кто)",
+       "en": "Dating (by whom)"
+      },
+      "items": [
+       {
+        "who": {
+         "ru": "Sanderson по Goodall",
+         "en": "Sanderson via Goodall"
+        },
+        "when": {
+         "ru": "после Дигнаги; до Рамакантхы II (ок. 950–1000)",
+         "en": "after Dignāga; before Rāmakaṇṭha II (c. 950–1000)"
+        }
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "parakhya",
+   "file": "data/parakhya.json",
+   "title": {
+    "ru": "Парāкхйа(тантра)",
+    "en": "Parākhya(tantra)"
+   },
+   "pdf": {
+    "ru": "sources/Позы (āсана) в шиваитских и шактийских тантрах и агамах.pdf",
+    "en": "sources/Postures (āsana) in Śaiva and Śākta tantras and āgamas.pdf"
+   },
+   "datingSummary": {
+    "groups": [
+     {
+      "title": {
+       "ru": "Датировка текста",
+       "en": "Dating of the text"
+      },
+      "items": [
+       {
+        "who": {
+         "ru": "Goodall",
+         "en": "Goodall"
+        },
+        "when": {
+         "ru": "VIII–IX вв., до X в.",
+         "en": "8th–9th c., before the 10th c."
+        }
+       }
+      ]
+     },
+     {
+      "title": {
+       "ru": "Сведения о рукописи",
+       "en": "Manuscript information"
+      },
+      "items": [
+       {
+        "who": {
+         "ru": "Mysore P 258/9",
+         "en": "Mysore P 258/9"
+        },
+        "when": {
+         "ru": "пальмовый лист, Нандинāгарӣ (codex unicus), без даты",
+         "en": "palm-leaf, Nandināgarī (codex unicus), undated"
+        }
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "vijnanabhairava",
+   "file": "data/vijnanabhairava.json",
+   "title": {
+    "ru": "Виджн̃āнабхаирава",
+    "en": "Vijñānabhairava"
+   },
+   "pdf": {
+    "ru": "sources/Позы (āсана) в шиваитских и шактийских тантрах и агамах.pdf",
+    "en": "sources/Postures (āsana) in Śaiva and Śākta tantras and āgamas.pdf"
+   },
+   "datingSummary": {
+    "groups": [
+     {
+      "title": {
+       "ru": "Датировка текста",
+       "en": "Dating of the text"
+      },
+      "items": [
+       {
+        "who": {
+         "ru": "Mallinson & Singleton 2017",
+         "en": "Mallinson & Singleton 2017"
+        },
+        "when": {
+         "ru": "X в.",
+         "en": "10th c."
+        }
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "uddamaresvaratantra",
+   "file": "data/uddamaresvaratantra.json",
+   "title": {
+    "ru": "Уд̣д̣āмареш́варатантра",
+    "en": "Uḍḍāmareśvaratantra"
+   },
+   "pdf": {
+    "ru": "sources/Позы (āсана) в шиваитских и шактийских тантрах и агамах.pdf",
+    "en": "sources/Postures (āsana) in Śaiva and Śākta tantras and āgamas.pdf"
+   }
+  },
+  {
+   "id": "todalatantra",
+   "file": "data/todalatantra.json",
+   "title": {
+    "ru": "Тод̣алатантра",
+    "en": "Toḍalatantra"
+   },
+   "pdf": {
+    "ru": "sources/Позы (āсана) в шиваитских и шактийских тантрах и агамах.pdf",
+    "en": "sources/Postures (āsana) in Śaiva and Śākta tantras and āgamas.pdf"
+   },
+   "datingSummary": {
+    "groups": [
+     {
+      "title": {
+       "ru": "Относительное указание",
+       "en": "Relative indication"
+      },
+      "items": [
+       {
+        "who": {
+         "ru": "Goudriaan",
+         "en": "Goudriaan"
+        },
+        "when": {
+         "ru": "поздняя бенгальская группа; абсолютной даты нет",
+         "en": "the late Bengal group; no absolute date"
+        }
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "vinashikhatantra",
+   "file": "data/vinashikhatantra.json",
+   "title": {
+    "ru": "Вӣн̣āш́икхатантра",
+    "en": "Vīṇāśikhatantra"
+   },
+   "pdf": {
+    "ru": "sources/Позы (āсана) в шиваитских и шактийских тантрах и агамах.pdf",
+    "en": "sources/Postures (āsana) in Śaiva and Śākta tantras and āgamas.pdf"
+   },
+   "datingSummary": {
+    "groups": [
+     {
+      "title": {
+       "ru": "Датировка текста",
+       "en": "Dating of the text"
+      },
+      "items": [
+       {
+        "who": {
+         "ru": "Mallinson & Singleton 2017",
+         "en": "Mallinson & Singleton 2017"
+        },
+        "when": {
+         "ru": "VI–X вв.",
+         "en": "6th–10th c."
+        }
+       }
+      ]
+     },
+     {
+      "title": {
+       "ru": "Датировка культа",
+       "en": "Dating of the cult"
+      },
+      "items": [
+       {
+        "who": {
+         "ru": "Sanderson",
+         "en": "Sanderson"
+        },
+        "when": {
+         "ru": "VI в.",
+         "en": "6th c."
+        }
+       }
+      ]
+     },
+     {
+      "title": {
+       "ru": "Рукопись",
+       "en": "Manuscript"
+      },
+      "items": [
+       {
+        "who": {
+         "ru": "Национальный архив Непала, Катманду, рукопись 1-1076",
+         "en": "National Archives of Nepal, Kathmandu, manuscript 1-1076"
+        },
+        "when": {
+         "ru": "«about A.D. 1200?» (Goudriaan)",
+         "en": "“about A.D. 1200?” (Goudriaan)"
+        }
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "tantraloka",
+   "file": "data/tantraloka.json",
+   "title": {
+    "ru": "Тантрāлока Абхинавагупты с комментарием (вивека) Джаяратхи",
+    "en": "Tantrāloka of Abhinavagupta with Jayaratha’s commentary (viveka)"
+   },
+   "pdf": {
+    "ru": "sources/Позы (āсана) в шиваитских и шактийских тантрах и агамах.pdf",
+    "en": "sources/Postures (āsana) in Śaiva and Śākta tantras and āgamas.pdf"
+   },
+   "datingSummary": {
+    "groups": [
+     {
+      "title": {
+       "ru": "Автор",
+       "en": "Author"
+      },
+      "items": [
+       {
+        "who": {
+         "ru": "Абхинавагупта",
+         "en": "Abhinavagupta"
+        },
+        "when": {
+         "ru": "расцвет деятельности ок. 975–1025",
+         "en": "fl. c. 975–1025"
+        }
+       }
+      ]
+     },
+     {
+      "title": {
+       "ru": "Комментатор",
+       "en": "Commentator"
+      },
+      "items": [
+       {
+        "who": {
+         "ru": "Джаяратха",
+         "en": "Jayaratha"
+        },
+        "when": {
+         "ru": "~1200 (Goudriaan по Pandey)",
+         "en": "~1200 (Goudriaan via Pandey)"
+        },
+        "whenNote": {
+         "ru": "[добавлено позже]",
+         "en": "[added later]"
+        }
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "siddhayogeshvarimata",
+   "file": "data/siddhayogeshvarimata.json",
+   "title": {
+    "ru": "Сиддхайогеш́варӣмата",
+    "en": "Siddhayogeśvarīmata"
+   },
+   "pdf": {
+    "ru": "sources/Позы (āсана) в шиваитских и шактийских тантрах и агамах.pdf",
+    "en": "sources/Postures (āsana) in Śaiva and Śākta tantras and āgamas.pdf"
+   },
+   "datingSummary": {
+    "groups": [
+     {
+      "title": {
+       "ru": "Датировка текста",
+       "en": "Dating of the text"
+      },
+      "items": [
+       {
+        "who": {
+         "ru": "Törzsök",
+         "en": "Törzsök"
+        },
+        "when": {
+         "ru": "около VII в.",
+         "en": "c. 7th c."
+        }
+       }
+      ]
+     },
+     {
+      "title": {
+       "ru": "Рукопись",
+       "en": "Manuscript"
+      },
+      "items": [
+       {
+        "who": {
+         "ru": "Азиатское общество Бенгалии, Калькутта, рукопись 5465 (G)",
+         "en": "Asiatic Society of Bengal, Calcutta, manuscript 5465 (G)"
+        },
+        "when": {
+         "ru": "793 г. непальской эры ≈ 1663",
+         "en": "Nepal Era 793 ≈ 1663"
+        }
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "tantrasadbhava",
+   "file": "data/tantrasadbhava.json",
+   "title": {
+    "ru": "Тантрасадбхāва",
+    "en": "Tantrasadbhāva"
+   },
+   "pdf": {
+    "ru": "sources/Позы (āсана) в шиваитских и шактийских тантрах и агамах.pdf",
+    "en": "sources/Postures (āsana) in Śaiva and Śākta tantras and āgamas.pdf"
+   },
+   "datingSummary": {
+    "groups": [
+     {
+      "title": {
+       "ru": "Датировка текста",
+       "en": "Dating of the text"
+      },
+      "items": [
+       {
+        "who": {
+         "ru": "Bang",
+         "en": "Bang"
+        },
+        "when": {
+         "ru": "VIII–IX вв.",
+         "en": "8th–9th c."
+        }
+       }
+      ]
+     },
+     {
+      "title": {
+       "ru": "Основная рукопись",
+       "en": "Main manuscript"
+      },
+      "items": [
+       {
+        "who": {
+         "ru": "Национальный архив Непала, Катманду, рукопись 5-445",
+         "en": "National Archives of Nepal, Kathmandu, manuscript 5-445"
+        },
+        "when": {
+         "ru": "1097/8",
+         "en": "1097/8"
+        }
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "jayadrathayamala-satka-4",
+   "file": "data/jayadrathayamala-satka-4.json",
+   "title": {
+    "ru": "Джайадратхайāмала, шат̣ка 4",
+    "en": "Jayadrathayāmala, ṣaṭka 4"
+   },
+   "pdf": {
+    "ru": "sources/Позы (āсана) в шиваитских и шактийских тантрах и агамах.pdf",
+    "en": "sources/Postures (āsana) in Śaiva and Śākta tantras and āgamas.pdf"
+   },
+   "datingSummary": {
+    "groups": [
+     {
+      "title": {
+       "ru": "Относительная датировка текста",
+       "en": "Relative dating of the text"
+      },
+      "items": [
+       {
+        "who": {
+         "ru": "Sanderson",
+         "en": "Sanderson"
+        },
+        "when": {
+         "ru": "после Кубджикāмататантры и первой шестерицы; абсолютной даты нет",
+         "en": "after the Kubjikāmatatantra and the first hexad; no absolute date"
+        }
+       }
+      ]
+     },
+     {
+      "title": {
+       "ru": "Сведения в столбце рукописи таблицы",
+       "en": "Information in the table’s manuscript column"
+      },
+      "items": [
+       {
+        "who": {
+         "ru": "Национальный архив Непала, Катманду, рукопись 1-1468 (Sanderson)",
+         "en": "National Archives of Nepal, Kathmandu, manuscript 1-1468 (Sanderson)"
+        },
+        "when": {
+         "ru": "1626/7",
+         "en": "1626/7"
+        }
+       },
+       {
+        "who": {
+         "ru": "Goudriaan",
+         "en": "Goudriaan"
+        },
+        "when": {
+         "ru": "«конец XII — начало XIII в.»",
+         "en": "“end of the 12th — beginning of the 13th c.”"
+        },
+        "whenNote": {
+         "ru": "В таблице эта оценка приведена в столбце рукописи; отдельно её не переопределяем.",
+         "en": "The table places this estimate in the manuscript column; it is not reassigned here."
+        }
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "brahmayamala",
+   "file": "data/brahmayamala.json",
+   "title": {
+    "ru": "Брахмайāмала (Французский институт в Пондичерри T522; M00319) — поздняя «пратишт̣хā-тантра Матерей»",
+    "en": "Brahmayāmala (French Institute of Pondicherry T522; M00319) — a late “pratiṣṭhā-tantra of the Mothers”"
+   },
+   "pdf": {
+    "ru": "sources/Позы (āсана) в шиваитских и шактийских тантрах и агамах.pdf",
+    "en": "sources/Postures (āsana) in Śaiva and Śākta tantras and āgamas.pdf"
+   }
+  },
+  {
+   "id": "pingalamata",
+   "file": "data/pingalamata.json",
+   "title": {
+    "ru": "Пин̇галāмата (Джайадратхāдхикāра; Пратишт̣хāкалпа)",
+    "en": "Piṅgalāmata (Jayadrathādhikāra; Pratiṣṭhākalpa)"
+   },
+   "pdf": {
+    "ru": "sources/Позы (āсана) в шиваитских и шактийских тантрах и агамах.pdf",
+    "en": "sources/Postures (āsana) in Śaiva and Śākta tantras and āgamas.pdf"
+   },
+   "datingSummary": {
+    "groups": [
+     {
+      "title": {
+       "ru": "Датировка текста",
+       "en": "Dating of the text"
+      },
+      "items": [
+       {
+        "who": {
+         "ru": "Sanderson",
+         "en": "Sanderson"
+        },
+        "when": {
+         "ru": "известна до конца XI в.",
+         "en": "known until the end of the 11th c."
+        },
+        "whenNote": {
+         "ru": "[добавлено позже]; точной даты нет",
+         "en": "[added later]; no precise date"
+        }
+       }
+      ]
+     },
+     {
+      "title": {
+       "ru": "Рукопись",
+       "en": "Manuscript"
+      },
+      "items": [
+       {
+        "who": {
+         "ru": "Национальный архив Непала, Катманду, рукопись 3-376",
+         "en": "National Archives of Nepal, Kathmandu, manuscript 3-376"
+        },
+        "when": {
+         "ru": "1174",
+         "en": "1174"
+        }
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "kaulajnananirnaya",
+   "file": "data/kaulajnananirnaya.json",
+   "title": {
+    "ru": "Кауладжн̃āнанирн̣айа (Махāкауладжн̃āнавинирн̣айа)",
+    "en": "Kaulajñānanirṇaya (Mahākaulajñānavinirṇaya)"
+   },
+   "pdf": {
+    "ru": "sources/Позы (āсана) в шиваитских и шактийских тантрах и агамах.pdf",
+    "en": "sources/Postures (āsana) in Śaiva and Śākta tantras and āgamas.pdf"
+   },
+   "datingSummary": {
+    "groups": [
+     {
+      "title": {
+       "ru": "Датировки непальской рукописи",
+       "en": "Dating estimates for the Nepalese manuscript"
+      },
+      "items": [
+       {
+        "who": {
+         "ru": "Goudriaan",
+         "en": "Goudriaan"
+        },
+        "when": {
+         "ru": "«середина XI в.?»",
+         "en": "“middle of the 11th c.?”"
+        }
+       },
+       {
+        "who": {
+         "ru": "Śāstrī",
+         "en": "Śāstrī"
+        },
+        "when": {
+         "ru": "«середина IX в.»",
+         "en": "“middle of the 9th c.”"
+        }
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "paratantra",
+   "file": "data/paratantra.json",
+   "title": {
+    "ru": "Парāтантра",
+    "en": "Parātantra"
+   },
+   "pdf": {
+    "ru": "sources/Позы (āсана) в шиваитских и шактийских тантрах и агамах.pdf",
+    "en": "sources/Postures (āsana) in Śaiva and Śākta tantras and āgamas.pdf"
+   }
+  },
+  {
+   "id": "kaularahasya",
+   "file": "data/kaularahasya.json",
+   "title": {
+    "ru": "Кауларахасйа (Сарвāгамасāра)",
+    "en": "Kaularahasya (Sarvāgamasāra)"
+   },
+   "pdf": {
+    "ru": "sources/Позы (āсана) в шиваитских и шактийских тантрах и агамах.pdf",
+    "en": "sources/Postures (āsana) in Śaiva and Śākta tantras and āgamas.pdf"
+   }
+  },
+  {
+   "id": "amriteshatantra",
+   "file": "data/amriteshatantra.json",
+   "title": {
+    "ru": "Амр̣теш́атантра (рукопись Нетратантра 1101 г.)",
+    "en": "Amṛteśatantra (the Netratantra manuscript of 1101)"
+   },
+   "pdf": {
+    "ru": "sources/Позы (āсана) в шиваитских и шактийских тантрах и агамах.pdf",
+    "en": "sources/Postures (āsana) in Śaiva and Śākta tantras and āgamas.pdf"
+   },
+   "datingSummary": {
+    "groups": [
+     {
+      "title": {
+       "ru": "Датировка рукописи, не текста",
+       "en": "Manuscript dating, not text dating"
+      },
+      "items": [
+       {
+        "who": {
+         "ru": "Рукопись «Амр̣теш́а», 320 г. непальской эры",
+         "en": "The “Amṛteśa” manuscript, Nepal Era 320"
+        },
+        "when": {
+         "ru": "1101 (Muktabodha) / 1200 (Goudriaan & Gupta 1981)",
+         "en": "1101 (Muktabodha) / 1200 (Goudriaan & Gupta 1981)"
+        }
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "yoginihrdaya",
+   "file": "data/yoginihrdaya.json",
+   "title": {
+    "ru": "Йогинӣхр̣дайа (с Дӣпикā Амритананды)",
+    "en": "Yoginīhṛdaya (with Amṛtānanda’s Dīpikā)"
+   },
+   "pdf": {
+    "ru": "sources/Позы (āсана) в шиваитских и шактийских тантрах и агамах.pdf",
+    "en": "sources/Postures (āsana) in Śaiva and Śākta tantras and āgamas.pdf"
+   },
+   "datingSummary": {
+    "groups": [
+     {
+      "title": {
+       "ru": "Предел по датировке комментатора",
+       "en": "Bound from the commentator’s dating"
+      },
+      "items": [
+       {
+        "who": {
+         "ru": "Goudriaan, по дате комментатора Амритананды",
+         "en": "Goudriaan, from the date of commentator Amṛtānanda"
+        },
+        "when": {
+         "ru": "не позже конца XII — начала XIII в.",
+         "en": "not later than the end of the 12th — beginning of the 13th c."
+        },
+        "whenNote": {
+         "ru": "[добавлено позже]",
+         "en": "[added later]"
+        }
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "kalottara",
+   "file": "data/kalottara.json",
+   "title": {
+    "ru": "Кāлоттара (южноиндийская версия в 68 паталах; Государственная библиотека восточных рукописей, Мадрас/Ченнаи; M00248)",
+    "en": "Kālottara (the South Indian version in 68 paṭalas; Government Oriental Manuscripts Library, Madras/Chennai; M00248)"
+   },
+   "pdf": {
+    "ru": "sources/Позы (āсана) в шиваитских и шактийских тантрах и агамах.pdf",
+    "en": "sources/Postures (āsana) in Śaiva and Śākta tantras and āgamas.pdf"
+   }
+  },
+  {
+   "id": "acintyavishvasadakhya",
+   "file": "data/acintyavishvasadakhya.json",
+   "title": {
+    "ru": "Ачинтйавиш́васāдāкхйа (Чинтйавиш́васāдāкхйа)",
+    "en": "Acintyaviśvasādākhya (Cintyaviśvasādākhya)"
+   },
+   "pdf": {
+    "ru": "sources/Позы (āсана) в шиваитских и шактийских тантрах и агамах.pdf",
+    "en": "sources/Postures (āsana) in Śaiva and Śākta tantras and āgamas.pdf"
+   },
+   "datingSummary": {
+    "groups": [
+     {
+      "title": {
+       "ru": "Относительная датировка текста",
+       "en": "Relative dating of the text"
+      },
+      "items": [
+       {
+        "who": {
+         "ru": "Sanderson",
+         "en": "Sanderson"
+        },
+        "when": {
+         "ru": "позже Сомашамбху (~1073)",
+         "en": "later than Somaśambhu (~1073)"
+        }
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "suprabheda",
+   "file": "data/suprabheda.json",
+   "title": {
+    "ru": "Супрабхеда(āgama)",
+    "en": "Suprabheda(āgama)"
+   },
+   "pdf": {
+    "ru": "sources/Позы (āсана) в шиваитских и шактийских тантрах и агамах.pdf",
+    "en": "sources/Postures (āsana) in Śaiva and Śākta tantras and āgamas.pdf"
+   },
+   "datingSummary": {
+    "groups": [
+     {
+      "title": {
+       "ru": "Цитирование",
+       "en": "Citation"
+      },
+      "items": [
+       {
+        "who": {
+         "ru": "Sanderson",
+         "en": "Sanderson"
+        },
+        "when": {
+         "ru": "цитируется в XIII в.",
+         "en": "quoted in the 13th c."
+        }
+       }
+      ]
+     },
+     {
+      "title": {
+       "ru": "Позднее добавленное указание",
+       "en": "Later-added indication"
+      },
+      "items": [
+       {
+        "who": {
+         "ru": "Kafle 2015; вывод автора таблицы",
+         "en": "Kafle 2015; the table author’s conclusion"
+        },
+        "when": {
+         "ru": "строки с пометкой «Супрабхедāгама» в Джн̃āнаратнāвалӣ; XII в. — мой вывод",
+         "en": "lines marked “Suprabhedāgama” in the Jñānaratnāvalī; 12th c. — my conclusion"
+        },
+        "whenNote": {
+         "ru": "[добавлено позже]",
+         "en": "[added later]"
+        }
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "makutagama",
+   "file": "data/makutagama.json",
+   "title": {
+    "ru": "Макут̣āгама (M00036) / Мукут̣āгама (M00424)",
+    "en": "Makuṭāgama (M00036) / Mukuṭāgama (M00424)"
+   },
+   "pdf": {
+    "ru": "sources/Позы (āсана) в шиваитских и шактийских тантрах и агамах.pdf",
+    "en": "sources/Postures (āsana) in Śaiva and Śākta tantras and āgamas.pdf"
+   },
+   "datingSummary": {
+    "groups": [
+     {
+      "title": {
+       "ru": "Первое цитирование в приведённых сведениях",
+       "en": "First attestation in the cited information"
+      },
+      "items": [
+       {
+        "who": {
+         "ru": "Sanderson",
+         "en": "Sanderson"
+        },
+        "when": {
+         "ru": "впервые у Ведаджнянагур̣у II, XVI в.",
+         "en": "first in Vedajñānaguru II, 16th c."
+        }
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "jnanasiddhi",
+   "file": "data/jnanasiddhi.json",
+   "title": {
+    "ru": "Джн̃āнасиддхи(йāгама) (E0006)",
+    "en": "Jñānasiddhi(yāgama) (E0006)"
+   },
+   "pdf": {
+    "ru": "sources/Позы (āсана) в шиваитских и шактийских тантрах и агамах.pdf",
+    "en": "sources/Postures (āsana) in Śaiva and Śākta tantras and āgamas.pdf"
+   },
+   "datingSummary": {
+    "groups": [
+     {
+      "title": {
+       "ru": "Относительная датировка текста",
+       "en": "Relative dating of the text"
+      },
+      "items": [
+       {
+        "who": {
+         "ru": "Sanderson",
+         "en": "Sanderson"
+        },
+        "when": {
+         "ru": "вряд ли раньше XII в.",
+         "en": "unlikely before the 12th c."
+        }
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "kamika",
+   "file": "data/kamika.json",
+   "title": {
+    "ru": "Кāмика (пӯрвабхāга M00124 / уттарабхāга M00125)",
+    "en": "Kāmika (pūrvabhāga M00124 / uttarabhāga M00125)"
+   },
+   "pdf": {
+    "ru": "sources/Позы (āсана) в шиваитских и шактийских тантрах и агамах.pdf",
+    "en": "sources/Postures (āsana) in Śaiva and Śākta tantras and āgamas.pdf"
+   },
+   "datingSummary": {
+    "groups": [
+     {
+      "title": {
+       "ru": "Цитирование Кāмики",
+       "en": "Kāmika citation"
+      },
+      "items": [
+       {
+        "who": {
+         "ru": "Sanderson",
+         "en": "Sanderson"
+        },
+        "when": {
+         "ru": "цитируется у Джнянашивы, XII в.",
+         "en": "quoted in Jñānaśiva, 12th c."
+        }
+       }
+      ]
+     },
+     {
+      "title": {
+       "ru": "Уттаракāмика",
+       "en": "Uttarakāmika"
+      },
+      "items": [
+       {
+        "who": {
+         "ru": "Sanderson",
+         "en": "Sanderson"
+        },
+        "when": {
+         "ru": "позже Сомашамбху (~1073)",
+         "en": "later than Somaśambhu (~1073)"
+        }
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "amshumat",
+   "file": "data/amshumat.json",
+   "title": {
+    "ru": "Ам̣ш́умат (Ам̣ш́уматкāш́йапа, Ам̣ш́умадāгама)",
+    "en": "Aṃśumat (Aṃśumatkāśyapa, Aṃśumadāgama)"
+   },
+   "pdf": {
+    "ru": "sources/Позы (āсана) в шиваитских и шактийских тантрах и агамах.pdf",
+    "en": "sources/Postures (āsana) in Śaiva and Śākta tantras and āgamas.pdf"
+   }
+  },
+  {
+   "id": "mohacudottara",
+   "file": "data/mohacudottara.json",
+   "title": {
+    "ru": "Мохачӯд̣оттара",
+    "en": "Mohacūḍottara"
+   },
+   "pdf": {
+    "ru": "sources/Позы (āсана) в шиваитских и шактийских тантрах и агамах.pdf",
+    "en": "sources/Postures (āsana) in Śaiva and Śākta tantras and āgamas.pdf"
+   }
+  },
+  {
+   "id": "yogaja",
+   "file": "data/yogaja.json",
+   "title": {
+    "ru": "Йогаджа(āгама)",
+    "en": "Yogaja(āgama)"
+   },
+   "pdf": {
+    "ru": "sources/Позы (āсана) в шиваитских и шактийских тантрах и агамах.pdf",
+    "en": "sources/Postures (āsana) in Śaiva and Śākta tantras and āgamas.pdf"
+   }
+  },
+  {
+   "id": "sukshma",
+   "file": "data/sukshma.json",
+   "title": {
+    "ru": "Сӯкшма(āгама)",
+    "en": "Sūkṣma(āgama)"
+   },
+   "pdf": {
+    "ru": "sources/Позы (āсана) в шиваитских и шактийских тантрах и агамах.pdf",
+    "en": "sources/Postures (āsana) in Śaiva and Śākta tantras and āgamas.pdf"
+   }
+  },
+  {
+   "id": "candrajnana",
+   "file": "data/candrajnana.json",
+   "title": {
+    "ru": "Чандраджн̃āна(āгама), вирашайвская рецензия",
+    "en": "Candrajñāna(āgama), Vīraśaiva rescension"
+   },
+   "pdf": {
+    "ru": "sources/Позы (āсана) в шиваитских и шактийских тантрах и агамах.pdf",
+    "en": "sources/Postures (āsana) in Śaiva and Śākta tantras and āgamas.pdf"
+   }
+  },
+  {
+   "id": "sakalagamasarasangraha",
+   "file": "data/sakalagamasarasangraha.json",
+   "title": {
+    "ru": "Сакалāгамасāрасан̇граха",
+    "en": "Sakalāgamasārasaṅgraha"
+   },
+   "pdf": {
+    "ru": "sources/Позы (āсана) в шиваитских и шактийских тантрах и агамах.pdf",
+    "en": "sources/Postures (āsana) in Śaiva and Śākta tantras and āgamas.pdf"
+   }
+  },
+  {
+   "id": "shivadharma",
+   "file": "data/shivadharma.json",
+   "title": {
+    "ru": "Ш́ивадхарма (южноиндийская версия; M00209)",
+    "en": "Śivadharma (the South Indian version; M00209)"
+   },
+   "pdf": {
+    "ru": "sources/Позы (āсана) в шиваитских и шактийских тантрах и агамах.pdf",
+    "en": "sources/Postures (āsana) in Śaiva and Śākta tantras and āgamas.pdf"
+   }
+  },
+  {
+   "id": "kularnavatantra",
+   "file": "data/kularnavatantra.json",
+   "title": {
+    "ru": "Кулāрн̣аватантра",
+    "en": "Kulārṇavatantra"
+   },
+   "pdf": {
+    "ru": "sources/Позы (āсана) в шиваитских и шактийских тантрах и агамах.pdf",
+    "en": "sources/Postures (āsana) in Śaiva and Śākta tantras and āgamas.pdf"
+   },
+   "datingSummary": {
+    "groups": [
+     {
+      "title": {
+       "ru": "Датировка (кто)",
+       "en": "Dating (by whom)"
+      },
+      "items": [
+       {
+        "who": {
+         "ru": "Carlstedt по Goudriaan",
+         "en": "Carlstedt via Goudriaan"
+        },
+        "when": {
+         "ru": "ок. 1000–1400 гг. (Carlstedt по Goudriaan)",
+         "en": "c. 1000–1400 (Carlstedt via Goudriaan)"
+        }
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "tantraraja",
+   "file": "data/tantraraja.json",
+   "title": {
+    "ru": "Тантрарāджатантра с комментарием «Манорамā»",
+    "en": "Tantrarājatantra with the Manoramā commentary"
+   },
+   "pdf": {
+    "ru": "sources/Позы (āсана) в шиваитских и шактийских тантрах и агамах.pdf",
+    "en": "sources/Postures (āsana) in Śaiva and Śākta tantras and āgamas.pdf"
+   },
+   "datingSummary": {
+    "groups": [
+     {
+      "title": {
+       "ru": "Датировка (кто)",
+       "en": "Dating (by whom)"
+      },
+      "items": [
+       {
+        "who": {
+         "ru": "Goudriaan",
+         "en": "Goudriaan"
+        },
+        "when": {
+         "ru": "моложе Нитйāшод̣аш́икāрн̣авы и Йогинӣхр̣дайи (Goudriaan); абсолютная дата не указана",
+         "en": "younger than the Nityāṣoḍaśikārṇava and Yoginīhṛdaya (Goudriaan); no absolute date"
+        }
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "sharadatilaka",
+   "file": "data/sharadatilaka.json",
+   "title": {
+    "ru": "Ш́āрадāтилака-тантра с комментарием «Падāртхāдарш́а»",
+    "en": "Śāradātilakatantra with Rāghavabhaṭṭa’s Padārthādarśa commentary"
+   },
+   "pdf": {
+    "ru": "sources/Позы (āсана) в шиваитских и шактийских тантрах и агамах.pdf",
+    "en": "sources/Postures (āsana) in Śaiva and Śākta tantras and āgamas.pdf"
+   },
+   "datingSummary": {
+    "groups": [
+     {
+      "title": {
+       "ru": "Датировка (кто)",
+       "en": "Dating (by whom)"
+      },
+      "items": [
+       {
+        "who": {
+         "ru": "Goudriaan; Padoux; Mallinson & Singleton 2017",
+         "en": "Goudriaan; Padoux; Mallinson & Singleton 2017"
+        },
+        "when": {
+         "ru": "обычно XI в. (Goudriaan; Padoux указывает, что дата неизвестна); XII в. (Mallinson & Singleton 2017)",
+         "en": "usually 11th c. (Goudriaan; Padoux says the date is unknown); 12th c. (Mallinson & Singleton 2017)"
+        }
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "gandharvatantra",
+   "file": "data/gandharvatantra.json",
+   "title": {
+    "ru": "Гандхарватантра",
+    "en": "Gandharvatantra"
+   },
+   "pdf": {
+    "ru": "sources/Позы (āсана) в шиваитских и шактийских тантрах и агамах.pdf",
+    "en": "sources/Postures (āsana) in Śaiva and Śākta tantras and āgamas.pdf"
+   },
+   "datingSummary": {
+    "note": {
+     "ru": "Датировка не установлена: исследователи упоминают текст, но не дают нужных сведений.",
+     "en": "No date is established: researchers mention the text but do not provide the needed information."
+    }
+   }
+  },
+  {
+   "id": "vishvasaratantra",
+   "file": "data/vishvasaratantra.json",
+   "title": {
+    "ru": "Виш́васāратантра",
+    "en": "Viśvasāratantra"
+   },
+   "pdf": {
+    "ru": "sources/Позы (āсана) в шиваитских и шактийских тантрах и агамах.pdf",
+    "en": "sources/Postures (āsana) in Śaiva and Śākta tantras and āgamas.pdf"
+   },
+   "datingSummary": {
+    "note": {
+     "ru": "Таблица объединяет Виш́васāру с Сарволлāсой; оценки не распределены между двумя текстами.",
+     "en": "The table groups Viśvasāra with Sarvollāsa; it does not assign the dating estimates between the two texts."
+    }
+   }
+  },
+  {
+   "id": "sarvollasatantra",
+   "file": "data/sarvollasatantra.json",
+   "title": {
+    "ru": "Сарволлāса(тантра)",
+    "en": "Sarvollāsa(tantra)"
+   },
+   "pdf": {
+    "ru": "sources/Позы (āсана) в шиваитских и шактийских тантрах и агамах.pdf",
+    "en": "sources/Postures (āsana) in Śaiva and Śākta tantras and āgamas.pdf"
+   },
+   "datingSummary": {
+    "note": {
+     "ru": "Таблица датировок объединяет Виш́васāру и Сарволлāсу, не распределяя оценки. В описании Сарволлāсы Гудриан называет автора Сарвāнанданāтху прославленным сиддхой XVI в.; Сандерсон пишет, что тот, вероятно, родился около начала XV в.",
+     "en": "The dating table groups Viśvasāra and Sarvollāsa without assigning the estimates. The Sarvollāsa entry calls its author Sarvānandanātha a celebrated 16th-c. siddha (Goudriaan); Sanderson says he was probably born around the beginning of the 15th c."
+    }
+   }
+  },
+  {
+   "id": "kaulavalinirnaya",
+   "file": "data/kaulavalinirnaya.json",
+   "title": {
+    "ru": "Каулāвалӣнирн̣айа",
+    "en": "Kaulāvalīnirṇaya"
+   },
+   "pdf": {
+    "ru": "sources/Позы (āсана) в шиваитских и шактийских тантрах и агамах.pdf",
+    "en": "sources/Postures (āsana) in Śaiva and Śākta tantras and āgamas.pdf"
+   },
+   "datingSummary": {
+    "groups": [
+     {
+      "title": {
+       "ru": "Датировка (кто)",
+       "en": "Dating (by whom)"
+      },
+      "items": [
+       {
+        "who": {
+         "ru": "Goudriaan",
+         "en": "Goudriaan"
+        },
+        "when": {
+         "ru": "XVI в. (Goudriaan & Gupta 1981, с. 144)",
+         "en": "16th c. (Goudriaan & Gupta 1981, p. 144)"
+        }
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "phetkarinitantra",
+   "file": "data/phetkarinitantra.json",
+   "title": {
+    "ru": "Пхеткāрин̣ӣтантра",
+    "en": "Phetkāriṇītantra"
+   },
+   "pdf": {
+    "ru": "sources/Позы (āсана) в шиваитских и шактийских тантрах и агамах.pdf",
+    "en": "sources/Postures (āsana) in Śaiva and Śākta tantras and āgamas.pdf"
+   },
+   "datingSummary": {
+    "note": {
+     "ru": "Таблица объединяет Пхеткāрин̣ӣ, Бр̣ханнӣлу и Меру; оценки не распределены между тремя текстами.",
+     "en": "The table groups Phetkāriṇī, Bṛhannīla and Meru; the estimates are not assigned among the three texts."
+    }
+   }
+  },
+  {
+   "id": "brhannilatantra",
+   "file": "data/brhannilatantra.json",
+   "title": {
+    "ru": "Бр̣ханнӣлатантра",
+    "en": "Bṛhannīlatantra"
+   },
+   "pdf": {
+    "ru": "sources/Позы (āсана) в шиваитских и шактийских тантрах и агамах.pdf",
+    "en": "sources/Postures (āsana) in Śaiva and Śākta tantras and āgamas.pdf"
+   },
+   "datingSummary": {
+    "note": {
+     "ru": "Таблица объединяет Пхеткāрин̣ӣ, Бр̣ханнӣлу и Меру; оценки не распределены между тремя текстами.",
+     "en": "The table groups Phetkāriṇī, Bṛhannīla and Meru; the estimates are not assigned among the three texts."
+    }
+   }
+  },
+  {
+   "id": "merutantra",
+   "file": "data/merutantra.json",
+   "title": {
+    "ru": "Мерутантра",
+    "en": "Merutantra"
+   },
+   "pdf": {
+    "ru": "sources/Позы (āсана) в шиваитских и шактийских тантрах и агамах.pdf",
+    "en": "sources/Postures (āsana) in Śaiva and Śākta tantras and āgamas.pdf"
+   },
+   "datingSummary": {
+    "note": {
+     "ru": "Таблица объединяет Пхеткāрин̣ӣ, Бр̣ханнӣлу и Меру; оценки не распределены между тремя текстами.",
+     "en": "The table groups Phetkāriṇī, Bṛhannīla and Meru; the estimates are not assigned among the three texts."
+    }
+   }
+  },
+  {
+   "id": "varahitantra",
+   "file": "data/varahitantra.json",
+   "title": {
+    "ru": "Вāрāхӣтантра",
+    "en": "Vārāhītantra"
+   },
+   "pdf": {
+    "ru": "sources/Позы (āсана) в шиваитских и шактийских тантрах и агамах.pdf",
+    "en": "sources/Postures (āsana) in Śaiva and Śākta tantras and āgamas.pdf"
+   },
+   "datingSummary": {
+    "groups": [
+     {
+      "title": {
+       "ru": "Датировка (кто)",
+       "en": "Dating (by whom)"
+      },
+      "items": [
+       {
+        "who": {
+         "ru": "Muktabodha; Farquhar по Goudriaan; вывод автора таблицы",
+         "en": "Muktabodha; Farquhar via Goudriaan; the table author’s conclusion"
+        },
+        "when": {
+         "ru": "до 1775 (Muktabodha); возможно, XVI в. (Farquhar по Goudriaan); позднее добавленный вывод по цитате в Сарволлāсе — не позже XV–XVI вв.",
+         "en": "before 1775 (Muktabodha); possibly 16th c. (Farquhar via Goudriaan); a later-added conclusion from a quotation in Sarvollāsa places it no later than the 15th–16th c."
+        }
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "acharasaratantra",
+   "file": "data/acharasaratantra.json",
+   "title": {
+    "ru": "Āчāрасāратантра (Чӣнāчāра; рукопись M00501)",
+    "en": "Ācārasāratantra (Cīnācāra; manuscript M00501)"
+   },
+   "pdf": {
+    "ru": "sources/Позы (āсана) в шиваитских и шактийских тантрах и агамах.pdf",
+    "en": "sources/Postures (āsana) in Śaiva and Śākta tantras and āgamas.pdf"
+   },
+   "datingSummary": {
+    "note": {
+     "ru": "Отдельная датировка Āчāрасāры не приведена; рукопись NGMCP 3-325 не датирована.",
+     "en": "No separate date is given for the Ācārasāra; the NGMCP 3-325 manuscript is undated."
+    }
+   }
+  },
+  {
+   "id": "mantrakaumudi",
+   "file": "data/mantrakaumudi.json",
+   "title": {
+    "ru": "Мантракаумудӣ",
+    "en": "Mantrakaumudī"
+   },
+   "pdf": {
+    "ru": "sources/Позы (āсана) в шиваитских и шактийских тантрах и агамах.pdf",
+    "en": "sources/Postures (āsana) in Śaiva and Śākta tantras and āgamas.pdf"
+   },
+   "datingSummary": {
+    "groups": [
+     {
+      "title": {
+       "ru": "Датировка (кто)",
+       "en": "Dating (by whom)"
+      },
+      "items": [
+       {
+        "who": {
+         "ru": "Muktabodha",
+         "en": "Muktabodha"
+        },
+        "when": {
+         "ru": "1564 (Muktabodha)",
+         "en": "1564 (Muktabodha)"
+        }
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "mundamalatantra-i",
+   "file": "data/mundamalatantra-i.json",
+   "title": {
+    "ru": "Мун̣д̣амāлāтантра (I)",
+    "en": "Muṇḍamālātantra (I)"
+   },
+   "pdf": {
+    "ru": "sources/Позы (āсана) в шиваитских и шактийских тантрах и агамах.pdf",
+    "en": "sources/Postures (āsana) in Śaiva and Śākta tantras and āgamas.pdf"
+   },
+   "datingSummary": {
+    "groups": [
+     {
+      "title": {
+       "ru": "Датировка (кто)",
+       "en": "Dating (by whom)"
+      },
+      "items": [
+       {
+        "who": {
+         "ru": "Goudriaan; Muktabodha",
+         "en": "Goudriaan; Muktabodha"
+        },
+        "when": {
+         "ru": "«Поздняя» (Goudriaan; Muktabodha); точная дата не указана.",
+         "en": "“Late” (Goudriaan; Muktabodha); no precise date is given."
+        }
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "mundamalatantra-ii",
+   "file": "data/mundamalatantra-ii.json",
+   "title": {
+    "ru": "Мун̣д̣амāлāтантра (II)",
+    "en": "Muṇḍamālātantra (II)"
+   },
+   "pdf": {
+    "ru": "sources/Позы (āсана) в шиваитских и шактийских тантрах и агамах.pdf",
+    "en": "sources/Postures (āsana) in Śaiva and Śākta tantras and āgamas.pdf"
+   },
+   "datingSummary": {
+    "note": {
+     "ru": "Каталог отличает Мун̣д̣амāлу II от Мун̣д̣амāлы I, но говорит, что они совпадают по периоду. Отдельной строки для Мун̣д̣амāлы II в таблице датировок нет.",
+     "en": "The catalogue distinguishes Muṇḍamālā II from Muṇḍamālā I but says they belong to the same period. The dating table has no separate row for Muṇḍamālā II."
+    }
+   }
+  },
+  {
+   "id": "haharavatantra",
+   "file": "data/haharavatantra.json",
+   "title": {
+    "ru": "Хāхāрāватантра",
+    "en": "Hāhārāvatantra"
+   },
+   "pdf": {
+    "ru": "sources/Позы (āсана) в шиваитских и шактийских тантрах и агамах.pdf",
+    "en": "sources/Postures (āsana) in Śaiva and Śākta tantras and āgamas.pdf"
+   },
+   "datingSummary": {
+    "note": {
+     "ru": "Дата текста не дана; рукопись NGMCP 5-4798 не датирована.",
+     "en": "No date is given for the text; the NGMCP 5-4798 manuscript is undated."
+    }
+   }
+  },
+  {
+   "id": "kriyoddishamahatantraraja",
+   "file": "data/kriyoddishamahatantraraja.json",
+   "title": {
+    "ru": "Крийод̣д̣ӣш́амахāтантрарāджа",
+    "en": "Kriyoḍḍīśamahātantrarāja"
+   },
+   "pdf": {
+    "ru": "sources/Позы (āсана) в шиваитских и шактийских тантрах и агамах.pdf",
+    "en": "sources/Postures (āsana) in Śaiva and Śākta tantras and āgamas.pdf"
+   },
+   "datingSummary": {
+    "note": {
+     "ru": "Датировка не приведена; в таблице указаны издания 1924 и 1967 гг.",
+     "en": "No date is given; the table lists editions of 1924 and 1967."
+    }
+   }
+  },
+  {
+   "id": "parameshvarimata",
+   "file": "data/parameshvarimata.json",
+   "title": {
+    "ru": "Парамеш́варӣмата",
+    "en": "Parameśvarīmata"
+   },
+   "pdf": {
+    "ru": "sources/Позы (āсана) в шиваитских и шактийских тантрах и агамах.pdf",
+    "en": "sources/Postures (āsana) in Śaiva and Śākta tantras and āgamas.pdf"
+   },
+   "datingSummary": {
+    "note": {
+     "ru": "Надёжная датировка не приведена; тождество упомянутых рукописей не установлено.",
+     "en": "No reliable date is given; the identities of the mentioned manuscripts are not established."
+    }
+   }
+  },
+  {
+   "id": "kubjikatantra-bengali",
+   "file": "data/kubjikatantra-bengali.json",
+   "title": {
+    "ru": "Кубджикāтантра (бенгальская версия)",
+    "en": "Kubjikātantra (the Bengali recension)"
+   },
+   "pdf": {
+    "ru": "sources/Позы (āсана) в шиваитских и шактийских тантрах и агамах.pdf",
+    "en": "sources/Postures (āsana) in Śaiva and Śākta tantras and āgamas.pdf"
+   },
+   "datingSummary": {
+    "groups": [
+     {
+      "title": {
+       "ru": "Датировка (кто)",
+       "en": "Dating (by whom)"
+      },
+      "items": [
+       {
+        "who": {
+         "ru": "Goudriaan; поздняя помета в таблице",
+         "en": "Goudriaan; later note in the table"
+        },
+        "when": {
+         "ru": "«Относительно поздняя», бенгальская (только для версии в девяти паталах); абсолютная дата не приведена.",
+         "en": "“Relatively late”, Bengali (only for the nine-paṭala recension); no absolute date is given."
+        }
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "kulanandadi",
+   "file": "data/kulanandadi.json",
+   "title": {
+    "ru": "Кулāнандāди",
+    "en": "Kulānandādi"
+   },
+   "pdf": {
+    "ru": "sources/Позы (āсана) в шиваитских и шактийских тантрах и агамах.pdf",
+    "en": "sources/Postures (āsana) in Śaiva and Śākta tantras and āgamas.pdf"
+   },
+   "datingSummary": {
+    "groups": [
+     {
+      "title": {
+       "ru": "Датировка (кто)",
+       "en": "Dating (by whom)"
+      },
+      "items": [
+       {
+        "who": {
+         "ru": "Muktabodha; Bagchi по Goudriaan",
+         "en": "Muktabodha; Bagchi via Goudriaan"
+        },
+        "when": {
+         "ru": "Muktabodha называет Кулāнанду ранним каульским сочинением, без века; рукопись Кулāнанды датируется XIV–XV вв. (Bagchi по Goudriaan). Это датировка компонента, не всего комплекса Кулāнандāди.",
+         "en": "Muktabodha calls Kulānanda an early Kaula work but gives no century; a Kulānanda manuscript is dated to the 14th–15th c. (Bagchi via Goudriaan). This dates a component, not the entire Kulānandādi complex."
+        }
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "srividyarnava",
+   "file": "data/srividyarnava.json",
+   "title": {
+    "ru": "Ш́рӣвидйāрн̣ава(тантра)",
+    "en": "Śrīvidyārṇava(tantra)"
+   },
+   "pdf": {
+    "ru": "sources/Позы (āсана) в шиваитских и шактийских тантрах и агамах.pdf",
+    "en": "sources/Postures (āsana) in Śaiva and Śākta tantras and āgamas.pdf"
+   },
+   "datingSummary": {
+    "note": {
+     "ru": "Дата не указана; Гудриан считает сомнительным и отождествление этого Видйāран̣йи с адвайтистом XIV в.",
+     "en": "No date is given; Goudriaan also doubts that this Vidyāraṇya is identical with the 14th-century Advaitin."
+    }
+   }
+  },
+  {
+   "id": "shaktisangamatantra-tarakhanda",
+   "file": "data/shaktisangamatantra-tarakhanda.json",
+   "title": {
+    "ru": "Ш́актисан̇гаматантра, Тāрāкхан̣д̣а",
+    "en": "Śaktisaṅgamatantra, Tārākhaṇḍa"
+   },
+   "pdf": {
+    "ru": "sources/Позы (āсана) в шиваитских и шактийских тантрах и агамах.pdf",
+    "en": "sources/Postures (āsana) in Śaiva and Śākta tantras and āgamas.pdf"
+   },
+   "datingSummary": {
+    "groups": [
+     {
+      "title": {
+       "ru": "Датировка (кто)",
+       "en": "Dating (by whom)"
+      },
+      "items": [
+       {
+        "who": {
+         "ru": "B. Bhaṭṭācārya; V. V. Dviveda; Goudriaan",
+         "en": "B. Bhaṭṭācārya; V. V. Dviveda; Goudriaan"
+        },
+        "when": {
+         "ru": "Б. Бхат̣т̣āчāрйа: между ок. 1555 и 1607 гг.; В. В. Двиведа: 1645 г.; Гудриан считает обе даты ненадёжными, но относит текст к концу XVI — первой половине XVII в.",
+         "en": "B. Bhaṭṭācārya: between c. 1555 and 1607; V. V. Dviveda: 1645; Goudriaan considers both dates unreliable but places the text in the late 16th–first half of the 17th c."
+        }
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "mahanirvanatantra",
+   "file": "data/mahanirvanatantra.json",
+   "title": {
+    "ru": "Махāнирвāн̣атантра",
+    "en": "Mahānirvāṇatantra"
+   },
+   "pdf": {
+    "ru": "sources/Позы (āсана) в шиваитских и шактийских тантрах и агамах.pdf",
+    "en": "sources/Postures (āsana) in Śaiva and Śākta tantras and āgamas.pdf"
+   },
+   "datingSummary": {
+    "groups": [
+     {
+      "title": {
+       "ru": "Основные оценки",
+       "en": "Main estimates"
+      },
+      "items": [
+       {
+        "who": {
+         "ru": "Goudriaan; Farquhar; Derrett",
+         "en": "Goudriaan; Farquhar; Derrett"
+        },
+        "when": {
+         "ru": "2-я половина XVIII в. (Goudriaan); XVIII в. (Farquhar); 1773–1780 гг. (Derrett)",
+         "en": "2nd half of the 18th c. (Goudriaan); 18th c. (Farquhar); 1773–1780 (Derrett)"
+        },
+        "whenNote": {
+         "ru": "Bhāratī без аргументов называет также XI и VII вв.",
+         "en": "Bhāratī also gives 11th- and 7th-century dates without argument."
+        }
+       }
+      ]
+     }
+    ],
+    "note": {
+     "ru": "Таблица датировок объединяет Махāнирвāн̣атантру с Куламуктикаллолинӣ; 1689–1694 гг. относится к биографической связи Навамӣсим̣хи в записи Куламуктикаллолинӣ, а не к дате Махāнирвāн̣атантры.",
+     "en": "The dating table groups Mahānirvāṇatantra with Kulamuktikallolinī; 1689–1694 refers to the biographical link for Navamīsiṃha in the Kulamuktikallolinī entry, not to a date for the Mahānirvāṇatantra."
+    }
+   }
+  },
+  {
+   "id": "kulamuktikallolini",
+   "file": "data/kulamuktikallolini.json",
+   "title": {
+    "ru": "Куламуктикаллолинӣ",
+    "en": "Kulamuktikallolinī"
+   },
+   "pdf": {
+    "ru": "sources/Позы (āсана) в шиваитских и шактийских тантрах и агамах.pdf",
+    "en": "sources/Postures (āsana) in Śaiva and Śākta tantras and āgamas.pdf"
+   },
+   "datingSummary": {
+    "note": {
+     "ru": "Связь автора с 1689–1694 гг. косвенная и не является точной датой составления текста.",
+     "en": "The author’s connection to 1689–1694 is indirect and is not an exact date of composition."
+    },
+    "groups": [
+     {
+      "title": {
+       "ru": "Хронологическая связь автора",
+       "en": "Author’s chronological connection"
+      },
+      "items": [
+       {
+        "who": {
+         "ru": "Muktabodha; Dyczkowski",
+         "en": "Muktabodha; Dyczkowski"
+        },
+        "when": {
+         "ru": "Навамӣсим̣ха связан со службой при непальском царе, вероятно правившем в 1689–1694 гг.",
+         "en": "Navamīsiṃha is linked to service under a Nepalese king who probably ruled in 1689–1694."
+        }
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "ishanashivagurudevapaddhati",
+   "file": "data/ishanashivagurudevapaddhati.json",
+   "title": {
+    "ru": "Ӣш́āнаш́ивагурудевападдхати",
+    "en": "Īśānaśivagurudevapaddhati"
+   },
+   "pdf": {
+    "ru": "sources/Позы (āсана) в шиваитских и шактийских тантрах и агамах.pdf",
+    "en": "sources/Postures (āsana) in Śaiva and Śākta tantras and āgamas.pdf"
+   },
+   "datingSummary": {
+    "groups": [
+     {
+      "title": {
+       "ru": "Датировка: область действия указана в сводке",
+       "en": "Dating: scope specified in the summary"
+      },
+      "items": [
+       {
+        "who": {
+         "ru": "Goudriaan (только гл. XXXIX–XL Мантрапāды); Bang",
+         "en": "Goudriaan (Mantrapāda chapters XXXIX–XL only); Bang"
+        },
+        "when": {
+         "ru": "Гудриан относит главы XXXIX–XL Мантрапāды к времени не ранее Нāрāйаны (XV–XVI вв.); Банг называет сочинение поздним, без абсолютной даты. Эти замечания не датируют весь текст одинаково.",
+         "en": "Goudriaan places Mantrapāda chapters XXXIX–XL no earlier than Nārāyaṇa (15th–16th c.); Bang calls the work “late” without an absolute date. These notes do not assign the same dating to the entire text."
+        }
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "kriyakramadyotika",
+   "file": "data/kriyakramadyotika.json",
+   "title": {
+    "ru": "Крийāкрамадйотикā (Агхораш́ива)",
+    "en": "Kriyākramadyotikā (Aghoraśiva)"
+   },
+   "pdf": {
+    "ru": "sources/Позы (āсана) в шиваитских и шактийских тантрах и агамах.pdf",
+    "en": "sources/Postures (āsana) in Śaiva and Śākta tantras and āgamas.pdf"
+   },
+   "datingSummary": {
+    "groups": [
+     {
+      "title": {
+       "ru": "Датировка (кто)",
+       "en": "Dating (by whom)"
+      },
+      "items": [
+       {
+        "who": {
+         "ru": "Sanderson; Goodall",
+         "en": "Sanderson; Goodall"
+        },
+        "when": {
+         "ru": "1157 г. (Sanderson; датировочная таблица также указывает Goodall); в описании текста Goodall относит деятельность Агхораш́ивы к середине XII в.",
+         "en": "1157 (Sanderson; the dating table also lists Goodall); the entry text places Aghoraśiva, per Goodall, in the mid-12th c."
+        }
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "somashambhupaddhativyakhya",
+   "file": "data/somashambhupaddhativyakhya.json",
+   "title": {
+    "ru": "Сомаш́амбхупаддхати-вйāкхйā (Трилочанаш́ива)",
+    "en": "Somaśambhupaddhati-vyākhyā (Trilocanaśiva)"
+   },
+   "pdf": {
+    "ru": "sources/Позы (āсана) в шиваитских и шактийских тантрах и агамах.pdf",
+    "en": "sources/Postures (āsana) in Śaiva and Śākta tantras and āgamas.pdf"
+   },
+   "datingSummary": {
+    "note": {
+     "ru": "Даты относятся к разным текстам: отдельно к комментарию и к основной паддхати Сомаш́амбху.",
+     "en": "The dates refer to two different works: the commentary and Somaśambhu’s underlying paddhati."
+    },
+    "groups": [
+     {
+      "title": {
+       "ru": "Комментарий",
+       "en": "Commentary"
+      },
+      "items": [
+       {
+        "who": {
+         "ru": "Sanderson",
+         "en": "Sanderson"
+        },
+        "when": {
+         "ru": "Трилочанаш́ива — XII в.",
+         "en": "Trilocanaśiva — 12th c."
+        }
+       }
+      ]
+     },
+     {
+      "title": {
+       "ru": "Основная паддхати",
+       "en": "Underlying paddhati"
+      },
+      "items": [
+       {
+        "who": {
+         "ru": "Sanderson",
+         "en": "Sanderson"
+        },
+        "when": {
+         "ru": "Сомаш́амбху — XI в., вероятно 1073 г.",
+         "en": "Somaśambhu — 11th c., probably 1073"
+        }
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "shivarchanacandrika",
+   "file": "data/shivarchanacandrika.json",
+   "title": {
+    "ru": "Ш́ивāрчаначандрикā (приписана Аппайа Дӣкшите)",
+    "en": "Śivārcanacandrikā (attributed to Appaya Dīkṣita)"
+   },
+   "pdf": {
+    "ru": "sources/Позы (āсана) в шиваитских и шактийских тантрах и агамах.pdf",
+    "en": "sources/Postures (āsana) in Śaiva and Śākta tantras and āgamas.pdf"
+   },
+   "datingSummary": {
+    "note": {
+     "ru": "Датировка не установлена; дата одноимённого труда Шрӣнивасы Бхат̣т̣ы также не приведена.",
+     "en": "No date is established; no date is given for the same-titled work of Śrīnivāsa Bhaṭṭa either."
+    }
+   }
+  },
+  {
+   "id": "siddhantasarapaddhati",
+   "file": "data/siddhantasarapaddhati.json",
+   "title": {
+    "ru": "Сиддхāнтасāрападдхати (Бходжадева)",
+    "en": "Siddhāntasārapaddhati (Bhojadeva)"
+   },
+   "pdf": {
+    "ru": "sources/Позы (āсана) в шиваитских и шактийских тантрах и агамах.pdf",
+    "en": "sources/Postures (āsana) in Śaiva and Śākta tantras and āgamas.pdf"
+   },
+   "datingSummary": {
+    "groups": [
+     {
+      "title": {
+       "ru": "Датировка (кто)",
+       "en": "Dating (by whom)"
+      },
+      "items": [
+       {
+        "who": {
+         "ru": "Sanderson; Muktabodha",
+         "en": "Sanderson; Muktabodha"
+        },
+        "when": {
+         "ru": "Бходжа, правление ок. 1018–1060 гг. (Sanderson)",
+         "en": "Bhoja, reign c. 1018–1060 (Sanderson)"
+        },
+        "whenNote": {
+         "ru": "Sanderson датирует NAK 1-1363 1077/8 г. и NAK 5-743 1111/2 г.; Muktabodha называет рукопись NAK 5-743, с которой набран текст, недатированной.",
+         "en": "Sanderson dates NAK 1-1363 to 1077/8 and NAK 5-743 to 1111/2; Muktabodha calls the NAK 5-743 manuscript used for its e-text undated."
+        }
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "pasupatasutra",
+   "file": "data/pasupatasutra.json",
+   "title": {
+    "ru": "Пāш́упатасӯтра с «Пан̃чāртхабхāшйей» Каун̣д̣инйи",
+    "en": "Pāśupatasūtra with Kauṇḍinya’s Pañcārthabhāṣya"
+   },
+   "pdf": {
+    "ru": "sources/Позы (āсана) в шиваитских и шактийских тантрах и агамах.pdf",
+    "en": "sources/Postures (āsana) in Śaiva and Śākta tantras and āgamas.pdf"
+   },
+   "datingSummary": {
+    "groups": [
+     {
+      "title": {
+       "ru": "Датировка сутр",
+       "en": "Dating of the sūtras"
+      },
+      "items": [
+       {
+        "who": {
+         "ru": "Mallinson & Singleton 2017",
+         "en": "Mallinson & Singleton 2017"
+        },
+        "when": {
+         "ru": "II в.",
+         "en": "2nd c."
+        }
+       }
+      ]
+     },
+     {
+      "title": {
+       "ru": "Датировка комментария",
+       "en": "Dating of the commentary"
+      },
+      "items": [
+       {
+        "who": {
+         "ru": "Mallinson & Singleton 2017; Törzsök",
+         "en": "Mallinson & Singleton 2017; Törzsök"
+        },
+        "when": {
+         "ru": "IV в. (Mallinson & Singleton 2017)",
+         "en": "4th c. (Mallinson & Singleton 2017)"
+        },
+        "whenNote": {
+         "ru": "Törzsök называет датировку Каун̣д̣инйи IV в. гипотетической и не установленной с уверенностью.",
+         "en": "Törzsök calls a 4th-c. date for Kauṇḍinya hypothetical and not established with certainty."
+        }
+       }
+      ]
+     }
+    ]
+   }
   }
  ]
 }

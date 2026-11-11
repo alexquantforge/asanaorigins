@@ -1,0 +1,63 @@
+{
+  "id": "kaulavalinirnaya",
+  "about": {
+    "ru": [
+      {
+        "type": "title",
+        "text": "Каулāвалӣнирн̣айа"
+      },
+      {
+        "type": "p",
+        "text": "2.76–78 — āсанавидхи при пӯдже; 19.32–39 — пять поз и куккут̣а в главе о шести действиях; 21.5 — баддхападмāсана. См. часть IV, §§ 3.3 и 3.6."
+      }
+    ],
+    "en": [
+      {
+        "type": "title",
+        "text": "Kaulāvalīnirṇaya"
+      },
+      {
+        "type": "p",
+        "text": "Verses 2.76–78 give an āsanavidhi in pūjā; 19.32–39 give five postures and kukkuṭa in the chapter on the six acts; 21.5 mentions baddhapadmāsana. See Part IV, sections 3.3 and 3.6."
+      }
+    ]
+  },
+  "dating": {
+    "ru": {
+      "title": "Датировка текста",
+      "blocks": [
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Датировка (кто)",
+              "Старейшая датированная рукопись (по источникам выше)"
+            ],
+            [
+              "XVI в. (Goudriaan & Gupta 1981, с. 144)",
+              "нет: ИИ не искал за пределами своих источников"
+            ]
+          ]
+        }
+      ]
+    },
+    "en": {
+      "title": "Dating of the text",
+      "blocks": [
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Dating (by whom)",
+              "Oldest dated manuscript (by the sources above)"
+            ],
+            [
+              "16th c. (Goudriaan & Gupta 1981, p. 144)",
+              "none: the AI did not search beyond its sources"
+            ]
+          ]
+        }
+      ]
+    }
+  }
+}

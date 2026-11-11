@@ -1,0 +1,63 @@
+{
+  "id": "tantrasadbhava",
+  "about": {
+    "ru": [
+      {
+        "type": "title",
+        "text": "Тантрасадбхāва"
+      },
+      {
+        "type": "p",
+        "text": "Позы: в изданных главах поз нет (часть IV, раздел 14)."
+      }
+    ],
+    "en": [
+      {
+        "type": "title",
+        "text": "Tantrasadbhāva"
+      },
+      {
+        "type": "p",
+        "text": "Postures: none in the published chapters (Part IV, section 14)."
+      }
+    ]
+  },
+  "dating": {
+    "ru": {
+      "title": "Датировка текста",
+      "blocks": [
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Датировка (кто)",
+              "Старейшая датированная рукопись (по источникам выше)"
+            ],
+            [
+              "VIII–IX вв. (Bang)",
+              "Национальный архив Непала, Катманду, рукопись 5-445; 1097/8"
+            ]
+          ]
+        }
+      ]
+    },
+    "en": {
+      "title": "Dating of the text",
+      "blocks": [
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Dating (by whom)",
+              "Oldest dated manuscript (by the sources above)"
+            ],
+            [
+              "8th–9th c. (Bang)",
+              "National Archives of Nepal, Kathmandu, manuscript 5-445; 1097/8"
+            ]
+          ]
+        }
+      ]
+    }
+  }
+}

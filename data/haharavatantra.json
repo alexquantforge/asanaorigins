@@ -1,0 +1,63 @@
+{
+  "id": "haharavatantra",
+  "about": {
+    "ru": [
+      {
+        "type": "title",
+        "text": "Хāхāрāватантра"
+      },
+      {
+        "type": "p",
+        "text": "Строфы M00283, строки файла 11164–11171, почти дословно совпадают с блоком Мун̣д̣амāлы II M00538 (строки 479–487): в них названы бхадрāсана, каурма, падмāсана и вӣрāсана. В записи также указаны ӯрдхвапāде стхито и баддхападмāсана; отдельный фрагмент падмāсанам̣ сāдхайāми … нāсāгре чинтайен нитйам̣ отнесён к Хāхāрāватантре M00283, строка 3768. См. часть IV, § 3.6."
+      }
+    ],
+    "en": [
+      {
+        "type": "title",
+        "text": "Hāhārāvatantra"
+      },
+      {
+        "type": "p",
+        "text": "Hāhārāva M00283, file lines 11164–11171, almost verbatim matches the Muṇḍamālā II block M00538, lines 479–487, naming bhadrāsana, kaurma, padmāsana and vīrāsana. The entry also lists ūrdhvapāde sthito and baddhapadmāsana; a separate passage, padmāsanaṃ sādhayāmi … nāsāgre cintayen nityam, is assigned to Hāhārāva M00283, line 3768. See Part IV, section 3.6."
+      }
+    ]
+  },
+  "dating": {
+    "ru": {
+      "title": "Датировка текста",
+      "blocks": [
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Датировка (кто)",
+              "Старейшая датированная рукопись (по источникам выше)"
+            ],
+            [
+              "Датировка текста не дана; указание Dyczkowski «после XIV в.» относится к Махāкāласам̣хите, не к Хāхāрāве.",
+              "Непальско-германский проект каталогизации рукописей 5-4798, катушка A 204/6; рукопись без даты."
+            ]
+          ]
+        }
+      ]
+    },
+    "en": {
+      "title": "Dating of the text",
+      "blocks": [
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Dating (by whom)",
+              "Oldest dated manuscript (by the sources above)"
+            ],
+            [
+              "No date is given for this text; Dyczkowski’s “after the 14th c.” refers to the Mahākālasaṃhitā, not Hāhārāva.",
+              "Nepal-German Manuscript Cataloguing Project 5-4798, reel A 204/6; undated manuscript."
+            ]
+          ]
+        }
+      ]
+    }
+  }
+}

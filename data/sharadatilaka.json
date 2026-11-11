@@ -1,0 +1,63 @@
+{
+  "id": "sharadatilaka",
+  "about": {
+    "ru": [
+      {
+        "type": "title",
+        "text": "Ш́āрадāтилака-тантра с комментарием «Падāртхāдарш́а»"
+      },
+      {
+        "type": "p",
+        "text": "23.131 — позы для шат̣карман с определениями; 25.9 и 25.14–15 — позы в главе о йоге. См. часть IV, § 3.3."
+      }
+    ],
+    "en": [
+      {
+        "type": "title",
+        "text": "Śāradātilakatantra with Rāghavabhaṭṭa’s Padārthādarśa commentary"
+      },
+      {
+        "type": "p",
+        "text": "Verse 23.131 gives postures for ṣaṭkarman with definitions; 25.9 and 25.14–15 concern postures in the yoga chapter. See Part IV, section 3.3."
+      }
+    ]
+  },
+  "dating": {
+    "ru": {
+      "title": "Датировка текста",
+      "blocks": [
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Датировка (кто)",
+              "Старейшая датированная рукопись (по источникам выше)"
+            ],
+            [
+              "обычно XI в. (Goudriaan; Padoux указывает, что дата неизвестна); XII в. (Mallinson & Singleton 2017)",
+              "нет: каталоги не доступны ИИ; комментарий Рāгхавабхат̣т̣ы датирован 1494 г."
+            ]
+          ]
+        }
+      ]
+    },
+    "en": {
+      "title": "Dating of the text",
+      "blocks": [
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Dating (by whom)",
+              "Oldest dated manuscript (by the sources above)"
+            ],
+            [
+              "usually 11th c. (Goudriaan; Padoux says the date is unknown); 12th c. (Mallinson & Singleton 2017)",
+              "none: the catalogues were not accessible to the AI; Rāghavabhaṭṭa’s commentary is dated 1494"
+            ]
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "id": "acintyavishvasadakhya",
+  "about": {
+    "ru": [
+      {
+        "type": "title",
+        "text": "Ачинтйавиш́васāдāкхйа (Чинтйавиш́васāдāкхйа)"
+      },
+      {
+        "type": "p",
+        "text": "Позы: глава 28.72–103 — 20 поз с описаниями (одно из самых подробных мест в агамах); каран̣а; свастика; вӣрāсана при еде, дан̣д̣āсана в обете. Смотрите часть IV, раздел 2.2."
+      }
+    ],
+    "en": [
+      {
+        "type": "title",
+        "text": "Acintyaviśvasādākhya (Cintyaviśvasādākhya)"
+      },
+      {
+        "type": "p",
+        "text": "Postures: chapter 28.72–103 — 20 postures with descriptions (one of the most detailed passages in the āgamas); karaṇa; svastika; vīrāsana while eating, daṇḍāsana in the vow. See Part IV, section 2.2."
+      }
+    ]
+  },
+  "dating": {
+    "ru": {
+      "title": "Датировка текста",
+      "blocks": [
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Датировка (кто)",
+              "Старейшая датированная рукопись (по источникам выше)"
+            ],
+            [
+              "позже Сомашамбху (~1073) (Sanderson)",
+              "нет: ИИ не искал за пределами своих источников"
+            ]
+          ]
+        }
+      ]
+    },
+    "en": {
+      "title": "Dating of the text",
+      "blocks": [
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Dating (by whom)",
+              "Oldest dated manuscript (by the sources above)"
+            ],
+            [
+              "later than Somaśambhu (~1073) (Sanderson)",
+              "none: the AI did not search beyond its sources"
+            ]
+          ]
+        }
+      ]
+    }
+  }
+}

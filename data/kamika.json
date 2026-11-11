@@ -1,0 +1,63 @@
+{
+  "id": "kamika",
+  "about": {
+    "ru": [
+      {
+        "type": "title",
+        "text": "Кāмика (пӯрвабхāга M00124 / уттарабхāга M00125)"
+      },
+      {
+        "type": "p",
+        "text": "Позы: пӯрва 6.39 — «приняв желаемую позу, с прямым телом, лицом на север» (при пан̃чаш́уддхи); в иконографии уттарабхāга — баддхападмāсана, уткут̣āсана, вӣрāсана (Дакшинамурти); уттара 23.209cd–211a — каран̣а. Смотрите часть IV, раздел 2.6."
+      }
+    ],
+    "en": [
+      {
+        "type": "title",
+        "text": "Kāmika (pūrvabhāga M00124 / uttarabhāga M00125)"
+      },
+      {
+        "type": "p",
+        "text": "Postures: pūrva 6.39 — “having assumed the desired posture, with a straight body, facing north” (at the pañcaśuddhi); in the iconography of the uttarabhāga — baddhapadmāsana, utkuṭāsana, vīrāsana (Dakṣiṇāmūrti); uttara 23.209cd–211a — karaṇa. See Part IV, section 2.6."
+      }
+    ]
+  },
+  "dating": {
+    "ru": {
+      "title": "Датировка текста",
+      "blocks": [
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Датировка (кто)",
+              "Старейшая датированная рукопись (по источникам выше)"
+            ],
+            [
+              "цитируется у Джнянашивы, XII в.; Уттаракāмика позже Сомашамбху (Sanderson)",
+              "нет: ИИ не искал за пределами своих источников"
+            ]
+          ]
+        }
+      ]
+    },
+    "en": {
+      "title": "Dating of the text",
+      "blocks": [
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Dating (by whom)",
+              "Oldest dated manuscript (by the sources above)"
+            ],
+            [
+              "quoted in Jñānaśiva, 12th c.; Uttarakāmika later than Somaśambhu (Sanderson)",
+              "none: the AI did not search beyond its sources"
+            ]
+          ]
+        }
+      ]
+    }
+  }
+}

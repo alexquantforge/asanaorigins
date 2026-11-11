@@ -1,0 +1,63 @@
+{
+  "id": "ishanashivagurudevapaddhati",
+  "about": {
+    "ru": [
+      {
+        "type": "title",
+        "text": "Ӣш́āнаш́ивагурудевападдхати"
+      },
+      {
+        "type": "p",
+        "text": "Сāмāнйапāда 5.64–78 (сāдханапат̣ала) содержит одиннадцать поз с описаниями и назначением; в т. 3 упомянута каран̣а; Йогапāда и 17.21 (иконография) отмечены отдельно. См. часть IV, § 4.1."
+      }
+    ],
+    "en": [
+      {
+        "type": "title",
+        "text": "Īśānaśivagurudevapaddhati"
+      },
+      {
+        "type": "p",
+        "text": "Sāmānyapāda 5.64–78 (sādhanapaṭala) contains eleven postures with descriptions and purposes; karaṇa is mentioned in vol. 3; the Yogapāda and 17.21 (iconography) are listed separately. See Part IV, section 4.1."
+      }
+    ]
+  },
+  "dating": {
+    "ru": {
+      "title": "Датировка текста",
+      "blocks": [
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Датировка (кто)",
+              "Старейшая датированная рукопись (по источникам выше)"
+            ],
+            [
+              "Гудриан относит главы XXXIX–XL Мантрапāды к времени не ранее Нāрāйаны (XV–XVI вв.); Банг называет сочинение поздним, без абсолютной даты. Эти замечания не датируют весь текст одинаково.",
+              "нет: ИИ не искал за пределами своих источников; Unni 1987 недоступна"
+            ]
+          ]
+        }
+      ]
+    },
+    "en": {
+      "title": "Dating of the text",
+      "blocks": [
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Dating (by whom)",
+              "Oldest dated manuscript (by the sources above)"
+            ],
+            [
+              "Goudriaan places Mantrapāda chapters XXXIX–XL no earlier than Nārāyaṇa (15th–16th c.); Bang calls the work “late” without an absolute date. These notes do not assign the same dating to the entire text.",
+              "none: the AI did not search beyond its sources; Unni 1987 was not accessible"
+            ]
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "id": "kubjikatantra-bengali",
+  "about": {
+    "ru": [
+      {
+        "type": "title",
+        "text": "Кубджикāтантра (бенгальская версия)"
+      },
+      {
+        "type": "p",
+        "text": "В прозе встречается бхадрāсанечопавиш́йа («сев на бхадрасану»); здесь это, вероятно, сиденье (Muktabodha M00030, строка файла 2382). См. часть IV, § 3.6."
+      }
+    ],
+    "en": [
+      {
+        "type": "title",
+        "text": "Kubjikātantra (the Bengali recension)"
+      },
+      {
+        "type": "p",
+        "text": "In prose, bhadrāsane copaviśya (“having sat on the bhadrāsana”) occurs; bhadrāsana is probably a seat in this context (Muktabodha M00030, file line 2382). See Part IV, section 3.6."
+      }
+    ]
+  },
+  "dating": {
+    "ru": {
+      "title": "Датировка текста",
+      "blocks": [
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Датировка (кто)",
+              "Старейшая датированная рукопись (по источникам выше)"
+            ],
+            [
+              "«Относительно поздняя», бенгальская (только для версии в девяти паталах); абсолютная дата не приведена.",
+              "для Кубджикāтантры датированная рукопись в этой таблице не указана"
+            ]
+          ]
+        }
+      ]
+    },
+    "en": {
+      "title": "Dating of the text",
+      "blocks": [
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Dating (by whom)",
+              "Oldest dated manuscript (by the sources above)"
+            ],
+            [
+              "“Relatively late”, Bengali (only for the nine-paṭala recension); no absolute date is given.",
+              "no dated Kubjikātantra manuscript is listed in this table"
+            ]
+          ]
+        }
+      ]
+    }
+  }
+}

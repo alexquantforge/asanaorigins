@@ -1,0 +1,63 @@
+{
+  "id": "varahitantra",
+  "about": {
+    "ru": [
+      {
+        "type": "title",
+        "text": "Вāрāхӣтантра"
+      },
+      {
+        "type": "p",
+        "text": "Глава 26 содержит блок поз хатха-йоги, близкий к Хат̣хапрадӣпике; пӣт̣ха употреблено как синоним āсаны. См. часть IV, § 3.5."
+      }
+    ],
+    "en": [
+      {
+        "type": "title",
+        "text": "Vārāhītantra"
+      },
+      {
+        "type": "p",
+        "text": "Chapter 26 contains a block of haṭha-yoga postures close to the Haṭhapradīpikā; pīṭha is used as a synonym for āsana. See Part IV, section 3.5."
+      }
+    ]
+  },
+  "dating": {
+    "ru": {
+      "title": "Датировка текста",
+      "blocks": [
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Датировка (кто)",
+              "Старейшая датированная рукопись (по источникам выше)"
+            ],
+            [
+              "до 1775 (Muktabodha); возможно, XVI в. (Farquhar по Goudriaan); позднее добавленный вывод по цитате в Сарволлāсе — не позже XV–XVI вв.",
+              "NGMCP 3-315; дата рукописи не указана"
+            ]
+          ]
+        }
+      ]
+    },
+    "en": {
+      "title": "Dating of the text",
+      "blocks": [
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Dating (by whom)",
+              "Oldest dated manuscript (by the sources above)"
+            ],
+            [
+              "before 1775 (Muktabodha); possibly 16th c. (Farquhar via Goudriaan); a later-added conclusion from a quotation in Sarvollāsa places it no later than the 15th–16th c.",
+              "Nepal-German Manuscript Cataloguing Project 3-315; manuscript date not stated"
+            ]
+          ]
+        }
+      ]
+    }
+  }
+}

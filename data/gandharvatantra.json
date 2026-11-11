@@ -1,0 +1,63 @@
+{
+  "id": "gandharvatantra",
+  "about": {
+    "ru": [
+      {
+        "type": "title",
+        "text": "Гандхарватантра"
+      },
+      {
+        "type": "p",
+        "text": "6.5 и 6.45–56 — пять поз; к 6.57 приведено примечание издателей. См. часть IV, § 3.3a."
+      }
+    ],
+    "en": [
+      {
+        "type": "title",
+        "text": "Gandharvatantra"
+      },
+      {
+        "type": "p",
+        "text": "Verses 6.5 and 6.45–56 give five postures; the editors’ note on 6.57 is also cited. See Part IV, section 3.3a."
+      }
+    ]
+  },
+  "dating": {
+    "ru": {
+      "title": "Датировка текста",
+      "blocks": [
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Датировка (кто)",
+              "Старейшая датированная рукопись (по источникам выше)"
+            ],
+            [
+              "нет: исследователи упоминают текст, но нужных сведений не дают; ИИ не искал за пределами источников",
+              "нет: ИИ не искал за пределами своих источников"
+            ]
+          ]
+        }
+      ]
+    },
+    "en": {
+      "title": "Dating of the text",
+      "blocks": [
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Dating (by whom)",
+              "Oldest dated manuscript (by the sources above)"
+            ],
+            [
+              "none: researchers mention the text but do not give the needed information; the AI did not search beyond its sources",
+              "none: the AI did not search beyond its sources"
+            ]
+          ]
+        }
+      ]
+    }
+  }
+}

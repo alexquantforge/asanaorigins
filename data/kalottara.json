@@ -1,0 +1,63 @@
+{
+  "id": "kalottara",
+  "about": {
+    "ru": [
+      {
+        "type": "title",
+        "text": "Кāлоттара (южноиндийская версия в 68 паталах; Государственная библиотека восточных рукописей, Мадрас/Ченнаи; M00248)"
+      },
+      {
+        "type": "p",
+        "text": "Позы: глава 25.7–17 — 20 названий поз «в этой тантре» и каран̣а; 63.7–9 — свастика/падмāсана с положением тела. Смотрите часть IV, раздел 2.1."
+      }
+    ],
+    "en": [
+      {
+        "type": "title",
+        "text": "Kālottara (the South Indian version in 68 paṭalas; Government Oriental Manuscripts Library, Madras/Chennai; M00248)"
+      },
+      {
+        "type": "p",
+        "text": "Postures: chapter 25.7–17 — 20 names of postures “in this tantra” and karaṇa; 63.7–9 — svastika/padmāsana with body position. See Part IV, section 2.1."
+      }
+    ]
+  },
+  "dating": {
+    "ru": {
+      "title": "Датировка текста",
+      "blocks": [
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Датировка (кто)",
+              "Старейшая датированная рукопись (по источникам выше)"
+            ],
+            [
+              "нет: исследователи упоминают текст, но нужных сведений не дают, нужная работа ИИ недоступна (Bhatt, PIFI (серия Publications de l’Institut français d’Indologie, Пондичерри) 61)",
+              "нет: ИИ не искал за пределами своих источников"
+            ]
+          ]
+        }
+      ]
+    },
+    "en": {
+      "title": "Dating of the text",
+      "blocks": [
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Dating (by whom)",
+              "Oldest dated manuscript (by the sources above)"
+            ],
+            [
+              "none: the researchers mention the text but do not give the needed information, the needed work is not accessible to the AI (Bhatt, PIFI (series Publications de l’Institut français d’Indologie, Pondicherry) 61)",
+              "none: the AI did not search beyond its sources"
+            ]
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "id": "siddhayogeshvarimata",
+  "about": {
+    "ru": [
+      {
+        "type": "title",
+        "text": "Сиддхайогеш́варӣмата"
+      },
+      {
+        "type": "p",
+        "text": "Позы: вӣрāсана (16.47) и парйан̇кāсана (22.10) по изданию Тёржёк (часть IV, раздел 14)."
+      }
+    ],
+    "en": [
+      {
+        "type": "title",
+        "text": "Siddhayogeśvarīmata"
+      },
+      {
+        "type": "p",
+        "text": "Verse 16.47 places the vīra posture at japa. Verse 22.10 is iconography of the yoginīs; paryaṅkāsana is the editor’s emendation of the manuscripts’ «°āgata». Törzsök interprets paryaṅka as the ascetics’ seated posture, identical with vīrāsana; this is the editor’s interpretation, not the text. Both passages were checked against the edition (pp. 40 and 51; Part IV, section 14)."
+      }
+    ]
+  },
+  "dating": {
+    "ru": {
+      "title": "Датировка текста",
+      "blocks": [
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Датировка (кто)",
+              "Старейшая датированная рукопись (по источникам выше)"
+            ],
+            [
+              "около VII в. (Törzsök)",
+              "Азиатское общество Бенгалии, Калькутта, рукопись 5465 (G), 793 г. непальской эры ≈ 1663"
+            ]
+          ]
+        }
+      ]
+    },
+    "en": {
+      "title": "Dating of the text",
+      "blocks": [
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Dating (by whom)",
+              "Oldest dated manuscript (by the sources above)"
+            ],
+            [
+              "c. 7th c. (Törzsök)",
+              "Asiatic Society of Bengal, Calcutta, manuscript 5465 (G), Nepal Era 793 ≈ 1663"
+            ]
+          ]
+        }
+      ]
+    }
+  }
+}

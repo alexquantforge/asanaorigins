@@ -112,7 +112,7 @@
     }
   };
 
-  const BUILD = "2026-11-06.17";
+  const BUILD = "2026-11-06.18";
   const V = "?v=" + BUILD;
 
   const state = {
@@ -462,12 +462,15 @@
     note.innerHTML = applyMarks(esc(parts.filter(Boolean).join(" · ")));
 
     const foot = $("#side-source");
-    foot.innerHTML = applyMarks(
-      esc(tx(activeTreatise.edition)) +
-        (activeTreatise.pdf
-          ? ' · <a href="' + esc(encodeURI(activeTreatise.pdf[state.lang] || activeTreatise.pdf.ru)) +
-            '" target="_blank" rel="noopener">' + esc(t("pdf")) + "</a>"
-          : ""));
+    const sourceBits = [];
+    if (tx(activeTreatise.edition)) sourceBits.push(esc(tx(activeTreatise.edition)));
+    if (activeTreatise.pdf) {
+      sourceBits.push(
+        '<a href="' + esc(encodeURI(activeTreatise.pdf[state.lang] || activeTreatise.pdf.ru)) +
+          '" target="_blank" rel="noopener">' + esc(t("pdf")) + "</a>"
+      );
+    }
+    foot.innerHTML = applyMarks(sourceBits.join(" · "));
   }
 
   function chapterTitle() {
@@ -748,12 +751,20 @@
       html += '<h3 class="about-h3"><a href="' + url("about", null, null, tr.id) + '">' +
         esc(tx(tr.title)) + "</a></h3>";
       if (bits.length) html += '<p class="about-meta">' + bits.join(" · ") + "</p>";
-      html += '<ul class="home-poses">';
-      (tr.poses || []).forEach((pose) => {
-        html += '<li><a href="' + url("pose", pose.key) + '">' + esc(tx(pose.name)) +
-          "</a><span>" + esc(tx(pose.verses)) + "</span></li>";
-      });
-      html += "</ul></section>";
+      const poses = tr.poses || [];
+      if (poses.length) {
+        html += '<ul class="home-poses">';
+        poses.forEach((pose) => {
+          html += '<li><a href="' + url("pose", pose.key) + '">' + esc(tx(pose.name)) +
+            "</a><span>" + esc(tx(pose.verses)) + "</span></li>";
+        });
+        html += "</ul>";
+      } else {
+        const summary = ((tr.about && tr.about[state.lang]) || []).find((block) =>
+          block.type === "p");
+        if (summary) html += renderSections([summary]);
+      }
+      html += "</section>";
     });
     html += "</section>";
 
@@ -994,7 +1005,7 @@
     }).join("");
   }
 
-  function renderDating(tr) {
+  function renderDating(tr, includeAboutLink = true) {
     const summary = tr.datingSummary;
     const full = tr.dating && tr.dating[state.lang];
     if (!summary && !(full && full.blocks && full.blocks.length)) return "";
@@ -1054,8 +1065,10 @@
       html += '<div class="dating-full">';
       html += '<h3 class="dating-full-title">' + esc(full.title) + "</h3>";
       html += renderBlocks(full.blocks);
-      html += '<p class="dating-full-link"><a href="' + url("about", null, null, tr.id) + '">' +
-        esc(t("treatiseAbout")) + " →</a></p>";
+      if (includeAboutLink) {
+        html += '<p class="dating-full-link"><a href="' + url("about", null, null, tr.id) + '">' +
+          esc(t("treatiseAbout")) + " →</a></p>";
+      }
       html += "</div></details>";
     }
 
@@ -1299,19 +1312,25 @@
 
     let html = "";
     let metaPlaced = false;
-    // подпись издания идёт после шапки: титул, строка главы, подзаголовок
+    let datingPlaced = false;
+    // подпись издания и краткая датировка идут после шапки: титул, строка главы, подзаголовок
     let head = 0;
     while (head < blocks.length && (blocks[head].type === "title" || blocks[head].type === "byline")) {
       head += 1;
     }
     blocks.forEach((b, i) => {
       html += renderBlocks([b]);
+      if (!datingPlaced && head > 0 && i === head - 1) {
+        html += renderDating(activeTreatise, false);
+        datingPlaced = true;
+      }
       if (meta && !metaPlaced && i === head - 1) {
         html += '<p class="about-meta">' + meta + "</p>";
         metaPlaced = true;
       }
     });
 
+    if (!datingPlaced) html += renderDating(activeTreatise, false);
     if (!metaPlaced && meta) {
       html = '<p class="about-meta">' + meta + "</p>" + html;
     }

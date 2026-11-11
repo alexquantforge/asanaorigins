@@ -1,0 +1,63 @@
+{
+ "id": "sarvollasatantra",
+ "about": {
+  "ru": [
+   {
+    "type": "title",
+    "text": "Сарволлāса(тантра)"
+   },
+   {
+    "type": "p",
+    "text": "Уллāса 15.8–13 — блок из пяти поз, обозначенный как компиляция. В уллāсе 20 приведена цитата из Бхāвачӯд̣āман̣и: при отсутствии трупа вӣрāсана — подстилка (M00120, строка файла 2776), то есть ритуальное сиденье. См. часть IV, §§ 3.3 и 3.6."
+   }
+  ],
+  "en": [
+   {
+    "type": "title",
+    "text": "Sarvollāsa(tantra)"
+   },
+   {
+    "type": "p",
+    "text": "Ullāsa 15.8–13 contains a block of five postures identified as a compilation. Ullāsa 20 quotes the Bhāvacūḍāmaṇi: in the absence of a corpse, vīrāsana is a viṣṭara, a seat or mat (M00120, file line 2776). See Part IV, sections 3.3 and 3.6."
+   }
+  ]
+ },
+ "dating": {
+  "ru": {
+   "title": "Датировка текста",
+   "blocks": [
+    {
+     "type": "table",
+     "rows": [
+      [
+       "Датировка (кто)",
+       "Старейшая датированная рукопись (по источникам выше)"
+      ],
+      [
+       "Таблица датировок объединяет Виш́васāру и Сарволлāсу, не распределяя оценки. В описании Сарволлāсы Гудриан называет автора Сарвāнанданāтху прославленным сиддхой XVI в.; Сандерсон пишет, что тот, вероятно, родился около начала XV в.",
+       "нет: ИИ не искал за пределами своих источников"
+      ]
+     ]
+    }
+   ]
+  },
+  "en": {
+   "title": "Dating of the text",
+   "blocks": [
+    {
+     "type": "table",
+     "rows": [
+      [
+       "Dating (by whom)",
+       "Oldest dated manuscript (by the sources above)"
+      ],
+      [
+       "The dating table groups Viśvasāra and Sarvollāsa without assigning the estimates. The Sarvollāsa entry calls its author Sarvānandanātha a celebrated 16th-c. siddha (Goudriaan); Sanderson says he was probably born around the beginning of the 15th c.",
+       "none: the AI did not search beyond its sources"
+      ]
+     ]
+    }
+   ]
+  }
+ }
+}

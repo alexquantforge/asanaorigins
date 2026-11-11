@@ -1,0 +1,63 @@
+{
+  "id": "todalatantra",
+  "about": {
+    "ru": [
+      {
+        "type": "title",
+        "text": "Тод̣алатантра"
+      },
+      {
+        "type": "p",
+        "text": "Позы: йонимудрāсана (2.17–20): с прямым телом довести нос до колен, обхватив колени руками, вместе с задержкой дыхания (часть IV, раздел 1.12)."
+      }
+    ],
+    "en": [
+      {
+        "type": "title",
+        "text": "Toḍalatantra"
+      },
+      {
+        "type": "p",
+        "text": "Postures: yonimudrāsana (2.17–20): with the body straight, bring the nose to the knees, grasping the knees with the hands, together with breath retention (Part IV, section 1.12)."
+      }
+    ]
+  },
+  "dating": {
+    "ru": {
+      "title": "Датировка текста",
+      "blocks": [
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Датировка (кто)",
+              "Старейшая датированная рукопись (по источникам выше)"
+            ],
+            [
+              "поздняя бенгальская группа (Goudriaan); абсолютной даты нет: исследователи упоминают текст, но нужных сведений не дают (Goudriaan & Gupta 1981 без даты), ИИ не искал за пределами своих источников",
+              "нет: ИИ не искал за пределами своих источников"
+            ]
+          ]
+        }
+      ]
+    },
+    "en": {
+      "title": "Dating of the text",
+      "blocks": [
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Dating (by whom)",
+              "Oldest dated manuscript (by the sources above)"
+            ],
+            [
+              "the late Bengal group (Goudriaan); no absolute date: the researchers mention the text but do not give the needed information (Goudriaan & Gupta 1981 without a date), the AI did not search beyond its sources",
+              "none: the AI did not search beyond its sources"
+            ]
+          ]
+        }
+      ]
+    }
+  }
+}

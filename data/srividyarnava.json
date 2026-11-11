@@ -1,0 +1,63 @@
+{
+  "id": "srividyarnava",
+  "about": {
+    "ru": [
+      {
+        "type": "title",
+        "text": "Ш́рӣвидйāрн̣ава(тантра)"
+      },
+      {
+        "type": "p",
+        "text": "Это нибандха — собрание цитат с краткими связующими замечаниями. Упоминания: сиддхāсанастхо в описании гуру (Muktabodha M00217, строка файла 2902); баддхападмāсано маунӣ (строка 21852); баддхавӣрāсана (строка 34193); запреты при джапе в цитате из Мантратантрапракāш́и (строка 31865). См. часть IV, §§ 3.6 и 6."
+      }
+    ],
+    "en": [
+      {
+        "type": "title",
+        "text": "Śrīvidyārṇava(tantra)"
+      },
+      {
+        "type": "p",
+        "text": "This is a nibandha, a compilation of quotations with short connecting remarks. Posture references: siddhāsanastho in the description of the guru (Muktabodha M00217, file line 2902); baddhapadmāsano maunī (line 21852); baddhavīrāsana (line 34193); and japa prohibitions in a quotation from the Mantratantraprakāśa (line 31865). See Part IV, sections 3.6 and 6."
+      }
+    ]
+  },
+  "dating": {
+    "ru": {
+      "title": "Датировка текста",
+      "blocks": [
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Датировка (кто)",
+              "Старейшая датированная рукопись (по источникам выше)"
+            ],
+            [
+              "Дата не указана; Goudriaan сомневается, что автор — адвайтист XIV в.",
+              "нет: ИИ не искал за пределами своих источников"
+            ]
+          ]
+        }
+      ]
+    },
+    "en": {
+      "title": "Dating of the text",
+      "blocks": [
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Dating (by whom)",
+              "Oldest dated manuscript (by the sources above)"
+            ],
+            [
+              "No date is given; Goudriaan doubts that the author is the 14th-century Advaitin.",
+              "none: the AI did not search beyond its sources"
+            ]
+          ]
+        }
+      ]
+    }
+  }
+}

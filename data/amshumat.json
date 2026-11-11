@@ -1,0 +1,25 @@
+{
+  "id": "amshumat",
+  "about": {
+    "ru": [
+      {
+        "type": "title",
+        "text": "Ам̣ш́умат (Ам̣ш́уматкāш́йапа, Ам̣ш́умадāгама)"
+      },
+      {
+        "type": "p",
+        "text": "Позы: иконографические — уткут̣икāсана (Muktabodha M00198, строка файла 6286), глава о сукхāсанамӯрти. Слово падмāсана здесь обозначает также архитектурный элемент — лотосовое основание. Смотрите часть IV, раздел 2.6."
+      }
+    ],
+    "en": [
+      {
+        "type": "title",
+        "text": "Aṃśumat (Aṃśumatkāśyapa, Aṃśumadāgama)"
+      },
+      {
+        "type": "p",
+        "text": "Postures: iconographic ones — utkuṭikāsana (Muktabodha M00198, file line 6286), the chapter on sukhāsanamūrti. The word padmāsana here also denotes an architectural element — a lotus base. See Part IV, section 2.6."
+      }
+    ]
+  }
+}

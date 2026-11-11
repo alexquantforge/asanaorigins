@@ -1,0 +1,63 @@
+{
+  "id": "parakhya",
+  "about": {
+    "ru": [
+      {
+        "type": "title",
+        "text": "Парāкхйа(тантра)"
+      },
+      {
+        "type": "p",
+        "text": "Позы: Парāкхйа 14.5 — падма, свастика, дан̣д̣а, ардхачандра; определение ардхачандра в 14.6c–7b (по Кафле). Смотрите часть IV, раздел 11.3."
+      }
+    ],
+    "en": [
+      {
+        "type": "title",
+        "text": "Parākhya(tantra)"
+      },
+      {
+        "type": "p",
+        "text": "Postures: Parākhya 14.5 — padma, svastika, daṇḍa, ardhacandra; the definition of ardhacandra in 14.6c–7b (per Kafle). See Part IV, section 11.3."
+      }
+    ]
+  },
+  "dating": {
+    "ru": {
+      "title": "Датировка текста",
+      "blocks": [
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Датировка (кто)",
+              "Старейшая датированная рукопись (по источникам выше)"
+            ],
+            [
+              "VIII–IX вв., до X в. (Goodall)",
+              "Mysore P 258/9, пальмовый лист, Нандинāгарӣ (codex unicus), без даты"
+            ]
+          ]
+        }
+      ]
+    },
+    "en": {
+      "title": "Dating of the text",
+      "blocks": [
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Dating (by whom)",
+              "Oldest dated manuscript (by the sources above)"
+            ],
+            [
+              "8th–9th c., before the 10th c. (Goodall)",
+              "Mysore P 258/9, palm-leaf, Nandināgarī (codex unicus), undated"
+            ]
+          ]
+        }
+      ]
+    }
+  }
+}

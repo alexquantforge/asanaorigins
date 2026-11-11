@@ -1,0 +1,63 @@
+{
+  "id": "brahmayamala",
+  "about": {
+    "ru": [
+      {
+        "type": "title",
+        "text": "Брахмайāмала (Французский институт в Пондичерри T522; M00319) — поздняя «пратишт̣хā-тантра Матерей»"
+      },
+      {
+        "type": "p",
+        "text": "Позы: падмāсана с ан̃джали-мудрой (Брахмайāмала: электронный текст № M00319 библиотеки Muktabodha Indological Research Institute, набран с рукописи: транскрипт Французского института в Пондичерри T00522; номер строки в этом файле: 994), āлӣд̣ха (Muktabodha M00319, строка файла 3811). Смотрите часть IV, раздел 3.6."
+      }
+    ],
+    "en": [
+      {
+        "type": "title",
+        "text": "Brahmayāmala (French Institute of Pondicherry T522; M00319) — a late “pratiṣṭhā-tantra of the Mothers”"
+      },
+      {
+        "type": "p",
+        "text": "The catalogue summarizes line 994 as padmāsana with añjali-mudrā; the quoted line specifies the añjali-puṭa mudrā, after japa and bathing (Brahmayāmala: Muktabodha e-text no. M00319, IFP transcript T00522, file line 994; Part IV, section 3.6). Separately, ālīḍha at line 3811 is included in Part IV, section 5, the iconography section on combat stances."
+      }
+    ]
+  },
+  "dating": {
+    "ru": {
+      "title": "Датировка текста",
+      "blocks": [
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Датировка (кто)",
+              "Старейшая датированная рукопись (по источникам выше)"
+            ],
+            [
+              "нет: исследователи упоминают текст, но нужных сведений не дают, ИИ не искал за пределами своих источников (это Мāтр̣пратишт̣хāтантра, не Пичумата)",
+              "нет: ИИ не искал за пределами своих источников"
+            ]
+          ]
+        }
+      ]
+    },
+    "en": {
+      "title": "Dating of the text",
+      "blocks": [
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Dating (by whom)",
+              "Oldest dated manuscript (by the sources above)"
+            ],
+            [
+              "none: the researchers mention the text but do not give the needed information, the AI did not search beyond its sources (this is the Mātṛpratiṣṭhātantra, not the Picumata)",
+              "none: the AI did not search beyond its sources"
+            ]
+          ]
+        }
+      ]
+    }
+  }
+}

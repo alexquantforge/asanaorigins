@@ -1,0 +1,63 @@
+{
+  "id": "vijnanabhairava",
+  "about": {
+    "ru": [
+      {
+        "type": "title",
+        "text": "Виджн̃āнабхаирава"
+      },
+      {
+        "type": "p",
+        "text": "Телесные указания. Некоторые способы описывают положение тела: сидеть на мягком сиденье на одной ягодице без опоры для рук и ног (78); сидеть, слегка согнув руки (79); на качающемся сиденье (83) (часть IV, раздел 1.11)."
+      }
+    ],
+    "en": [
+      {
+        "type": "title",
+        "text": "Vijñānabhairava"
+      },
+      {
+        "type": "p",
+        "text": "Bodily instructions. Some methods describe a body position: sit on a soft seat on one buttock without support for arms and legs (78); sit with arms slightly bent (79); on a rocking seat (83) (Part IV, section 1.11)."
+      }
+    ]
+  },
+  "dating": {
+    "ru": {
+      "title": "Датировка текста",
+      "blocks": [
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Датировка (кто)",
+              "Старейшая датированная рукопись (по источникам выше)"
+            ],
+            [
+              "X в. (Mallinson & Singleton 2017); других датировок нет: исследователи упоминают текст, но нужных сведений не дают, ИИ не искал за пределами своих источников",
+              "нет: ИИ не искал за пределами своих источников (Bhatt 1982 прочитан частично)"
+            ]
+          ]
+        }
+      ]
+    },
+    "en": {
+      "title": "Dating of the text",
+      "blocks": [
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Dating (by whom)",
+              "Oldest dated manuscript (by the sources above)"
+            ],
+            [
+              "10th c. (Mallinson & Singleton 2017)",
+              "none: the AI did not search beyond its sources (Bhatt 1982 read partially)"
+            ]
+          ]
+        }
+      ]
+    }
+  }
+}
