@@ -112,7 +112,7 @@
     }
   };
 
-  const BUILD = "2026-11-06.18";
+  const BUILD = "2026-11-06.19";
   const V = "?v=" + BUILD;
 
   const state = {
@@ -190,15 +190,27 @@
   // Маршрут словами — тот же, что лежит в data-route статической страницы.
   // Сборщик страниц ждёт, пока он появится: так видно, что отрисована именно
   // эта страница, а не та, что осталась в шаблоне от прошлой сборки.
-  /* Ссылка из данных: данные не знают, на какой глубине стоит страница,
-     поэтому адрес пишется словами — «pose:padmasana», «about:rudrayamala», —
-     а настоящий путь подставляет эта функция тем же url(), что и везде.
-     Так ссылка работает и на статической странице, и в обоих языках. */
+  /* Ссылки из данных не знают, на какой глубине стоит страница: маршруты
+     («pose:padmasana», «about:rudrayamala») и PDF источников
+     («source:rudrayamala#page=8») превращаются в адреса здесь. Так внутренние
+     ссылки и PDF работают на статических страницах и в обоих языках. */
   function resolveLinks(html) {
-    return String(html).replace(/href="(pose|about|treatise):([^"]+)"/g,
-      (whole, kind, id) => 'href="' + (kind === "pose" ? url("pose", id)
-        : kind === "about" ? url("about", null, null, id)
-          : url("treatise", null, null, id)) + '"');
+    return String(html).replace(/href="(pose|about|treatise|source):([^"]+)"/g,
+      (whole, kind, id) => {
+        if (kind === "source") {
+          const [treatiseId, fragment] = id.split("#", 2);
+          const tr = treatises.find((item) => item.id === treatiseId);
+          const pdf = tr && tr.pdf &&
+            (typeof tr.pdf === "string" ? tr.pdf : tr.pdf[state.lang] || tr.pdf.ru);
+          if (!pdf) return whole;
+          const href = asset(pdf) + (fragment ? "#" + fragment : "");
+          return 'href="' + esc(encodeURI(href)) + '" target="_blank" rel="noopener"';
+        }
+        const href = kind === "pose" ? url("pose", id)
+          : kind === "about" ? url("about", null, null, id)
+            : url("treatise", null, null, id);
+        return 'href="' + href + '"';
+      });
   }
 
   function routeString(route) {
@@ -467,7 +479,7 @@
     if (activeTreatise.pdf) {
       sourceBits.push(
         '<a href="' + esc(encodeURI(activeTreatise.pdf[state.lang] || activeTreatise.pdf.ru)) +
-          '" target="_blank" rel="noopener">' + esc(t("pdf")) + "</a>"
+          '" target="_blank" rel="noopener">' + esc(tx(activeTreatise.sourceLinkLabel) || t("pdf")) + "</a>"
       );
     }
     foot.innerHTML = applyMarks(sourceBits.join(" · "));
@@ -1349,7 +1361,7 @@
       : null;
     if (pdfHref) {
       html += '<p class="about-p"><a class="back-link" href="' + esc(pdfHref) +
-        '" target="_blank" rel="noopener">' + esc(t("pdf")) + " ↗</a></p>";
+        '" target="_blank" rel="noopener">' + esc(tx(activeTreatise.sourceLinkLabel) || t("pdf")) + " ↗</a></p>";
     }
     // ссылка на вступление — только если оно есть: у «Ма̄насолла̄сы» его нет
     if (activeTreatise.chapter && (activeTreatise.prologue[state.lang] || []).length) {

@@ -4,9 +4,13 @@
 Источник — русский и английский тома одной работы о разделе об āсанах
 «Рудрайāмалоттаратантры» (пат̣алы 23–24) по изданию Судхāкара Мāлавӣйи
 (Дели, 1999, с. 333–351). Тома — не перевод стихов, а исследование реестра:
-состав перечня, датировка и сверка перевода с печатным изданием. Поэтому
-стиховых карточек в этом файле нет и быть не может: строк стиха в томах
-не приводится.
+состав перечня, датировка и сверка перевода с печатным изданием. Стихи в
+томах не приводятся. Карточка Свастикāсаны (стихи 32–33, комментарий,
+IAST, кириллическая транслитерация в русской версии, пословный разбор и оба
+перевода) добавляется отдельно по предоставленным русской и английской
+версиям документа о пат̣алах 23–24; здесь она не сверяется с конкретным
+изданием или рукописью. Отсутствие цитаты в статье не означает отсутствия
+стиха в санскритском памятнике.
 
 Что скрипт берёт из томов, а не набирает руками:
 
@@ -256,6 +260,176 @@ POSES_EN = {
 }
 
 
+# Полный блок Свастикāсаны из двух переданных пользователем версий документа
+# о пат̣алах 23–24. В английской версии нет кириллической транслитерации;
+# её берём только из русской. Ни одна форма не атрибутируется изданию без
+# сверки: строка 33 и её разбор ниже сохраняются с отмеченным расхождением.
+SVASTIKASANA_MATERIAL = {
+    "ru": [
+        {
+            "type": "verse_card",
+            "verses": "Стихи 32–33 (по предоставленному документу)",
+            "sections": [
+                {
+                    "type": "verse", "key": "deva", "label": "Деванагари",
+                    "lines": [
+                        "स्वभावसिद्धिकरणं सर्वेषां स्वस्तिकासनम् ।",
+                        "वामपादतले कुर्यात्पाददक्षिणमेव च ॥ ३२ ॥",
+                        "सव्यापसव्ययोगेन आसनद्वयमेव च ।",
+                        "सर्वत्रैवं प्रकारं च कृत्वा नाडीव सारमेत् ॥ ३३ ॥",
+                    ],
+                },
+                {
+                    "type": "verse", "key": "iast", "label": "IAST",
+                    "lines": [
+                        "svabhāvasiddhikaraṇaṃ sarveṣāṃ svastikāsanam ।",
+                        "vāmapādatale kuryātpādadakṣiṇameva ca ॥ 32 ॥",
+                        "savyāpasavyayogena āsanadvayameva ca ।",
+                        "sarvatraivaṃ prakāraṃ ca kṛtvā nāḍīva sāramet ॥ 33 ॥",
+                    ],
+                },
+                {
+                    "type": "verse", "key": "cyr",
+                    "label": "Кириллическая транслитерация",
+                    "lines": [
+                        "свабхāвасиддхикаран̣ам̇ сарвешāм̇ свастикāсанам ।",
+                        "вāмапāдатале курйāт пāдадакшин̣ам эва ча ॥ 32 ॥",
+                        "савйāпасавйайогена āсанадвайам эва ча ।",
+                        "сарватраивам̇ пракāрам̇ ча кр̣твā нāд̣ӣва сāрамет ॥ 33 ॥",
+                    ],
+                },
+            ],
+        },
+        {
+            "type": "prose", "key": "commentary",
+            "label": "Комментарий на хинди",
+            "paragraphs": [
+                "सभी को स्वभावतः सिद्धि प्रदान करने वाला स्वस्तिकासन है । बायें पैर के तलवे पर दाहिना पैर अथवा दाहिने पैर के तलवे पर बायाँ पर रखे इस प्रकार सव्यापसव्य के योग से दोनों आसन करे । सर्वत्र इस प्रकार का आसन कर नाड़ियों का संचालन करे ॥",
+            ],
+        },
+        {
+            "type": "words", "label": "Пословный разбор",
+            "titles": ["Стих 32", "Стих 33"],
+            "groups": [
+                [
+                    ["свабхāва-сиддхи-каран̣ам", "причину естественного совершенства"],
+                    ["сарвешāм", "[для] всех"],
+                    ["свастика-āсанам", "Свастикасану"],
+                    ["вāма-пāда-тале", "у подошвы/основания левой ноги"],
+                    ["курйāт", "должен поместить"],
+                    ["пāда-дакшин̣ам", "правую ногу"],
+                    ["эва ча", "и также"],
+                ],
+                [
+                    ["савйа-апасавйа-йогена", "соединением левого и правого (чередованием)"],
+                    ["āсана-двайам", "две асаны"],
+                    ["эва ча", "и именно"],
+                    ["сарватра", "везде"],
+                    ["эвам пракāрам", "таким образом"],
+                    ["ча", "и"],
+                    ["кр̣твā", "сделав"],
+                    ["нāд̣их̣", "каналы (нади)"],
+                    ["авасāрамет/сāрамет", "пусть приводит в движение/очищает"],
+                ],
+            ],
+        },
+        {
+            "type": "prose", "key": "literal", "label": "Буквальный перевод",
+            "paragraphs": [
+                "Свастикасана - причина естественного обретения сиддхи для всех. Следует поместить правую ногу под (или у) подошву левой ноги. Чередованием левого и правого [возникают] две асаны. Выполняя таким образом везде, следует побуждать [энергию] в нади.",
+            ],
+        },
+        {
+            "type": "prose", "key": "literary", "label": "Литературный перевод",
+            "paragraphs": [
+                "«Свастикāсана» - поза, естественным образом дарующая совершенство всем практикующим. Техника выполнения: помести правую стопу между бедром и икрой левой ноги (у подошвы). Выполняя это симметрично, меняя ноги (левая под правой и наоборот), получаешь две вариации асаны. Практикуя этот метод, йогин запускает ток энергии по всем каналам (нади).",
+            ],
+        },
+        {
+            "type": "note", "paragraphs": [
+                "В IAST-передаче стиха 33 стоит «nāḍīva sāramet»; английский пословный разбор даёт «nāḍīḥ … avasāramet», а русский разбирает строку иначе и предлагает два варианта конечной формы (в кириллической транслитерации). Сверки с конкретным санскритским изданием или рукописью нет; расхождение сохранено без исправления.",
+            ],
+        },
+    ],
+    "en": [
+        {
+            "type": "verse_card",
+            "verses": "Verses 32–33 (as in the supplied document)",
+            "sections": [
+                {
+                    "type": "verse", "key": "deva", "label": "Devanagari",
+                    "lines": [
+                        "स्वभावसिद्धिकरणं सर्वेषां स्वस्तिकासनम् ।",
+                        "वामपादतले कुर्यात्पाददक्षिणमेव च ॥ ३२ ॥",
+                        "सव्यापसव्ययोगेन आसनद्वयमेव च ।",
+                        "सर्वत्रैवं प्रकारं च कृत्वा नाडीव सारमेत् ॥ ३३ ॥",
+                    ],
+                },
+                {
+                    "type": "verse", "key": "iast", "label": "IAST",
+                    "lines": [
+                        "svabhāvasiddhikaraṇaṃ sarveṣāṃ svastikāsanam ।",
+                        "vāmapādatale kuryātpādadakṣiṇameva ca ॥ 32 ॥",
+                        "savyāpasavyayogena āsanadvayameva ca ।",
+                        "sarvatraivaṃ prakāraṃ ca kṛtvā nāḍīva sāramet ॥ 33 ॥",
+                    ],
+                },
+            ],
+        },
+        {
+            "type": "prose", "key": "commentary",
+            "label": "Hindi Commentary",
+            "paragraphs": [
+                "सभी को स्वभावतः सिद्धि प्रदान करने वाला स्वस्तिकासन है । बायें पैर के तलवे पर दाहिना पैर अथवा दाहिने पैर के तलवे पर बायाँ पर रखे इस प्रकार सव्यापसव्य के योग से दोनों आसन करे । सर्वत्र इस प्रकार का आसन कर नाड़ियों का संचालन करे ॥",
+            ],
+        },
+        {
+            "type": "words", "label": "Word-for-word Analysis",
+            "titles": ["Verse 32", "Verse 33"],
+            "groups": [
+                [
+                    ["svabhāva-siddhi-karaṇam", "the cause of natural perfection"],
+                    ["sarveṣāṃ", "for all"],
+                    ["svastika-āsanam", "Svastikāsana"],
+                    ["vāma-pāda-tale", "at the sole/base of the left foot"],
+                    ["kuryāt", "should place"],
+                    ["pāda-dakṣiṇam", "right foot"],
+                    ["eva ca", "and also"],
+                ],
+                [
+                    ["savya-apasavya-yogena", "by the union of left and right (alternating)"],
+                    ["āsana-dvayam", "two postures"],
+                    ["eva ca", "and indeed"],
+                    ["sarvatra", "everywhere/in all cases"],
+                    ["evam prakāram", "in this manner"],
+                    ["ca", "and"],
+                    ["kṛtvā", "having done"],
+                    ["nāḍīḥ", "channels (nāḍīs)"],
+                    ["avasāramet", "should move/purify"],
+                ],
+            ],
+        },
+        {
+            "type": "prose", "key": "literal", "label": "Literal Translation",
+            "paragraphs": [
+                "Svastikāsana is the cause of natural perfection for all. One should place the right foot at the base of the left foot. By alternating left and right, there are indeed two postures. Performing it in this manner everywhere, one should stimulate the nāḍīs.",
+            ],
+        },
+        {
+            "type": "prose", "key": "literary", "label": "Literary Translation",
+            "paragraphs": [
+                "Svastikāsana is the posture that naturally bestows perfection upon all. The technique involves placing the right foot at the sole (or base) of the left leg. By alternating the legs (placing left under right and vice versa), two variations of the posture are formed. Practicing in this manner purifies and activates the energy channels (nāḍīs).",
+            ],
+        },
+        {
+            "type": "note", "paragraphs": [
+                "A discrepancy in the supplied versions: verse 33 is given in IAST as “nāḍīva sāramet”; the English word-by-word analysis gives “nāḍīḥ … avasāramet”, while the Russian analysis parses the line differently and offers two alternatives for the final form in its Cyrillic transliteration. These forms have not been checked against a specific Sanskrit edition or manuscript; the discrepancy is retained without emendation.",
+            ],
+        },
+    ],
+}
+
+
 def build_poses(register_ru, register_en):
     """Страницы āсан: одна строка позы, а повторные строки — к первой."""
     by_no_ru = {row["no"]: row for row in register_ru}
@@ -282,9 +456,16 @@ def build_poses(register_ru, register_en):
             gloss_ru = "поза героя; в реестре названа также Самāнāсаной"
         gloss_en = first_en["cells"][2]
 
-        # ссылка в шапке позы. Отдельного поля chapter у позы нет: пат̣ала и
-        # номер строки реестра уже стоят здесь, и второй раз их не печатаем.
+        # Ссылка в шапке: номер позиции реестра не следует путать с номером
+        # стиха. Для Свастикāсаны документ отдельно даёт стихи 32–33, а статья
+        # — позицию № 4 (PDF, с. 8).
         def refs(lang):
+            if key == "svastikasana":
+                if lang == "ru":
+                    return ("пат̣ала 23, стихи 32–33 (по предоставленному документу); "
+                            "позиция № 4 в реестре статьи (PDF, с. 8)")
+                return ("paṭala 23, verses 32–33 (as in the supplied document); "
+                        "article register item no. 4 (PDF p. 8)")
             order = []
             for row in rows_ru:
                 if row["cells"][4] not in order:
@@ -331,25 +512,52 @@ def build_poses(register_ru, register_en):
                    + by_patala(rows_ru, "ru") + ".")
         lead_en = ("Register of the Rudrayāmalottaratantra (ed. Mālavīya 1999: "
                    "pp. 333–351), " + by_patala(rows_en, "en") + ".")
+        if key == "svastikasana":
+            lead_ru += (" Запись находится в приложении статьи, на "
+                        "<a href=\"source:rudrayamala#page=8\">странице 8 PDF</a>; "
+                        "№ 4 — позиция в реестре, а не номер стиха.")
+            lead_en += (" The entry appears in the article’s appendix, on "
+                        "<a href=\"source:rudrayamala#page=8\">PDF page 8</a>; "
+                        "no. 4 is the register item, not a verse number.")
         if key == "virasana":
             lead_ru += (" В реестре эта поза названа двумя именами — Самāнāсана и "
                         "Вӣрāсана — и описана дважды.")
             lead_en += (" The register gives this posture two names, Samānāsana and "
                         "Vīrāsana, and describes it twice.")
 
-        note_ru = ("Стихов и техники этой позы в двух томах статьи нет: тома "
-                   "описывают реестр и датировку, а стихи не переводят. Поэтому у "
-                   "позы здесь нет ни строк стиха, ни пословного разбора — их в "
-                   "источнике нет, и дописывать их нельзя.")
-        note_en = ("The two volumes of the article contain neither the verses nor "
-                   "the technique of this posture: they describe the register and "
-                   "its dating, and do not translate the verses. So this page has "
-                   "neither verse lines nor a word-by-word analysis — the source "
-                   "has none, and they are not to be supplied.")
+        note_ru = ("В двух версиях исследовательской статьи соответствующий стих и "
+                   "пословный разбор этой позы не приведены, а техника не описана: "
+                   "статьи рассматривают реестр и датировку, но не переводят стихи. "
+                   "Это ограничение статьи, а не свидетельство отсутствия стиха в "
+                   "«Рудрайāмалоттаратантре».")
+        note_en = ("The supplied versions of the research article do not quote a "
+                   "corresponding verse or provide a word-by-word analysis for this "
+                   "posture, and they do not describe its technique; they discuss "
+                   "the register and dating rather than translate the verses. This "
+                   "describes the article only and is not evidence that the "
+                   "Rudrayāmalottaratantra lacks a verse for the posture.")
+        if key == "svastikasana":
+            note_ru = ("Стихи 32–33, комментарий и переводный аппарат выше приведены "
+                       "по предоставленным русской и английской версиям документа о "
+                       "пат̣алах 23–24; их нумерация не сверялась с конкретным "
+                       "санскритским изданием или рукописью. В исследовательской "
+                       "статье стихи не цитируются; её приложение подтверждает только "
+                       "запись Свастикāсаны под № 4 в пат̣але 23 (PDF, с. 8). Это "
+                       "отсутствие цитаты относится к статье, а не к памятнику.")
+            note_en = ("Verses 32–33, the commentary and the translation apparatus "
+                       "above are taken from the supplied Russian and English "
+                       "versions of the document on paṭalas 23–24; their numbering "
+                       "has not been checked against a specific Sanskrit edition "
+                       "or manuscript. The research article does not quote the "
+                       "verses; its appendix confirms only the Svastikāsana entry "
+                       "as item no. 4 in paṭala 23 (PDF p. 8). This omission is a "
+                       "fact about the article, not about the Sanskrit work.")
 
-        def blocks(extra, note, key_):
+        def blocks(extra, note, key_, material=None):
             out = [{"type": "p", "html": key_}]
             out += [{"type": "p", "html": t} for t in extra]
+            if material:
+                out.extend(material)
             out.append({"type": "note", "paragraphs": [note]})
             return out
 
@@ -361,8 +569,10 @@ def build_poses(register_ru, register_en):
             "gloss": {"ru": gloss_ru, "en": gloss_en},
             "verses": {"ru": refs("ru"), "en": refs("en")},
             "text": {
-                "ru": blocks(POSES_RU.get(key, []), note_ru, lead_ru),
-                "en": blocks(POSES_EN.get(key, []), note_en, lead_en),
+                "ru": blocks(POSES_RU.get(key, []), note_ru, lead_ru,
+                             SVASTIKASANA_MATERIAL["ru"] if key == "svastikasana" else None),
+                "en": blocks(POSES_EN.get(key, []), note_en, lead_en,
+                             SVASTIKASANA_MATERIAL["en"] if key == "svastikasana" else None),
             },
             "register": numbers,
         })
@@ -776,15 +986,17 @@ ABOUT_NOTE = {
         "Раздел пересказывает статью своими словами: это не её текст целиком. "
         "Всё, что взято дословно, стоит в кавычках и сверено с томом при сборке "
         "— восемьдесят одна цитата; если фрагмент не найден, сборка "
-        "останавливается. Стихи и пословный разбор сюда не входят: их в статье "
-        "нет.",
+        "останавливается. Статья не переводит стихи и не разбирает их пословно; "
+        "это характеристика статьи, а не утверждение о содержании санскритского "
+        "памятника.",
     ]},
     "en": {"type": "note", "paragraphs": [
         "This section retells the article in our own words; it is not the "
         "article’s full text. Everything quoted verbatim stands in quotation "
         "marks and is checked against the volume at build time (eighty-one "
-        "quotations); if a fragment is not found, the build stops. The verses "
-        "and the word-by-word analysis are not here: the article has neither.",
+        "quotations); if a fragment is not found, the build stops. The article "
+        "does not translate the verses or analyse them word by word; this "
+        "describes the article, not the contents of the Sanskrit work.",
     ]},
 }
 
@@ -901,12 +1113,15 @@ RU_ABOUT = [
                           "первый том охватывает пат̣алы 1–45. Нумерация пат̣ал в "
                           "изданиях расходится, но асанный материал в них устойчиво "
                           "занимает 23-ю и 24-ю пат̣алы."},
-    {"type": "p", "html": "<strong>Что здесь есть и чего нет.</strong> Раздел собран по "
-                          "двум томам одной статьи — русскому и английскому. Тома "
-                          "описывают состав реестра и датировку; стихи в них не "
-                          "переводятся. Поэтому у āсан этого памятника здесь нет ни "
-                          "строк стиха, ни пословного разбора: их в источнике нет. Что "
-                          "сказано о позе в статье — сказано на странице этой позы."},
+    {"type": "p", "html": "<strong>Что здесь есть и чего нет.</strong> Основной материал о "
+                          "реестре и датировке взят из двух версий исследовательской "
+                          "статьи — русской и английской; стихов она не переводит. Для "
+                          "Свастикāсаны здесь приведены стихи 32–33 и полный "
+                          "сопровождающий аппарат по предоставленным пользователем "
+                          "русской и английской версиям документа о пат̣алах 23–24; "
+                          "они не сверялись с конкретным санскритским изданием или "
+                          "рукописью. Отсутствие цитаты в статье относится только к "
+                          "статье и не означает отсутствия стиха в памятнике."},
 
     {"type": "h2", "html": "Состав и логика перечня"},
     {"type": "p", "html": "Переведённый раздел содержит 57 описаний: 29 в 23-й пат̣але "
@@ -1110,13 +1325,15 @@ EN_ABOUT = [
                           "first volume of S. Mālavīya covers paṭalas 1–45. The "
                           "numbering of paṭalas differs too, but the āsana material "
                           "consistently falls in paṭalas 23–24."},
-    {"type": "p", "html": "<strong>What is here and what is not.</strong> This section is "
-                          "built from the two volumes of a single article, Russian and "
-                          "English. The volumes describe the composition of the register "
-                          "and its dating; they do not translate the verses. So the "
-                          "āsanas of this work have here neither verse lines nor a "
-                          "word-by-word analysis: the source has none. Whatever the "
-                          "article says about a posture is said on that posture’s page."},
+    {"type": "p", "html": "<strong>What is here and what is not.</strong> The main material on "
+                          "the register and its dating comes from the Russian and English "
+                          "versions of a research article, which does not translate the "
+                          "verses. For Svastikāsana, verses 32–33 and the accompanying "
+                          "apparatus are presented from the supplied Russian and English "
+                          "versions of the document on paṭalas 23–24; they have not been "
+                          "collated against a specific Sanskrit edition or manuscript. "
+                          "The article’s omission of a quotation concerns the article "
+                          "only; it is not evidence that the Sanskrit work lacks the verse."},
 
     {"type": "h2", "html": "Composition and logic of the register"},
     {"type": "p", "html": "The translated section contains 57 descriptions: 29 in paṭala "
