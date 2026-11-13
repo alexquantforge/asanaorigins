@@ -310,6 +310,39 @@ function applyHead(html, page, title, description, h1, site, treatiseTitle) {
 
 /* -------------------------------------------------------------------- build */
 
+
+/* ------------------------------------------------ страница «такой нет» */
+
+function notFound() {
+  const home = { ru: SITE + "/", en: SITE + "/en/" };
+  return `<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Страница не найдена — Āсаны: истоки</title>
+<link rel="stylesheet" href="${SITE}/assets/style.css">
+</head>
+<body>
+<main class="view" style="min-height:100vh;display:grid;place-items:center">
+  <div class="view-inner" style="max-width:640px">
+    <p class="side-label">404</p>
+    <h1>Такой страницы нет</h1>
+    <p>Возможно, ссылка устарела или в адресе опечатка. Всё, что есть на сайте,
+       открывается с содержания.</p>
+    <p><a href="${home.ru}">К содержанию →</a></p>
+    <h2 lang="en" style="margin-top:2.4em">This page does not exist</h2>
+    <p lang="en">The link may be out of date, or the address mistyped.
+       Everything on the site is reachable from the contents.</p>
+    <p lang="en"><a href="${home.en}">Contents →</a></p>
+  </div>
+</main>
+</body>
+</html>
+`;
+}
+
 async function main() {
   const argv = process.argv.slice(2);
   const checkOnly = argv.includes("--check");
@@ -389,6 +422,10 @@ async function main() {
     '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"\n' +
     '        xmlns:xhtml="http://www.w3.org/1999/xhtml">\n' + urls + "\n</urlset>\n");
 
+  /* GitHub Pages отдаёт этот файл на любой несуществующий адрес. Ссылки в нём
+     абсолютные (с адресом сайта из SITE): страницу открывают с любой глубины
+     адреса, и относительные пути в такой странице вели бы в никуда. */
+  write("404.html", notFound());
   write("robots.txt",
     "User-agent: *\nAllow: /\n\n" +
     "# поисковые системы и ИИ-краулеры читают те же страницы, что и люди\n" +

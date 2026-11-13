@@ -33,7 +33,7 @@ ROMAN_VALUE = re.compile(r"^M{0,3}(?:CM|CD|D?C{0,3})(?:XC|XL|L?X{0,3})(?:IX|IV|V
 CHAPTER_WORDS = (
     r"глав[аыуе]|главой|главах|глав|гл\."
     r"|chapters?|chap\.|ch\."
-    r"|ull[āa]s(?:a|as|e)?|уллас[аыуе]|улласы|уллас"
+    r"|ull[āa]s(?:a|as|e)?|улл[āа]с[аыуе]|улл[āа]сы|улл[āа]с"
 )
 WORD = r"(?:%s)" % CHAPTER_WORDS
 

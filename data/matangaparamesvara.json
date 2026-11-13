@@ -1,0 +1,189 @@
+{
+  "id": "matangaparamesvara",
+  "about": {
+    "ru": [
+      {
+        "type": "title",
+        "text": "Матан̇гапāрамеш́вара(āгама), Йогапāда"
+      },
+      {
+        "type": "p",
+        "text": "Йогапāда 2.10–29: четыре позы — парйан̇ка, камала, бхадра, свастика — перечислены в 2.13 и описаны в 2.15–17b, 2.17c–18, 2.19c–20b и 2.20c–22b. В 2.22c–29 следует каран̣а — «приём» придания телу формы. Текст сверен по сканам издания Bhatt 1982, с. 253–256; в издании есть рисунки поз йоги (с. lxxvii). См. часть IV, § 12."
+      },
+      {
+        "type": "p",
+        "text": "В 2.13 ачалам̣ и др̣д̣хам̣ издание трактует как наречия или определения, а не названия дополнительных поз; Кафле (§ 11.3) насчитывает шесть, но этот подсчёт прямо отвергнут по результатам сверки с изданием. В рукописи ओ в 2.13d стоит чāрдхачандракам вместо чāчалам̣ др̣д̣хам̣."
+      },
+      {
+        "type": "p",
+        "text": "В каталоге заголовок — «Матан̇гапāрамеш́вара(āгама)»; в таблице датировок та же запись обозначена как «Матан̇га»."
+      }
+    ],
+    "en": [
+      {
+        "type": "title",
+        "text": "Mataṅgapārameśvara(āgama), Yogapāda"
+      },
+      {
+        "type": "p",
+        "text": "Yogapāda 2.10–29: four postures—paryaṅka, kamala, bhadra, svastika—are listed in 2.13 and described in 2.15–17b, 2.17c–18, 2.19c–20b and 2.20c–22b. Karaṇa follows in 2.22c–29, described as a means of giving the body form. The text was checked against scans of Bhatt 1982, pp. 253–256; the edition includes drawings of yoga postures (p. lxxvii). See Part IV, section 12."
+      },
+      {
+        "type": "p",
+        "text": "In 2.13 the edition treats acalaṃ and dṛḍham as adverbs or qualifiers, not additional posture names. Kafle (§ 11.3) counts six; the catalogue explicitly rejects that count on the basis of the checked edition. Manuscript ओ reads cārdhacandrakam at 2.13d instead of cācalaṃ dṛḍham."
+      },
+      {
+        "type": "p",
+        "text": "The posture catalogue labels the text “Mataṅgapārameśvara(āgama)”; the dating table labels the same entry “Mataṅga”."
+      }
+    ]
+  },
+  "dating": {
+    "ru": {
+      "title": "Датировка текста",
+      "blocks": [
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Датировка (кто)",
+              "Старейшая датированная рукопись (по источникам выше)"
+            ],
+            [
+              "после Дигнаги (Sanderson по Goodall); до Рамакантхы II (ок. 950–1000)",
+              "нет: ИИ не искал за пределами своих источников (Bhatt 1982 прочитан частично)"
+            ]
+          ]
+        }
+      ]
+    },
+    "en": {
+      "title": "Dating of the text",
+      "blocks": [
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Dating (by whom)",
+              "Oldest dated manuscript (by the sources above)"
+            ],
+            [
+              "after Dignāga (Sanderson via Goodall); before Rāmakaṇṭha II (c. 950–1000)",
+              "none: the AI did not search beyond its sources (Bhatt 1982 read partially)"
+            ]
+          ]
+        }
+      ]
+    }
+  },
+  "poses": [
+    {
+      "key": "paryanka",
+      "iast": "Paryaṅka",
+      "number": 1,
+      "name": {
+        "ru": "Парйан̇ка",
+        "en": "Paryaṅka"
+      },
+      "verses": {
+        "ru": "Матан̇гапāрамеш́вара, Йогапāда 2.13; 2.15–17b",
+        "en": "Mataṅgapārameśvara, Yogapāda 2.13; 2.15–17b"
+      },
+      "text": {
+        "ru": [
+          {
+            "type": "p",
+            "text": "Парйан̇ка входит в перечень четырёх поз (2.13); в 2.15–17b описана с йогапат̣т̣ой. Текст сверен по сканам Bhatt 1982, с. 253–254 (часть IV, § 12.1)."
+          }
+        ],
+        "en": [
+          {
+            "type": "p",
+            "text": "Paryaṅka is one of the four postures listed in 2.13; 2.15–17b describes it with a yogapaṭṭa. The text was checked against scans of Bhatt 1982, pp. 253–254 (Part IV, section 12.1)."
+          }
+        ]
+      }
+    },
+    {
+      "key": "kamala",
+      "iast": "Kamala",
+      "number": 2,
+      "name": {
+        "ru": "Камала",
+        "en": "Kamala"
+      },
+      "verses": {
+        "ru": "Матан̇гапāрамеш́вара, Йогапāда 2.13; 2.17c–18",
+        "en": "Mataṅgapārameśvara, Yogapāda 2.13; 2.17c–18"
+      },
+      "text": {
+        "ru": [
+          {
+            "type": "p",
+            "text": "Камала входит в перечень четырёх поз (2.13); описание — 2.17c–18. Текст сверен по сканам Bhatt 1982, с. 253–254 (часть IV, § 12.1)."
+          }
+        ],
+        "en": [
+          {
+            "type": "p",
+            "text": "Kamala is one of the four postures listed in 2.13; its description is in 2.17c–18. The text was checked against scans of Bhatt 1982, pp. 253–254 (Part IV, section 12.1)."
+          }
+        ]
+      }
+    },
+    {
+      "key": "bhadra",
+      "iast": "Bhadra",
+      "number": 3,
+      "name": {
+        "ru": "Бхадра",
+        "en": "Bhadra"
+      },
+      "verses": {
+        "ru": "Матан̇гапāрамеш́вара, Йогапāда 2.13; 2.19c–20b",
+        "en": "Mataṅgapārameśvara, Yogapāda 2.13; 2.19c–20b"
+      },
+      "text": {
+        "ru": [
+          {
+            "type": "p",
+            "text": "Бхадра входит в перечень четырёх поз (2.13); описание — 2.19c–20b. Текст сверен по сканам Bhatt 1982, с. 254–255 (часть IV, § 12.1)."
+          }
+        ],
+        "en": [
+          {
+            "type": "p",
+            "text": "Bhadra is one of the four postures listed in 2.13; its description is in 2.19c–20b. The text was checked against scans of Bhatt 1982, pp. 254–255 (Part IV, section 12.1)."
+          }
+        ]
+      }
+    },
+    {
+      "key": "svastikasana",
+      "iast": "Svastika",
+      "number": 4,
+      "name": {
+        "ru": "Свастика",
+        "en": "Svastika"
+      },
+      "verses": {
+        "ru": "Матан̇гапāрамеш́вара, Йогапāда 2.13; 2.20c–22b",
+        "en": "Mataṅgapārameśvara, Yogapāda 2.13; 2.20c–22b"
+      },
+      "text": {
+        "ru": [
+          {
+            "type": "p",
+            "text": "Свастика входит в перечень четырёх поз (2.13); описание — 2.20c–22b, где текст называет её четвёртой. Текст сверен по сканам Bhatt 1982, с. 254–255 (часть IV, § 12.1)."
+          }
+        ],
+        "en": [
+          {
+            "type": "p",
+            "text": "Svastika is one of the four postures listed in 2.13; 2.20c–22b describes it and the text calls it the fourth. The text was checked against scans of Bhatt 1982, pp. 254–255 (Part IV, section 12.1)."
+          }
+        ]
+      }
+    }
+  ]
+}

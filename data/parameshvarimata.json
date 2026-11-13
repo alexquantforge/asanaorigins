@@ -1,0 +1,63 @@
+{
+  "id": "parameshvarimata",
+  "about": {
+    "ru": [
+      {
+        "type": "title",
+        "text": "Парамеш́варӣмата"
+      },
+      {
+        "type": "p",
+        "text": "В M00218 уткат̣āсана запрещена при джапе (строка файла 7107), а свастикāсана названа при мудре (строка 8441); ш́ӯладан̣д̣āсана — термин извлечения мантры, не название позы. Отдельно, под номером 50 каталога, приведено 9.1 со ссылкой на Крийод̣д̣ӣш́амахāтантрарāджа M00512, строки 391–392; далее говорится о материале сиденья, поэтому независимое чтение 9.1 в Парамеш́варӣмате не подтверждено. См. часть IV, §§ 3.6 и 8."
+      }
+    ],
+    "en": [
+      {
+        "type": "title",
+        "text": "Parameśvarīmata"
+      },
+      {
+        "type": "p",
+        "text": "In M00218, utkaṭāsana is prohibited during japa (file line 7107), svastikāsana is named in connection with a mudrā (line 8441), and śūladaṇḍāsana is a mantra-extraction term, not a posture name. Separately, catalogue entry 50 gives 9.1 but cites Kriyoḍḍīśamahātantrarāja M00512, lines 391–392; the following passage concerns seat material, so an independent Parameśvarīmata reading of 9.1 is not confirmed. See Part IV, sections 3.6 and 8."
+      }
+    ]
+  },
+  "dating": {
+    "ru": {
+      "title": "Датировка текста",
+      "blocks": [
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Датировка (кто)",
+              "Старейшая датированная рукопись (по источникам выше)"
+            ],
+            [
+              "Нет: исследователи упоминают текст, но нужных сведений не дают; Goudriaan не приводит дату. Идентичность рукописей не установлена.",
+              "нет: ИИ не искал за пределами своих источников"
+            ]
+          ]
+        }
+      ]
+    },
+    "en": {
+      "title": "Dating of the text",
+      "blocks": [
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Dating (by whom)",
+              "Oldest dated manuscript (by the sources above)"
+            ],
+            [
+              "None: researchers mention the text but give no needed information; Goudriaan gives no date. The identity of the manuscripts is not established.",
+              "none: the AI did not search beyond its sources"
+            ]
+          ]
+        }
+      ]
+    }
+  }
+}

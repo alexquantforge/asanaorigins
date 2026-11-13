@@ -1,0 +1,63 @@
+{
+  "id": "kaulajnananirnaya",
+  "about": {
+    "ru": [
+      {
+        "type": "title",
+        "text": "Кауладжн̃āнанирн̣айа (Махāкауладжн̃āнавинирн̣айа)"
+      },
+      {
+        "type": "p",
+        "text": "Поза: екапāда в визуализации (10.1). Отдельно, в 14.21, названы признаки «дрожь, подскок». См. часть IV, раздел 5 и раздел 14.2."
+      }
+    ],
+    "en": [
+      {
+        "type": "title",
+        "text": "Kaulajñānanirṇaya (Mahākaulajñānavinirṇaya)"
+      },
+      {
+        "type": "p",
+        "text": "Posture: ekapāda in visualization (10.1). Separately, 14.21 names the marks “tremor, leap.” See Part IV, section 5 and section 14.2."
+      }
+    ]
+  },
+  "dating": {
+    "ru": {
+      "title": "Датировка текста",
+      "blocks": [
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Датировка (кто)",
+              "Старейшая датированная рукопись (по источникам выше)"
+            ],
+            [
+              "дата текста — нет: исследователи упоминают текст, но нужных сведений не дают, нужная работа ИИ недоступна (Bagchi)",
+              "непальская рукопись: «середина XI в.?» (Goudriaan) / «середина IX в.» (Śāstrī)"
+            ]
+          ]
+        }
+      ]
+    },
+    "en": {
+      "title": "Dating of the text",
+      "blocks": [
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Dating (by whom)",
+              "Oldest dated manuscript (by the sources above)"
+            ],
+            [
+              "date of the text — none: the researchers mention the text but do not give the needed information, the needed work is not accessible to the AI (Bagchi)",
+              "the Nepalese manuscript: “middle of the 11th c.?” (Goudriaan) / “middle of the 9th c.” (Śāstrī)"
+            ]
+          ]
+        }
+      ]
+    }
+  }
+}

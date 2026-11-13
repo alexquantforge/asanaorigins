@@ -1,0 +1,25 @@
+{
+  "id": "yogaja",
+  "about": {
+    "ru": [
+      {
+        "type": "title",
+        "text": "Йогаджа(āгама)"
+      },
+      {
+        "type": "p",
+        "text": "Йогаджа 25 — обрядовое указание при очищении тела: «выровняв землю, сидя удобно, лицом на север»; название позы не приведено (Йогаджāгама: электронный текст № M00250, транскрипт IFP/EFEO T0024, строка файла 724; часть IV, § 2.6)."
+      }
+    ],
+    "en": [
+      {
+        "type": "title",
+        "text": "Yogaja(āgama)"
+      },
+      {
+        "type": "p",
+        "text": "Postures: Yogaja 25 — “having levelled the ground, sitting comfortably, facing north” (Yogajāgama: Muktabodha electronic text number M00250, data-entered from the manuscript: transcript of the French Institute of Pondicherry / French School of the Far East T0024; line number in that file: 724), see Part IV, section 2.6."
+      }
+    ]
+  }
+}

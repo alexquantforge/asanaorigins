@@ -1,0 +1,63 @@
+{
+ "id": "kriyakramadyotika",
+ "about": {
+  "ru": [
+   {
+    "type": "title",
+    "text": "Крийāкрамадйотикā (Агхораш́ива)"
+   },
+   {
+    "type": "p",
+    "text": "Баддхавӣрāсана указана при трапезе; место связано с цитатой из Супрабхеда. Это ритуальное предписание о положении во время еды, не отдельное описание новой позы. См. часть IV, § 4.2."
+   }
+  ],
+  "en": [
+   {
+    "type": "title",
+    "text": "Kriyākramadyotikā (Aghoraśiva)"
+   },
+   {
+    "type": "p",
+    "text": "Baddhavīrāsana is given for eating, in a passage citing the Suprabheda. This is a ritual instruction for posture during a meal, not a separate description of a new posture. See Part IV, section 4.2."
+   }
+  ]
+ },
+ "dating": {
+  "ru": {
+   "title": "Датировка текста",
+   "blocks": [
+    {
+     "type": "table",
+     "rows": [
+      [
+       "Датировка (кто)",
+       "Старейшая датированная рукопись (по источникам выше)"
+      ],
+      [
+       "В таблице датировки указан 1157 г. (Sanderson; Goodall); в описании текста 1157 г. отнесён к Sanderson, а Goodall относит время деятельности Агхораш́ивы к середине XII в.",
+       "нет: ИИ не искал за пределами своих источников"
+      ]
+     ]
+    }
+   ]
+  },
+  "en": {
+   "title": "Dating of the text",
+   "blocks": [
+    {
+     "type": "table",
+     "rows": [
+      [
+       "Dating (by whom)",
+       "Oldest dated manuscript (by the sources above)"
+      ],
+      [
+       "The dating table gives 1157 (Sanderson; Goodall); the entry text attributes 1157 to Sanderson, while Goodall places Aghoraśiva in the mid-12th c.",
+       "none: the AI did not search beyond its sources"
+      ]
+     ]
+    }
+   ]
+  }
+ }
+}

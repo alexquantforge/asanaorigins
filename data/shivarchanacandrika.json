@@ -1,0 +1,63 @@
+{
+  "id": "shivarchanacandrika",
+  "about": {
+    "ru": [
+      {
+        "type": "title",
+        "text": "Ш́ивāрчаначандрикā (приписана Аппайа Дӣкшите)"
+      },
+      {
+        "type": "p",
+        "text": "Куккут̣āсана указана при нйāсе (Muktabodha M00079, строка файла 296). См. часть IV, § 4.2."
+      }
+    ],
+    "en": [
+      {
+        "type": "title",
+        "text": "Śivārcanacandrikā (attributed to Appaya Dīkṣita)"
+      },
+      {
+        "type": "p",
+        "text": "Kukkuṭāsana is prescribed at nyāsa (Muktabodha M00079, file line 296). See Part IV, section 4.2."
+      }
+    ]
+  },
+  "dating": {
+    "ru": {
+      "title": "Датировка текста",
+      "blocks": [
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Датировка (кто)",
+              "Старейшая датированная рукопись (по источникам выше)"
+            ],
+            [
+              "Нет: текст не упомянут в источниках ИИ; Аппайа Дӣкшита там не фигурирует. Поздняя помета касается одноимённого сочинения Шрӣнивасы Бхат̣т̣ы (Goudriaan & Gupta 1981, с. 148), без даты.",
+              "нет: ИИ не искал за пределами своих источников"
+            ]
+          ]
+        }
+      ]
+    },
+    "en": {
+      "title": "Dating of the text",
+      "blocks": [
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Dating (by whom)",
+              "Oldest dated manuscript (by the sources above)"
+            ],
+            [
+              "None: the text is not mentioned in the AI’s sources, and Appaya Dīkṣita is not mentioned there. A later note concerns a same-titled work by Śrīnivāsa Bhaṭṭa (Goudriaan & Gupta 1981, p. 148), undated.",
+              "none: the AI did not search beyond its sources"
+            ]
+          ]
+        }
+      ]
+    }
+  }
+}

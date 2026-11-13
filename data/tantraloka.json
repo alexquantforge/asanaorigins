@@ -1,0 +1,63 @@
+{
+  "id": "tantraloka",
+  "about": {
+    "ru": [
+      {
+        "type": "title",
+        "text": "Тантрāлока Абхинавагупты с комментарием (вивека) Джаяратхи"
+      },
+      {
+        "type": "p",
+        "text": "Позы: в главах 15–38 (M00093) упоминания поз в ритуале и йоге, часть IV, раздел 4.2."
+      }
+    ],
+    "en": [
+      {
+        "type": "title",
+        "text": "Tantrāloka of Abhinavagupta with Jayaratha’s commentary (viveka)"
+      },
+      {
+        "type": "p",
+        "text": "Postures: in chapters 15–38 (M00093) mentions of postures in ritual and yoga, Part IV, section 4.2."
+      }
+    ]
+  },
+  "dating": {
+    "ru": {
+      "title": "Датировка текста",
+      "blocks": [
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Датировка (кто)",
+              "Старейшая датированная рукопись (по источникам выше)"
+            ],
+            [
+              "Абхинавагупта, расцвет деятельности ок. 975–1025; [добавлено позже] Джаяратха ~1200 (Goudriaan по Pandey)",
+              "нет: ИИ не искал за пределами своих источников"
+            ]
+          ]
+        }
+      ]
+    },
+    "en": {
+      "title": "Dating of the text",
+      "blocks": [
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Dating (by whom)",
+              "Oldest dated manuscript (by the sources above)"
+            ],
+            [
+              "Abhinavagupta, fl. c. 975–1025; [added later] Jayaratha ~1200 (Goudriaan via Pandey)",
+              "none: the AI did not search beyond its sources"
+            ]
+          ]
+        }
+      ]
+    }
+  }
+}

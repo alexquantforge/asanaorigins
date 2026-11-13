@@ -1,0 +1,63 @@
+{
+  "id": "makutagama",
+  "about": {
+    "ru": [
+      {
+        "type": "title",
+        "text": "Макут̣āгама (M00036) / Мукут̣āгама (M00424)"
+      },
+      {
+        "type": "p",
+        "text": "Позы: перечень из шести названий — гомукха, свастика, падма, ардхачандра, вӣра, йогāсана — без описаний. Кроме того, 2-167 баддхайогāсана и 2-111 кӯрмāсана (здесь это сиденье, предмет снаряжения). Смотрите часть IV, раздел 2.4."
+      }
+    ],
+    "en": [
+      {
+        "type": "title",
+        "text": "Makuṭāgama (M00036) / Mukuṭāgama (M00424)"
+      },
+      {
+        "type": "p",
+        "text": "Postures: a list of six names — gomukha, svastika, padma, ardhacandra, vīra, yogāsana — without descriptions. Besides, 2-167 baddhayogāsana and 2-111 kūrmāsana (here it is a seat, a piece of equipment). See Part IV, section 2.4."
+      }
+    ]
+  },
+  "dating": {
+    "ru": {
+      "title": "Датировка текста",
+      "blocks": [
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Датировка (кто)",
+              "Старейшая датированная рукопись (по источникам выше)"
+            ],
+            [
+              "впервые у Ведаджнянагур̣у II, XVI в. (Sanderson)",
+              "нет: ИИ не искал за пределами своих источников"
+            ]
+          ]
+        }
+      ]
+    },
+    "en": {
+      "title": "Dating of the text",
+      "blocks": [
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Dating (by whom)",
+              "Oldest dated manuscript (by the sources above)"
+            ],
+            [
+              "first in Vedajñānaguru II, 16th c. (Sanderson)",
+              "none: the AI did not search beyond its sources"
+            ]
+          ]
+        }
+      ]
+    }
+  }
+}

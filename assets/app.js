@@ -27,7 +27,7 @@
       next: "Следующая",
       notFound: "Такой āсаны нет в этом трактате.",
       loading: "Загрузка…",
-      error: "Не удалось загрузить данные. Откройте сайт через локальный сервер.",
+      error: "Не удалось загрузить данные сайта. Обновите страницу.",
       source: "Источник",
       pdf: "PDF источника",
       translation: "Перевод",
@@ -78,7 +78,7 @@
       next: "Next",
       notFound: "This pose is not in this treatise.",
       loading: "Loading…",
-      error: "Could not load the data. Serve the site from a local web server.",
+      error: "Could not load the site’s data. Reload the page.",
       source: "Source",
       pdf: "Source PDF",
       translation: "Translation",
@@ -112,7 +112,7 @@
     }
   };
 
-  const BUILD = "2026-11-06.07";
+  const BUILD = "2026-11-06.19";
   const V = "?v=" + BUILD;
 
   const state = {
@@ -190,6 +190,29 @@
   // Маршрут словами — тот же, что лежит в data-route статической страницы.
   // Сборщик страниц ждёт, пока он появится: так видно, что отрисована именно
   // эта страница, а не та, что осталась в шаблоне от прошлой сборки.
+  /* Ссылки из данных не знают, на какой глубине стоит страница: маршруты
+     («pose:padmasana», «about:rudrayamala») и PDF источников
+     («source:rudrayamala#page=8») превращаются в адреса здесь. Так внутренние
+     ссылки и PDF работают на статических страницах и в обоих языках. */
+  function resolveLinks(html) {
+    return String(html).replace(/href="(pose|about|treatise|source):([^"]+)"/g,
+      (whole, kind, id) => {
+        if (kind === "source") {
+          const [treatiseId, fragment] = id.split("#", 2);
+          const tr = treatises.find((item) => item.id === treatiseId);
+          const pdf = tr && tr.pdf &&
+            (typeof tr.pdf === "string" ? tr.pdf : tr.pdf[state.lang] || tr.pdf.ru);
+          if (!pdf) return whole;
+          const href = asset(pdf) + (fragment ? "#" + fragment : "");
+          return 'href="' + esc(encodeURI(href)) + '" target="_blank" rel="noopener"';
+        }
+        const href = kind === "pose" ? url("pose", id)
+          : kind === "about" ? url("about", null, null, id)
+            : url("treatise", null, null, id);
+        return 'href="' + href + '"';
+      });
+  }
+
   function routeString(route) {
     if (route.view === "home") return "home";
     if (route.view === "pose") return "pose/" + route.key;
@@ -288,40 +311,61 @@
     return href && STATIC && !/^(https?:|data:|\/|#)/.test(href) ? BASE + href : href;
   }
 
+  /* На статической странице текст уже напечатан в самом HTML. Скрипт приходит
+     следом и добавляет переключение языка, темы и вкладки — но стереть
+     напечатанное он не должен: если сеть медленная или один файл данных не
+     отдался, читатель остался бы перед словом «Загрузка…» вместо страницы.
+     Поэтому готовый текст не трогаем, а при сбое оставляем его как есть. */
   async function boot() {
     document.documentElement.setAttribute("data-theme", state.theme);
     applyStaticText();
-    $("#view").innerHTML = '<p class="empty">' + esc(t("loading")) + "</p>";
+    const view = $("#view");
+    const prerendered = STATIC && view.textContent.trim().length > 60;
+    if (!prerendered) {
+      view.innerHTML = '<p class="empty">' + esc(t("loading")) + "</p>";
+    }
 
     let index;
+    let loaded;
     try {
       index = await fetch(asset("data/treatises.json") + V).then((r) => {
         if (!r.ok) throw new Error(r.status);
         return r.json();
       });
     } catch (e) {
-      $("#view").innerHTML = '<p class="empty">' + esc(t("error")) + "</p>";
+      if (!prerendered) {
+        view.innerHTML = '<p class="empty">' + esc(t("error")) + "</p>";
+      }
       return;
     }
 
     site = index.site || null;
-    const loaded = await Promise.all(
-      index.treatises.map(async (meta) => {
-        const data = await fetch(asset(meta.file) + V).then((r) => r.json());
-        // registry metadata (short title, edition, PDF) wins over the document's
-        // own long title; the long title stays available as docTitle
-        return Object.assign({}, data, meta, {
-          chapter: data.chapter || meta.chapter,
-          poses: data.poses || [],
-          about: data.about || { ru: [], en: [] },
-          prologue: data.prologue || { ru: [], en: [] },
-          appendix: data.appendix || { ru: [], en: [] },
-          notes: data.notes || { ru: [], en: [] },
-          asanasTitle: data.asanasTitle || null,
-          docTitle: data.title || null
-        });
-      })
-    );
+    try {
+      loaded = await Promise.all(
+        index.treatises.map(async (meta) => {
+          const data = await fetch(asset(meta.file) + V).then((r) => r.json());
+          // registry metadata (short title, edition, PDF) wins over the document's
+          // own long title; the long title stays available as docTitle
+          return Object.assign({}, data, meta, {
+            chapter: data.chapter || meta.chapter,
+            poses: data.poses || [],
+            about: data.about || { ru: [], en: [] },
+            prologue: data.prologue || { ru: [], en: [] },
+            appendix: data.appendix || { ru: [], en: [] },
+            notes: data.notes || { ru: [], en: [] },
+            asanasTitle: data.asanasTitle || null,
+            docTitle: data.title || null
+          });
+        })
+      );
+    } catch (e) {
+      // один из файлов трактата не отдался: напечатанное на странице остаётся
+      // рабочим, поэтому ничего не стираем и просто не включаем переключение
+      if (!prerendered) {
+        view.innerHTML = '<p class="empty">' + esc(t("error")) + "</p>";
+      }
+      return;
+    }
     treatises = loaded;
 
     // Глава 3 «Хат̣хапрадӣпики» лежит отдельным файлом: в двух PDF её не было,
@@ -430,12 +474,15 @@
     note.innerHTML = applyMarks(esc(parts.filter(Boolean).join(" · ")));
 
     const foot = $("#side-source");
-    foot.innerHTML = applyMarks(
-      esc(tx(activeTreatise.edition)) +
-        (activeTreatise.pdf
-          ? ' · <a href="' + esc(encodeURI(activeTreatise.pdf[state.lang] || activeTreatise.pdf.ru)) +
-            '" target="_blank" rel="noopener">' + esc(t("pdf")) + "</a>"
-          : ""));
+    const sourceBits = [];
+    if (tx(activeTreatise.edition)) sourceBits.push(esc(tx(activeTreatise.edition)));
+    if (activeTreatise.pdf) {
+      sourceBits.push(
+        '<a href="' + esc(encodeURI(activeTreatise.pdf[state.lang] || activeTreatise.pdf.ru)) +
+          '" target="_blank" rel="noopener">' + esc(tx(activeTreatise.sourceLinkLabel) || t("pdf")) + "</a>"
+      );
+    }
+    foot.innerHTML = applyMarks(sourceBits.join(" · "));
   }
 
   function chapterTitle() {
@@ -504,23 +551,77 @@
         name: tx(pose.name),
         gloss: tx(pose.gloss),
         iast: pose.iast,
+        /* для поиска — имена на обоих языках, у всех трактатов: на русской
+           странице должно находиться и латиницей, и наоборот */
+        search: [].concat(
+          group.map((g) => [g.pose.name && g.pose.name.ru,
+                            g.pose.name && g.pose.name.en,
+                            g.pose.iast,
+                            g.pose.gloss && g.pose.gloss.ru,
+                            g.pose.gloss && g.pose.gloss.en]),
+          [[String(pose.number)]]
+        ),
         inTreatise: group.some((g) => g.treatise === activeTreatise)
       };
     });
   }
 
+  /* ------------------------------------------------------------ поиск имён
+
+     Имена āсан набраны с диакритикой: «Вӣрāсана», «Vīrāsana», «Ан̇гушт̣хāсана».
+     Человек ищет обычными буквами — «вирасана», «virasana», а то и «вирасану»,
+     и всё это должно находить одну и ту же позу.
+
+     Поэтому обе стороны сравнения приводятся к одному виду: знаки над буквами
+     снимаются (NFD распадает «ӣ» на «и» и макрон, а «ā» — на «a» и макрон),
+     регистр не важен. Отдельная забота — буквы латиницы внутри кириллического
+     слова: по правилу сайта долгое «ā» пишется латиницей, поэтому после
+     снятия макрона в слове остаётся латинская «a» посреди кириллицы. В слове,
+     где есть кириллица, такие двойники заменяются кириллицей.
+
+     Сравнение идёт по обоим языкам сразу и без учёта пробелов и дефисов, а
+     последние буквы запроса можно не дописывать как в имени: «вирасану»,
+     «вирасаны», «вирасаной» находят «Вӣрāсана». */
+
+  const HOMOGLYPH = {
+    a: "а", b: "в", c: "с", e: "е", h: "н", k: "к",
+    m: "м", o: "о", p: "р", t: "т", x: "х", y: "у"
+  };
+  const CYRILLIC = /[\u0400-\u04ff]/;
+
+  function plain(text) {
+    return String(text == null ? "" : text)
+      .normalize("NFD")
+      .replace(/[\u0300-\u036f\u1ab0-\u1aff\u1dc0-\u1dff]/g, "")
+      .replace(/[\u200c\u200d]/g, "")
+      .toLowerCase()
+      .split(/(\s+)/)
+      .map((word) => CYRILLIC.test(word)
+        ? word.replace(/[a-z]/g, (ch) => HOMOGLYPH[ch] || ch)
+        : word)
+      .join("");
+  }
+
+  // «Уттāна кӯрмāсана» и «уттанакурмасана» — одно и то же
+  const tight = (text) => plain(text).replace(/[\s\-–—.,'’]/g, "");
+
+  function searchMatch(query, targets) {
+    const q = plain(query).trim();
+    if (!q) return true;
+    const forms = [tight(q)];
+    // падежные окончания: «вирасану», «вирасаны», «вирасаной» — ищутся по основе
+    if (q.length >= 6) forms.push(tight(q.slice(0, -1)));
+    if (q.length >= 7) forms.push(tight(q.slice(0, -2)));
+    const hay = targets.filter(Boolean).map(tight).join("\u0000");
+    return forms.some((f) => f.length >= 2 && hay.includes(f));
+  }
+
   function buildPoseList() {
     const list = $("#pose-list");
     const data = poseListData();
-    const q = state.filter.trim().toLowerCase();
+    const q = state.filter.trim();
     const shown = q
-      ? data.filter(
-          (p) =>
-            p.name.toLowerCase().includes(q) ||
-            (p.gloss || "").toLowerCase().includes(q) ||
-            (p.iast || "").toLowerCase().includes(q) ||
-            String(p.number) === q
-        )
+      ? data.filter((p) => searchMatch(q, [].concat(p.search, [p.name, p.gloss, p.iast])))
       : data;
 
     list.innerHTML = applyMarks(shown.length
@@ -607,7 +708,7 @@
     else if (route.view === "notes") html = renderNotes();
     else if (route.view === "about") html = renderAbout();
 
-    view.innerHTML = applyMarks(html);
+    view.innerHTML = applyMarks(resolveLinks(html));
     view.style.animation = "none";
     void view.offsetWidth;
     view.style.animation = "";
@@ -662,12 +763,20 @@
       html += '<h3 class="about-h3"><a href="' + url("about", null, null, tr.id) + '">' +
         esc(tx(tr.title)) + "</a></h3>";
       if (bits.length) html += '<p class="about-meta">' + bits.join(" · ") + "</p>";
-      html += '<ul class="home-poses">';
-      (tr.poses || []).forEach((pose) => {
-        html += '<li><a href="' + url("pose", pose.key) + '">' + esc(tx(pose.name)) +
-          "</a><span>" + esc(tx(pose.verses)) + "</span></li>";
-      });
-      html += "</ul></section>";
+      const poses = tr.poses || [];
+      if (poses.length) {
+        html += '<ul class="home-poses">';
+        poses.forEach((pose) => {
+          html += '<li><a href="' + url("pose", pose.key) + '">' + esc(tx(pose.name)) +
+            "</a><span>" + esc(tx(pose.verses)) + "</span></li>";
+        });
+        html += "</ul>";
+      } else {
+        const summary = ((tr.about && tr.about[state.lang]) || []).find((block) =>
+          block.type === "p");
+        if (summary) html += renderSections([summary]);
+      }
+      html += "</section>";
     });
     html += "</section>";
 
@@ -720,10 +829,15 @@
       html += '<section class="treatise-block">';
       html += '<div class="treatise-head">';
       html += "<h2>" + esc(tx(tr.title)) + "</h2>";
+      // Главы может не быть вовсе: «Йога-каустубха», «Хат̣хайогасам̣хитā»,
+      // «Матсйендра-сам̣хитā» и Даттāтрея-йога-ш́āстра на главы не делятся, и
+      // слово «глава» без номера только делало бы вид, что деление есть.
       const chap = pose.chapter || tr.chapter;
-      html += '<span class="ref">' +
-        esc(tx(tr.chapterWord) || (state.lang === "ru" ? "глава" : "chapter")) +
-        (chap ? " " + esc(chap) : "") + "</span>";
+      if (chap) {
+        html += '<span class="ref">' +
+          esc(tx(tr.chapterWord) || (state.lang === "ru" ? "глава" : "chapter")) +
+          " " + esc(chap) + "</span>";
+      }
       if (multi) {
         html += '<a class="link" href="' + url("about", null, null, tr.id) + '">' +
           esc(t("toAbout")) + "</a>";
@@ -903,7 +1017,7 @@
     }).join("");
   }
 
-  function renderDating(tr) {
+  function renderDating(tr, includeAboutLink = true) {
     const summary = tr.datingSummary;
     const full = tr.dating && tr.dating[state.lang];
     if (!summary && !(full && full.blocks && full.blocks.length)) return "";
@@ -963,8 +1077,10 @@
       html += '<div class="dating-full">';
       html += '<h3 class="dating-full-title">' + esc(full.title) + "</h3>";
       html += renderBlocks(full.blocks);
-      html += '<p class="dating-full-link"><a href="' + url("about", null, null, tr.id) + '">' +
-        esc(t("treatiseAbout")) + " →</a></p>";
+      if (includeAboutLink) {
+        html += '<p class="dating-full-link"><a href="' + url("about", null, null, tr.id) + '">' +
+          esc(t("treatiseAbout")) + " →</a></p>";
+      }
       html += "</div></details>";
     }
 
@@ -1208,19 +1324,25 @@
 
     let html = "";
     let metaPlaced = false;
-    // подпись издания идёт после шапки: титул, строка главы, подзаголовок
+    let datingPlaced = false;
+    // подпись издания и краткая датировка идут после шапки: титул, строка главы, подзаголовок
     let head = 0;
     while (head < blocks.length && (blocks[head].type === "title" || blocks[head].type === "byline")) {
       head += 1;
     }
     blocks.forEach((b, i) => {
       html += renderBlocks([b]);
+      if (!datingPlaced && head > 0 && i === head - 1) {
+        html += renderDating(activeTreatise, false);
+        datingPlaced = true;
+      }
       if (meta && !metaPlaced && i === head - 1) {
         html += '<p class="about-meta">' + meta + "</p>";
         metaPlaced = true;
       }
     });
 
+    if (!datingPlaced) html += renderDating(activeTreatise, false);
     if (!metaPlaced && meta) {
       html = '<p class="about-meta">' + meta + "</p>" + html;
     }
@@ -1239,7 +1361,7 @@
       : null;
     if (pdfHref) {
       html += '<p class="about-p"><a class="back-link" href="' + esc(pdfHref) +
-        '" target="_blank" rel="noopener">' + esc(t("pdf")) + " ↗</a></p>";
+        '" target="_blank" rel="noopener">' + esc(tx(activeTreatise.sourceLinkLabel) || t("pdf")) + " ↗</a></p>";
     }
     // ссылка на вступление — только если оно есть: у «Ма̄насолла̄сы» его нет
     if (activeTreatise.chapter && (activeTreatise.prologue[state.lang] || []).length) {
@@ -1581,11 +1703,21 @@
 
     // 3.1 эры до общей эры и эра Викрамы — раньше чисел, чтобы «г.» попал в оборот
     out = out.replace(/(?<![\p{L}])V\.\s?S\.\s*(?=\d)/gu, W("эра Викрамы ", "Vikrama era "));
+    // «NS 156» — непальская эра в колофонах, то же сокращение эры, что «V. S.».
+    out = out.replace(/(?<![\p{L}])NS\s+(?=\d)/gu, W("непальская эра ", "Nepal era "));
     const afterSentence = /^\s+[«"(\p{Lu}]/u;
+    // «A. D. 900» — сокращение стоит перед годом, и развернуть его на месте
+    // нельзя: получилось бы «нашей эры 900». В цитате из английского оригинала
+    // оно остаётся как напечатано, а в обычной фразе разворачивается только
+    // тогда, когда за ним нет числа.
     out = out.replace(/(?<![\p{L}])A\.\s?D\./gu,
-      (m, off, str) => W("нашей эры", "of the Common Era") + (afterSentence.test(str.slice(off + m.length)) ? "." : ""));
+      (m, off, str) => (/^\s*\d/.test(str.slice(off + m.length)) ? m
+        : W("нашей эры", "of the Common Era") +
+          (afterSentence.test(str.slice(off + m.length)) ? "." : "")));
     out = out.replace(/(?<![\p{L}])B\.\s?C\./gu,
-      (m, off, str) => W("до нашей эры", "before the Common Era") + (afterSentence.test(str.slice(off + m.length)) ? "." : ""));
+      (m, off, str) => (/^\s*\d/.test(str.slice(off + m.length)) ? m
+        : W("до нашей эры", "before the Common Era") +
+          (afterSentence.test(str.slice(off + m.length)) ? "." : "")));
     out = out.replace(/(?<![\p{L}])до\s+н\.\s*э\./giu, "до нашей эры");
     out = out.replace(/(?<![\p{L}])н\.\s*э\./giu,
       (m, off, str) => "нашей эры" + (afterSentence.test(str.slice(off + m.length)) ? "." : ""));
@@ -1627,6 +1759,9 @@
         ["д-ра", "доктора"], ["д-р", "доктор"], ["т.", "том"], ["род.", "родился"],
       ]);
       out = out.replace(/(?<![\p{L}\p{N}])ст\.\s*(?=[«"])/gu, "статья ");
+      // «ст. 67–82» — стихи, не статья: статья стоит только перед кавычками
+      out = out.replace(/(?<![\p{L}\p{N}])ст\.\s*(\d+)\s*([–—-])\s*(\d+)/gu, "стихи $1$2$3");
+      out = out.replace(/(?<![\p{L}\p{N}])ст\.\s*(\d)/gu, "стих $1");
       out = out.replace(/(?<![\p{L}\p{N}])п\.\s*(?=\d)/gu, "пункт ");
       out = out.replace(/(?<![\p{L}\p{N}])л\.\s*(?=\d)/gu, "лист ");
       out = out.replace(/(?<![\p{L}\p{N}])ч\.\s*(?=[IVXLC\d])/gu, "часть ");
@@ -1648,6 +1783,10 @@
         ["lit.", "literally"], ["ind.", "indeclinable"],
         ["imperf.", "imperfect"], ["imperat.", "imperative"], ["pres.", "present"],
         ["opt.", "optative"],
+        ["Jan.", "January"], ["Feb.", "February"], ["Mar.", "March"],
+        ["Apr.", "April"], ["Jun.", "June"], ["Jul.", "July"],
+        ["Aug.", "August"], ["Sept.", "September"], ["Sep.", "September"],
+        ["Oct.", "October"], ["Nov.", "November"], ["Dec.", "December"],
       ]);
     }
 
@@ -1664,6 +1803,8 @@
         : W("Orientalia ", "Orientalia ")));
     out = out.replace(/(?<![\p{L}\p{N}])MSS\.?\s+(?=[\dA-Z])/gu, W("рукописи ", "manuscripts "));
     out = out.replace(/(?<![\p{L}\p{N}])MS\.\s*(?=[\dA-Z])/gu, W("рукопись ", "manuscript "));
+    // «MS Add. 1645», «corpus MS» — то же слово, но без точки.
+    out = out.replace(/(?<![\p{L}\p{N}])MS(?![\p{L}.])\s+/gu, W("рукопись ", "manuscript "));
     out = out.replace(/(?<![\p{L}\p{N}])mss\.\s*/gu, W("рукописи ", "manuscripts "));
     out = out.replace(/(?<![\p{L}\p{N}])ms\.\s*/gu, W("рукопись ", "manuscript "));
     out = out.replace(/(?<![\p{L}\p{N}])Nos\.\s*/gu, W("номера ", "numbers "));
@@ -1675,6 +1816,13 @@
     out = out.replace(/(?<![\p{L}\p{N}])col\.\s*/gu, W("столбец ", "column "));
     out = out.replace(/(?<![\p{L}\p{N}])pp\.\s*/gu, W("страницы ", "pages "));
     out = out.replace(/(?<![\p{L}\p{N}])Pp\.\s*/gu, W("Страницы ", "Pages "));
+    // «стр. 55–56», «p. 55–56», «P. 208»: диапазон — во множественном числе.
+    // «P. Peterson» не трогаем: за сокращением страницы стоит цифра, не имя.
+    out = out.replace(/(?<![\p{L}\p{N}])стр\.\s*(\d+)\s*([–—-])\s*(\d+)/gu, "страницы $1$2$3");
+    out = out.replace(/(?<![\p{L}\p{N}])стр\.\s*(\d)/gu, "страница $1");
+    out = out.replace(/(?<![\p{L}\p{N}])[Pp]\.\s*(\d+)\s*([–—-])\s*(\d+)/gu,
+      (m, a, d, b) => W("страницы ", "pages ") + a + d + b);
+    out = out.replace(/(?<![\p{L}\p{N}])P\.\s*(?=\d)/gu, W("страница ", "page "));
     out = out.replace(/(?<![\p{L}\p{N}])p\.\s*(?=\d|[ivxlc]+\b)/gu, W("страница ", "page "));
     out = out.replace(/(?<![\p{L}\p{N}])vv\.\s*/gu, W("стихи ", "verses "));
     out = out.replace(/(?<![\p{L}\p{N}])v\.\s*(?=\d)/gu, W("стих ", "verse "));
@@ -1686,7 +1834,17 @@
         "folio " + n + (side === "r" ? ", recto" : ", verso")));
     out = out.replace(/(?<![\p{L}\p{N}])(?:f|fol)\.\s*(\d+)(?![\p{L}\d])/gu,
       (m, n) => W("лист " + n, "folio " + n));
-    out = out.replace(/(?<![\p{L}\p{N}])(?:[Ee]d|EDS|Eds)\.\s*/gu, W("издание ", "edited by "));
+    // «(ed.)» — редактор в скобках, а не пустое «издание ».
+    // «2nd ed.» — издание, не «edited by». «ed. 1987» — тоже издание.
+    // «ed. J. Gonda» — под редакцией.
+    out = out.replace(/\(ed\.\)/gi, W("(редактор)", "(editor)"));
+    out = out.replace(/(?<![\p{L}])((?:\d+(?:st|nd|rd|th)|new|revised)\s+)ed\./giu,
+      (m, pre) => pre + W("издание", "edition"));
+    out = out.replace(/(?<![\p{L}\p{N}])[Ee]d\.\s*/gu, (m, off, str) => {
+      const next = str.slice(off + m.length);
+      const word = /^\d/.test(next) ? W("издание", "edition") : W("под редакцией", "edited by");
+      return /^(?:[,.;:)]|$)/.test(next) ? word : word + " ";
+    });
     out = out.replace(/(?<![\p{L}\p{N}])fl\.\s*(?=\d)/gu, W("годы деятельности — ", "flourished "));
 
     // 3.34 «ca.», «n°», «CE»/«BCE»
@@ -1702,25 +1860,31 @@
     out = out.replace(/(?<![\p{L}])DAV(?!\p{L})/gu,
       W("Англо-ведический колледж имени Даянанды", "Dayanand Anglo-Vedic College"));
     out = out.replace(/(?<![\p{L}])GOS(?!\p{L})/gu, "Gaekwad’s Oriental Series");
+    out = out.replace(/(?<![\p{L}])fasc\./giu, W("выпуск", "fascicle"));
 
     // 3.4 годы и века
     if (ru) {
-      out = out.replace(new RegExp("(?<![\\p{L}])((?:" + ruPrep + ")\\s+)(\\d{3,4}[–—-]\\d{3,4})\\s*гг\\.(?!\\p{L})", "giu"),
+      out = out.replace(new RegExp("(?<![\\p{L}])((?:" + ruPrep + ")\\s+)(\\d{3,4}[–—-]\\d{2,4})\\s*гг\\.(?!\\p{L})", "giu"),
         (m, p, r) => p + r + " " + ruYearsForm(p));
       out = out.replace(new RegExp("(?<![\\p{L}])((?:" + ruPrep + ")\\s+)(\\d{3,4})\\s*г\\.(?!\\p{L})", "giu"),
         (m, p, y) => p + y + " " + ruYearForm(p));
+      const ruCenturyForm = (p) => {
+        const k = ruPrepKey(p);
+        return { "в": "веке", "во": "веке", "к": "веку", "ко": "веку", "до": "века",
+          "с": "века", "со": "века", "конца": "века", "начала": "века", "середины": "века",
+          "на": "век", "о": "веке", "об": "веке", "при": "веке",
+          "от": "века", "после": "века", "около": "века" }[k] || "века";
+      };
+      // «не ранее XI–XII в.»: без диапазона правило съедало только «XII в.»
+      // и оставляло «XI–XII век».
+      out = out.replace(new RegExp("(?<![\\p{L}])((?:" + ruPrep + ")\\s+)([IVXLC]+[–—-][IVXLC]+)\\s*в\\.(?![\\p{L}])", "gu"),
+        (m, p, c) => p + c + " " + ruCenturyForm(p));
       out = out.replace(new RegExp("(?<![\\p{L}])((?:" + ruPrep + ")\\s+)([IVXLC]+)\\s*в\\.(?![\\p{L}])", "gu"),
-        (m, p, c) => {
-          const k = ruPrepKey(p);
-          const form = { "в": "веке", "во": "веке", "к": "веку", "ко": "веку", "до": "века",
-            "с": "века", "со": "века", "конца": "века", "начала": "века", "середины": "века",
-            "на": "век", "о": "веке", "об": "веке", "при": "веке",
-            "от": "века", "после": "века", "около": "века" }[k] || "века";
-          return p + c + " " + form;
-        });
+        (m, p, c) => p + c + " " + ruCenturyForm(p));
+      out = out.replace(/(?<![\p{L}])([IVXLC]+[–—-][IVXLC]+)\s*в\.(?![\p{L}])/gu, "$1 века");
       out = out.replace(/(?<![\p{L}])([IVXLC]+(?:[–—-][IVXLC]+)?)\s*вв\.(?![\p{L}])/gu, "$1 века");
       out = out.replace(/(?<![\p{L}])([IVXLC]+)\s*в\.(?![\p{L}])/gu, "$1 век");
-      out = out.replace(/(?<![\p{L}])(\d{3,4}[–—-]\d{3,4})\s*гг\.(?![\p{L}])/gu, "$1 годы");
+      out = out.replace(/(?<![\p{L}])(\d{3,4}[–—-]\d{2,4})\s*гг\.(?![\p{L}])/gu, "$1 годы");
       out = out.replace(/(?<![\p{L}])(\d{3,4})\s*гг\.(?![\p{L}])/gu, "$1 годы");
       out = out.replace(/(издани\p{L}*\s+)(\d{3,4})\s*г\./gu, "$1$2 года");
       out = out.replace(/(?<![\p{L}])(\d{3,4})\s*г\.(?![\p{L}])/gu, "$1 год");
@@ -1744,7 +1908,7 @@
       out = out.replace(/(?<![\p{L}])(\d{1,2}(?:[–—-]\d{1,2})?)\s*вв\.(?![\p{L}])/gu, "$1 века");
       out = out.replace(/(?<![\p{L}])(\d{1,2})\s*в\.(?![\p{L}])/gu, "$1 век");
     } else {
-      out = out.replace(/(?<![\p{L}])(\d{3,4}[–—-]\d{3,4})\s*гг\.(?!\p{L})/gu, "$1 years");
+      out = out.replace(/(?<![\p{L}])(\d{3,4}[–—-]\d{2,4})\s*гг\.(?!\p{L})/gu, "$1 years");
       out = out.replace(/(?<![\p{L}])(\d{3,4})\s*г\.(?!\p{L})/gu, "$1 year");
       out = out.replace(/(?<![\p{L}])([IVXLC]+|\d{1,2})\s*вв\.(?!\p{L})/gu, "$1 centuries");
       out = out.replace(/(?<![\p{L}])([IVXLC]+|\d{1,2})\s*в\.(?!\p{L})/gu, "$1 century");
@@ -1788,6 +1952,12 @@
       out = out.replace(/(?<![\p{L}\p{N}])nn\.\s*(?=\d)/gu, "примечания ");
       out = out.replace(/(?<![\p{L}\p{N}])Dr\.\s*(?=\p{Lu})/gu, "доктор ");
       out = out.replace(/(?<![\p{L}\p{N}])Prof\.\s*(?=\p{Lu})/gu, "профессор ");
+      // «по» — кириллица, и \b её границей не считает
+      out = out.replace(/(?<![\p{L}])([Цц])ит\.\s*(?=по(?![\p{L}]))/gu,
+        (m, c) => (c === "Ц" ? "Цитируется " : "цитируется "));
+      out = out.replace(/(?<=на\s+)рис\.\s*(?=\d)/gu, "рисунке ");
+      out = out.replace(/(?<![\p{L}\p{N}])рис\.\s*(?=\d)/gu, "рисунок ");
+      out = out.replace(/(?<![\p{L}])v\.\s?l\./giu, "вариант чтения");
     }
     if (!ru) {
       out = out.replace(/(?<![\p{L}\p{N}])(?:sg|pl)\.(?![\p{L}])/gu, (m) => (m[0] === "s" ? "singular" : "plural"));

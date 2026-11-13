@@ -1,0 +1,63 @@
+{
+  "id": "acharasaratantra",
+  "about": {
+    "ru": [
+      {
+        "type": "title",
+        "text": "Āчāрасāратантра (Чӣнāчāра; рукопись M00501)"
+      },
+      {
+        "type": "p",
+        "text": "Файл M00501 — составная рукопись: строки 1–1085 содержат четыре главы Хат̣хапрадӣпики, а не Āчāрасāратантру. В самой Āчāрасāре приведена баддхāсана (строка 2623); в приложенном Самайāстотра позы распределены по шести действиям (строки 4742–4744). См. часть IV, § 3.5."
+      }
+    ],
+    "en": [
+      {
+        "type": "title",
+        "text": "Ācārasāratantra (Cīnācāra; manuscript M00501)"
+      },
+      {
+        "type": "p",
+        "text": "M00501 is a composite manuscript: file lines 1–1085 contain four chapters of the Haṭhapradīpikā, not the Ācārasāratantra. The Ācārasāra proper includes baddhāsana (line 2623); in the appended Samayāstotra, postures are distributed over the six acts (lines 4742–4744). See Part IV, section 3.5."
+      }
+    ]
+  },
+  "dating": {
+    "ru": {
+      "title": "Датировка текста",
+      "blocks": [
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Датировка (кто)",
+              "Старейшая датированная рукопись (по источникам выше)"
+            ],
+            [
+              "Датировка Āчāрасāры не указана: исследователи упоминают текст, но нужных сведений не дают; ИИ не искал за пределами источников.",
+              "NGMCP 3-325; дата рукописи не указана"
+            ]
+          ]
+        }
+      ]
+    },
+    "en": {
+      "title": "Dating of the text",
+      "blocks": [
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Dating (by whom)",
+              "Oldest dated manuscript (by the sources above)"
+            ],
+            [
+              "No dating for the Ācārasāra is given: researchers mention the text but provide no needed information; the AI did not search beyond its sources.",
+              "Nepal-German Manuscript Cataloguing Project 3-325; manuscript date not stated"
+            ]
+          ]
+        }
+      ]
+    }
+  }
+}

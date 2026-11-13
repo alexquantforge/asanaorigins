@@ -1,0 +1,63 @@
+{
+  "id": "yoginihrdaya",
+  "about": {
+    "ru": [
+      {
+        "type": "title",
+        "text": "Йогинӣхр̣дайа (с Дӣпикā Амритананды)"
+      },
+      {
+        "type": "p",
+        "text": "Позы: кāмеш́варāн̇капарйан̇ка (1.52) — «ложе», а не поза. Сиденья в Шри-чакре — сāдхйасиддхāсана и другие. Смотрите часть IV, раздел 5 и раздел 7."
+      }
+    ],
+    "en": [
+      {
+        "type": "title",
+        "text": "Yoginīhṛdaya (with Amṛtānanda’s Dīpikā)"
+      },
+      {
+        "type": "p",
+        "text": "Postures: kāmeśvarāṅkaparyaṅka (1.52) — a “couch”, not a posture. Seats in the Śrīcakra — sādhyasiddhāsana and others. See Part IV, section 5 and section 7."
+      }
+    ]
+  },
+  "dating": {
+    "ru": {
+      "title": "Датировка Йогинӣхр̣дайа",
+      "blocks": [
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Основание",
+              "Сведение"
+            ],
+            [
+              "Дата комментатора Амритананды (Goudriaan)",
+              "не позже конца XII — начала XIII в.; [добавлено позже]"
+            ]
+          ]
+        }
+      ]
+    },
+    "en": {
+      "title": "Dating of the Yoginīhṛdaya",
+      "blocks": [
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Basis",
+              "Information"
+            ],
+            [
+              "Date of the commentator Amṛtānanda (Goudriaan)",
+              "not later than the end of the 12th — beginning of the 13th c.; [added later]"
+            ]
+          ]
+        }
+      ]
+    }
+  }
+}

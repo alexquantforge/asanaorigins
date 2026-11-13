@@ -1,0 +1,289 @@
+{
+  "id": "kirana",
+  "about": {
+    "ru": [
+      {
+        "type": "title",
+        "text": "Киран̣а-тантра"
+      },
+      {
+        "type": "p",
+        "text": "перечислены и описаны восемь поз: свастика, падма, ардхачандра, вӣра, йогапат̣т̣а, прасāрита, парйан̇ка, йатхāсам̣стха;"
+      }
+    ],
+    "en": [
+      {
+        "type": "title",
+        "text": "Kiraṇa-tantra"
+      },
+      {
+        "type": "p",
+        "text": "eight postures are listed and described: svastika, padma, ardhacandra, vīra, yogapaṭṭa, prasārita, paryaṅka, yathāsaṃstha;"
+      }
+    ]
+  },
+  "dating": {
+    "ru": {
+      "title": "Датировка текста",
+      "blocks": [
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Датировка (кто)",
+              "Старейшая датированная рукопись (по источникам выше)"
+            ],
+            [
+              "ранняя; позже Ниш́вāса (Sanderson; Goodall)",
+              "Национальный архив Непала, Катманду, рукопись 5-893; 924"
+            ]
+          ]
+        }
+      ]
+    },
+    "en": {
+      "title": "Dating of the text",
+      "blocks": [
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Dating (by whom)",
+              "Oldest dated manuscript (by the sources above)"
+            ],
+            [
+              "early; after the Niśvāsa (Sanderson; Goodall)",
+              "National Archives of Nepal, Kathmandu, manuscript 5-893; 924"
+            ]
+          ]
+        }
+      ]
+    }
+  },
+  "poses": [
+    {
+      "key": "svastikasana",
+      "iast": "Svastika",
+      "number": 1,
+      "name": {
+        "ru": "Свастика",
+        "en": "Svastika"
+      },
+      "verses": {
+        "ru": "Киран̣а-тантра 58",
+        "en": "Kiraṇa-tantra 58"
+      },
+      "text": {
+        "ru": [
+          {
+            "type": "p",
+            "text": "перечислены и описаны восемь поз: свастика, падма, ардхачандра, вӣра, йогапат̣т̣а, прасāрита, парйан̇ка, йатхāсам̣стха;"
+          }
+        ],
+        "en": [
+          {
+            "type": "p",
+            "text": "eight postures are listed and described: svastika, padma, ardhacandra, vīra, yogapaṭṭa, prasārita, paryaṅka, yathāsaṃstha;"
+          }
+        ]
+      }
+    },
+    {
+      "key": "padmasana",
+      "iast": "Padma",
+      "number": 2,
+      "name": {
+        "ru": "Падма",
+        "en": "Padma"
+      },
+      "verses": {
+        "ru": "Киран̣а-тантра 58",
+        "en": "Kiraṇa-tantra 58"
+      },
+      "text": {
+        "ru": [
+          {
+            "type": "p",
+            "text": "перечислены и описаны восемь поз: свастика, падма, ардхачандра, вӣра, йогапат̣т̣а, прасāрита, парйан̇ка, йатхāсам̣стха;"
+          }
+        ],
+        "en": [
+          {
+            "type": "p",
+            "text": "eight postures are listed and described: svastika, padma, ardhacandra, vīra, yogapaṭṭa, prasārita, paryaṅka, yathāsaṃstha;"
+          }
+        ]
+      }
+    },
+    {
+      "key": "ardhacandrasana",
+      "iast": "Ardhacandra",
+      "number": 3,
+      "name": {
+        "ru": "Ардхачандра",
+        "en": "Ardhacandra"
+      },
+      "verses": {
+        "ru": "Киран̣а-тантра 58",
+        "en": "Kiraṇa-tantra 58"
+      },
+      "text": {
+        "ru": [
+          {
+            "type": "p",
+            "text": "перечислены и описаны восемь поз: свастика, падма, ардхачандра, вӣра, йогапат̣т̣а, прасāрита, парйан̇ка, йатхāсам̣стха;"
+          }
+        ],
+        "en": [
+          {
+            "type": "p",
+            "text": "eight postures are listed and described: svastika, padma, ardhacandra, vīra, yogapaṭṭa, prasārita, paryaṅka, yathāsaṃstha;"
+          }
+        ]
+      }
+    },
+    {
+      "key": "virasana",
+      "iast": "Vīra",
+      "number": 4,
+      "name": {
+        "ru": "Вӣра",
+        "en": "Vīra"
+      },
+      "verses": {
+        "ru": "Киран̣а-тантра 58",
+        "en": "Kiraṇa-tantra 58"
+      },
+      "text": {
+        "ru": [
+          {
+            "type": "p",
+            "text": "перечислены и описаны восемь поз: свастика, падма, ардхачандра, вӣра, йогапат̣т̣а, прасāрита, парйан̇ка, йатхāсам̣стха;"
+          }
+        ],
+        "en": [
+          {
+            "type": "p",
+            "text": "eight postures are listed and described: svastika, padma, ardhacandra, vīra, yogapaṭṭa, prasārita, paryaṅka, yathāsaṃstha;"
+          }
+        ]
+      }
+    },
+    {
+      "key": "yogapatta",
+      "iast": "Yogapaṭṭa",
+      "number": 5,
+      "name": {
+        "ru": "Йогапат̣т̣а",
+        "en": "Yogapaṭṭa"
+      },
+      "verses": {
+        "ru": "Киран̣а-тантра 58",
+        "en": "Kiraṇa-tantra 58"
+      },
+      "text": {
+        "ru": [
+          {
+            "type": "p",
+            "text": "перечислены и описаны восемь поз: свастика, падма, ардхачандра, вӣра, йогапат̣т̣а, прасāрита, парйан̇ка, йатхāсам̣стха;"
+          },
+          {
+            "type": "p",
+            "text": "йогапат̣т̣а (поза или пояс-перевязь)"
+          }
+        ],
+        "en": [
+          {
+            "type": "p",
+            "text": "eight postures are listed and described: svastika, padma, ardhacandra, vīra, yogapaṭṭa, prasārita, paryaṅka, yathāsaṃstha;"
+          },
+          {
+            "type": "p",
+            "text": "yogapaṭṭa (a posture or a strap/band)"
+          }
+        ]
+      }
+    },
+    {
+      "key": "prasaritasana",
+      "iast": "Prasārita",
+      "number": 6,
+      "name": {
+        "ru": "Прасāрита",
+        "en": "Prasārita"
+      },
+      "verses": {
+        "ru": "Киран̣а-тантра 58",
+        "en": "Kiraṇa-tantra 58"
+      },
+      "text": {
+        "ru": [
+          {
+            "type": "p",
+            "text": "перечислены и описаны восемь поз: свастика, падма, ардхачандра, вӣра, йогапат̣т̣а, прасāрита, парйан̇ка, йатхāсам̣стха;"
+          }
+        ],
+        "en": [
+          {
+            "type": "p",
+            "text": "eight postures are listed and described: svastika, padma, ardhacandra, vīra, yogapaṭṭa, prasārita, paryaṅka, yathāsaṃstha;"
+          }
+        ]
+      }
+    },
+    {
+      "key": "paryanka",
+      "iast": "Paryaṅka",
+      "number": 7,
+      "name": {
+        "ru": "Парйан̇ка",
+        "en": "Paryaṅka"
+      },
+      "verses": {
+        "ru": "Киран̣а-тантра 58",
+        "en": "Kiraṇa-tantra 58"
+      },
+      "text": {
+        "ru": [
+          {
+            "type": "p",
+            "text": "перечислены и описаны восемь поз: свастика, падма, ардхачандра, вӣра, йогапат̣т̣а, прасāрита, парйан̇ка, йатхāсам̣стха;"
+          }
+        ],
+        "en": [
+          {
+            "type": "p",
+            "text": "eight postures are listed and described: svastika, padma, ardhacandra, vīra, yogapaṭṭa, prasārita, paryaṅka, yathāsaṃstha;"
+          }
+        ]
+      }
+    },
+    {
+      "key": "yathasamstha",
+      "iast": "Yathāsaṃstha",
+      "number": 8,
+      "name": {
+        "ru": "Йатхāсам̣стха",
+        "en": "Yathāsaṃstha"
+      },
+      "verses": {
+        "ru": "Киран̣а-тантра 58",
+        "en": "Kiraṇa-tantra 58"
+      },
+      "text": {
+        "ru": [
+          {
+            "type": "p",
+            "text": "перечислены и описаны восемь поз: свастика, падма, ардхачандра, вӣра, йогапат̣т̣а, прасāрита, парйан̇ка, йатхāсам̣стха;"
+          }
+        ],
+        "en": [
+          {
+            "type": "p",
+            "text": "eight postures are listed and described: svastika, padma, ardhacandra, vīra, yogapaṭṭa, prasārita, paryaṅka, yathāsaṃstha;"
+          }
+        ]
+      }
+    }
+  ]
+}

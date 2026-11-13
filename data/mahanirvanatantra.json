@@ -1,0 +1,63 @@
+{
+  "id": "mahanirvanatantra",
+  "about": {
+    "ru": [
+      {
+        "type": "title",
+        "text": "Махāнирвāн̣атантра"
+      },
+      {
+        "type": "p",
+        "text": "3.51 — баддхападмāсанāдӣни; комментарий добавляет муктападмāсану. См. часть IV, § 3.6."
+      }
+    ],
+    "en": [
+      {
+        "type": "title",
+        "text": "Mahānirvāṇatantra"
+      },
+      {
+        "type": "p",
+        "text": "Verse 3.51 includes baddhapadmāsanādīni; the commentary adds muktapadmāsana. See Part IV, section 3.6."
+      }
+    ]
+  },
+  "dating": {
+    "ru": {
+      "title": "Датировка текста",
+      "blocks": [
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Датировка (кто)",
+              "Старейшая датированная рукопись (по источникам выше)"
+            ],
+            [
+              "Почти несомненно — 2-я половина XVIII в. (Goudriaan); XVIII в. (Farquhar); 1773–1780 гг. (Derrett). Bhāratī без аргументов называет также XI и VII вв.",
+              "нет: ИИ не искал за пределами своих источников"
+            ]
+          ]
+        }
+      ]
+    },
+    "en": {
+      "title": "Dating of the text",
+      "blocks": [
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Dating (by whom)",
+              "Oldest dated manuscript (by the sources above)"
+            ],
+            [
+              "Almost certainly the 2nd half of the 18th c. (Goudriaan); 18th c. (Farquhar); 1773–1780 (Derrett). Bhāratī also gives 11th- and 7th-c. dates without argument.",
+              "none: the AI did not search beyond its sources"
+            ]
+          ]
+        }
+      ]
+    }
+  }
+}

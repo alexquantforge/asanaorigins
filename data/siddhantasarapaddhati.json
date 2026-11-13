@@ -1,0 +1,63 @@
+{
+ "id": "siddhantasarapaddhati",
+ "about": {
+  "ru": [
+   {
+    "type": "title",
+    "text": "Сиддхāнтасāрападдхати (Бходжадева)"
+   },
+   {
+    "type": "p",
+    "text": "Каран̣а указана как параллель по Кафле; в ежедневном обряде также упомянуты прāн̣āйāма и сакалӣкаран̣а. См. часть IV, §§ 4.2 и 11."
+   }
+  ],
+  "en": [
+   {
+    "type": "title",
+    "text": "Siddhāntasārapaddhati (Bhojadeva)"
+   },
+   {
+    "type": "p",
+    "text": "Karaṇa is cited as a parallel per Kafle; prāṇāyāma and sakalīkaraṇa are also mentioned in the daily rite. See Part IV, sections 4.2 and 11."
+   }
+  ]
+ },
+ "dating": {
+  "ru": {
+   "title": "Датировка текста",
+   "blocks": [
+    {
+     "type": "table",
+     "rows": [
+      [
+       "Датировка (кто)",
+       "Старейшая датированная рукопись (по источникам выше)"
+      ],
+      [
+       "Бходжа, правление ок. 1018–1060 гг. (Sanderson)",
+       "Sanderson датирует NAK 1-1363 1077/8 г., а NAK 5-743 — 1111/2 г. Muktabodha указывает, что электронный текст набран с NAK 5-743, но называет эту рукопись недатированной."
+      ]
+     ]
+    }
+   ]
+  },
+  "en": {
+   "title": "Dating of the text",
+   "blocks": [
+    {
+     "type": "table",
+     "rows": [
+      [
+       "Dating (by whom)",
+       "Oldest dated manuscript (by the sources above)"
+      ],
+      [
+       "Bhoja, reign c. 1018–1060 (Sanderson)",
+       "Sanderson: NAK 1-1363, 1077/8; NAK 5-743, 1111/2. Muktabodha calls the NAK 5-743 manuscript used for its e-text undated."
+      ]
+     ]
+    }
+   ]
+  }
+ }
+}

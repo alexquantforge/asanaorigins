@@ -36,6 +36,8 @@ import pymupdf
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from script_mix import scan  # noqa: E402  (проверка «одно слово — один алфавит»)
+import diacritics  # noqa: E402  (диакритика терминов и названий поз)
+import script_mix  # noqa: E402  (одно слово — один алфавит)
 
 # Буквы-двойники: в томах встречаются опечатки набора, когда внутри
 # кириллического слова набрана латинская буква («кучe», «камаṭӣ»). Карта
@@ -799,6 +801,9 @@ def main() -> int:
     fixes = apply_script_fix(data)
     for line in fixes:
         print("смешанное слово исправлено:" + line)
+    # диакритика в терминах и названиях поз — по карте проекта
+    data = script_mix.fix_value(data)   # одно слово — один алфавит
+    data = diacritics.fix_document(data)
     text = json.dumps(data, ensure_ascii=False, indent=1) + "\n"
     if "--check" in sys.argv:
         have = OUT.read_text(encoding="utf-8") if OUT.exists() else ""

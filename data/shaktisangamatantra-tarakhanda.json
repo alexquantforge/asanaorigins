@@ -1,0 +1,63 @@
+{
+  "id": "shaktisangamatantra-tarakhanda",
+  "about": {
+    "ru": [
+      {
+        "type": "title",
+        "text": "Ш́актисан̇гаматантра, Тāрāкхан̣д̣а"
+      },
+      {
+        "type": "p",
+        "text": "В M00119 (строки файла 1475–1611, 4107 и 4122) упомянуты вӣрāсана, махāвӣрāсана и пан̃чавӣрāсана. В шактийском контексте вӣрāсана может обозначать ритуальное сиденье героя, в том числе на трупе. См. часть IV, § 3.6."
+      }
+    ],
+    "en": [
+      {
+        "type": "title",
+        "text": "Śaktisaṅgamatantra, Tārākhaṇḍa"
+      },
+      {
+        "type": "p",
+        "text": "M00119 (file lines 1475–1611, 4107 and 4122) mentions vīrāsana, mahāvīrāsana and pañcavīrāsana. In a Śākta context, vīrāsana may denote the hero’s ritual seat, including on a corpse. See Part IV, section 3.6."
+      }
+    ]
+  },
+  "dating": {
+    "ru": {
+      "title": "Датировка текста",
+      "blocks": [
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Датировка (кто)",
+              "Старейшая датированная рукопись (по источникам выше)"
+            ],
+            [
+              "Б. Бхат̣т̣āчāрйа: между ок. 1555 и 1607 гг.; В. В. Двиведа: 1645 г.; Гудриан считает обе даты ненадёжными, но относит текст к концу XVI — первой половине XVII в.",
+              "нет: ИИ не искал за пределами своих источников"
+            ]
+          ]
+        }
+      ]
+    },
+    "en": {
+      "title": "Dating of the text",
+      "blocks": [
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Dating (by whom)",
+              "Oldest dated manuscript (by the sources above)"
+            ],
+            [
+              "B. Bhaṭṭācārya: between c. 1555 and 1607; V. V. Dviveda: 1645; Goudriaan considers both dates unreliable but places the text in the late 16th–first half of the 17th c.",
+              "none: the AI did not search beyond its sources"
+            ]
+          ]
+        }
+      ]
+    }
+  }
+}

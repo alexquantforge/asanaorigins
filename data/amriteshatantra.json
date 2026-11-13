@@ -1,0 +1,71 @@
+{
+  "id": "amriteshatantra",
+  "about": {
+    "ru": [
+      {
+        "type": "title",
+        "text": "Амр̣теш́атантра (рукопись Нетратантра 1101 г.)"
+      },
+      {
+        "type": "p",
+        "text": "Материал о йогических позах: часть IV, § 1.4. Отдельно в иконографии (§ 5) — Будда в падмāсана (Нетратантра 13.34; Амр̣теш́атантра)."
+      }
+    ],
+    "en": [
+      {
+        "type": "title",
+        "text": "Amṛteśatantra (the Netratantra manuscript of 1101)"
+      },
+      {
+        "type": "p",
+        "text": "Postures: see Part IV, section 1.4 and section 5 (the Buddha in padmāsana)."
+      }
+    ]
+  },
+  "dating": {
+    "ru": {
+      "title": "Датировка рукописи Амр̣теш́а",
+      "blocks": [
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Объект",
+              "Сведение"
+            ],
+            [
+              "Связь текста",
+              "= Нетра"
+            ],
+            [
+              "Рукопись Амр̣теш́а",
+              "320 г. непальской эры (= 1101 по Muktabodha / 1200 по Goudriaan & Gupta 1981). Это датировка рукописи."
+            ]
+          ]
+        }
+      ]
+    },
+    "en": {
+      "title": "Dating of the Amṛteśa manuscript",
+      "blocks": [
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Scope",
+              "Information"
+            ],
+            [
+              "Textual identity",
+              "= Netra"
+            ],
+            [
+              "Amṛteśa manuscript",
+              "Nepal Era 320 (= 1101 according to Muktabodha / 1200 according to Goudriaan & Gupta 1981). This dates the manuscript."
+            ]
+          ]
+        }
+      ]
+    }
+  }
+}

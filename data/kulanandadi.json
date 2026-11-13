@@ -1,0 +1,63 @@
+{
+  "id": "kulanandadi",
+  "about": {
+    "ru": [
+      {
+        "type": "title",
+        "text": "Кулāнандāди"
+      },
+      {
+        "type": "p",
+        "text": "Пӯрвāмукха уттарāмукхам̣ вā падмāсанам̣ вадхвā: предписание принять падмāсану лицом на восток или север (Muktabodha M00284, строка файла 451). См. часть IV, § 3.6."
+      }
+    ],
+    "en": [
+      {
+        "type": "title",
+        "text": "Kulānandādi"
+      },
+      {
+        "type": "p",
+        "text": "pūrvāmukha uttarāmukhaṃ vā padmāsanaṃ vadhvā: the instruction is to bind the padmāsana facing east or north (Muktabodha M00284, file line 451). See Part IV, section 3.6."
+      }
+    ]
+  },
+  "dating": {
+    "ru": {
+      "title": "Датировка текста",
+      "blocks": [
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Датировка (кто)",
+              "Старейшая датированная рукопись (по источникам выше)"
+            ],
+            [
+              "Muktabodha называет Кулāнанду ранним каульским сочинением, без века; рукопись Кулāнанды датируется XIV–XV вв. (Bagchi по Goudriaan). Это датировка компонента, не всего комплекса Кулāнандāди.",
+              "рукопись Кулāнанды, XIV–XV вв. (Bagchi по Goudriaan)"
+            ]
+          ]
+        }
+      ]
+    },
+    "en": {
+      "title": "Dating of the text",
+      "blocks": [
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Dating (by whom)",
+              "Oldest dated manuscript (by the sources above)"
+            ],
+            [
+              "Muktabodha calls Kulānanda an early Kaula work but gives no century; a Kulānanda manuscript is dated to the 14th–15th c. (Bagchi via Goudriaan). This dates a component, not the entire Kulānandādi complex.",
+              "Kulānanda manuscript, 14th–15th c. (Bagchi via Goudriaan)"
+            ]
+          ]
+        }
+      ]
+    }
+  }
+}

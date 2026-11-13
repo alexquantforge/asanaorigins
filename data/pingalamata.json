@@ -1,0 +1,63 @@
+{
+  "id": "pingalamata",
+  "about": {
+    "ru": [
+      {
+        "type": "title",
+        "text": "Пин̇галāмата (Джайадратхāдхикāра; Пратишт̣хāкалпа)"
+      },
+      {
+        "type": "p",
+        "text": "Позы: иконографические — падмāсана, вӣрāсана, йогāсана, екапāда, Будда в падмāсана (часть IV, раздел 5)."
+      }
+    ],
+    "en": [
+      {
+        "type": "title",
+        "text": "Piṅgalāmata (Jayadrathādhikāra; Pratiṣṭhākalpa)"
+      },
+      {
+        "type": "p",
+        "text": "Postures: iconographic ones — padmāsana, vīrāsana, yogāsana, ekapāda, the Buddha in padmāsana (Part IV, section 5)."
+      }
+    ]
+  },
+  "dating": {
+    "ru": {
+      "title": "Датировка текста",
+      "blocks": [
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Датировка (кто)",
+              "Старейшая датированная рукопись (по источникам выше)"
+            ],
+            [
+              "[добавлено позже] известна до конца XI в. (Sanderson); точной даты нет: исследователи упоминают текст, но нужных сведений не дают, нужная работа ИИ недоступна (Mills 2010)",
+              "Национальный архив Непала, Катманду, рукопись 3-376; 1174"
+            ]
+          ]
+        }
+      ]
+    },
+    "en": {
+      "title": "Dating of the text",
+      "blocks": [
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Dating (by whom)",
+              "Oldest dated manuscript (by the sources above)"
+            ],
+            [
+              "[added later] known until the end of the 11th c. (Sanderson); no precise date: the researchers mention the text but do not give the needed information, the needed work is not accessible to the AI (Mills 2010)",
+              "National Archives of Nepal, Kathmandu, manuscript 3-376; 1174"
+            ]
+          ]
+        }
+      ]
+    }
+  }
+}

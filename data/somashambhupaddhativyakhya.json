@@ -1,0 +1,63 @@
+{
+ "id": "somashambhupaddhativyakhya",
+ "about": {
+  "ru": [
+   {
+    "type": "title",
+    "text": "Сомаш́амбхупаддхати-вйāкхйā (Трилочанаш́ива)"
+   },
+   {
+    "type": "p",
+    "text": "Баддхавӣрāсана предписана при еде, с цитатой из Киран̣а-тантра; среди запретов при еде указана ауткут̣йа («сидение на корточках»). Это ритуальное указание о положении во время трапезы, а не отдельное описание асаны. См. часть IV, §§ 1.10 и 4.2."
+   }
+  ],
+  "en": [
+   {
+    "type": "title",
+    "text": "Somaśambhupaddhati-vyākhyā (Trilocanaśiva)"
+   },
+   {
+    "type": "p",
+    "text": "Baddhavīrāsana is prescribed while eating, with a quotation from the Kiraṇa-tantra; autkuṭya (“squatting”) is among the prohibitions while eating. This is a ritual instruction for posture during a meal, not a separate āsana description. See Part IV, sections 1.10 and 4.2."
+   }
+  ]
+ },
+ "dating": {
+  "ru": {
+   "title": "Датировка текста",
+   "blocks": [
+    {
+     "type": "table",
+     "rows": [
+      [
+       "Датировка (кто)",
+       "Старейшая датированная рукопись (по источникам выше)"
+      ],
+      [
+       "Трилочанаш́ива, комментатор, — XII в. (Sanderson); Сомаш́амбху написал основную паддхати в XI в., вероятно в 1073 г. (Sanderson).",
+       "нет: ИИ не искал за пределами своих источников"
+      ]
+     ]
+    }
+   ]
+  },
+  "en": {
+   "title": "Dating of the text",
+   "blocks": [
+    {
+     "type": "table",
+     "rows": [
+      [
+       "Dating (by whom)",
+       "Oldest dated manuscript (by the sources above)"
+      ],
+      [
+       "Trilocanaśiva, the commentator, — 12th c. (Sanderson); Somaśambhu composed the underlying paddhati in the 11th c., probably in 1073 (Sanderson).",
+       "none: the AI did not search beyond its sources"
+      ]
+     ]
+    }
+   ]
+  }
+ }
+}

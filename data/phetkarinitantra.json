@@ -1,0 +1,63 @@
+{
+  "id": "phetkarinitantra",
+  "about": {
+    "ru": [
+      {
+        "type": "title",
+        "text": "Пхеткāрин̣ӣтантра"
+      },
+      {
+        "type": "p",
+        "text": "3/180–182 — позы для шести действий, включая ардхасвастику. См. часть IV, § 3.4."
+      }
+    ],
+    "en": [
+      {
+        "type": "title",
+        "text": "Phetkāriṇītantra"
+      },
+      {
+        "type": "p",
+        "text": "Passages 3/180–182 give postures for the six acts, including ardhasvastika. See Part IV, section 3.4."
+      }
+    ]
+  },
+  "dating": {
+    "ru": {
+      "title": "Датировка текста",
+      "blocks": [
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Датировка (кто)",
+              "Старейшая датированная рукопись (по источникам выше)"
+            ],
+            [
+              "Таблица датировок объединяет позиции 45a–c. Позднее добавленное общее указание: после Шаш́ватавāджры (конец X — начало XI в.); упоминание у Сарвāнанданāтхи (XV в.); предположительно до ок. 1200 (Sanderson); ядро, возможно, старше (Goudriaan). Это указание не распределено между Пхеткāрин̣ӣ, Бр̣ханнӣлой и Меру.",
+              "нет: ИИ не искал за пределами своих источников"
+            ]
+          ]
+        }
+      ]
+    },
+    "en": {
+      "title": "Dating of the text",
+      "blocks": [
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Dating (by whom)",
+              "Oldest dated manuscript (by the sources above)"
+            ],
+            [
+              "The dating table groups nos. 45a–c. Its later-added shared note places the group after Śāśvatavajra (late 10th–early 11th c.), notes mention by Sarvānandanātha (15th c.), gives a tentative “before c. 1200” (Sanderson), and says the core may be older (Goudriaan). The note is not assigned among Phetkāriṇī, Bṛhannīla and Meru.",
+              "none: the AI did not search beyond its sources"
+            ]
+          ]
+        }
+      ]
+    }
+  }
+}

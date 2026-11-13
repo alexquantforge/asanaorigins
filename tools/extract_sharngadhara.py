@@ -39,6 +39,9 @@ from pathlib import Path
 
 import pymupdf
 
+import diacritics  # диакритика терминов и названий поз
+import script_mix  # одно слово — один алфавит
+
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "data" / "sharngadharapaddhati.json"
 
@@ -857,6 +860,8 @@ def main() -> None:
         for line in missing[:8]:
             print("     не найдено:", line)
 
+    data = script_mix.fix_value(data)   # одно слово — один алфавит
+    data = diacritics.fix_document(data)
     OUT.write_text(json.dumps(data, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
     print("записано:", OUT.relative_to(ROOT))
 

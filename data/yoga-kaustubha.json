@@ -12,7 +12,7 @@
    },
    {
     "type": "p",
-    "text": "Источник определяет āсану как то, благодаря чему достигаются устойчивость и удобство; приписывает Āдинāтхе (Ш́иве) 8 400 000 разновидностей поз и приводит восемьдесят четыре. В книге говорится, что освоение позы облегчает сдерживание ума и жизненного дыхания."
+    "text": "Источник определяет āсану как то, благодаря чему достигаются устойчивость и удобство; приписывает Āдинāтхе (Ш́иве) 8 400 000 разновидностей поз и приводит восемьдесят четыре, а также добавляет, что освоение позы облегчает сдерживание ума и жизненного дыхания."
    }
   ],
   "en": [
@@ -22,7 +22,7 @@
    },
    {
     "type": "p",
-    "text": "The source defines āsana as that through which steadiness and ease are attained; it credits Ādinātha (Śiva) with 8,400,000 kinds of posture and presents eighty-four. It says that mastery of posture makes restraint of the mind and vital breath easier."
+    "text": "The source defines āsana as that through which steadiness and ease are attained; it credits Ādinātha (Śiva) with 8,400,000 kinds of posture and presents eighty-four, and adds that mastery of posture makes restraint of the mind and vital breath easier."
    }
   ]
  },
@@ -172,11 +172,15 @@
      "en": "not equated with a Gregorian year"
     },
     "work": {
-     "ru": "На титульном листе указаны годы эры ш́ака 1811 и сам̣ват 1946. Без дополнительного календарного уточнения эти даты здесь не приравниваются к одному григорианскому году. Неясные чтения и исправления отмечены в текстологических примечаниях.",
-     "en": "The title page gives Śaka 1811 and Saṃvat 1946. Without further calendar clarification, these dates are not equated here with a single Gregorian year. Textual notes identify uncertain readings and corrections."
+     "ru": "На титульном листе указаны годы эры ш́ака 1811 и сам̣ват 1946. Без дополнительного календарного уточнения эти даты здесь не приравниваются к одному григорианскому году.",
+     "en": "The title page gives Śaka 1811 and Saṃvat 1946. Without further calendar clarification, these dates are not equated here with a single Gregorian year."
     }
    }
-  ]
+  ],
+  "note2": {
+   "ru": "Пересчёт по эрам — это наш расчёт, а не слова тома. Ш́ака 1811: 1811 + 78 = 1889 для месяцев от начала года до декабря и 1811 + 79 = 1890 для января–февраля. Сам̣ват 1946: 1946 − 57 = 1889 и 1946 − 56 = 1890 — при том же начале года; в Гуджарате обычен викрама-сам̣ват со счётом от чаитры, но том этого не уточняет. Обе даты дают один и тот же промежуток, март 1889 — март 1890, и расходятся ровно на 135 лет, как и сами эры: титульный лист сам себе не противоречит. Но ни месяца, ни дня на нём нет, поэтому один год назвать нельзя.",
+   "en": "The conversion is our arithmetic, not the volume’s words. Śaka 1811: 1811 + 78 = 1889 for the months from the start of the year to December, and 1811 + 79 = 1890 for January–February. Saṃvat 1946: 1946 − 57 = 1889 and 1946 − 56 = 1890, assuming the same start of the year; in Gujarat the Vikrama saṃvat counted from Caitra is the usual reckoning, but the volume does not say so. Both dates give the same span, March 1889 to March 1890, and differ by exactly 135 years, as the eras themselves do: the title page does not contradict itself. But neither month nor day is printed on it, so no single year can be named."
+  }
  },
  "poses": [
   {
@@ -235,8 +239,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Буквальный перевод (наш подстрочник)",
+      "paragraphs": [
+       "Левую ногу, положив поперёк, её пятку в промежность (часть между основанием яичек и отверстием заднего прохода) поместить, а пятку правой ноги над половым органом поместив, шею слегка книзу наклонив, прямое и неподвижное положение приняв, сесть; и взгляд в трикут̣ӣ держать."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "Перевод",
+      "label": "Литературный перевод (наш)",
       "paragraphs": [
        "Положив левую ногу поперёк, поместите её пятку в промежность — область между основанием яичек и заднепроходным отверстием. Пятку правой ноги положите над половым органом. Слегка наклоните шею вниз и сядьте прямо и неподвижно; взгляд удерживайте между бровями."
       ]
@@ -270,11 +282,27 @@
       ]
      },
      {
+      "type": "words",
+      "key": "words",
+      "label": "Пословный разбор (наш)",
+      "paragraphs": [
+       "ā — эти; siddhāsananāṃ — Сиддхāсаны (родительный падеж); vajrāsana — Ваджрāсана; guptāsana — Гуптāсана; ne — и; muktāsana — Муктāсана; evāṃ — такие; bījāṃ — другие; nāmo — имена; paṇa — тоже; che — есть."
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "literal",
+      "label": "Буквальный перевод (наш подстрочник)",
+      "paragraphs": [
+       "У этой Сиддхāсаны есть и другие имена: Ваджрāсана, Гуптāсана и Муктāсана."
+      ]
+     },
+     {
       "type": "prose",
       "key": "addtr",
-      "label": "Дополнительный пассаж — перевод",
+      "label": "Дополнительный пассаж — перевод (наш)",
       "paragraphs": [
-       "Книга также называет Сиддхāсану Ваджрāсаной, Гуптāсаной и Муктāсаной."
+       "Сиддхāсану называют также Ваджрāсаной, Гуптāсаной и Муктāсаной."
       ]
      },
      {
@@ -306,11 +334,27 @@
       ]
      },
      {
+      "type": "words",
+      "key": "words",
+      "label": "Пословный разбор (наш)",
+      "paragraphs": [
+       "ā āsane besavāthī — от сидения в этой āсане; śarīra — тело; sīdhuṃ — прямым; rahe che — остаётся; śvāsocchavāsa — вдох и выдох; sīdho — ровным; cāle che — идёт; dehane — телу; kaṣṭa — страдание; dīdhā vagara — не давая; vadhāre — больше; mudata — срок; sudhī — до; besī — сидя; śakāya che — можно; vṛtti — деятельность ума; sthira — устойчивой; thāya che — становится; ne — и; lohī — кровь; barābara — правильно; pharavāthī — от обращения; śarīra — тело; nirogī — без болезни; rahe che — остаётся."
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "literal",
+      "label": "Буквальный перевод (наш подстрочник)",
+      "paragraphs": [
+       "Сидением в этой āсане тело остаётся прямым; дыхание идёт ровно; можно сидеть долго, не причиняя телу страдания; деятельность ума становится устойчивой; и, поскольку кровь движется правильно, тело остаётся здоровым."
+      ]
+     },
+     {
       "type": "prose",
       "key": "efftr",
-      "label": "Традиционный эффект — перевод",
+      "label": "Традиционный эффект — перевод (наш)",
       "paragraphs": [
-       "В книге говорится, что сидение в этой позе сохраняет тело прямым, делает дыхание ровным, позволяет долго сидеть без телесного дискомфорта, делает ум устойчивым и сохраняет здоровье благодаря правильному движению крови."
+       "Сидение в этой позе сохраняет тело прямым, делает дыхание ровным, позволяет долго сидеть без телесного дискомфорта, делает ум устойчивым и сохраняет здоровье благодаря правильному движению крови."
       ]
      }
     ],
@@ -353,8 +397,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Literal translation (our interlinear)",
+      "paragraphs": [
+       "The left leg, placing it sideways, its heel in the perineum (the part between the root of the testicles and the opening of the anus) to place, and the heel of the right leg above the genitals placing, the neck slightly downward inclining, a straight and motionless position having made, sit; and the gaze in the trikuṭī to keep."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "English translation",
+      "label": "Literary translation (ours)",
       "paragraphs": [
        "“Putting the left foot sideways, its heel should be placed in the perineum (the area between the root of the testicles and the anus), and the heel of the right foot should be placed above the genitals. Slightly tilting your neck down, you should sit down, taking a straight and motionless position; and the gaze should be kept at Trikuṭī (between the eyebrows).”"
       ]
@@ -388,11 +440,27 @@
       ]
      },
      {
+      "type": "words",
+      "key": "words",
+      "label": "Word-by-word analysis (ours)",
+      "paragraphs": [
+       "ā — these; siddhāsananāṃ — of Siddhāsana (genitive); vajrāsana — Vajrāsana; guptāsana — Guptāsana; ne — and; muktāsana — Muktāsana; evāṃ — such; bījāṃ — other; nāmo — names; paṇa — also; che — are."
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "literal",
+      "label": "Literal translation (our interlinear)",
+      "paragraphs": [
+       "Of this Siddhāsana there are also other names: Vajrāsana, Guptāsana and Muktāsana."
+      ]
+     },
+     {
       "type": "prose",
       "key": "addtr",
-      "label": "Additional passage — English",
+      "label": "Additional passage — English (ours)",
       "paragraphs": [
-       "The book also gives Vajrāsana, Guptāsana and Muktāsana as other names of Siddhāsana."
+       "Vajrāsana, Guptāsana and Muktāsana are also given as other names of Siddhāsana."
       ]
      },
      {
@@ -424,11 +492,27 @@
       ]
      },
      {
+      "type": "words",
+      "key": "words",
+      "label": "Word-by-word analysis (ours)",
+      "paragraphs": [
+       "ā āsane besavāthī — from sitting in this posture; śarīra — the body; sīdhuṃ — straight; rahe che — remains; śvāsocchavāsa — inhalation and exhalation; sīdho — even; cāle che — proceeds; dehane — to the body; kaṣṭa — pain; dīdhā vagara — without giving; vadhāre — more; mudata — a span; sudhī — up to; besī — sitting; śakāya che — it is possible; vṛtti — the activity of the mind; sthira — steady; thāya che — becomes; ne — and; lohī — blood; barābara — properly; pharavāthī — from circulating; śarīra — the body; nirogī — free of illness; rahe che — remains."
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "literal",
+      "label": "Literal translation (our interlinear)",
+      "paragraphs": [
+       "By sitting in this posture the body stays straight; breathing goes evenly; one can sit for a long time without giving the body pain; the activity of the mind becomes steady; and, since the blood moves properly, the body stays free of illness."
+      ]
+     },
+     {
       "type": "prose",
       "key": "efftr",
-      "label": "Traditional effect — English",
+      "label": "Traditional effect — English (ours)",
       "paragraphs": [
-       "The book says that sitting in this posture keeps the body straight, makes breathing regular, permits prolonged sitting without bodily discomfort, steadies mental activity, and keeps the body free of illness through proper circulation of blood."
+       "Sitting in this posture keeps the body straight, makes breathing regular, permits prolonged sitting without bodily discomfort, steadies mental activity, and keeps the body free of illness through proper circulation of blood."
       ]
      }
     ]
@@ -490,8 +574,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Буквальный перевод (наш подстрочник)",
+      "paragraphs": [
+       "Пятку правой ноги у основания левого бедра, а пятку левой ноги у основания правого бедра поместив, шею слегка книзу наклонив, сесть, и затем обе руки за спину заведя, правой рукой большой палец правой ноги, а левой рукой большой палец левой ноги взять и взгляд на кончик носа установить — это называется Падмāсана."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "Перевод",
+      "label": "Литературный перевод (наш)",
       "paragraphs": [
        "Поместите пятку правой ноги у основания левого бедра, а пятку левой — у основания правого. Сядьте, слегка наклонив шею вниз. Заведите обе руки за спину, правой рукой возьмитесь за большой палец правой ноги, а левой — за большой палец левой ноги; взгляд направьте на кончик носа. Это называется Падмāсана."
       ]
@@ -525,11 +617,27 @@
       ]
      },
      {
+      "type": "words",
+      "key": "words",
+      "label": "Пословный разбор (наш)",
+      "paragraphs": [
+       "ḍābā paganī pānī — пятку левой ноги; jamaṇā sāthaḷanā mūḷamāṃ — у основания правого бедра; ne — и; jamaṇā paganī pānī — пятку правой ноги; ḍābā sāthaḷanā mūḷamāṃ — у основания левого бедра; rākhavāthī — оттого что помещают; paṇa — тоже; e — эта; āsana — āсана; thāya che — получается."
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "literal",
+      "label": "Буквальный перевод (наш подстрочник)",
+      "paragraphs": [
+       "Оттого что пятку левой ноги помещают у основания правого бедра, а пятку правой ноги у основания левого бедра, эта āсана тоже получается."
+      ]
+     },
+     {
       "type": "prose",
       "key": "addtr",
-      "label": "Дополнительный пассаж — перевод",
+      "label": "Дополнительный пассаж — перевод (наш)",
       "paragraphs": [
-       "Книга добавляет, что эту позу можно принять и иначе: поместить левую пятку у основания правого бедра, а правую — у основания левого."
+       "Эту позу можно принять и иначе: поместить левую пятку у основания правого бедра, а правую — у основания левого."
       ]
      },
      {
@@ -561,11 +669,27 @@
       ]
      },
      {
+      "type": "words",
+      "key": "words",
+      "label": "Пословный разбор (наш)",
+      "paragraphs": [
+       "piṃḍīnī naso dabāvāthī — от сдавливания нервов икр; ūṃgha āvatī nathī — сон не приходит; śarīra sīdhuṃ rahevāthī — оттого что тело остаётся прямым; śvāsa sīdho cāle che — дыхание идёт ровно; dhyāna śvāsanā mūḷamāṃ jāya che — внимание идёт к источнику дыхания; vṛtti sthira thāya che — деятельность ума становится устойчивой; śarīramāṃ lohīnuṃ pharavuṃ barābara thavāthī — оттого что кровь в теле движется правильно; taṃdurastī sārī rahe che — здоровье остаётся хорошим; ne — и; āḷasa thatī nathī — вялость не наступает."
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "literal",
+      "label": "Буквальный перевод (наш подстрочник)",
+      "paragraphs": [
+       "От сдавливания нервов голеней сон не приходит; оттого что тело остаётся прямым, дыхание идёт ровно; внимание идёт к источнику дыхания; деятельность ума становится устойчивой; оттого что кровь в теле движется правильно, здоровье остаётся хорошим; и вялость не наступает."
+      ]
+     },
+     {
       "type": "prose",
       "key": "efftr",
-      "label": "Традиционный эффект — перевод",
+      "label": "Традиционный эффект — перевод (наш)",
       "paragraphs": [
-       "В книге утверждается, что давление на нервы или сосуды икр препятствует сну; прямое положение тела делает дыхание ровным; внимание обращается к источнику дыхания; ум становится устойчивым; кровообращение и здоровье улучшаются, а вялость не возникает."
+       "Давление на нервы или сосуды икр препятствует сну; прямое положение тела делает дыхание ровным; внимание обращается к источнику дыхания; ум становится устойчивым; кровообращение и здоровье улучшаются, а вялость не возникает."
       ]
      }
     ],
@@ -608,8 +732,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Literal translation (our interlinear)",
+      "paragraphs": [
+       "The heel of the right leg at the root of the left thigh, and the heel of the left leg at the root of the right thigh having placed, the neck slightly downward inclining, sit, and then both hands behind the back turning, with the right hand the big toe of the right leg, and with the left hand the big toe of the left leg to grasp, and the gaze on the tip of the nose to fix — this is called Padmāsana."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "English translation",
+      "label": "Literary translation (ours)",
       "paragraphs": [
        "“Place the heel of your right foot at the base of your left thigh, and the heel of your left foot at the base of your right thigh, and slightly tilt your neck, and sit down. Then, placing both hands behind your back, you should take hold of the big toe of your right foot with your right hand, and the big toe of your left foot with your left hand, and fix your gaze on the tip of your nose - this is called Padmāsana.”"
       ]
@@ -643,11 +775,27 @@
       ]
      },
      {
+      "type": "words",
+      "key": "words",
+      "label": "Word-by-word analysis (ours)",
+      "paragraphs": [
+       "ḍābā paganī pānī — the heel of the left leg; jamaṇā sāthaḷanā mūḷamāṃ — at the base of the right thigh; ne — and; jamaṇā paganī pānī — the heel of the right leg; ḍābā sāthaḷanā mūḷamāṃ — at the base of the left thigh; rākhavāthī — from placing; paṇa — too; e — this; āsana — posture; thāya che — comes about."
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "literal",
+      "label": "Literal translation (our interlinear)",
+      "paragraphs": [
+       "By placing the heel of the left leg at the base of the right thigh, and the heel of the right leg at the base of the left thigh, this posture is also produced."
+      ]
+     },
+     {
       "type": "prose",
       "key": "addtr",
-      "label": "Additional passage — English",
+      "label": "Additional passage — English (ours)",
       "paragraphs": [
-       "The book adds that the posture may also be made by placing the left heel at the base of the right thigh and the right heel at the base of the left thigh."
+       "The posture may also be made by placing the left heel at the base of the right thigh and the right heel at the base of the left thigh."
       ]
      },
      {
@@ -679,11 +827,27 @@
       ]
      },
      {
+      "type": "words",
+      "key": "words",
+      "label": "Word-by-word analysis (ours)",
+      "paragraphs": [
+       "piṃḍīnī naso dabāvāthī — from the pressing of the nerves of the calves; ūṃgha āvatī nathī — sleep does not come; śarīra sīdhuṃ rahevāthī — from the body staying straight; śvāsa sīdho cāle che — the breath goes evenly; dhyāna śvāsanā mūḷamāṃ jāya che — attention goes to the source of the breath; vṛtti sthira thāya che — the activity of the mind becomes steady; śarīramāṃ lohīnuṃ pharavuṃ barābara thavāthī — from the blood in the body circulating properly; taṃdurastī sārī rahe che — health stays good; ne — and; āḷasa thatī nathī — lethargy does not arise."
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "literal",
+      "label": "Literal translation (our interlinear)",
+      "paragraphs": [
+       "From the pressing of the nerves of the calves sleep does not come; because the body stays straight, the breath goes evenly; attention goes to the source of the breath; the activity of the mind becomes steady; because the blood in the body moves properly, health stays good; and lethargy does not arise."
+      ]
+     },
+     {
       "type": "prose",
       "key": "efftr",
-      "label": "Traditional effect — English",
+      "label": "Traditional effect — English (ours)",
       "paragraphs": [
-       "The book states that pressure on the nerves or vessels of the calves prevents sleep; an upright body makes breathing regular; attention goes to the source of the breath; mental activity becomes steady; circulation and health improve; and lethargy does not arise."
+       "Pressure on the nerves or vessels of the calves prevents sleep; an upright body makes breathing regular; attention goes to the source of the breath; mental activity becomes steady; circulation and health improve; and lethargy does not arise."
       ]
      }
     ]
@@ -745,8 +909,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Буквальный перевод (наш подстрочник)",
+      "paragraphs": [
+       "Левую руку в локте согнув, под голову поместив, обе ноги вытянув, так, чтобы яички не прижимались, на левом боку лежать — это называется Др̣д̣хāсана."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "Перевод",
+      "label": "Литературный перевод (наш)",
       "paragraphs": [
        "Согните левую руку в локте и поместите ее под голову. Вытяните обе ноги и лягте на левый бок так, чтобы яички не были прижаты. Это называется Др̣д̣хāсана."
       ]
@@ -788,11 +960,27 @@
       ]
      },
      {
+      "type": "words",
+      "key": "words",
+      "label": "Пословный разбор (наш)",
+      "paragraphs": [
+       "ūṃghamāṃ svapnāṃ āvatāṃ nathī — во сне сновидения не приходят; vīrya skhalita thatuṃ nathī — семя не изливается; ne — и; pavananī gati yogya mārgamāṃ rahevāthī — оттого что движение ветра остаётся на должном пути; roganī utpatti thatī nathī — возникновения болезней не происходит; dhyānīloka — медитирующие; rātrīe — ночью; ghaṇuṃ karīne — по большей части; eja āsane — именно в этой āсане; śayana kare che — спят."
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "literal",
+      "label": "Буквальный перевод (наш подстрочник)",
+      "paragraphs": [
+       "Во сне сновидения не приходят; семя не изливается; и, поскольку движение ветра остаётся на правильном пути, болезнь не возникает. Практикующие созерцание по большей части ночью лежат именно в этой āсане."
+      ]
+     },
+     {
       "type": "prose",
       "key": "efftr",
-      "label": "Традиционный эффект — перевод",
+      "label": "Традиционный эффект — перевод (наш)",
       "paragraphs": [
-       "В книге говорится, что во время сна не возникают сновидения и не происходит извержения семени, а движение ветра остаётся на правильном пути, поэтому болезни не возникают. Далее сообщается, что практикующие медитацию обычно спят в этой позе ночью."
+       "Во время сна не возникают сновидения и не происходит извержения семени, а движение ветра остаётся на правильном пути, поэтому болезни не возникают. Практикующие медитацию обычно спят в этой позе ночью."
       ]
      }
     ],
@@ -835,8 +1023,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Literal translation (our interlinear)",
+      "paragraphs": [
+       "The left arm at the elbow bending, beneath the head placing, both legs extending, in such a way that the testicles are not pressed, on the left side to lie — this is called Dṛḍhāsana."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "English translation",
+      "label": "Literary translation (ours)",
       "paragraphs": [
        "Bend the left arm at the elbow and place it beneath the head. Stretch both legs and lie on the left side in such a way that the testicles are not pressed. This is called Dṛḍhāsana."
       ]
@@ -878,11 +1074,27 @@
       ]
      },
      {
+      "type": "words",
+      "key": "words",
+      "label": "Word-by-word analysis (ours)",
+      "paragraphs": [
+       "ūṃghamāṃ svapnāṃ āvatāṃ nathī — in sleep dreams do not come; vīrya skhalita thatuṃ nathī — semen is not discharged; ne — and; pavananī gati yogya mārgamāṃ rahevāthī — from the movement of the wind staying on the proper path; roganī utpatti thatī nathī — the arising of disease does not occur; dhyānīloka — people of meditation; rātrīe — at night; ghaṇuṃ karīne — for the most part; eja āsane — in this very posture; śayana kare che — they sleep."
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "literal",
+      "label": "Literal translation (our interlinear)",
+      "paragraphs": [
+       "In sleep dreams do not come; semen is not discharged; and, since the movement of the wind stays on the right path, disease does not arise. Those who practise meditation mostly lie at night in this very posture."
+      ]
+     },
+     {
       "type": "prose",
       "key": "efftr",
-      "label": "Traditional effect — English",
+      "label": "Traditional effect — English (ours)",
       "paragraphs": [
-       "The book claims that dreams do not occur during sleep, semen is not discharged, and disease does not arise because the movement of wind (pavana) remains on the proper path. It adds that practitioners of meditation generally sleep in this posture at night."
+       "Dreams do not occur during sleep, semen is not discharged, and disease does not arise because the movement of wind (pavana) remains on the proper path. Practitioners of meditation generally sleep in this posture at night."
       ]
      }
     ]
@@ -944,8 +1156,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Буквальный перевод (наш подстрочник)",
+      "paragraphs": [
+       "Левую ногу в колене согнув, под бедро уведя, её ступню под задним проходом поперёк, с севера на юг, расположить, и пятку правой ноги к большому пальцу левой ноги прижав, колено поднятым держа, сесть — это называется Вӣрāсана."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "Перевод",
+      "label": "Литературный перевод (наш)",
       "paragraphs": [
        "Согните левую ногу в колене, заведите её под бедро и расположите ступню поперёк под заднепроходным отверстием в направлении север — юг. Прижмите пятку правой ноги к большому пальцу левой, удерживайте колено приподнятым и сядьте. Это называется Вӣрāсана."
       ]
@@ -979,11 +1199,27 @@
       ]
      },
      {
+      "type": "words",
+      "key": "words",
+      "label": "Пословный разбор (наш)",
+      "paragraphs": [
+       "jamaṇā pagane — правую ногу; ḍābā sāthaḷa para — на левое бедро; rākhīne — положив; ne — и; ḍābā pagane — левую ногу; jamaṇā sāthaḷanī nīce — под правое бедро; rākhīne — положив; besavuṃ — сесть; te — это; paṇa — тоже; vīrāsana — Вӣрāсана; kahevāya che — называется."
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "literal",
+      "label": "Буквальный перевод (наш подстрочник)",
+      "paragraphs": [
+       "Сесть, поместив правую ногу на левое бедро, а левую ногу под правое бедро, — это тоже называется Вӣрāсана."
+      ]
+     },
+     {
       "type": "prose",
       "key": "addtr",
-      "label": "Дополнительный пассаж — перевод",
+      "label": "Дополнительный пассаж — перевод (наш)",
       "paragraphs": [
-       "Книга приводит и другой вариант Вӣрāсаны: сесть, положив правую ногу на левое бедро, а левую — под правое бедро."
+       "Приводится и другой вариант Вӣрāсаны: сесть, положив правую ногу на левое бедро, а левую — под правое бедро."
       ]
      },
      {
@@ -1015,11 +1251,27 @@
       ]
      },
      {
+      "type": "words",
+      "key": "words",
+      "label": "Пословный разбор (наш)",
+      "paragraphs": [
+       "ā āsane besavāthī — от сидения в этой āсане; āṃkha — глаз; ochī — меньше; mīṭa māre che — моргает."
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "literal",
+      "label": "Буквальный перевод (наш подстрочник)",
+      "paragraphs": [
+       "От сидения в этой āсане глаз моргает меньше."
+      ]
+     },
+     {
       "type": "prose",
       "key": "efftr",
-      "label": "Традиционный эффект — перевод",
+      "label": "Традиционный эффект — перевод (наш)",
       "paragraphs": [
-       "В книге утверждается, что сидящий в этой позе реже моргает."
+       "Сидящий в этой позе реже моргает."
       ]
      },
      {
@@ -1070,8 +1322,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Literal translation (our interlinear)",
+      "paragraphs": [
+       "The left leg at the knee bending, beneath the thigh taking it, its foot beneath the anus transversely north–south to place, and the heel of the right leg against the big toe of the left leg pressing, the knee raised keeping, sit — this is called Vīrāsana."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "English translation",
+      "label": "Literary translation (ours)",
       "paragraphs": [
        "“Bending your left leg at the knee and placing it under your thigh, you should place your foot transversely under the anus in a north–south direction. Then, pressing the heel of your right foot to the big toe of your left foot and keeping your knee raised, sit down - this is called Vīrāsana.”"
       ]
@@ -1105,11 +1365,27 @@
       ]
      },
      {
+      "type": "words",
+      "key": "words",
+      "label": "Word-by-word analysis (ours)",
+      "paragraphs": [
+       "jamaṇā pagane — the right leg; ḍābā sāthaḷa para — on the left thigh; rākhīne — having placed; ne — and; ḍābā pagane — the left leg; jamaṇā sāthaḷanī nīce — beneath the right thigh; rākhīne — having placed; besavuṃ — to sit; te — that; paṇa — too; vīrāsana — Vīrāsana; kahevāya che — is called."
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "literal",
+      "label": "Literal translation (our interlinear)",
+      "paragraphs": [
+       "Sitting with the right leg placed on the left thigh, and the left leg placed under the right thigh, is also called Vīrāsana."
+      ]
+     },
+     {
       "type": "prose",
       "key": "addtr",
-      "label": "Additional passage — English",
+      "label": "Additional passage — English (ours)",
       "paragraphs": [
-       "Another position, the book says, is also called Vīrāsana: sit with the right foot on the left thigh and the left foot beneath the right thigh."
+       "Another position is also called Vīrāsana: sit with the right foot on the left thigh and the left foot beneath the right thigh."
       ]
      },
      {
@@ -1141,11 +1417,27 @@
       ]
      },
      {
+      "type": "words",
+      "key": "words",
+      "label": "Word-by-word analysis (ours)",
+      "paragraphs": [
+       "ā āsane besavāthī — from sitting in this posture; āṃkha — the eye; ochī — less; mīṭa māre che — blinks."
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "literal",
+      "label": "Literal translation (our interlinear)",
+      "paragraphs": [
+       "By sitting in this posture the eye blinks less."
+      ]
+     },
+     {
       "type": "prose",
       "key": "efftr",
-      "label": "Traditional effect — English",
+      "label": "Traditional effect — English (ours)",
       "paragraphs": [
-       "The book states that sitting in this posture makes the eyes blink less."
+       "Sitting in this posture makes the eyes blink less."
       ]
      },
      {
@@ -1214,9 +1506,25 @@
       ]
      },
      {
+      "type": "words",
+      "key": "words",
+      "label": "Пословный разбор (наш) — слово, которого нет в разборе тома",
+      "paragraphs": [
+       "ḍhagarāne — ягодица (в разборе тома слово сокращено знаком «…», хотя в стихе оно стоит дважды)."
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "literal",
+      "label": "Буквальный перевод (наш подстрочник)",
+      "paragraphs": [
+       "Пятку левой ноги к левой ягодице прижав, пятку правой ноги к правой ягодице прижав, оба колена перед обоими плечами держа, сидя, правой рукой локоть левой руки держать, и левой рукой локоть правой руки держать, и между обоими коленями держа сесть — это называется Паванамуктāсана."
+      ]
+     },
+     {
       "type": "prose",
       "key": "tr",
-      "label": "Перевод",
+      "label": "Литературный перевод (наш)",
       "paragraphs": [
        "Прижмите левую пятку к левой ягодице, а правую — к правой; держа оба колена перед обоими плечами, сядьте. Правой рукой возьмитесь за левый локоть, а левой — за правый и сядьте, расположив [руки] между коленями. Это называется Паванамуктāсана."
       ]
@@ -1250,11 +1558,27 @@
       ]
      },
      {
+      "type": "words",
+      "key": "words",
+      "label": "Пословный разбор (наш)",
+      "paragraphs": [
+       "ā āsanathī — от этой āсаны; apāna vāyu — апāна-вāйу; dūra thāya che — уходит."
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "literal",
+      "label": "Буквальный перевод (наш подстрочник)",
+      "paragraphs": [
+       "От этой āсаны апāна-вāйу уходит."
+      ]
+     },
+     {
       "type": "prose",
       "key": "efftr",
-      "label": "Традиционный эффект — перевод",
+      "label": "Традиционный эффект — перевод (наш)",
       "paragraphs": [
-       "Согласно книге, эта поза удаляет апāна-вāйу."
+       "Эта поза удаляет апāна-вāйу."
       ]
      },
      {
@@ -1304,9 +1628,25 @@
       ]
      },
      {
+      "type": "words",
+      "key": "words",
+      "label": "Word-by-word analysis (ours) — a word the volume does not gloss",
+      "paragraphs": [
+       "ḍhagarāne — buttock (the volume abbreviates this word with an ellipsis, though it stands twice in the verse)."
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "literal",
+      "label": "Literal translation (our interlinear)",
+      "paragraphs": [
+       "The heel of the left leg against the left buttock pressing, the heel of the right leg against the right buttock pressing, both knees in front of both shoulders keeping, sitting, with the right hand the elbow of the left hand to hold, and with the left hand the elbow of the right hand to hold, and between both knees keeping, sit — this is called Pavanamuktāsana."
+      ]
+     },
+     {
       "type": "prose",
       "key": "tr",
-      "label": "English translation",
+      "label": "Literary translation (ours)",
       "paragraphs": [
        "“Pressing the heel of your left foot to the left buttock and the heel of the right foot to the right buttock, and keeping your knees in front of your shoulders, you should sit down. Then, with your right hand, grab the elbow of your left hand, and with your left hand, grab the elbow of your right hand, and holding them between your knees, sit - this is called Pavanamuktāsana.”"
       ]
@@ -1340,11 +1680,27 @@
       ]
      },
      {
+      "type": "words",
+      "key": "words",
+      "label": "Word-by-word analysis (ours)",
+      "paragraphs": [
+       "ā āsanathī — from this posture; apāna vāyu — apāna vāyu; dūra thāya che — goes away."
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "literal",
+      "label": "Literal translation (our interlinear)",
+      "paragraphs": [
+       "By this posture apāna vāyu goes away."
+      ]
+     },
+     {
       "type": "prose",
       "key": "efftr",
-      "label": "Traditional effect — English",
+      "label": "Traditional effect — English (ours)",
       "paragraphs": [
-       "The book says that this posture drives away apāna vāyu."
+       "This posture drives away apāna vāyu."
       ]
      },
      {
@@ -1414,8 +1770,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Буквальный перевод (наш подстрочник)",
+      "paragraphs": [
+       "Пятку левой ноги к левой ягодице прижав, вокруг этого колена руки сложить, и правую ногу поперёк положив, её подошву к ступне левой ноги прижав, сесть — это называется Вāмапāда Паванамуктāсана."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "Перевод",
+      "label": "Литературный перевод (наш)",
       "paragraphs": [
        "Прижмите пятку левой ноги к левой ягодице и обхватите руками это колено. Поставьте правую ногу поперек, прижмите ее подошву к левой стопе и сядьте. Это называется Вāмапāда Паванамуктāсана."
       ]
@@ -1468,8 +1832,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Literal translation (our interlinear)",
+      "paragraphs": [
+       "The heel of the left leg against the left buttock pressing, around that knee the arms to clasp, and the right leg across placing, its sole against the foot of the left leg pressing, sit — this is called Vāmapāda Pavanamuktāsana."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "English translation",
+      "label": "Literary translation (ours)",
       "paragraphs": [
        "Press the heel of the left foot to the left buttock and clasp the arms around that knee. Place the right leg across, press its sole against the left foot, and sit. This is called Vāmapāda Pavanamuktāsana."
       ]
@@ -1541,8 +1913,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Буквальный перевод (наш подстрочник)",
+      "paragraphs": [
+       "Как выше, пятку правой ноги к правой ягодице прижав, левую ногу поперёк положив, её подошву к ступне правой ноги прижав, руки сложив, сесть — это называется Дакшин̣апāда Паванамуктāсана."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "Перевод",
+      "label": "Литературный перевод (наш)",
       "paragraphs": [
        "Как указано выше, прижмите правую пятку к правой ягодице, поставьте левую ногу поперек, прижмите ее подошву к правой ступне и сядьте, сцепив руки. Это называется Дакшин̣апāда Паванамуктāсана."
       ]
@@ -1595,8 +1975,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Literal translation (our interlinear)",
+      "paragraphs": [
+       "As above, the heel of the right leg against the right buttock pressing, the left leg across placing, its sole against the foot of the right leg pressing, the arms clasped, sit — this is called Dakṣiṇapāda Pavanamuktāsana."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "English translation",
+      "label": "Literary translation (ours)",
       "paragraphs": [
        "As above, press the right heel against the right buttock, place the left leg across, press its sole against the right foot, and sit with the arms clasped. This is called Dakṣiṇapāda Pavanamuktāsana."
       ]
@@ -1668,8 +2056,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Буквальный перевод (наш подстрочник)",
+      "paragraphs": [
+       "Обе ноги в коленях согнув, их ступни под задним проходом поперёк расположив, сесть — это называется Дхӣрāсана."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "Перевод",
+      "label": "Литературный перевод (наш)",
       "paragraphs": [
        "Согните обе ноги в коленях, расположите ступни поперёк под заднепроходным отверстием и сядьте. Это называется Дхӣрāсана."
       ]
@@ -1714,8 +2110,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Literal translation (our interlinear)",
+      "paragraphs": [
+       "Both legs at the knees bending, their feet beneath the anus transversely placing, sit — this is called Dhīrāsana."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "English translation",
+      "label": "Literary translation (ours)",
       "paragraphs": [
        "“Bending both legs at the knees and placing your feet transversely under the anus, sit down - this is called Dhīrāsana.”"
       ]
@@ -1779,8 +2183,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Буквальный перевод (наш подстрочник)",
+      "paragraphs": [
+       "Правую ногу под задним проходом поместив, левую ногу в колене согнув, её пятку к ягодице прижав, сесть — это Дакшин̣апāда дхӣрāсана."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "Перевод",
+      "label": "Литературный перевод (наш)",
       "paragraphs": [
        "Поместите правую ступню под заднепроходное отверстие, согните левую ногу в колене, прижмите её пятку к ягодице и сядьте. Это называется Дакшин̣апāда дхӣрāсана."
       ]
@@ -1825,8 +2237,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Literal translation (our interlinear)",
+      "paragraphs": [
+       "The right leg beneath the anus placing, the left leg at the knee bending, its heel against the buttock pressing, sit — this is Dakṣiṇapāda Dhīrāsana."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "English translation",
+      "label": "Literary translation (ours)",
       "paragraphs": [
        "“Placing the right leg under the anus, bending the left leg at the knee and pressing its heel to the buttock, sit down - this is Dakṣiṇapāda Dhīrāsana.”"
       ]
@@ -1890,8 +2310,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Буквальный перевод (наш подстрочник)",
+      "paragraphs": [
+       "Правое колено в правую подмышку поместив, в ту сторону вес дав, левую ногу в колене согнув, её пятку к левой ягодице прижав, задний проход приподнятым держа, сесть — это называется Вāмаш́вāса Гаманāсана."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "Перевод",
+      "label": "Литературный перевод (наш)",
       "paragraphs": [
        "Поместите правое колено в правую подмышку и перенесите вес в эту сторону. Согните левую ногу в колене, прижмите ее пятку к левой ягодице и сядьте, приподняв анус над землей. Это называется Вāмаш́вāса Гаманāсана."
       ]
@@ -1925,11 +2353,27 @@
       ]
      },
      {
+      "type": "words",
+      "key": "words",
+      "label": "Пословный разбор (наш)",
+      "paragraphs": [
+       "ā āsane besavāthī — от сидения в этой āсане; ḍābī nāsikāmāṃthī — из левой ноздри; śvāsanuṃ — дыхания; āvāgamana — приход и уход; thavā lāge che — начинает происходить."
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "literal",
+      "label": "Буквальный перевод (наш подстрочник)",
+      "paragraphs": [
+       "От сидения в этой āсане дыхание начинает приходить и уходить через левую ноздрю."
+      ]
+     },
+     {
       "type": "prose",
       "key": "efftr",
-      "label": "Традиционный эффект — перевод",
+      "label": "Традиционный эффект — перевод (наш)",
       "paragraphs": [
-       "Согласно книге, в этой позе дыхание начинает входить и выходить через левую ноздрю."
+       "В этой позе дыхание начинает входить и выходить через левую ноздрю."
       ]
      }
     ],
@@ -1972,8 +2416,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Literal translation (our interlinear)",
+      "paragraphs": [
+       "The right knee in the right armpit placing, weight toward that side giving, the left leg at the knee bending, its heel against the left buttock pressing, the anus raised keeping, sit — this is called Vāmaśvāsa Gamanāsana."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "English translation",
+      "label": "Literary translation (ours)",
       "paragraphs": [
        "Place the right knee in the right armpit and shift the weight toward that side. Bend the left leg at the knee, press its heel against the left buttock, and sit with the anus raised off the ground. This is called Vāmaśvāsa Gamanāsana."
       ]
@@ -2007,11 +2459,27 @@
       ]
      },
      {
+      "type": "words",
+      "key": "words",
+      "label": "Word-by-word analysis (ours)",
+      "paragraphs": [
+       "ā āsane besavāthī — from sitting in this posture; ḍābī nāsikāmāṃthī — through the left nostril; śvāsanuṃ — of the breath; āvāgamana — coming and going; thavā lāge che — begins to happen."
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "literal",
+      "label": "Literal translation (our interlinear)",
+      "paragraphs": [
+       "By sitting in this posture the breath begins to come and go through the left nostril."
+      ]
+     },
+     {
       "type": "prose",
       "key": "efftr",
-      "label": "Traditional effect — English",
+      "label": "Traditional effect — English (ours)",
       "paragraphs": [
-       "The book says that sitting in this posture causes the breath to flow in and out through the left nostril."
+       "Sitting in this posture causes the breath to flow in and out through the left nostril."
       ]
      }
     ]
@@ -2073,8 +2541,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Буквальный перевод (наш подстрочник)",
+      "paragraphs": [
+       "Левое колено в левую подмышку поместив, обратным тому, что сказано выше, способом, на левую сторону вес дав, сесть — это называется Дакшин̣аш́вāса Гаманāсана."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "Перевод",
+      "label": "Литературный перевод (наш)",
       "paragraphs": [
        "Поместите левое колено в левую подмышку и, действуя в порядке, обратном предыдущему описанию, перенесите вес на левую сторону и сядьте. Это называется Дакшин̣аш́вāса гаманāсана."
       ]
@@ -2108,11 +2584,27 @@
       ]
      },
      {
+      "type": "words",
+      "key": "words",
+      "label": "Пословный разбор (наш)",
+      "paragraphs": [
+       "ā āsane besavāthī — от сидения в этой āсане; jamaṇī nāsikāmāṃthī — из правой ноздри; śvāsanuṃ — дыхания; āvāgamana — приход и уход; thavā lāge che — начинает происходить."
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "literal",
+      "label": "Буквальный перевод (наш подстрочник)",
+      "paragraphs": [
+       "От сидения в этой āсане дыхание начинает приходить и уходить через правую ноздрю."
+      ]
+     },
+     {
       "type": "prose",
       "key": "efftr",
-      "label": "Традиционный эффект — перевод",
+      "label": "Традиционный эффект — перевод (наш)",
       "paragraphs": [
-       "Согласно книге, в этой позе дыхание начинает входить и выходить через правую ноздрю."
+       "В этой позе дыхание начинает входить и выходить через правую ноздрю."
       ]
      }
     ],
@@ -2155,8 +2647,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Literal translation (our interlinear)",
+      "paragraphs": [
+       "The left knee in the left armpit placing, in the reverse manner to what was said above, weight to the left giving, sit — this is called Dakṣiṇaśvāsa Gamanāsana."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "English translation",
+      "label": "Literary translation (ours)",
       "paragraphs": [
        "“Placing the knee of the left leg in the left armpit and in the opposite manner to what is said above, transferring the weight to the left side, sit down - this is called Dakṣiṇaśvāsa Gamanāsana.”"
       ]
@@ -2190,11 +2690,27 @@
       ]
      },
      {
+      "type": "words",
+      "key": "words",
+      "label": "Word-by-word analysis (ours)",
+      "paragraphs": [
+       "ā āsane besavāthī — from sitting in this posture; jamaṇī nāsikāmāṃthī — through the right nostril; śvāsanuṃ — of the breath; āvāgamana — coming and going; thavā lāge che — begins to happen."
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "literal",
+      "label": "Literal translation (our interlinear)",
+      "paragraphs": [
+       "By sitting in this posture the breath begins to come and go through the right nostril."
+      ]
+     },
+     {
       "type": "prose",
       "key": "efftr",
-      "label": "Traditional effect — English",
+      "label": "Traditional effect — English (ours)",
       "paragraphs": [
-       "The book says that sitting in this posture causes the breath to flow in and out through the right nostril."
+       "Sitting in this posture causes the breath to flow in and out through the right nostril."
       ]
      }
     ]
@@ -2256,8 +2772,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Буквальный перевод (наш подстрочник)",
+      "paragraphs": [
+       "Обе ноги, как палка, вытянув, обеими руками часть ниже колен так, чтобы она от земли не поднималась, большие пальцы обеих ног держать, и лоб на колени положив, сесть — это называется āсана по имени Паш́чиматāна."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "Перевод",
+      "label": "Литературный перевод (наш)",
       "paragraphs": [
        "Вытяните обе ноги, как посох. Держась обеими руками за большие пальцы ног, не отрывайте от земли части ног ниже колен и сядьте, положив лоб на колени. Это называется Паш́чиматāна."
       ]
@@ -2299,11 +2823,27 @@
       ]
      },
      {
+      "type": "words",
+      "key": "words",
+      "label": "Пословный разбор (наш)",
+      "paragraphs": [
+       "ethī — благодаря этому; suṣumṇānuṃ — сушумн̣ы; vahana — течение; sārī rīte — должным образом; thāya che — происходит."
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "literal",
+      "label": "Буквальный перевод (наш подстрочник)",
+      "paragraphs": [
+       "От этого течение в сушумн̣ā идёт хорошо."
+      ]
+     },
+     {
       "type": "prose",
       "key": "efftr",
-      "label": "Традиционный эффект — перевод",
+      "label": "Традиционный эффект — перевод (наш)",
       "paragraphs": [
-       "Согласно книге, благодаря этому движение в сушумн̣ā происходит должным образом."
+       "Благодаря этому движение в сушумн̣ā происходит должным образом."
       ]
      }
     ],
@@ -2346,8 +2886,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Literal translation (our interlinear)",
+      "paragraphs": [
+       "Both legs like a staff extending, with both hands the part below the knees in such a way that it does not lift from the ground, the big toes of both legs to hold, and the forehead on the knees placing, sit — this is called the posture named Paścimatāna."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "English translation",
+      "label": "Literary translation (ours)",
       "paragraphs": [
        "Extend both legs like a staff. Grasp the big toes with both hands in such a way that the part below the knees does not lift from the ground, and sit with the forehead on the knees. This posture is called Paścimatāna."
       ]
@@ -2389,11 +2937,27 @@
       ]
      },
      {
+      "type": "words",
+      "key": "words",
+      "label": "Word-by-word analysis (ours)",
+      "paragraphs": [
+       "ethī — from this; suṣumṇānuṃ — of the suṣumṇā; vahana — the flow; sārī rīte — in a proper manner; thāya che — comes about."
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "literal",
+      "label": "Literal translation (our interlinear)",
+      "paragraphs": [
+       "By this the flow in the suṣumṇā goes well."
+      ]
+     },
+     {
       "type": "prose",
       "key": "efftr",
-      "label": "Traditional effect — English",
+      "label": "Traditional effect — English (ours)",
       "paragraphs": [
-       "The book says that this promotes proper flow through the suṣumṇā."
+       "This promotes proper flow through the suṣumṇā."
       ]
      }
     ]
@@ -2455,8 +3019,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Буквальный перевод (наш подстрочник)",
+      "paragraphs": [
+       "Пятку левой ноги в основание правого бедра вставив, колено этой же ноги к лодыжке правой ноги прижав, стоять — это называется Вāтāйанāсана."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "Перевод",
+      "label": "Литературный перевод (наш)",
       "paragraphs": [
        "Поместите левую пятку у основания правого бедра и прижмите колено этой ноги к правой лодыжке. Стойте в этом положении. Оно называется Вāтāйанāсана."
       ]
@@ -2501,8 +3073,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Literal translation (our interlinear)",
+      "paragraphs": [
+       "The heel of the left leg at the root of the right thigh inserting, the knee of that same leg against the ankle of the right leg pressing, to stand — this is called Vātāyanāsana."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "English translation",
+      "label": "Literary translation (ours)",
       "paragraphs": [
        "Place the left heel at the base of the right thigh and press the knee of that leg against the right ankle. Stand in this position; it is called Vātāyanāsana."
       ]
@@ -2566,8 +3146,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Буквальный перевод (наш подстрочник)",
+      "paragraphs": [
+       "Обе ладони на земле поместив, руки в локтях согнув, к пупку прижав, тело, как павлин (опорой обеих рук), приподнятым держать — это называется Майӯрāсана."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "Перевод",
+      "label": "Литературный перевод (наш)",
       "paragraphs": [
        "Положите обе ладони на землю, согните руки в локтях, прижмите их к пупку и держите тело подвешенным, как павлин, опираясь на обе руки. Это называется Майӯрāсана."
       ]
@@ -2601,11 +3189,27 @@
       ]
      },
      {
+      "type": "words",
+      "key": "words",
+      "label": "Пословный разбор (наш)",
+      "paragraphs": [
+       "ā āsana — эта āсана; jaḷodara — водянку; baroḷa — селезёнку; plīha — то же по-санскритски; vāta — вāта; pitta — питта; kapha — капха; tathā — а также; āḷasano — вялости; nāśa kare che — уничтожает; temaja — равным образом; jaṭharāgni — пищеварительный огонь; pradīpta kare che — разжигает."
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "literal",
+      "label": "Буквальный перевод (наш подстрочник)",
+      "paragraphs": [
+       "Эта āсана уничтожает водянку, селезёнку (плӣху), вāту, питту, капху и вялость; а также разжигает пищеварительный огонь."
+      ]
+     },
+     {
       "type": "prose",
       "key": "efftr",
-      "label": "Традиционный эффект — перевод",
+      "label": "Традиционный эффект — перевод (наш)",
       "paragraphs": [
-       "В книге утверждается, что эта поза устраняет водянку, болезни селезёнки, нарушения вāта, питта и капха, а также вялость; кроме того, она разжигает пищеварительный огонь."
+       "Эта поза устраняет водянку, болезни селезёнки, нарушения вāта, питта и капха, а также вялость; кроме того, она разжигает пищеварительный огонь."
       ]
      }
     ],
@@ -2648,8 +3252,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Literal translation (our interlinear)",
+      "paragraphs": [
+       "Both palms on the ground placing, the arms at the elbows bending, beside the navel pressing them, the body like a peacock (by the support of both hands) suspended to keep — this is called Mayūrāsana."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "English translation",
+      "label": "Literary translation (ours)",
       "paragraphs": [
        "Place both palms on the ground, bend the arms at the elbows, press them beside the navel, and hold the body suspended like a peacock, supported by both hands. This is called Mayūrāsana."
       ]
@@ -2683,11 +3295,27 @@
       ]
      },
      {
+      "type": "words",
+      "key": "words",
+      "label": "Word-by-word analysis (ours)",
+      "paragraphs": [
+       "ā āsana — this posture; jaḷodara — dropsy; baroḷa — the spleen; plīha — the same in Sanskrit; vāta — vāta; pitta — pitta; kapha — kapha; tathā — as well as; āḷasano — of lethargy; nāśa kare che — destroys; temaja — equally; jaṭharāgni — the digestive fire; pradīpta kare che — kindles."
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "literal",
+      "label": "Literal translation (our interlinear)",
+      "paragraphs": [
+       "This posture destroys dropsy, the spleen (plīha), vāta, pitta, kapha and lethargy; and it also kindles the digestive fire."
+      ]
+     },
+     {
       "type": "prose",
       "key": "efftr",
-      "label": "Traditional effect — English",
+      "label": "Traditional effect — English (ours)",
       "paragraphs": [
-       "The book attributes to this posture the removal of abdominal fluid accumulation, disorders of the spleen, vāta, pitta and kapha, and lethargy; it also says that it kindles the digestive fire."
+       "The removal of abdominal fluid accumulation, disorders of the spleen, vāta, pitta and kapha, and lethargy is attributed to this posture; it also kindles the digestive fire."
       ]
      }
     ]
@@ -2749,8 +3377,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Буквальный перевод (наш подстрочник)",
+      "paragraphs": [
+       "В основание левого бедра помещённую правую ногу, её пятку за спину левую руку заведя, ею взять, затем перед коленом правой ноги на земле лежащий большой палец левой ноги правой рукой взяв, сесть — это называется Матсйендрāсана."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "Перевод",
+      "label": "Литературный перевод (наш)",
       "paragraphs": [
        "Заведите левую руку за спину и возьмитесь ею за пятку правой ноги, находящейся у основания левого бедра. Затем правой рукой возьмитесь за большой палец левой ноги, лежащий на земле перед правым коленом, и сядьте. Это называется Матсйендрāсана."
       ]
@@ -2784,9 +3420,25 @@
       ]
      },
      {
+      "type": "words",
+      "key": "words",
+      "label": "Пословный разбор (наш)",
+      "paragraphs": [
+       "paga tathā hāthane — ноги и руки; ūlaṭā — наоборот; badalavāthī — от перемены; ā āsanano — этой āсаны; bījo prakāra — другой вид; thāya che — получается."
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "literal",
+      "label": "Буквальный перевод (наш подстрочник)",
+      "paragraphs": [
+       "От перемены ног и рук на противоположные получается другой вид этой āсаны."
+      ]
+     },
+     {
       "type": "prose",
       "key": "addtr",
-      "label": "Дополнительный пассаж — перевод",
+      "label": "Дополнительный пассаж — перевод (наш)",
       "paragraphs": [
        "Перестановка ног и рук на противоположные стороны образует другой вариант этой позы."
       ]
@@ -2820,11 +3472,27 @@
       ]
      },
      {
+      "type": "words",
+      "key": "words",
+      "label": "Пословный разбор (наш)",
+      "paragraphs": [
+       "mahāna yogī — великий йогин; matsyendranāthe — Матсйендранāтха (эргатив); ā āsanano — этой āсаны; cirakāḷa — долгое время; abhyāsa karyo hato — практиковал; tethī — поэтому; temanā nāmathī — от его имени; ā āsana — эта āсана; prasiddhimāṃ āvyuṃ che — стала известна."
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "literal",
+      "label": "Буквальный перевод (наш подстрочник)",
+      "paragraphs": [
+       "Великий йогин Матсйендранāтха долгое время практиковал эту āсану, поэтому под его именем эта āсана получила известность."
+      ]
+     },
+     {
       "type": "prose",
       "key": "ftr",
-      "label": "Примечание печатного издания — перевод",
+      "label": "Примечание печатного издания — перевод (наш)",
       "paragraphs": [
-       "Великий йогин Матсйендранāтха долго практиковал эту позу; поэтому, согласно сноске, поза стала известна под его именем."
+       "Великий йогин Матсйендранāтха долго практиковал эту позу; поэтому поза стала известна под его именем."
       ]
      },
      {
@@ -2856,11 +3524,27 @@
       ]
      },
      {
+      "type": "words",
+      "key": "words",
+      "label": "Пословный разбор (наш)",
+      "paragraphs": [
+       "ā āsana — эта āсана; ghaṇā prakāranā rogone — многие виды болезней; dūra kare che — устраняет; jaṭharāgni — пищеварительный огонь; pradīpta kare che — разжигает; kuṃḍalīnīne — кун̣д̣алинӣ; jāgṛta kare che — пробуждает; nidrāne — сон; niyamamāṃ āṇe che — приводит в порядок; tathā — а также; tāḷavānī uparathī — сверху нёба; jharatā — стекающий; caṃdrāmṛtane — лунный нектар; tyāṃja — там же; sthira kare che — удерживает."
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "literal",
+      "label": "Буквальный перевод (наш подстрочник)",
+      "paragraphs": [
+       "Эта āсана устраняет многие виды болезней, разжигает пищеварительный огонь, пробуждает кун̣д̣алӣнӣ, приводит сон в порядок и задерживает там же стекающий сверху нёба лунный нектар."
+      ]
+     },
+     {
       "type": "prose",
       "key": "efftr",
-      "label": "Традиционный эффект — перевод",
+      "label": "Традиционный эффект — перевод (наш)",
       "paragraphs": [
-       "В книге утверждается, что эта поза устраняет многие болезни, разжигает пищеварительный огонь, пробуждает кун̣д̣алинӣ, регулирует сон и удерживает на месте лунный нектар, который, согласно источнику, стекает сверху от нёба."
+       "Эта поза устраняет многие болезни, разжигает пищеварительный огонь, пробуждает кун̣д̣алинӣ, регулирует сон и удерживает на месте лунный нектар, который стекает сверху от нёба."
       ]
      }
     ],
@@ -2903,8 +3587,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Literal translation (our interlinear)",
+      "paragraphs": [
+       "The right leg placed at the root of the left thigh, its heel behind the back the left hand taking, with it to grasp, then in front of the knee of the right leg on the ground placed the big toe of the left leg with the right hand grasping, sit — this is called Matsyendrāsana."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "English translation",
+      "label": "Literary translation (ours)",
       "paragraphs": [
        "Take the left hand behind the back and grasp the heel of the right foot, which is placed at the base of the left thigh. Then grasp with the right hand the big toe of the left foot, which is placed on the ground in front of the right knee, and sit. This is called Matsyendrāsana."
       ]
@@ -2938,11 +3630,27 @@
       ]
      },
      {
+      "type": "words",
+      "key": "words",
+      "label": "Word-by-word analysis (ours)",
+      "paragraphs": [
+       "paga tathā hāthane — the legs and the hands; ūlaṭā — reversed; badalavāthī — from changing; ā āsanano — of this posture; bījo prakāra — another form; thāya che — comes about."
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "literal",
+      "label": "Literal translation (our interlinear)",
+      "paragraphs": [
+       "By reversing the legs and the hands another kind of this posture is produced."
+      ]
+     },
+     {
       "type": "prose",
       "key": "addtr",
-      "label": "Additional passage — English",
+      "label": "Additional passage — English (ours)",
       "paragraphs": [
-       "The book adds that reversing the legs and hands produces another form of the posture."
+       "Reversing the legs and hands produces another form of the posture."
       ]
      },
      {
@@ -2974,11 +3682,27 @@
       ]
      },
      {
+      "type": "words",
+      "key": "words",
+      "label": "Word-by-word analysis (ours)",
+      "paragraphs": [
+       "mahāna yogī — the great yogin; matsyendranāthe — Matsyendranātha (ergative); ā āsanano — of this posture; cirakāḷa — for a long time; abhyāsa karyo hato — practised; tethī — therefore; temanā nāmathī — from his name; ā āsana — this posture; prasiddhimāṃ āvyuṃ che — came into renown."
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "literal",
+      "label": "Literal translation (our interlinear)",
+      "paragraphs": [
+       "The great yogin Matsyendranātha practised this posture for a long time, and therefore under his name this posture became known."
+      ]
+     },
+     {
       "type": "prose",
       "key": "ftr",
-      "label": "Printed footnote — English",
+      "label": "Printed footnote — English (ours)",
       "paragraphs": [
-       "The great yogin Matsyendranātha practised this posture for a long time; it therefore became known by his name. This is the attribution made in the printed footnote."
+       "The great yogin Matsyendranātha practised this posture for a long time; it therefore became known by his name."
       ]
      },
      {
@@ -3010,11 +3734,27 @@
       ]
      },
      {
+      "type": "words",
+      "key": "words",
+      "label": "Word-by-word analysis (ours)",
+      "paragraphs": [
+       "ā āsana — this posture; ghaṇā prakāranā rogone — many kinds of disease; dūra kare che — removes; jaṭharāgni — the digestive fire; pradīpta kare che — kindles; kuṃḍalīnīne — kuṇḍalinī; jāgṛta kare che — awakens; nidrāne — sleep; niyamamāṃ āṇe che — brings into order; tathā — as well as; tāḷavānī uparathī — from above the palate; jharatā — dripping; caṃdrāmṛtane — the lunar nectar; tyāṃja — right there; sthira kare che — holds in place."
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "literal",
+      "label": "Literal translation (our interlinear)",
+      "paragraphs": [
+       "This posture removes many kinds of disease, kindles the digestive fire, awakens kuṇḍalīnī, brings sleep into order, and holds in place there the lunar nectar dripping from above the palate."
+      ]
+     },
+     {
       "type": "prose",
       "key": "efftr",
-      "label": "Traditional effect — English",
+      "label": "Traditional effect — English (ours)",
       "paragraphs": [
-       "The book claims that this posture removes many kinds of disease, kindles digestive fire, awakens kuṇḍalinī, regulates sleep, and holds in place the lunar nectar said to drip from above the palate."
+       "This posture removes many kinds of disease, kindles digestive fire, awakens kuṇḍalinī, regulates sleep, and holds in place the lunar nectar that drips from above the palate."
       ]
      }
     ]
@@ -3076,8 +3816,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Буквальный перевод (наш подстрочник)",
+      "paragraphs": [
+       "Пятку правой ноги, сидя, у основания левого бедра поместить, и пятку левой ноги у основания правого бедра поместить — это называется Ардхападмāсана или Муктападмāсана."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "Перевод",
+      "label": "Литературный перевод (наш)",
       "paragraphs": [
        "Сидя, поместите пятку правой ноги у основания левого бедра, а пятку левой ноги — у основания правого бедра. Это называется Ардхападмāсана или Муктападмāсана."
       ]
@@ -3111,11 +3859,27 @@
       ]
      },
      {
+      "type": "words",
+      "key": "words",
+      "label": "Пословный разбор (наш)",
+      "paragraphs": [
+       "ḍābā paganī pānī — пятку левой ноги; jamaṇā sāthaḷanā mūḷamāṃ — у основания правого бедра; bharāvīne — вставив; ne — и; jamaṇā paganī pānī — пятку правой ноги; ḍābā sāthaḷanā mūḷamāṃ — у основания левого бедра; bharāvīne — вставив; besavāthī — от сидения; paṇa — тоже; e āsana — эта āсана; thaī śake che — может получиться."
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "literal",
+      "label": "Буквальный перевод (наш подстрочник)",
+      "paragraphs": [
+       "Эта āсана может получиться и оттого, что, вставив пятку левой ноги у основания правого бедра и вставив пятку правой ноги у основания левого бедра, садятся."
+      ]
+     },
+     {
       "type": "prose",
       "key": "addtr",
-      "label": "Дополнительный пассаж — перевод",
+      "label": "Дополнительный пассаж — перевод (наш)",
       "paragraphs": [
-       "Книга также говорит, что эту позу можно принять, сев с левой пяткой у основания правого бедра и правой пяткой у основания левого."
+       "Эту позу можно принять, сев с левой пяткой у основания правого бедра и правой пяткой у основания левого."
       ]
      },
      {
@@ -3166,8 +3930,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Literal translation (our interlinear)",
+      "paragraphs": [
+       "The heel of the right leg, sitting, at the root of the left thigh to place, and the heel of the left leg at the root of the right thigh to place — this is called Ardhapadmāsana or Muktapadmāsana."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "English translation",
+      "label": "Literary translation (ours)",
       "paragraphs": [
        "Sitting, place the heel of the right foot at the base of the left thigh and the heel of the left foot at the base of the right thigh. This is called Ardhapadmāsana or Muktapadmāsana. The printed wording is syntactically awkward; the position of “sitting” here is an interpretation."
       ]
@@ -3201,11 +3973,27 @@
       ]
      },
      {
+      "type": "words",
+      "key": "words",
+      "label": "Word-by-word analysis (ours)",
+      "paragraphs": [
+       "ḍābā paganī pānī — the heel of the left leg; jamaṇā sāthaḷanā mūḷamāṃ — at the base of the right thigh; bharāvīne — having inserted; ne — and; jamaṇā paganī pānī — the heel of the right leg; ḍābā sāthaḷanā mūḷamāṃ — at the base of the left thigh; bharāvīne — having inserted; besavāthī — from sitting; paṇa — too; e āsana — this posture; thaī śake che — can come about."
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "literal",
+      "label": "Literal translation (our interlinear)",
+      "paragraphs": [
+       "This posture can also come about by sitting after inserting the heel of the left leg at the base of the right thigh, and inserting the heel of the right leg at the base of the left thigh."
+      ]
+     },
+     {
       "type": "prose",
       "key": "addtr",
-      "label": "Additional passage — English",
+      "label": "Additional passage — English (ours)",
       "paragraphs": [
-       "The book also says the posture can be made by placing the left heel at the base of the right thigh and the right heel at the base of the left thigh and sitting. The preceding wording remains syntactically uncertain."
+       "The posture can be made by placing the left heel at the base of the right thigh and the right heel at the base of the left thigh and sitting. The preceding wording remains syntactically uncertain."
       ]
      },
      {
@@ -3275,8 +4063,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Буквальный перевод (наш подстрочник)",
+      "paragraphs": [
+       "Как выше сев, обе руки между сложенными ногами вставив, вместе со сложенными ногами тело поднять — это называется Куккут̣āсана."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "Перевод",
+      "label": "Литературный перевод (наш)",
       "paragraphs": [
        "Сидя, как описано выше, вставьте обе руки между скрещенными ногами и поднимите корпус вместе со скрещенными ногами. Это называется Куккут̣āсана."
       ]
@@ -3329,8 +4125,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Literal translation (our interlinear)",
+      "paragraphs": [
+       "As above sitting, both hands between the crossed legs inserting, together with the crossed legs the body to raise — this is called Kukkuṭāsana."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "English translation",
+      "label": "Literary translation (ours)",
       "paragraphs": [
        "Sitting as described above, insert both hands between the crossed legs and raise the body together with the crossed legs. This is called Kukkuṭāsana."
       ]
@@ -3402,8 +4206,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Буквальный перевод (наш подстрочник)",
+      "paragraphs": [
+       "Под яичками в левой части промежности пятку левой ноги поместить, а в правой части пятку правой ноги поместить, и пальцы обеих рук друг с другом крепко сцепив, подошвы обеих ног крепко прижатыми держать — это называется Горакшāсана."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "Перевод",
+      "label": "Литературный перевод (наш)",
       "paragraphs": [
        "\"Под яички, с левой стороны промежности, поместите пятку левой стопы, а с правой стороны - пятку правой стопы. Затем, плотно сцепив пальцы, держите подошвы обеих стоп соединенными - это называется Горакшāсана\"."
       ]
@@ -3437,11 +4249,27 @@
       ]
      },
      {
+      "type": "words",
+      "key": "words",
+      "label": "Пословный разбор (наш)",
+      "paragraphs": [
+       "prasiddha — известный; haṭha yogī — хат̣ха-йогин; gorakhanāthe — Горакхнāтха (эргатив); ā āsanano — этой āсаны; ghaṇo — большой; abhyāsa karyo hato — совершил практику; tethī — поэтому; ā bhadrāsananuṃ — этой Бхадрāсаны; nāma — имя; gorakhāsana — Горакшāсана; paḍyuṃ che — утвердилось."
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "literal",
+      "label": "Буквальный перевод (наш подстрочник)",
+      "paragraphs": [
+       "Известный хат̣хайогин Горакхнāтха много практиковал эту āсану, поэтому эта Бхадрāсана получила имя Горакшāсана."
+      ]
+     },
+     {
       "type": "prose",
       "key": "addtr",
-      "label": "Дополнительный пассаж — перевод",
+      "label": "Дополнительный пассаж — перевод (наш)",
       "paragraphs": [
-       "В сноске говорится, что известный хат̣хайогин Горакхнāтха долго практиковал эту позу и поэтому Бхадрāсана получила название Горакшāсана."
+       "Известный хат̣хайогин Горакхнāтха долго практиковал эту позу и поэтому Бхадрāсана получила название Горакшāсана."
       ]
      },
      {
@@ -3473,11 +4301,27 @@
       ]
      },
      {
+      "type": "words",
+      "key": "words",
+      "label": "Пословный разбор (наш)",
+      "paragraphs": [
+       "ā āsane — в этой āсане; śayana karavā thakī — от совершения сна; kadāpi paṇa — когда бы то ни было; vīrya — семя; skhalita thatuṃ nathī — не изливается; tathā — а также; ghaṇā rogo — многие болезни; nāśa pāme che — погибают."
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "literal",
+      "label": "Буквальный перевод (наш подстрочник)",
+      "paragraphs": [
+       "От лежания в этой āсане семя никогда не изливается и многие болезни уничтожаются."
+      ]
+     },
+     {
       "type": "prose",
       "key": "efftr",
-      "label": "Традиционный эффект — перевод",
+      "label": "Традиционный эффект — перевод (наш)",
       "paragraphs": [
-       "В книге утверждается, что сон в этой позе предотвращает извержение семени и устраняет многие болезни."
+       "Сон в этой позе предотвращает извержение семени и устраняет многие болезни."
       ]
      }
     ],
@@ -3520,8 +4364,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Literal translation (our interlinear)",
+      "paragraphs": [
+       "Beneath the testicles, in the left part of the perineum, the heel of the left leg to place, and in the right part the heel of the right leg to place, and the fingers of both hands with one another firmly interlocking, the soles of both legs firmly pressed to hold — this is called Gorakṣāsana."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "English translation",
+      "label": "Literary translation (ours)",
       "paragraphs": [
        "“Under the testicles, on the left side of the perineum, place the heel of the left foot, and on the right side - the heel of the right foot. Then, tightly clasping your fingers, keep the soles of both feet connected - this is called Gorakṣāsana.”"
       ]
@@ -3555,11 +4407,27 @@
       ]
      },
      {
+      "type": "words",
+      "key": "words",
+      "label": "Word-by-word analysis (ours)",
+      "paragraphs": [
+       "prasiddha — renowned; haṭha yogī — haṭha-yogin; gorakhanāthe — Gorakhnātha (ergative); ā āsanano — of this posture; ghaṇo — much; abhyāsa karyo hato — practised; tethī — therefore; ā bhadrāsananuṃ — of this Bhadrāsana; nāma — the name; gorakhāsana — Gorakṣāsana; paḍyuṃ che — came to be."
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "literal",
+      "label": "Literal translation (our interlinear)",
+      "paragraphs": [
+       "The renowned haṭhayogin Gorakhnātha practised this posture a great deal, and therefore this Bhadrāsana received the name Gorakṣāsana."
+      ]
+     },
+     {
       "type": "prose",
       "key": "addtr",
-      "label": "Additional passage — English",
+      "label": "Additional passage — English (ours)",
       "paragraphs": [
-       "A footnote says that the renowned haṭhayogin Gorakhnātha practised this posture extensively and that this is why Bhadrāsana came to be called Gorakṣāsana."
+       "The renowned haṭhayogin Gorakhnātha practised this posture extensively, and this is why Bhadrāsana came to be called Gorakṣāsana."
       ]
      },
      {
@@ -3591,11 +4459,27 @@
       ]
      },
      {
+      "type": "words",
+      "key": "words",
+      "label": "Word-by-word analysis (ours)",
+      "paragraphs": [
+       "ā āsane — in this posture; śayana karavā thakī — from lying down; kadāpi paṇa — at any time; vīrya — semen; skhalita thatuṃ nathī — is not discharged; tathā — as well as; ghaṇā rogo — many diseases; nāśa pāme che — perish."
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "literal",
+      "label": "Literal translation (our interlinear)",
+      "paragraphs": [
+       "From lying in this posture semen is never discharged and many diseases are destroyed."
+      ]
+     },
+     {
       "type": "prose",
       "key": "efftr",
-      "label": "Traditional effect — English",
+      "label": "Traditional effect — English (ours)",
       "paragraphs": [
-       "The book claims that lying in this posture prevents the discharge of semen and removes many diseases."
+       "Lying in this posture prevents the discharge of semen and removes many diseases."
       ]
      }
     ]
@@ -3657,8 +4541,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Буквальный перевод (наш подстрочник)",
+      "paragraphs": [
+       "Сначала, как в ардхападмāсане, сев, затем голову с землёй прижав, опорой обеих рук вышеупомянутые сложенные ноги приподнятыми держать — это называется Ӯрдхвападмāсана."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "Перевод",
+      "label": "Литературный перевод (наш)",
       "paragraphs": [
        "Сначала сядьте как в Ардхападмāсане, затем упритесь головой в землю и, опираясь на обе руки, поднимите и удерживайте в воздухе указанные скрещенные ноги. Это называется Ӯрдхва падмāсана."
       ]
@@ -3703,8 +4595,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Literal translation (our interlinear)",
+      "paragraphs": [
+       "First, as in Ardhapadmāsana, sitting, then the head against the ground pressing, by the support of both hands the aforesaid crossed legs raised to hold — this is called Ūrdhvapadmāsana."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "English translation",
+      "label": "Literary translation (ours)",
       "paragraphs": [
        "“First sitting down, as in Ardhapadmāsana, then, resting your head on the ground, supported by both hands, raise and hold the above-mentioned crossed legs in the air - this is called Ūrdhva Padmāsana.”"
       ]
@@ -3768,8 +4668,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Буквальный перевод (наш подстрочник)",
+      "paragraphs": [
+       "Стоя, ступню левой ноги к северной стороне колена правой ноги прижатой держать — это называется Ардхапāдāсана."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "Перевод",
+      "label": "Литературный перевод (наш)",
       "paragraphs": [
        "Стоя, прижмите ступню левой ноги к северной или верхней стороне правого колена; это называется Ардхапāдāсана."
       ]
@@ -3822,8 +4730,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Literal translation (our interlinear)",
+      "paragraphs": [
+       "Standing, the foot of the left leg at the northern side of the knee of the right leg pressed to hold — this is called Ardhapādāsana."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "English translation",
+      "label": "Literary translation (ours)",
       "paragraphs": [
        "Standing, hold the foot of the left leg against the northern or upper side of the right knee; this is called Ardhapādāsana."
       ]
@@ -3895,8 +4811,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Буквальный перевод (наш подстрочник)",
+      "paragraphs": [
+       "На обеих ногах стоять — это называется Пӯрн̣апāдāсана."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "Перевод",
+      "label": "Литературный перевод (наш)",
       "paragraphs": [
        "Стоять на обеих ступнях — это Пӯрн̣апāдāсана."
       ]
@@ -3941,8 +4865,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Literal translation (our interlinear)",
+      "paragraphs": [
+       "On both feet to stand — this is called Pūrṇapādāsana."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "English translation",
+      "label": "Literary translation (ours)",
       "paragraphs": [
        "Standing on both feet is called Pūrṇapādāsana."
       ]
@@ -4006,8 +4938,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Буквальный перевод (наш подстрочник)",
+      "paragraphs": [
+       "Правую руку в локте согнув, под голову поместив, обе ноги вытянув, на правом боку лежать — это называется Дакшин̣āсана."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "Перевод",
+      "label": "Литературный перевод (наш)",
       "paragraphs": [
        "Согните правую руку в локте, положите её под голову, вытяните обе ноги и лягте на правый бок. Это называется Дакшин̣āсана."
       ]
@@ -4052,8 +4992,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Literal translation (our interlinear)",
+      "paragraphs": [
+       "The right arm at the elbow bending, beneath the head placing, both legs extending, on the right side to lie — this is called Dakṣiṇāsana."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "English translation",
+      "label": "Literary translation (ours)",
       "paragraphs": [
        "“Bending your right arm at the elbow and placing it under your head, and stretching your legs, lie on your right side - this is called Dakṣiṇāsana.”"
       ]
@@ -4117,8 +5065,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Буквальный перевод (наш подстрочник)",
+      "paragraphs": [
+       "Обе руки и ноги вытянув, лицо к небу обратив, лежать — это называется Ш́абāсана."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "Перевод",
+      "label": "Литературный перевод (наш)",
       "paragraphs": [
        "Вытяните обе руки и ноги и лягте, обратив лицо к небу. Это называется Ш́авāсана."
       ]
@@ -4152,11 +5108,27 @@
       ]
      },
      {
+      "type": "words",
+      "key": "words",
+      "label": "Пословный разбор (наш)",
+      "paragraphs": [
+       "yogābhyāsa karatāṃ — когда занимаются йогой; thāka lāge tyāre — когда наступает усталость; ā āsane — в этой āсане; sthita thavāthī — от пребывания; yogābhyāsīne — практикующему йогу; viśrāṃti — отдых; maḷe che — достаётся."
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "literal",
+      "label": "Буквальный перевод (наш подстрочник)",
+      "paragraphs": [
+       "Когда от занятий йогой приходит усталость, от пребывания в этой āсане занимающемуся йогой приходит отдых."
+      ]
+     },
+     {
       "type": "prose",
       "key": "efftr",
-      "label": "Традиционный эффект — перевод",
+      "label": "Традиционный эффект — перевод (наш)",
       "paragraphs": [
-       "В книге говорится, что, когда занятия йогой вызывают усталость, пребывание в этой позе даёт практикующему отдых."
+       "Когда занятия йогой вызывают усталость, пребывание в этой позе даёт практикующему отдых."
       ]
      }
     ],
@@ -4199,8 +5171,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Literal translation (our interlinear)",
+      "paragraphs": [
+       "Both arms and legs extending, the face toward the sky keeping, to lie down — this is called Śabāsana."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "English translation",
+      "label": "Literary translation (ours)",
       "paragraphs": [
        "“With both arms and legs stretched out and your face turned to the sky, lie down - this is called Śavāsana.”"
       ]
@@ -4234,11 +5214,27 @@
       ]
      },
      {
+      "type": "words",
+      "key": "words",
+      "label": "Word-by-word analysis (ours)",
+      "paragraphs": [
+       "yogābhyāsa karatāṃ — when one practises yoga; thāka lāge tyāre — when fatigue arises; ā āsane — in this posture; sthita thavāthī — from staying; yogābhyāsīne — to the practitioner of yoga; viśrāṃti — rest; maḷe che — is obtained."
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "literal",
+      "label": "Literal translation (our interlinear)",
+      "paragraphs": [
+       "When fatigue comes from the practice of yoga, from remaining in this posture the practitioner of yoga receives rest."
+      ]
+     },
+     {
       "type": "prose",
       "key": "efftr",
-      "label": "Traditional effect — English",
+      "label": "Traditional effect — English (ours)",
       "paragraphs": [
-       "The book says that when yoga practice causes fatigue, remaining in this posture gives the practitioner rest."
+       "When yoga practice causes fatigue, remaining in this posture gives the practitioner rest."
       ]
      }
     ]
@@ -4300,8 +5296,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Буквальный перевод (наш подстрочник)",
+      "paragraphs": [
+       "Обе руки и ноги вытянув, лицом вниз лежать — это называется Адхвāсана."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "Перевод",
+      "label": "Литературный перевод (наш)",
       "paragraphs": [
        "Вытянув обе руки и ноги, лягте лицом вниз. Это называется Адхвāсана."
       ]
@@ -4346,8 +5350,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Literal translation (our interlinear)",
+      "paragraphs": [
+       "Both arms and legs extending, face down to lie — this is called Adhvāsana."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "English translation",
+      "label": "Literary translation (ours)",
       "paragraphs": [
        "“With both arms and legs extended, lie prone (on your stomach) - this is called Adhvāsana.”"
       ]
@@ -4411,8 +5423,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Буквальный перевод (наш подстрочник)",
+      "paragraphs": [
+       "Правую ногу вперёд (в ту сторону, куда обращено наше лицо) вытянув, на левой ноге стоять — это называется Вāмапāдāсана."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "Перевод",
+      "label": "Литературный перевод (наш)",
       "paragraphs": [
        "Вытяните правую ногу вперёд — в тексте это направление определяется как сторона, куда обращено лицо, — и стойте на левой ноге. Это называется Вāмапāдāсана."
       ]
@@ -4457,8 +5477,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Literal translation (our interlinear)",
+      "paragraphs": [
+       "The right leg forward (the direction in which our face is turned) extending, on the left foot to stand — this is called Vāmapādāsana."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "English translation",
+      "label": "Literary translation (ours)",
       "paragraphs": [
        "Extend the right leg forward—defined here as the direction in which one faces—and stand on the left leg. This is called Vāmapādāsana."
       ]
@@ -4522,8 +5550,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Буквальный перевод (наш подстрочник)",
+      "paragraphs": [
+       "Левую ногу вперёд вытянув, на правой ноге стоять — это называется Дакшин̣а пāдāсана."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "Перевод",
+      "label": "Литературный перевод (наш)",
       "paragraphs": [
        "Вытяните левую ногу вперёд и стойте на правой ноге. Это называется Дакшин̣а пāдāсана."
       ]
@@ -4568,8 +5604,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Literal translation (our interlinear)",
+      "paragraphs": [
+       "The left leg forward extending, on the right foot to stand — this is called Dakṣiṇa Pādāsana."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "English translation",
+      "label": "Literary translation (ours)",
       "paragraphs": [
        "“With your left leg extended forward, stand on your right leg - this is called Dakṣiṇa Pādāsana.”"
       ]
@@ -4633,8 +5677,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Буквальный перевод (наш подстрочник)",
+      "paragraphs": [
+       "Сидя, большие пальцы обеих ног обеими руками взять, затем одну ногу держать вытянутой, а другую ногу, подтянув, к уху подвести — это называется Дханушāсана."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "Перевод",
+      "label": "Литературный перевод (наш)",
       "paragraphs": [
        "Сядьте и возьмитесь обеими руками за большие пальцы обеих ног. Одну ногу держите вытянутой, а другую подтяните к уху. Это называется Дханушāсана."
       ]
@@ -4679,8 +5731,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Literal translation (our interlinear)",
+      "paragraphs": [
+       "Sitting, the big toes of both legs with both hands to grasp, then one leg to keep extended, and the other leg drawing up to the ear to bring — this is called Dhanuṣāsana."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "English translation",
+      "label": "Literary translation (ours)",
       "paragraphs": [
        "“Sit down, grab the big toes of both feet with both hands. Then keep one leg extended and the other leg pulled up to the ear - this is called Dhanuṣāsana.”"
       ]
@@ -4744,8 +5804,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Буквальный перевод (наш подстрочник)",
+      "paragraphs": [
+       "Сидя, левую ногу на голову поднять — это называется Вāмапāда ш́ирāсана."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "Перевод",
+      "label": "Литературный перевод (наш)",
       "paragraphs": [
        "Сядьте и поднимите левую ногу на голову или над ней. Это называется Вāмапāда ш́ирāсана."
       ]
@@ -4790,8 +5858,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Literal translation (our interlinear)",
+      "paragraphs": [
+       "Sitting, the left leg onto the head to raise — this is called Vāmapāda Śirāsana."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "English translation",
+      "label": "Literary translation (ours)",
       "paragraphs": [
        "“Sit down, throw your left leg over your head - this is called Vāmapāda Śirāsana.”"
       ]
@@ -4855,8 +5931,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Буквальный перевод (наш подстрочник)",
+      "paragraphs": [
+       "Сидя, правую ногу на голову поднять — это называется Дакшин̣апāда ш́ирāсана."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "Перевод",
+      "label": "Литературный перевод (наш)",
       "paragraphs": [
        "Сядьте и поднимите правую ногу на голову или над ней. Это называется Дакшин̣апāда ш́ирāсана."
       ]
@@ -4901,8 +5985,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Literal translation (our interlinear)",
+      "paragraphs": [
+       "Sitting, the right leg onto the head to raise — this is called Dakṣiṇapāda Śirāsana."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "English translation",
+      "label": "Literary translation (ours)",
       "paragraphs": [
        "“Sit down, throw your right leg over your head - this is called Dakṣiṇapāda Śirāsana.”"
       ]
@@ -4966,8 +6058,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Буквальный перевод (наш подстрочник)",
+      "paragraphs": [
+       "Сидя, обе ноги на голову поднять — это называется Двипāда ш́ирāсана."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "Перевод",
+      "label": "Литературный перевод (наш)",
       "paragraphs": [
        "Сядьте и поднимите обе ноги на голову или над ней. Это называется Двипāда ш́ирāсана."
       ]
@@ -5020,8 +6120,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Literal translation (our interlinear)",
+      "paragraphs": [
+       "Sitting, both legs onto the head to raise — this is called Dvipāda Śirāsana."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "English translation",
+      "label": "Literary translation (ours)",
       "paragraphs": [
        "“Sit down, throw both legs over your head - this is called Dvipada Śirāsana.”"
       ]
@@ -5093,8 +6201,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Буквальный перевод (наш подстрочник)",
+      "paragraphs": [
+       "Ступню правой ноги под бедром левой ноги расположить, и ступню левой ноги под бедром правой ноги расположить, и, ноги скрестив, сесть — это называется Стхирāсана."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "Перевод",
+      "label": "Литературный перевод (наш)",
       "paragraphs": [
        "Поместите правую ступню под левое бедро, а левую ступню под правое бедро, затем сядьте, скрестив ноги. Это называется Стхирāсана."
       ]
@@ -5139,8 +6255,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Literal translation (our interlinear)",
+      "paragraphs": [
+       "The foot of the right leg beneath the thigh of the left leg to place, and the foot of the left leg beneath the thigh of the right leg to place, and cross-legged to sit — this is called Sthirāsana."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "English translation",
+      "label": "Literary translation (ours)",
       "paragraphs": [
        "Place the right foot beneath the left thigh and the left foot beneath the right thigh, then sit cross-legged. This is called Sthirāsana."
       ]
@@ -5204,8 +6328,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Буквальный перевод (наш подстрочник)",
+      "paragraphs": [
+       "Обе ноги вытянув, с опорой обеих рук голову о землю уставив, вниз головой стоять — это называется Вр̣кшāсана."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "Перевод",
+      "label": "Литературный перевод (наш)",
       "paragraphs": [
        "Вытяните обе ноги и, опираясь обеими руками и головой о землю, оставайтесь вниз головой. Это называется Вр̣кшāсана. Описание относится к стойке на голове, а не к современной позе дерева."
       ]
@@ -5250,8 +6382,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Literal translation (our interlinear)",
+      "paragraphs": [
+       "Both legs extending, with the support of both hands the head against the ground resting, inverted on the head to remain — this is called Vṛkṣāsana."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "English translation",
+      "label": "Literary translation (ours)",
       "paragraphs": [
        "“With both legs stretched out, supported by both hands and with your head on the ground, stand upside down - this is called Vṛkṣāsana.” (Note: This is a description of a headstand, not the modern tree pose)."
       ]
@@ -5315,8 +6455,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Буквальный перевод (наш подстрочник)",
+      "paragraphs": [
+       "Обе ноги в коленях согнув, голову о землю уставив, вниз головой стоять — это называется Ардха вр̣кшāсана."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "Перевод",
+      "label": "Литературный перевод (наш)",
       "paragraphs": [
        "Согните обе ноги в коленях и, опираясь головой о землю, оставайтесь вниз головой. Это называется Ардха вр̣кшāсана."
       ]
@@ -5361,8 +6509,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Literal translation (our interlinear)",
+      "paragraphs": [
+       "Both legs at the knees bending, the head against the ground resting, inverted on the head to remain — this is called Ardha Vṛkṣāsana."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "English translation",
+      "label": "Literary translation (ours)",
       "paragraphs": [
        "“Bending both legs at the knees, resting your head on the ground, stand upside down - this is called Ardha Vṛkṣāsana.”"
       ]
@@ -5426,8 +6582,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Буквальный перевод (наш подстрочник)",
+      "paragraphs": [
+       "Пальцами обеих рук пальцы ног обеих ног взяв, лежать — это называется Чакрāсана."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "Перевод",
+      "label": "Литературный перевод (наш)",
       "paragraphs": [
        "Пальцами обеих рук возьмитесь за пальцы обеих ног и лягте. Это называется Чакрāсана. В тексте не уточняется, лежит ли человек лицом вверх или лицом вниз."
       ]
@@ -5472,8 +6636,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Literal translation (our interlinear)",
+      "paragraphs": [
+       "With the fingers of both hands the toes of both feet grasping, to lie down — this is called Cakrāsana."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "English translation",
+      "label": "Literary translation (ours)",
       "paragraphs": [
        "With the fingers of both hands, grasp the toes of both feet and lie down. This is called Cakrāsana. The text does not specify whether one lies face up or face down."
       ]
@@ -5537,8 +6709,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Буквальный перевод (наш подстрочник)",
+      "paragraphs": [
+       "Обе руки подняв, стоять — это называется Тāд̣āсана."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "Перевод",
+      "label": "Литературный перевод (наш)",
       "paragraphs": [
        "Стоять с поднятыми обеими руками — это Тāд̣āсана."
       ]
@@ -5583,8 +6763,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Literal translation (our interlinear)",
+      "paragraphs": [
+       "Both hands raising, to stand — this is called Tāḍāsana."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "English translation",
+      "label": "Literary translation (ours)",
       "paragraphs": [
        "Standing with both hands raised is called Tāḍāsana."
       ]
@@ -5648,8 +6836,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Буквальный перевод (наш подстрочник)",
+      "paragraphs": [
+       "Так, чтобы голень левой ноги сдавливалась, голень правой ноги вставив, сесть — это называется Вāма чатуртхāм̣ш́а пāдāсана."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "Перевод",
+      "label": "Литературный перевод (наш)",
       "paragraphs": [
        "Расположите голень правой ноги так, чтобы сдавливалась икра левой ноги, и сядьте. Это называется Вāма чатуртхāм̣ш́а пāдāсана."
       ]
@@ -5694,8 +6890,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Literal translation (our interlinear)",
+      "paragraphs": [
+       "In such a way that the calf of the left leg is compressed, the shin of the right leg inserting, sit — this is called Vāma Caturthāṃśa Pādāsana."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "English translation",
+      "label": "Literary translation (ours)",
       "paragraphs": [
        "“Sit down, placing the shin of your right leg so that the calf of your left leg is compressed - this is called Vāma Caturthāṃśa Pādāsana.”"
       ]
@@ -5759,8 +6963,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Буквальный перевод (наш подстрочник)",
+      "paragraphs": [
+       "Так, чтобы голень правой ноги сдавливалась, голень левой ноги вставив, сесть — это называется Дакшин̣а чатуртхāм̣ш́а пāдāсана."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "Перевод",
+      "label": "Литературный перевод (наш)",
       "paragraphs": [
        "Расположите голень левой ноги так, чтобы сдавливалась икра правой ноги, и сядьте. Это называется Дакшин̣а чатуртхāм̣ш́а пāдāсана."
       ]
@@ -5794,11 +7006,27 @@
       ]
      },
      {
+      "type": "words",
+      "key": "words",
+      "label": "Пословный разбор (наш)",
+      "paragraphs": [
+       "uparanāṃ baṃne āsane — в обеих предыдущих āсанах; besavāthī — от сидения; ūṃgha āvatī nathī — сон не приходит; ane — и; tethī — поэтому; āḷasa — вялость; tathā — и; apāna vāyu — апāна-вāйу; dūra thāya che — уходит."
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "literal",
+      "label": "Буквальный перевод (наш подстрочник)",
+      "paragraphs": [
+       "От сидения в обеих вышеуказанных āсанах сон не приходит, и тем самым вялость и апāна-вāйу уходят."
+      ]
+     },
+     {
       "type": "prose",
       "key": "efftr",
-      "label": "Традиционный эффект — перевод",
+      "label": "Традиционный эффект — перевод (наш)",
       "paragraphs": [
-       "В книге утверждается, что сидение в обеих предыдущих позах — 36 и 37 — препятствует сну и тем самым устраняет вялость и апāна-вāйу."
+       "Сидение в обеих предыдущих позах — 36 и 37 — препятствует сну и тем самым устраняет вялость и апāна-вāйу."
       ]
      }
     ],
@@ -5841,8 +7069,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Literal translation (our interlinear)",
+      "paragraphs": [
+       "In such a way that the calf of the right leg is compressed, the shin of the left leg inserting, sit — this is called Dakṣiṇa Caturthāṃśa Pādāsana."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "English translation",
+      "label": "Literary translation (ours)",
       "paragraphs": [
        "“Sit down, placing the shin of your left leg so that the calf of your right leg is compressed - this is called Dakṣiṇa Caturthāṃśa Pādāsana.”"
       ]
@@ -5876,11 +7112,27 @@
       ]
      },
      {
+      "type": "words",
+      "key": "words",
+      "label": "Word-by-word analysis (ours)",
+      "paragraphs": [
+       "uparanāṃ baṃne āsane — in both of the preceding postures; besavāthī — from sitting; ūṃgha āvatī nathī — sleep does not come; ane — and; tethī — therefore; āḷasa — lethargy; tathā — and; apāna vāyu — apāna vāyu; dūra thāya che — goes away."
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "literal",
+      "label": "Literal translation (our interlinear)",
+      "paragraphs": [
+       "From sitting in both the above postures sleep does not come, and thereby lethargy and apāna vāyu go away."
+      ]
+     },
+     {
       "type": "prose",
       "key": "efftr",
-      "label": "Traditional effect — English",
+      "label": "Traditional effect — English (ours)",
       "paragraphs": [
-       "Of both postures 36 and 37, the book claims that sitting in them prevents sleep and thereby removes lethargy and apāna vāyu."
+       "Of both postures 36 and 37, sitting in them prevents sleep and thereby removes lethargy and apāna vāyu."
       ]
      }
     ]
@@ -5942,8 +7194,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Буквальный перевод (наш подстрочник)",
+      "paragraphs": [
+       "Лицо к небу обратив, обе руки и ноги к земле прижав, подобную луку форму сделать — это называется Ӯрдхва дханушāсана."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "Перевод",
+      "label": "Литературный перевод (наш)",
       "paragraphs": [
        "Обратив лицо к небу, поставьте обе руки и ноги на землю и придайте телу форму лука. Это называется Ӯрдхва дханушāсана."
       ]
@@ -5988,8 +7248,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Literal translation (our interlinear)",
+      "paragraphs": [
+       "The face toward the sky keeping, both hands and feet touching the ground, a shape like a bow to make — this is called Ūrdhva Dhanuṣāsana."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "English translation",
+      "label": "Literary translation (ours)",
       "paragraphs": [
        "With the face toward the sky, place both hands and feet on the ground and make a bow-like shape; this is called Ūrdhva Dhanuṣāsana."
       ]
@@ -6053,8 +7321,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Буквальный перевод (наш подстрочник)",
+      "paragraphs": [
+       "Пятку левой ноги в сиденье (промежность) вставив, правую ногу вытянув, сесть — это называется Вāма сиддхāсана."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "Перевод",
+      "label": "Литературный перевод (наш)",
       "paragraphs": [
        "Поместите пятку левой ноги в область промежности и сядьте, вытянув правую ногу. Это называется Вāма сиддхāсана."
       ]
@@ -6099,8 +7375,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Literal translation (our interlinear)",
+      "paragraphs": [
+       "The heel of the left leg into the seat (the perineum) inserting, the right leg extending, sit — this is called Vāma Siddhāsana."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "English translation",
+      "label": "Literary translation (ours)",
       "paragraphs": [
        "“Placing the heel of your left foot on the perineum, and stretching your right leg, sit down - this is called Vāma Siddhāsana.”"
       ]
@@ -6164,8 +7448,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Буквальный перевод (наш подстрочник)",
+      "paragraphs": [
+       "Пятку правой ноги в сиденье вставив, левую ногу вытянув, сесть — это называется Дакшин̣а сиддхāсана."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "Перевод",
+      "label": "Литературный перевод (наш)",
       "paragraphs": [
        "Поместите пятку правой ноги в область промежности и сядьте, вытянув левую ногу. Это называется Дакшин̣а сиддхāсана."
       ]
@@ -6210,8 +7502,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Literal translation (our interlinear)",
+      "paragraphs": [
+       "The heel of the right leg into the seat inserting, the left leg extending, sit — this is called Dakṣiṇa Siddhāsana."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "English translation",
+      "label": "Literary translation (ours)",
       "paragraphs": [
        "“Placing the heel of the right foot on the perineum, and extending the left leg, sit down - this is called Dakṣiṇa Siddhāsana.”"
       ]
@@ -6275,8 +7575,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Буквальный перевод (наш подстрочник)",
+      "paragraphs": [
+       "Между обоими бёдрами и голенями ступни обеих ног поместив, сесть — это называется Свастикāсана."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "Перевод",
+      "label": "Литературный перевод (наш)",
       "paragraphs": [
        "Поместите обе ступни между бёдрами и икрами и сядьте. Это называется Свастикāсана. В тексте прямо не сказано, должна ли каждая ступня находиться в противоположной ноге."
       ]
@@ -6321,8 +7629,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Literal translation (our interlinear)",
+      "paragraphs": [
+       "Between both thighs and calves the feet of both legs placing, sit — this is called Svastikāsana."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "English translation",
+      "label": "Literary translation (ours)",
       "paragraphs": [
        "Place both feet between the thighs and calves and sit. This is called Svastikāsana. The text does not explicitly specify whether each foot goes into the opposite leg."
       ]
@@ -6386,8 +7702,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Буквальный перевод (наш подстрочник)",
+      "paragraphs": [
+       "Руки сложив, ноги скрестив, сесть — это называется Стхита вивекāсана."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "Перевод",
+      "label": "Литературный перевод (наш)",
       "paragraphs": [
        "Сядьте, скрестив ноги и сложив или сцепив руки. Это называется Стхита вивекāсана. Точное положение рук в тексте не уточняется."
       ]
@@ -6432,8 +7756,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Literal translation (our interlinear)",
+      "paragraphs": [
+       "The arms clasping, the legs crossing, sit — this is called Sthita Vivekāsana."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "English translation",
+      "label": "Literary translation (ours)",
       "paragraphs": [
        "Sit cross-legged with the arms clasped or folded. This is called Sthita Vivekāsana. The exact configuration of the arms is not specified here."
       ]
@@ -6497,8 +7829,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Буквальный перевод (наш подстрочник)",
+      "paragraphs": [
+       "Руки сложив, стоять — это называется Уттхита вивекāсана."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "Перевод",
+      "label": "Литературный перевод (наш)",
       "paragraphs": [
        "Стойте, сложив или сцепив руки. Это называется Уттхита вивекāсана. Точное положение рук в тексте не уточняется."
       ]
@@ -6543,8 +7883,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Literal translation (our interlinear)",
+      "paragraphs": [
+       "The arms clasping, to stand — this is called Utthita Vivekāsana."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "English translation",
+      "label": "Literary translation (ours)",
       "paragraphs": [
        "Stand with the arms clasped or folded. This is called Utthita Vivekāsana. The exact configuration of the arms is not specified here."
       ]
@@ -6608,8 +7956,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Буквальный перевод (наш подстрочник)",
+      "paragraphs": [
+       "Ладонь левой руки над левым ухом к голове прижав, эту руку на колено той же ноги поместив, в ту сторону тело наклонив, сесть, и правую ногу положив поперёк, на неё правую руку поместить — это называется Вāма таркāсана."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "Перевод",
+      "label": "Литературный перевод (наш)",
       "paragraphs": [
        "Приложите левую ладонь к голове над левым ухом, положите [локоть] этой руки на колено той же ноги и сядьте, наклонив тело в эту сторону. Расположите правую ногу поперёк и положите на неё правую руку. Это называется Вāма таркāсана."
       ]
@@ -6662,8 +8018,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Literal translation (our interlinear)",
+      "paragraphs": [
+       "The palm of the left hand above the left ear against the head pressing, that arm on the knee of the same leg placing, the body toward that side bending, sit, and the right leg across placing, upon it the right hand to place — this is called Vāma Tarkāsana."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "English translation",
+      "label": "Literary translation (ours)",
       "paragraphs": [
        "“Pressing the palm of your left hand to your head above your left ear, place the [elbow] of this hand on the knee of the same leg, and, tilting your body in this direction, sit down. Place your right leg across and place your right hand on it. This is called Vāma Tarkāsana.”"
       ]
@@ -6735,8 +8099,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Буквальный перевод (наш подстрочник)",
+      "paragraphs": [
+       "Ладонь правой руки над правым ухом к голове прижав, эту руку на колено той же ноги поместив, в ту сторону тело наклонив, сесть, и левую ногу положив поперёк, на неё левую руку поместить — это называется Дакшин̣а таркāсана."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "Перевод",
+      "label": "Литературный перевод (наш)",
       "paragraphs": [
        "Приложите правую ладонь к голове над правым ухом, положите [локоть] этой руки на колено той же ноги и сядьте, наклонив тело в эту сторону. Расположите левую ногу поперёк и положите на неё левую руку. Это называется Дакшин̣а таркāсана."
       ]
@@ -6789,8 +8161,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Literal translation (our interlinear)",
+      "paragraphs": [
+       "The palm of the right hand above the right ear against the head pressing, that arm on the knee of the same leg placing, the body toward that side bending, sit, and the left leg across placing, upon it the left hand to place — this is called Dakṣiṇa Tarkāsana."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "English translation",
+      "label": "Literary translation (ours)",
       "paragraphs": [
        "“Pressing the palm of your right hand to your head above your right ear, place the [elbow] of this hand on the knee of the same leg, and, tilting your body in this direction, sit down. Place your left leg across and place your left hand on it. This is called Dakṣiṇa Tarkāsana.”"
       ]
@@ -6862,8 +8242,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Буквальный перевод (наш подстрочник)",
+      "paragraphs": [
+       "Ладони обеих рук ко лбу прижав, их локти на бёдра поместив, к лицу тело наклонив, сесть — это называется Пӯрва таркāсана."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "Перевод",
+      "label": "Литературный перевод (наш)",
       "paragraphs": [
        "Приложите обе ладони ко лбу, положите локти на бёдра и сядьте, наклонив тело вперёд — к лицу. Это называется Пӯрва таркāсана."
       ]
@@ -6908,8 +8296,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Literal translation (our interlinear)",
+      "paragraphs": [
+       "The palms of both hands against the forehead pressing, their elbows on the thighs placing, the body toward the face bending, sit — this is called Pūrva Tarkāsana."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "English translation",
+      "label": "Literary translation (ours)",
       "paragraphs": [
        "“Pressing the palms of both hands to the forehead, place the elbows on the thighs and, bending the body forward (toward the face), sit down - this is called Pūrva Tarkāsana.”"
       ]
@@ -6973,8 +8369,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Буквальный перевод (наш подстрочник)",
+      "paragraphs": [
+       "Обе ноги вперёд вытянув, сесть — это называется Них̣ш́вāсāсана."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "Перевод",
+      "label": "Литературный перевод (наш)",
       "paragraphs": [
        "Вытяните обе ноги вперёд и сядьте. Это называется Них̣ш́вāсāсана."
       ]
@@ -7019,8 +8423,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Literal translation (our interlinear)",
+      "paragraphs": [
+       "Both legs forward extending, sit — this is called Niḥśvāsāsana."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "English translation",
+      "label": "Literary translation (ours)",
       "paragraphs": [
        "“Stretch both legs forward and sit down - this is called Niḥśvāsāsana.”"
       ]
@@ -7084,8 +8496,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Буквальный перевод (наш подстрочник)",
+      "paragraphs": [
+       "Обе руки в локтях вытянув, к земле прижав, лицо вперёд обратив, ноги в коленях согнув, к земле прикасаясь, сесть — это называется Ардха кӯрмāсана."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "Перевод",
+      "label": "Литературный перевод (наш)",
       "paragraphs": [
        "Вытяните обе руки в локтях и коснитесь земли; держите лицо вперед, согните ноги в коленях и сядьте, касаясь земли. Это называется Ардха Кӯрмāсана."
       ]
@@ -7138,8 +8558,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Literal translation (our interlinear)",
+      "paragraphs": [
+       "Both arms at the elbows extending, touching them to the ground, the face forward keeping, the legs at the knees bending, touching the ground, sit — this is called Ardha Kūrmāsana."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "English translation",
+      "label": "Literary translation (ours)",
       "paragraphs": [
        "Extend both arms at the elbows and touch the ground; keep the face forward, bend the legs at the knees, and sit touching the ground. This is called Ardha Kūrmāsana."
       ]
@@ -7211,8 +8639,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Буквальный перевод (наш подстрочник)",
+      "paragraphs": [
+       "Стоя, от пояса тело вперёд наклонив, обе руки в локтях назад, от головы вперёд, загибать — это называется Гаруд̣āсана."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "Перевод",
+      "label": "Литературный перевод (наш)",
       "paragraphs": [
        "Встаньте и наклоните тело вперёд от талии. Согните обе руки в локтях назад от положения перед головой. Это называется Гаруд̣āсана. Точное положение рук остаётся неясным."
       ]
@@ -7257,8 +8693,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Literal translation (our interlinear)",
+      "paragraphs": [
+       "Standing, from the waist the body forward bending, both arms at the elbows backward, from in front of the head bending them — this is called Garuḍāsana."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "English translation",
+      "label": "Literary translation (ours)",
       "paragraphs": [
        "Stand and bend the body forward from the waist. Bend both arms at the elbows toward the back, from in front of the head. This is called Garuḍāsana. The precise placement of the arms remains uncertain."
       ]
@@ -7322,8 +8766,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Буквальный перевод (наш подстрочник)",
+      "paragraphs": [
+       "Под яичками, в правой части промежности, пятку левой ноги поместить, а в левой части промежности пятку правой ноги поместить, и на бёдрах пальцы обеих рук вниз направив, широко растопырить, и рот раскрыв, язык высунув, на кончик носа смотреть — это называется Сим̣хāсана."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "Перевод",
+      "label": "Литературный перевод (наш)",
       "paragraphs": [
        "Под яичками поместите левую пятку на правую сторону промежности, а правую пятку на ее левую сторону. Положите пальцы обеих рук вниз на бедра и разведите их; откройте рот, вытяните язык и посмотрите на кончик носа. Это называется Сим̣хāсана."
       ]
@@ -7357,11 +8809,27 @@
       ]
      },
      {
+      "type": "words",
+      "key": "words",
+      "label": "Пословный разбор (наш)",
+      "paragraphs": [
+       "ā āsanavaḍe — этой āсаной; mūḷabaṃdha — мӯлабандха; siddha thāya che — достигается; ne — и; citta — ум; sthira thāya che — становится устойчивым."
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "literal",
+      "label": "Буквальный перевод (наш подстрочник)",
+      "paragraphs": [
+       "Этой āсаной мӯлабандха достигается, и ум становится устойчивым."
+      ]
+     },
+     {
       "type": "prose",
       "key": "efftr",
-      "label": "Традиционный эффект — перевод",
+      "label": "Традиционный эффект — перевод (наш)",
       "paragraphs": [
-       "Согласно книге, эта поза позволяет овладеть мӯлабандхой и делает ум устойчивым."
+       "Эта поза позволяет овладеть мӯлабандхой и делает ум устойчивым."
       ]
      }
     ],
@@ -7404,8 +8872,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Literal translation (our interlinear)",
+      "paragraphs": [
+       "Beneath the testicles, on the right side of the perineum, the heel of the left leg to place, and on the left side of the perineum the heel of the right leg to place, and on the thighs the fingers of both hands turning downward, spread them wide, and the mouth opening, the tongue putting out, at the tip of the nose to keep looking — this is called Siṃhāsana."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "English translation",
+      "label": "Literary translation (ours)",
       "paragraphs": [
        "Under the testicles, place the left heel on the right side of the perineum and the right heel on its left side. Place the fingers of both hands downward on the thighs and spread them; open the mouth, extend the tongue and look at the tip of the nose. This is called Siṃhāsana."
       ]
@@ -7439,11 +8915,27 @@
       ]
      },
      {
+      "type": "words",
+      "key": "words",
+      "label": "Word-by-word analysis (ours)",
+      "paragraphs": [
+       "ā āsanavaḍe — by this posture; mūḷabaṃdha — mūlabandha; siddha thāya che — is accomplished; ne — and; citta — the mind; sthira thāya che — becomes steady."
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "literal",
+      "label": "Literal translation (our interlinear)",
+      "paragraphs": [
+       "By this posture mūlabandha is accomplished, and the mind becomes steady."
+      ]
+     },
+     {
       "type": "prose",
       "key": "efftr",
-      "label": "Traditional effect — English",
+      "label": "Traditional effect — English (ours)",
       "paragraphs": [
-       "The book says that this posture accomplishes mūlabandha and steadies the mind."
+       "This posture accomplishes mūlabandha and steadies the mind."
       ]
      }
     ]
@@ -7505,8 +8997,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Буквальный перевод (наш подстрочник)",
+      "paragraphs": [
+       "Сидя на корточках, пятку левой ноги к ягодице прижав, на это колено левую руку поместив, ладонь этой руки к голове прижать, и пятку правой ноги к ягодице прижав, её наклонной держа, на неё правую руку поместить — это называется Вāма трикон̣āсана."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "Перевод",
+      "label": "Литературный перевод (наш)",
       "paragraphs": [
        "Сядьте на корточки, прижмите левую пятку к ягодице, положите левую руку на это колено и приложите ладонь к голове. Прижмите правую пятку к ягодице, удерживая ногу наклонённой, и положите на неё правую руку. Это называется Вāма трикон̣āсана."
       ]
@@ -7551,8 +9051,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Literal translation (our interlinear)",
+      "paragraphs": [
+       "Sitting in a squat, the heel of the left leg against the buttock pressing, on that knee the left arm placing, the palm of that hand against the head to press, and the heel of the right leg against the buttock pressing, keeping it inclined, upon it the right hand to place — this is called Vāma Trikoṇāsana."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "English translation",
+      "label": "Literary translation (ours)",
       "paragraphs": [
        "“Squatting down, press the heel of your left foot to your buttock, put your left hand on this knee and press the palm of that hand to your head. Press the heel of the right foot to the buttock, keeping the leg inclined, and place the right hand on it - this is called Vāma Trikoṇāsana.”"
       ]
@@ -7616,8 +9124,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Буквальный перевод (наш подстрочник)",
+      "paragraphs": [
+       "Сидя на корточках, пятку правой ноги к ягодице прижав, на это колено правую руку поместив, ладонь этой руки к голове прижать, и пятку левой ноги к ягодице прижав, её наклонной держа, на неё левую руку поместить — это называется Дакшин̣а трикон̣āсана."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "Перевод",
+      "label": "Литературный перевод (наш)",
       "paragraphs": [
        "Сядьте на корточки, прижмите правую пятку к ягодице, положите правую руку на это колено и приложите ладонь к голове. Прижмите левую пятку к ягодице, удерживая ногу наклонённой, и положите на неё левую руку. Это называется Дакшин̣а трикон̣āсана."
       ]
@@ -7662,8 +9178,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Literal translation (our interlinear)",
+      "paragraphs": [
+       "Sitting in a squat, the heel of the right leg against the buttock pressing, on that knee the right arm placing, the palm of that hand against the head to press, and the heel of the left leg against the buttock pressing, keeping it inclined, upon it the left hand to place — this is called Dakṣiṇa Trikoṇāsana."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "English translation",
+      "label": "Literary translation (ours)",
       "paragraphs": [
        "“Squatting down, press the heel of your right foot to your buttock, put your right hand on that knee and press the palm of that hand to your head. Press the heel of your left foot to your buttock, keeping your leg inclined, and place your left hand on it - this is called Dakṣiṇa Trikoṇāsana.”"
       ]
@@ -7727,8 +9251,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Буквальный перевод (наш подстрочник)",
+      "paragraphs": [
+       "Вāма трикон̣āсану и Дакшин̣а трикон̣āсану вместе соединив, сесть — это называется Пӯрн̣а трикон̣āсана."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "Перевод",
+      "label": "Литературный перевод (наш)",
       "paragraphs": [
        "Сядьте, объединив Вāма Трикон̣āсана и Дакшин̣а Трикон̣āсана. Это называется Пӯрн̣а Трикон̣āсана."
       ]
@@ -7773,8 +9305,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Literal translation (our interlinear)",
+      "paragraphs": [
+       "Vāma Trikoṇāsana and Dakṣiṇa Trikoṇāsana together combining, sit — this is called Pūrṇa Trikoṇāsana."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "English translation",
+      "label": "Literary translation (ours)",
       "paragraphs": [
        "Sit by combining Vāma Trikoṇāsana and Dakṣiṇa Trikoṇāsana. This is called Pūrṇa Trikoṇāsana."
       ]
@@ -7838,8 +9378,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Буквальный перевод (наш подстрочник)",
+      "paragraphs": [
+       "Как в дхӣрāсане, сев, ладони обеих рук соединить — это называется Прāртханāсана."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "Перевод",
+      "label": "Литературный перевод (наш)",
       "paragraphs": [
        "Сядьте как в Дхӣрāсане и соедините обе ладони. Это называется Прāртханāсана."
       ]
@@ -7884,8 +9432,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Literal translation (our interlinear)",
+      "paragraphs": [
+       "As in Dhīrāsana, sitting, the palms of both hands to join — this is called Prārthanāsana."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "English translation",
+      "label": "Literary translation (ours)",
       "paragraphs": [
        "Sit as in Dhīrāsana and join the palms of both hands. This is called Prārthanāsana."
       ]
@@ -7949,8 +9505,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Буквальный перевод (наш подстрочник)",
+      "paragraphs": [
+       "Так, чтобы пяткой правой ноги промежность сдавливалась, сев, ступню левой ноги от ягодицы примерно на локоть отведя, к земле прижать — это называется Вāмапāда трикон̣āсана."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "Перевод",
+      "label": "Литературный перевод (наш)",
       "paragraphs": [
        "Сядьте, прижав правую пятку к промежности. Поставьте левую ступню на землю приблизительно на расстоянии одного хāтха от ягодицы. Это называется Вāмапāда трикон̣āсана."
       ]
@@ -8011,8 +9575,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Literal translation (our interlinear)",
+      "paragraphs": [
+       "In such a way that by the heel of the right leg the perineum is pressed, sitting, the foot of the left leg about one cubit away from the buttock keeping, to the ground to press — this is called Vāmapāda Trikoṇāsana."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "English translation",
+      "label": "Literary translation (ours)",
       "paragraphs": [
        "Sit with the right heel pressing the perineum. Place the left foot against the ground at a distance of about one hātha from the buttock. This is called Vāmapāda Trikoṇāsana."
       ]
@@ -8092,8 +9664,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Буквальный перевод (наш подстрочник)",
+      "paragraphs": [
+       "Сев, ступню правой ноги от ягодицы примерно на локоть отведя, к земле прижать — это называется Дакшин̣апāда трикон̣āсана."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "Перевод",
+      "label": "Литературный перевод (наш)",
       "paragraphs": [
        "Сядьте и поставьте правую ступню на землю приблизительно на расстоянии одного хāтха от ягодицы. Это называется Дакшин̣апāда трикон̣āсана."
       ]
@@ -8146,8 +9726,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Literal translation (our interlinear)",
+      "paragraphs": [
+       "Sitting, the foot of the right leg about one cubit away from the buttock keeping, to the ground to press — this is called Dakṣiṇapāda Trikoṇāsana."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "English translation",
+      "label": "Literary translation (ours)",
       "paragraphs": [
        "Sit and place the right foot against the ground at a distance of about one hātha from the buttock. This is called Dakṣiṇapāda Trikoṇāsana."
       ]
@@ -8219,8 +9807,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Буквальный перевод (наш подстрочник)",
+      "paragraphs": [
+       "Вāмапāда трикон̣āсану и Дакшин̣апāда трикон̣āсану вместе соединив, сесть — это называется Пӯрн̣апāда трикон̣āсана."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "Перевод",
+      "label": "Литературный перевод (наш)",
       "paragraphs": [
        "Сядьте, объединив Вāмапāда Трикон̣āсана и Дакшин̣апāда Трикон̣āсана. Это называется Пӯрн̣апāда Трикон̣āсана."
       ]
@@ -8265,8 +9861,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Literal translation (our interlinear)",
+      "paragraphs": [
+       "Vāmapāda Trikoṇāsana and Dakṣiṇapāda Trikoṇāsana together combining, sit — this is called Pūrṇapāda Trikoṇāsana."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "English translation",
+      "label": "Literary translation (ours)",
       "paragraphs": [
        "Sit by combining Vāmapāda Trikoṇāsana and Dakṣiṇapāda Trikoṇāsana. This is called Pūrṇapāda Trikoṇāsana."
       ]
@@ -8330,8 +9934,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Буквальный перевод (наш подстрочник)",
+      "paragraphs": [
+       "Левую руку в локте согнув, этот локоть к земле прижав, ладонь этой руки к щеке прижав, вес тела дав, наклонившись, сесть, и на левую ногу правую ногу поместив, в [лодыжке?] согнуть, и на них правую руку поместить — это называется Вāма бхуджāсана."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "Перевод",
+      "label": "Литературный перевод (наш)",
       "paragraphs": [
        "Согните левую руку в локте, поставьте локоть на землю, приложите ладонь к щеке и сядьте, опираясь на неё весом тела. Положите правую ногу поверх левой, согните ноги в [голеностопе?] и положите на них правую руку. Это называется Вāма бхуджāсана."
       ]
@@ -8384,8 +9996,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Literal translation (our interlinear)",
+      "paragraphs": [
+       "The left arm at the elbow bending, that elbow against the ground pressing, the palm of that hand against the cheek pressing, the weight of the body giving, leaning, sit, and on the left leg the right leg placing, at [the ankle?] to bend, and upon them the right hand to place — this is called Vāma Bhujāsana."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "English translation",
+      "label": "Literary translation (ours)",
       "paragraphs": [
        "Bend the left arm at the elbow, place the elbow on the ground, press the palm to the cheek and sit leaning with the body’s weight on it. Place the right leg over the left, bend the legs at [the ankle?], and place the right hand on them. This is called Vāma Bhujāsana."
       ]
@@ -8457,8 +10077,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Буквальный перевод (наш подстрочник)",
+      "paragraphs": [
+       "Правую руку в локте согнув, ладонь руки к щеке прижав, вышеупомянутый [локоть?] к земле прижав, на него вес тела дав, сесть, и на правую ногу левую ногу поместив, в [лодыжке?] согнуть, и на них левую руку поместить — это называется Дакшин̣а бхуджāсана."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "Перевод",
+      "label": "Литературный перевод (наш)",
       "paragraphs": [
        "Согните правую руку в локте и приложите ладонь к щеке; поставьте упомянутый [локоть?] на землю и сядьте, опираясь на него весом тела. Положите левую ногу поверх правой, согните ноги в [голеностопе?] и положите на них левую руку. Это называется Дакшин̣а бхуджāсана."
       ]
@@ -8519,8 +10147,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Literal translation (our interlinear)",
+      "paragraphs": [
+       "The right arm at the elbow bending, the palm of the hand against the cheek pressing, the aforesaid [elbow?] against the ground pressing, upon it the weight of the body giving, sit, and on the right leg the left leg placing, at [the ankle?] to bend, and upon them the left hand to place — this is called Dakṣiṇa Bhujāsana."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "English translation",
+      "label": "Literary translation (ours)",
       "paragraphs": [
        "Bend the right arm at the elbow and place the palm against the cheek; place the aforementioned [elbow?] on the ground and sit with the body’s weight on it. Place the left leg over the right, bend the legs at [the ankle?], and place the left hand on them. This is called Dakṣiṇa Bhujāsana."
       ]
@@ -8600,8 +10236,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Буквальный перевод (наш подстрочник)",
+      "paragraphs": [
+       "Левую руку поднятой держа, ноги скрестив, сесть — это называется Вāмахаста бхайан̇карāсана."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "Перевод",
+      "label": "Литературный перевод (наш)",
       "paragraphs": [
        "Поднимите левую руку и сядьте, скрестив ноги. Это называется Вāмахаста бхайан̇карāсана."
       ]
@@ -8646,8 +10290,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Literal translation (our interlinear)",
+      "paragraphs": [
+       "The left arm raised holding, the legs crossing, sit — this is called Vāmahasta Bhayaṅkarāsana."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "English translation",
+      "label": "Literary translation (ours)",
       "paragraphs": [
        "“Raise your left arm up and sit cross-legged - this is called Vāmahasta Bhayaṅkarāsana.”"
       ]
@@ -8711,8 +10363,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Буквальный перевод (наш подстрочник)",
+      "paragraphs": [
+       "Правую руку поднятой держа, ноги скрестив, сесть — это называется Дакшин̣ахаста бхайан̇карāсана."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "Перевод",
+      "label": "Литературный перевод (наш)",
       "paragraphs": [
        "Поднимите правую руку и сядьте, скрестив ноги. Это называется Дакшин̣ахаста бхайан̇карāсана."
       ]
@@ -8757,8 +10417,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Literal translation (our interlinear)",
+      "paragraphs": [
+       "The right arm raised holding, the legs crossing, sit — this is called Dakṣiṇahasta Bhayaṅkarāsana."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "English translation",
+      "label": "Literary translation (ours)",
       "paragraphs": [
        "“Raise your right arm up and sit cross-legged - this is called Dakṣiṇahasta Bhayaṅkarāsana.”"
       ]
@@ -8822,8 +10490,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Буквальный перевод (наш подстрочник)",
+      "paragraphs": [
+       "Левую ногу в колене согнув, на правую ногу поместить — это называется Вāма ардха падмāсана."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "Перевод",
+      "label": "Литературный перевод (наш)",
       "paragraphs": [
        "Согните левую ногу в колене и положите её на правую ногу. Это называется Вāма ардха падмāсана."
       ]
@@ -8868,8 +10544,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Literal translation (our interlinear)",
+      "paragraphs": [
+       "The left leg at the knee bending, on the right leg to place — this is called Vāma Ardha Padmāsana."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "English translation",
+      "label": "Literary translation (ours)",
       "paragraphs": [
        "“Bending your left leg at the knee, place it on your right leg - this is called Vāma Ardha Padmāsana.”"
       ]
@@ -8933,8 +10617,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Буквальный перевод (наш подстрочник)",
+      "paragraphs": [
+       "Правую ногу в колене согнув, на левую ногу поместить — это называется Дакшин̣а ардха падмāсана."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "Перевод",
+      "label": "Литературный перевод (наш)",
       "paragraphs": [
        "Согните правую ногу в колене и положите её на левую ногу. Это называется Дакшин̣а ардха падмāсана."
       ]
@@ -8979,8 +10671,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Literal translation (our interlinear)",
+      "paragraphs": [
+       "The right leg at the knee bending, on the left leg to place — this is called Dakṣiṇa Ardha Padmāsana."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "English translation",
+      "label": "Literary translation (ours)",
       "paragraphs": [
        "“Bending your right leg at the knee, place it on your left leg - this is called Dakṣiṇa Ardha Padmāsana.”"
       ]
@@ -9052,8 +10752,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Буквальный перевод (наш подстрочник)",
+      "paragraphs": [
+       "Обе ноги в коленях согнув, их пятки к ягодицам прижав, на обе ступни вес тела дав, сесть — это называется Ан̇гушт̣хāсана. (На ступни ног вес поместив, на оба колена обе руки поместив, как будто мы сидим на стуле, приподнятыми оставаться — это называется уткат̣āсана.)"
+      ]
+     },
+     {
+      "type": "prose",
       "key": "trA",
-      "label": "Перевод (Ан̇гушт̣хāсана)",
+      "label": "Литературный перевод (наш) — Ан̇гушт̣хāсана",
       "paragraphs": [
        "Согните обе ноги в коленях, прижмите пятки к ягодицам и сядьте, перенесши вес тела на обе ступни. Это называется Ан̇гушт̣хāсана."
       ]
@@ -9069,7 +10777,7 @@
      {
       "type": "prose",
       "key": "trU",
-      "label": "Перевод (Уткат̣āсана)",
+      "label": "Литературный перевод (наш) — Уткат̣āсана",
       "paragraphs": [
        "Перенесите вес тела на ступни, положите обе руки на колени и оставайтесь в приподнятом положении, как будто сидите на стуле. Это называется Уткат̣āсана."
       ]
@@ -9122,8 +10830,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Literal translation (our interlinear)",
+      "paragraphs": [
+       "Both legs at the knees bending, their heels against the buttocks pressing, on both feet the weight of the body giving, sit — this is called Aṅguṣṭhāsana. (On the feet keeping the weight, on both knees both hands keeping, as though we were seated on a chair, raised to remain — this is called utkaṭāsana.)"
+      ]
+     },
+     {
+      "type": "prose",
       "key": "trA",
-      "label": "English translation (Aṅguṣṭhāsana)",
+      "label": "Literary translation (ours) — Aṅguṣṭhāsana",
       "paragraphs": [
        "“Bending both legs at the knees, press your heels to your buttocks and, transferring your body weight to your feet (squatting), sit down - this is called Aṅguṣṭhāsana.”"
       ]
@@ -9139,7 +10855,7 @@
      {
       "type": "prose",
       "key": "trU",
-      "label": "English translation (Utkaṭāsana)",
+      "label": "Literary translation (ours) — Utkaṭāsana",
       "paragraphs": [
        "“Putting your weight on your feet, place both hands on your knees and remain suspended, as if sitting on a chair, this is called Utkaṭāsana.”"
       ]
@@ -9203,8 +10919,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Буквальный перевод (наш подстрочник)",
+      "paragraphs": [
+       "Как выше, на ступню левой ноги вес дав, сесть, и пятку правой ноги к правой ягодице прижать — это называется Вāма ан̇гушт̣хāсана."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "Перевод",
+      "label": "Литературный перевод (наш)",
       "paragraphs": [
        "Как сказано выше, сядьте, перенесши вес на левую ступню, и прижмите правую пятку к правой ягодице. Это называется Вāма ан̇гушт̣хāсана."
       ]
@@ -9249,8 +10973,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Literal translation (our interlinear)",
+      "paragraphs": [
+       "As above, on the foot of the left leg the weight giving, sit, and the heel of the right leg against the right buttock to press — this is called Vāma Aṅguṣṭhāsana."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "English translation",
+      "label": "Literary translation (ours)",
       "paragraphs": [
        "“As in the previous āsana, sit down, transferring your weight to the foot of your left leg, and press the heel of your right foot to your right buttock - this is called Vāma Aṅguṣṭhāsana.”"
       ]
@@ -9314,8 +11046,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Буквальный перевод (наш подстрочник)",
+      "paragraphs": [
+       "Как выше, на ступню правой ноги вес дав, сесть, и пятку левой ноги к левой ягодице прижать — это называется Дакшин̣а ан̇гушт̣хāсана."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "Перевод",
+      "label": "Литературный перевод (наш)",
       "paragraphs": [
        "Как сказано выше, сядьте, перенесши вес на правую ступню, и прижмите левую пятку к левой ягодице. Это называется Дакшин̣а ан̇гушт̣хāсана."
       ]
@@ -9360,8 +11100,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Literal translation (our interlinear)",
+      "paragraphs": [
+       "As above, on the foot of the right leg the weight giving, sit, and the heel of the left leg against the left buttock to press — this is called Dakṣiṇa Aṅguṣṭhāsana."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "English translation",
+      "label": "Literary translation (ours)",
       "paragraphs": [
        "“As in the previous āsana, sit down with your weight on the right foot and press the heel of your left foot to your left buttock - this is called Dakṣiṇa Aṅguṣṭhāsana.”"
       ]
@@ -9425,8 +11173,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Буквальный перевод (наш подстрочник)",
+      "paragraphs": [
+       "Как палка, руки (обе руки к голове вытянуть) и ноги вытянув, лежать — это называется [джешт̣икāсана?]."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "Перевод",
+      "label": "Литературный перевод (наш)",
       "paragraphs": [
        "Лягте, вытянув руки и ноги подобно палке; в скобках сказано вытянуть обе руки по направлению к голове. Название в печатном тексте предположительно читается как Джешт̣икāсана."
       ]
@@ -9479,8 +11235,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Literal translation (our interlinear)",
+      "paragraphs": [
+       "Like a stick, the arms (both arms toward the head to extend) and the legs extending, to lie down — this is called [Jeṣṭikāsana?]."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "English translation",
+      "label": "Literary translation (ours)",
       "paragraphs": [
        "Lie like a stick with the arms and legs extended; the parenthesis says to extend both arms toward the head. The printed name is tentatively read Jeṣṭikāsana."
       ]
@@ -9552,8 +11316,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Буквальный перевод (наш подстрочник)",
+      "paragraphs": [
+       "Так, чтобы голень левой ноги сдавливалась, эту ногу на колено правой ноги поместив, пятку правой ноги к правой ягодице прижав, сесть — это называется Вāма ардха пāдāсана."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "Перевод",
+      "label": "Литературный перевод (наш)",
       "paragraphs": [
        "Положите левую ногу на правое колено так, чтобы икра левой ноги сдавливалась; прижмите правую пятку к правой ягодице и сядьте. Это называется Вāма ардха пāдāсана."
       ]
@@ -9598,8 +11370,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Literal translation (our interlinear)",
+      "paragraphs": [
+       "In such a way that the calf of the left leg is pressed, that leg on the knee of the right leg placing, the heel of the right leg against the right buttock pressing, sit — this is called Vāma Ardha Pādāsana."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "English translation",
+      "label": "Literary translation (ours)",
       "paragraphs": [
        "“Placing your left leg on the knee of your right leg so that the calf of the left leg is compressed, and pressing the heel of the right leg to the right buttock, sit down - this is called Vāma Ardha Pādāsana.”"
       ]
@@ -9663,8 +11443,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Буквальный перевод (наш подстрочник)",
+      "paragraphs": [
+       "Пятку левой ноги к левой ягодице прижав, на колено этой ноги правую ногу так, чтобы её голень сдавливалась, поместив, сесть — это называется Дакшин̣а ардха пāдāсана."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "Перевод",
+      "label": "Литературный перевод (наш)",
       "paragraphs": [
        "Прижмите левую пятку к левой ягодице, положите правую ногу на левое колено так, чтобы икра правой ноги сдавливалась, и сядьте. Это называется Дакшин̣а ардха пāдāсана."
       ]
@@ -9709,8 +11497,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Literal translation (our interlinear)",
+      "paragraphs": [
+       "The heel of the left leg against the left buttock pressing, on the knee of that leg the right leg in such a way that its calf is pressed placing, sit — this is called Dakṣiṇa Ardha Pādāsana."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "English translation",
+      "label": "Literary translation (ours)",
       "paragraphs": [
        "“Pressing the heel of the left foot to the left buttock, place the right foot on the knee of the left leg so that the calf of the right leg is compressed, and sit down - this is called Dakṣiṇa Ardha Pādāsana.”"
       ]
@@ -9774,8 +11570,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Буквальный перевод (наш подстрочник)",
+      "paragraphs": [
+       "Сидя, на левое плечо левую ногу закинув, затем левой рукой затылок взять — это называется Вāмахаста бхуджāсана."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "Перевод",
+      "label": "Литературный перевод (наш)",
       "paragraphs": [
        "Сядьте, заведите левую ногу на левое плечо, а затем обхватите левой рукой заднюю сторону шеи. Это называется Вāмахаста бхуджāсана."
       ]
@@ -9820,8 +11624,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Literal translation (our interlinear)",
+      "paragraphs": [
+       "Sitting, over the left shoulder the left leg placing, then with the left hand the nape to grasp — this is called Vāmahasta Bhujāsana."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "English translation",
+      "label": "Literary translation (ours)",
       "paragraphs": [
        "“Sit down, throw your left leg over your left shoulder, and then grab the nape of your neck with your left hand - this is called Vāmahasta Bhujāsana.”"
       ]
@@ -9885,8 +11697,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Буквальный перевод (наш подстрочник)",
+      "paragraphs": [
+       "Сидя, на правое плечо правую ногу закинув, правой рукой затылок взять — это называется Дакшин̣ахаста бхуджāсана."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "Перевод",
+      "label": "Литературный перевод (наш)",
       "paragraphs": [
        "Сядьте, заведите правую ногу на правое плечо, а затем обхватите правой рукой заднюю сторону шеи. Это называется Дакшин̣ахаста бхуджāсана."
       ]
@@ -9931,8 +11751,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Literal translation (our interlinear)",
+      "paragraphs": [
+       "Sitting, over the right shoulder the right leg placing, with the right hand the nape to grasp — this is called Dakṣiṇahasta Bhujāsana."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "English translation",
+      "label": "Literary translation (ours)",
       "paragraphs": [
        "“Sit down, cross your right leg over your right shoulder, and then grab the nape of your neck with your right hand - this is called Dakṣiṇahasta Bhujāsana.”"
       ]
@@ -9996,8 +11824,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Буквальный перевод (наш подстрочник)",
+      "paragraphs": [
+       "Вāмахаста бхуджāсану и Дакшин̣ахаста бхуджāсану вместе выполнять — это называется Хаста бхуджāсана."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "Перевод",
+      "label": "Литературный перевод (наш)",
       "paragraphs": [
        "Выполните Вāмахаста Бхуджāсана и Дакшин̣ахаста Бхуджāсана вместе; это называется Хаста бхуджāсана."
       ]
@@ -10042,8 +11878,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Literal translation (our interlinear)",
+      "paragraphs": [
+       "Vāmahasta Bhujāsana and Dakṣiṇahasta Bhujāsana together to perform — this is called Hasta Bhujāsana."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "English translation",
+      "label": "Literary translation (ours)",
       "paragraphs": [
        "Perform Vāmahasta Bhujāsana and Dakṣiṇahasta Bhujāsana together; this is called Hasta Bhujāsana."
       ]
@@ -10107,8 +11951,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Буквальный перевод (наш подстрочник)",
+      "paragraphs": [
+       "Правую ногу в колене наискось согнуть, и колено левой ноги на пядь от колена правой ноги держа, голень этой ноги на ступню правой ноги поместить — это называется Вāма вакрāсана."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "Перевод",
+      "label": "Литературный перевод (наш)",
       "paragraphs": [
        "\"Согните правую ногу наискосок. Удерживая колено левой ноги на расстоянии пяди от колена правой, поместите голень левой ноги на ступню правой - это называется Вāма Вакрāсана\"."
       ]
@@ -10153,8 +12005,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Literal translation (our interlinear)",
+      "paragraphs": [
+       "The right leg at the knee obliquely to bend, and the knee of the left leg a span away from the knee of the right leg keeping, the shin of that leg on the foot of the right leg to place — this is called Vāma Vakrāsana."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "English translation",
+      "label": "Literary translation (ours)",
       "paragraphs": [
        "“Bend your right leg obliquely. Keeping the knee of your left leg at a distance of a span from the knee of your right, place the shin of your left leg on the foot of your right - this is called Vāma Vakrāsana.”"
       ]
@@ -10218,8 +12078,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Буквальный перевод (наш подстрочник)",
+      "paragraphs": [
+       "Левую ногу в колене наискось согнуть, и колено правой ноги на пядь от колена левой ноги держа, голень этой ноги на ступню левой ноги поместить — это называется Дакшин̣а вакрāсана."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "Перевод",
+      "label": "Литературный перевод (наш)",
       "paragraphs": [
        "\"Согните левую ногу наискосок. Удерживая колено правой ноги на расстоянии пяди от колена левой, поместите голень правой ноги на стопу левой - это называется Дакшин̣а Вакрāсана\"."
       ]
@@ -10264,8 +12132,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Literal translation (our interlinear)",
+      "paragraphs": [
+       "The left leg at the knee obliquely to bend, and the knee of the right leg a span away from the knee of the left leg keeping, the shin of that leg on the foot of the left leg to place — this is called Dakṣiṇa Vakrāsana."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "English translation",
+      "label": "Literary translation (ours)",
       "paragraphs": [
        "“Bend your left leg obliquely. Keeping the knee of the right leg at a distance of a span from the knee of the left, place the shin of the right leg on the foot of the left - this is called Dakṣiṇa Vakrāsana.”"
       ]
@@ -10329,8 +12205,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Буквальный перевод (наш подстрочник)",
+      "paragraphs": [
+       "Пятку левой ноги к средней части ягодицы прижав, ногу поперёк расположить, и колено правой ноги на колено левой ноги поместив, вышеупомянутую пятку этой ноги к ягодице прижав, сесть — это называется Вāма [джāнхвāсана?]."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "Перевод",
+      "label": "Литературный перевод (наш)",
       "paragraphs": [
        "Прижмите пятку левой стопы к середине ягодицы и поставьте ногу поперек. Положите правое колено на левое колено и сядьте, прижав пятку этой ноги к ягодице. Это называется Вāма [Джāнхвāсана?]."
       ]
@@ -10391,8 +12275,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Literal translation (our interlinear)",
+      "paragraphs": [
+       "The heel of the left leg against the middle part of the buttock pressing, the leg across to place, and the knee of the right leg on the knee of the left leg placing, the aforesaid heel of that leg against the buttock pressing, sit — this is called Vāma [jānhvāsana?]."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "English translation",
+      "label": "Literary translation (ours)",
       "paragraphs": [
        "Press the heel of the left foot to the middle of the buttock and place the leg across. Place the right knee over the left knee and sit with the heel of that foot pressed against the buttock. This is called Vāma [Jānhvāsana?]."
       ]
@@ -10472,8 +12364,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Буквальный перевод (наш подстрочник)",
+      "paragraphs": [
+       "Пятку правой ноги к средней части ягодицы прижав, ногу поперёк расположить, и колено левой ноги на колено правой ноги поместив, вышеупомянутую пятку этой ноги к ягодице этой ноги прижать — это называется Дакшин̣а [джāнхвāсана?]."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "Перевод",
+      "label": "Литературный перевод (наш)",
       "paragraphs": [
        "Прижмите пятку правой ноги к середине ягодицы и поставьте ногу поперек. Положите левое колено на правое колено и прижмите пятку этой ноги к ее ягодице. Это называется Дакшин̣а [Джāнхвāсана?]."
       ]
@@ -10526,8 +12426,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Literal translation (our interlinear)",
+      "paragraphs": [
+       "The heel of the right leg against the middle part of the buttock pressing, the leg across to place, and the knee of the left leg on the knee of the right leg placing, the aforesaid heel of that leg to the buttock of that leg to press — this is called Dakṣiṇa [jānhvāsana?]."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "English translation",
+      "label": "Literary translation (ours)",
       "paragraphs": [
        "Press the heel of the right foot to the middle of the buttock and place the leg across. Place the left knee over the right knee and press the heel of that leg against its buttock. This is called Dakṣiṇa [Jānhvāsana?]."
       ]
@@ -10599,8 +12507,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Буквальный перевод (наш подстрочник)",
+      "paragraphs": [
+       "Пятку левой ноги у основания правого бедра, а ступню этой ноги на голень правой ноги поместив, сесть — это называется Вāма ш́āкхāсана."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "Перевод",
+      "label": "Литературный перевод (наш)",
       "paragraphs": [
        "Поместите левую пятку у основания правого бедра, а ступню той же ноги — на икру правой ноги; сядьте. Это называется Вāма ш́āкхāсана."
       ]
@@ -10645,8 +12561,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Literal translation (our interlinear)",
+      "paragraphs": [
+       "The heel of the left leg at the base of the right thigh, and the foot of that leg on the calf of the right leg placing, sit — this is called Vāma Śākhāsana."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "English translation",
+      "label": "Literary translation (ours)",
       "paragraphs": [
        "“Placing the heel of the left foot at the base of the right thigh, and placing the foot of the same foot on the calf of the right leg, sit down - this is called Vāma Śākhāsana.”"
       ]
@@ -10710,8 +12634,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Буквальный перевод (наш подстрочник)",
+      "paragraphs": [
+       "Пятку правой ноги у основания левого бедра поместив, ступню этой ноги на голень левой ноги поместив, сесть — это называется Дакшин̣а ш́āкхāсана."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "Перевод",
+      "label": "Литературный перевод (наш)",
       "paragraphs": [
        "Поместите правую пятку у основания левого бедра, а ступню той же ноги — на икру левой ноги; сядьте. Это называется Дакшин̣а ш́āкхāсана."
       ]
@@ -10756,8 +12688,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Literal translation (our interlinear)",
+      "paragraphs": [
+       "The heel of the right leg at the base of the left thigh placing, the foot of that leg on the calf of the left leg placing, sit — this is called Dakṣiṇa Śākhāsana."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "English translation",
+      "label": "Literary translation (ours)",
       "paragraphs": [
        "“Placing the heel of the right foot at the base of the left thigh, and placing the foot of the same foot on the calf of the left leg, sit down - this is called Dakṣiṇa Śākhāsana.”"
       ]
@@ -10821,8 +12761,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Буквальный перевод (наш подстрочник)",
+      "paragraphs": [
+       "Обе ноги в коленях согнув, ягодицы приподнятыми держа, пятки ног к этим ягодицам прижав, сесть — это называется Тристхамбхāсана."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "Перевод",
+      "label": "Литературный перевод (наш)",
       "paragraphs": [
        "Согните обе ноги в коленях, удерживайте ягодицы приподнятыми, прижмите к ним пятки и сядьте. Это называется Тристхамбхāсана."
       ]
@@ -10867,8 +12815,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Literal translation (our interlinear)",
+      "paragraphs": [
+       "Both legs at the knees bending, the buttocks suspended keeping, the heels of the legs against those buttocks pressing, sit — this is called Tristhambhāsana."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "English translation",
+      "label": "Literary translation (ours)",
       "paragraphs": [
        "“Bending both your knees and keeping your buttocks in the air, press your heels towards those buttocks and sit down - this is called Tristhambhāsana.” (Squatting pose with heels pressed to the buttocks)."
       ]
@@ -10932,8 +12888,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Буквальный перевод (наш подстрочник)",
+      "paragraphs": [
+       "Левую ногу в колене согнув, ступню этой ноги у основания правого бедра вставить, и пятку в живот, рядом с пупком, вставив, сесть — это называется Вāмапāда апāнагаманāсана."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "Перевод",
+      "label": "Литературный перевод (наш)",
       "paragraphs": [
        "Согните левую ногу в колене, поместите ступню у основания правого бедра, а пятку прижмите к животу сбоку от пупка и сядьте. Это называется Вāмапāда апāнагаманāсана."
       ]
@@ -10978,8 +12942,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Literal translation (our interlinear)",
+      "paragraphs": [
+       "The left leg at the knee bending, the foot of that leg at the base of the right thigh to insert, and the heel into the belly, beside the navel, inserting, sit — this is called Vāmapāda Apānagamanāsana."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "English translation",
+      "label": "Literary translation (ours)",
       "paragraphs": [
        "“Bending the left leg at the knee, place its foot at the base of the right thigh, and rest the heel on the stomach on the side of the navel and sit down - this is called Vāmapāda Apānagamanāsana.”"
       ]
@@ -11043,8 +13015,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Буквальный перевод (наш подстрочник)",
+      "paragraphs": [
+       "Правую ногу в колене согнув, ступню этой ноги у основания левого бедра вставив, пятку в живот, рядом с пупком, вставив, сесть — это называется Дакшин̣апāда апāнагаманāсана."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "Перевод",
+      "label": "Литературный перевод (наш)",
       "paragraphs": [
        "Согните правую ногу в колене, поместите ступню у основания левого бедра, а пятку прижмите к животу сбоку от пупка и сядьте. Это называется Дакшин̣апāда апāнагаманāсана."
       ]
@@ -11089,8 +13069,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Literal translation (our interlinear)",
+      "paragraphs": [
+       "The right leg at the knee bending, the foot of that leg at the base of the left thigh inserting, the heel into the belly, beside the navel, inserting, sit — this is called Dakṣiṇapāda Apānagamanāsana."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "English translation",
+      "label": "Literary translation (ours)",
       "paragraphs": [
        "“Bending your right leg at the knee, place your foot at the base of your left thigh, and rest your heel on your stomach on the side of the navel and sit down - this is called Dakṣiṇapāda Apānagamanāsana.”"
       ]
@@ -11153,9 +13141,25 @@
       ]
      },
      {
+      "type": "words",
+      "key": "words",
+      "label": "Пословный разбор (наш) — слово, которого нет в разборе тома",
+      "paragraphs": [
+       "eṭale — то есть, стало быть (том этого слова не разбирает)."
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "literal",
+      "label": "Буквальный перевод (наш подстрочник)",
+      "paragraphs": [
+       "С левой стороны в нижней части поясницы пятку правой ноги поместить, и с правой стороны в нижней части поясницы пятку левой ноги поместить, то есть, придав ногам вид, как у коровьей морды, сесть — это называется Гомукхāсана."
+      ]
+     },
+     {
       "type": "prose",
       "key": "tr",
-      "label": "Перевод",
+      "label": "Литературный перевод (наш)",
       "paragraphs": [
        "Поместите правую пятку на левую сторону нижней части талии, а левую пятку — на правую сторону нижней части талии. Сядьте, поставив ноги в форме морды коровы. Это называется Гомукхāсана."
       ]
@@ -11207,9 +13211,25 @@
       ]
      },
      {
+      "type": "words",
+      "key": "words",
+      "label": "Word-by-word analysis (ours) — a word the volume does not gloss",
+      "paragraphs": [
+       "eṭale — that is, so (the volume does not gloss this word)."
+      ]
+     },
+     {
+      "type": "prose",
+      "key": "literal",
+      "label": "Literal translation (our interlinear)",
+      "paragraphs": [
+       "On the left side, in the lower part of the waist, the heel of the right leg to place, and on the right side, in the lower part of the waist, the heel of the left leg to place, that is, giving the legs a shape like a cow’s face, sit — this is called Gomukhāsana."
+      ]
+     },
+     {
       "type": "prose",
       "key": "tr",
-      "label": "English translation",
+      "label": "Literary translation (ours)",
       "paragraphs": [
        "Place the right heel on the left side of the lower waist and the left heel on the right side of the lower waist. Sit with the legs shaped like the face of a cow. This is called Gomukhāsana."
       ]
@@ -11281,8 +13301,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Буквальный перевод (наш подстрочник)",
+      "paragraphs": [
+       "Пятками обеих ног задний проход запирая, внимательно и устойчиво сесть — это называется Кӯрмāсана."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "Перевод",
+      "label": "Литературный перевод (наш)",
       "paragraphs": [
        "Прижмите или перекройте заднепроходное отверстие пятками обеих ног и сядьте внимательно и устойчиво. Это называется Кӯрмāсана."
       ]
@@ -11327,8 +13355,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Literal translation (our interlinear)",
+      "paragraphs": [
+       "With the heels of both feet the anus blocking, attentively and steadily to sit — this is called Kūrmāsana."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "English translation",
+      "label": "Literary translation (ours)",
       "paragraphs": [
        "Press or block the anus with the heels of both feet and sit attentively and steadily. This is called Kūrmāsana."
       ]
@@ -11392,8 +13428,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Буквальный перевод (наш подстрочник)",
+      "paragraphs": [
+       "У основания левого бедра правую ногу, а у основания правого бедра левую ногу поместив, обеими руками шею книзу наклонить — это называется Уттāна кӯрмāсана."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "Перевод",
+      "label": "Литературный перевод (наш)",
       "paragraphs": [
        "Поместите правую стопу у основания левого бедра, а левую стопу у основания правого бедра; обеими руками наклоните шею вниз. Это называется Уттāна Кӯрмāсана."
       ]
@@ -11446,8 +13490,16 @@
      },
      {
       "type": "prose",
+      "key": "literal",
+      "label": "Literal translation (our interlinear)",
+      "paragraphs": [
+       "At the base of the left thigh the right foot, and at the base of the right thigh the left foot placing, with both hands the neck to bend down — this is called Uttāna Kūrmāsana."
+      ]
+     },
+     {
+      "type": "prose",
       "key": "tr",
-      "label": "English translation",
+      "label": "Literary translation (ours)",
       "paragraphs": [
        "Place the right foot at the base of the left thigh and the left foot at the base of the right thigh; with both hands bend the neck downward. This is called Uttāna Kūrmāsana."
       ]

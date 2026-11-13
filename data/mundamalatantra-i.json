@@ -1,0 +1,71 @@
+{
+  "id": "mundamalatantra-i",
+  "about": {
+    "ru": [
+      {
+        "type": "title",
+        "text": "Мун̣д̣амāлāтантра (I)"
+      },
+      {
+        "type": "p",
+        "text": "4.48–50 перечисляет «двенадцать сидений»; среди названий — бхадрапӣт̣ха,падма,сиддха, сиддхасиддха,девйāсана,куккут̣а,вӣра,варада,сим̣ха,ш́маш́āна и другие. Сам каталог отмечает, что здесь смешаны положения тела и ритуальные сиденья (часть IV, § 3.6)."
+      },
+      {
+        "type": "p",
+        "text": "В русском PDF некоторые элементы списка оставлены латиницей, а пробелы после запятых непоследовательны; кириллические формы здесь переданы по заданной карте транслитерации."
+      }
+    ],
+    "en": [
+      {
+        "type": "title",
+        "text": "Muṇḍamālātantra (I)"
+      },
+      {
+        "type": "p",
+        "text": "Verses 4.48–50 list “twelve seats”; among the names are bhadrapīṭha,padma,siddha, siddhasiddha,devyāsana,kukkuṭa,vīra,varada,siṃha,śmaśāna and others. The catalogue explicitly notes that bodily postures and ritual seats are mixed (Part IV, section 3.6)."
+      },
+      {
+        "type": "p",
+        "text": "The Russian PDF leaves several items in Latin script and uses inconsistent spaces after commas; the Russian forms here follow the project’s transliteration map."
+      }
+    ]
+  },
+  "dating": {
+    "ru": {
+      "title": "Датировка текста",
+      "blocks": [
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Датировка (кто)",
+              "Старейшая датированная рукопись (по источникам выше)"
+            ],
+            [
+              "«Поздняя» (Goudriaan; Muktabodha); точная дата не указана.",
+              "Для Мун̣д̣амāлы датированная рукопись не указана; запись NGMCP 5-4798 относится к Хāхāрāве и не датирована."
+            ]
+          ]
+        }
+      ]
+    },
+    "en": {
+      "title": "Dating of the text",
+      "blocks": [
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Dating (by whom)",
+              "Oldest dated manuscript (by the sources above)"
+            ],
+            [
+              "“Late” (Goudriaan; Muktabodha); no precise date is given.",
+              "No dated manuscript is specified for Muṇḍamālā; NGMCP 5-4798 belongs to Hāhārāva and is undated."
+            ]
+          ]
+        }
+      ]
+    }
+  }
+}

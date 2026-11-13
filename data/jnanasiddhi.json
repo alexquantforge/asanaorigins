@@ -1,0 +1,63 @@
+{
+  "id": "jnanasiddhi",
+  "about": {
+    "ru": [
+      {
+        "type": "title",
+        "text": "Джн̃āнасиддхи(йāгама) (E0006)"
+      },
+      {
+        "type": "p",
+        "text": "Позы: в главе о восьмичленной йоге, строфы 13–14, — список названий: падма, гомукха, сим̣ха, свасти[ка], вӣра, сукхāсана, майӯра, дан̣д̣āсана и другие. Смотрите часть IV, раздел 2.5."
+      }
+    ],
+    "en": [
+      {
+        "type": "title",
+        "text": "Jñānasiddhi(yāgama) (E0006)"
+      },
+      {
+        "type": "p",
+        "text": "Postures: in the chapter on the eight-limbed yoga, verses 13–14, — a list of names: padma, gomukha, siṃha, svasti[ka], vīra, sukhāsana, mayūra, daṇḍāsana and others. See Part IV, section 2.5."
+      }
+    ]
+  },
+  "dating": {
+    "ru": {
+      "title": "Датировка текста",
+      "blocks": [
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Датировка (кто)",
+              "Старейшая датированная рукопись (по источникам выше)"
+            ],
+            [
+              "вряд ли раньше XII в. (Sanderson)",
+              "нет: ИИ не искал за пределами своих источников"
+            ]
+          ]
+        }
+      ]
+    },
+    "en": {
+      "title": "Dating of the text",
+      "blocks": [
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Dating (by whom)",
+              "Oldest dated manuscript (by the sources above)"
+            ],
+            [
+              "unlikely before the 12th c. (Sanderson)",
+              "none: the AI did not search beyond its sources"
+            ]
+          ]
+        }
+      ]
+    }
+  }
+}

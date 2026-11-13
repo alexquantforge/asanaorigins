@@ -1,0 +1,63 @@
+{
+  "id": "vinashikhatantra",
+  "about": {
+    "ru": [
+      {
+        "type": "title",
+        "text": "Вӣн̣āш́икхатантра"
+      },
+      {
+        "type": "p",
+        "text": "Позы: падмāсанопавишт̣а в описании божества, строфа 96 (часть IV, раздел 1.12)."
+      }
+    ],
+    "en": [
+      {
+        "type": "title",
+        "text": "Vīṇāśikhatantra"
+      },
+      {
+        "type": "p",
+        "text": "Postures: padmāsanopaviṣṭa in the description of the deity, verse 96 (Part IV, section 1.12)."
+      }
+    ]
+  },
+  "dating": {
+    "ru": {
+      "title": "Датировка текста",
+      "blocks": [
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Датировка (кто)",
+              "Старейшая датированная рукопись (по источникам выше)"
+            ],
+            [
+              "6–10 вв. (Mallinson & Singleton 2017); культ — VI в. (Sanderson)",
+              "Национальный архив Непала, Катманду, рукопись 1-1076; «about A.D. 1200?» (Goudriaan)"
+            ]
+          ]
+        }
+      ]
+    },
+    "en": {
+      "title": "Dating of the text",
+      "blocks": [
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Dating (by whom)",
+              "Oldest dated manuscript (by the sources above)"
+            ],
+            [
+              "6th–10th c. (Mallinson & Singleton 2017); the cult — 6th c. (Sanderson)",
+              "National Archives of Nepal, Kathmandu, manuscript 1-1076, “about A.D. 1200?” (Goudriaan)"
+            ]
+          ]
+        }
+      ]
+    }
+  }
+}
